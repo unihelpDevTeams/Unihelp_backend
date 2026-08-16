@@ -261,6 +261,35 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
   }
 });
 
+router.delete("/:id", authenticateFirebaseUser, async (req, res) => {
+  try {
+    const { id } = req.params;
+    if (!id) {
+      return res.status(400).json({ success: false, message: "Notification id is required." });
+    }
+
+    const itemRef = db.collection("notifications").doc(req.user.uid).collection("items").doc(id);
+    const itemSnapshot = await itemRef.get();
+
+    if (itemSnapshot.exists) {
+      await itemRef.delete();
+      return res.status(200).json({ success: true });
+    }
+
+    const legacyRef = db.collection("notifications").doc(id);
+    const legacySnapshot = await legacyRef.get();
+    if (legacySnapshot.exists && (legacySnapshot.data()?.userId === req.user.uid || legacySnapshot.data()?.recipientId === req.user.uid)) {
+      await legacyRef.delete();
+      return res.status(200).json({ success: true });
+    }
+
+    return res.status(404).json({ success: false, message: "Notification not found" });
+  } catch (error) {
+    console.error("Failed to delete notification:", error);
+    return res.status(500).json({ success: false, message: "Failed to delete notification" });
+  }
+});
+
 router.post("/:id/read", authenticateFirebaseUser, async (req, res) => {
   try {
     const { id } = req.params;
