@@ -3,9 +3,22 @@ import express from "express";
 import { getPool, query } from "../db/pool.js";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
 import { cleanString, parsePositiveInt, pickExtra, toIso } from "../utils/apiHelpers.js";
+import { deleteCloudinaryAssets } from "../utils/cloudinaryCleanup.js";
 
 const storiesRoutes = express.Router();
 const RESERVED = ["id", "authorId", "authorName", "authorAvatar", "title", "summary", "description", "genre", "category", "content", "coverImage", "coverAsset", "status", "views", "likes", "likedBy", "bookmarks", "chaptersCount", "commentCount", "createdAt", "updatedAt", "expiresAt"];
+
+const assertCloudinaryCleanupComplete = (cloudinaryResults = []) => {
+  const incomplete = cloudinaryResults.filter((item) => item.skipped || item.success === false);
+  if (!incomplete.length) return;
+
+  const reasons = incomplete
+    .map((item) => item.reason || item.error || item.publicId || "unknown")
+    .filter(Boolean)
+    .join(", ");
+
+  throw new Error(`Cloudinary cleanup incomplete: ${reasons}`);
+};
 
 const mapStory = (row) => ({
   id: row.id,
@@ -166,16 +179,32 @@ storiesRoutes.put("/:id", authenticateFirebaseUser, async (req, res) => {
 
 storiesRoutes.delete("/:id", authenticateFirebaseUser, async (req, res) => {
   try {
-    const existing = await query("SELECT author_id FROM stories WHERE id = $1", [req.params.id]);
+    const existing = await query("SELECT author_id, cover_image, cover_public_id, cover_resource_type FROM stories WHERE id = $1", [req.params.id]);
     if (!existing.rowCount) return res.status(404).json({ error: "Story not found" });
     if (existing.rows[0].author_id !== req.user.uid && req.user.admin !== true) {
       return res.status(403).json({ error: "You can only delete your own stories" });
     }
+
+    const story = existing.rows[0];
+    const assets = [];
+    if (story.cover_image || story.cover_public_id) {
+      assets.push({
+        url: story.cover_image || "",
+        publicId: story.cover_public_id || "",
+        resourceType: story.cover_resource_type || "image",
+      });
+    }
+
+    if (assets.length) {
+      const cloudinaryResults = await deleteCloudinaryAssets(assets);
+      assertCloudinaryCleanupComplete(cloudinaryResults);
+    }
+
     await query("DELETE FROM stories WHERE id = $1", [req.params.id]);
     res.json({ success: true });
   } catch (error) {
     console.error("Error deleting story:", error);
-    res.status(500).json({ error: "Failed to delete story" });
+    res.status(500).json({ error: error.message || "Failed to delete story" });
   }
 });
 

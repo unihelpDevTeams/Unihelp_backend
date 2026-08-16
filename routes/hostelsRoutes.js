@@ -12,9 +12,22 @@ import {
   replaceMedia,
   toIso,
 } from "../utils/apiHelpers.js";
+import { deleteCloudinaryAssets } from "../utils/cloudinaryCleanup.js";
 
 const hostelsRoutes = express.Router();
 const RESERVED = ["id", "title", "location", "price", "phone", "description", "images", "imageAssets", "userId", "ownerId", "createdAt", "updatedAt", "status", "verified", "premiumUser"];
+
+const assertCloudinaryCleanupComplete = (cloudinaryResults = []) => {
+  const incomplete = cloudinaryResults.filter((item) => item.skipped || item.success === false);
+  if (!incomplete.length) return;
+
+  const reasons = incomplete
+    .map((item) => item.reason || item.error || item.publicId || "unknown")
+    .filter(Boolean)
+    .join(", ");
+
+  throw new Error(`Cloudinary cleanup incomplete: ${reasons}`);
+};
 
 const mapHostel = (row, assets = []) => ({
   id: row.id,
@@ -186,12 +199,32 @@ hostelsRoutes.delete("/:id", authenticateFirebaseUser, async (req, res) => {
     if (existing.rows[0].owner_id !== req.user.uid && req.user.admin !== true) {
       return res.status(403).json({ error: "You can only delete your own hostel listings" });
     }
+
+    const mediaRows = await query(
+      "SELECT secure_url, public_id, resource_type FROM feature_media WHERE entity_type = 'hostel' AND entity_id = $1",
+      [req.params.id]
+    );
+
+    const assets = mediaRows.rows
+      .filter((row) => row.secure_url || row.public_id)
+      .map((row) => ({
+        url: row.secure_url || "",
+        publicId: row.public_id || "",
+        resourceType: row.resource_type || "image",
+      }))
+      .filter((asset) => asset.url || asset.publicId);
+
+    if (assets.length) {
+      const cloudinaryResults = await deleteCloudinaryAssets(assets);
+      assertCloudinaryCleanupComplete(cloudinaryResults);
+    }
+
     await query("DELETE FROM feature_media WHERE entity_type = 'hostel' AND entity_id = $1", [req.params.id]);
     await query("DELETE FROM hostels WHERE id = $1", [req.params.id]);
     res.json({ success: true });
   } catch (error) {
     console.error("Error deleting hostel:", error);
-    res.status(500).json({ error: "Failed to delete hostel" });
+    res.status(500).json({ error: error.message || "Failed to delete hostel" });
   }
 });
 
