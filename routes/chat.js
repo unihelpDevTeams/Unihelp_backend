@@ -1,6 +1,6 @@
 import express from "express";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
-import { db } from "../firebase/admin.js";
+import { db } from "../firebase/firebaseAdmin.js";
 import { FieldValue } from "firebase-admin/firestore";
 import { sendAppNotification } from "../utils/notifications.js";
 
