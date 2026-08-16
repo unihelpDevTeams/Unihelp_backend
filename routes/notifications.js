@@ -220,6 +220,42 @@ export const sendStudyReminderNotifications = async () => {
   }
 };
 
+router.get("/", authenticateFirebaseUser, async (req, res) => {
+  try {
+    const { pageSize = 20 } = req.query;
+    const query = db.collection("notifications")
+      .where("userId", "==", req.user.uid)
+      .orderBy("createdAt", "desc")
+      .limit(parseInt(pageSize, 10));
+
+    const snapshot = await query.get();
+    const items = snapshot.docs.map(doc => {
+      const data = doc.data();
+      return { 
+        id: doc.id, 
+        ...data,
+        createdAt: data.createdAt ? (data.createdAt.toDate ? data.createdAt.toDate().toISOString() : data.createdAt) : null
+      };
+    });
+
+    return res.status(200).json({ items, cursor: null, hasMore: false });
+  } catch (error) {
+    console.error("Failed to fetch notifications:", error);
+    return res.status(500).json({ success: false, message: "Failed to fetch notifications" });
+  }
+});
+
+router.post("/:id/read", authenticateFirebaseUser, async (req, res) => {
+  try {
+    const { id } = req.params;
+    await db.collection("notifications").doc(id).update({ read: true });
+    return res.status(200).json({ success: true });
+  } catch (error) {
+    console.error("Failed to mark notification read:", error);
+    return res.status(500).json({ success: false, message: "Failed to mark read" });
+  }
+});
+
 router.post("/push-token", authenticateFirebaseUser, async (req, res) => {
   try {
     const { expoPushToken, deviceType = "unknown" } = req.body || {};
