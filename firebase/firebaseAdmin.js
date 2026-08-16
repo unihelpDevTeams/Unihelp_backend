@@ -5,9 +5,10 @@ dotenv.config();
 
 const parseJsonEnv = (value) => {
   if (!value) return null;
+  const trimmed = value.trim().replace(/^['"]|['"]$/g, "");
 
   try {
-    return JSON.parse(value);
+    return JSON.parse(trimmed);
   } catch (error) {
     console.warn("Invalid FIREBASE_SERVICE_ACCOUNT JSON; falling back to other credential sources.", error.message);
     return null;
@@ -38,7 +39,7 @@ const rawPrivateKey =
 
 const firebasePrivateKey =
   looksLikePemKey(rawPrivateKey)
-    ? rawPrivateKey.replace(/\\n/g, "\n").replace(/\r\n/g, "\n")
+    ? rawPrivateKey.trim().replace(/^['"]|['"]$/g, "").replace(/\\n/g, "\n").replace(/\r\n/g, "\n")
     : null;
 
 let firebaseCredential = null;
@@ -46,7 +47,7 @@ let firebaseCredential = null;
 if (firebaseServiceAccount && looksLikePemKey(firebaseServiceAccount.private_key)) {
   firebaseCredential = admin.credential.cert({
     ...firebaseServiceAccount,
-    private_key: firebaseServiceAccount.private_key.replace(/\\n/g, "\n").replace(/\r\n/g, "\n"),
+    private_key: firebaseServiceAccount.private_key.trim().replace(/^['"]|['"]$/g, "").replace(/\\n/g, "\n").replace(/\r\n/g, "\n"),
   });
 } else if (firebaseProjectId && firebaseClientEmail && firebasePrivateKey) {
   firebaseCredential = admin.credential.cert({

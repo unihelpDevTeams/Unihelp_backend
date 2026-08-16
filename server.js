@@ -17,6 +17,8 @@ import challengeQuestionRoutes from "./routes/challengeQuestionRoutes.js";
 import hostelsRoutes from "./routes/hostelsRoutes.js";
 import marketplaceRoutes from "./routes/marketplaceRoutes.js";
 import storiesRoutes from "./routes/storiesRoutes.js";
+import uploadsRoutes from "./routes/uploads.js";
+import { initializeDatabase } from "./db/init.js";
 import { createServer } from "http";
 import { Server } from "socket.io";
 
@@ -108,6 +110,7 @@ app.use("/api/voice", voiceRoutes);
 app.use("/api/news", newsRoutes);
 app.use("/api/formulas", formulasRoutes);
 app.use("/api/challenge-questions", challengeQuestionRoutes);
+app.use("/api/uploads", uploadsRoutes);
 app.use("/api/hostels", hostelsRoutes);
 app.use("/api/marketplace", marketplaceRoutes);
 app.use("/api/stories", storiesRoutes);
@@ -172,6 +175,19 @@ const startReminderScheduler = () => {
     }, 15 * 60 * 1000);
   };
   
+  // Initialize database if DATABASE_URL is configured
+  if (process.env.DATABASE_URL) {
+    try {
+      await initializeDatabase();
+      console.log("✅ Database initialized successfully");
+    } catch (dbError) {
+      console.warn("⚠️ Database initialization failed:", dbError.message);
+      console.warn("PostgreSQL-backed routes (hostels, marketplace, stories) will not work");
+    }
+  } else {
+    console.warn("⚠️ DATABASE_URL not configured. PostgreSQL-backed routes will not work without it.");
+  }
+
   httpServer.listen(PORT, () => {
     console.log(
       `🚀 Server running on port ${PORT}`
