@@ -18,6 +18,7 @@ import hostelsRoutes from "./routes/hostelsRoutes.js";
 import marketplaceRoutes from "./routes/marketplaceRoutes.js";
 import storiesRoutes from "./routes/storiesRoutes.js";
 import uploadsRoutes from "./routes/uploads.js";
+import chatRoutes from "./routes/chat.js";
 import { initializeDatabase } from "./db/init.js";
 import { createServer } from "http";
 import { Server } from "socket.io";
@@ -54,6 +55,8 @@ const corsOptions = {
 const io = new Server(httpServer, {
   cors: corsOptions,
 });
+
+app.set("io", io);
 
 // =========================================================
 // WEBSOCKET (SOCKET.IO) LOGIC
@@ -114,6 +117,7 @@ app.use("/api/uploads", uploadsRoutes);
 app.use("/api/hostels", hostelsRoutes);
 app.use("/api/marketplace", marketplaceRoutes);
 app.use("/api/stories", storiesRoutes);
+app.use("/api/chat", chatRoutes);
 console.log("Formulas route loaded successfully");
 app.get("/", (req, res) => {
   res.status(200).json({
