@@ -3,6 +3,7 @@ import { authenticateFirebaseUser } from "../middleware/auth.js";
 import { db } from "../firebase/firebaseAdmin.js";
 import { FieldValue } from "firebase-admin/firestore";
 import { sendAppNotification } from "../utils/notifications.js";
+import { query } from "../db/pool.js";
 
 const router = express.Router();
 
@@ -60,15 +61,19 @@ router.post("/:conversationId/messages", authenticateFirebaseUser, async (req, r
       if (receiverId) {
         // Save notification
         const notifBody = messageType === 'voice' ? '🎤 Sent a voice message' : (payload.text || 'Sent an attachment');
-        await db.collection("notifications").doc(receiverId).collection("items").add({
-          type: 'direct_message',
-          title: payload.senderName || "New Message",
-          body: notifBody,
-          conversationId,
-          route: `/messages?conversationId=${conversationId}`,
-          read: false,
-          createdAt: now,
-        });
+        const sql = `
+          INSERT INTO notifications (user_id, title, message, category, type, url, read, created_at)
+          VALUES ($1, $2, $3, $4, $5, $6, $7, NOW())
+        `;
+        await query(sql, [
+          receiverId,
+          payload.senderName || "New Message",
+          notifBody,
+          "Message",
+          "direct_message",
+          `/messages?conversationId=${conversationId}`,
+          false
+        ]);
         
         // Push notification
         try {

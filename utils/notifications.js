@@ -1,5 +1,6 @@
 import { admin, db, messaging } from "../firebase/firebaseAdmin.js";
 import { sendNotification } from "./expoPush.js";
+import { query } from "../db/pool.js";
 
 const chunkArray = (items = [], size = 500) => {
   const chunks = [];
@@ -132,24 +133,22 @@ export const sendAppNotification = async ({
     }
   }
 
-  const batch = db.batch();
+  const insertSql = `
+    INSERT INTO notifications (user_id, title, message, category, type, url, announcement_id, read, created_at)
+    VALUES ($1, $2, $3, $4, $5, $6, $7, false, NOW())
+  `;
 
-  resolvedRecipients.forEach((recipient) => {
-    const notificationRef = db.collection("notifications").doc(recipient.userId).collection("items").doc();
-    batch.set(notificationRef, {
-      userId: recipient.userId,
+  for (const recipient of resolvedRecipients) {
+    await query(insertSql, [
+      recipient.userId,
       title,
-      message: body,
+      body,
       category,
       type,
       url,
-      announcementId,
-      read: false,
-      createdAt: admin.firestore.FieldValue.serverTimestamp(),
-    });
-  });
-
-  await batch.commit();
+      announcementId
+    ]);
+  }
 
   return {
     success: true,

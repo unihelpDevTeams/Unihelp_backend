@@ -97,3 +97,18 @@ CREATE TABLE IF NOT EXISTS story_comments (
 );
 
 CREATE INDEX IF NOT EXISTS idx_story_comments_story_created ON story_comments(story_id, created_at DESC);
+
+CREATE TABLE IF NOT EXISTS notifications (
+  id BIGSERIAL PRIMARY KEY,
+  user_id TEXT NOT NULL,
+  title TEXT NOT NULL,
+  message TEXT NOT NULL,
+  category TEXT NOT NULL DEFAULT 'General',
+  type TEXT NOT NULL DEFAULT 'general',
+  url TEXT NOT NULL DEFAULT '/',
+  announcement_id TEXT,
+  read BOOLEAN NOT NULL DEFAULT FALSE,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE INDEX IF NOT EXISTS idx_notifications_user_created ON notifications(user_id, created_at DESC);

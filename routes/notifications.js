@@ -4,6 +4,7 @@ import { Expo } from "expo-server-sdk";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
 import { admin, db, messaging } from "../firebase/firebaseAdmin.js";
 import { sendNotification } from "../utils/expoPush.js";
+import { query } from "../db/pool.js";
 
 const router = express.Router();
 
@@ -162,19 +163,22 @@ export const sendStudyReminderNotifications = async () => {
           continue;
         }
 
-        notificationBatch.set(reminderDocRef, {
-          userId: recipient.userId,
-          title: reminderPayload.notification.title,
-          message: reminderPayload.notification.body,
-          body: reminderPayload.notification.body,
-          category: "Reminder",
-          type: "study-reminder",
-          url: "/notifications",
-          route: "/notifications",
-          reminderWindowKey,
-          read: false,
-          createdAt: admin.firestore.FieldValue.serverTimestamp(),
-        });
+        // Just write a stub document to Firestore so we don't process it again
+        notificationBatch.set(reminderDocRef, { processed: true, createdAt: admin.firestore.FieldValue.serverTimestamp() });
+
+        const sql = `
+          INSERT INTO notifications (user_id, title, message, category, type, url, read, created_at)
+          VALUES ($1, $2, $3, $4, $5, $6, $7, NOW())
+        `;
+        await query(sql, [
+          recipient.userId,
+          reminderPayload.notification.title,
+          reminderPayload.notification.body,
+          "Reminder",
+          "study-reminder",
+          "/notifications",
+          false
+        ]);
 
         tokenBatch.push(recipient);
       }
@@ -225,34 +229,29 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
     const { pageSize = 20 } = req.query;
     const limitSize = Math.min(Math.max(parseInt(pageSize, 10) || 20, 1), 100);
 
-    const itemRef = db.collection("notifications").doc(req.user.uid).collection("items");
-    const snapshot = await itemRef.orderBy("createdAt", "desc").limit(limitSize).get();
+    const sql = `
+      SELECT id, user_id, title, message, category, type, url, announcement_id, read, created_at
+      FROM notifications
+      WHERE user_id = $1
+      ORDER BY created_at DESC
+      LIMIT $2
+    `;
+    const { rows } = await query(sql, [req.user.uid, limitSize]);
 
-    const items = snapshot.docs.map((doc) => {
-      const data = doc.data();
-      return {
-        id: doc.id,
-        ...data,
-        createdAt: data.createdAt ? (data.createdAt.toDate ? data.createdAt.toDate().toISOString() : data.createdAt) : null,
-      };
-    });
-
-    if (items.length === 0) {
-      const legacyQuery = db.collection("notifications")
-        .where("userId", "==", req.user.uid)
-        .orderBy("createdAt", "desc")
-        .limit(limitSize);
-      const legacySnapshot = await legacyQuery.get();
-      const legacyItems = legacySnapshot.docs.map((doc) => {
-        const data = doc.data();
-        return {
-          id: doc.id,
-          ...data,
-          createdAt: data.createdAt ? (data.createdAt.toDate ? data.createdAt.toDate().toISOString() : data.createdAt) : null,
-        };
-      });
-      return res.status(200).json({ items: legacyItems, cursor: null, hasMore: false });
-    }
+    const items = rows.map((row) => ({
+      id: row.id.toString(),
+      userId: row.user_id,
+      title: row.title,
+      message: row.message,
+      body: row.message, // backwards compatibility
+      category: row.category,
+      type: row.type,
+      url: row.url,
+      route: row.url, // backwards compatibility
+      announcementId: row.announcement_id,
+      read: row.read,
+      createdAt: row.created_at.toISOString(),
+    }));
 
     return res.status(200).json({ items, cursor: null, hasMore: false });
   } catch (error) {
@@ -268,14 +267,16 @@ router.delete("/:id", authenticateFirebaseUser, async (req, res) => {
       return res.status(400).json({ success: false, message: "Notification id is required." });
     }
 
-    const itemRef = db.collection("notifications").doc(req.user.uid).collection("items").doc(id);
-    const itemSnapshot = await itemRef.get();
+    const { rowCount } = await query(
+      "DELETE FROM notifications WHERE id = $1 AND user_id = $2",
+      [id, req.user.uid]
+    );
 
-    if (itemSnapshot.exists) {
-      await itemRef.delete();
+    if (rowCount > 0) {
       return res.status(200).json({ success: true });
     }
 
+    // Attempt to delete legacy Firebase notification if not found in PG
     const legacyRef = db.collection("notifications").doc(id);
     const legacySnapshot = await legacyRef.get();
     if (legacySnapshot.exists && (legacySnapshot.data()?.userId === req.user.uid || legacySnapshot.data()?.recipientId === req.user.uid)) {
@@ -293,14 +294,17 @@ router.delete("/:id", authenticateFirebaseUser, async (req, res) => {
 router.post("/:id/read", authenticateFirebaseUser, async (req, res) => {
   try {
     const { id } = req.params;
-    const itemRef = db.collection("notifications").doc(req.user.uid).collection("items").doc(id);
-    const itemSnapshot = await itemRef.get();
+    
+    const { rowCount } = await query(
+      "UPDATE notifications SET read = true WHERE id = $1 AND user_id = $2",
+      [id, req.user.uid]
+    );
 
-    if (itemSnapshot.exists) {
-      await itemRef.update({ read: true });
+    if (rowCount > 0) {
       return res.status(200).json({ success: true });
     }
 
+    // Attempt to update legacy Firebase notification if not found in PG
     const legacyRef = db.collection("notifications").doc(id);
     const legacySnapshot = await legacyRef.get();
     if (legacySnapshot.exists && (legacySnapshot.data()?.userId === req.user.uid || legacySnapshot.data()?.recipientId === req.user.uid)) {
@@ -446,24 +450,22 @@ router.post("/send-user", async (req, res) => {
       }
     }
 
-    const batchWrite = db.batch();
+    const insertSql = `
+      INSERT INTO notifications (user_id, title, message, category, type, url, announcement_id, read, created_at)
+      VALUES ($1, $2, $3, $4, $5, $6, $7, false, NOW())
+    `;
 
-    recipients.forEach((recipient) => {
-      const notificationRef = db.collection("notifications").doc(recipient.userId).collection("items").doc();
-      batchWrite.set(notificationRef, {
-        userId: recipient.userId,
+    for (const recipient of recipients) {
+      await query(insertSql, [
+        recipient.userId,
         title,
-        message: body,
+        body,
         category,
         type,
         url,
-        announcementId,
-        read: false,
-        createdAt: admin.firestore.FieldValue.serverTimestamp(),
-      });
-    });
-
-    await batchWrite.commit();
+        announcementId
+      ]);
+    }
 
     return res.status(200).json({ success: true, sent, recipients: recipients.length });
   } catch (error) {
@@ -562,28 +564,25 @@ router.post("/broadcast", async (req, res) => {
       }
     }
 
+    const insertSql = `
+      INSERT INTO notifications (user_id, title, message, category, type, url, announcement_id, read, created_at)
+      VALUES ($1, $2, $3, $4, $5, $6, $7, false, NOW())
+    `;
+
     const batchChunks = chunkArray(targetUsers, 450);
 
     for (const batchRecipients of batchChunks) {
-      const batch = db.batch();
-
-      batchRecipients.forEach((recipient) => {
-        const notificationRef = db.collection("notifications").doc(recipient.userId).collection("items").doc();
-
-        batch.set(notificationRef, {
-          userId: recipient.userId,
+      for (const recipient of batchRecipients) {
+        await query(insertSql, [
+          recipient.userId,
           title,
-          message: body,
+          body,
           category,
-          announcementId,
+          "announcement",
           url,
-          read: false,
-          type: "announcement",
-          createdAt: admin.firestore.FieldValue.serverTimestamp(),
-        });
-      });
-
-      await batch.commit();
+          announcementId
+        ]);
+      }
     }
 
     return res.status(200).json({
