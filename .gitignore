@@ -1,0 +1,16 @@
+node_modules/
+serviceAccountKey.json
+*.json
+!.package*.json
+!.tsconfig*.json
+!.json.example
+.env
+.env.local
+.env.*.local
+firebase/*.json
+unihelp-app-firebase-adminsdk-fbsvc-0a1fc0837c.json
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
