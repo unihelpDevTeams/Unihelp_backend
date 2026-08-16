@@ -135,7 +135,7 @@ export const sendAppNotification = async ({
   const batch = db.batch();
 
   resolvedRecipients.forEach((recipient) => {
-    const notificationRef = db.collection("notifications").doc();
+    const notificationRef = db.collection("notifications").doc(recipient.userId).collection("items").doc();
     batch.set(notificationRef, {
       userId: recipient.userId,
       title,

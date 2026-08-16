@@ -223,20 +223,36 @@ export const sendStudyReminderNotifications = async () => {
 router.get("/", authenticateFirebaseUser, async (req, res) => {
   try {
     const { pageSize = 20 } = req.query;
-    const query = db.collection("notifications")
-      .where("userId", "==", req.user.uid)
-      .orderBy("createdAt", "desc")
-      .limit(parseInt(pageSize, 10));
+    const limitSize = Math.min(Math.max(parseInt(pageSize, 10) || 20, 1), 100);
 
-    const snapshot = await query.get();
-    const items = snapshot.docs.map(doc => {
+    const itemRef = db.collection("notifications").doc(req.user.uid).collection("items");
+    const snapshot = await itemRef.orderBy("createdAt", "desc").limit(limitSize).get();
+
+    const items = snapshot.docs.map((doc) => {
       const data = doc.data();
-      return { 
-        id: doc.id, 
+      return {
+        id: doc.id,
         ...data,
-        createdAt: data.createdAt ? (data.createdAt.toDate ? data.createdAt.toDate().toISOString() : data.createdAt) : null
+        createdAt: data.createdAt ? (data.createdAt.toDate ? data.createdAt.toDate().toISOString() : data.createdAt) : null,
       };
     });
+
+    if (items.length === 0) {
+      const legacyQuery = db.collection("notifications")
+        .where("userId", "==", req.user.uid)
+        .orderBy("createdAt", "desc")
+        .limit(limitSize);
+      const legacySnapshot = await legacyQuery.get();
+      const legacyItems = legacySnapshot.docs.map((doc) => {
+        const data = doc.data();
+        return {
+          id: doc.id,
+          ...data,
+          createdAt: data.createdAt ? (data.createdAt.toDate ? data.createdAt.toDate().toISOString() : data.createdAt) : null,
+        };
+      });
+      return res.status(200).json({ items: legacyItems, cursor: null, hasMore: false });
+    }
 
     return res.status(200).json({ items, cursor: null, hasMore: false });
   } catch (error) {
@@ -248,8 +264,22 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
 router.post("/:id/read", authenticateFirebaseUser, async (req, res) => {
   try {
     const { id } = req.params;
-    await db.collection("notifications").doc(id).update({ read: true });
-    return res.status(200).json({ success: true });
+    const itemRef = db.collection("notifications").doc(req.user.uid).collection("items").doc(id);
+    const itemSnapshot = await itemRef.get();
+
+    if (itemSnapshot.exists) {
+      await itemRef.update({ read: true });
+      return res.status(200).json({ success: true });
+    }
+
+    const legacyRef = db.collection("notifications").doc(id);
+    const legacySnapshot = await legacyRef.get();
+    if (legacySnapshot.exists && (legacySnapshot.data()?.userId === req.user.uid || legacySnapshot.data()?.recipientId === req.user.uid)) {
+      await legacyRef.update({ read: true });
+      return res.status(200).json({ success: true });
+    }
+
+    return res.status(404).json({ success: false, message: "Notification not found" });
   } catch (error) {
     console.error("Failed to mark notification read:", error);
     return res.status(500).json({ success: false, message: "Failed to mark read" });
@@ -390,7 +420,7 @@ router.post("/send-user", async (req, res) => {
     const batchWrite = db.batch();
 
     recipients.forEach((recipient) => {
-      const notificationRef = db.collection("notifications").doc();
+      const notificationRef = db.collection("notifications").doc(recipient.userId).collection("items").doc();
       batchWrite.set(notificationRef, {
         userId: recipient.userId,
         title,
@@ -509,7 +539,7 @@ router.post("/broadcast", async (req, res) => {
       const batch = db.batch();
 
       batchRecipients.forEach((recipient) => {
-        const notificationRef = db.collection("notifications").doc();
+        const notificationRef = db.collection("notifications").doc(recipient.userId).collection("items").doc();
 
         batch.set(notificationRef, {
           userId: recipient.userId,
