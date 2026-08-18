@@ -60,6 +60,21 @@ async function fetchHostels(limit = 5) {
   }
 }
 
+const AI_CONTEXT_CACHE_TTL_MS = 5 * 60 * 1000;
+const aiContextCache = new Map();
+
+async function getCachedAiContext(key, fetcher) {
+  const cached = aiContextCache.get(key);
+  const now = Date.now();
+  if (cached && now - cached.timestamp < AI_CONTEXT_CACHE_TTL_MS) {
+    return cached.data;
+  }
+
+  const data = await fetcher();
+  aiContextCache.set(key, { data, timestamp: now });
+  return data;
+}
+
 /* =========================================================
    Gemini Function Declarations (Tool Definitions)
 ========================================================= */
@@ -167,7 +182,7 @@ async function handleToolCall(functionCall) {
 
   switch (name) {
     case 'summarize_notes': {
-      const notes = await fetchNotes(5);
+      const notes = await getCachedAiContext('notes:summary', () => fetchNotes(5));
       const topic = input.topic || '';
       const filtered = topic
         ? notes.filter((n) => (n.title || '').toLowerCase().includes(topic.toLowerCase()) || (n.content || '').toLowerCase().includes(topic.toLowerCase()))
@@ -228,7 +243,7 @@ async function handleToolCall(functionCall) {
     }
 
     case 'announcements_digest': {
-      const announcements = await fetchAnnouncements(input.count || 5);
+      const announcements = await getCachedAiContext(`announcements:${input.count || 5}`, () => fetchAnnouncements(input.count || 5));
       return {
         success: true,
         tool: name,
@@ -240,7 +255,7 @@ async function handleToolCall(functionCall) {
     }
 
     case 'marketplace_insight': {
-      const listings = await fetchMarketplaceListings(10);
+      const listings = await getCachedAiContext('marketplace:insight', () => fetchMarketplaceListings(10));
       return {
         success: true,
         tool: name,
@@ -254,7 +269,7 @@ async function handleToolCall(functionCall) {
     }
 
     case 'hostel_recommendation': {
-      const hostels = await fetchHostels(10);
+      const hostels = await getCachedAiContext('hostels:recommendation', () => fetchHostels(10));
       const filtered = hostels.filter((h) => {
         if (input.budget && (h.price || h.rent) > input.budget) return false;
         if (input.location && !(h.location || h.area || '').toLowerCase().includes(input.location.toLowerCase())) return false;

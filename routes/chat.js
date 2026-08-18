@@ -44,11 +44,17 @@ router.post("/:conversationId/messages", authenticateFirebaseUser, async (req, r
         updatedAt: now,
       };
       
-      if (receiverId) {
-        updateData[`unread.${receiverId}`] = FieldValue.increment(1);
-      }
-      
       await convRef.update(updateData);
+
+      if (receiverId) {
+        const unreadRef = db.collection("unreadCounts").doc(`${conversationId}_${receiverId}`);
+        await unreadRef.set({
+          conversationId,
+          userId: receiverId,
+          count: FieldValue.increment(1),
+          updatedAt: now,
+        }, { merge: true });
+      }
       
       // Emit via socket
       const io = req.app.get("io");
