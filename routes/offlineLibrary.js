@@ -80,6 +80,28 @@ const getProtectedDocumentUrl = (resource = {}) => {
   ].find((value) => typeof value === "string" && /^https?:\/\//i.test(value));
 };
 
+const streamProtectedDocument = async ({ resourceType, resourceId, res }) => {
+  const resolved = await readResource({ resourceType, resourceId });
+  const remoteUrl = getProtectedDocumentUrl(resolved?.data);
+  if (resolved?.contentKind !== "document" || !remoteUrl) {
+    return false;
+  }
+
+  const upstream = await fetch(remoteUrl);
+  if (!upstream.ok || !upstream.body) {
+    res.status(502).json({ success: false, error: "Protected document could not be retrieved" });
+    return true;
+  }
+
+  res.status(200);
+  res.setHeader("Cache-Control", "private, no-store");
+  res.setHeader("Content-Disposition", "inline");
+  res.setHeader("Content-Type", upstream.headers.get("content-type") || "application/pdf");
+  if (upstream.headers.get("content-length")) res.setHeader("Content-Length", upstream.headers.get("content-length"));
+  Readable.fromWeb(upstream.body).pipe(res);
+  return true;
+};
+
 const readResource = async ({ resourceType, resourceId }) => {
   const type = cleanResourceType(resourceType);
 
@@ -186,26 +208,32 @@ offlineLibraryRoutes.get("/content/:resourceType/:resourceId", async (req, res) 
     const entitlement = buildEntitlement(req.user.uid, userSnap.exists ? userSnap.data() : {});
     if (!entitlement.premium) return res.status(403).json({ success: false, error: "Offline access requires active Premium." });
 
-    const resolved = await readResource({ resourceType: req.params.resourceType, resourceId: req.params.resourceId });
-    const remoteUrl = getProtectedDocumentUrl(resolved?.data);
-    if (resolved?.contentKind !== "document" || !remoteUrl) {
+    if (!(await streamProtectedDocument({
+      resourceType: req.params.resourceType,
+      resourceId: req.params.resourceId,
+      res,
+    }))) {
       return res.status(404).json({ success: false, error: "Protected document not found" });
     }
-
-    const upstream = await fetch(remoteUrl);
-    if (!upstream.ok || !upstream.body) {
-      return res.status(502).json({ success: false, error: "Protected document could not be retrieved" });
-    }
-
-    res.status(200);
-    res.setHeader("Cache-Control", "private, no-store");
-    res.setHeader("Content-Disposition", "inline");
-    res.setHeader("Content-Type", upstream.headers.get("content-type") || "application/pdf");
-    if (upstream.headers.get("content-length")) res.setHeader("Content-Length", upstream.headers.get("content-length"));
-    Readable.fromWeb(upstream.body).pipe(res);
   } catch (error) {
     console.error("[offline-library] protected content failed", error);
     return res.status(500).json({ success: false, error: "Could not retrieve protected document" });
+  }
+});
+
+offlineLibraryRoutes.get("/preview/:resourceType/:resourceId", async (req, res) => {
+  try {
+    if (!db) return res.status(503).json({ success: false, error: "Firebase Admin is not configured" });
+    if (!(await streamProtectedDocument({
+      resourceType: req.params.resourceType,
+      resourceId: req.params.resourceId,
+      res,
+    }))) {
+      return res.status(404).json({ success: false, error: "Document preview not found" });
+    }
+  } catch (error) {
+    console.error("[offline-library] preview failed", error);
+    return res.status(500).json({ success: false, error: "Could not retrieve document preview" });
   }
 });
 
