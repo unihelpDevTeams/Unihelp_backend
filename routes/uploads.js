@@ -21,6 +21,16 @@ const upload = multer({
 const ALLOWED_FOLDERS = new Set(["hostels", "marketplace", "stories"]);
 const ALLOWED_TYPES = new Set(["image", "video", "raw", "auto"]);
 
+const validateFileTypeForResource = (mimetype = "", resourceType = "auto") => {
+  if (resourceType === "image") return /^image\//.test(mimetype);
+  if (resourceType === "video") return /^video\//.test(mimetype);
+  if (resourceType === "raw") return true;
+  if (resourceType === "auto") {
+    return /^image\//.test(mimetype) || /^video\//.test(mimetype);
+  }
+  return false;
+};
+
 const uploadBuffer = (buffer, options) =>
   new Promise((resolve, reject) => {
     const stream = cloudinary.uploader.upload_stream(options, (error, result) => {
@@ -41,7 +51,7 @@ uploadsRoutes.post("/", authenticateFirebaseUser, upload.single("file"), async (
     const resourceType = ALLOWED_TYPES.has(req.body.resourceType) ? req.body.resourceType : "auto";
     const feature = ALLOWED_FOLDERS.has(req.body.feature) ? req.body.feature : "stories";
 
-    if (!/^image\/|^video\//.test(req.file.mimetype) && resourceType !== "raw") {
+    if (!validateFileTypeForResource(req.file.mimetype, resourceType)) {
       return res.status(400).json({ error: "Unsupported file type" });
     }
 
