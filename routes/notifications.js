@@ -276,10 +276,25 @@ router.delete("/:id", authenticateFirebaseUser, async (req, res) => {
       return res.status(200).json({ success: true });
     }
 
-    // Attempt to delete legacy Firebase notification if not found in PG
+    // Support both the current per-user collection and the older root-level format.
+    const userNotificationRef = db
+      .collection("notifications")
+      .doc(req.user.uid)
+      .collection("items")
+      .doc(id);
+    const userNotificationSnapshot = await userNotificationRef.get();
+    if (userNotificationSnapshot.exists) {
+      await userNotificationRef.delete();
+      return res.status(200).json({ success: true });
+    }
+
     const legacyRef = db.collection("notifications").doc(id);
     const legacySnapshot = await legacyRef.get();
-    if (legacySnapshot.exists && (legacySnapshot.data()?.userId === req.user.uid || legacySnapshot.data()?.recipientId === req.user.uid)) {
+    if (
+      legacySnapshot.exists &&
+      (legacySnapshot.data()?.userId === req.user.uid ||
+        legacySnapshot.data()?.recipientId === req.user.uid)
+    ) {
       await legacyRef.delete();
       return res.status(200).json({ success: true });
     }
