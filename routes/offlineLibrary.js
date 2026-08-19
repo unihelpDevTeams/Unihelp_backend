@@ -1,4 +1,5 @@
 import express from "express";
+import { Readable } from "node:stream";
 import { db } from "../firebase/firebaseAdmin.js";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
 import formulas from "../data/formulas.js";
@@ -63,6 +64,20 @@ const findChallengePayload = (resourceId) => {
   if (byId) return byId;
   const byCategory = challengeQuestions.filter((item) => String(item.category) === id);
   return byCategory.length ? byCategory : null;
+};
+
+const getProtectedDocumentUrl = (resource = {}) => {
+  const firstFile = Array.isArray(resource.files) ? resource.files[0] : resource.files;
+  return [
+    resource.fileUrl,
+    resource.pdfUrl,
+    resource.downloadUrl,
+    resource.url,
+    resource.fileAsset?.url,
+    resource.fileAsset?.secure_url,
+    firstFile?.url,
+    firstFile?.secure_url,
+  ].find((value) => typeof value === "string" && /^https?:\/\//i.test(value));
 };
 
 const readResource = async ({ resourceType, resourceId }) => {
@@ -151,11 +166,46 @@ offlineLibraryRoutes.post("/authorize", async (req, res) => {
         offlineAllowed,
         payload: resolved.contentKind === "structured" ? resource : null,
         metadata: resolved.contentKind === "document" ? resource : null,
+        // The client receives an authenticated proxy, never the Cloudinary URL.
+        contentUrl: resolved.contentKind === "document"
+          ? `/api/offline-library/content/${encodeURIComponent(cleanResourceType(resourceType))}/${encodeURIComponent(resourceId)}`
+          : null,
       },
     });
   } catch (error) {
     console.error("[offline-library] authorize failed", error);
     return res.status(500).json({ success: false, error: "Could not authorize offline resource" });
+  }
+});
+
+offlineLibraryRoutes.get("/content/:resourceType/:resourceId", async (req, res) => {
+  try {
+    if (!db) return res.status(503).json({ success: false, error: "Firebase Admin is not configured" });
+
+    const userSnap = await db.collection("users").doc(req.user.uid).get();
+    const entitlement = buildEntitlement(req.user.uid, userSnap.exists ? userSnap.data() : {});
+    if (!entitlement.premium) return res.status(403).json({ success: false, error: "Offline access requires active Premium." });
+
+    const resolved = await readResource({ resourceType: req.params.resourceType, resourceId: req.params.resourceId });
+    const remoteUrl = getProtectedDocumentUrl(resolved?.data);
+    if (resolved?.contentKind !== "document" || !remoteUrl) {
+      return res.status(404).json({ success: false, error: "Protected document not found" });
+    }
+
+    const upstream = await fetch(remoteUrl);
+    if (!upstream.ok || !upstream.body) {
+      return res.status(502).json({ success: false, error: "Protected document could not be retrieved" });
+    }
+
+    res.status(200);
+    res.setHeader("Cache-Control", "private, no-store");
+    res.setHeader("Content-Disposition", "inline");
+    res.setHeader("Content-Type", upstream.headers.get("content-type") || "application/pdf");
+    if (upstream.headers.get("content-length")) res.setHeader("Content-Length", upstream.headers.get("content-length"));
+    Readable.fromWeb(upstream.body).pipe(res);
+  } catch (error) {
+    console.error("[offline-library] protected content failed", error);
+    return res.status(500).json({ success: false, error: "Could not retrieve protected document" });
   }
 });
 
