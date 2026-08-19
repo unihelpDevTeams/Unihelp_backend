@@ -21,12 +21,24 @@ const upload = multer({
 const ALLOWED_FOLDERS = new Set(["hostels", "marketplace", "stories"]);
 const ALLOWED_TYPES = new Set(["image", "video", "raw", "auto"]);
 
+const isHtmlLikeFile = (mimetype = "", filename = "") => {
+  const extension = String(filename || "").toLowerCase();
+  return (
+    /^(text\/html|application\/xhtml\+xml)$/i.test(String(mimetype)) ||
+    /\.(html?|xhtml)$/i.test(extension)
+  );
+};
+
 const validateFileTypeForResource = (mimetype = "", resourceType = "auto") => {
   if (resourceType === "image") return /^image\//.test(mimetype);
   if (resourceType === "video") return /^video\//.test(mimetype);
-  if (resourceType === "raw") return true;
+  if (resourceType === "raw") return !isHtmlLikeFile(mimetype);
   if (resourceType === "auto") {
-    return /^image\//.test(mimetype) || /^video\//.test(mimetype);
+    return (
+      /^image\//.test(mimetype) ||
+      /^video\//.test(mimetype) ||
+      (!isHtmlLikeFile(mimetype) && !!mimetype)
+    );
   }
   return false;
 };
@@ -51,8 +63,8 @@ uploadsRoutes.post("/", authenticateFirebaseUser, upload.single("file"), async (
     const resourceType = ALLOWED_TYPES.has(req.body.resourceType) ? req.body.resourceType : "auto";
     const feature = ALLOWED_FOLDERS.has(req.body.feature) ? req.body.feature : "stories";
 
-    if (!validateFileTypeForResource(req.file.mimetype, resourceType)) {
-      return res.status(400).json({ error: "Unsupported file type" });
+    if (isHtmlLikeFile(req.file.mimetype, req.file.originalname) || !validateFileTypeForResource(req.file.mimetype, resourceType)) {
+      return res.status(400).json({ error: "Invalid file type: html is not allowed" });
     }
 
     const result = await uploadBuffer(req.file.buffer, {
