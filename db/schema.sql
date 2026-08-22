@@ -112,3 +112,51 @@ CREATE TABLE IF NOT EXISTS notifications (
 );
 
 CREATE INDEX IF NOT EXISTS idx_notifications_user_created ON notifications(user_id, created_at DESC);
+
+CREATE TABLE IF NOT EXISTS contact_messages (
+  id UUID PRIMARY KEY,
+  name TEXT,
+  email TEXT,
+  phone TEXT,
+  subject TEXT,
+  message TEXT,
+  user_id TEXT,
+  status TEXT DEFAULT 'pending',
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS reports (
+  id UUID PRIMARY KEY,
+  user_id TEXT,
+  display_name TEXT,
+  email TEXT,
+  report_type TEXT,
+  title TEXT,
+  description TEXT,
+  attachments JSONB DEFAULT '[]'::jsonb,
+  status TEXT DEFAULT 'pending',
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS suggestions (
+  id UUID PRIMARY KEY,
+  user_id TEXT,
+  title TEXT,
+  category TEXT,
+  description TEXT,
+  status TEXT DEFAULT 'pending',
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS support_notes (
+  id UUID PRIMARY KEY,
+  entity_type VARCHAR(50),
+  entity_id UUID,
+  admin_id TEXT,
+  admin_name TEXT,
+  note TEXT,
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
