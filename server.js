@@ -20,6 +20,8 @@ import storiesRoutes from "./routes/storiesRoutes.js";
 import uploadsRoutes from "./routes/uploads.js";
 import chatRoutes from "./routes/chat.js";
 import offlineLibraryRoutes from "./routes/offlineLibrary.js";
+import cgpaRoutes from "./routes/cgpa.js";
+import gpaRoutes from "./routes/gpa.js";
 import { initializeDatabase } from "./db/init.js";
 import { createServer } from "http";
 import { Server } from "socket.io";
@@ -120,6 +122,8 @@ app.use("/api/marketplace", marketplaceRoutes);
 app.use("/api/stories", storiesRoutes);
 app.use("/api/chat", chatRoutes);
 app.use("/api/offline-library", offlineLibraryRoutes);
+app.use("/api/cgpa", cgpaRoutes);
+app.use("/api/gpa", gpaRoutes);
 console.log("Formulas route loaded successfully");
 app.get("/", (req, res) => {
   res.status(200).json({
