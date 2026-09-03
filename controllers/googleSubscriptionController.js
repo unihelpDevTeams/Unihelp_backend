@@ -46,6 +46,12 @@ export const verifyGoogleSubscription = async (req, res) => {
       return res.status(409).json({ success: false, error: "This purchase belongs to another UniHelp account" });
     }
 
+    const userSnapshot = await db.collection("users").doc(uid).get();
+    const userProfile = userSnapshot.exists ? userSnapshot.data() : {};
+    if (userProfile.premium && userProfile.subscriptionProvider !== "google_play") {
+      return res.status(409).json({ success: false, error: "An external subscription is already active for this account" });
+    }
+
     const subscription = await verifyGooglePlaySubscription({ purchaseToken, productId });
     await ref.set({
       userId: uid,

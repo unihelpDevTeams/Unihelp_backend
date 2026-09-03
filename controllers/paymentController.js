@@ -41,7 +41,7 @@ export const initializePremiumPayment = async (req, res) => {
       amount,
       redirectUrl,
       customer: {
-        email,
+        email: req.user.email || email,
         name: name || "UniHelp Student",
       },
       title: "UniHelp Student Premium",
@@ -100,6 +100,15 @@ export const verifyPayment =
 
       const paymentData =
         verification.data;
+
+      const authenticatedEmail = String(req.user.email || "").trim().toLowerCase();
+      const paidEmail = String(paymentData.customer?.email || "").trim().toLowerCase();
+      if (!authenticatedEmail || !paidEmail || authenticatedEmail !== paidEmail) {
+        return res.status(403).json({
+          success: false,
+          error: "Payment does not belong to the authenticated account",
+        });
+      }
 
       console.log(paymentData);
 
@@ -181,6 +190,8 @@ export const verifyPayment =
             premium: true,
 
             verified: true,
+
+            subscriptionProvider: "flutterwave",
 
             subscriptionPlan:
               "student-premium",
