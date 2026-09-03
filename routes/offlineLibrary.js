@@ -80,26 +80,67 @@ const getProtectedDocumentUrl = (resource = {}) => {
   ].find((value) => typeof value === "string" && /^https?:\/\//i.test(value));
 };
 
+const fetchWithTimeout = async (url, timeoutMs = 15000) => {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    return await fetch(url, { signal: controller.signal });
+  } catch (error) {
+    if (error.name === "AbortError") {
+      throw new Error(`Upstream document request timed out after ${timeoutMs}ms`);
+    }
+    throw error;
+  } finally {
+    clearTimeout(timeout);
+  }
+};
+
 const streamProtectedDocument = async ({ resourceType, resourceId, res }) => {
   const resolved = await readResource({ resourceType, resourceId });
   const remoteUrl = getProtectedDocumentUrl(resolved?.data);
   if (resolved?.contentKind !== "document" || !remoteUrl) {
+    console.warn("[offline-library] preview blocked: missing document URL", {
+      resourceType,
+      resourceId,
+      hasData: Boolean(resolved?.data),
+    });
     return false;
   }
 
-  const upstream = await fetch(remoteUrl);
-  if (!upstream.ok || !upstream.body) {
-    res.status(502).json({ success: false, error: "Protected document could not be retrieved" });
+  try {
+    console.log("[offline-library] preview fetch start", { resourceType, resourceId, remoteUrl });
+    const upstream = await fetchWithTimeout(remoteUrl, 15000);
+    if (!upstream.ok || !upstream.body) {
+      console.error("[offline-library] preview upstream not OK", {
+        resourceType,
+        resourceId,
+        status: upstream.status,
+        statusText: upstream.statusText,
+        remoteUrl,
+      });
+      res.status(502).json({ success: false, error: "Protected document could not be retrieved" });
+      return true;
+    }
+
+    res.status(200);
+    res.setHeader("Cache-Control", "private, no-store");
+    res.setHeader("Content-Disposition", "inline");
+    res.setHeader("Content-Type", upstream.headers.get("content-type") || "application/pdf");
+    if (upstream.headers.get("content-length")) res.setHeader("Content-Length", upstream.headers.get("content-length"));
+    Readable.fromWeb(upstream.body).pipe(res);
+    return true;
+  } catch (error) {
+    console.error("[offline-library] preview upstream fetch failed", {
+      resourceType,
+      resourceId,
+      remoteUrl,
+      message: error?.message,
+      stack: error?.stack,
+    });
+    res.status(504).json({ success: false, error: "Document preview timed out or could not be fetched" });
     return true;
   }
-
-  res.status(200);
-  res.setHeader("Cache-Control", "private, no-store");
-  res.setHeader("Content-Disposition", "inline");
-  res.setHeader("Content-Type", upstream.headers.get("content-type") || "application/pdf");
-  if (upstream.headers.get("content-length")) res.setHeader("Content-Length", upstream.headers.get("content-length"));
-  Readable.fromWeb(upstream.body).pipe(res);
-  return true;
 };
 
 const readResource = async ({ resourceType, resourceId }) => {

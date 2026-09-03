@@ -2,6 +2,7 @@ import express from 'express';
 import { authenticateFirebaseUser } from '../middleware/auth.js';
 import { processAiChat, processStudyQuery } from '../services/aiService.js';
 import { getAiUsageStatus, consumeAiUsage } from '../services/aiUsageService.js';
+import { getTrustedEntitlementProfile } from '../services/entitlementService.js';
 
 const router = express.Router();
 
@@ -17,7 +18,7 @@ router.post('/chat', authenticateFirebaseUser, async (req, res) => {
   try {
     const { prompt, attachment = null, history = [] } = req.body || {};
     const user = req.user || {};
-    const profile = req.body?.profile || {};
+    const profile = await getTrustedEntitlementProfile(req.user.uid);
 
     if (!prompt?.trim()) {
       return res.status(400).json({ success: false, error: 'Prompt is required' });
@@ -72,7 +73,7 @@ router.post('/chat', authenticateFirebaseUser, async (req, res) => {
 router.post('/study', authenticateFirebaseUser, async (req, res) => {
   try {
     const prompt = String(req.body?.prompt || '').trim();
-    const profile = req.body?.profile || {};
+    const profile = await getTrustedEntitlementProfile(req.user.uid);
     const attachment = req.body?.attachment || {};
     const user = req.user || {};
 
@@ -124,7 +125,7 @@ router.post('/study', authenticateFirebaseUser, async (req, res) => {
 router.post('/usage', authenticateFirebaseUser, async (req, res) => {
   try {
     const user = req.user || {};
-    const profile = req.body?.profile || {};
+    const profile = await getTrustedEntitlementProfile(req.user.uid);
     const uid = user.uid || profile?.uid;
     const isPremium = Boolean(profile?.premium);
 

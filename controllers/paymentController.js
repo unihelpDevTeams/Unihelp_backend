@@ -9,7 +9,7 @@ import { getPremiumAmount, getPremiumPlan } from "../config/premiumPlans.js";
 export const initializePremiumPayment = async (req, res) => {
   try {
     const {
-      userId,
+      userId: ignoredUserId,
       email,
       name,
       billing = "monthly",
@@ -17,7 +17,8 @@ export const initializePremiumPayment = async (req, res) => {
       redirectUrl,
     } = req.body;
 
-    if (!userId || !email || !redirectUrl) {
+    const userId = req.user.uid;
+    if (!email || !redirectUrl) {
       return res.status(400).json({
         success: false,
         error: "Missing fields",
@@ -70,15 +71,13 @@ export const verifyPayment =
     try {
       const {
         transaction_id,
-        userId,
+        userId: ignoredUserId,
         plan,
         billing,
       } = req.body;
 
-      if (
-        !transaction_id ||
-        !userId
-      ) {
+      const userId = req.user.uid;
+      if (!transaction_id) {
         return res.status(400).json({
           success: false,
           error: "Missing fields",

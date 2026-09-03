@@ -2,6 +2,7 @@ import express from 'express';
 import { authenticateFirebaseUser } from '../middleware/auth.js';
 import { processAiChat } from '../services/aiService.js';
 import { getAiUsageStatus, consumeAiUsage } from '../services/aiUsageService.js';
+import { getTrustedEntitlementProfile } from '../services/entitlementService.js';
 
 const router = express.Router();
 
@@ -13,8 +14,9 @@ const router = express.Router();
 
 router.post('/tool', authenticateFirebaseUser, async (req, res) => {
   try {
-    const { tool, input = {}, profile = {} } = req.body || {};
+    const { tool, input = {} } = req.body || {};
     const user = req.user || {};
+    const profile = await getTrustedEntitlementProfile(user.uid);
 
     if (!tool) {
       return res.status(400).json({ success: false, error: 'Tool is required' });

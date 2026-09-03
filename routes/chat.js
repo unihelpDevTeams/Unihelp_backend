@@ -12,8 +12,6 @@ router.post("/:conversationId/messages", authenticateFirebaseUser, async (req, r
     const { conversationId } = req.params;
     const user = req.user;
     const payload = req.body;
-    
-    // We assume payload contains type, text, senderName, senderAvatar, replyTo, etc.
     const messageRef = db.collection("conversations").doc(conversationId).collection("messages").doc();
     const now = FieldValue.serverTimestamp();
     

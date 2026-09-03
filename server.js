@@ -22,6 +22,7 @@ import chatRoutes from "./routes/chat.js";
 import offlineLibraryRoutes from "./routes/offlineLibrary.js";
 import cgpaRoutes from "./routes/cgpa.js";
 import gpaRoutes from "./routes/gpa.js";
+import subscriptionRoutes from "./routes/subscriptionRoutes.js";
 import { initializeDatabase } from "./db/init.js";
 import { createServer } from "http";
 import { Server } from "socket.io";
@@ -105,6 +106,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/payments", paymentRoutes);
+app.use("/api/subscriptions", subscriptionRoutes);
 app.use("/api/contact", contactRoutes);
 app.use("/api/reports", reportRoutes);
 app.use("/api/suggestions", suggestionsRoutes);
