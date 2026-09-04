@@ -23,8 +23,10 @@ import offlineLibraryRoutes from "./routes/offlineLibrary.js";
 import cgpaRoutes from "./routes/cgpa.js";
 import gpaRoutes from "./routes/gpa.js";
 import subscriptionRoutes from "./routes/subscriptionRoutes.js";
+import streakRoutes from "./routes/streakRoutes.js";
 import migrationRoutes from "./routes/migration.js";
 import usersRoutes from "./routes/users.js";
+import stickerRoutes from "./routes/stickerRoutes.js";
 import { initializeDatabase } from "./db/init.js";
 import { createServer } from "http";
 import { Server } from "socket.io";
@@ -109,6 +111,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/payments", paymentRoutes);
 app.use("/api/subscriptions", subscriptionRoutes);
+app.use("/api/streak", streakRoutes);
 app.use("/api/contact", contactRoutes);
 app.use("/api/reports", reportRoutes);
 app.use("/api/suggestions", suggestionsRoutes);
@@ -130,6 +133,7 @@ app.use("/api/cgpa", cgpaRoutes);
 app.use("/api/gpa", gpaRoutes);
 app.use("/api/migration-status", migrationRoutes);
 app.use("/api/users", usersRoutes);
+app.use("/api/stickers", stickerRoutes);
 console.log("Formulas route loaded successfully");
 app.get("/", (req, res) => {
   res.status(200).json({
