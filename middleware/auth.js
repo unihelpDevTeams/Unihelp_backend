@@ -11,6 +11,10 @@ export const authenticateFirebaseUser = async (req, res, next) => {
     const token = header.startsWith("Bearer ") ? header.slice(7) : "";
 
     if (!token) {
+      console.warn("[auth] Missing bearer token", {
+        method: req.method,
+        path: req.originalUrl,
+      });
       return res.status(401).json({ success: false, error: "Authentication required" });
     }
 
