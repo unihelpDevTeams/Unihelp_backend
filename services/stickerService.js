@@ -41,6 +41,16 @@ const visibleSticker = (sticker, uid, premium) =>
   sticker.isActive !== false &&
   ((sticker.ownerId === uid) || (!sticker.ownerId && (!sticker.isPremium || premium)));
 
+export const DEFAULT_FREE_STICKER_PACK_ID = "unihelp-default-free";
+const DEFAULT_FREE_STICKERS = [
+  { id: "unihelp-free-like", name: "Like", emoji: "👍", assetUrl: "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44d.svg" },
+  { id: "unihelp-free-love", name: "Love", emoji: "❤️", assetUrl: "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2764.svg" },
+  { id: "unihelp-free-laugh", name: "Laugh", emoji: "😂", assetUrl: "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f602.svg" },
+  { id: "unihelp-free-fire", name: "Fire", emoji: "🔥", assetUrl: "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f525.svg" },
+  { id: "unihelp-free-party", name: "Party", emoji: "🎉", assetUrl: "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f389.svg" },
+  { id: "unihelp-free-pray", name: "Thanks", emoji: "🙏", assetUrl: "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64f.svg" },
+];
+
 export const listStickerPacks = async (uid) => {
   const profile = await getTrustedEntitlementProfile(uid);
   const snapshot = await packCollection().where("isActive", "==", true).orderBy("order", "asc").limit(100).get();
@@ -203,6 +213,76 @@ export const createOfficialSticker = async (adminUid, payload = {}) => {
   batch.set(uploadRef, { used: true, usedAt: admin.firestore.FieldValue.serverTimestamp(), stickerId: stickerRef.id }, { merge: true });
   await batch.commit();
   return toPublicSticker({ id: stickerRef.id, data: () => sticker });
+};
+
+export const seedDefaultFreeStickers = async (adminUid) => {
+  const packRef = packCollection().doc(DEFAULT_FREE_STICKER_PACK_ID);
+  const batch = db.batch();
+  batch.set(packRef, {
+    id: DEFAULT_FREE_STICKER_PACK_ID,
+    ownerId: null,
+    name: "UniHelp Free Stickers",
+    description: "Default stickers available to every UniHelp user.",
+    category: "Reactions",
+    isPremium: false,
+    isActive: true,
+    order: -1000,
+    createdBy: adminUid,
+    updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+  }, { merge: true });
+
+  for (const item of DEFAULT_FREE_STICKERS) {
+    batch.set(stickerCollection().doc(item.id), {
+      id: item.id,
+      packId: DEFAULT_FREE_STICKER_PACK_ID,
+      ownerId: null,
+      name: item.name,
+      type: "image",
+      assetUrl: item.assetUrl,
+      thumbnailUrl: item.assetUrl,
+      isAnimated: false,
+      isPremium: false,
+      isActive: true,
+      updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+    }, { merge: true });
+  }
+
+  await batch.commit();
+  return { packId: DEFAULT_FREE_STICKER_PACK_ID, stickerIds: DEFAULT_FREE_STICKERS.map((item) => item.id) };
+};
+
+export const updateOfficialSticker = async (stickerId, payload = {}) => {
+  const ref = stickerCollection().doc(stickerId);
+  const snapshot = await ref.get();
+  if (!snapshot.exists || snapshot.data().ownerId) throw new Error("Official sticker not found");
+  const updates = {
+    ...(payload.name !== undefined ? { name: cleanText(payload.name, 80) || "UniHelp Sticker" } : {}),
+    ...(payload.packId !== undefined ? { packId: payload.packId || null } : {}),
+    ...(payload.assetUrl !== undefined ? { assetUrl: String(payload.assetUrl || "") } : {}),
+    ...(payload.thumbnailUrl !== undefined ? { thumbnailUrl: String(payload.thumbnailUrl || payload.assetUrl || "") } : {}),
+    ...(payload.isPremium !== undefined ? { isPremium: Boolean(payload.isPremium) } : {}),
+    ...(payload.isActive !== undefined ? { isActive: Boolean(payload.isActive) } : {}),
+    updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+  };
+  await ref.update(updates);
+  return { id: stickerId, ...snapshot.data(), ...updates };
+};
+
+export const updateOfficialPack = async (packId, payload = {}) => {
+  const ref = packCollection().doc(packId);
+  const snapshot = await ref.get();
+  if (!snapshot.exists || snapshot.data().ownerId) throw new Error("Official sticker pack not found");
+  const updates = {
+    ...(payload.name !== undefined ? { name: cleanText(payload.name, 60) || "UniHelp Stickers" } : {}),
+    ...(payload.description !== undefined ? { description: cleanText(payload.description, 180) } : {}),
+    ...(payload.category !== undefined ? { category: cleanText(payload.category, 40) || "Reactions" } : {}),
+    ...(payload.order !== undefined ? { order: Number(payload.order) || 0 } : {}),
+    ...(payload.isPremium !== undefined ? { isPremium: Boolean(payload.isPremium) } : {}),
+    ...(payload.isActive !== undefined ? { isActive: Boolean(payload.isActive) } : {}),
+    updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+  };
+  await ref.update(updates);
+  return { id: packId, ...snapshot.data(), ...updates };
 };
 
 export const updateStickerPack = async (uid, packId, payload = {}) => {

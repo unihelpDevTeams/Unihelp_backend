@@ -1,5 +1,10 @@
 import { admin } from "../firebase/firebaseAdmin.js";
 
+const ADMIN_EMAILS = new Set([
+  "onakomayaokiki@gmail.com",
+  "iadejuwon77@gmail.com",
+]);
+
 export const authenticateFirebaseUser = async (req, res, next) => {
   try {
     const header = req.headers.authorization || "";
@@ -10,6 +15,9 @@ export const authenticateFirebaseUser = async (req, res, next) => {
     }
 
     req.user = await admin.auth().verifyIdToken(token);
+    if (ADMIN_EMAILS.has(String(req.user.email || "").trim().toLowerCase())) {
+      req.user.admin = true;
+    }
     next();
   } catch (error) {
     console.error("[auth] Failed to verify Firebase token", error);

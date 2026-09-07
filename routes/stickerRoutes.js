@@ -18,6 +18,9 @@ import {
   deleteStickerPack,
   createOfficialPack,
   createOfficialSticker,
+  seedDefaultFreeStickers,
+  updateOfficialPack,
+  updateOfficialSticker,
   getOwnedSticker,
   updateStickerAsset,
 } from "../services/stickerService.js";
@@ -88,8 +91,20 @@ router.post("/admin/packs", adminOnly, async (req, res) => {
   try { res.status(201).json({ success: true, data: await createOfficialPack(req.body, req.user.uid) }); } catch (error) { handleError(res, error); }
 });
 
+router.post("/admin/seed-defaults", adminOnly, async (req, res) => {
+  try { res.json({ success: true, data: await seedDefaultFreeStickers(req.user.uid) }); } catch (error) { handleError(res, error); }
+});
+
 router.post("/admin/stickers", adminOnly, async (req, res) => {
   try { res.status(201).json({ success: true, data: await createOfficialSticker(req.user.uid, req.body) }); } catch (error) { handleError(res, error); }
+});
+
+router.patch("/admin/packs/:id", adminOnly, async (req, res) => {
+  try { res.json({ success: true, data: await updateOfficialPack(req.params.id, req.body) }); } catch (error) { handleError(res, error); }
+});
+
+router.patch("/admin/stickers/:id", adminOnly, async (req, res) => {
+  try { res.json({ success: true, data: await updateOfficialSticker(req.params.id, req.body) }); } catch (error) { handleError(res, error); }
 });
 
 router.post("/upload", verificationRateLimit(60 * 60 * 1000, 20), upload.single("file"), async (req, res) => {
