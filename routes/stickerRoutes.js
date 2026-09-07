@@ -50,6 +50,14 @@ const uploadBuffer = (buffer, options) => new Promise((resolve, reject) => {
 
 const handleError = (res, error) => {
   const message = error.message || "Sticker request failed";
+  console.error("[stickers] request failed", {
+    method: res.req?.method,
+    path: res.req?.originalUrl,
+    uid: res.req?.user?.uid,
+    email: res.req?.user?.email,
+    message,
+    stack: error.stack,
+  });
   const status = /Premium|limit|cannot|not found|supported|required|available|invalid/i.test(message) ? 400 : 500;
   return res.status(status).json({ success: false, message });
 };
