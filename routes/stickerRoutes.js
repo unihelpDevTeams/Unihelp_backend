@@ -129,7 +129,7 @@ router.post("/upload", verificationRateLimit(60 * 60 * 1000, 20), upload.single(
       resource_type: isAnimated ? "video" : "image",
       transformation: isAnimated
         ? [{ width: 512, height: 512, crop: "limit", quality: "auto", audio_codec: "none", format: "mp4", ...(rotation ? { angle: rotation } : {}) }]
-        : [{ width: 512, height: 512, crop: "limit", quality: "auto", fetch_format: "auto", ...(rotation ? { angle: rotation } : {}) }],
+        : [{ width: 512, height: 512, crop: "limit", quality: "auto:good", fetch_format: "auto", ...(rotation ? { angle: rotation } : {}) }],
     });
     if (isAnimated && Number(result.duration || 0) > 10) {
       await cloudinary.uploader.destroy(result.public_id, { resource_type: "video" });

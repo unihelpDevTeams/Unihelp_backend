@@ -20,6 +20,13 @@ const upload = multer({
 
 const ALLOWED_FOLDERS = new Set(["hostels", "marketplace", "stories"]);
 const ALLOWED_TYPES = new Set(["image", "video", "raw", "auto"]);
+const IMAGE_UPLOAD_TRANSFORMATION = {
+  width: 1600,
+  height: 1600,
+  crop: "limit",
+  quality: "auto:good",
+  fetch_format: "auto",
+};
 
 const isHtmlLikeFile = (mimetype = "", filename = "") => {
   const extension = String(filename || "").toLowerCase();
@@ -72,6 +79,7 @@ uploadsRoutes.post("/", authenticateFirebaseUser, upload.single("file"), async (
       resource_type: resourceType,
       public_id: req.body.publicId || undefined,
       overwrite: false,
+      ...(resourceType === "image" ? { transformation: [IMAGE_UPLOAD_TRANSFORMATION] } : {}),
     });
 
     res.status(201).json(normalizeUploadedAsset(result));

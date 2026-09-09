@@ -1,8 +1,50 @@
 import express from "express";
 import { query } from "../db/pool.js";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
+import { db } from "../firebase/firebaseAdmin.js";
 
 const router = express.Router();
+
+const ADMIN_EMAILS = new Set(["iadejuwon77@gmail.com", "onakomayaokiki@gmail.com"]);
+
+const requireAdmin = async (req, res, next) => {
+  if (req.user?.admin || ADMIN_EMAILS.has(String(req.user?.email || "").toLowerCase())) return next();
+  if (!db) return res.status(503).json({ success: false, error: "Admin service is unavailable" });
+  const snapshot = await db.collection("users").doc(req.user.uid).get();
+  if (snapshot.exists && snapshot.data()?.admin === true) return next();
+  return res.status(403).json({ success: false, error: "Admin access required" });
+};
+
+router.post("/:uid/premium-trial", authenticateFirebaseUser, requireAdmin, async (req, res) => {
+  try {
+    if (!db) return res.status(503).json({ success: false, error: "Premium service is unavailable" });
+    const targetRef = db.collection("users").doc(req.params.uid);
+    const target = await targetRef.get();
+    if (!target.exists) return res.status(404).json({ success: false, error: "User not found" });
+
+    const current = target.data() || {};
+    const currentExpiry = current.premiumExpiresAt?.toDate?.() || current.subscriptionExpiresAt?.toDate?.() || new Date(0);
+    const start = currentExpiry.getTime() > Date.now() ? currentExpiry : new Date();
+    const expiresAt = new Date(start.getTime() + 15 * 24 * 60 * 60 * 1000);
+
+    await targetRef.set({
+      premium: true,
+      premiumExpiresAt: expiresAt,
+      subscriptionStatus: "admin_grant",
+      premiumGrantedBy: req.user.uid,
+      premiumGrantedAt: new Date(),
+      updatedAt: new Date(),
+    }, { merge: true });
+
+    return res.json({
+      success: true,
+      data: { uid: req.params.uid, premium: true, premiumExpiresAt: expiresAt.toISOString() },
+    });
+  } catch (error) {
+    console.error("Error granting premium trial:", error);
+    return res.status(500).json({ success: false, error: "Could not grant premium access" });
+  }
+});
 
 // GET / - Get user profile
 router.get("/", authenticateFirebaseUser, async (req, res) => {
