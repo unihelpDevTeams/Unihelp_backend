@@ -7,6 +7,13 @@ const router = express.Router();
 
 const ADMIN_EMAILS = new Set(["iadejuwon77@gmail.com", "onakomayaokiki@gmail.com"]);
 
+const toDate = (value) => {
+  if (!value) return null;
+  if (typeof value.toDate === "function") return value.toDate();
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? null : date;
+};
+
 const requireAdmin = async (req, res, next) => {
   if (req.user?.admin || ADMIN_EMAILS.has(String(req.user?.email || "").toLowerCase())) return next();
   if (!db) return res.status(503).json({ success: false, error: "Admin service is unavailable" });
@@ -23,13 +30,16 @@ router.post("/:uid/premium-trial", authenticateFirebaseUser, requireAdmin, async
     if (!target.exists) return res.status(404).json({ success: false, error: "User not found" });
 
     const current = target.data() || {};
-    const currentExpiry = current.premiumExpiresAt?.toDate?.() || current.subscriptionExpiresAt?.toDate?.() || new Date(0);
+    const existingExpiries = [toDate(current.premiumExpiresAt), toDate(current.subscriptionExpiresAt), toDate(current.expiresAt)]
+      .filter((date) => date && date.getTime() > Date.now());
+    const currentExpiry = existingExpiries.reduce((latest, date) => date > latest ? date : latest, new Date(0));
     const start = currentExpiry.getTime() > Date.now() ? currentExpiry : new Date();
     const expiresAt = new Date(start.getTime() + 15 * 24 * 60 * 60 * 1000);
 
     await targetRef.set({
       premium: true,
       premiumExpiresAt: expiresAt,
+      subscriptionExpiresAt: expiresAt,
       subscriptionStatus: "admin_grant",
       premiumGrantedBy: req.user.uid,
       premiumGrantedAt: new Date(),
