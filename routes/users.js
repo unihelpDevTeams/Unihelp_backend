@@ -24,6 +24,18 @@ const requireAdmin = async (req, res, next) => {
   return res.status(403).json({ success: false, error: "Admin access required" });
 };
 
+const getLatestActiveExpiry = (profile = {}) => {
+  const expiries = [
+    toDate(profile.subscriptionExpiresAt),
+    toDate(profile.subscriptionExpireAt),
+    toDate(profile.subscriptionExpireAT),
+    toDate(profile.premiumExpiresAt),
+    toDate(profile.expiresAt),
+  ]
+    .filter((date) => date && date.getTime() > Date.now());
+  return expiries.reduce((latest, date) => (date > latest ? date : latest), new Date(0));
+};
+
 router.post("/:uid/premium-trial", authenticateFirebaseUser, requireAdmin, async (req, res) => {
   try {
     if (!db) return res.status(503).json({ success: false, error: "Premium service is unavailable" });
@@ -32,9 +44,7 @@ router.post("/:uid/premium-trial", authenticateFirebaseUser, requireAdmin, async
     if (!target.exists) return res.status(404).json({ success: false, error: "User not found" });
 
     const current = target.data() || {};
-    const existingExpiries = [toDate(current.premiumExpiresAt), toDate(current.subscriptionExpiresAt), toDate(current.expiresAt)]
-      .filter((date) => date && date.getTime() > Date.now());
-    const currentExpiry = existingExpiries.reduce((latest, date) => date > latest ? date : latest, new Date(0));
+    const currentExpiry = getLatestActiveExpiry(current);
     const start = currentExpiry.getTime() > Date.now() ? currentExpiry : new Date();
     const expiresAt = new Date(start.getTime() + ADMIN_PREMIUM_GIFT_DAYS * 24 * 60 * 60 * 1000);
 
@@ -83,6 +93,46 @@ router.post("/:uid/premium-trial", authenticateFirebaseUser, requireAdmin, async
   } catch (error) {
     console.error("Error granting premium trial:", error);
     return res.status(500).json({ success: false, error: "Could not grant premium access" });
+  }
+});
+
+router.post("/:uid/sync-premium-expiry", authenticateFirebaseUser, requireAdmin, async (req, res) => {
+  try {
+    if (!db) return res.status(503).json({ success: false, error: "Premium service is unavailable" });
+
+    const targetRef = db.collection("users").doc(req.params.uid);
+    const target = await targetRef.get();
+    if (!target.exists) return res.status(404).json({ success: false, error: "User not found" });
+
+    const current = target.data() || {};
+    const expiry = getLatestActiveExpiry(current);
+
+    if (!current.premium || expiry.getTime() <= Date.now()) {
+      return res.status(400).json({ success: false, error: "User does not have an active premium expiry to sync" });
+    }
+
+    await targetRef.set({
+      premium: true,
+      premiumExpiresAt: expiry,
+      subscriptionExpiresAt: expiry,
+      subscriptionStatus: current.subscriptionStatus || "active",
+      premiumExpirySyncedBy: req.user.uid,
+      premiumExpirySyncedAt: new Date(),
+      updatedAt: new Date(),
+    }, { merge: true });
+
+    const data = {
+      uid: req.params.uid,
+      premium: true,
+      premiumExpiresAt: expiry.toISOString(),
+      subscriptionExpiresAt: expiry.toISOString(),
+      subscriptionStatus: current.subscriptionStatus || "active",
+    };
+
+    return res.json({ success: true, ...data, data });
+  } catch (error) {
+    console.error("Error syncing premium expiry:", error);
+    return res.status(500).json({ success: false, error: "Could not sync premium expiry" });
   }
 });
 

@@ -279,6 +279,7 @@ export const spinStreakReward = async (uid, rewardId, idempotencyKey) => {
       transaction.set(userRef, {
         premium: true,
         premiumExpiresAt: premiumExpiry,
+        subscriptionExpiresAt: premiumExpiry,
         subscriptionStatus: "active",
         subscriptionProvider: user.subscriptionProvider || "streak_reward",
       }, { merge: true });

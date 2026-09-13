@@ -208,6 +208,9 @@ export const verifyPayment =
             subscriptionExpiresAt:
               expiryDate,
 
+            premiumExpiresAt:
+              expiryDate,
+
             updatedAt:
               new Date(),
           },
@@ -221,6 +224,13 @@ export const verifyPayment =
 
         message:
           "Payment verified successfully",
+
+        data: {
+          premium: true,
+          subscriptionExpiresAt: expiryDate.toISOString(),
+          premiumExpiresAt: expiryDate.toISOString(),
+          subscriptionStatus: "active",
+        },
       });
     } catch (error) {
       console.log(error);

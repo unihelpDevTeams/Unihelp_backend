@@ -27,6 +27,7 @@ const updateUserEntitlement = async (uid, subscription) => {
     subscriptionBilling: getGooglePlayBilling(subscription.productId),
     subscriptionStatus: subscription.status,
     subscriptionExpiresAt: toDate(subscription.expiryTime),
+    premiumExpiresAt: toDate(subscription.expiryTime),
     subscriptionAutoRenewing: subscription.autoRenewing,
     updatedAt: new Date(),
   }, { merge: true });
@@ -77,6 +78,8 @@ export const verifyGoogleSubscription = async (req, res) => {
         productId: subscription.productId,
         status: subscription.status,
         expiresAt: subscription.expiryTime,
+        subscriptionExpiresAt: subscription.expiryTime,
+        premiumExpiresAt: subscription.expiryTime,
         autoRenewing: subscription.autoRenewing,
       },
     });
