@@ -27,7 +27,6 @@ import streakRoutes from "./routes/streakRoutes.js";
 import migrationRoutes from "./routes/migration.js";
 import usersRoutes from "./routes/users.js";
 import stickerRoutes from "./routes/stickerRoutes.js";
-import databaseWipeRoutes from "./routes/databaseWipe.js";
 import { initializeDatabase } from "./db/init.js";
 import { createServer } from "http";
 import { Server } from "socket.io";
@@ -135,7 +134,6 @@ app.use("/api/gpa", gpaRoutes);
 app.use("/api/migration-status", migrationRoutes);
 app.use("/api/users", usersRoutes);
 app.use("/api/stickers", stickerRoutes);
-app.use("/api/admin/database-wipe", databaseWipeRoutes);
 console.log("Formulas route loaded successfully");
 app.get("/", (req, res) => {
   res.status(200).json({
