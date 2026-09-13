@@ -2,10 +2,12 @@ import express from "express";
 import { query } from "../db/pool.js";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
 import { db } from "../firebase/firebaseAdmin.js";
+import { sendAppNotification } from "../utils/notifications.js";
 
 const router = express.Router();
 
 const ADMIN_EMAILS = new Set(["iadejuwon77@gmail.com", "onakomayaokiki@gmail.com"]);
+const ADMIN_PREMIUM_GIFT_DAYS = 15;
 
 const toDate = (value) => {
   if (!value) return null;
@@ -34,7 +36,7 @@ router.post("/:uid/premium-trial", authenticateFirebaseUser, requireAdmin, async
       .filter((date) => date && date.getTime() > Date.now());
     const currentExpiry = existingExpiries.reduce((latest, date) => date > latest ? date : latest, new Date(0));
     const start = currentExpiry.getTime() > Date.now() ? currentExpiry : new Date();
-    const expiresAt = new Date(start.getTime() + 15 * 24 * 60 * 60 * 1000);
+    const expiresAt = new Date(start.getTime() + ADMIN_PREMIUM_GIFT_DAYS * 24 * 60 * 60 * 1000);
 
     await targetRef.set({
       premium: true,
@@ -46,9 +48,37 @@ router.post("/:uid/premium-trial", authenticateFirebaseUser, requireAdmin, async
       updatedAt: new Date(),
     }, { merge: true });
 
+    try {
+      await sendAppNotification({
+        userIds: req.params.uid,
+        title: "Premium gift activated",
+        body: `An admin gifted you ${ADMIN_PREMIUM_GIFT_DAYS} days of UniHelp Premium.`,
+        type: "premium",
+        category: "Premium",
+        url: "/premium",
+        data: {
+          premium: "true",
+          source: "admin_grant",
+          expiresAt: expiresAt.toISOString(),
+        },
+      });
+    } catch (notificationError) {
+      console.warn("Premium gift notification failed:", notificationError.message);
+    }
+
+    const data = {
+      uid: req.params.uid,
+      premium: true,
+      premiumExpiresAt: expiresAt.toISOString(),
+      subscriptionExpiresAt: expiresAt.toISOString(),
+      subscriptionStatus: "admin_grant",
+      daysGranted: ADMIN_PREMIUM_GIFT_DAYS,
+    };
+
     return res.json({
       success: true,
-      data: { uid: req.params.uid, premium: true, premiumExpiresAt: expiresAt.toISOString() },
+      ...data,
+      data,
     });
   } catch (error) {
     console.error("Error granting premium trial:", error);

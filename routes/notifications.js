@@ -404,10 +404,14 @@ router.post("/send-user", async (req, res) => {
     }
 
     const recipients = [];
+    const targetUsers = [];
 
     for (const uid of ids) {
       const userSnap = await db.collection("users").doc(uid).get();
       const user = userSnap.data() || {};
+
+      targetUsers.push({ userId: uid });
+
       const notificationsEnabled =
         user.notificationsEnabled !== false &&
         user.notifications?.enabled !== false;
@@ -419,10 +423,6 @@ router.post("/send-user", async (req, res) => {
       } else if (user.fcmToken) {
         recipients.push({ userId: uid, token: user.fcmToken, pushType: "fcm" });
       }
-    }
-
-    if (recipients.length === 0) {
-      return res.status(200).json({ success: true, sent: 0, recipients: 0 });
     }
 
     const payload = buildMessagePayload({
@@ -470,7 +470,7 @@ router.post("/send-user", async (req, res) => {
       VALUES ($1, $2, $3, $4, $5, $6, $7, false, NOW())
     `;
 
-    for (const recipient of recipients) {
+    for (const recipient of targetUsers) {
       await query(insertSql, [
         recipient.userId,
         title,
@@ -482,7 +482,7 @@ router.post("/send-user", async (req, res) => {
       ]);
     }
 
-    return res.status(200).json({ success: true, sent, recipients: recipients.length });
+    return res.status(200).json({ success: true, sent, recipients: targetUsers.length, pushRecipients: recipients.length });
   } catch (error) {
     console.error("User notification send failed:", error);
     return res.status(500).json({ success: false, message: "Failed to send user notification." });

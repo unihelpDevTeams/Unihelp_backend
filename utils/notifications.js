@@ -64,11 +64,14 @@ export const sendAppNotification = async ({
     return null;
   }
 
+  const targetRecipients = [];
   const resolvedRecipients = [];
 
   for (const uid of recipients) {
     const userSnap = await db.collection("users").doc(uid).get();
     const user = userSnap.data() || {};
+
+    targetRecipients.push({ userId: uid });
 
     const notificationsEnabled =
       user.notificationsEnabled !== false &&
@@ -81,10 +84,6 @@ export const sendAppNotification = async ({
     } else if (user.fcmToken) {
       resolvedRecipients.push({ userId: uid, token: user.fcmToken, pushType: "fcm" });
     }
-  }
-
-  if (resolvedRecipients.length === 0) {
-    return { success: true, sent: 0, recipients: 0 };
   }
 
   let sent = 0;
@@ -138,7 +137,7 @@ export const sendAppNotification = async ({
     VALUES ($1, $2, $3, $4, $5, $6, $7, false, NOW())
   `;
 
-  for (const recipient of resolvedRecipients) {
+  for (const recipient of targetRecipients) {
     await query(insertSql, [
       recipient.userId,
       title,
@@ -153,6 +152,7 @@ export const sendAppNotification = async ({
   return {
     success: true,
     sent,
-    recipients: resolvedRecipients.length,
+    recipients: targetRecipients.length,
+    pushRecipients: resolvedRecipients.length,
   };
 };
