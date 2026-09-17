@@ -4,6 +4,8 @@ import * as pdfParseModule from "pdf-parse";
 import { getDocument, OPS } from "pdfjs-dist/legacy/build/pdf.mjs";
 import { createCanvas, DOMMatrix, ImageData, Path2D } from "@napi-rs/canvas";
 import crypto from "crypto";
+import path from "path";
+import { fileURLToPath } from "url";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
 import { admin, db } from "../firebase/firebaseAdmin.js";
 import { deleteCloudinaryAssets, isCloudinaryAdminConfigured } from "../utils/cloudinaryCleanup.js";
@@ -16,6 +18,12 @@ const questionsRoutes = express.Router();
 const strip = (value) => String(value ?? "").trim();
 const randomId = () => crypto.randomUUID();
 const pdfParse = pdfParseModule.default ?? pdfParseModule;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const PDFJS_STANDARD_FONT_DATA_URL = path
+  .resolve(__dirname, "../node_modules/pdfjs-dist/standard_fonts/")
+  .replace(/\\/g, "/")
+  .replace(/\/?$/, "/");
 const DOCUMENT_BLOCK_TYPES = new Set([
   "heading",
   "paragraph",
@@ -1013,7 +1021,11 @@ const extractPdfContent = async (pdfBuffer, sourceId = randomId()) => {
     throw new Error("A valid PDF buffer is required for PDF content extraction");
   }
 
-  const pdf = await getDocument({ data: new Uint8Array(pdfBuffer), disableWorker: true }).promise;
+  const pdf = await getDocument({
+    data: new Uint8Array(pdfBuffer),
+    disableWorker: true,
+    standardFontDataUrl: PDFJS_STANDARD_FONT_DATA_URL,
+  }).promise;
   const pages = [];
   const assets = [];
   const warnings = [];
@@ -1171,7 +1183,11 @@ const extractPdfVisuals = async (pdfBuffer, sourceId = randomId()) => {
     throw new Error("A valid PDF buffer is required for visual extraction");
   }
 
-  const pdf = await getDocument({ data: new Uint8Array(pdfBuffer), disableWorker: true }).promise;
+  const pdf = await getDocument({
+    data: new Uint8Array(pdfBuffer),
+    disableWorker: true,
+    standardFontDataUrl: PDFJS_STANDARD_FONT_DATA_URL,
+  }).promise;
   const pages = [];
   let hasScannedPage = false;
 
