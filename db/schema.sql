@@ -80,6 +80,29 @@ CREATE TABLE IF NOT EXISTS marketplace_reviews (
 CREATE INDEX IF NOT EXISTS idx_marketplace_reviews_listing_created ON marketplace_reviews(listing_id, hidden, created_at DESC);
 CREATE INDEX IF NOT EXISTS idx_marketplace_reviews_seller ON marketplace_reviews(seller_id, hidden);
 
+CREATE TABLE IF NOT EXISTS marketplace_sponsorships (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  listing_id TEXT NOT NULL REFERENCES marketplace_items(id) ON DELETE CASCADE,
+  seller_id TEXT NOT NULL,
+  plan_id TEXT NOT NULL,
+  duration_days INTEGER NOT NULL CHECK (duration_days > 0),
+  amount INTEGER NOT NULL CHECK (amount > 0),
+  currency TEXT NOT NULL DEFAULT 'NGN',
+  status TEXT NOT NULL DEFAULT 'pending_payment',
+  payment_provider TEXT NOT NULL DEFAULT 'flutterwave',
+  payment_reference TEXT NOT NULL UNIQUE,
+  transaction_id TEXT,
+  starts_at TIMESTAMPTZ,
+  expires_at TIMESTAMPTZ,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE INDEX IF NOT EXISTS idx_marketplace_sponsorships_listing_status ON marketplace_sponsorships(listing_id, status, expires_at DESC);
+CREATE INDEX IF NOT EXISTS idx_marketplace_sponsorships_seller_created ON marketplace_sponsorships(seller_id, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_marketplace_sponsorships_status_expires ON marketplace_sponsorships(status, expires_at DESC);
+CREATE UNIQUE INDEX IF NOT EXISTS idx_marketplace_sponsorships_transaction ON marketplace_sponsorships(transaction_id) WHERE transaction_id IS NOT NULL;
+
 CREATE TABLE IF NOT EXISTS stories (
   id TEXT PRIMARY KEY,
   author_id TEXT NOT NULL,

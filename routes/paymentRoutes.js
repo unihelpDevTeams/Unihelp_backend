@@ -1,6 +1,7 @@
 import express from "express";
 
 import {
+  flutterwaveWebhook,
   initializePremiumPayment,
   verifyPayment,
 } from "../controllers/paymentController.js";
@@ -18,6 +19,11 @@ router.post(
   "/verify-payment",
   authenticateFirebaseUser,
   verifyPayment
+);
+
+router.post(
+  "/flutterwave/webhook",
+  flutterwaveWebhook
 );
 
 export default router;

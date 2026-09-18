@@ -5,6 +5,7 @@ import {
   verifyFlutterwavePayment,
 } from "../services/flutterwaveService.js";
 import { getPremiumAmount, getPremiumPlan } from "../config/premiumPlans.js";
+import { processMarketplaceSponsorshipWebhook } from "../services/marketplaceSponsorshipService.js";
 
 export const initializePremiumPayment = async (req, res) => {
   try {
@@ -242,3 +243,36 @@ export const verifyPayment =
       });
     }
   };
+
+export const flutterwaveWebhook = async (req, res) => {
+  try {
+    const configuredHash =
+      process.env.FLUTTERWAVE_WEBHOOK_SECRET_HASH ||
+      process.env.FLW_WEBHOOK_SECRET_HASH ||
+      process.env.FLW_WEBHOOK_HASH ||
+      "";
+    const receivedHash = req.headers["verif-hash"];
+
+    if (!configuredHash) {
+      return res.status(500).json({ success: false, error: "Flutterwave webhook hash is not configured" });
+    }
+
+    if (receivedHash !== configuredHash) {
+      return res.status(401).json({ success: false, error: "Invalid webhook signature" });
+    }
+
+    const event = String(req.body?.event || "").toLowerCase();
+    if (event && !event.includes("charge.completed")) {
+      return res.status(200).json({ success: true, ignored: true });
+    }
+
+    const result = await processMarketplaceSponsorshipWebhook(req.body);
+    return res.status(200).json({ success: true, result });
+  } catch (error) {
+    console.error("Flutterwave webhook failed:", error);
+    return res.status(error.statusCode || 500).json({
+      success: false,
+      error: error.message || "Webhook processing failed",
+    });
+  }
+};

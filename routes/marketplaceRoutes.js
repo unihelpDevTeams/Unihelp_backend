@@ -13,11 +13,18 @@ import {
   toIso,
 } from "../utils/apiHelpers.js";
 import { deleteCloudinaryAssets } from "../utils/cloudinaryCleanup.js";
+import {
+  initializeMarketplaceSponsorship,
+  listMarketplaceSponsorships,
+  mapSponsorship,
+  publicSponsorshipPlans,
+  verifyMarketplaceSponsorshipPayment,
+} from "../services/marketplaceSponsorshipService.js";
 
 const marketplaceRoutes = express.Router();
 const RESERVED = ["id", "title", "category", "price", "phone", "description", "images", "imageAssets", "userId", "ownerId", "sellerId", "createdAt", "updatedAt", "status", "verified", "premiumUser"];
 
-const isActiveSponsored = (row = {}) => Boolean(row.is_sponsored && row.sponsored_until && new Date(row.sponsored_until).getTime() > Date.now());
+const isActiveSponsored = (row = {}) => Boolean(row.active_sponsored_until && new Date(row.active_sponsored_until).getTime() > Date.now());
 
 const requireAdmin = (req, res) => {
   if (req.user?.admin === true) return true;
@@ -52,9 +59,9 @@ const mapItem = (row, assets = []) => ({
   verified: row.verified,
   premiumUser: row.premium_user,
   isSponsored: isActiveSponsored(row),
-  sponsoredUntil: toIso(row.sponsored_until),
-  sponsoredPriority: row.sponsored_priority || 0,
-  sponsoredStatus: row.sponsored_status || "inactive",
+  sponsoredUntil: toIso(row.active_sponsored_until),
+  sponsoredPriority: row.active_sponsored_priority || 0,
+  sponsoredStatus: isActiveSponsored(row) ? "active" : "inactive",
   ratingAverage: row.rating_average === null || row.rating_average === undefined ? null : Number(row.rating_average),
   reviewCount: Number(row.review_count || 0),
   sellerRatingAverage: row.seller_rating_average === null || row.seller_rating_average === undefined ? null : Number(row.seller_rating_average),
@@ -70,7 +77,9 @@ const listingSelect = `
     COALESCE(ROUND(AVG(mr.rating)::numeric, 1), NULL) AS rating_average,
     COUNT(mr.id)::int AS review_count,
     seller_stats.seller_rating_average,
-    COALESCE(seller_stats.seller_review_count, 0)::int AS seller_review_count
+    COALESCE(seller_stats.seller_review_count, 0)::int AS seller_review_count,
+    sponsorship.active_sponsored_until,
+    COALESCE(sponsorship.active_sponsored_priority, 0)::int AS active_sponsored_priority
   FROM marketplace_items mi
   LEFT JOIN marketplace_reviews mr ON mr.listing_id = mi.id AND mr.hidden = FALSE
   LEFT JOIN LATERAL (
@@ -78,9 +87,14 @@ const listingSelect = `
     FROM marketplace_reviews sr
     WHERE sr.seller_id = mi.seller_id AND sr.hidden = FALSE
   ) seller_stats ON TRUE
+  LEFT JOIN LATERAL (
+    SELECT MAX(ms.expires_at) AS active_sponsored_until, COUNT(ms.id)::int AS active_sponsored_priority
+    FROM marketplace_sponsorships ms
+    WHERE ms.listing_id = mi.id AND ms.status = 'active' AND ms.expires_at > NOW()
+  ) sponsorship ON TRUE
 `;
 
-const listingGroupBy = "GROUP BY mi.id, seller_stats.seller_rating_average, seller_stats.seller_review_count";
+const listingGroupBy = "GROUP BY mi.id, seller_stats.seller_rating_average, seller_stats.seller_review_count, sponsorship.active_sponsored_until, sponsorship.active_sponsored_priority";
 
 const validateItem = (payload = {}, partial = false) => {
   const next = {
@@ -128,7 +142,7 @@ marketplaceRoutes.get("/", async (req, res) => {
       clauses.push(`to_tsvector('simple', coalesce(mi.title, '') || ' ' || coalesce(mi.category, '') || ' ' || coalesce(mi.description, '') || ' ' || coalesce(mi.extra->>'location', '')) @@ plainto_tsquery('simple', $${params.length})`);
     }
     if (req.query.sponsored === "active") {
-      clauses.push("mi.is_sponsored = TRUE AND mi.sponsored_until > NOW()");
+      clauses.push("EXISTS (SELECT 1 FROM marketplace_sponsorships ms WHERE ms.listing_id = mi.id AND ms.status = 'active' AND ms.expires_at > NOW())");
     }
 
     const whereSql = clauses.length ? `WHERE ${clauses.join(" AND ")}` : "";
@@ -141,7 +155,7 @@ marketplaceRoutes.get("/", async (req, res) => {
         ? "ORDER BY mi.price DESC NULLS LAST, mi.created_at DESC"
         : sort === "rating_desc"
           ? "ORDER BY review_count DESC, rating_average DESC NULLS LAST, mi.created_at DESC"
-          : "ORDER BY (mi.is_sponsored = TRUE AND mi.sponsored_until > NOW()) DESC, mi.sponsored_priority DESC, mi.created_at DESC";
+          : "ORDER BY (sponsorship.active_sponsored_until IS NOT NULL) DESC, sponsorship.active_sponsored_until DESC NULLS LAST, mi.created_at DESC";
     const result = await query(`${listingSelect} ${whereSql} ${listingGroupBy} ${orderSql} LIMIT $${params.length - 1} OFFSET $${params.length}`, params);
     const ids = result.rows.map((row) => row.id);
     const media = ids.length ? await query("SELECT * FROM feature_media WHERE entity_type = 'marketplace' AND entity_id = ANY($1) ORDER BY position ASC", [ids]) : { rows: [] };
@@ -159,9 +173,9 @@ marketplaceRoutes.get("/admin/sponsored", authenticateFirebaseUser, async (req, 
   try {
     const result = await query(
       `${listingSelect}
-       WHERE mi.is_sponsored = TRUE OR mi.sponsored_until IS NOT NULL
+       WHERE EXISTS (SELECT 1 FROM marketplace_sponsorships ms WHERE ms.listing_id = mi.id)
        ${listingGroupBy}
-       ORDER BY is_sponsored DESC, sponsored_until DESC NULLS LAST, sponsored_priority DESC, created_at DESC`
+       ORDER BY active_sponsored_until DESC NULLS LAST, created_at DESC`
     );
     const ids = result.rows.map((row) => row.id);
     const media = ids.length ? await query("SELECT * FROM feature_media WHERE entity_type = 'marketplace' AND entity_id = ANY($1) ORDER BY position ASC", [ids]) : { rows: [] };
@@ -170,6 +184,91 @@ marketplaceRoutes.get("/admin/sponsored", authenticateFirebaseUser, async (req, 
   } catch (error) {
     console.error("Error fetching sponsored marketplace listings:", error);
     res.status(500).json({ error: "Failed to fetch sponsored listings" });
+  }
+});
+
+marketplaceRoutes.get("/sponsorship/plans", authenticateFirebaseUser, (req, res) => {
+  res.json({ plans: publicSponsorshipPlans() });
+});
+
+marketplaceRoutes.get("/sponsorships", authenticateFirebaseUser, async (req, res) => {
+  try {
+    const items = await listMarketplaceSponsorships({
+      sellerId: req.user.uid,
+      status: cleanString(req.query.status),
+      listingId: cleanString(req.query.listingId),
+    });
+    res.json({ items });
+  } catch (error) {
+    console.error("Error fetching marketplace sponsorships:", error);
+    res.status(500).json({ error: "Failed to fetch sponsorships" });
+  }
+});
+
+marketplaceRoutes.get("/admin/sponsorships", authenticateFirebaseUser, async (req, res) => {
+  if (!requireAdmin(req, res)) return;
+  try {
+    const items = await listMarketplaceSponsorships({
+      admin: true,
+      status: cleanString(req.query.status),
+      listingId: cleanString(req.query.listingId),
+    });
+    res.json({ items });
+  } catch (error) {
+    console.error("Error fetching admin marketplace sponsorships:", error);
+    res.status(500).json({ error: "Failed to fetch sponsorship records" });
+  }
+});
+
+marketplaceRoutes.get("/sponsorships/:sponsorshipId", authenticateFirebaseUser, async (req, res) => {
+  try {
+    const result = await query(
+      `SELECT ms.*, mi.title AS listing_title
+       FROM marketplace_sponsorships ms
+       LEFT JOIN marketplace_items mi ON mi.id = ms.listing_id
+       WHERE ms.id = $1 AND ms.seller_id = $2`,
+      [req.params.sponsorshipId, req.user.uid]
+    );
+    if (!result.rowCount) return res.status(404).json({ error: "Sponsorship request not found" });
+    res.json(mapSponsorship(result.rows[0]));
+  } catch (error) {
+    console.error("Error fetching marketplace sponsorship:", error);
+    res.status(500).json({ error: "Failed to fetch sponsorship" });
+  }
+});
+
+marketplaceRoutes.post("/:id/sponsorship", authenticateFirebaseUser, async (req, res) => {
+  try {
+    const result = await initializeMarketplaceSponsorship({
+      listingId: req.params.id,
+      sellerId: req.user.uid,
+      planId: cleanString(req.body.planId),
+      user: req.user,
+      redirectUrl: cleanString(req.body.redirectUrl),
+    });
+
+    if (!result.paymentLink) {
+      return res.status(500).json({ error: "Payment link was not returned" });
+    }
+
+    res.status(201).json({ success: true, data: result });
+  } catch (error) {
+    console.error("Error initializing marketplace sponsorship:", error);
+    res.status(error.statusCode || 500).json({ error: error.message || "Failed to start sponsorship payment" });
+  }
+});
+
+marketplaceRoutes.post("/sponsorships/:sponsorshipId/verify", authenticateFirebaseUser, async (req, res) => {
+  try {
+    const sponsorship = await verifyMarketplaceSponsorshipPayment({
+      sponsorshipId: req.params.sponsorshipId,
+      sellerId: req.user.uid,
+      transactionId: req.body.transaction_id || req.body.transactionId,
+    });
+    res.json({ success: true, data: { sponsorship } });
+  } catch (error) {
+    console.error("Error verifying marketplace sponsorship payment:", error);
+    res.status(error.statusCode || 500).json({ error: error.message || "Payment verification failed" });
   }
 });
 
@@ -355,26 +454,21 @@ marketplaceRoutes.delete("/:id/reviews/:reviewId", authenticateFirebaseUser, asy
 
 marketplaceRoutes.post("/:id/sponsor", authenticateFirebaseUser, async (req, res) => {
   if (!requireAdmin(req, res)) return;
-  try {
-    const days = parsePositiveInt(req.body.days, 7, 365);
-    const priority = parsePositiveInt(req.body.priority, 1, 100);
-    const until = req.body.sponsoredUntil ? new Date(req.body.sponsoredUntil) : new Date(Date.now() + days * 24 * 60 * 60 * 1000);
-    if (Number.isNaN(until.getTime())) return res.status(400).json({ error: "Invalid sponsoredUntil date" });
-    const result = await query(
-      "UPDATE marketplace_items SET is_sponsored=TRUE, sponsored_until=$2, sponsored_priority=$3, sponsored_status='active', updated_at=NOW() WHERE id=$1 RETURNING *",
-      [req.params.id, until.toISOString(), priority]
-    );
-    if (!result.rowCount) return res.status(404).json({ error: "Marketplace listing not found" });
-    res.json(mapItem(result.rows[0], []));
-  } catch (error) {
-    console.error("Error sponsoring marketplace listing:", error);
-    res.status(500).json({ error: "Failed to sponsor listing" });
-  }
+  res.status(410).json({
+    error: "Marketplace sponsorships are activated only after verified Flutterwave payment",
+  });
 });
 
 marketplaceRoutes.delete("/:id/sponsor", authenticateFirebaseUser, async (req, res) => {
   if (!requireAdmin(req, res)) return;
   try {
+    await query(
+      `UPDATE marketplace_sponsorships
+       SET status = CASE WHEN status = 'active' THEN 'cancelled' ELSE status END,
+           updated_at = NOW()
+       WHERE listing_id = $1 AND status = 'active'`,
+      [req.params.id]
+    );
     const result = await query(
       "UPDATE marketplace_items SET is_sponsored=FALSE, sponsored_until=NULL, sponsored_priority=0, sponsored_status='inactive', updated_at=NOW() WHERE id=$1 RETURNING *",
       [req.params.id]

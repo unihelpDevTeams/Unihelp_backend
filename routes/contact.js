@@ -2,6 +2,7 @@ import express from "express";
 import crypto from "crypto";
 import { query } from "../db/pool.js";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
+import { notifyAdminsOfSupportItem } from "../utils/supportAdminNotifications.js";
 
 const router = express.Router();
 
@@ -35,6 +36,14 @@ const handleContact = async (req, res) => {
        VALUES ($1, $2, $3, $4, $5, $6, $7, 'pending')`,
       [id, name.trim(), email.trim().toLowerCase(), phone?.trim() || "", subject.trim(), message.trim(), userId]
     );
+
+    await notifyAdminsOfSupportItem({
+      kind: "contact",
+      id,
+      title: subject.trim(),
+      body: message.trim(),
+      submitter: name.trim(),
+    });
 
     res.status(201).json({
       message: "Message sent successfully",

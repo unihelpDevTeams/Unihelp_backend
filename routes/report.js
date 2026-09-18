@@ -2,6 +2,7 @@ import express from "express";
 import crypto from "crypto";
 import { query } from "../db/pool.js";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
+import { notifyAdminsOfSupportItem } from "../utils/supportAdminNotifications.js";
 
 const router = express.Router();
 
@@ -39,6 +40,14 @@ const handleReport = async (req, res) => {
        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, 'pending')`,
       [id, userId, displayName, email, effectiveReportType.trim(), effectiveTitle.trim(), effectiveDescription.trim(), JSON.stringify([])]
     );
+
+    await notifyAdminsOfSupportItem({
+      kind: "report",
+      id,
+      title: effectiveTitle.trim() || effectiveReportType.trim(),
+      body: effectiveDescription.trim(),
+      submitter: displayName || email,
+    });
 
     res.status(201).json({
       message: "Report submitted successfully",

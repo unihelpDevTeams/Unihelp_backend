@@ -2,6 +2,7 @@ import express from "express";
 import crypto from "crypto";
 import { query } from "../db/pool.js";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
+import { notifyAdminsOfSupportItem } from "../utils/supportAdminNotifications.js";
 
 const router = express.Router();
 
@@ -33,6 +34,14 @@ const handleSuggestion = async (req, res) => {
        VALUES ($1, $2, $3, $4, $5, 'pending')`,
       [id, userId, title.trim(), category.trim(), description?.trim() || ""]
     );
+
+    await notifyAdminsOfSupportItem({
+      kind: "suggestion",
+      id,
+      title: title.trim(),
+      body: description?.trim() || category.trim(),
+      submitter: req.user?.displayName || req.user?.name || req.user?.email || "",
+    });
 
     res.status(201).json({
       message: "Suggestion submitted successfully",
