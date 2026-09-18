@@ -55,6 +55,31 @@ CREATE INDEX IF NOT EXISTS idx_marketplace_category ON marketplace_items(LOWER(c
 CREATE INDEX IF NOT EXISTS idx_marketplace_price ON marketplace_items(price);
 CREATE INDEX IF NOT EXISTS idx_marketplace_search ON marketplace_items USING GIN (to_tsvector('simple', coalesce(title, '') || ' ' || coalesce(category, '') || ' ' || coalesce(description, '')));
 
+ALTER TABLE marketplace_items ADD COLUMN IF NOT EXISTS is_sponsored BOOLEAN NOT NULL DEFAULT FALSE;
+ALTER TABLE marketplace_items ADD COLUMN IF NOT EXISTS sponsored_until TIMESTAMPTZ;
+ALTER TABLE marketplace_items ADD COLUMN IF NOT EXISTS sponsored_priority INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE marketplace_items ADD COLUMN IF NOT EXISTS sponsored_status TEXT NOT NULL DEFAULT 'inactive';
+
+CREATE INDEX IF NOT EXISTS idx_marketplace_sponsored ON marketplace_items(is_sponsored, sponsored_until DESC, sponsored_priority DESC);
+
+CREATE TABLE IF NOT EXISTS marketplace_reviews (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  listing_id TEXT NOT NULL REFERENCES marketplace_items(id) ON DELETE CASCADE,
+  reviewer_id TEXT NOT NULL,
+  reviewer_name TEXT NOT NULL DEFAULT 'UniHelp student',
+  reviewer_avatar TEXT,
+  seller_id TEXT NOT NULL,
+  rating INTEGER NOT NULL CHECK (rating BETWEEN 1 AND 5),
+  comment TEXT NOT NULL DEFAULT '',
+  hidden BOOLEAN NOT NULL DEFAULT FALSE,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  UNIQUE (listing_id, reviewer_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_marketplace_reviews_listing_created ON marketplace_reviews(listing_id, hidden, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_marketplace_reviews_seller ON marketplace_reviews(seller_id, hidden);
+
 CREATE TABLE IF NOT EXISTS stories (
   id TEXT PRIMARY KEY,
   author_id TEXT NOT NULL,
