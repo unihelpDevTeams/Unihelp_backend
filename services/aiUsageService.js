@@ -6,6 +6,11 @@ const DAILY_LIMITS = {
   premium: 10,
 };
 
+const toUsageCount = (value) => {
+  const parsed = Number(value || 0);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : 0;
+};
+
 /**
  * Get today's date as YYYY-MM-DD in Africa/Lagos timezone.
  */
@@ -29,7 +34,7 @@ export function getAiUsageLimit(isPremium = false) {
 export async function getAiUsageStatus(uid, isPremium = false) {
   if (!uid) {
     const limit = getAiUsageLimit(isPremium);
-    return { used: 0, limit, remaining: limit, allowed: true, uid: null };
+    return { used: 0, count: 0, limit, remaining: limit, allowed: true, uid: null };
   }
 
   const today = getTodayKey();
@@ -38,13 +43,13 @@ export async function getAiUsageStatus(uid, isPremium = false) {
   try {
     const doc = await db.collection(COLLECTION).doc(docId).get();
     const data = doc.exists ? doc.data() : null;
-    const used = data?.count || 0;
+    const used = toUsageCount(data?.count ?? data?.used);
     const limit = getAiUsageLimit(isPremium);
-    return { used, limit, remaining: Math.max(0, limit - used), allowed: used < limit, uid };
+    return { used, count: used, limit, remaining: Math.max(0, limit - used), allowed: used < limit, uid };
   } catch (error) {
     console.error('[aiUsageService] Failed to fetch usage:', error.message);
     const limit = getAiUsageLimit(isPremium);
-    return { used: 0, limit, remaining: limit, allowed: true, uid };
+    return { used: 0, count: 0, limit, remaining: limit, allowed: true, uid };
   }
 }
 
@@ -54,7 +59,7 @@ export async function getAiUsageStatus(uid, isPremium = false) {
 export async function consumeAiUsage(uid, isPremium = false) {
   if (!uid) {
     const limit = getAiUsageLimit(isPremium);
-    return { used: 1, limit, remaining: Math.max(0, limit - 1), allowed: true, uid: null };
+    return { used: 1, count: 1, limit, remaining: Math.max(0, limit - 1), allowed: true, uid: null };
   }
 
   const today = getTodayKey();
@@ -63,28 +68,29 @@ export async function consumeAiUsage(uid, isPremium = false) {
 
   try {
     const docRef = db.collection(COLLECTION).doc(docId);
-    const result = await docRef.runTransaction(async (transaction) => {
+    const result = await db.runTransaction(async (transaction) => {
       const doc = await transaction.get(docRef);
-      const currentCount = doc.exists ? (doc.data().count || 0) : 0;
+      const currentCount = doc.exists ? toUsageCount(doc.data().count ?? doc.data().used) : 0;
 
       if (currentCount >= limit) {
-        return { used: currentCount, limit, remaining: 0, allowed: false, uid };
+        return { used: currentCount, count: currentCount, limit, remaining: 0, allowed: false, uid };
       }
 
       const newCount = currentCount + 1;
       transaction.set(docRef, {
         count: newCount,
+        used: newCount,
         uid,
         date: today,
         updatedAt: new Date().toISOString(),
       }, { merge: true });
 
-      return { used: newCount, limit, remaining: Math.max(0, limit - newCount), allowed: true, uid };
+      return { used: newCount, count: newCount, limit, remaining: Math.max(0, limit - newCount), allowed: true, uid };
     });
 
     return result;
   } catch (error) {
     console.error('[aiUsageService] Failed to consume usage:', error.message);
-    return { used: 1, limit, remaining: Math.max(0, limit - 1), allowed: true, uid };
+    throw new Error('AI usage could not be updated. Please try again.');
   }
 }
