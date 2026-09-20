@@ -36,6 +36,52 @@ const getLatestActiveExpiry = (profile = {}) => {
   return expiries.reduce((latest, date) => (date > latest ? date : latest), new Date(0));
 };
 
+const getFriendIds = async (uid, max = 1000) => {
+  if (!uid || !db) return [];
+  const snapshot = await db
+    .collection("friends")
+    .where("users", "array-contains", uid)
+    .limit(max)
+    .get();
+  const ids = new Set();
+  snapshot.docs.forEach((friendship) => {
+    const users = friendship.data()?.users || [];
+    users.forEach((id) => {
+      if (id && id !== uid) ids.add(id);
+    });
+  });
+  return [...ids];
+};
+
+router.get("/:uid/social-counts", authenticateFirebaseUser, async (req, res) => {
+  try {
+    if (!db) return res.status(503).json({ success: false, error: "Social graph is unavailable" });
+    const targetUid = String(req.params.uid || "");
+    if (!targetUid) return res.status(400).json({ success: false, error: "User id is required" });
+
+    const [targetFriends, viewerFriends] = await Promise.all([
+      getFriendIds(targetUid),
+      req.user.uid === targetUid ? Promise.resolve([]) : getFriendIds(req.user.uid),
+    ]);
+
+    const viewerSet = new Set(viewerFriends);
+    const mutualFriendIds = req.user.uid === targetUid ? [] : targetFriends.filter((id) => viewerSet.has(id));
+
+    const data = {
+      uid: targetUid,
+      friendCount: targetFriends.length,
+      mutualCount: mutualFriendIds.length,
+      mutualFriendIds: mutualFriendIds.slice(0, 10),
+      isFriend: targetFriends.includes(req.user.uid),
+    };
+
+    return res.json({ success: true, data });
+  } catch (error) {
+    console.error("Error fetching social counts:", error);
+    return res.status(500).json({ success: false, error: "Could not load friend counts" });
+  }
+});
+
 router.post("/:uid/premium-trial", authenticateFirebaseUser, requireAdmin, async (req, res) => {
   try {
     if (!db) return res.status(503).json({ success: false, error: "Premium service is unavailable" });
