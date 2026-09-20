@@ -79,7 +79,7 @@ router.get("/packs", async (req, res) => {
 
 router.get("/", async (req, res) => {
   try {
-    const data = await listStickers(req.user.uid, { packId: req.query.packId, search: req.query.search });
+    const data = await listStickers(req.user.uid, { packId: req.query.packId, search: req.query.search, owner: req.query.owner });
     res.json({ success: true, data });
   } catch (error) { handleError(res, error); }
 });

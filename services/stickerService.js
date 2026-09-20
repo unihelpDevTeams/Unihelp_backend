@@ -144,7 +144,7 @@ export const listStickerPacks = async (uid) => {
     .filter((pack) => pack.ownerId === uid || (!pack.ownerId && (!pack.isPremium || isPremiumEntitled(profile))));
 };
 
-export const listStickers = async (uid, { packId, search, recent = false, favorites = false } = {}) => {
+export const listStickers = async (uid, { packId, search, owner, recent = false, favorites = false } = {}) => {
   const profile = await getTrustedEntitlementProfile(uid);
   const premium = isPremiumEntitled(profile);
   let snapshots;
@@ -155,6 +155,9 @@ export const listStickers = async (uid, { packId, search, recent = false, favori
     const stickerIds = refs.docs.map((item) => item.id);
     if (!stickerIds.length) return [];
     snapshots = await Promise.all(stickerIds.map((id) => stickerCollection().doc(id).get()));
+  } else if (owner === "me") {
+    const custom = await stickerCollection().where("ownerId", "==", uid).where("isActive", "==", true).limit(STICKER_LIMITS.maxStickers).get();
+    snapshots = custom.docs;
   } else {
     const [official, custom] = await Promise.all([
       stickerCollection().where("ownerId", "==", null).where("isActive", "==", true).limit(300).get(),
