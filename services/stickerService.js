@@ -41,6 +41,19 @@ const stickerTextSize = (textSize) => {
   return 46;
 };
 
+const textOverlay = (text, textSize, color, x = 0, y = 42) => ({
+  overlay: {
+    font_family: "Arial",
+    font_size: stickerTextSize(textSize),
+    font_weight: "bold",
+    text,
+  },
+  color,
+  gravity: "south",
+  x,
+  y,
+});
+
 export const buildEditedStickerUrls = (upload, editor, leadingTransformations = []) => {
   if (upload.type !== "image" || !upload.cloudinaryPublicId || (!editor.text && !editor.emoji)) {
     return {
@@ -73,18 +86,15 @@ export const buildEditedStickerUrls = (upload, editor, leadingTransformations = 
   }
 
   if (editor.text) {
-    const textOverlay = {
-      overlay: {
-        font_family: "Arial",
-        font_size: stickerTextSize(editor.textSize),
-        font_weight: "bold",
-        text: editor.text,
-      },
-      color: editor.textColor.replace("#", "rgb:"),
-      gravity: "south",
-      y: 42,
-    };
-    transformations.push(textOverlay);
+    if (editor.outline) {
+      transformations.push(
+        textOverlay(editor.text, editor.textSize, "rgb:000000", -2, 44),
+        textOverlay(editor.text, editor.textSize, "rgb:000000", 2, 44),
+        textOverlay(editor.text, editor.textSize, "rgb:000000", -2, 40),
+        textOverlay(editor.text, editor.textSize, "rgb:000000", 2, 40)
+      );
+    }
+    transformations.push(textOverlay(editor.text, editor.textSize, editor.textColor.replace("#", "rgb:"), 0, 42));
   }
 
   const assetUrl = cloudinary.url(upload.cloudinaryPublicId, {
