@@ -23,6 +23,7 @@ import {
   updateOfficialSticker,
   getOwnedSticker,
   updateStickerAsset,
+  buildEditedStickerUrls,
 } from "../services/stickerService.js";
 
 cloudinary.config({
@@ -192,8 +193,17 @@ router.post("/:id/remove-background", async (req, res) => {
     const sticker = await getOwnedSticker(req.user.uid, req.params.id);
     if (sticker.isAnimated) return res.status(400).json({ success: false, message: "Background removal is available for image stickers only" });
     if (!sticker.cloudinaryPublicId) return res.status(400).json({ success: false, message: "Sticker asset is unavailable" });
-    const assetUrl = cloudinary.url(sticker.cloudinaryPublicId, { secure: true, transformation: [{ effect: "background_removal" }, { width: 512, height: 512, crop: "limit", fetch_format: "auto" }] });
-    const updated = await updateStickerAsset(req.user.uid, req.params.id, assetUrl);
+    const urls = buildEditedStickerUrls(
+      {
+        type: "image",
+        cloudinaryPublicId: sticker.cloudinaryPublicId,
+        assetUrl: sticker.assetUrl,
+        thumbnailUrl: sticker.thumbnailUrl,
+      },
+      sticker.editor || {},
+      [{ effect: "background_removal" }]
+    );
+    const updated = await updateStickerAsset(req.user.uid, req.params.id, urls.assetUrl, urls.thumbnailUrl);
     res.json({ success: true, data: updated });
   } catch (error) { handleError(res, error); }
 });

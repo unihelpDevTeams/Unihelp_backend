@@ -1,4 +1,5 @@
 import { randomBytes } from "node:crypto";
+import { v2 as cloudinary } from "cloudinary";
 import { admin, db } from "../firebase/firebaseAdmin.js";
 import { isPremiumEntitled, getTrustedEntitlementProfile } from "./entitlementService.js";
 
@@ -16,6 +17,90 @@ const stickerCollection = () => db.collection("stickers");
 const packCollection = () => db.collection("stickerPacks");
 const userRef = (uid) => db.collection("users").doc(uid);
 const cleanText = (value, max) => String(value || "").trim().slice(0, max);
+const allowedTextColors = new Set(["#FFFFFF", "#000000", "#FF3B30", "#FFD60A"]);
+
+const cleanStickerEditor = (editor = {}) => {
+  const text = cleanText(editor.text, 40);
+  const emoji = cleanText(editor.emoji, 8);
+  const textColor = allowedTextColors.has(String(editor.textColor || "").toUpperCase())
+    ? String(editor.textColor).toUpperCase()
+    : "#FFFFFF";
+  const textSize = ["small", "medium", "large"].includes(editor.textSize) ? editor.textSize : "medium";
+  return {
+    text,
+    emoji,
+    outline: editor.outline !== false,
+    textColor,
+    textSize,
+  };
+};
+
+const stickerTextSize = (textSize) => {
+  if (textSize === "small") return 34;
+  if (textSize === "large") return 58;
+  return 46;
+};
+
+export const buildEditedStickerUrls = (upload, editor, leadingTransformations = []) => {
+  if (upload.type !== "image" || !upload.cloudinaryPublicId || (!editor.text && !editor.emoji)) {
+    return {
+      assetUrl: leadingTransformations.length
+        ? cloudinary.url(upload.cloudinaryPublicId, {
+            secure: true,
+            resource_type: "image",
+            transformation: [...leadingTransformations, { width: 512, height: 512, crop: "limit", quality: "auto:good", fetch_format: "auto" }],
+          })
+        : upload.assetUrl,
+      thumbnailUrl: leadingTransformations.length
+        ? cloudinary.url(upload.cloudinaryPublicId, {
+            secure: true,
+            resource_type: "image",
+            transformation: [...leadingTransformations, { width: 256, height: 256, crop: "fill", quality: "auto", fetch_format: "auto" }],
+          })
+        : (upload.thumbnailUrl || upload.assetUrl),
+    };
+  }
+
+  const transformations = [...leadingTransformations, { width: 512, height: 512, crop: "limit", quality: "auto:good", fetch_format: "auto" }];
+
+  if (editor.emoji) {
+    transformations.push({
+      overlay: { font_family: "Arial", font_size: 72, text: editor.emoji },
+      gravity: "north_east",
+      x: 28,
+      y: 28,
+    });
+  }
+
+  if (editor.text) {
+    const textOverlay = {
+      overlay: {
+        font_family: "Arial",
+        font_size: stickerTextSize(editor.textSize),
+        font_weight: "bold",
+        text: editor.text,
+      },
+      color: editor.textColor.replace("#", "rgb:"),
+      gravity: "south",
+      y: 42,
+    };
+    transformations.push(textOverlay);
+  }
+
+  const assetUrl = cloudinary.url(upload.cloudinaryPublicId, {
+    secure: true,
+    resource_type: "image",
+    transformation: transformations,
+  });
+
+  const thumbnailUrl = cloudinary.url(upload.cloudinaryPublicId, {
+    secure: true,
+    resource_type: "image",
+    transformation: [...leadingTransformations, { width: 256, height: 256, crop: "fill", quality: "auto", fetch_format: "auto" }, ...transformations.slice(leadingTransformations.length + 1)],
+  });
+
+  return { assetUrl, thumbnailUrl };
+};
 
 const toPublicSticker = (snapshot) => {
   const item = snapshot.data ? snapshot.data() : snapshot;
@@ -113,6 +198,9 @@ export const createSticker = async (uid, payload = {}) => {
     if (operationSnapshot.exists) return operationSnapshot.data().sticker;
     if (!uploadSnapshot.exists || uploadSnapshot.data().ownerId !== uid) throw new Error("Sticker upload is no longer available");
     if (uploadSnapshot.data().used) throw new Error("Sticker upload is already attached to another sticker");
+    const upload = uploadSnapshot.data();
+    const editor = cleanStickerEditor(payload.editor);
+    const editedUrls = buildEditedStickerUrls(upload, editor);
     const user = userSnapshot.exists ? userSnapshot.data() : {};
     const currentBytes = Number(user.stickerStorageBytes || 0);
     const currentCount = Number(user.customStickerCount || 0);
@@ -127,8 +215,9 @@ export const createSticker = async (uid, payload = {}) => {
       ownerId: uid,
       name: cleanText(payload.name, 80) || "My Sticker",
       type: upload.type,
-      assetUrl: upload.assetUrl,
-      thumbnailUrl: upload.thumbnailUrl || upload.assetUrl,
+      assetUrl: editedUrls.assetUrl,
+      thumbnailUrl: editedUrls.thumbnailUrl,
+      originalAssetUrl: upload.assetUrl,
       cloudinaryPublicId: upload.cloudinaryPublicId,
       width: upload.width || 0,
       height: upload.height || 0,
@@ -137,6 +226,7 @@ export const createSticker = async (uid, payload = {}) => {
       isAnimated: Boolean(upload.isAnimated),
       isPremium: true,
       isActive: true,
+      editor,
       createdAt: admin.firestore.FieldValue.serverTimestamp(),
       updatedAt: admin.firestore.FieldValue.serverTimestamp(),
     };
@@ -327,10 +417,10 @@ export const getOwnedSticker = async (uid, stickerId) => {
   return { id: snapshot.id, ...snapshot.data() };
 };
 
-export const updateStickerAsset = async (uid, stickerId, assetUrl) => {
+export const updateStickerAsset = async (uid, stickerId, assetUrl, thumbnailUrl = assetUrl) => {
   const ref = stickerCollection().doc(stickerId);
-  await ref.update({ assetUrl, thumbnailUrl: assetUrl, backgroundRemoved: true, updatedAt: admin.firestore.FieldValue.serverTimestamp() });
-  return { id: stickerId, assetUrl, thumbnailUrl: assetUrl, backgroundRemoved: true };
+  await ref.update({ assetUrl, thumbnailUrl, backgroundRemoved: true, updatedAt: admin.firestore.FieldValue.serverTimestamp() });
+  return { id: stickerId, assetUrl, thumbnailUrl, backgroundRemoved: true };
 };
 
 export const createUploadRecord = async (uid, uploadResult) => {
