@@ -168,6 +168,11 @@ router.delete(
         return res.status(403).json({ success: false, error: "You can only delete your own voice messages." });
       }
 
+      const createdAtMillis = messageData.createdAt?.toMillis?.() || messageData.createdAt?.toDate?.()?.getTime?.() || 0;
+      if (!createdAtMillis || Date.now() - createdAtMillis > 60 * 60 * 1000) {
+        return res.status(403).json({ success: false, error: "Messages can only be deleted within one hour." });
+      }
+
       const deletePayload = buildVoiceDeletePayload(messageDoc);
       if (deletePayload.publicId) {
         try {
