@@ -268,3 +268,19 @@ CREATE TABLE IF NOT EXISTS activity_feeds (
   created_at TIMESTAMPTZ DEFAULT NOW()
 );
 
+CREATE TABLE IF NOT EXISTS transactions (
+  id SERIAL PRIMARY KEY,
+  transaction_id TEXT UNIQUE,
+  user_id TEXT,
+  amount NUMERIC(12, 2),
+  type TEXT,
+  status TEXT,
+  gateway_fee NUMERIC(12, 2),
+  net_amount NUMERIC(12, 2),
+  payment_method TEXT,
+  customer_email TEXT,
+  reference TEXT,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+

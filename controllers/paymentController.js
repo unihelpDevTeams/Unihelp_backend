@@ -1,4 +1,4 @@
-import { db } from "../firebase/firebaseAdmin.js";
+import { query } from "../db/pool.js";
 
 import {
   initializeFlutterwavePayment,
@@ -148,77 +148,39 @@ export const verifyPayment =
 
       /* SAVE SUBSCRIPTION */
 
-      await db
-        .collection("subscriptions")
-        .doc(transaction_id.toString())
-        .set({
+      const gateway_fee = expectedAmount * 0.014;
+      const net_amount = expectedAmount - gateway_fee;
+
+      await query(
+        `INSERT INTO transactions (
+          transaction_id, user_id, amount, type, status, 
+          gateway_fee, net_amount, payment_method, customer_email, reference, created_at, updated_at
+        ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, NOW(), NOW())`,
+        [
+          transaction_id.toString(),
           userId,
-
-          transaction_id,
-
-          plan,
-          planId: selectedPlan.id,
-
-          billing,
-
-          amount: expectedAmount,
-
-          status: "active",
-
-          paymentMethod:
-            paymentData.payment_type,
-
-          customerEmail:
-            paymentData.customer.email,
-
-          customerName:
-            paymentData.customer.name,
-
-          createdAt:
-            new Date(),
-
-          expiresAt:
-            expiryDate,
-        });
+          expectedAmount,
+          'premium_subscription',
+          'successful',
+          gateway_fee,
+          net_amount,
+          paymentData.payment_type || 'card',
+          paymentData.customer.email,
+          paymentData.tx_ref || ''
+        ]
+      );
 
       /* UPDATE USER */
 
-      await db
-        .collection("users")
-        .doc(userId)
-        .set(
-          {
-            premium: true,
-
-            verified: true,
-
-            subscriptionProvider: "flutterwave",
-
-            subscriptionPlan:
-              "student-premium",
-
-            subscriptionBilling:
-              billing,
-
-            subscriptionAmount:
-              expectedAmount,
-
-            subscriptionStatus:
-              "active",
-
-            subscriptionExpiresAt:
-              expiryDate,
-
-            premiumExpiresAt:
-              expiryDate,
-
-            updatedAt:
-              new Date(),
-          },
-          {
-            merge: true,
-          }
-        );
+      await query(
+        `UPDATE users SET
+          premium = true,
+          subscription_plan = $1,
+          subscription_expires_at = $2,
+          updated_at = NOW()
+        WHERE id = $3`,
+        [selectedPlan.id, expiryDate, userId]
+      );
 
       return res.status(200).json({
         success: true,
