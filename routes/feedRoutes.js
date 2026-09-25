@@ -33,6 +33,10 @@ const ensureText = (value, fallback = "", maxLength = null) => {
   return text;
 };
 
+const extractHashtags = (content = "") => [...new Set(
+  String(content).match(/#[a-zA-Z0-9_]{1,40}/g) || []
+)].map((tag) => tag.toLowerCase());
+
 export const validateFeedPostPayload = (payload = {}) => {
   const type = String(payload.type || "").toLowerCase();
   const audience = String(payload.audience || "friends").toLowerCase();
@@ -59,10 +63,11 @@ export const validateFeedPostPayload = (payload = {}) => {
         content,
         backgroundPreset,
         audience,
+        tags: extractHashtags(content),
       };
     }
 
-    return { type, content, audience };
+    return { type, content, audience, tags: extractHashtags(content) };
   }
 
   const content = ensureText(payload.content, "", TEXT_MAX_LENGTH);
@@ -75,6 +80,7 @@ export const validateFeedPostPayload = (payload = {}) => {
     type,
     content: content || "",
     audience,
+    tags: extractHashtags(content),
     imageUrl,
     cloudinaryPublicId: ensureText(payload.cloudinaryPublicId || payload.publicId || payload.cloudinary_public_id || "", "", 500) || null,
   };
@@ -331,12 +337,14 @@ router.post("/posts", authenticateFirebaseUser, async (req, res) => {
     const payload = validateFeedPostPayload(req.body || {});
     const now = new Date();
     const postId = crypto.randomUUID();
+    const authorProfileSnapshot = await db.collection("users").doc(req.user.uid).get();
+    const authorProfile = authorProfileSnapshot.exists ? authorProfileSnapshot.data() : {};
 
     const doc = {
       id: postId,
       authorId: req.user.uid,
-      authorName: req.user.name || req.user.displayName || req.user.email || "Student",
-      authorAvatar: req.user.picture || req.user.photoURL || "",
+      authorName: authorProfile.username || authorProfile.displayName || req.user.name || req.user.displayName || req.user.email || "Student",
+      authorAvatar: authorProfile.photoThumb || authorProfile.photoURL || authorProfile.photo || authorProfile.avatar || req.user.picture || req.user.photoURL || "",
       type: payload.type,
       content: payload.content || "",
       createdAt: now,
@@ -345,6 +353,7 @@ router.post("/posts", authenticateFirebaseUser, async (req, res) => {
       commentsCount: 0,
       viewsCount: 0,
       audience: payload.audience,
+      tags: payload.tags,
     };
 
     if (payload.type === "image") {
@@ -449,6 +458,7 @@ router.put("/posts/:id", authenticateFirebaseUser, async (req, res) => {
       content: payload.content,
       updatedAt: new Date(),
       audience: payload.audience,
+      tags: payload.tags,
     };
     if (existing.type === "colored") updates.backgroundPreset = payload.backgroundPreset;
 
