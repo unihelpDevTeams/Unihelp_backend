@@ -12,7 +12,18 @@ const COMMENT_MAX_LENGTH = 250;
 const MAX_FEED_LIMIT = 50;
 const VALID_POST_TYPES = new Set(["text", "image", "colored"]);
 const VALID_BACKGROUND_PRESETS = new Set(["indigo", "violet", "blue", "green", "orange", "pink", "red", "dark"]);
-const VALID_POST_AUDIENCES = new Set(["friends", "everyone", "private"]);
+const VALID_POST_AUDIENCES = new Set(["friends", "private"]);
+export const FEED_WEIGHTS = Object.freeze({
+  recency: 0.30,
+  engagement: 0.20,
+  relationship: 0.15,
+  relevance: 0.15,
+  quality: 0.10,
+  diversity: 0.10,
+});
+const REPETITION_PENALTY = 0.12;
+const RANDOM_FACTOR = 0.025;
+const CANDIDATE_MULTIPLIER = 4;
 
 const ensureText = (value, fallback = "", maxLength = null) => {
   if (typeof value !== "string") return fallback;
@@ -89,6 +100,9 @@ const normalizePost = (doc) => {
     cloudinaryPublicId: data.cloudinaryPublicId || "",
     backgroundPreset: data.backgroundPreset || null,
     audience: data.audience || "friends",
+    category: data.category || "",
+    categories: Array.isArray(data.categories) ? data.categories : [],
+    tags: Array.isArray(data.tags) ? data.tags : [],
     createdAt: createdAt.toISOString(),
     updatedAt: updatedAt.toISOString(),
     likesCount: Number(data.likesCount || 0),
@@ -149,19 +163,104 @@ const getVisibleAuthorIds = async (uid) => {
   return [...visible];
 };
 
-const rankFeedPosts = (posts = []) => {
+const stableRandom = (value = "") => {
+  let hash = 2166136261;
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return (hash >>> 0) / 4294967295;
+};
+
+const normalizedSet = (value) => new Set(
+  (Array.isArray(value) ? value : value ? [value] : [])
+    .map((item) => String(item).trim().toLowerCase())
+    .filter(Boolean)
+);
+
+const getPostTopics = (post) => normalizedSet([
+  post.category,
+  ...(post.categories || []),
+  ...(post.tags || []),
+]);
+
+const getUserInterests = (profile = {}) => normalizedSet([
+  ...(profile.interests || []),
+  profile.department,
+  profile.faculty,
+  profile.school,
+]);
+
+const calculateRelevance = (post, interests) => {
+  if (!interests.size) return 0.5;
+  const topics = getPostTopics(post);
+  if (!topics.size) return 0.2;
+  const matches = [...topics].filter((topic) => interests.has(topic)).length;
+  return Math.min(1, matches / Math.max(1, Math.min(topics.size, 3)));
+};
+
+const calculateQuality = (post) => {
+  if (post.type === "image") return post.imageUrl ? 0.9 : 0.2;
+  if (post.type === "colored") return post.content.length >= 10 ? 0.85 : 0.5;
+  return post.content.length >= 20 ? 1 : 0.65;
+};
+
+const buildInteractionMap = async (uid, posts) => {
+  if (!db || !uid) return new Map();
+  const [likesSnapshot, commentsSnapshot] = await Promise.all([
+    db.collection("feedPostLikes").where("userId", "==", uid).limit(200).get(),
+    db.collection("feedComments").where("authorId", "==", uid).limit(200).get(),
+  ]);
+  const authorByPost = new Map(posts.map((post) => [post.id, post.authorId]));
+  const interactions = new Map();
+  const addInteraction = (postId) => {
+    const authorId = authorByPost.get(postId);
+    if (authorId) interactions.set(authorId, (interactions.get(authorId) || 0) + 1);
+  };
+  likesSnapshot.docs.forEach((doc) => addInteraction(doc.data()?.postId));
+  commentsSnapshot.docs.forEach((doc) => addInteraction(doc.data()?.postId));
+  return interactions;
+};
+
+const rankFeedPosts = (posts = [], { viewerUid, interests, interactionMap, randomSeed }) => {
   const now = Date.now();
-  return posts
-    .map((post) => {
-      const ageHours = Math.max(0, (now - new Date(post.createdAt).getTime()) / (60 * 60 * 1000));
-      const recency = Math.exp(-ageHours / 48);
-      const popularity = Math.log1p(post.likesCount || 0) / 10;
-      const comments = Math.log1p(post.commentsCount || 0) / 10;
-      const randomBoost = Math.random() * 0.12;
-      return { post, score: recency * 0.58 + popularity * 0.22 + comments * 0.12 + randomBoost };
-    })
-    .sort((left, right) => right.score - left.score)
-    .map(({ post }) => post);
+  const scored = posts.map((post) => {
+    const ageHours = Math.max(0, (now - new Date(post.createdAt).getTime()) / (60 * 60 * 1000));
+    const recency = Math.exp(-ageHours / 48);
+    const engagement = Math.min(1, (Math.log1p(post.likesCount || 0) + (2 * Math.log1p(post.commentsCount || 0))) / 12);
+    const relationship = post.authorId === viewerUid ? 1 : Math.min(1, 0.55 + ((interactionMap.get(post.authorId) || 0) / 10));
+    const relevance = calculateRelevance(post, interests);
+    const quality = calculateQuality(post);
+    return {
+      post,
+      baseScore: (recency * FEED_WEIGHTS.recency)
+        + (engagement * FEED_WEIGHTS.engagement)
+        + (relationship * FEED_WEIGHTS.relationship)
+        + (relevance * FEED_WEIGHTS.relevance)
+        + (quality * FEED_WEIGHTS.quality)
+        + (stableRandom(`${randomSeed}:${post.id}`) * RANDOM_FACTOR),
+    };
+  });
+
+  const ranked = [];
+  const remaining = [...scored];
+  while (remaining.length) {
+    const candidateWindow = remaining.slice(0, 8);
+    candidateWindow.sort((left, right) => {
+      const recentAuthors = ranked.slice(-3).map((item) => item.post.authorId);
+      const leftRepeat = recentAuthors.filter((id) => id === left.post.authorId).length;
+      const rightRepeat = recentAuthors.filter((id) => id === right.post.authorId).length;
+      const leftDiversity = leftRepeat ? 0 : 1;
+      const rightDiversity = rightRepeat ? 0 : 1;
+      const leftScore = left.baseScore + (leftDiversity * FEED_WEIGHTS.diversity) - (leftRepeat * REPETITION_PENALTY);
+      const rightScore = right.baseScore + (rightDiversity * FEED_WEIGHTS.diversity) - (rightRepeat * REPETITION_PENALTY);
+      return rightScore - leftScore;
+    });
+    const selected = candidateWindow[0];
+    ranked.push(selected);
+    remaining.splice(remaining.indexOf(selected), 1);
+  }
+  return ranked.map(({ post }) => post);
 };
 
 router.get("/", authenticateFirebaseUser, async (req, res) => {
@@ -179,21 +278,15 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
       return res.json({ success: true, items: [], nextCursor: null, hasMore: false });
     }
 
+    const candidateLimit = Math.min(limit * CANDIDATE_MULTIPLIER, 100);
     const collections = [];
     for (const ids of chunkArray(authorIds, 10)) {
       let queryRef = db.collection("feedPosts").where("authorId", "in", ids).orderBy("createdAt", "desc");
       if (cursor && !Number.isNaN(cursor.getTime())) {
         queryRef = queryRef.startAfter(cursor);
       }
-      collections.push(queryRef.limit(limit + 1).get());
+      collections.push(queryRef.limit(candidateLimit).get());
     }
-    collections.push(
-      db.collection("feedPosts")
-        .where("audience", "==", "everyone")
-        .orderBy("createdAt", "desc")
-        .limit(limit + 1)
-        .get()
-    );
 
     const snapshots = await Promise.all(collections);
     const results = [];
@@ -208,9 +301,19 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
       });
     });
 
-    const visibleResults = rankFeedPosts(results.filter((post) => post.authorId === uid || post.audience !== "private"));
+    const profileSnapshot = await db.collection("users").doc(uid).get();
+    const viewerProfile = profileSnapshot.exists ? profileSnapshot.data() : {};
+    const interactionMap = await buildInteractionMap(uid, results);
+    const visibleResults = rankFeedPosts(
+      results.filter((post) => post.authorId === uid || post.audience !== "private"),
+      { viewerUid: uid, interests: getUserInterests(viewerProfile), interactionMap, randomSeed: Math.random() }
+    );
     const paged = visibleResults.slice(0, limit);
-    const nextCursor = paged.length && visibleResults.length > paged.length ? paged[paged.length - 1].createdAt : null;
+    const oldestCandidate = results.reduce((oldest, post) => (
+      !oldest || new Date(post.createdAt) < new Date(oldest.createdAt) ? post : oldest
+    ), null);
+    const hasMore = snapshots.some((snapshot) => snapshot.size === candidateLimit);
+    const nextCursor = hasMore && oldestCandidate ? oldestCandidate.createdAt : null;
 
     return res.json({ success: true, items: paged, nextCursor, hasMore: Boolean(nextCursor) });
   } catch (error) {
