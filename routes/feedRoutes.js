@@ -229,6 +229,32 @@ router.post("/posts", authenticateFirebaseUser, async (req, res) => {
   }
 });
 
+router.get("/users/:uid/posts", authenticateFirebaseUser, async (req, res) => {
+  try {
+    if (!db) {
+      return res.status(503).json({ success: false, error: "Feed service is unavailable" });
+    }
+
+    const targetUid = String(req.params.uid || "");
+    const canRead = req.user.uid === targetUid || (await getAcceptedFriendIds(req.user.uid)).includes(targetUid);
+    if (!canRead) {
+      return res.status(403).json({ success: false, error: "You do not have access to this user's posts" });
+    }
+
+    const limit = Math.min(Number(req.query.limit) || 20, MAX_FEED_LIMIT);
+    const snapshot = await db.collection("feedPosts")
+      .where("authorId", "==", targetUid)
+      .orderBy("createdAt", "desc")
+      .limit(limit)
+      .get();
+
+    return res.json({ success: true, items: snapshot.docs.map(normalizePost) });
+  } catch (error) {
+    console.error("Error fetching user feed posts:", error);
+    return res.status(500).json({ success: false, error: error.message || "Could not load user posts" });
+  }
+});
+
 const assertPostVisible = async (viewerUid, postId) => {
   const snapshot = await db.collection("feedPosts").doc(postId).get();
   if (!snapshot.exists) {
