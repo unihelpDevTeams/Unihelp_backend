@@ -11,8 +11,9 @@ test('invalid background presets are rejected', () => {
   assert.throws(() => validateFeedPostPayload({ type: 'colored', content: 'Hello', backgroundPreset: 'rainbow' }), /background/i);
 });
 
-test('invalid post audiences are rejected', () => {
-  assert.throws(() => validateFeedPostPayload({ type: 'text', content: 'Hello', audience: 'everyone' }), /audience/i);
+test('everyone audience is accepted', () => {
+  const payload = validateFeedPostPayload({ type: 'text', content: 'Hello', audience: 'everyone' });
+  assert.equal(payload.audience, 'everyone');
 });
 
 test('image posts require a valid image url', () => {

@@ -12,7 +12,7 @@ const COMMENT_MAX_LENGTH = 250;
 const MAX_FEED_LIMIT = 50;
 const VALID_POST_TYPES = new Set(["text", "image", "colored"]);
 const VALID_BACKGROUND_PRESETS = new Set(["indigo", "violet", "blue", "green", "orange", "pink", "red", "dark"]);
-const VALID_POST_AUDIENCES = new Set(["friends", "private"]);
+const VALID_POST_AUDIENCES = new Set(["friends", "everyone", "private"]);
 
 const ensureText = (value, fallback = "", maxLength = null) => {
   if (typeof value !== "string") return fallback;
@@ -149,6 +149,21 @@ const getVisibleAuthorIds = async (uid) => {
   return [...visible];
 };
 
+const rankFeedPosts = (posts = []) => {
+  const now = Date.now();
+  return posts
+    .map((post) => {
+      const ageHours = Math.max(0, (now - new Date(post.createdAt).getTime()) / (60 * 60 * 1000));
+      const recency = Math.exp(-ageHours / 48);
+      const popularity = Math.log1p(post.likesCount || 0) / 10;
+      const comments = Math.log1p(post.commentsCount || 0) / 10;
+      const randomBoost = Math.random() * 0.12;
+      return { post, score: recency * 0.58 + popularity * 0.22 + comments * 0.12 + randomBoost };
+    })
+    .sort((left, right) => right.score - left.score)
+    .map(({ post }) => post);
+};
+
 router.get("/", authenticateFirebaseUser, async (req, res) => {
   try {
     if (!db) {
@@ -172,6 +187,13 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
       }
       collections.push(queryRef.limit(limit + 1).get());
     }
+    collections.push(
+      db.collection("feedPosts")
+        .where("audience", "==", "everyone")
+        .orderBy("createdAt", "desc")
+        .limit(limit + 1)
+        .get()
+    );
 
     const snapshots = await Promise.all(collections);
     const results = [];
@@ -186,8 +208,7 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
       });
     });
 
-    const visibleResults = results.filter((post) => post.authorId === uid || post.audience !== "private");
-    visibleResults.sort((left, right) => new Date(right.createdAt).getTime() - new Date(left.createdAt).getTime());
+    const visibleResults = rankFeedPosts(results.filter((post) => post.authorId === uid || post.audience !== "private"));
     const paged = visibleResults.slice(0, limit);
     const nextCursor = paged.length && visibleResults.length > paged.length ? paged[paged.length - 1].createdAt : null;
 
