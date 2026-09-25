@@ -18,7 +18,7 @@ const upload = multer({
   limits: { fileSize: 200 * 1024 * 1024 },
 });
 
-const ALLOWED_FOLDERS = new Set(["hostels", "marketplace", "stories"]);
+const ALLOWED_FOLDERS = new Set(["hostels", "marketplace", "stories", "feed"]);
 const ALLOWED_TYPES = new Set(["image", "video", "raw", "auto"]);
 const IMAGE_UPLOAD_TRANSFORMATION = {
   width: 1600,
