@@ -146,6 +146,27 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/api/health", (req, res) => {
+  const storageConfigured = Boolean(
+    process.env.R2_ACCOUNT_ID &&
+      process.env.R2_ACCESS_KEY_ID &&
+      process.env.R2_SECRET_ACCESS_KEY &&
+      process.env.R2_BUCKET_NAME &&
+      process.env.R2_PUBLIC_URL
+  );
+
+  return res.status(200).json({
+    success: true,
+    service: "unihelp-backend",
+    storage: storageConfigured ? "r2-configured" : "r2-missing-config",
+    cloudinary: Boolean(
+      process.env.CLOUDINARY_CLOUD_NAME &&
+        process.env.CLOUDINARY_API_KEY &&
+        process.env.CLOUDINARY_API_SECRET
+    ) ? "configured" : "not-configured",
+  });
+});
+
 app.use(errorHandler);
 
 app.use((err, req, res, next) => {

@@ -1,7 +1,7 @@
 import { Router } from "express";
 import { admin, db } from "../firebase/firebaseAdmin.js";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
-import { v2 as cloudinary } from "cloudinary";
+import { deleteFileFromR2, extractR2KeyFromUrl, uploadFileToR2 } from "../services/storage/r2.js";
 import multer from "multer";
 import dotenv from "dotenv";
 
@@ -20,13 +20,6 @@ const buildVoiceDeletePayload = (messageDoc) => {
     url: fallbackFromUrl,
   };
 };
-
-// Configure Cloudinary
-cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET,
-});
 
 const router = Router();
 
@@ -99,38 +92,19 @@ router.post(
 
       const parsedDuration = Math.min(Math.max(0, Number(duration) || 0), 60);
 
-      const uploadResult = await new Promise((resolve, reject) => {
-        const uploadStream = cloudinary.uploader.upload_stream(
-          {
-            resource_type: "video",
-            folder: "unihelp/voice",
-            format: "m4a",
-            transformation: [
-              {
-                audio_codec: "aac",
-                audio_frequency: "22050",
-                audio_channels: "1",
-                bit_rate: "32000",
-                quality: "30",
-              },
-            ],
-            public_id: `voice_${uid}_${Date.now()}`,
-          },
-          (error, result) => {
-            if (error) reject(error);
-            else resolve(result);
-          }
-        );
-
-        uploadStream.end(file.buffer);
-      });
+      const uploadResult = await uploadFileToR2(
+        file.buffer,
+        `unihelp/voice/${uid}`,
+        `voice_${uid}_${Date.now()}.${file.originalname?.split(".").pop() || "m4a"}`,
+        file.mimetype || "audio/m4a"
+      );
 
       return res.status(200).json({
         success: true,
-        audioUrl: uploadResult.secure_url,
-        publicId: uploadResult.public_id,
+        audioUrl: uploadResult.url,
+        publicId: uploadResult.publicId,
         duration: parsedDuration,
-        bytes: uploadResult.bytes,
+        bytes: file.size,
       });
     } catch (error) {
       console.error("[voice] Upload error:", error);
@@ -174,22 +148,27 @@ router.delete(
       }
 
       const deletePayload = buildVoiceDeletePayload(messageDoc);
-      if (deletePayload.publicId) {
+      const r2Key = deletePayload.url ? extractR2KeyFromUrl(deletePayload.url) : null;
+      if (r2Key) {
         try {
-          await cloudinary.uploader.destroy(deletePayload.publicId, {
-            resource_type: deletePayload.resourceType,
-          });
-        } catch (cloudinaryError) {
-          console.warn("[voice] Cloudinary delete failed:", cloudinaryError);
+          await deleteFileFromR2(r2Key);
+        } catch (error) {
+          console.warn("[voice] R2 delete failed:", error);
+        }
+      } else if (deletePayload.publicId) {
+        try {
+          await deleteFileFromR2(deletePayload.publicId);
+        } catch (error) {
+          console.warn("[voice] R2 delete by key failed:", error);
         }
       } else if (deletePayload.url) {
         try {
           const parsedPublicId = deletePayload.url.split("/").slice(-1)[0]?.split(".")[0];
           if (parsedPublicId) {
-            await cloudinary.uploader.destroy(parsedPublicId, { resource_type: deletePayload.resourceType });
+            await deleteFileFromR2(parsedPublicId);
           }
-        } catch (cloudinaryError) {
-          console.warn("[voice] Cloudinary delete from URL failed:", cloudinaryError);
+        } catch (error) {
+          console.warn("[voice] Legacy Cloudinary delete fallback skipped:", error);
         }
       }
 

@@ -1,7 +1,7 @@
 import express from "express";
 import multer from "multer";
-import { v2 as cloudinary } from "cloudinary";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
+import { uploadFileToR2, deleteFileFromR2, extractR2KeyFromUrl } from "../services/storage/r2.js";
 import { verificationRateLimit } from "../middleware/rateLimit.js";
 import { getTrustedEntitlementProfile, isPremiumEntitled } from "../services/entitlementService.js";
 import {
@@ -26,13 +26,6 @@ import {
   buildEditedStickerUrls,
 } from "../services/stickerService.js";
 
-cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET,
-  secure: true,
-});
-
 const router = express.Router();
 const configuredAdmin = (user) => Boolean(user?.admin) || new Set((process.env.ADMIN_EMAILS || "onakomayaokiki@gmail.com,iadejuwon77@gmail.com").split(",").map((email) => email.trim().toLowerCase())).has(String(user?.email || "").toLowerCase());
 const upload = multer({
@@ -42,11 +35,6 @@ const upload = multer({
     if (/^image\/(jpeg|png|webp)$/.test(file.mimetype) || /^video\/(mp4|webm|quicktime)$/.test(file.mimetype)) callback(null, true);
     else callback(new Error("Only JPG, PNG, WebP, MP4, WebM, and MOV files are supported."));
   },
-});
-
-const uploadBuffer = (buffer, options) => new Promise((resolve, reject) => {
-  const stream = cloudinary.uploader.upload_stream(options, (error, result) => error ? reject(error) : resolve(result));
-  stream.end(buffer);
 });
 
 const handleError = (res, error) => {
@@ -125,30 +113,21 @@ router.post("/upload", verificationRateLimit(60 * 60 * 1000, 20), upload.single(
     const rotation = [0, 90, 180, 270].includes(Number(req.body.rotation)) ? Number(req.body.rotation) : 0;
     const maxBytes = isAnimated ? 25 * 1024 * 1024 : 10 * 1024 * 1024;
     if (req.file.size > maxBytes) return res.status(413).json({ success: false, message: `Sticker media exceeds the ${maxBytes / (1024 * 1024)} MB limit` });
-    const result = await uploadBuffer(req.file.buffer, {
-      folder: `unihelp/stickers/${req.user.uid}`,
-      resource_type: isAnimated ? "video" : "image",
-      transformation: isAnimated
-        ? [{ width: 512, height: 512, crop: "limit", quality: "auto", audio_codec: "none", format: "mp4", ...(rotation ? { angle: rotation } : {}) }]
-        : [{ width: 512, height: 512, crop: "limit", quality: "auto:good", fetch_format: "auto", ...(rotation ? { angle: rotation } : {}) }],
-    });
-    if (isAnimated && Number(result.duration || 0) > 10) {
-      await cloudinary.uploader.destroy(result.public_id, { resource_type: "video" });
-      return res.status(400).json({ success: false, message: "Video stickers can be up to 10 seconds" });
-    }
-    const thumbnailUrl = cloudinary.url(result.public_id, {
-      secure: true,
-      resource_type: isAnimated ? "video" : "image",
-      transformation: [{ width: 256, height: 256, crop: "fill", quality: "auto", fetch_format: "auto" }],
-    });
+    const result = await uploadFileToR2(
+      req.file.buffer,
+      `unihelp/stickers/${req.user.uid}`,
+      req.file.originalname || `${req.user.uid}-${Date.now()}.${isAnimated ? "mp4" : "png"}`,
+      req.file.mimetype
+    );
+    const thumbnailUrl = result.url;
     const data = await createUploadRecord(req.user.uid, {
-      assetUrl: result.secure_url,
+      assetUrl: result.url,
       thumbnailUrl,
-      cloudinaryPublicId: result.public_id,
-      width: result.width || 0,
-      height: result.height || 0,
-      bytes: Number(result.bytes || req.file.size),
-      duration: Number(result.duration || 0),
+      cloudinaryPublicId: result.publicId,
+      width: 0,
+      height: 0,
+      bytes: Number(req.file.size || 0),
+      duration: 0,
       type: isAnimated ? "animated" : "image",
       isAnimated,
     });

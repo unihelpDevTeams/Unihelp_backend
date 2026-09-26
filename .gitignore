@@ -5,6 +5,8 @@ serviceAccountKey.json
 !.tsconfig*.json
 !.json.example
 .env
+.env.*
+!.env.example
 .env.local
 .env.*.local
 firebase/*.json
