@@ -12,7 +12,7 @@ const COMMENT_MAX_LENGTH = 250;
 const MAX_FEED_LIMIT = 50;
 const VALID_POST_TYPES = new Set(["text", "image", "colored"]);
 const VALID_BACKGROUND_PRESETS = new Set(["indigo", "violet", "blue", "green", "orange", "pink", "red", "dark"]);
-const VALID_POST_AUDIENCES = new Set(["friends", "private"]);
+const VALID_POST_AUDIENCES = new Set(["friends", "everyone", "private"]);
 export const FEED_WEIGHTS = Object.freeze({
   recency: 0.30,
   engagement: 0.20,
@@ -158,6 +158,7 @@ const canReadPost = async (viewerUid, authorId, postData = {}) => {
   if (!viewerUid || !authorId) return false;
   if (viewerUid === authorId) return true;
   if (postData.audience === "private") return false;
+  if (postData.audience === "everyone") return true;
   const friends = await getAcceptedFriendIds(viewerUid);
   return friends.includes(authorId);
 };
@@ -293,6 +294,13 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
       }
       collections.push(queryRef.limit(candidateLimit).get());
     }
+    collections.push(
+      db.collection("feedPosts")
+        .where("audience", "==", "everyone")
+        .orderBy("createdAt", "desc")
+        .limit(candidateLimit)
+        .get()
+    );
 
     const snapshots = await Promise.all(collections);
     const results = [];
