@@ -4,6 +4,7 @@ import { admin, db } from "../firebase/firebaseAdmin.js";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
 import { query } from "../db/pool.js";
 import { deleteCloudinaryAsset } from "../utils/cloudinaryCleanup.js";
+import { sendAppNotification } from "../utils/notifications.js";
 
 const router = express.Router();
 
@@ -25,6 +26,38 @@ const REPETITION_PENALTY = 0.12;
 const RANDOM_FACTOR = 0.025;
 const CANDIDATE_MULTIPLIER = 4;
 
+const notifyFeedUsers = async ({ userIds, title, body, type, postId }) => {
+  const recipients = [...new Set((userIds || []).filter(Boolean))];
+  if (!recipients.length) return;
+
+  try {
+    await sendAppNotification({
+      userIds: recipients,
+      title,
+      body,
+      type,
+      category: "Feed",
+      url: `/newsfeed?post=${encodeURIComponent(postId || "")}`,
+      data: { postId: postId || "" },
+    });
+  } catch (error) {
+    console.warn("[feed-notify] Notification failed:", error?.message || error);
+  }
+};
+
+const getFriendIds = async (uid) => {
+  if (!uid || !db) return [];
+  const snapshot = await db.collection("friends").where("users", "array-contains", uid).get();
+  const friendIds = new Set();
+  snapshot.docs.forEach((friendDoc) => {
+    const members = friendDoc.data()?.memberIds || friendDoc.data()?.users || [];
+    members.forEach((memberId) => {
+      if (memberId && memberId !== uid) friendIds.add(memberId);
+    });
+  });
+  return [...friendIds];
+};
+
 const ensureText = (value, fallback = "", maxLength = null) => {
   if (typeof value !== "string") return fallback;
   const text = value.trim();
@@ -36,6 +69,13 @@ const ensureText = (value, fallback = "", maxLength = null) => {
 const extractHashtags = (content = "") => [...new Set(
   String(content).match(/#[a-zA-Z0-9_]{1,40}/g) || []
 )].map((tag) => tag.toLowerCase());
+
+const isPremiumProfile = (profile = {}) => {
+  if (!profile.premium) return false;
+  if (String(profile.subscriptionStatus || '').trim().toLowerCase() === 'expired') return false;
+  const expiry = profile.subscriptionExpiresAt || profile.subscriptionExpireAt || profile.subscriptionExpireAT || profile.premiumExpiresAt || profile.expiresAt;
+  return !expiry || new Date(expiry).getTime() > Date.now();
+};
 
 export const validateFeedPostPayload = (payload = {}) => {
   const type = String(payload.type || "").toLowerCase();
@@ -100,6 +140,7 @@ const normalizePost = (doc) => {
   return {
     id: doc.id,
     authorId: data.authorId || "",
+    authorPremium: Boolean(data.authorPremium),
     type: data.type || "text",
     content: data.content || "",
     imageUrl: data.imageUrl || "",
@@ -315,6 +356,16 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
       });
     });
 
+    const authorProfileIds = [...new Set(results.map((post) => post.authorId).filter(Boolean))];
+    const authorProfiles = new Map();
+    await Promise.all(authorProfileIds.map(async (authorId) => {
+      const snapshot = await db.collection("users").doc(authorId).get();
+      if (snapshot.exists) authorProfiles.set(authorId, snapshot.data() || {});
+    }));
+    results.forEach((post) => {
+      post.authorPremium = isPremiumProfile(authorProfiles.get(post.authorId));
+    });
+
     const profileSnapshot = await db.collection("users").doc(uid).get();
     const viewerProfile = profileSnapshot.exists ? profileSnapshot.data() : {};
     const interactionMap = await buildInteractionMap(uid, results);
@@ -353,6 +404,7 @@ router.post("/posts", authenticateFirebaseUser, async (req, res) => {
       authorId: req.user.uid,
       authorName: authorProfile.username || authorProfile.displayName || req.user.name || req.user.displayName || req.user.email || "Student",
       authorAvatar: authorProfile.photoThumb || authorProfile.photoURL || authorProfile.photo || authorProfile.avatar || req.user.picture || req.user.photoURL || "",
+      authorPremium: isPremiumProfile(authorProfile),
       type: payload.type,
       content: payload.content || "",
       createdAt: now,
@@ -374,6 +426,16 @@ router.post("/posts", authenticateFirebaseUser, async (req, res) => {
     }
 
     await db.collection("feedPosts").doc(postId).set(doc);
+    if (payload.audience !== "private") {
+      const friendIds = await getFriendIds(req.user.uid);
+      await notifyFeedUsers({
+        userIds: friendIds,
+        title: `${doc.authorName} shared a new post`,
+        body: payload.content || "A new post is available in your feed.",
+        type: "feed_post",
+        postId,
+      });
+    }
     return res.status(201).json({ success: true, item: normalizePost({ data: () => doc, id: postId }) });
   } catch (error) {
     console.error("Error creating feed post:", error);
@@ -500,7 +562,7 @@ router.post("/posts/:id/comments", authenticateFirebaseUser, async (req, res) =>
     if (!db) {
       return res.status(503).json({ success: false, error: "Feed service is unavailable" });
     }
-    await assertPostVisible(req.user.uid, req.params.id);
+    const postSnapshot = await assertPostVisible(req.user.uid, req.params.id);
     const content = ensureText(req.body?.content || "", COMMENT_MAX_LENGTH);
     if (!content) {
       return res.status(400).json({ success: false, error: "Comment content cannot be empty" });
@@ -521,6 +583,17 @@ router.post("/posts/:id/comments", authenticateFirebaseUser, async (req, res) =>
 
     const postRef = db.collection("feedPosts").doc(req.params.id);
     await postRef.update({ commentsCount: admin.firestore.FieldValue.increment(1), updatedAt: new Date() });
+
+    const post = postSnapshot.data() || {};
+    if (post.authorId !== req.user.uid) {
+      await notifyFeedUsers({
+        userIds: [post.authorId],
+        title: `${comment.authorName} commented on your post`,
+        body: content,
+        type: "feed_comment",
+        postId: req.params.id,
+      });
+    }
 
     return res.status(201).json({ success: true, item: normalizeComment({ data: () => comment, id: commentId }) });
   } catch (error) {
@@ -558,7 +631,7 @@ router.post("/posts/:id/like", authenticateFirebaseUser, async (req, res) => {
     if (!db) {
       return res.status(503).json({ success: false, error: "Feed service is unavailable" });
     }
-    await assertPostVisible(req.user.uid, req.params.id);
+    const postSnapshot = await assertPostVisible(req.user.uid, req.params.id);
     const likeId = `${req.params.id}_${req.user.uid}`;
     const likeRef = db.collection("feedPostLikes").doc(likeId);
     const existing = await likeRef.get();
@@ -570,6 +643,17 @@ router.post("/posts/:id/like", authenticateFirebaseUser, async (req, res) => {
     const postRef = db.collection("feedPosts").doc(req.params.id);
     const next = await postRef.update({ likesCount: admin.firestore.FieldValue.increment(1), updatedAt: new Date() });
     const fresh = await postRef.get();
+    const post = postSnapshot.data() || {};
+    const likerName = req.user.name || req.user.displayName || req.user.email || "Someone";
+    if (post.authorId && post.authorId !== req.user.uid) {
+      await notifyFeedUsers({
+        userIds: [post.authorId],
+        title: `${likerName} liked your post`,
+        body: "Your post received a new like.",
+        type: "feed_like",
+        postId: req.params.id,
+      });
+    }
     return res.status(201).json({ success: true, liked: true, likesCount: Number(fresh.data()?.likesCount || 0), result: next });
   } catch (error) {
     const statusCode = error.statusCode || 500;
