@@ -493,9 +493,28 @@ router.get("/posts/:id/comments", authenticateFirebaseUser, async (req, res) => 
       return res.status(503).json({ success: false, error: "Feed service is unavailable" });
     }
     const snapshot = await assertPostVisible(req.user.uid, req.params.id);
-    const commentsSnap = await db.collection("feedComments").where("postId", "==", req.params.id).orderBy("createdAt", "desc").limit(50).get();
+    const pageSize = Math.min(Math.max(Number(req.query.limit) || 20, 1), 50);
+    const cursor = req.query.cursor ? new Date(String(req.query.cursor)) : null;
+    let commentsQuery = db.collection("feedComments")
+      .where("postId", "==", req.params.id)
+      .orderBy("createdAt", "desc")
+      .limit(pageSize);
+
+    if (cursor && !Number.isNaN(cursor.getTime())) {
+      commentsQuery = commentsQuery.startAfter(cursor);
+    }
+
+    const commentsSnap = await commentsQuery.get();
     const items = commentsSnap.docs.map(normalizeComment);
-    return res.json({ success: true, items, post: normalizePost(snapshot) });
+    const lastComment = commentsSnap.docs[commentsSnap.docs.length - 1]?.data();
+    const lastCreatedAt = lastComment?.createdAt?.toDate
+      ? lastComment.createdAt.toDate()
+      : lastComment?.createdAt ? new Date(lastComment.createdAt) : null;
+    const nextCursor = commentsSnap.size === pageSize && lastCreatedAt && !Number.isNaN(lastCreatedAt.getTime())
+      ? lastCreatedAt.toISOString()
+      : null;
+
+    return res.json({ success: true, items, nextCursor, hasMore: Boolean(nextCursor), post: normalizePost(snapshot) });
   } catch (error) {
     const statusCode = error.statusCode || 500;
     return res.status(statusCode).json({ success: false, error: error.message || "Could not load comments" });
