@@ -1,9 +1,11 @@
 import { admin } from "../firebase/firebaseAdmin.js";
 
-const ADMIN_EMAILS = new Set([
-  "onakomayaokiki@gmail.com",
-  "iadejuwon77@gmail.com",
-]);
+const ADMIN_EMAILS = new Set(
+  (process.env.ADMIN_EMAILS || "iadejuwon77@gmail.com")
+    .split(",")
+    .map((email) => email.trim().toLowerCase())
+    .filter(Boolean)
+);
 
 export const authenticateFirebaseUser = async (req, res, next) => {
   try {

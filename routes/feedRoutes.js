@@ -505,7 +505,14 @@ router.get("/posts/:id/comments", authenticateFirebaseUser, async (req, res) => 
     }
 
     const commentsSnap = await commentsQuery.get();
-    const items = commentsSnap.docs.map(normalizeComment);
+    const items = commentsSnap.docs.map((commentDoc, index) => {
+      console.log("[feed-comments] item", {
+        postId: req.params.id,
+        index,
+        commentId: commentDoc.id,
+      });
+      return normalizeComment(commentDoc);
+    });
     const lastComment = commentsSnap.docs[commentsSnap.docs.length - 1]?.data();
     const lastCreatedAt = lastComment?.createdAt?.toDate
       ? lastComment.createdAt.toDate()
