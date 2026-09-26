@@ -30,6 +30,7 @@ import pastQuestionsRoutes from "./routes/pastQuestionsRoutes.js";
 import revenueRoutes from "./routes/revenue.js";
 import feedRoutes from "./routes/feedRoutes.js";
 import { initializeDatabase } from "./db/init.js";
+import { query } from "./db/pool.js";
 import { createServer } from "http";
 import { Server } from "socket.io";
 
@@ -182,6 +183,7 @@ const PORT = process.env.PORT || 5000;
 
 let reminderSchedulerStarted = false;
 let reminderJobInFlight = false;
+let supportCleanupStarted = false;
 
 const startReminderScheduler = () => {
   if (reminderSchedulerStarted) {
@@ -219,6 +221,37 @@ const startReminderScheduler = () => {
       runReminderJob();
     }, 15 * 60 * 1000);
   };
+
+const startSupportCleanupScheduler = () => {
+  if (supportCleanupStarted || !process.env.DATABASE_URL) {
+    return;
+  }
+
+  supportCleanupStarted = true;
+
+  const runSupportCleanup = async () => {
+    try {
+      const [reportsResult, suggestionsResult] = await Promise.all([
+        query(`
+        DELETE FROM reports
+        WHERE status = 'closed' AND updated_at <= NOW() - INTERVAL '24 hours';
+        `),
+        query(`
+        DELETE FROM suggestions
+        WHERE status = 'closed' AND updated_at <= NOW() - INTERVAL '24 hours';
+        `),
+      ]);
+      console.log("[support-cleanup] removed closed reports and suggestions", {
+        rowsAffected: (reportsResult?.rowCount || 0) + (suggestionsResult?.rowCount || 0),
+      });
+    } catch (error) {
+      console.error("Support cleanup failed:", error);
+    }
+  };
+
+  runSupportCleanup();
+  setInterval(runSupportCleanup, 60 * 60 * 1000);
+};
   
   // Initialize database if DATABASE_URL is configured
   if (process.env.DATABASE_URL) {
@@ -238,4 +271,5 @@ const startReminderScheduler = () => {
       `🚀 Server running on port ${PORT}`
     );
     startReminderScheduler();
+    startSupportCleanupScheduler();
   });
