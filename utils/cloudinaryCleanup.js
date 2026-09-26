@@ -69,12 +69,26 @@ export const extractPublicIdFromUrl = (url = "") => {
 };
 
 export const deleteCloudinaryAsset = async ({ publicId, resourceType, url }) => {
-  // First, check if this is an R2 asset
-  const r2Key = extractR2KeyFromUrl(url);
-  const isR2ByUrl = r2Key !== null;
-  
-  // If it's explicitly an R2 URL or we are confident it's an R2 key
-  if (isR2ByUrl) {
+  const knownR2Prefixes = [
+    "unihelp/",
+    "profiles/",
+    "marketplace/",
+    "hostels/",
+    "stories/",
+    "past-questions/",
+    "stickers/",
+    "voice/",
+    "feed/",
+  ];
+
+  const r2KeyFromUrl = extractR2KeyFromUrl(url);
+  const r2KeyFromPublicId = typeof publicId === "string" && publicId.trim() && knownR2Prefixes.some((prefix) => publicId.trim().startsWith(prefix))
+    ? publicId.trim()
+    : null;
+
+  const r2Key = r2KeyFromUrl || r2KeyFromPublicId;
+
+  if (r2Key) {
     const type = normalizeResourceType(resourceType);
     const success = await deleteFileFromR2(r2Key);
     return { success, publicId: r2Key, resourceType: type, result: success ? "deleted" : "failed" };

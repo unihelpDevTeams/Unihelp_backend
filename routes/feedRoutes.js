@@ -615,8 +615,12 @@ router.delete("/posts/:id", authenticateFirebaseUser, async (req, res) => {
     }
 
     const data = snapshot.data() || {};
-    if (data.imageUrl && data.cloudinaryPublicId) {
-      await deleteCloudinaryAsset({ publicId: data.cloudinaryPublicId, resourceType: "image" });
+    if (data.imageUrl || data.cloudinaryPublicId) {
+      await deleteCloudinaryAsset({
+        publicId: data.cloudinaryPublicId,
+        resourceType: "image",
+        url: data.imageUrl,
+      });
     }
 
     const commentsSnap = await db.collection("feedComments").where("postId", "==", req.params.id).get();
