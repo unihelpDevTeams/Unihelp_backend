@@ -1,17 +1,10 @@
 import express from "express";
 import multer from "multer";
-import { v2 as cloudinary } from "cloudinary";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
 import { normalizeUploadedAsset } from "../utils/mediaAssets.js";
+import { uploadFileToR2 } from "../services/storage/r2.js";
 
 const uploadsRoutes = express.Router();
-
-cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET,
-  secure: true,
-});
 
 const upload = multer({
   storage: multer.memoryStorage(),
@@ -20,13 +13,6 @@ const upload = multer({
 
 const ALLOWED_FOLDERS = new Set(["hostels", "marketplace", "stories", "feed"]);
 const ALLOWED_TYPES = new Set(["image", "video", "raw", "auto"]);
-const IMAGE_UPLOAD_TRANSFORMATION = {
-  width: 1600,
-  height: 1600,
-  crop: "limit",
-  quality: "auto:good",
-  fetch_format: "auto",
-};
 
 const isHtmlLikeFile = (mimetype = "", filename = "") => {
   const extension = String(filename || "").toLowerCase();
@@ -50,21 +36,8 @@ const validateFileTypeForResource = (mimetype = "", resourceType = "auto") => {
   return false;
 };
 
-const uploadBuffer = (buffer, options) =>
-  new Promise((resolve, reject) => {
-    const stream = cloudinary.uploader.upload_stream(options, (error, result) => {
-      if (error) reject(error);
-      else resolve(result);
-    });
-    stream.end(buffer);
-  });
-
 uploadsRoutes.post("/", authenticateFirebaseUser, upload.single("file"), async (req, res) => {
   try {
-    if (!process.env.CLOUDINARY_CLOUD_NAME || !process.env.CLOUDINARY_API_KEY || !process.env.CLOUDINARY_API_SECRET) {
-      return res.status(500).json({ error: "Cloudinary is not configured on the server" });
-    }
-
     if (!req.file) return res.status(400).json({ error: "No file provided" });
 
     const resourceType = ALLOWED_TYPES.has(req.body.resourceType) ? req.body.resourceType : "auto";
@@ -74,18 +47,25 @@ uploadsRoutes.post("/", authenticateFirebaseUser, upload.single("file"), async (
       return res.status(400).json({ error: "Invalid file type: html is not allowed" });
     }
 
-    const result = await uploadBuffer(req.file.buffer, {
-      folder: `unihelp/${feature}/${req.user.uid}`,
-      resource_type: resourceType,
-      public_id: req.body.publicId || undefined,
-      overwrite: false,
-      ...(resourceType === "image" ? { transformation: [IMAGE_UPLOAD_TRANSFORMATION] } : {}),
-    });
+    const result = await uploadFileToR2(
+      req.file.buffer,
+      `unihelp/${feature}/${req.user.uid}`,
+      req.file.originalname,
+      req.file.mimetype
+    );
 
-    res.status(201).json(normalizeUploadedAsset(result));
+    // Return the response structured like the Cloudinary response for backward compatibility
+    res.status(201).json({
+      url: result.url,
+      secure_url: result.url,
+      publicId: result.publicId,
+      cloudinaryPublicId: result.publicId, // Allow frontend to fall back to this
+      resourceType: result.resourceType,
+      cloudinaryResourceType: result.resourceType
+    });
   } catch (error) {
-    console.error("Cloudinary upload failed:", error);
-    res.status(500).json({ error: "Upload failed" });
+    console.error("R2 upload failed:", error);
+    res.status(500).json({ error: error.message || "Upload failed" });
   }
 });
 

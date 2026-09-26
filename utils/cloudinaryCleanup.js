@@ -1,4 +1,5 @@
 import { v2 as cloudinary } from "cloudinary";
+import { deleteFileFromR2 } from "../services/storage/r2.js";
 
 const VALID_RESOURCE_TYPES = new Set(["image", "video", "raw"]);
 
@@ -21,14 +22,19 @@ export const normalizeResourceType = (resourceType) => {
   return "image";
 };
 
+export const extractR2KeyFromUrl = (url = "") => {
+  if (!url || typeof url !== "string") return null;
+  const publicUrl = process.env.R2_PUBLIC_URL || "";
+  if (publicUrl && url.startsWith(publicUrl)) {
+    let key = url.slice(publicUrl.length);
+    if (key.startsWith("/")) key = key.slice(1);
+    return key;
+  }
+  return null;
+};
+
 /**
  * Extract the Cloudinary public ID from a Cloudinary URL.
- * Works with URLs like:
- *   https://res.cloudinary.com/{cloud_name}/image/upload/v1234/{public_id}.{ext}
- *   https://res.cloudinary.com/{cloud_name}/raw/upload/v1234/{public_id}
- *   https://res.cloudinary.com/{cloud_name}/video/upload/v1234/{public_id}.{ext}
- *
- * Returns null if the URL doesn't appear to be a Cloudinary URL.
  */
 export const extractPublicIdFromUrl = (url = "") => {
   if (!url || typeof url !== "string") return null;
@@ -63,7 +69,18 @@ export const extractPublicIdFromUrl = (url = "") => {
 };
 
 export const deleteCloudinaryAsset = async ({ publicId, resourceType, url }) => {
-  // Try to derive publicId from URL if not provided directly
+  // First, check if this is an R2 asset
+  const r2Key = extractR2KeyFromUrl(url);
+  const isR2ByUrl = r2Key !== null;
+  
+  // If it's explicitly an R2 URL or we are confident it's an R2 key
+  if (isR2ByUrl) {
+    const type = normalizeResourceType(resourceType);
+    const success = await deleteFileFromR2(r2Key);
+    return { success, publicId: r2Key, resourceType: type, result: success ? "deleted" : "failed" };
+  }
+
+  // Otherwise, proceed with Cloudinary logic
   const effectivePublicId = publicId || extractPublicIdFromUrl(url);
 
   if (!effectivePublicId) {

@@ -9,9 +9,9 @@ import { fileURLToPath } from "url";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
 import { admin, db } from "../firebase/firebaseAdmin.js";
 import { deleteCloudinaryAssets, isCloudinaryAdminConfigured } from "../utils/cloudinaryCleanup.js";
+import { uploadFileToR2, isR2Configured } from "../services/storage/r2.js";
 import { collectCloudinaryAssets } from "../utils/mediaAssets.js";
 import { convertPastQuestionExtractionWithGemini } from "../services/pastQuestionGeminiConversionService.js";
-import { v2 as cloudinary } from "cloudinary";
 
 const questionsRoutes = express.Router();
 
@@ -946,24 +946,19 @@ const buildTextElements = (lines = [], pageNumber = 1, sourceId = "pdf") => {
   return elements;
 };
 
-const uploadRenderedPage = (pngBuffer, pageNumber, sourceId, imageIndex = 0) => new Promise((resolve, reject) => {
-  if (!isCloudinaryAdminConfigured()) {
-    resolve(null);
-    return;
+const uploadRenderedPage = async (pngBuffer, pageNumber, sourceId, imageIndex = 0) => {
+  if (!isR2Configured()) {
+    return null;
   }
 
-  const upload = cloudinary.uploader.upload_stream({
-    folder: "unihelp/past-questions",
-    public_id: `${sourceId || "paper"}-page-${pageNumber}-image-${imageIndex + 1}`,
-    resource_type: "image",
-    overwrite: true,
-  }, (error, result) => {
-    if (error) reject(error);
-    else resolve(result);
-  });
-
-  upload.end(pngBuffer);
-});
+  try {
+    const filename = `${sourceId || "paper"}-page-${pageNumber}-image-${imageIndex + 1}.png`;
+    return await uploadFileToR2(pngBuffer, "unihelp/past-questions", filename, "image/png");
+  } catch (error) {
+    console.error("R2 upload failed for rendered page:", error);
+    return null;
+  }
+};
 
 const imageObjectToPng = (imageObject) => {
   const width = Number(imageObject?.width || 0);
@@ -1173,7 +1168,7 @@ const extractPdfContent = async (pdfBuffer, sourceId = randomId()) => {
       imageCount: totalImageCount,
       extractedImageCount,
       scannedPageCount,
-      cloudinaryConfigured: isCloudinaryAdminConfigured(),
+      cloudinaryConfigured: isR2Configured() || isCloudinaryAdminConfigured(),
     },
   };
 };
@@ -1236,7 +1231,7 @@ const extractPdfVisuals = async (pdfBuffer, sourceId = randomId()) => {
     pages,
     pageCount: pdf.numPages,
     hasScannedPage,
-    cloudinaryConfigured: isCloudinaryAdminConfigured(),
+    cloudinaryConfigured: isR2Configured() || isCloudinaryAdminConfigured(),
   };
 };
 
@@ -1376,7 +1371,7 @@ questionsRoutes.post("/process", authenticateFirebaseUser, ensureAdmin, async (r
       imageCount: 0,
       extractedImageCount: 0,
       scannedPageCount: 0,
-      cloudinaryConfigured: isCloudinaryAdminConfigured(),
+      cloudinaryConfigured: isR2Configured() || isCloudinaryAdminConfigured(),
     };
     let extractionAssets = [];
 

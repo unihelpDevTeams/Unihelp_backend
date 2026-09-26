@@ -6,6 +6,7 @@
     "migrate:features": "node scripts/migrateFirestoreFeatures.js"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.0.0",
     "@napi-rs/canvas": "^1.0.9",
     "axios": "^1.16.0",
     "cloudinary": "^2.10.0",
