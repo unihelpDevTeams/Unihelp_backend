@@ -160,7 +160,7 @@ export const sendNotification = async ({
 
   return {
     success: true,
-    sent: tickets.length,
+    sent: tickets.filter((ticket) => ticket.status === 'ok').length,
     recipients: validRecipients.length,
     tickets,
     receipts,

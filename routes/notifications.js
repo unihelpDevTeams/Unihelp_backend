@@ -18,6 +18,128 @@ const chunkArray = (items = [], size = 500) => {
   return chunks;
 };
 
+const NOTIFICATION_ADMIN_EMAILS = new Set(
+  (process.env.ADMIN_EMAILS || "onakomayaokiki@gmail.com,iadejuwon77@gmail.com")
+    .split(",")
+    .map((email) => email.trim().toLowerCase())
+    .filter(Boolean)
+);
+
+const isNotificationAdmin = async (user) => {
+  if (user?.admin || NOTIFICATION_ADMIN_EMAILS.has(String(user?.email || "").trim().toLowerCase())) {
+    return true;
+  }
+
+  if (!user?.uid || !db) return false;
+
+  const userSnap = await db.collection("users").doc(user.uid).get();
+  return userSnap.exists && userSnap.data()?.admin === true;
+};
+
+const parseNotificationCursor = (rawCursor) => {
+  if (typeof rawCursor !== "string") return null;
+
+  try {
+    const cursor = JSON.parse(rawCursor);
+    if (
+      typeof cursor?.createdAt !== "string" ||
+      Number.isNaN(Date.parse(cursor.createdAt)) ||
+      !/^\d+$/.test(String(cursor.id || ""))
+    ) {
+      return null;
+    }
+
+    return {
+      createdAt: new Date(cursor.createdAt).toISOString(),
+      id: String(cursor.id),
+    };
+  } catch {
+    return null;
+  }
+};
+
+const SELF_NOTIFICATION_TYPES = new Set([
+  "group_created",
+  "story_published",
+  "payment",
+  "user_blocked",
+  "user_unblocked",
+]);
+
+const isAuthorizedUserNotification = async (uid, recipientIds, type, data = {}) => {
+  if (recipientIds.length === 1 && recipientIds[0] === uid && SELF_NOTIFICATION_TYPES.has(type)) {
+    return true;
+  }
+
+  if (type === "group_message") {
+    const { groupId, messageId } = data;
+    if (!groupId || !messageId || recipientIds.includes(uid)) return false;
+
+    const groupRef = db.collection("groups").doc(groupId);
+    const [messageSnap, membersSnap, senderMembershipSnap] = await Promise.all([
+      groupRef.collection("messages").doc(messageId).get(),
+      groupRef.collection("members").get(),
+      groupRef.collection("members").doc(uid).get(),
+    ]);
+
+    if (!messageSnap.exists || !senderMembershipSnap.exists) return false;
+    const message = messageSnap.data() || {};
+    const createdAt = message.createdAt?.toDate?.();
+    const messageAge = createdAt ? Date.now() - createdAt.getTime() : Number.POSITIVE_INFINITY;
+    if (message.senderId !== uid || messageAge < 0 || messageAge > 5 * 60 * 1000) {
+      return false;
+    }
+
+    const memberIds = new Set(membersSnap.docs.map((member) => member.id));
+    return recipientIds.every((recipientId) => memberIds.has(recipientId));
+  }
+
+  if (recipientIds.length !== 1) return false;
+  const recipientId = recipientIds[0];
+  const pairId = [uid, recipientId].sort().join("_");
+
+  const friendRequestStatusByType = {
+    friend_request_received: { from: uid, to: recipientId, status: "pending" },
+    friend_request_accepted: { from: recipientId, to: uid, status: "accepted" },
+    friend_request_declined: { from: recipientId, to: uid, status: "declined" },
+  };
+
+  if (friendRequestStatusByType[type]) {
+    const requestSnap = await db.collection("friendRequests").doc(pairId).get();
+    const request = requestSnap.data() || {};
+    const expected = friendRequestStatusByType[type];
+    return requestSnap.exists && Object.entries(expected).every(([key, value]) => request[key] === value);
+  }
+
+  if (type === "friend_removed") {
+    const friendshipSnap = await db.collection("friends").doc(pairId).get();
+    const members = friendshipSnap.data()?.users || [];
+    return friendshipSnap.exists && members.includes(uid) && members.includes(recipientId);
+  }
+
+  if (type === "message_request_received") {
+    const requestId = `${uid}_${recipientId}`;
+    if (data.requestId !== requestId) return false;
+    const requestSnap = await db.collection("messageRequests").doc(requestId).get();
+    const request = requestSnap.data() || {};
+    return requestSnap.exists && request.from === uid && request.to === recipientId && request.status === "pending";
+  }
+
+  if (type === "message_request_accepted") {
+    const requestSnap = await db.collection("messageRequests").doc(`${recipientId}_${uid}`).get();
+    const request = requestSnap.data() || {};
+    return requestSnap.exists && request.from === recipientId && request.to === uid && request.status === "accepted";
+  }
+
+  if (type === "message_request_declined") {
+    const requestSnap = await db.collection("messageRequests").doc(`${uid}_${recipientId}`).get();
+    const request = requestSnap.data() || {};
+    return requestSnap.exists && request.from === uid && request.to === recipientId && request.status === "declined";
+  }
+
+  return false;
+};
+
 const clearInvalidExpoPushTokens = async (invalidRecipients = []) => {
   const uniqueRecipients = [
     ...new Map(
@@ -61,12 +183,14 @@ const buildMessagePayload = ({
   category = "General",
   url = "/",
   announcementId = null,
+  data = {},
 }) => ({
   notification: {
     title,
     body,
   },
   data: {
+    ...data,
     type,
     category,
     announcementId: announcementId || "",
@@ -99,20 +223,26 @@ export const sendStudyReminderNotifications = async () => {
     const inactiveSince = new Date(now.getTime() - 20 * 60 * 60 * 1000); // 20 hours
     const reminderWindowKey = getReminderWindowKey(now);
 
-    const usersSnap = await db
-      .collection("users")
-      .where("fcmToken", ">", "")
-      .get();
+    const [expoUsersSnap, fcmUsersSnap] = await Promise.all([
+      db.collection("users").where("expoPushToken", ">", "").get(),
+      db.collection("users").where("fcmToken", ">", "").get(),
+    ]);
+    const tokenUsers = new Map();
+    fcmUsersSnap.forEach((userSnap) => tokenUsers.set(userSnap.id, userSnap));
+    expoUsersSnap.forEach((userSnap) => tokenUsers.set(userSnap.id, userSnap));
 
     const recipients = [];
 
-    usersSnap.forEach((docSnap) => {
+    tokenUsers.forEach((docSnap) => {
       const user = docSnap.data() || {};
       const notificationsEnabled =
         user.notificationsEnabled !== false &&
         user.notifications?.enabled !== false;
 
-      if (!notificationsEnabled || !user.fcmToken) return;
+      const expoToken = user.expoPushToken;
+      const fcmToken = user.fcmToken;
+      const token = expoToken && Expo.isExpoPushToken(expoToken) ? expoToken : fcmToken;
+      if (!notificationsEnabled || !token) return;
 
       const lastSeenAt = user.lastStudyActivityAt || user.lastActive || user.createdAt;
       const lastReminderAt = user.lastStudyReminderAt;
@@ -131,7 +261,8 @@ export const sendStudyReminderNotifications = async () => {
 
       recipients.push({
         userId: docSnap.id,
-        token: user.fcmToken,
+        token,
+        pushType: token === expoToken ? "expo" : "fcm",
       });
     });
 
@@ -184,12 +315,30 @@ export const sendStudyReminderNotifications = async () => {
       }
 
       if (tokenBatch.length > 0) {
-        const response = await messaging.sendEachForMulticast({
-          ...reminderPayload,
-          tokens: tokenBatch.map((item) => item.token),
-        });
+        const expoRecipients = tokenBatch.filter((item) => item.pushType === "expo");
+        const fcmRecipients = tokenBatch.filter((item) => item.pushType === "fcm");
 
-        sent += response.successCount || 0;
+        if (expoRecipients.length > 0) {
+          const expoResult = await sendNotification({
+            recipients: expoRecipients,
+            title: reminderPayload.notification.title,
+            body: reminderPayload.notification.body,
+            type: "study-reminder",
+            category: "Reminder",
+            url: "/",
+          });
+          sent += expoResult.sent || 0;
+          await clearInvalidExpoPushTokens(expoResult.invalidRecipients);
+        }
+
+        if (fcmRecipients.length > 0) {
+          const response = await messaging.sendEachForMulticast({
+            ...reminderPayload,
+            tokens: fcmRecipients.map((item) => item.token),
+          });
+          sent += response.successCount || 0;
+        }
+
         await notificationBatch.commit();
         processedRecipients.push(...tokenBatch.map((item) => item.userId));
       }
@@ -228,17 +377,30 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
   try {
     const { pageSize = 20 } = req.query;
     const limitSize = Math.min(Math.max(parseInt(pageSize, 10) || 20, 1), 100);
+    const cursor = req.query.cursor ? parseNotificationCursor(req.query.cursor) : null;
+
+    if (req.query.cursor && !cursor) {
+      return res.status(400).json({ success: false, message: "Invalid notification cursor." });
+    }
+
+    const cursorClause = cursor ? "AND (created_at, id) < ($3::timestamptz, $4::bigint)" : "";
+    const params = cursor
+      ? [req.user.uid, limitSize + 1, cursor.createdAt, cursor.id]
+      : [req.user.uid, limitSize + 1];
 
     const sql = `
       SELECT id, user_id, title, message, category, type, url, announcement_id, read, created_at
       FROM notifications
       WHERE user_id = $1
-      ORDER BY created_at DESC
+      ${cursorClause}
+      ORDER BY created_at DESC, id DESC
       LIMIT $2
     `;
-    const { rows } = await query(sql, [req.user.uid, limitSize]);
+    const { rows } = await query(sql, params);
+    const hasMore = rows.length > limitSize;
+    const pageRows = rows.slice(0, limitSize);
 
-    const items = rows.map((row) => ({
+    const items = pageRows.map((row) => ({
       id: row.id.toString(),
       userId: row.user_id,
       title: row.title,
@@ -253,7 +415,12 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
       createdAt: row.created_at.toISOString(),
     }));
 
-    return res.status(200).json({ items, cursor: null, hasMore: false });
+    const lastRow = pageRows[pageRows.length - 1];
+    const nextCursor = hasMore && lastRow
+      ? { createdAt: lastRow.created_at.toISOString(), id: lastRow.id.toString() }
+      : null;
+
+    return res.status(200).json({ items, cursor: nextCursor, hasMore });
   } catch (error) {
     console.error("Failed to fetch notifications:", error);
     return res.status(500).json({ success: false, message: "Failed to fetch notifications" });
@@ -381,7 +548,7 @@ router.post("/push-token", authenticateFirebaseUser, async (req, res) => {
   }
 });
 
-router.post("/send-user", async (req, res) => {
+router.post("/send-user", authenticateFirebaseUser, async (req, res) => {
   try {
     const {
       userIds = [],
@@ -392,15 +559,27 @@ router.post("/send-user", async (req, res) => {
       category = "General",
       url = "/",
       announcementId = null,
+      data = {},
     } = req.body || {};
 
-    const ids = Array.isArray(userIds) ? userIds : [userId].filter(Boolean);
+    const requestedIds = Array.isArray(userIds) ? userIds : [userId];
+    const ids = [...new Set(requestedIds
+      .filter((id) => typeof id === "string")
+      .map((id) => id.trim())
+      .filter(Boolean))];
 
     if (!title || !body || ids.length === 0) {
       return res.status(400).json({
         success: false,
         message: "Title, body, and at least one user are required.",
       });
+    }
+
+    if (
+      !(await isNotificationAdmin(req.user)) &&
+      !(await isAuthorizedUserNotification(req.user.uid, ids, type, data || {}))
+    ) {
+      return res.status(403).json({ success: false, message: "You cannot send this notification." });
     }
 
     const recipients = [];
@@ -432,6 +611,7 @@ router.post("/send-user", async (req, res) => {
       category,
       url,
       announcementId,
+      data,
     });
 
     let sent = 0;
@@ -444,6 +624,7 @@ router.post("/send-user", async (req, res) => {
         title,
         body,
         data: {
+          ...(data || {}),
           type,
           category,
           announcementId: announcementId || "",
@@ -489,8 +670,12 @@ router.post("/send-user", async (req, res) => {
   }
 });
 
-router.post("/broadcast", async (req, res) => {
+router.post("/broadcast", authenticateFirebaseUser, async (req, res) => {
   try {
+    if (!(await isNotificationAdmin(req.user))) {
+      return res.status(403).json({ success: false, message: "Admin access required." });
+    }
+
     const {
       title,
       body,
