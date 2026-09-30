@@ -1,8 +1,4 @@
-import { Expo } from 'expo-server-sdk';
-
-const expo = new Expo({
-  accessToken: process.env.EXPO_ACCESS_TOKEN,
-});
+import { messaging } from '../firebase/firebaseAdmin.js';
 
 const normalizeRecipient = (recipient) => {
   if (typeof recipient === 'string') {
@@ -25,6 +21,15 @@ const normalizeRecipient = (recipient) => {
   };
 };
 
+const normalizeFcmStringValue = (value) => {
+  if (value === undefined || value === null) return '';
+  if (typeof value === 'string') return value;
+  if (typeof value === 'number' || typeof value === 'boolean') return String(value);
+  if (value instanceof Date) return value.toISOString();
+  if (typeof value === 'object') return JSON.stringify(value);
+  return String(value);
+};
+
 export const sendNotification = async ({
   recipients = [],
   title,
@@ -35,112 +40,91 @@ export const sendNotification = async ({
   url = '/notifications',
   sound = 'default',
   priority = 'high',
-  ttlSeconds = 300,
-  badge = 0,
 }) => {
-  const normalizedRecipients = recipients.map(normalizeRecipient);
-  const validRecipients = normalizedRecipients.filter((recipient) => (
-    typeof recipient.token === 'string' && Expo.isExpoPushToken(recipient.token)
-  ));
-  const invalidTokens = normalizedRecipients
-    .filter((recipient) => recipient.token && !Expo.isExpoPushToken(recipient.token))
-    .map((recipient) => recipient.token);
-
-  if (invalidTokens.length > 0) {
-    console.log('[push-debug] Skipping invalid Expo push tokens:', {
-      count: invalidTokens.length,
-    });
+  if (!messaging) {
+    console.warn('[push-debug] Firebase Admin messaging is unavailable; skipping FCM send.');
+    return {
+      success: false,
+      sent: 0,
+      recipients: 0,
+      skipped: recipients.length,
+      invalidTokens: [],
+      invalidRecipients: [],
+    };
   }
 
-  if (validRecipients.length === 0) {
+  const normalizedRecipients = recipients
+    .map(normalizeRecipient)
+    .filter((recipient) => typeof recipient.token === 'string' && recipient.token.trim().length > 0);
+
+  const invalidTokens = recipients
+    .map(normalizeRecipient)
+    .filter((recipient) => recipient.token && recipient.token.trim().length === 0)
+    .map((recipient) => recipient.token);
+
+  if (normalizedRecipients.length === 0) {
     return {
       success: true,
       sent: 0,
       recipients: 0,
       skipped: recipients.length,
-      tickets: [],
-      receipts: {},
       invalidTokens,
       invalidRecipients: [],
     };
   }
 
-  const chunks = [];
-  for (let index = 0; index < validRecipients.length; index += 100) {
-    chunks.push(validRecipients.slice(index, index + 100));
-  }
-
-  const tickets = [];
-  const receiptIdToRecipient = new Map();
+  let sent = 0;
   const invalidRecipients = [];
 
-  for (const chunk of chunks) {
-    const messages = chunk.map((recipient) => ({
-      to: recipient.token,
-      sound,
-      title,
-      body,
-      data: {
-        ...data,
-        type,
-        category,
-        url,
+  for (let index = 0; index < normalizedRecipients.length; index += 500) {
+    const chunk = normalizedRecipients.slice(index, index + 500);
+    const message = {
+      notification: {
         title,
         body,
-        message: body,
       },
-      priority,
-      ttl: ttlSeconds,
-      badge,
-      channelId: 'default',
-    }));
+      android: {
+        priority: 'high',
+        notification: {
+          channelId: 'default',
+          sound: 'default',
+        },
+      },
+      data: Object.fromEntries(
+        Object.entries({
+          ...data,
+          type,
+          category,
+          announcementId: data?.announcementId || '',
+          url,
+          title,
+          body,
+          message: body,
+        }).map(([key, value]) => [key, normalizeFcmStringValue(value)])
+      ),
+      tokens: chunk.map((recipient) => recipient.token),
+    };
 
-    const chunkTickets = await expo.sendPushNotificationsAsync(messages);
-    tickets.push(...chunkTickets);
+    const response = await messaging.sendEachForMulticast(message);
+    sent += response.successCount || 0;
 
-    chunkTickets.forEach((ticket, index) => {
-      const recipient = chunk[index];
-
-      if (ticket.status === 'ok' && ticket.id) {
-        receiptIdToRecipient.set(ticket.id, recipient);
+    response.responses?.forEach((result, resultIndex) => {
+      const recipient = chunk[resultIndex];
+      if (!recipient || result?.success) {
         return;
       }
 
-      console.log('[push-debug] Expo push ticket error:', {
-        status: ticket.status,
-        error: ticket.details?.error,
-        message: ticket.message,
-        userId: recipient?.userId,
+      const errorCode = result?.error?.code || '';
+      const errorMessage = result?.error?.message || '';
+      const invalidTokenError = /registration-token-not-registered|invalid-registration-token/i.test(`${errorCode} ${errorMessage}`);
+
+      console.log('[push-debug] FCM send error:', {
+        userId: recipient.userId,
+        errorCode,
+        errorMessage,
       });
 
-      if (ticket.details?.error === 'DeviceNotRegistered') {
-        invalidRecipients.push(recipient);
-      }
-    });
-  }
-
-  const receiptIds = [...receiptIdToRecipient.keys()];
-  const receipts = {};
-
-  for (const receiptIdChunk of expo.chunkPushNotificationReceiptIds(receiptIds)) {
-    const receiptChunk = await expo.getPushNotificationReceiptsAsync(receiptIdChunk);
-    Object.assign(receipts, receiptChunk);
-
-    Object.entries(receiptChunk).forEach(([receiptId, receipt]) => {
-      const recipient = receiptIdToRecipient.get(receiptId);
-
-      if (receipt.status === 'ok') {
-        return;
-      }
-
-      console.log('[push-debug] Expo push receipt error:', {
-        status: receipt.status,
-        error: receipt.details?.error,
-        message: receipt.message,
-        userId: recipient?.userId,
-      });
-
-      if (receipt.details?.error === 'DeviceNotRegistered' && recipient) {
+      if (invalidTokenError) {
         invalidRecipients.push(recipient);
       }
     });
@@ -150,20 +134,10 @@ export const sendNotification = async ({
     ...new Map(invalidRecipients.map((recipient) => [recipient.token, recipient])).values(),
   ];
 
-  console.log('[push-debug] Expo push send result:', {
-    requested: recipients.length,
-    valid: validRecipients.length,
-    tickets: tickets.length,
-    receipts: Object.keys(receipts).length,
-    invalid: uniqueInvalidRecipients.length,
-  });
-
   return {
     success: true,
-    sent: tickets.filter((ticket) => ticket.status === 'ok').length,
-    recipients: validRecipients.length,
-    tickets,
-    receipts,
+    sent,
+    recipients: normalizedRecipients.length,
     invalidTokens: [...invalidTokens, ...uniqueInvalidRecipients.map((recipient) => recipient.token)],
     invalidRecipients: uniqueInvalidRecipients,
   };

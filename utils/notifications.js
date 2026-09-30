@@ -12,7 +12,7 @@ const chunkArray = (items = [], size = 500) => {
   return chunks;
 };
 
-const clearInvalidExpoPushTokens = async (invalidRecipients = []) => {
+const clearInvalidFcmTokens = async (invalidRecipients = []) => {
   const uniqueRecipients = [
     ...new Map(
       invalidRecipients
@@ -30,14 +30,14 @@ const clearInvalidExpoPushTokens = async (invalidRecipients = []) => {
   for (const recipient of uniqueRecipients) {
     const userRef = db.collection("users").doc(recipient.userId);
     const userSnap = await userRef.get();
-    const currentToken = userSnap.data()?.expoPushToken;
+    const currentToken = userSnap.data()?.fcmToken;
 
     if (currentToken !== recipient.token) {
       continue;
     }
 
     await userRef.update({
-      expoPushToken: admin.firestore.FieldValue.delete(),
+      fcmToken: admin.firestore.FieldValue.delete(),
       pushNotificationsEnabled: false,
       pushTokenInvalidatedAt: admin.firestore.FieldValue.serverTimestamp(),
     });
@@ -79,20 +79,25 @@ export const sendAppNotification = async ({
 
     if (!notificationsEnabled) continue;
 
-    if (user.expoPushToken) {
-      resolvedRecipients.push({ userId: uid, token: user.expoPushToken, pushType: "expo" });
-    } else if (user.fcmToken) {
-      resolvedRecipients.push({ userId: uid, token: user.fcmToken, pushType: "fcm" });
+    const tokenCandidates = [
+      user.fcmToken,
+      ...(await db.collection("notificationTokens")
+        .where("userId", "==", uid)
+        .where("active", "==", true)
+        .get()
+        .then((snapshot) => snapshot.docs.map((docSnap) => docSnap.data()?.token).filter(Boolean))),
+    ];
+
+    for (const token of [...new Set(tokenCandidates.filter(Boolean))]) {
+      resolvedRecipients.push({ userId: uid, token, pushType: "fcm" });
     }
   }
 
   let sent = 0;
-  const expoRecipients = resolvedRecipients.filter((item) => item.pushType === "expo");
-  const legacyRecipients = resolvedRecipients.filter((item) => item.pushType !== "expo");
 
-  if (expoRecipients.length > 0) {
-    const expoResult = await sendNotification({
-      recipients: expoRecipients,
+  if (resolvedRecipients.length > 0) {
+    const fcmResult = await sendNotification({
+      recipients: resolvedRecipients,
       title,
       body,
       data: {
@@ -104,32 +109,8 @@ export const sendAppNotification = async ({
       },
     });
 
-    sent += expoResult.sent || 0;
-    await clearInvalidExpoPushTokens(expoResult.invalidRecipients);
-  }
-
-  if (legacyRecipients.length > 0) {
-    for (const tokenBatch of chunkArray(legacyRecipients, 500)) {
-      const response = await messaging.sendEachForMulticast({
-        notification: {
-          title,
-          body,
-        },
-        data: {
-          type,
-          category,
-          announcementId: announcementId || "",
-          url,
-          title,
-          body,
-          message: body,
-          ...(data || {}),
-        },
-        tokens: tokenBatch.map((item) => item.token),
-      });
-
-      sent += response.successCount || 0;
-    }
+    sent += fcmResult.sent || 0;
+    await clearInvalidFcmTokens(fcmResult.invalidRecipients);
   }
 
   const insertSql = `

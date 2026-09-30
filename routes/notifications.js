@@ -1,5 +1,5 @@
+import crypto from "node:crypto";
 import express from "express";
-import { Expo } from "expo-server-sdk";
 
 import { authenticateFirebaseUser } from "../middleware/auth.js";
 import { admin, db, messaging } from "../firebase/firebaseAdmin.js";
@@ -140,7 +140,113 @@ const isAuthorizedUserNotification = async (uid, recipientIds, type, data = {}) 
   return false;
 };
 
-const clearInvalidExpoPushTokens = async (invalidRecipients = []) => {
+const normalizeNotificationToken = (value) => {
+  if (typeof value !== "string") return null;
+  const normalized = value.trim();
+  return normalized.length > 0 ? normalized : null;
+};
+
+const getNotificationTokenDocId = (userId, token) => {
+  const normalizedToken = normalizeNotificationToken(token);
+  if (!userId || !normalizedToken) {
+    return null;
+  }
+  return `${String(userId)}_${crypto.createHash("sha256").update(normalizedToken).digest("hex")}`;
+};
+
+const getActiveNotificationTokensForUser = async (uid) => {
+  if (!uid || !db) {
+    return [];
+  }
+
+  const notificationsSnap = await db
+    .collection("notificationTokens")
+    .where("userId", "==", uid)
+    .where("active", "==", true)
+    .get();
+
+  return notificationsSnap.docs
+    .map((docSnap) => normalizeNotificationToken(docSnap.data()?.token))
+    .filter(Boolean);
+};
+
+const ensureNotificationTokenRecord = async (uid, token, platform = "android") => {
+  const normalizedToken = normalizeNotificationToken(token);
+  if (!uid || !normalizedToken || !db) {
+    return null;
+  }
+
+  const tokenDocId = getNotificationTokenDocId(uid, normalizedToken);
+  if (!tokenDocId) {
+    return null;
+  }
+
+  const timestamp = admin.firestore.FieldValue.serverTimestamp();
+  const tokenRef = db.collection("notificationTokens").doc(tokenDocId);
+
+  await tokenRef.set(
+    {
+      userId: uid,
+      token: normalizedToken,
+      platform,
+      active: true,
+      createdAt: timestamp,
+      updatedAt: timestamp,
+    },
+    { merge: true }
+  );
+
+  await db.collection("users").doc(uid).set(
+    {
+      fcmToken: normalizedToken,
+      pushNotificationsEnabled: true,
+      pushTokenUpdatedAt: timestamp,
+      deviceType: platform,
+    },
+    { merge: true }
+  );
+
+  return normalizedToken;
+};
+
+const deactivateNotificationToken = async (uid, token) => {
+  const normalizedToken = normalizeNotificationToken(token);
+  if (!uid || !normalizedToken || !db) {
+    return false;
+  }
+
+  const tokenDocId = getNotificationTokenDocId(uid, normalizedToken);
+  if (!tokenDocId) {
+    return false;
+  }
+
+  await db.collection("notificationTokens").doc(tokenDocId).set(
+    {
+      active: false,
+      updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+    },
+    { merge: true }
+  );
+
+  const userRef = db.collection("users").doc(uid);
+  const userSnap = await userRef.get();
+  const userData = userSnap.data() || {};
+
+  if (userData.fcmToken === normalizedToken) {
+    await userRef.set(
+      {
+        fcmToken: admin.firestore.FieldValue.delete(),
+        pushNotificationsEnabled: false,
+        pushTokenInvalidatedAt: admin.firestore.FieldValue.serverTimestamp(),
+      },
+      { merge: true }
+    );
+  }
+
+  return true;
+};
+
+const clearInvalidFcmTokens = async (invalidRecipients = []) => {
   const uniqueRecipients = [
     ...new Map(
       invalidRecipients
@@ -156,24 +262,23 @@ const clearInvalidExpoPushTokens = async (invalidRecipients = []) => {
   let cleared = 0;
 
   for (const recipient of uniqueRecipients) {
-    const userRef = db.collection("users").doc(recipient.userId);
-    const userSnap = await userRef.get();
-    const currentToken = userSnap.data()?.expoPushToken;
-
-    if (currentToken !== recipient.token) {
-      continue;
+    const deactivated = await deactivateNotificationToken(recipient.userId, recipient.token);
+    if (deactivated) {
+      cleared += 1;
     }
-
-    await userRef.update({
-      expoPushToken: admin.firestore.FieldValue.delete(),
-      pushNotificationsEnabled: false,
-      pushTokenInvalidatedAt: admin.firestore.FieldValue.serverTimestamp(),
-    });
-    cleared += 1;
   }
 
-  console.log("[push-debug] Cleared invalid Expo push tokens:", { cleared });
+  console.log("[push-debug] Cleared invalid FCM tokens:", { cleared });
   return cleared;
+};
+
+const normalizeFcmStringValue = (value) => {
+  if (value === undefined || value === null) return "";
+  if (typeof value === "string") return value;
+  if (typeof value === "number" || typeof value === "boolean") return String(value);
+  if (value instanceof Date) return value.toISOString();
+  if (typeof value === "object") return JSON.stringify(value);
+  return String(value);
 };
 
 const buildMessagePayload = ({
@@ -184,31 +289,44 @@ const buildMessagePayload = ({
   url = "/",
   announcementId = null,
   data = {},
-}) => ({
-  notification: {
-    title,
-    body,
-  },
-  data: {
-    ...data,
-    type,
-    category,
-    announcementId: announcementId || "",
-    url,
-    title,
-    body,
-    message: body,
-  },
-  webpush: {
+}) => {
+  const stringifiedData = Object.fromEntries(
+    Object.entries({
+      ...data,
+      type,
+      category,
+      announcementId: announcementId || "",
+      url,
+      title,
+      body,
+      message: body,
+    }).map(([key, value]) => [key, normalizeFcmStringValue(value)])
+  );
+
+  return {
     notification: {
       title,
       body,
     },
-    fcmOptions: {
-      link: url,
+    android: {
+      priority: "high",
+      notification: {
+        channelId: "default",
+        sound: "default",
+      },
     },
-  },
-});
+    data: stringifiedData,
+    webpush: {
+      notification: {
+        title,
+        body,
+      },
+      fcmOptions: {
+        link: url,
+      },
+    },
+  };
+};
 
 const getReminderWindowKey = (date = new Date()) => {
   const localDate = new Date(date.getTime() - date.getTimezoneOffset() * 60000);
@@ -223,48 +341,55 @@ export const sendStudyReminderNotifications = async () => {
     const inactiveSince = new Date(now.getTime() - 20 * 60 * 60 * 1000); // 20 hours
     const reminderWindowKey = getReminderWindowKey(now);
 
-    const [expoUsersSnap, fcmUsersSnap] = await Promise.all([
-      db.collection("users").where("expoPushToken", ">", "").get(),
+    const [fcmUsersSnap, notificationTokenSnap] = await Promise.all([
       db.collection("users").where("fcmToken", ">", "").get(),
+      db.collection("notificationTokens").where("active", "==", true).get(),
     ]);
     const tokenUsers = new Map();
     fcmUsersSnap.forEach((userSnap) => tokenUsers.set(userSnap.id, userSnap));
-    expoUsersSnap.forEach((userSnap) => tokenUsers.set(userSnap.id, userSnap));
+    notificationTokenSnap.forEach((tokenSnap) => {
+      const notificationToken = tokenSnap.data() || {};
+      if (!notificationToken.userId || !notificationToken.token) return;
+      const userSnap = tokenUsers.get(notificationToken.userId) || { id: notificationToken.userId, data: () => ({}) };
+      tokenUsers.set(notificationToken.userId, userSnap);
+    });
 
     const recipients = [];
 
-    tokenUsers.forEach((docSnap) => {
+    for (const [userId, docSnap] of tokenUsers.entries()) {
       const user = docSnap.data() || {};
       const notificationsEnabled =
         user.notificationsEnabled !== false &&
         user.notifications?.enabled !== false;
 
-      const expoToken = user.expoPushToken;
-      const fcmToken = user.fcmToken;
-      const token = expoToken && Expo.isExpoPushToken(expoToken) ? expoToken : fcmToken;
-      if (!notificationsEnabled || !token) return;
+      const tokenCandidates = [
+        user.fcmToken,
+        ...(await getActiveNotificationTokensForUser(userId)),
+      ];
+      const token = [...new Set(tokenCandidates.filter(Boolean))][0];
+      if (!notificationsEnabled || !token) continue;
 
       const lastSeenAt = user.lastStudyActivityAt || user.lastActive || user.createdAt;
       const lastReminderAt = user.lastStudyReminderAt;
 
-      if (!lastSeenAt) return;
+      if (!lastSeenAt) continue;
 
       const lastSeenDate = lastSeenAt.toDate ? lastSeenAt.toDate() : new Date(lastSeenAt);
       const lastReminderDate = lastReminderAt?.toDate ? lastReminderAt.toDate() : null;
 
-      if (lastSeenDate > inactiveSince) return;
+      if (lastSeenDate > inactiveSince) continue;
 
       if (lastReminderDate) {
         const hoursSinceLastReminder = (now.getTime() - lastReminderDate.getTime()) / (1000 * 60 * 60);
-        if (hoursSinceLastReminder < 24) return;
+        if (hoursSinceLastReminder < 24) continue;
       }
 
       recipients.push({
-        userId: docSnap.id,
+        userId,
         token,
-        pushType: token === expoToken ? "expo" : "fcm",
+        pushType: "fcm",
       });
-    });
+    }
 
     if (recipients.length === 0) {
       return { success: true, sent: 0, skipped: 0 };
@@ -315,21 +440,7 @@ export const sendStudyReminderNotifications = async () => {
       }
 
       if (tokenBatch.length > 0) {
-        const expoRecipients = tokenBatch.filter((item) => item.pushType === "expo");
         const fcmRecipients = tokenBatch.filter((item) => item.pushType === "fcm");
-
-        if (expoRecipients.length > 0) {
-          const expoResult = await sendNotification({
-            recipients: expoRecipients,
-            title: reminderPayload.notification.title,
-            body: reminderPayload.notification.body,
-            type: "study-reminder",
-            category: "Reminder",
-            url: "/",
-          });
-          sent += expoResult.sent || 0;
-          await clearInvalidExpoPushTokens(expoResult.invalidRecipients);
-        }
 
         if (fcmRecipients.length > 0) {
           const response = await messaging.sendEachForMulticast({
@@ -501,50 +612,89 @@ router.post("/:id/read", authenticateFirebaseUser, async (req, res) => {
   }
 });
 
-router.post("/push-token", authenticateFirebaseUser, async (req, res) => {
+const registerNotificationToken = async (req, res) => {
   try {
-    const { expoPushToken, deviceType = "unknown" } = req.body || {};
+    const { token, expoPushToken, platform = "android", deviceType = "android" } = req.body || {};
+    const normalizedToken = normalizeNotificationToken(token || expoPushToken);
 
-    if (!expoPushToken) {
+    if (!normalizedToken) {
       return res.status(400).json({
         success: false,
-        message: "An Expo push token is required.",
+        message: "A native FCM token is required.",
       });
     }
 
-    if (!Expo.isExpoPushToken(expoPushToken)) {
-      console.log("[push-debug] Rejected invalid Expo push token:", {
-        uid: req.user.uid,
-        deviceType,
-      });
+    if (normalizedToken.startsWith("ExponentPushToken[")) {
       return res.status(400).json({
         success: false,
-        message: "Invalid Expo push token.",
+        message: "Expo push tokens are no longer supported. Use a native FCM token from the Android device.",
       });
     }
 
-    await db.collection("users").doc(req.user.uid).set(
-      {
-        expoPushToken,
-        pushNotificationsEnabled: true,
-        pushTokenUpdatedAt: admin.firestore.FieldValue.serverTimestamp(),
-        deviceType,
-      },
-      { merge: true }
-    );
+    const savedToken = await ensureNotificationTokenRecord(req.user.uid, normalizedToken, platform || deviceType || "android");
 
-    console.log("[push-debug] Expo push token saved:", {
+    if (!savedToken) {
+      return res.status(500).json({
+        success: false,
+        message: "Failed to persist notification token.",
+      });
+    }
+
+    console.log("[push-debug] FCM token saved:", {
       uid: req.user.uid,
-      deviceType,
+      platform: platform || deviceType || "android",
     });
 
     return res.status(200).json({
       success: true,
       message: "Push token saved.",
+      token: savedToken,
     });
   } catch (error) {
     console.error("Push token update failed:", error);
     return res.status(500).json({ success: false, message: "Failed to save push token." });
+  }
+};
+
+router.post("/register-token", authenticateFirebaseUser, registerNotificationToken);
+router.post("/push-token", authenticateFirebaseUser, registerNotificationToken);
+
+router.post("/test", authenticateFirebaseUser, async (req, res) => {
+  try {
+    if (!messaging) {
+      return res.status(503).json({ success: false, message: "Firebase Admin messaging is not configured." });
+    }
+
+    const { title = "UniHelp Test", body = "Direct FCM is working!", data = { type: "test" } } = req.body || {};
+    const recipientTokens = await getActiveNotificationTokensForUser(req.user.uid);
+
+    if (!recipientTokens.length) {
+      return res.status(404).json({ success: false, message: "No active FCM tokens found for this user." });
+    }
+
+    const payload = buildMessagePayload({
+      title,
+      body,
+      type: "test",
+      category: "General",
+      url: "/notifications",
+      data,
+    });
+
+    const response = await messaging.sendEachForMulticast({
+      ...payload,
+      tokens: recipientTokens,
+    });
+
+    return res.status(200).json({
+      success: true,
+      successCount: response.successCount,
+      failureCount: response.failureCount,
+      responses: response.responses?.slice(0, 3),
+    });
+  } catch (error) {
+    console.error("FCM test notification failed:", error);
+    return res.status(500).json({ success: false, message: "Failed to send test notification." });
   }
 });
 
@@ -597,10 +747,11 @@ router.post("/send-user", authenticateFirebaseUser, async (req, res) => {
 
       if (!notificationsEnabled) continue;
 
-      if (user.expoPushToken) {
-        recipients.push({ userId: uid, token: user.expoPushToken, pushType: "expo" });
-      } else if (user.fcmToken) {
-        recipients.push({ userId: uid, token: user.fcmToken, pushType: "fcm" });
+      const tokenCandidates = [user.fcmToken, ...(await getActiveNotificationTokensForUser(uid))];
+      const uniqueTokens = [...new Set(tokenCandidates.filter(Boolean))];
+
+      for (const token of uniqueTokens) {
+        recipients.push({ userId: uid, token, pushType: "fcm" });
       }
     }
 
@@ -615,12 +766,11 @@ router.post("/send-user", authenticateFirebaseUser, async (req, res) => {
     });
 
     let sent = 0;
-    const expoRecipients = recipients.filter((item) => item.pushType === "expo");
-    const legacyRecipients = recipients.filter((item) => item.pushType !== "expo");
+    const fcmRecipients = recipients.filter((item) => item.pushType === "fcm");
 
-    if (expoRecipients.length > 0) {
-      const expoResult = await sendNotification({
-        recipients: expoRecipients,
+    if (fcmRecipients.length > 0) {
+      const fcmResult = await sendNotification({
+        recipients: fcmRecipients,
         title,
         body,
         data: {
@@ -631,19 +781,8 @@ router.post("/send-user", authenticateFirebaseUser, async (req, res) => {
           url,
         },
       });
-      sent += expoResult.sent || 0;
-      await clearInvalidExpoPushTokens(expoResult.invalidRecipients);
-    }
-
-    if (legacyRecipients.length > 0) {
-      for (const batch of chunkArray(legacyRecipients, 500)) {
-        const response = await messaging.sendEachForMulticast({
-          ...payload,
-          tokens: batch.map((item) => item.token),
-        });
-
-        sent += response.successCount || 0;
-      }
+      sent += fcmResult.sent || 0;
+      await clearInvalidFcmTokens(fcmResult.invalidRecipients);
     }
 
     const insertSql = `
@@ -695,32 +834,29 @@ router.post("/broadcast", authenticateFirebaseUser, async (req, res) => {
     const recipients = [];
     const targetUsers = [];
 
-    usersSnap.forEach((doc) => {
+    for (const doc of usersSnap.docs) {
       const user = doc.data() || {};
       const notificationsEnabled =
         user.notificationsEnabled !== false &&
         user.notifications?.enabled !== false;
 
-      if (!notificationsEnabled) return;
+      if (!notificationsEnabled) continue;
 
       targetUsers.push({
         userId: doc.id,
       });
 
-      if (user.expoPushToken) {
+      const tokenCandidates = [user.fcmToken, ...(await getActiveNotificationTokensForUser(doc.id))];
+      const uniqueTokens = [...new Set(tokenCandidates.filter(Boolean))];
+
+      for (const token of uniqueTokens) {
         recipients.push({
           userId: doc.id,
-          token: user.expoPushToken,
-          pushType: "expo",
-        });
-      } else if (user.fcmToken) {
-        recipients.push({
-          userId: doc.id,
-          token: user.fcmToken,
+          token,
           pushType: "fcm",
         });
       }
-    });
+    }
 
     const message = buildMessagePayload({
       title,
@@ -733,12 +869,9 @@ router.post("/broadcast", authenticateFirebaseUser, async (req, res) => {
 
     let sent = 0;
 
-    const expoRecipients = recipients.filter((item) => item.pushType === "expo");
-    const legacyRecipients = recipients.filter((item) => item.pushType !== "expo");
-
-    if (expoRecipients.length > 0) {
-      const expoResult = await sendNotification({
-        recipients: expoRecipients,
+    if (recipients.length > 0) {
+      const fcmResult = await sendNotification({
+        recipients,
         title,
         body,
         data: {
@@ -748,20 +881,8 @@ router.post("/broadcast", authenticateFirebaseUser, async (req, res) => {
           url,
         },
       });
-      sent += expoResult.sent || 0;
-      await clearInvalidExpoPushTokens(expoResult.invalidRecipients);
-    }
-
-    if (legacyRecipients.length > 0) {
-      const recipientTokens = [...new Set(legacyRecipients.map((item) => item.token))];
-      for (const tokenChunk of chunkArray(recipientTokens, 500)) {
-        const response = await messaging.sendEachForMulticast({
-          ...message,
-          tokens: tokenChunk,
-        });
-
-        sent += response.successCount || 0;
-      }
+      sent += fcmResult.sent || 0;
+      await clearInvalidFcmTokens(fcmResult.invalidRecipients);
     }
 
     const insertSql = `
