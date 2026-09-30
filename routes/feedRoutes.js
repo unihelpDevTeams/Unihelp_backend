@@ -45,19 +45,7 @@ const notifyFeedUsers = async ({ userIds, title, body, type, postId }) => {
   }
 };
 
-const getFriendIds = async (uid) => {
-  if (!uid || !db) return [];
-  const snapshot = await db.collection("friends").where("users", "array-contains", uid).get();
-  const friendIds = new Set();
-  snapshot.docs.forEach((friendDoc) => {
-    const members = friendDoc.data()?.memberIds || friendDoc.data()?.users || [];
-    members.forEach((memberId) => {
-      if (memberId && memberId !== uid) friendIds.add(memberId);
-    });
-  });
-  return [...friendIds];
-};
-
+// Signature: ensureText(value, fallback, maxLength)
 const ensureText = (value, fallback = "", maxLength = null) => {
   if (typeof value !== "string") return fallback;
   const text = value.trim();
@@ -72,7 +60,7 @@ const extractHashtags = (content = "") => [...new Set(
 
 const isPremiumProfile = (profile = {}) => {
   if (!profile.premium) return false;
-  if (String(profile.subscriptionStatus || '').trim().toLowerCase() === 'expired') return false;
+  if (String(profile.subscriptionStatus || "").trim().toLowerCase() === "expired") return false;
   const expiry = profile.subscriptionExpiresAt || profile.subscriptionExpireAt || profile.subscriptionExpireAT || profile.premiumExpiresAt || profile.expiresAt;
   return !expiry || new Date(expiry).getTime() > Date.now();
 };
@@ -182,6 +170,7 @@ const chunkArray = (items, size) => {
   return result;
 };
 
+// Single source of truth for friend lookups.
 const getAcceptedFriendIds = async (uid) => {
   if (!uid || !db) return [];
   const snapshot = await db.collection("friends").where("users", "array-contains", uid).get();
@@ -210,6 +199,11 @@ const getVisibleAuthorIds = async (uid) => {
   friends.forEach((friendId) => visible.add(friendId));
   return [...visible];
 };
+
+const getAuthorIdentity = (profile = {}, reqUser = {}) => ({
+  name: profile.username || profile.displayName || reqUser.name || reqUser.displayName || reqUser.email || "Student",
+  avatar: profile.photoThumb || profile.photoURL || profile.photo || profile.avatar || reqUser.picture || reqUser.photoURL || "",
+});
 
 const stableRandom = (value = "") => {
   let hash = 2166136261;
@@ -291,11 +285,12 @@ const rankFeedPosts = (posts = [], { viewerUid, interests, interactionMap, rando
   });
 
   const ranked = [];
-  const remaining = [...scored];
+  // FIX: sort by score first so the 8-item window contains the best candidates.
+  const remaining = [...scored].sort((left, right) => right.baseScore - left.baseScore);
   while (remaining.length) {
+    const recentAuthors = ranked.slice(-3).map((item) => item.post.authorId);
     const candidateWindow = remaining.slice(0, 8);
     candidateWindow.sort((left, right) => {
-      const recentAuthors = ranked.slice(-3).map((item) => item.post.authorId);
       const leftRepeat = recentAuthors.filter((id) => id === left.post.authorId).length;
       const rightRepeat = recentAuthors.filter((id) => id === right.post.authorId).length;
       const leftDiversity = leftRepeat ? 0 : 1;
@@ -319,6 +314,7 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
 
     const limit = Math.min(Number(req.query.limit) || 20, MAX_FEED_LIMIT);
     const cursor = req.query.cursor ? new Date(String(req.query.cursor)) : null;
+    const hasCursor = Boolean(cursor && !Number.isNaN(cursor.getTime()));
     const uid = req.user.uid;
     const authorIds = await getVisibleAuthorIds(uid);
 
@@ -330,18 +326,16 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
     const collections = [];
     for (const ids of chunkArray(authorIds, 10)) {
       let queryRef = db.collection("feedPosts").where("authorId", "in", ids).orderBy("createdAt", "desc");
-      if (cursor && !Number.isNaN(cursor.getTime())) {
-        queryRef = queryRef.startAfter(cursor);
-      }
+      if (hasCursor) queryRef = queryRef.startAfter(cursor);
       collections.push(queryRef.limit(candidateLimit).get());
     }
-    collections.push(
-      db.collection("feedPosts")
-        .where("audience", "==", "everyone")
-        .orderBy("createdAt", "desc")
-        .limit(candidateLimit)
-        .get()
-    );
+
+    // FIX: apply the cursor to the "everyone" query too, otherwise every page repeats the same posts.
+    let everyoneQuery = db.collection("feedPosts")
+      .where("audience", "==", "everyone")
+      .orderBy("createdAt", "desc");
+    if (hasCursor) everyoneQuery = everyoneQuery.startAfter(cursor);
+    collections.push(everyoneQuery.limit(candidateLimit).get());
 
     const snapshots = await Promise.all(collections);
     const results = [];
@@ -356,31 +350,38 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
       });
     });
 
-    const authorProfileIds = [...new Set(results.map((post) => post.authorId).filter(Boolean))];
+    // Drop other people's private posts, then take a strict time-ordered page.
+    const visible = results
+      .filter((post) => post.authorId === uid || post.audience !== "private")
+      .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+
+    // FIX: page by time (so the cursor never skips posts), then rank within the page.
+    const pagePosts = visible.slice(0, limit);
+    const hasMore = visible.length > limit || snapshots.some((snapshot) => snapshot.size === candidateLimit);
+    const oldestInPage = pagePosts[pagePosts.length - 1];
+    const nextCursor = hasMore && oldestInPage ? oldestInPage.createdAt : null;
+
+    const authorProfileIds = [...new Set(pagePosts.map((post) => post.authorId).filter(Boolean))];
     const authorProfiles = new Map();
     await Promise.all(authorProfileIds.map(async (authorId) => {
       const snapshot = await db.collection("users").doc(authorId).get();
       if (snapshot.exists) authorProfiles.set(authorId, snapshot.data() || {});
     }));
-    results.forEach((post) => {
+    pagePosts.forEach((post) => {
       post.authorPremium = isPremiumProfile(authorProfiles.get(post.authorId));
     });
 
     const profileSnapshot = await db.collection("users").doc(uid).get();
     const viewerProfile = profileSnapshot.exists ? profileSnapshot.data() : {};
-    const interactionMap = await buildInteractionMap(uid, results);
-    const visibleResults = rankFeedPosts(
-      results.filter((post) => post.authorId === uid || post.audience !== "private"),
-      { viewerUid: uid, interests: getUserInterests(viewerProfile), interactionMap, randomSeed: Math.random() }
-    );
-    const paged = visibleResults.slice(0, limit);
-    const oldestCandidate = results.reduce((oldest, post) => (
-      !oldest || new Date(post.createdAt) < new Date(oldest.createdAt) ? post : oldest
-    ), null);
-    const hasMore = snapshots.some((snapshot) => snapshot.size === candidateLimit);
-    const nextCursor = hasMore && oldestCandidate ? oldestCandidate.createdAt : null;
+    const interactionMap = await buildInteractionMap(uid, pagePosts);
+    const items = rankFeedPosts(pagePosts, {
+      viewerUid: uid,
+      interests: getUserInterests(viewerProfile),
+      interactionMap,
+      randomSeed: Math.random(),
+    });
 
-    return res.json({ success: true, items: paged, nextCursor, hasMore: Boolean(nextCursor) });
+    return res.json({ success: true, items, nextCursor, hasMore: Boolean(nextCursor) });
   } catch (error) {
     console.error("Error fetching feed:", error);
     return res.status(500).json({ success: false, error: error.message || "Could not load your feed" });
@@ -398,12 +399,13 @@ router.post("/posts", authenticateFirebaseUser, async (req, res) => {
     const postId = crypto.randomUUID();
     const authorProfileSnapshot = await db.collection("users").doc(req.user.uid).get();
     const authorProfile = authorProfileSnapshot.exists ? authorProfileSnapshot.data() : {};
+    const identity = getAuthorIdentity(authorProfile, req.user);
 
     const doc = {
       id: postId,
       authorId: req.user.uid,
-      authorName: authorProfile.username || authorProfile.displayName || req.user.name || req.user.displayName || req.user.email || "Student",
-      authorAvatar: authorProfile.photoThumb || authorProfile.photoURL || authorProfile.photo || authorProfile.avatar || req.user.picture || req.user.photoURL || "",
+      authorName: identity.name,
+      authorAvatar: identity.avatar,
       authorPremium: isPremiumProfile(authorProfile),
       type: payload.type,
       content: payload.content || "",
@@ -427,7 +429,7 @@ router.post("/posts", authenticateFirebaseUser, async (req, res) => {
 
     await db.collection("feedPosts").doc(postId).set(doc);
     if (payload.audience !== "private") {
-      const friendIds = await getFriendIds(req.user.uid);
+      const friendIds = await getAcceptedFriendIds(req.user.uid);
       await notifyFeedUsers({
         userIds: friendIds,
         title: `${doc.authorName} shared a new post`,
@@ -505,14 +507,7 @@ router.get("/posts/:id/comments", authenticateFirebaseUser, async (req, res) => 
     }
 
     const commentsSnap = await commentsQuery.get();
-    const items = commentsSnap.docs.map((commentDoc, index) => {
-      console.log("[feed-comments] item", {
-        postId: req.params.id,
-        index,
-        commentId: commentDoc.id,
-      });
-      return normalizeComment(commentDoc);
-    });
+    const items = commentsSnap.docs.map(normalizeComment);
     const lastComment = commentsSnap.docs[commentsSnap.docs.length - 1]?.data();
     const lastCreatedAt = lastComment?.createdAt?.toDate
       ? lastComment.createdAt.toDate()
@@ -589,18 +584,25 @@ router.post("/posts/:id/comments", authenticateFirebaseUser, async (req, res) =>
       return res.status(503).json({ success: false, error: "Feed service is unavailable" });
     }
     const postSnapshot = await assertPostVisible(req.user.uid, req.params.id);
-    const content = ensureText(req.body?.content || "", COMMENT_MAX_LENGTH);
+
+    // FIX: correct argument order (value, fallback, maxLength).
+    const content = ensureText(req.body?.content, "", COMMENT_MAX_LENGTH);
     if (!content) {
       return res.status(400).json({ success: false, error: "Comment content cannot be empty" });
     }
+
+    // FIX: use the same profile-based identity as posts.
+    const profileSnapshot = await db.collection("users").doc(req.user.uid).get();
+    const profile = profileSnapshot.exists ? profileSnapshot.data() : {};
+    const identity = getAuthorIdentity(profile, req.user);
 
     const commentId = crypto.randomUUID();
     const comment = {
       id: commentId,
       postId: req.params.id,
       authorId: req.user.uid,
-      authorName: req.user.name || req.user.displayName || req.user.email || "Student",
-      authorAvatar: req.user.picture || req.user.photoURL || "",
+      authorName: identity.name,
+      authorAvatar: identity.avatar,
       content,
       createdAt: new Date(),
     };
@@ -662,12 +664,12 @@ router.post("/posts/:id/like", authenticateFirebaseUser, async (req, res) => {
     const likeRef = db.collection("feedPostLikes").doc(likeId);
     const existing = await likeRef.get();
     if (existing.exists) {
-      return res.json({ success: true, liked: true, likesCount: Number((await db.collection("feedPosts").doc(req.params.id).get()).data()?.likesCount || 0) });
+      return res.json({ success: true, liked: true, likesCount: Number(postSnapshot.data()?.likesCount || 0) });
     }
 
     await likeRef.set({ postId: req.params.id, userId: req.user.uid, createdAt: new Date() });
     const postRef = db.collection("feedPosts").doc(req.params.id);
-    const next = await postRef.update({ likesCount: admin.firestore.FieldValue.increment(1), updatedAt: new Date() });
+    await postRef.update({ likesCount: admin.firestore.FieldValue.increment(1), updatedAt: new Date() });
     const fresh = await postRef.get();
     const post = postSnapshot.data() || {};
     const likerName = req.user.name || req.user.displayName || req.user.email || "Someone";
@@ -680,7 +682,7 @@ router.post("/posts/:id/like", authenticateFirebaseUser, async (req, res) => {
         postId: req.params.id,
       });
     }
-    return res.status(201).json({ success: true, liked: true, likesCount: Number(fresh.data()?.likesCount || 0), result: next });
+    return res.status(201).json({ success: true, liked: true, likesCount: Number(fresh.data()?.likesCount || 0) });
   } catch (error) {
     const statusCode = error.statusCode || 500;
     return res.status(statusCode).json({ success: false, error: error.message || "Could not like post" });
@@ -707,7 +709,8 @@ router.delete("/posts/:id/like", authenticateFirebaseUser, async (req, res) => {
     }
     return res.json({ success: true, liked: false });
   } catch (error) {
-    return res.status(500).json({ success: false, error: error.message || "Could not remove like" });
+    const statusCode = error.statusCode || 500;
+    return res.status(statusCode).json({ success: false, error: error.message || "Could not remove like" });
   }
 });
 
@@ -748,8 +751,9 @@ router.delete("/posts/:id", authenticateFirebaseUser, async (req, res) => {
 
 router.post("/posts/:id/report", authenticateFirebaseUser, async (req, res) => {
   try {
-    const reportType = ensureText(req.body?.reportType || req.body?.category || "Inappropriate content", 80) || "Inappropriate content";
-    const details = ensureText(req.body?.details || req.body?.message || "", 1500) || "Reported a post in the UniHelp Feed.";
+    // FIX: correct argument order (value, fallback, maxLength).
+    const reportType = ensureText(req.body?.reportType || req.body?.category, "Inappropriate content", 80);
+    const details = ensureText(req.body?.details || req.body?.message, "Reported a post in the UniHelp Feed.", 1500);
 
     const id = crypto.randomUUID();
     await query(
