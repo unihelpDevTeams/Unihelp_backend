@@ -10,6 +10,12 @@ const normalizePrivateKey = (value) => {
   return withNewlines;
 };
 
+const looksLikeServiceAccountJson = (value) =>
+  typeof value === "string" &&
+  value.trim().startsWith("{") &&
+  value.includes('"private_key"') &&
+  value.includes('"client_email"');
+
 const parseJsonEnv = (value) => {
   if (!value) return null;
   const trimmed = value.trim().replace(/^['"]|['"]$/g, "");
@@ -62,7 +68,12 @@ const rawPrivateKey =
   firebaseServiceAccount?.private_key ||
   process.env.GOOGLE_PRIVATE_KEY;
 
-const firebasePrivateKey = looksLikePemKey(normalizePrivateKey(rawPrivateKey)) ? normalizePrivateKey(rawPrivateKey) : null;
+const firebasePrivateKey = looksLikeServiceAccountJson(rawPrivateKey)
+  ? (() => {
+      console.warn("[firebaseAdmin] FIREBASE_PRIVATE_KEY looks like a full service-account JSON object. Use FIREBASE_SERVICE_ACCOUNT instead.");
+      return null;
+    })()
+  : (looksLikePemKey(normalizePrivateKey(rawPrivateKey)) ? normalizePrivateKey(rawPrivateKey) : null);
 
 let firebaseCredential = null;
 
