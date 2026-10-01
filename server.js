@@ -5,7 +5,10 @@ import contactRoutes from "./routes/contact.js";
 import paymentRoutes from "./routes/paymentRoutes.js";
 import { errorHandler } from "./middleware/errorHandler.js";
 import reportRoutes from "./routes/report.js";
-import notificationRoutes, { sendStudyReminderNotifications } from "./routes/notifications.js";
+import notificationRoutes, {
+  cleanupExpiredNotifications,
+  sendStudyReminderNotifications,
+} from "./routes/notifications.js";
 import mediaCleanupRoutes from "./routes/mediaCleanup.js";
 import aiRoutes from "./routes/aiRoutes.js";
 import aiToolsRoutes from "./routes/aiTools.js";
@@ -184,6 +187,7 @@ const PORT = process.env.PORT || 5000;
 let reminderSchedulerStarted = false;
 let reminderJobInFlight = false;
 let supportCleanupStarted = false;
+let notificationCleanupStarted = false;
 
 const startReminderScheduler = () => {
   if (reminderSchedulerStarted) {
@@ -252,6 +256,26 @@ const startSupportCleanupScheduler = () => {
   runSupportCleanup();
   setInterval(runSupportCleanup, 60 * 60 * 1000);
 };
+
+const startNotificationCleanupScheduler = () => {
+  if (notificationCleanupStarted) {
+    return;
+  }
+
+  notificationCleanupStarted = true;
+
+  const runNotificationCleanup = async () => {
+    try {
+      const result = await cleanupExpiredNotifications();
+      console.log("[notification-cleanup] removed expired notifications", result);
+    } catch (error) {
+      console.error("Notification cleanup scheduler failed:", error);
+    }
+  };
+
+  runNotificationCleanup();
+  setInterval(runNotificationCleanup, 24 * 60 * 60 * 1000);
+};
   
   // Initialize database if DATABASE_URL is configured
   if (process.env.DATABASE_URL) {
@@ -272,4 +296,5 @@ const startSupportCleanupScheduler = () => {
     );
     startReminderScheduler();
     startSupportCleanupScheduler();
+    startNotificationCleanupScheduler();
   });

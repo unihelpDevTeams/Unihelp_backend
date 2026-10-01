@@ -24,6 +24,77 @@ const NOTIFICATION_ADMIN_EMAILS = new Set(
     .map((email) => email.trim().toLowerCase())
     .filter(Boolean)
 );
+const NOTIFICATION_RETENTION_MS = 30 * 24 * 60 * 60 * 1000;
+
+const deleteExpiredFirestoreNotifications = async (cutoff) => {
+  if (!db) return 0;
+
+  let deletedCount = 0;
+  let cursor = null;
+
+  while (true) {
+    let expiredQuery = db
+      .collectionGroup("items")
+      .where("createdAt", "<", cutoff)
+      .orderBy("createdAt")
+      .limit(500);
+
+    if (cursor) expiredQuery = expiredQuery.startAfter(cursor);
+
+    const snapshot = await expiredQuery.get();
+    if (snapshot.empty) break;
+
+    const notificationDocs = snapshot.docs.filter((document) =>
+      document.ref.parent.id === "items" &&
+      document.ref.parent.parent?.parent?.id === "notifications"
+    );
+
+    if (notificationDocs.length) {
+      const batch = db.batch();
+      notificationDocs.forEach((document) => batch.delete(document.ref));
+      await batch.commit();
+      deletedCount += notificationDocs.length;
+    }
+
+    cursor = snapshot.docs[snapshot.docs.length - 1];
+    if (snapshot.docs.length < 500) break;
+  }
+
+  return deletedCount;
+};
+
+export const cleanupExpiredNotifications = async () => {
+  const cutoff = new Date(Date.now() - NOTIFICATION_RETENTION_MS);
+  const tasks = [];
+
+  if (process.env.DATABASE_URL) {
+    tasks.push(
+      query("DELETE FROM notifications WHERE created_at < $1", [cutoff])
+        .then((result) => ({ postgresDeleted: result.rowCount || 0 }))
+    );
+  }
+
+  if (db) {
+    tasks.push(
+      deleteExpiredFirestoreNotifications(cutoff)
+        .then((firestoreDeleted) => ({ firestoreDeleted }))
+    );
+  }
+
+  const results = await Promise.allSettled(tasks);
+  const totals = { postgresDeleted: 0, firestoreDeleted: 0, failures: 0 };
+
+  for (const result of results) {
+    if (result.status === "rejected") {
+      totals.failures += 1;
+      console.error("Notification retention cleanup failed:", result.reason);
+    } else {
+      Object.assign(totals, result.value);
+    }
+  }
+
+  return totals;
+};
 
 const isNotificationAdmin = async (user) => {
   if (user?.admin || NOTIFICATION_ADMIN_EMAILS.has(String(user?.email || "").trim().toLowerCase())) {
@@ -502,7 +573,7 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
     const sql = `
       SELECT id, user_id, title, message, category, type, url, announcement_id, read, created_at
       FROM notifications
-      WHERE user_id = $1
+      WHERE user_id = $1 AND created_at >= NOW() - INTERVAL '30 days'
       ${cursorClause}
       ORDER BY created_at DESC, id DESC
       LIMIT $2
