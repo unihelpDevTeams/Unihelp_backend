@@ -25,8 +25,9 @@ const NOTIFICATION_ADMIN_EMAILS = new Set(
     .filter(Boolean)
 );
 const NOTIFICATION_RETENTION_MS = 30 * 24 * 60 * 60 * 1000;
+const NOTIFICATION_READ_RETENTION_MS = 7 * 24 * 60 * 60 * 1000;
 
-const deleteExpiredFirestoreNotifications = async (cutoff) => {
+const deleteExpiredFirestoreNotifications = async (cutoff, readCutoff) => {
   if (!db) return 0;
 
   let deletedCount = 0;
@@ -44,10 +45,18 @@ const deleteExpiredFirestoreNotifications = async (cutoff) => {
     const snapshot = await expiredQuery.get();
     if (snapshot.empty) break;
 
-    const notificationDocs = snapshot.docs.filter((document) =>
-      document.ref.parent.id === "items" &&
-      document.ref.parent.parent?.parent?.id === "notifications"
-    );
+    const notificationDocs = snapshot.docs.filter((document) => {
+      const parentId = document.ref.parent.id;
+      const parentPath = document.ref.parent.parent?.parent?.id;
+      if (parentId !== "items" || parentPath !== "notifications") return false;
+
+      const data = document.data() || {};
+      const readAt = data.readAt || data.read_at;
+      const createdAt = data.createdAt;
+      const createdTime = createdAt?.toDate ? createdAt.toDate().getTime() : new Date(createdAt || 0).getTime();
+      const readTime = readAt?.toDate ? readAt.toDate().getTime() : new Date(readAt || 0).getTime();
+      return Number.isFinite(createdTime) && createdTime < cutoff.getTime() || (data.read === true && Number.isFinite(readTime) && readTime < readCutoff.getTime());
+    });
 
     if (notificationDocs.length) {
       const batch = db.batch();
@@ -65,31 +74,41 @@ const deleteExpiredFirestoreNotifications = async (cutoff) => {
 
 export const cleanupExpiredNotifications = async () => {
   const cutoff = new Date(Date.now() - NOTIFICATION_RETENTION_MS);
-  const tasks = [];
+  const readCutoff = new Date(Date.now() - NOTIFICATION_READ_RETENTION_MS);
+  const totals = { postgresDeleted: 0, firestoreDeleted: 0, skipped: false, failures: 0 };
 
   if (process.env.DATABASE_URL) {
-    tasks.push(
-      query("DELETE FROM notifications WHERE created_at < $1", [cutoff])
-        .then((result) => ({ postgresDeleted: result.rowCount || 0 }))
-    );
+    try {
+      const lockResult = await query("SELECT pg_try_advisory_lock(hashtext('notification_cleanup_lock')) AS acquired");
+      const acquired = Boolean(lockResult.rows?.[0]?.acquired);
+      if (!acquired) {
+        totals.skipped = true;
+        return totals;
+      }
+
+      try {
+        const { rowCount = 0 } = await query(
+          `DELETE FROM notifications
+           WHERE created_at < $1
+              OR (read = true AND created_at < $2)`,
+          [cutoff, readCutoff]
+        );
+        totals.postgresDeleted = rowCount;
+      } finally {
+        await query("SELECT pg_advisory_unlock(hashtext('notification_cleanup_lock'))");
+      }
+    } catch (error) {
+      totals.failures += 1;
+      console.error("Notification retention cleanup failed:", error);
+    }
   }
 
   if (db) {
-    tasks.push(
-      deleteExpiredFirestoreNotifications(cutoff)
-        .then((firestoreDeleted) => ({ firestoreDeleted }))
-    );
-  }
-
-  const results = await Promise.allSettled(tasks);
-  const totals = { postgresDeleted: 0, firestoreDeleted: 0, failures: 0 };
-
-  for (const result of results) {
-    if (result.status === "rejected") {
+    try {
+      totals.firestoreDeleted = await deleteExpiredFirestoreNotifications(cutoff, readCutoff);
+    } catch (error) {
       totals.failures += 1;
-      console.error("Notification retention cleanup failed:", result.reason);
-    } else {
-      Object.assign(totals, result.value);
+      console.error("Firestore notification retention cleanup failed:", error);
     }
   }
 

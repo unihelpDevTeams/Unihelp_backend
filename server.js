@@ -163,11 +163,7 @@ app.get("/api/health", (req, res) => {
     success: true,
     service: "unihelp-backend",
     storage: storageConfigured ? "r2-configured" : "r2-missing-config",
-    cloudinary: Boolean(
-      process.env.CLOUDINARY_CLOUD_NAME &&
-        process.env.CLOUDINARY_API_KEY &&
-        process.env.CLOUDINARY_API_SECRET
-    ) ? "configured" : "not-configured",
+    storageProvider: "cloudflare-r2",
   });
 });
 
