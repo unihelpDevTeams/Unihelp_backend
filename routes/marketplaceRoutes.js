@@ -481,6 +481,32 @@ marketplaceRoutes.delete("/:id/sponsor", authenticateFirebaseUser, async (req, r
   }
 });
 
+marketplaceRoutes.delete("/admin/delete-all", authenticateFirebaseUser, async (req, res) => {
+  if (!requireAdmin(req, res)) return;
+
+  const client = await getPool().connect();
+  try {
+    await client.query("BEGIN");
+    const mediaResult = await client.query(
+      "DELETE FROM feature_media WHERE entity_type = 'marketplace'"
+    );
+    const productsResult = await client.query("DELETE FROM marketplace_items");
+    await client.query("COMMIT");
+
+    res.json({
+      success: true,
+      deletedProducts: productsResult.rowCount,
+      deletedMediaReferences: mediaResult.rowCount,
+    });
+  } catch (error) {
+    await client.query("ROLLBACK").catch(() => {});
+    console.error("Error deleting all PostgreSQL marketplace products:", error);
+    res.status(500).json({ error: "Failed to delete marketplace products" });
+  } finally {
+    client.release();
+  }
+});
+
 marketplaceRoutes.delete("/:id", authenticateFirebaseUser, async (req, res) => {
   try {
     const existing = await query("SELECT seller_id FROM marketplace_items WHERE id = $1", [req.params.id]);
