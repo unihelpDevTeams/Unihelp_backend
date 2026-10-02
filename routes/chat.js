@@ -7,6 +7,7 @@ import { query } from "../db/pool.js";
 import { isStickerAccessible } from "../services/stickerService.js";
 
 const router = express.Router();
+const DEFAULT_MESSAGE_PAGE_SIZE = 20;
 
 router.post("/:conversationId/messages", authenticateFirebaseUser, async (req, res) => {
   try {
@@ -120,14 +121,26 @@ export default router;
 router.get("/:conversationId/messages", authenticateFirebaseUser, async (req, res) => {
   try {
     const { conversationId } = req.params;
+    const { limit: limitParam, cursor } = req.query;
     const conversation = await db.collection("conversations").doc(conversationId).get();
     if (!conversation.exists || !conversation.data().memberIds?.includes(req.user.uid)) {
       return res.status(403).json({ success: false, error: "You are not a member of this conversation" });
     }
+
+    const requestedLimit = Number(limitParam) || DEFAULT_MESSAGE_PAGE_SIZE;
+    const pageSize = Math.min(Math.max(requestedLimit, 1), 50);
     const messagesRef = db.collection("conversations").doc(conversationId).collection("messages");
-    // Limit to last 50 messages for initial load
-    const snapshot = await messagesRef.orderBy("createdAt", "desc").limit(50).get();
-    const messages = snapshot.docs.map(doc => {
+
+    let queryRef = messagesRef.orderBy("createdAt", "desc");
+    if (cursor) {
+      const cursorDoc = await messagesRef.doc(String(cursor)).get();
+      if (cursorDoc.exists) {
+        queryRef = queryRef.startAfter(cursorDoc);
+      }
+    }
+    const snapshot = await queryRef.limit(pageSize).get();
+
+    const messages = snapshot.docs.map((doc) => {
       const data = doc.data();
       return {
         ...data,
@@ -135,8 +148,20 @@ router.get("/:conversationId/messages", authenticateFirebaseUser, async (req, re
         createdAt: data.createdAt ? data.createdAt.toDate().toISOString() : new Date().toISOString(),
       };
     });
-    // Reverse so they are in chronological order
-    res.status(200).json({ success: true, messages: messages.reverse() });
+
+    const lastVisibleDoc = snapshot.docs[snapshot.docs.length - 1];
+    const nextSnapshot = lastVisibleDoc
+      ? await messagesRef.orderBy("createdAt", "desc").startAfter(lastVisibleDoc).limit(1).get()
+      : { docs: [] };
+
+    const hasMore = snapshot.docs.length === pageSize && nextSnapshot.docs.length > 0;
+
+    res.status(200).json({
+      success: true,
+      messages: messages.reverse(),
+      cursor: snapshot.docs[snapshot.docs.length - 1]?.id || null,
+      hasMore,
+    });
   } catch (error) {
     console.error("Chat get error:", error);
     res.status(500).json({ success: false, error: error.message });
