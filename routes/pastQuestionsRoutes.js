@@ -9,7 +9,7 @@ import { fileURLToPath } from "url";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
 import { admin, db } from "../firebase/firebaseAdmin.js";
 import { deleteCloudinaryAssets, isCloudinaryAdminConfigured } from "../utils/cloudinaryCleanup.js";
-import { uploadFileToR2, isR2Configured } from "../services/storage/r2.js";
+import { uploadFileToR2, isR2Configured, extractR2KeyFromUrl } from "../services/storage/r2.js";
 import { collectCloudinaryAssets } from "../utils/mediaAssets.js";
 import { convertPastQuestionExtractionWithGemini } from "../services/pastQuestionGeminiConversionService.js";
 
@@ -57,6 +57,11 @@ const ensureAdmin = (req, res, next) => {
     return res.status(403).json({ success: false, error: "Admin access required" });
   }
   next();
+};
+
+const isUsersResourceUpload = (url, uid) => {
+  const key = extractR2KeyFromUrl(strip(url));
+  return Boolean(key && uid && key.startsWith(`unihelp/resources/${uid}/`));
 };
 
 const buildContentBlocks = (question = {}, fallbackText = "") => {
@@ -792,6 +797,9 @@ const buildDraftFromPayload = async (payload = {}) => {
     courseCode,
     courseTitle,
     department,
+    departmentId: strip(payload.departmentId || payload.deptId || ""),
+    institutionId: strip(payload.institutionId || payload.schoolId || ""),
+    level: strip(payload.level || ""),
     institution,
     session,
     examSession,
@@ -1358,10 +1366,13 @@ questionsRoutes.get("/:id", authenticateFirebaseUser, async (req, res) => {
   }
 });
 
-questionsRoutes.post("/process", authenticateFirebaseUser, ensureAdmin, async (req, res) => {
+questionsRoutes.post("/process", authenticateFirebaseUser, async (req, res) => {
   try {
     const payload = req.body || {};
     const originalUrl = strip(payload.originalFile?.url || payload.fileUrl || payload.downloadUrl || payload.url || "");
+    if (req.user?.admin !== true && !isUsersResourceUpload(originalUrl, req.user?.uid)) {
+      return res.status(403).json({ success: false, error: "Upload the original file to your resource folder before processing it." });
+    }
     let extractedContent = payload.extractedContent || null;
     let extractedDocumentContent = Array.isArray(payload.content) ? payload.content : [];
     let warnings = [];
@@ -1470,9 +1481,26 @@ questionsRoutes.post("/process", authenticateFirebaseUser, ensureAdmin, async (r
   }
 });
 
-questionsRoutes.post("/", authenticateFirebaseUser, ensureAdmin, async (req, res) => {
+questionsRoutes.post("/", authenticateFirebaseUser, async (req, res) => {
   try {
-    const payload = await buildDraftFromPayload(req.body || {});
+    const body = req.body || {};
+    const isAdminUser = req.user?.admin === true;
+    const originalUrl = strip(body.originalFile?.url || body.fileUrl || body.downloadUrl || body.url || "");
+    if (!isAdminUser && !isUsersResourceUpload(originalUrl, req.user?.uid)) {
+      return res.status(403).json({ success: false, error: "Only your uploaded resource file can be submitted for review." });
+    }
+    const payload = await buildDraftFromPayload({
+      ...body,
+      createdBy: isAdminUser ? (body.createdBy || req.user.uid) : req.user.uid,
+      status: isAdminUser ? body.status : "draft",
+      processing: isAdminUser
+        ? body.processing
+        : {
+            status: "manual_review",
+            source: "user_submission",
+            warnings: ["Submitted by a student; admin review is required before publishing."],
+          },
+    });
     const saved = await saveDraftToFirestore(payload);
     return res.status(201).json({ success: true, item: saved });
   } catch (error) {
