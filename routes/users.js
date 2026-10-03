@@ -36,26 +36,18 @@ const getLatestActiveExpiry = (profile = {}) => {
   return expiries.reduce((latest, date) => (date > latest ? date : latest), new Date(0));
 };
 
-const getFriendIds = async (uid, max = 1000) => {
-  if (!uid || !db) return [];
-  const snapshot = await db
-    .collection("friends")
-    .where("users", "array-contains", uid)
-    .limit(max)
-    .get();
-  const ids = new Set();
-  snapshot.docs.forEach((friendship) => {
-    const users = friendship.data()?.users || [];
-    users.forEach((id) => {
-      if (id && id !== uid) ids.add(id);
-    });
-  });
-  return [...ids];
+const getFriendIds = async (uid) => {
+  if (!uid) return [];
+  const { rows } = await query(`
+    SELECT CASE WHEN user_id_1 = $1 THEN user_id_2 ELSE user_id_1 END as friend_id
+    FROM friends
+    WHERE user_id_1 = $1 OR user_id_2 = $1
+  `, [uid]);
+  return rows.map(r => r.friend_id);
 };
 
 router.get("/:uid/social-counts", authenticateFirebaseUser, async (req, res) => {
   try {
-    if (!db) return res.status(503).json({ success: false, error: "Social graph is unavailable" });
     const targetUid = String(req.params.uid || "");
     if (!targetUid) return res.status(400).json({ success: false, error: "User id is required" });
 

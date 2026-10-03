@@ -33,6 +33,8 @@ import stickerRoutes from "./routes/stickerRoutes.js";
 import pastQuestionsRoutes from "./routes/pastQuestionsRoutes.js";
 import revenueRoutes from "./routes/revenue.js";
 import feedRoutes from "./routes/feedRoutes.js";
+import tasksRoutes from "./routes/tasks.js";
+import friendshipsRoutes from "./routes/friendships.js";
 import { initializeDatabase } from "./db/init.js";
 import { query } from "./db/pool.js";
 import { createServer } from "http";
@@ -144,6 +146,8 @@ app.use("/api/users", usersRoutes);
 app.use("/api/stickers", stickerRoutes);
 app.use("/api/past-questions", pastQuestionsRoutes);
 app.use("/api/revenue", revenueRoutes);
+app.use("/api/tasks", tasksRoutes);
+app.use("/api/friendships", friendshipsRoutes);
 console.log("Formulas route loaded successfully");
 app.get("/", (req, res) => {
   res.status(200).json({
