@@ -13,7 +13,7 @@ const cleanupExpiredPosts = () => {
   });
 };
 
-router.get("/posts", authenticateFirebaseUser, async (req, res) => {
+router.get("/", authenticateFirebaseUser, async (req, res) => {
   try {
     // Perform cleanup asynchronously
     cleanupExpiredPosts();
@@ -29,10 +29,27 @@ router.get("/posts", authenticateFirebaseUser, async (req, res) => {
       [limit, offset]
     );
 
+    const items = result.rows.map(post => ({
+      id: post.id,
+      authorId: post.author_id,
+      authorName: post.author_name,
+      authorAvatar: post.author_photo,
+      university: post.university,
+      content: post.content,
+      imageUrl: post.image_url,
+      cloudinaryPublicId: post.cloudinary_public_id,
+      commentsCount: post.comments_count,
+      likesCount: post.likes_count,
+      createdAt: post.created_at,
+      updatedAt: post.updated_at,
+      expiresAt: post.expires_at,
+    }));
+
     res.json({
       success: true,
-      items: result.rows,
+      items,
       hasMore: result.rows.length === limit,
+      nextCursor: String(offset + limit)
     });
   } catch (error) {
     console.error("Error fetching feed:", error);
@@ -56,10 +73,65 @@ router.post("/posts", authenticateFirebaseUser, async (req, res) => {
       [req.user.uid, authorName, authorPhoto, university || null, content, imageUrl || null, cloudinaryPublicId || null]
     );
 
-    res.status(201).json({ success: true, item: result.rows[0] });
+    const post = result.rows[0];
+    const item = {
+      id: post.id,
+      authorId: post.author_id,
+      authorName: post.author_name,
+      authorAvatar: post.author_photo,
+      university: post.university,
+      content: post.content,
+      imageUrl: post.image_url,
+      cloudinaryPublicId: post.cloudinary_public_id,
+      commentsCount: post.comments_count,
+      likesCount: post.likes_count,
+      createdAt: post.created_at,
+      updatedAt: post.updated_at,
+      expiresAt: post.expires_at,
+    };
+
+    res.status(201).json({ success: true, item });
   } catch (error) {
     console.error("Error creating feed post:", error);
     res.status(500).json({ success: false, error: "Could not create post" });
+  }
+});
+
+router.get("/users/:uid/posts", authenticateFirebaseUser, async (req, res) => {
+  try {
+    const limit = Math.min(parseInt(req.query.limit) || 20, 50);
+    const offset = parseInt(req.query.offset) || 0;
+    
+    // Support pagination for a specific user's posts
+    let sql = `SELECT * FROM feed_posts WHERE author_id = $1 AND expires_at > NOW() ORDER BY created_at DESC LIMIT $2 OFFSET $3`;
+    let values = [req.params.uid, limit, offset];
+    
+    const { rows } = await query(sql, values);
+    
+    const items = rows.map(post => ({
+      id: post.id,
+      authorId: post.author_id,
+      authorName: post.author_name,
+      authorAvatar: post.author_photo,
+      university: post.university,
+      content: post.content,
+      imageUrl: post.image_url,
+      cloudinaryPublicId: post.cloudinary_public_id,
+      commentsCount: post.comments_count,
+      likesCount: post.likes_count,
+      createdAt: post.created_at,
+      updatedAt: post.updated_at,
+      expiresAt: post.expires_at,
+    }));
+    
+    res.json({
+      success: true,
+      items,
+      hasMore: rows.length === limit,
+      nextCursor: String(offset + limit)
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: "Could not fetch user posts" });
   }
 });
 
@@ -74,7 +146,24 @@ router.get("/posts/:id", authenticateFirebaseUser, async (req, res) => {
       return res.status(404).json({ success: false, error: "Post not found" });
     }
 
-    res.json({ success: true, item: result.rows[0] });
+    const post = result.rows[0];
+    const item = {
+      id: post.id,
+      authorId: post.author_id,
+      authorName: post.author_name,
+      authorAvatar: post.author_photo,
+      university: post.university,
+      content: post.content,
+      imageUrl: post.image_url,
+      cloudinaryPublicId: post.cloudinary_public_id,
+      commentsCount: post.comments_count,
+      likesCount: post.likes_count,
+      createdAt: post.created_at,
+      updatedAt: post.updated_at,
+      expiresAt: post.expires_at,
+    };
+
+    res.json({ success: true, item });
   } catch (error) {
     res.status(500).json({ success: false, error: "Could not fetch post" });
   }
@@ -93,10 +182,24 @@ router.get("/posts/:id/comments", authenticateFirebaseUser, async (req, res) => 
       [req.params.id, limit, offset]
     );
 
+    const items = result.rows.map(comment => ({
+      id: comment.id,
+      postId: comment.post_id,
+      authorId: comment.author_id,
+      authorName: comment.author_name,
+      authorAvatar: comment.author_photo,
+      text: comment.text,
+      content: comment.text,
+      likesCount: comment.likes_count,
+      createdAt: comment.created_at,
+      updatedAt: comment.updated_at,
+    }));
+
     res.json({
       success: true,
-      items: result.rows,
+      items,
       hasMore: result.rows.length === limit,
+      nextCursor: String(offset + limit)
     });
   } catch (error) {
     res.status(500).json({ success: false, error: "Could not load comments" });
@@ -123,7 +226,21 @@ router.post("/posts/:id/comments", authenticateFirebaseUser, async (req, res) =>
 
     await query(`UPDATE feed_posts SET comments_count = comments_count + 1 WHERE id = $1`, [req.params.id]);
 
-    res.status(201).json({ success: true, item: commentResult.rows[0] });
+    const comment = commentResult.rows[0];
+    const item = {
+      id: comment.id,
+      postId: comment.post_id,
+      authorId: comment.author_id,
+      authorName: comment.author_name,
+      authorAvatar: comment.author_photo,
+      text: comment.text,
+      content: comment.text,
+      likesCount: comment.likes_count,
+      createdAt: comment.created_at,
+      updatedAt: comment.updated_at,
+    };
+
+    res.status(201).json({ success: true, item });
   } catch (error) {
     res.status(500).json({ success: false, error: "Could not create comment" });
   }
