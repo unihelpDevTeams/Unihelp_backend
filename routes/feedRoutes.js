@@ -158,6 +158,7 @@ const normalizeComment = (doc) => {
     authorName: data.authorName || "",
     authorAvatar: data.authorAvatar || "",
     content: data.content || "",
+    likesCount: Number(data.likesCount || 0),
     createdAt: createdAt.toISOString(),
   };
 };
@@ -508,6 +509,24 @@ router.get("/posts/:id/comments", authenticateFirebaseUser, async (req, res) => 
 
     const commentsSnap = await commentsQuery.get();
     const items = commentsSnap.docs.map(normalizeComment);
+    
+    // Fetch comment likes for current user
+    if (items.length > 0) {
+      const commentIds = items.map((c) => c.id);
+      const likedCommentIds = new Set();
+      const chunks = chunkArray(commentIds, 10);
+      for (const chunk of chunks) {
+        const likesSnap = await db.collection("feedCommentLikes")
+          .where("userId", "==", req.user.uid)
+          .where("commentId", "in", chunk)
+          .get();
+        likesSnap.docs.forEach((doc) => likedCommentIds.add(doc.data().commentId));
+      }
+      items.forEach((item) => {
+        if (likedCommentIds.has(item.id)) item.liked = true;
+      });
+    }
+
     const lastComment = commentsSnap.docs[commentsSnap.docs.length - 1]?.data();
     const lastCreatedAt = lastComment?.createdAt?.toDate
       ? lastComment.createdAt.toDate()
@@ -777,3 +796,54 @@ router.post("/posts/:id/report", authenticateFirebaseUser, async (req, res) => {
 });
 
 export default router;
+router.post("/comments/:commentId/like", authenticateFirebaseUser, async (req, res) => {
+  try {
+    if (!db) return res.status(503).json({ success: false, error: "Feed service is unavailable" });
+    const likeId = `${req.params.commentId}_${req.user.uid}`;
+    const likeRef = db.collection("feedCommentLikes").doc(likeId);
+    const existing = await likeRef.get();
+    const commentRef = db.collection("feedComments").doc(req.params.commentId);
+    const commentSnapshot = await commentRef.get();
+    
+    if (!commentSnapshot.exists) {
+      return res.status(404).json({ success: false, error: "Comment not found" });
+    }
+    if (existing.exists) {
+      return res.json({ success: true, liked: true, likesCount: Number(commentSnapshot.data()?.likesCount || 0) });
+    }
+    
+    await likeRef.set({ commentId: req.params.commentId, userId: req.user.uid, createdAt: new Date() });
+    await commentRef.update({ likesCount: admin.firestore.FieldValue.increment(1) });
+    
+    // Notifications could be added here if needed
+    const fresh = await commentRef.get();
+    return res.status(201).json({ success: true, liked: true, likesCount: Number(fresh.data()?.likesCount || 0) });
+  } catch (error) {
+    const statusCode = error.statusCode || 500;
+    return res.status(statusCode).json({ success: false, error: error.message || "Could not like comment" });
+  }
+});
+
+router.delete("/comments/:commentId/like", authenticateFirebaseUser, async (req, res) => {
+  try {
+    if (!db) return res.status(503).json({ success: false, error: "Feed service is unavailable" });
+    const likeId = `${req.params.commentId}_${req.user.uid}`;
+    const likeRef = db.collection("feedCommentLikes").doc(likeId);
+    const existing = await likeRef.get();
+    
+    if (!existing.exists) {
+      return res.json({ success: true, liked: false });
+    }
+    
+    await likeRef.delete();
+    const commentRef = db.collection("feedComments").doc(req.params.commentId);
+    const commentSnapshot = await commentRef.get();
+    if (commentSnapshot.exists) {
+      await commentRef.update({ likesCount: admin.firestore.FieldValue.increment(-1) });
+    }
+    return res.json({ success: true, liked: false });
+  } catch (error) {
+    const statusCode = error.statusCode || 500;
+    return res.status(statusCode).json({ success: false, error: error.message || "Could not remove like" });
+  }
+});
