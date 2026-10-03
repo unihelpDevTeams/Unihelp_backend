@@ -35,6 +35,9 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
       authorName: post.author_name,
       authorAvatar: post.author_photo,
       university: post.university,
+      type: post.type,
+      audience: post.audience,
+      backgroundPreset: post.background_preset,
       content: post.content,
       imageUrl: post.image_url,
       cloudinaryPublicId: post.cloudinary_public_id,
@@ -59,7 +62,7 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
 
 router.post("/posts", authenticateFirebaseUser, async (req, res) => {
   try {
-    const { content, imageUrl, cloudinaryPublicId, university } = req.body;
+    const { content, imageUrl, cloudinaryPublicId, university, type, audience, backgroundPreset } = req.body;
     
     // Fallback info for user, could come from req.user
     const authorName = req.user.name || req.user.displayName || "Student";
@@ -67,10 +70,21 @@ router.post("/posts", authenticateFirebaseUser, async (req, res) => {
 
     const result = await query(
       `INSERT INTO feed_posts 
-       (author_id, author_name, author_photo, university, content, image_url, cloudinary_public_id) 
-       VALUES ($1, $2, $3, $4, $5, $6, $7) 
+       (author_id, author_name, author_photo, university, content, type, audience, background_preset, image_url, cloudinary_public_id) 
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) 
        RETURNING *`,
-      [req.user.uid, authorName, authorPhoto, university || null, content, imageUrl || null, cloudinaryPublicId || null]
+      [
+        req.user.uid, 
+        authorName, 
+        authorPhoto, 
+        university || null, 
+        content, 
+        type || 'text', 
+        audience || 'everyone', 
+        backgroundPreset || null, 
+        imageUrl || null, 
+        cloudinaryPublicId || null
+      ]
     );
 
     const post = result.rows[0];
@@ -80,6 +94,9 @@ router.post("/posts", authenticateFirebaseUser, async (req, res) => {
       authorName: post.author_name,
       authorAvatar: post.author_photo,
       university: post.university,
+      type: post.type,
+      audience: post.audience,
+      backgroundPreset: post.background_preset,
       content: post.content,
       imageUrl: post.image_url,
       cloudinaryPublicId: post.cloudinary_public_id,
@@ -114,6 +131,9 @@ router.get("/users/:uid/posts", authenticateFirebaseUser, async (req, res) => {
       authorName: post.author_name,
       authorAvatar: post.author_photo,
       university: post.university,
+      type: post.type,
+      audience: post.audience,
+      backgroundPreset: post.background_preset,
       content: post.content,
       imageUrl: post.image_url,
       cloudinaryPublicId: post.cloudinary_public_id,
@@ -153,6 +173,9 @@ router.get("/posts/:id", authenticateFirebaseUser, async (req, res) => {
       authorName: post.author_name,
       authorAvatar: post.author_photo,
       university: post.university,
+      type: post.type,
+      audience: post.audience,
+      backgroundPreset: post.background_preset,
       content: post.content,
       imageUrl: post.image_url,
       cloudinaryPublicId: post.cloudinary_public_id,
