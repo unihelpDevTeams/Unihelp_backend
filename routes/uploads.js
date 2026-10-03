@@ -1,8 +1,7 @@
 import express from "express";
 import multer from "multer";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
-import { normalizeUploadedAsset } from "../utils/mediaAssets.js";
-import { uploadFileToR2 } from "../services/storage/r2.js";
+import { deleteFileFromR2, uploadFileToR2 } from "../services/storage/r2.js";
 
 const uploadsRoutes = express.Router();
 
@@ -11,7 +10,7 @@ const upload = multer({
   limits: { fileSize: 200 * 1024 * 1024 },
 });
 
-const ALLOWED_FOLDERS = new Set(["hostels", "marketplace", "stories", "feed", "resources"]);
+const ALLOWED_FOLDERS = new Set(["hostels", "marketplace", "stories", "feed", "resources", "profile"]);
 const ALLOWED_TYPES = new Set(["image", "video", "raw", "auto"]);
 
 const isHtmlLikeFile = (mimetype = "", filename = "") => {
@@ -58,7 +57,9 @@ uploadsRoutes.post("/", authenticateFirebaseUser, upload.single("file"), async (
     res.status(201).json({
       url: result.url,
       secure_url: result.url,
+      key: result.key,
       publicId: result.publicId,
+      storageProvider: "r2",
       cloudinaryPublicId: result.publicId, // Allow frontend to fall back to this
       resourceType: result.resourceType,
       cloudinaryResourceType: result.resourceType
@@ -66,6 +67,27 @@ uploadsRoutes.post("/", authenticateFirebaseUser, upload.single("file"), async (
   } catch (error) {
     console.error("R2 upload failed:", error);
     res.status(500).json({ error: error.message || "Upload failed" });
+  }
+});
+
+uploadsRoutes.delete("/", authenticateFirebaseUser, async (req, res) => {
+  const key = req.body?.key;
+  const profilePrefix = `unihelp/profile/${req.user.uid}/`;
+  if (
+    typeof key !== "string" ||
+    !key.startsWith(profilePrefix) ||
+    key.includes("..")
+  ) {
+    return res.status(400).json({ error: "Invalid profile media key" });
+  }
+
+  try {
+    const deleted = await deleteFileFromR2(key);
+    if (!deleted) return res.status(500).json({ error: "Failed to delete profile media" });
+    return res.status(200).json({ success: true });
+  } catch (error) {
+    console.error("R2 profile media deletion failed:", error);
+    return res.status(500).json({ error: error.message || "Failed to delete profile media" });
   }
 });
 

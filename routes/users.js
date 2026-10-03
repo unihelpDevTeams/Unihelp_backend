@@ -194,14 +194,14 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
 // PUT / - Update user profile
 router.put("/", authenticateFirebaseUser, async (req, res) => {
   try {
-    const { display_name, email, university, department, level, avatar, bio, total_points, rank_name } = req.body;
+    const { display_name, email, university, department, level, avatar, cover_url, cover_asset, bio, total_points, rank_name } = req.body;
     
     // UPSERT pattern if the user doesn't exist yet, or just UPDATE if you prefer.
     // The prompt says "users (id TEXT PRIMARY KEY...)", let's do an INSERT ... ON CONFLICT DO UPDATE
     
     const result = await query(
-      `INSERT INTO users (id, display_name, email, university, department, level, avatar, bio, total_points, rank_name, created_at, updated_at)
-       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, NOW(), NOW())
+      `INSERT INTO users (id, display_name, email, university, department, level, avatar, cover_url, cover_asset, bio, total_points, rank_name, created_at, updated_at)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, NOW(), NOW())
        ON CONFLICT (id) DO UPDATE SET
          display_name = EXCLUDED.display_name,
          email = EXCLUDED.email,
@@ -209,12 +209,14 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
          department = EXCLUDED.department,
          level = EXCLUDED.level,
          avatar = EXCLUDED.avatar,
+         cover_url = COALESCE(EXCLUDED.cover_url, users.cover_url),
+         cover_asset = COALESCE(EXCLUDED.cover_asset, users.cover_asset),
          bio = EXCLUDED.bio,
          total_points = COALESCE(EXCLUDED.total_points, users.total_points),
          rank_name = COALESCE(EXCLUDED.rank_name, users.rank_name),
          updated_at = NOW()
        RETURNING *`,
-      [req.user.uid, display_name, email, university, department, level, avatar, bio, total_points, rank_name]
+      [req.user.uid, display_name, email, university, department, level, avatar, cover_url, cover_asset, bio, total_points, rank_name]
     );
     
     res.json({ success: true, data: result.rows[0] });

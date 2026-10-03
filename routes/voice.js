@@ -76,7 +76,7 @@ router.post(
       const userData = userDoc.data();
       const isPremium = Boolean(userData.premium && userData.subscriptionStatus !== "expired");
       if (!isPremium) {
-        return res.status(403).json({ success: false, error: "Voice messages are available for Premium members only." });
+        return res.status(403).json({ success: false, error: "Recording voice messages is available for Premium members only." });
       }
 
       const conversationDoc = await db.collection("conversations").doc(conversationId).get();

@@ -243,12 +243,17 @@ CREATE TABLE IF NOT EXISTS users (
   department TEXT,
   level TEXT,
   avatar TEXT,
+  cover_url TEXT,
+  cover_asset JSONB,
   bio TEXT,
   total_points INTEGER,
   rank_name TEXT,
   created_at TIMESTAMPTZ,
   updated_at TIMESTAMPTZ
 );
+
+ALTER TABLE users ADD COLUMN IF NOT EXISTS cover_url TEXT;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS cover_asset JSONB;
 
 CREATE TABLE IF NOT EXISTS bookmarks (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
