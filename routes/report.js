@@ -197,6 +197,9 @@ router.post("/:id/action", authenticateFirebaseUser, requireReportAdmin, async (
     if (action !== "delete_reported_item") {
       return res.status(400).json({ message: "Unsupported report action" });
     }
+    if (["reported_item_deleted", "reported_item_already_missing"].includes(report.action_taken)) {
+      return res.json({ message: "Reported item action was already completed", data: report });
+    }
 
     const legacyPostId = report.title?.match(/^Feed post report:\s*([0-9a-f-]{36})$/i)?.[1];
     const targetType = report.target_type || (legacyPostId ? "feed_post" : null);
@@ -206,12 +209,11 @@ router.post("/:id/action", authenticateFirebaseUser, requireReportAdmin, async (
     }
 
     const postResult = await query(
-      `SELECT id, image_url, cloudinary_public_id FROM feed_posts WHERE id = $1`,
+      `DELETE FROM feed_posts WHERE id = $1 RETURNING id, image_url, cloudinary_public_id`,
       [targetId]
     );
     let assetCleanup = null;
     if (postResult.rows.length) {
-      await query(`DELETE FROM feed_posts WHERE id = $1`, [targetId]);
       const post = postResult.rows[0];
       if (post.image_url || post.cloudinary_public_id) {
         try {

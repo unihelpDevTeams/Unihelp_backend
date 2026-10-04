@@ -24,10 +24,9 @@ const NOTIFICATION_ADMIN_EMAILS = new Set(
     .map((email) => email.trim().toLowerCase())
     .filter(Boolean)
 );
-const NOTIFICATION_RETENTION_MS = 30 * 24 * 60 * 60 * 1000;
-const NOTIFICATION_READ_RETENTION_MS = 7 * 24 * 60 * 60 * 1000;
+const NOTIFICATION_RETENTION_MS = 24 * 60 * 60 * 1000;
 
-const deleteExpiredFirestoreNotifications = async (cutoff, readCutoff) => {
+const deleteExpiredFirestoreNotifications = async (cutoff) => {
   if (!db) return 0;
 
   let deletedCount = 0;
@@ -51,11 +50,9 @@ const deleteExpiredFirestoreNotifications = async (cutoff, readCutoff) => {
       if (parentId !== "items" || parentPath !== "notifications") return false;
 
       const data = document.data() || {};
-      const readAt = data.readAt || data.read_at;
       const createdAt = data.createdAt;
       const createdTime = createdAt?.toDate ? createdAt.toDate().getTime() : new Date(createdAt || 0).getTime();
-      const readTime = readAt?.toDate ? readAt.toDate().getTime() : new Date(readAt || 0).getTime();
-      return Number.isFinite(createdTime) && createdTime < cutoff.getTime() || (data.read === true && Number.isFinite(readTime) && readTime < readCutoff.getTime());
+      return Number.isFinite(createdTime) && createdTime < cutoff.getTime();
     });
 
     if (notificationDocs.length) {
@@ -69,12 +66,27 @@ const deleteExpiredFirestoreNotifications = async (cutoff, readCutoff) => {
     if (snapshot.docs.length < 500) break;
   }
 
+  while (true) {
+    const snapshot = await db
+      .collection("notifications")
+      .where("createdAt", "<", cutoff)
+      .orderBy("createdAt")
+      .limit(500)
+      .get();
+    if (snapshot.empty) break;
+
+    const batch = db.batch();
+    snapshot.docs.forEach((document) => batch.delete(document.ref));
+    await batch.commit();
+    deletedCount += snapshot.size;
+    if (snapshot.size < 500) break;
+  }
+
   return deletedCount;
 };
 
 export const cleanupExpiredNotifications = async () => {
   const cutoff = new Date(Date.now() - NOTIFICATION_RETENTION_MS);
-  const readCutoff = new Date(Date.now() - NOTIFICATION_READ_RETENTION_MS);
   const totals = { postgresDeleted: 0, firestoreDeleted: 0, skipped: false, failures: 0 };
 
   if (process.env.DATABASE_URL) {
@@ -89,9 +101,8 @@ export const cleanupExpiredNotifications = async () => {
       try {
         const { rowCount = 0 } = await query(
           `DELETE FROM notifications
-           WHERE created_at < $1
-              OR (read = true AND created_at < $2)`,
-          [cutoff, readCutoff]
+           WHERE created_at < $1`,
+          [cutoff]
         );
         totals.postgresDeleted = rowCount;
       } finally {
@@ -105,7 +116,7 @@ export const cleanupExpiredNotifications = async () => {
 
   if (db) {
     try {
-      totals.firestoreDeleted = await deleteExpiredFirestoreNotifications(cutoff, readCutoff);
+      totals.firestoreDeleted = await deleteExpiredFirestoreNotifications(cutoff);
     } catch (error) {
       totals.failures += 1;
       console.error("Firestore notification retention cleanup failed:", error);
@@ -592,7 +603,7 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
     const sql = `
       SELECT id, user_id, title, message, category, type, url, announcement_id, read, created_at
       FROM notifications
-      WHERE user_id = $1 AND created_at >= NOW() - INTERVAL '30 days'
+      WHERE user_id = $1 AND created_at >= NOW() - INTERVAL '24 hours'
       ${cursorClause}
       ORDER BY created_at DESC, id DESC
       LIMIT $2

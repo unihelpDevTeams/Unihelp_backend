@@ -247,7 +247,7 @@ const startSupportCleanupScheduler = () => {
         WHERE status = 'closed' AND updated_at <= NOW() - INTERVAL '24 hours';
         `),
       ]);
-      console.log("[support-cleanup] removed closed reports and suggestions", {
+      console.log("[support-cleanup] removed expired viewed reports and closed suggestions", {
         rowsAffected: (reportsResult?.rowCount || 0) + (suggestionsResult?.rowCount || 0),
       });
     } catch (error) {
@@ -276,7 +276,7 @@ const startNotificationCleanupScheduler = () => {
   };
 
   runNotificationCleanup();
-  setInterval(runNotificationCleanup, 24 * 60 * 60 * 1000);
+  setInterval(runNotificationCleanup, 60 * 60 * 1000);
 };
   
   // Initialize database if DATABASE_URL is configured
