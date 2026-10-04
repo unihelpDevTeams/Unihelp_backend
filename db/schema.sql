@@ -161,6 +161,16 @@ CREATE TABLE IF NOT EXISTS notifications (
 
 CREATE INDEX IF NOT EXISTS idx_notifications_user_created ON notifications(user_id, created_at DESC);
 
+CREATE TABLE IF NOT EXISTS birthday_greetings (
+  user_id TEXT NOT NULL,
+  birthday_year INTEGER NOT NULL,
+  status TEXT NOT NULL CHECK (status IN ('processing', 'failed', 'sent')),
+  attempts INTEGER NOT NULL DEFAULT 0,
+  attempted_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  sent_at TIMESTAMPTZ,
+  PRIMARY KEY (user_id, birthday_year)
+);
+
 CREATE TABLE IF NOT EXISTS contact_messages (
   id UUID PRIMARY KEY,
   name TEXT,
@@ -263,6 +273,8 @@ CREATE TABLE IF NOT EXISTS users (
 
 ALTER TABLE users ADD COLUMN IF NOT EXISTS cover_url TEXT;
 ALTER TABLE users ADD COLUMN IF NOT EXISTS cover_asset JSONB;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS gender TEXT;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS date_of_birth DATE;
 
 CREATE TABLE IF NOT EXISTS bookmarks (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),

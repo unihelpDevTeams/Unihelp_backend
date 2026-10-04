@@ -39,6 +39,7 @@ import { initializeDatabase } from "./db/init.js";
 import { query } from "./db/pool.js";
 import { createServer } from "http";
 import { Server } from "socket.io";
+import { sendBirthdayGreetingNotifications } from "./utils/birthdayNotifications.js";
 
 dotenv.config();
 
@@ -190,6 +191,7 @@ let reminderSchedulerStarted = false;
 let reminderJobInFlight = false;
 let supportCleanupStarted = false;
 let notificationCleanupStarted = false;
+let birthdayGreetingSchedulerStarted = false;
 
 const startReminderScheduler = () => {
   if (reminderSchedulerStarted) {
@@ -278,6 +280,33 @@ const startNotificationCleanupScheduler = () => {
   runNotificationCleanup();
   setInterval(runNotificationCleanup, 60 * 60 * 1000);
 };
+
+const startBirthdayGreetingScheduler = () => {
+  if (birthdayGreetingSchedulerStarted || !process.env.DATABASE_URL) {
+    return;
+  }
+
+  birthdayGreetingSchedulerStarted = true;
+  let jobInFlight = false;
+
+  const runBirthdayGreetingJob = async () => {
+    if (jobInFlight) return;
+    jobInFlight = true;
+    try {
+      const result = await sendBirthdayGreetingNotifications();
+      if (result.birthdays > 0 || result.failed > 0) {
+        console.log("[birthday] processed", result);
+      }
+    } catch (error) {
+      console.error("Birthday greeting scheduler failed:", error);
+    } finally {
+      jobInFlight = false;
+    }
+  };
+
+  runBirthdayGreetingJob();
+  setInterval(runBirthdayGreetingJob, 15 * 60 * 1000);
+};
   
   // Initialize database if DATABASE_URL is configured
   if (process.env.DATABASE_URL) {
@@ -299,4 +328,5 @@ const startNotificationCleanupScheduler = () => {
     startReminderScheduler();
     startSupportCleanupScheduler();
     startNotificationCleanupScheduler();
+    startBirthdayGreetingScheduler();
   });

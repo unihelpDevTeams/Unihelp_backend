@@ -194,14 +194,50 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
 // PUT / - Update user profile
 router.put("/", authenticateFirebaseUser, async (req, res) => {
   try {
-    const { display_name, email, university, department, level, avatar, cover_url, cover_asset, bio, total_points, rank_name } = req.body;
+    const {
+      display_name,
+      email,
+      university,
+      department,
+      level,
+      avatar,
+      cover_url,
+      cover_asset,
+      bio,
+      total_points,
+      rank_name,
+      gender,
+      date_of_birth,
+    } = req.body;
+    const hasGender = Object.hasOwn(req.body, "gender");
+    const hasDateOfBirth = Object.hasOwn(req.body, "date_of_birth");
+
+    const allowedGenders = new Set(["woman", "man", "non_binary", "another_identity", "prefer_not_to_say"]);
+    if (hasGender && gender && !allowedGenders.has(gender)) {
+      return res.status(400).json({ success: false, error: "Please select a valid gender." });
+    }
+
+    let normalizedDateOfBirth = null;
+    if (hasDateOfBirth && date_of_birth) {
+      const validShape = typeof date_of_birth === "string" && /^\d{4}-\d{2}-\d{2}$/.test(date_of_birth);
+      const parsedDate = validShape ? new Date(`${date_of_birth}T00:00:00.000Z`) : null;
+      const isValidDate = parsedDate
+        && !Number.isNaN(parsedDate.getTime())
+        && parsedDate.toISOString().slice(0, 10) === date_of_birth
+        && date_of_birth >= "1900-01-01"
+        && date_of_birth <= new Date().toISOString().slice(0, 10);
+      if (!isValidDate) {
+        return res.status(400).json({ success: false, error: "Please provide a valid date of birth." });
+      }
+      normalizedDateOfBirth = date_of_birth;
+    }
     
     // UPSERT pattern if the user doesn't exist yet, or just UPDATE if you prefer.
     // The prompt says "users (id TEXT PRIMARY KEY...)", let's do an INSERT ... ON CONFLICT DO UPDATE
     
     const result = await query(
-      `INSERT INTO users (id, display_name, email, university, department, level, avatar, cover_url, cover_asset, bio, total_points, rank_name, created_at, updated_at)
-       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, NOW(), NOW())
+      `INSERT INTO users (id, display_name, email, university, department, level, avatar, cover_url, cover_asset, bio, total_points, rank_name, gender, date_of_birth, created_at, updated_at)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, NOW(), NOW())
        ON CONFLICT (id) DO UPDATE SET
          display_name = EXCLUDED.display_name,
          email = EXCLUDED.email,
@@ -214,11 +250,37 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
          bio = EXCLUDED.bio,
          total_points = COALESCE(EXCLUDED.total_points, users.total_points),
          rank_name = COALESCE(EXCLUDED.rank_name, users.rank_name),
+         gender = CASE WHEN $15 THEN EXCLUDED.gender ELSE users.gender END,
+         date_of_birth = CASE WHEN $16 THEN EXCLUDED.date_of_birth ELSE users.date_of_birth END,
          updated_at = NOW()
        RETURNING *`,
-      [req.user.uid, display_name, email, university, department, level, avatar, cover_url, cover_asset, bio, total_points, rank_name]
+      [
+        req.user.uid,
+        display_name,
+        email,
+        university,
+        department,
+        level,
+        avatar,
+        cover_url,
+        cover_asset,
+        bio,
+        total_points,
+        rank_name,
+        hasGender ? (gender || null) : null,
+        hasDateOfBirth ? normalizedDateOfBirth : null,
+        hasGender,
+        hasDateOfBirth,
+      ]
     );
-    
+
+    if (db && (hasGender || hasDateOfBirth)) {
+      const profilePatch = {};
+      if (hasGender) profilePatch.gender = gender || "";
+      if (hasDateOfBirth) profilePatch.dateOfBirth = normalizedDateOfBirth || "";
+      await db.collection("users").doc(req.user.uid).set(profilePatch, { merge: true });
+    }
+
     res.json({ success: true, data: result.rows[0] });
   } catch (error) {
     console.error("Error updating user profile:", error);
