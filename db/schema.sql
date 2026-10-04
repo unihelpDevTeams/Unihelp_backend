@@ -384,3 +384,7 @@ CREATE TABLE IF NOT EXISTS feed_comment_likes (
   created_at TIMESTAMPTZ DEFAULT NOW(),
   UNIQUE(comment_id, user_id)
 );
+
+ALTER TABLE feed_posts ADD COLUMN IF NOT EXISTS type TEXT DEFAULT 'text';
+ALTER TABLE feed_posts ADD COLUMN IF NOT EXISTS audience TEXT DEFAULT 'everyone';
+ALTER TABLE feed_posts ADD COLUMN IF NOT EXISTS background_preset TEXT;
