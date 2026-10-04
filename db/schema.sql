@@ -183,10 +183,19 @@ CREATE TABLE IF NOT EXISTS reports (
   title TEXT,
   description TEXT,
   attachments JSONB DEFAULT '[]'::jsonb,
+  target_type TEXT,
+  target_id UUID,
+  action_taken TEXT,
+  viewed_at TIMESTAMPTZ,
   status TEXT DEFAULT 'pending',
   created_at TIMESTAMPTZ DEFAULT NOW(),
   updated_at TIMESTAMPTZ DEFAULT NOW()
 );
+ALTER TABLE reports ADD COLUMN IF NOT EXISTS target_type TEXT;
+ALTER TABLE reports ADD COLUMN IF NOT EXISTS target_id UUID;
+ALTER TABLE reports ADD COLUMN IF NOT EXISTS action_taken TEXT;
+ALTER TABLE reports ADD COLUMN IF NOT EXISTS viewed_at TIMESTAMPTZ;
+CREATE INDEX IF NOT EXISTS idx_reports_viewed_at ON reports(viewed_at) WHERE viewed_at IS NOT NULL;
 
 CREATE TABLE IF NOT EXISTS suggestions (
   id UUID PRIMARY KEY,

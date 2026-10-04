@@ -430,6 +430,34 @@ export const getOwnedSticker = async (uid, stickerId) => {
   return { id: snapshot.id, ...snapshot.data() };
 };
 
+export const updateOwnedSticker = async (uid, stickerId, payload = {}) => {
+  const sticker = await getOwnedSticker(uid, stickerId);
+  const editor = payload.editor === undefined ? cleanStickerEditor(sticker.editor) : cleanStickerEditor(payload.editor);
+  const updates = {
+    name: cleanText(payload.name, 80) || "My Sticker",
+    editor,
+    updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+  };
+
+  if (sticker.cloudinaryPublicId) {
+    const editedUrls = buildEditedStickerUrls(
+      {
+        type: sticker.type,
+        cloudinaryPublicId: sticker.cloudinaryPublicId,
+        assetUrl: sticker.originalAssetUrl || sticker.assetUrl,
+        thumbnailUrl: sticker.originalAssetUrl || sticker.thumbnailUrl,
+      },
+      editor,
+      sticker.backgroundRemoved && sticker.type === "image" ? [{ effect: "background_removal" }] : []
+    );
+    updates.assetUrl = editedUrls.assetUrl;
+    updates.thumbnailUrl = editedUrls.thumbnailUrl;
+  }
+
+  await stickerCollection().doc(stickerId).update(updates);
+  return toPublicSticker({ id: stickerId, ...sticker, ...updates });
+};
+
 export const updateStickerAsset = async (uid, stickerId, assetUrl, thumbnailUrl = assetUrl) => {
   const ref = stickerCollection().doc(stickerId);
   await ref.update({ assetUrl, thumbnailUrl, backgroundRemoved: true, updatedAt: admin.firestore.FieldValue.serverTimestamp() });

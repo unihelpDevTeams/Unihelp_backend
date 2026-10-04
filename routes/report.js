@@ -3,8 +3,32 @@ import crypto from "crypto";
 import { query } from "../db/pool.js";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
 import { notifyAdminsOfSupportItem } from "../utils/supportAdminNotifications.js";
+import { db } from "../firebase/firebaseAdmin.js";
+import { deleteCloudinaryAsset } from "../utils/cloudinaryCleanup.js";
 
 const router = express.Router();
+const REPORT_ADMIN_EMAILS = new Set(
+  (process.env.ADMIN_EMAILS || "iadejuwon77@gmail.com,onakomayaokiki@gmail.com,agbajejoshua36@gmail.com")
+    .split(",")
+    .map((email) => email.trim().toLowerCase())
+    .filter(Boolean)
+);
+const REPORT_STATUSES = new Set(["pending", "in_progress", "resolved", "closed"]);
+
+const requireReportAdmin = async (req, res, next) => {
+  if (req.user?.admin || REPORT_ADMIN_EMAILS.has(String(req.user?.email || "").trim().toLowerCase())) {
+    return next();
+  }
+
+  try {
+    const profile = db ? await db.collection("users").doc(req.user.uid).get() : null;
+    if (profile?.data()?.admin === true) return next();
+    return res.status(403).json({ success: false, message: "Admin access required" });
+  } catch (error) {
+    console.error("Report admin authorization failed:", error);
+    return res.status(500).json({ success: false, message: "Could not verify admin access" });
+  }
+};
 
 const validateReportInput = ({ category, details }) => {
   const errors = [];
@@ -63,7 +87,7 @@ router.post("/", handleReport);
 router.post("/report", handleReport);
 
 // GET /
-router.get("/", authenticateFirebaseUser, async (req, res) => {
+router.get("/", authenticateFirebaseUser, requireReportAdmin, async (req, res) => {
   try {
     const { status, search, sortField = "created_at", sortDirection = "desc", limit = 10, offset = 0 } = req.query;
     
@@ -107,10 +131,13 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
 });
 
 // GET /:id
-router.get("/:id", authenticateFirebaseUser, async (req, res) => {
+router.get("/:id", authenticateFirebaseUser, requireReportAdmin, async (req, res) => {
   try {
     const { id } = req.params;
-    const { rows } = await query(`SELECT * FROM reports WHERE id = $1`, [id]);
+    const { rows } = await query(
+      `UPDATE reports SET viewed_at = COALESCE(viewed_at, NOW()) WHERE id = $1 RETURNING *`,
+      [id]
+    );
     if (rows.length === 0) return res.status(404).json({ message: "Not found" });
     res.json(rows[0]);
   } catch (error) {
@@ -120,11 +147,11 @@ router.get("/:id", authenticateFirebaseUser, async (req, res) => {
 });
 
 // PATCH /:id/status
-router.patch("/:id/status", authenticateFirebaseUser, async (req, res) => {
+router.patch("/:id/status", authenticateFirebaseUser, requireReportAdmin, async (req, res) => {
   try {
     const { id } = req.params;
     const { status } = req.body;
-    if (!status) return res.status(400).json({ message: "Status is required" });
+    if (!REPORT_STATUSES.has(status)) return res.status(400).json({ message: "A valid report status is required" });
 
     const { rows } = await query(
       `UPDATE reports SET status = $1, updated_at = NOW() WHERE id = $2 RETURNING *`,
@@ -139,7 +166,7 @@ router.patch("/:id/status", authenticateFirebaseUser, async (req, res) => {
 });
 
 // DELETE /:id
-router.delete("/:id", authenticateFirebaseUser, async (req, res) => {
+router.delete("/:id", authenticateFirebaseUser, requireReportAdmin, async (req, res) => {
   try {
     const { id } = req.params;
     const { rowCount } = await query(`DELETE FROM reports WHERE id = $1`, [id]);
@@ -151,8 +178,75 @@ router.delete("/:id", authenticateFirebaseUser, async (req, res) => {
   }
 });
 
+router.post("/:id/action", authenticateFirebaseUser, requireReportAdmin, async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { action } = req.body || {};
+    const reportResult = await query(`SELECT * FROM reports WHERE id = $1`, [id]);
+    const report = reportResult.rows[0];
+    if (!report) return res.status(404).json({ message: "Not found" });
+
+    if (action === "dismiss") {
+      const { rows } = await query(
+        `UPDATE reports SET status = 'resolved', action_taken = 'dismissed', updated_at = NOW() WHERE id = $1 RETURNING *`,
+        [id]
+      );
+      return res.json({ message: "Report dismissed", data: rows[0] });
+    }
+
+    if (action !== "delete_reported_item") {
+      return res.status(400).json({ message: "Unsupported report action" });
+    }
+
+    const legacyPostId = report.title?.match(/^Feed post report:\s*([0-9a-f-]{36})$/i)?.[1];
+    const targetType = report.target_type || (legacyPostId ? "feed_post" : null);
+    const targetId = report.target_id || legacyPostId;
+    if (targetType !== "feed_post" || !targetId) {
+      return res.status(400).json({ message: "This report is not linked to a deletable item" });
+    }
+
+    const postResult = await query(
+      `SELECT id, image_url, cloudinary_public_id FROM feed_posts WHERE id = $1`,
+      [targetId]
+    );
+    let assetCleanup = null;
+    if (postResult.rows.length) {
+      await query(`DELETE FROM feed_posts WHERE id = $1`, [targetId]);
+      const post = postResult.rows[0];
+      if (post.image_url || post.cloudinary_public_id) {
+        try {
+          assetCleanup = await deleteCloudinaryAsset({
+            publicId: post.cloudinary_public_id,
+            resourceType: "image",
+            url: post.image_url,
+          });
+          if (assetCleanup?.success === false) {
+            console.error("[reports] Feed post was removed but media cleanup failed", { reportId: id, targetId, assetCleanup });
+          }
+        } catch (cleanupError) {
+          console.error("[reports] Feed post was removed but media cleanup failed", cleanupError);
+          assetCleanup = { success: false };
+        }
+      }
+    }
+
+    const actionTaken = postResult.rows.length ? "reported_item_deleted" : "reported_item_already_missing";
+    const { rows } = await query(
+      `UPDATE reports
+       SET target_type = 'feed_post', target_id = $2, status = 'resolved', action_taken = $3, updated_at = NOW()
+       WHERE id = $1
+       RETURNING *`,
+      [id, targetId, actionTaken]
+    );
+    res.json({ message: postResult.rows.length ? "Reported post deleted" : "Reported post was already deleted", data: rows[0], assetCleanup });
+  } catch (error) {
+    console.error("Report moderation action failed:", error);
+    res.status(500).json({ message: "Could not apply report action" });
+  }
+});
+
 // POST /:id/notes
-router.post("/:id/notes", authenticateFirebaseUser, async (req, res) => {
+router.post("/:id/notes", authenticateFirebaseUser, requireReportAdmin, async (req, res) => {
   try {
     const { id } = req.params;
     const { note } = req.body;
@@ -175,7 +269,7 @@ router.post("/:id/notes", authenticateFirebaseUser, async (req, res) => {
 });
 
 // GET /:id/notes
-router.get("/:id/notes", authenticateFirebaseUser, async (req, res) => {
+router.get("/:id/notes", authenticateFirebaseUser, requireReportAdmin, async (req, res) => {
   try {
     const { id } = req.params;
     const { rows } = await query(

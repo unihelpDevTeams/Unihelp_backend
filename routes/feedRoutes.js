@@ -403,8 +403,8 @@ router.post("/posts/:id/report", authenticateFirebaseUser, async (req, res) => {
 
     const id = crypto.randomUUID();
     await query(
-      `INSERT INTO reports (id, user_id, display_name, email, report_type, title, description, attachments, status)
-       VALUES ($1, $2, $3, $4, $5, $6, $7, '[]'::jsonb, 'pending')`,
+      `INSERT INTO reports (id, user_id, display_name, email, report_type, title, description, attachments, target_type, target_id, status)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, '[]'::jsonb, 'feed_post', $8, 'pending')`,
       [
         id,
         req.user.uid,
@@ -413,6 +413,7 @@ router.post("/posts/:id/report", authenticateFirebaseUser, async (req, res) => {
         reportType,
         `Feed post report: ${req.params.id}`,
         details,
+        req.params.id,
       ]
     );
 

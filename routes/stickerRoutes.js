@@ -22,6 +22,7 @@ import {
   updateOfficialPack,
   updateOfficialSticker,
   getOwnedSticker,
+  updateOwnedSticker,
   updateStickerAsset,
   buildEditedStickerUrls,
 } from "../services/stickerService.js";
@@ -157,6 +158,14 @@ router.post("/:id/use", async (req, res) => {
 
 router.post("/:id/favorite", async (req, res) => {
   try { res.json({ success: true, data: await toggleStickerFavorite(req.user.uid, req.params.id, req.body?.favorite !== false) }); } catch (error) { handleError(res, error); }
+});
+
+router.get("/:id", async (req, res) => {
+  try { res.json({ success: true, data: await getOwnedSticker(req.user.uid, req.params.id) }); } catch (error) { handleError(res, error); }
+});
+
+router.patch("/:id", async (req, res) => {
+  try { res.json({ success: true, data: await updateOwnedSticker(req.user.uid, req.params.id, req.body) }); } catch (error) { handleError(res, error); }
 });
 
 router.delete("/:id/favorite", async (req, res) => {

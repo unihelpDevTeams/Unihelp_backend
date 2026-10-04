@@ -240,7 +240,7 @@ const startSupportCleanupScheduler = () => {
       const [reportsResult, suggestionsResult] = await Promise.all([
         query(`
         DELETE FROM reports
-        WHERE status = 'closed' AND updated_at <= NOW() - INTERVAL '24 hours';
+        WHERE viewed_at IS NOT NULL AND viewed_at <= NOW() - INTERVAL '3 days';
         `),
         query(`
         DELETE FROM suggestions
