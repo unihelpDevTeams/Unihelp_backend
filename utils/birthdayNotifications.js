@@ -2,11 +2,11 @@ import { query } from '../db/pool.js';
 import { sendAppNotification } from './notifications.js';
 import { getBirthdayDateParts } from './birthdayDates.js';
 
-const TIME_ZONE = process.env.BIRTHDAY_TIME_ZONE || 'Africa/Lagos';
 const STALE_CLAIM_MS = 60 * 60 * 1000;
 
 export async function sendBirthdayGreetingNotifications(now = new Date()) {
-  const { year, month, day } = getBirthdayDateParts(now, TIME_ZONE);
+  const timeZone = process.env.BIRTHDAY_TIME_ZONE || 'Africa/Lagos';
+  const { year, month, day } = getBirthdayDateParts(now, timeZone);
   const isLeapYear = year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0);
 
   const birthdayUsers = await query(
