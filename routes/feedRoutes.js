@@ -22,11 +22,16 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
     const offset = parseInt(req.query.offset) || 0;
 
     const result = await query(
-      `SELECT * FROM feed_posts 
+      `SELECT feed_posts.*,
+              EXISTS (
+                SELECT 1 FROM feed_post_likes
+                WHERE post_id = feed_posts.id AND user_id = $3
+              ) AS liked_by_me
+       FROM feed_posts 
        WHERE expires_at > NOW() 
        ORDER BY created_at DESC 
        LIMIT $1 OFFSET $2`,
-      [limit, offset]
+      [limit, offset, req.user.uid]
     );
 
     const items = result.rows.map(post => ({
@@ -43,6 +48,7 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
       cloudinaryPublicId: post.cloudinary_public_id,
       commentsCount: post.comments_count,
       likesCount: post.likes_count,
+      likedByMe: post.liked_by_me,
       viewsCount: post.views_count || 0,
       createdAt: post.created_at,
       updatedAt: post.updated_at,
@@ -122,8 +128,15 @@ router.get("/users/:uid/posts", authenticateFirebaseUser, async (req, res) => {
     const offset = parseInt(req.query.offset) || 0;
     
     // Support pagination for a specific user's posts
-    let sql = `SELECT * FROM feed_posts WHERE author_id = $1 AND expires_at > NOW() ORDER BY created_at DESC LIMIT $2 OFFSET $3`;
-    let values = [req.params.uid, limit, offset];
+    let sql = `SELECT feed_posts.*,
+                      EXISTS (
+                        SELECT 1 FROM feed_post_likes
+                        WHERE post_id = feed_posts.id AND user_id = $4
+                      ) AS liked_by_me
+               FROM feed_posts
+               WHERE author_id = $1 AND expires_at > NOW()
+               ORDER BY created_at DESC LIMIT $2 OFFSET $3`;
+    let values = [req.params.uid, limit, offset, req.user.uid];
     
     const { rows } = await query(sql, values);
     
@@ -141,6 +154,7 @@ router.get("/users/:uid/posts", authenticateFirebaseUser, async (req, res) => {
       cloudinaryPublicId: post.cloudinary_public_id,
       commentsCount: post.comments_count,
       likesCount: post.likes_count,
+      likedByMe: post.liked_by_me,
       viewsCount: post.views_count || 0,
       createdAt: post.created_at,
       updatedAt: post.updated_at,
@@ -161,8 +175,14 @@ router.get("/users/:uid/posts", authenticateFirebaseUser, async (req, res) => {
 router.get("/posts/:id", authenticateFirebaseUser, async (req, res) => {
   try {
     const result = await query(
-      `SELECT * FROM feed_posts WHERE id = $1 AND expires_at > NOW()`,
-      [req.params.id]
+      `SELECT feed_posts.*,
+              EXISTS (
+                SELECT 1 FROM feed_post_likes
+                WHERE post_id = feed_posts.id AND user_id = $2
+              ) AS liked_by_me
+       FROM feed_posts
+       WHERE id = $1 AND expires_at > NOW()`,
+      [req.params.id, req.user.uid]
     );
 
     if (result.rows.length === 0) {
@@ -184,6 +204,7 @@ router.get("/posts/:id", authenticateFirebaseUser, async (req, res) => {
       cloudinaryPublicId: post.cloudinary_public_id,
       commentsCount: post.comments_count,
       likesCount: post.likes_count,
+      likedByMe: post.liked_by_me,
       viewsCount: post.views_count || 0,
       createdAt: post.created_at,
       updatedAt: post.updated_at,
@@ -202,11 +223,16 @@ router.get("/posts/:id/comments", authenticateFirebaseUser, async (req, res) => 
     const offset = parseInt(req.query.offset) || 0;
 
     const result = await query(
-      `SELECT * FROM feed_comments 
-       WHERE post_id = $1 
-       ORDER BY created_at DESC 
+      `SELECT feed_comments.*,
+              EXISTS (
+                SELECT 1 FROM feed_comment_likes
+                WHERE comment_id = feed_comments.id AND user_id = $4
+              ) AS liked
+       FROM feed_comments
+       WHERE post_id = $1
+       ORDER BY created_at DESC
        LIMIT $2 OFFSET $3`,
-      [req.params.id, limit, offset]
+      [req.params.id, limit, offset, req.user.uid]
     );
 
     const items = result.rows.map(comment => ({
@@ -218,6 +244,7 @@ router.get("/posts/:id/comments", authenticateFirebaseUser, async (req, res) => 
       text: comment.text,
       content: comment.text,
       likesCount: comment.likes_count,
+      liked: comment.liked,
       createdAt: comment.created_at,
       updatedAt: comment.updated_at,
     }));

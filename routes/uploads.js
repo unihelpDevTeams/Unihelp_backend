@@ -10,7 +10,7 @@ const upload = multer({
   limits: { fileSize: 200 * 1024 * 1024 },
 });
 
-const ALLOWED_FOLDERS = new Set(["hostels", "marketplace", "stories", "feed", "resources", "profile"]);
+const ALLOWED_FOLDERS = new Set(["hostels", "marketplace", "stories", "feed", "resources", "profile", "marketing"]);
 const ALLOWED_TYPES = new Set(["image", "video", "raw", "auto"]);
 
 const isHtmlLikeFile = (mimetype = "", filename = "") => {
