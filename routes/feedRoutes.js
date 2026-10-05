@@ -109,6 +109,7 @@ router.post("/posts", authenticateFirebaseUser, async (req, res) => {
       cloudinaryPublicId: post.cloudinary_public_id,
       commentsCount: post.comments_count,
       likesCount: post.likes_count,
+      likedByMe: false,
       viewsCount: post.views_count || 0,
       createdAt: post.created_at,
       updatedAt: post.updated_at,
@@ -330,6 +331,7 @@ router.post("/posts/:id/comments", authenticateFirebaseUser, async (req, res) =>
       text: comment.text,
       content: comment.text,
       likesCount: comment.likes_count,
+      liked: false,
       createdAt: comment.created_at,
       updatedAt: comment.updated_at,
     };
@@ -364,76 +366,110 @@ router.delete("/comments/:commentId", authenticateFirebaseUser, async (req, res)
 
 router.post("/posts/:id/like", authenticateFirebaseUser, async (req, res) => {
   try {
-    const { id } = req.params;
-    
-    const check = await query(`SELECT id FROM feed_post_likes WHERE post_id = $1 AND user_id = $2`, [id, req.user.uid]);
-    if (check.rows.length > 0) {
-      return res.json({ success: true, liked: true });
-    }
-
-    await query(`INSERT INTO feed_post_likes (post_id, user_id) VALUES ($1, $2)`, [id, req.user.uid]);
-    await query(`UPDATE feed_posts SET likes_count = likes_count + 1 WHERE id = $1`, [id]);
-    
-    const fresh = await query(`SELECT likes_count FROM feed_posts WHERE id = $1`, [id]);
-
-    res.status(201).json({ success: true, liked: true, likesCount: fresh.rows[0]?.likes_count || 0 });
+    const result = await query(
+      `WITH inserted AS (
+         INSERT INTO feed_post_likes (post_id, user_id)
+         SELECT id, $2 FROM feed_posts WHERE id = $1
+         ON CONFLICT (post_id, user_id) DO NOTHING
+         RETURNING post_id
+       ),
+       updated AS (
+         UPDATE feed_posts
+         SET likes_count = likes_count + 1
+         WHERE id = $1 AND EXISTS (SELECT 1 FROM inserted)
+         RETURNING likes_count
+       )
+       SELECT COALESCE((SELECT likes_count FROM updated), post.likes_count) AS likes_count,
+              TRUE AS liked
+       FROM feed_posts AS post
+       WHERE post.id = $1`,
+      [req.params.id, req.user.uid]
+    );
+    if (!result.rows.length) return res.status(404).json({ success: false, error: "Post not found" });
+    res.status(201).json({ success: true, liked: result.rows[0].liked, likesCount: result.rows[0].likes_count });
   } catch (error) {
+    console.error("Error liking feed post:", error);
     res.status(500).json({ success: false, error: "Could not like post" });
   }
 });
 
 router.delete("/posts/:id/like", authenticateFirebaseUser, async (req, res) => {
   try {
-    const { id } = req.params;
-    
-    const check = await query(`SELECT id FROM feed_post_likes WHERE post_id = $1 AND user_id = $2`, [id, req.user.uid]);
-    if (check.rows.length === 0) {
-      return res.json({ success: true, liked: false });
-    }
-
-    await query(`DELETE FROM feed_post_likes WHERE post_id = $1 AND user_id = $2`, [id, req.user.uid]);
-    await query(`UPDATE feed_posts SET likes_count = likes_count - 1 WHERE id = $1`, [id]);
-
-    res.json({ success: true, liked: false });
+    const result = await query(
+      `WITH deleted AS (
+         DELETE FROM feed_post_likes WHERE post_id = $1 AND user_id = $2
+         RETURNING post_id
+       ),
+       updated AS (
+         UPDATE feed_posts
+         SET likes_count = GREATEST(likes_count - 1, 0)
+         WHERE id = $1 AND EXISTS (SELECT 1 FROM deleted)
+         RETURNING likes_count
+       )
+       SELECT COALESCE((SELECT likes_count FROM updated), post.likes_count) AS likes_count
+       FROM feed_posts AS post
+       WHERE post.id = $1`,
+      [req.params.id, req.user.uid]
+    );
+    if (!result.rows.length) return res.status(404).json({ success: false, error: "Post not found" });
+    res.json({ success: true, liked: false, likesCount: result.rows[0].likes_count });
   } catch (error) {
+    console.error("Error removing feed post like:", error);
     res.status(500).json({ success: false, error: "Could not remove like" });
   }
 });
 
 router.post("/comments/:commentId/like", authenticateFirebaseUser, async (req, res) => {
   try {
-    const { commentId } = req.params;
-
-    const check = await query(`SELECT id FROM feed_comment_likes WHERE comment_id = $1 AND user_id = $2`, [commentId, req.user.uid]);
-    if (check.rows.length > 0) {
-      return res.json({ success: true, liked: true }); 
-    }
-
-    await query(`INSERT INTO feed_comment_likes (comment_id, user_id) VALUES ($1, $2)`, [commentId, req.user.uid]);
-    await query(`UPDATE feed_comments SET likes_count = likes_count + 1 WHERE id = $1`, [commentId]);
-
-    const fresh = await query(`SELECT likes_count FROM feed_comments WHERE id = $1`, [commentId]);
-
-    res.status(201).json({ success: true, liked: true, likesCount: fresh.rows[0]?.likes_count || 0 });
+    const result = await query(
+      `WITH inserted AS (
+         INSERT INTO feed_comment_likes (comment_id, user_id)
+         SELECT id, $2 FROM feed_comments WHERE id = $1
+         ON CONFLICT (comment_id, user_id) DO NOTHING
+         RETURNING comment_id
+       ),
+       updated AS (
+         UPDATE feed_comments
+         SET likes_count = likes_count + 1
+         WHERE id = $1 AND EXISTS (SELECT 1 FROM inserted)
+         RETURNING likes_count
+       )
+       SELECT COALESCE((SELECT likes_count FROM updated), comment.likes_count) AS likes_count,
+              TRUE AS liked
+       FROM feed_comments AS comment
+       WHERE comment.id = $1`,
+      [req.params.commentId, req.user.uid]
+    );
+    if (!result.rows.length) return res.status(404).json({ success: false, error: "Comment not found" });
+    res.status(201).json({ success: true, liked: result.rows[0].liked, likesCount: result.rows[0].likes_count });
   } catch (error) {
+    console.error("Error liking feed comment:", error);
     res.status(500).json({ success: false, error: "Could not like comment" });
   }
 });
 
 router.delete("/comments/:commentId/like", authenticateFirebaseUser, async (req, res) => {
   try {
-    const { commentId } = req.params;
-
-    const check = await query(`SELECT id FROM feed_comment_likes WHERE comment_id = $1 AND user_id = $2`, [commentId, req.user.uid]);
-    if (check.rows.length === 0) {
-      return res.json({ success: true, liked: false }); 
-    }
-
-    await query(`DELETE FROM feed_comment_likes WHERE comment_id = $1 AND user_id = $2`, [commentId, req.user.uid]);
-    await query(`UPDATE feed_comments SET likes_count = likes_count - 1 WHERE id = $1`, [commentId]);
-
-    res.json({ success: true, liked: false });
+    const result = await query(
+      `WITH deleted AS (
+         DELETE FROM feed_comment_likes WHERE comment_id = $1 AND user_id = $2
+         RETURNING comment_id
+       ),
+       updated AS (
+         UPDATE feed_comments
+         SET likes_count = GREATEST(likes_count - 1, 0)
+         WHERE id = $1 AND EXISTS (SELECT 1 FROM deleted)
+         RETURNING likes_count
+       )
+       SELECT COALESCE((SELECT likes_count FROM updated), comment.likes_count) AS likes_count
+       FROM feed_comments AS comment
+       WHERE comment.id = $1`,
+      [req.params.commentId, req.user.uid]
+    );
+    if (!result.rows.length) return res.status(404).json({ success: false, error: "Comment not found" });
+    res.json({ success: true, liked: false, likesCount: result.rows[0].likes_count });
   } catch (error) {
+    console.error("Error removing feed comment like:", error);
     res.status(500).json({ success: false, error: "Could not remove comment like" });
   }
 });
