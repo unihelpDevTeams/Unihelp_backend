@@ -363,11 +363,20 @@ CREATE TABLE IF NOT EXISTS feed_posts (
   cloudinary_public_id TEXT,
   comments_count INTEGER DEFAULT 0,
   likes_count INTEGER DEFAULT 0,
+  views_count INTEGER NOT NULL DEFAULT 0,
   created_at TIMESTAMPTZ DEFAULT NOW(),
   updated_at TIMESTAMPTZ DEFAULT NOW(),
   expires_at TIMESTAMPTZ DEFAULT (NOW() + INTERVAL '7 days')
 );
 CREATE INDEX IF NOT EXISTS idx_feed_posts_expires ON feed_posts(expires_at);
+ALTER TABLE feed_posts ADD COLUMN IF NOT EXISTS views_count INTEGER NOT NULL DEFAULT 0;
+
+CREATE TABLE IF NOT EXISTS feed_post_views (
+  post_id UUID NOT NULL REFERENCES feed_posts(id) ON DELETE CASCADE,
+  user_id TEXT NOT NULL,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  PRIMARY KEY (post_id, user_id)
+);
 
 CREATE TABLE IF NOT EXISTS feed_comments (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),

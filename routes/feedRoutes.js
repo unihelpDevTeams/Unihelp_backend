@@ -43,6 +43,7 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
       cloudinaryPublicId: post.cloudinary_public_id,
       commentsCount: post.comments_count,
       likesCount: post.likes_count,
+      viewsCount: post.views_count || 0,
       createdAt: post.created_at,
       updatedAt: post.updated_at,
       expiresAt: post.expires_at,
@@ -102,6 +103,7 @@ router.post("/posts", authenticateFirebaseUser, async (req, res) => {
       cloudinaryPublicId: post.cloudinary_public_id,
       commentsCount: post.comments_count,
       likesCount: post.likes_count,
+      viewsCount: post.views_count || 0,
       createdAt: post.created_at,
       updatedAt: post.updated_at,
       expiresAt: post.expires_at,
@@ -139,6 +141,7 @@ router.get("/users/:uid/posts", authenticateFirebaseUser, async (req, res) => {
       cloudinaryPublicId: post.cloudinary_public_id,
       commentsCount: post.comments_count,
       likesCount: post.likes_count,
+      viewsCount: post.views_count || 0,
       createdAt: post.created_at,
       updatedAt: post.updated_at,
       expiresAt: post.expires_at,
@@ -181,6 +184,7 @@ router.get("/posts/:id", authenticateFirebaseUser, async (req, res) => {
       cloudinaryPublicId: post.cloudinary_public_id,
       commentsCount: post.comments_count,
       likesCount: post.likes_count,
+      viewsCount: post.views_count || 0,
       createdAt: post.created_at,
       updatedAt: post.updated_at,
       expiresAt: post.expires_at,
@@ -226,6 +230,46 @@ router.get("/posts/:id/comments", authenticateFirebaseUser, async (req, res) => 
     });
   } catch (error) {
     res.status(500).json({ success: false, error: "Could not load comments" });
+  }
+});
+
+router.post("/posts/:id/view", authenticateFirebaseUser, async (req, res) => {
+  try {
+    const result = await query(
+      `WITH inserted_view AS (
+         INSERT INTO feed_post_views (post_id, user_id)
+         SELECT id, $2
+         FROM feed_posts
+         WHERE id = $1 AND expires_at > NOW()
+         ON CONFLICT (post_id, user_id) DO NOTHING
+         RETURNING post_id
+       ),
+       incremented_post AS (
+         UPDATE feed_posts
+         SET views_count = views_count + 1
+         WHERE id = $1 AND EXISTS (SELECT 1 FROM inserted_view)
+         RETURNING views_count
+       )
+       SELECT
+         COALESCE((SELECT views_count FROM incremented_post), post.views_count) AS views_count,
+         EXISTS (SELECT 1 FROM inserted_view) AS counted
+       FROM feed_posts AS post
+       WHERE post.id = $1 AND post.expires_at > NOW()`,
+      [req.params.id, req.user.uid]
+    );
+
+    if (result.rows.length === 0) {
+      return res.status(404).json({ success: false, error: "Post not found" });
+    }
+
+    res.json({
+      success: true,
+      counted: result.rows[0].counted,
+      viewsCount: result.rows[0].views_count,
+    });
+  } catch (error) {
+    console.error("Error recording feed post view:", error);
+    res.status(500).json({ success: false, error: "Could not record post view" });
   }
 });
 
