@@ -57,6 +57,10 @@ router.post("/:conversationId/messages", authenticateFirebaseUser, async (req, r
         updatedAt: now,
       };
       
+      if (receiverId) {
+        updateData[`unread.${receiverId}`] = FieldValue.increment(1);
+      }
+      
       await convRef.update(updateData);
 
       if (receiverId) {

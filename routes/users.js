@@ -43,7 +43,53 @@ const getFriendIds = async (uid) => {
     FROM friends
     WHERE user_id_1 = $1 OR user_id_2 = $1
   `, [uid]);
-  return rows.map(r => r.friend_id);
+  
+  if (rows.length > 0) {
+    return rows.map(r => r.friend_id);
+  }
+
+  // Fallback to Firebase for lazy migration
+  if (db) {
+    try {
+      const snapshot = await db
+        .collection("friends")
+        .where("users", "array-contains", uid)
+        .limit(1000)
+        .get();
+        
+      const ids = new Set();
+      const newFriendships = [];
+      
+      snapshot.docs.forEach((friendship) => {
+        const users = friendship.data()?.users || [];
+        if (users.length === 2 && users.includes(uid)) {
+          const friendId = users[0] === uid ? users[1] : users[0];
+          ids.add(friendId);
+          const sorted = [...users].sort();
+          newFriendships.push({
+            user_id_1: sorted[0],
+            user_id_2: sorted[1]
+          });
+        }
+      });
+      
+      // Lazy migrate to Postgres in background
+      if (newFriendships.length > 0) {
+        Promise.all(newFriendships.map(f => 
+          query(
+            `INSERT INTO friends (user_id_1, user_id_2) VALUES ($1, $2) ON CONFLICT (user_id_1, user_id_2) DO NOTHING`,
+            [f.user_id_1, f.user_id_2]
+          ).catch(e => console.error("[Lazy Migration] Error inserting friendship:", e.message))
+        )).catch(() => {});
+      }
+      
+      return [...ids];
+    } catch (err) {
+      console.error("[Lazy Migration] Firebase fallback error:", err.message);
+    }
+  }
+
+  return [];
 };
 
 router.get("/:uid/social-counts", authenticateFirebaseUser, async (req, res) => {
@@ -207,12 +253,13 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
       total_points,
       rank_name,
       gender,
+      location,
       date_of_birth,
     } = req.body;
     const hasGender = Object.hasOwn(req.body, "gender");
     const hasDateOfBirth = Object.hasOwn(req.body, "date_of_birth");
 
-    const allowedGenders = new Set(["woman", "man", "non_binary", "another_identity", "prefer_not_to_say"]);
+    const allowedGenders = new Set(["female", "male", "woman", "man", "non_binary", "another_identity", "prefer_not_to_say"]);
     if (hasGender && gender && !allowedGenders.has(gender)) {
       return res.status(400).json({ success: false, error: "Please select a valid gender." });
     }
@@ -236,8 +283,8 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
     // The prompt says "users (id TEXT PRIMARY KEY...)", let's do an INSERT ... ON CONFLICT DO UPDATE
     
     const result = await query(
-      `INSERT INTO users (id, display_name, email, university, department, level, avatar, cover_url, cover_asset, bio, total_points, rank_name, gender, date_of_birth, created_at, updated_at)
-       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, NOW(), NOW())
+      `INSERT INTO users (id, display_name, email, university, department, level, avatar, cover_url, cover_asset, bio, total_points, rank_name, gender, date_of_birth, location, created_at, updated_at)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $17, NOW(), NOW())
        ON CONFLICT (id) DO UPDATE SET
          display_name = EXCLUDED.display_name,
          email = EXCLUDED.email,
@@ -252,6 +299,7 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
          rank_name = COALESCE(EXCLUDED.rank_name, users.rank_name),
          gender = CASE WHEN $15 THEN EXCLUDED.gender ELSE users.gender END,
          date_of_birth = CASE WHEN $16 THEN EXCLUDED.date_of_birth ELSE users.date_of_birth END,
+         location = EXCLUDED.location,
          updated_at = NOW()
        RETURNING *`,
       [
@@ -271,6 +319,7 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
         hasDateOfBirth ? normalizedDateOfBirth : null,
         hasGender,
         hasDateOfBirth,
+        location,
       ]
     );
 
