@@ -262,6 +262,7 @@ CREATE TABLE IF NOT EXISTS users (
   department TEXT,
   level TEXT,
   avatar TEXT,
+  photo_asset JSONB,
   cover_url TEXT,
   cover_asset JSONB,
   bio TEXT,
@@ -272,6 +273,7 @@ CREATE TABLE IF NOT EXISTS users (
 );
 
 ALTER TABLE users ADD COLUMN IF NOT EXISTS cover_url TEXT;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS photo_asset JSONB;
 ALTER TABLE users ADD COLUMN IF NOT EXISTS cover_asset JSONB;
 ALTER TABLE users ADD COLUMN IF NOT EXISTS gender TEXT;
 ALTER TABLE users ADD COLUMN IF NOT EXISTS date_of_birth DATE;

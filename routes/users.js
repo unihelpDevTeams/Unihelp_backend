@@ -247,6 +247,7 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
       department,
       level,
       avatar,
+      photo_asset,
       cover_url,
       cover_asset,
       bio,
@@ -283,8 +284,8 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
     // The prompt says "users (id TEXT PRIMARY KEY...)", let's do an INSERT ... ON CONFLICT DO UPDATE
     
     const result = await query(
-      `INSERT INTO users (id, display_name, email, university, department, level, avatar, cover_url, cover_asset, bio, total_points, rank_name, gender, date_of_birth, location, created_at, updated_at)
-       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $17, NOW(), NOW())
+      `INSERT INTO users (id, display_name, email, university, department, level, avatar, cover_url, cover_asset, bio, total_points, rank_name, gender, date_of_birth, location, photo_asset, created_at, updated_at)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $17, $18, NOW(), NOW())
        ON CONFLICT (id) DO UPDATE SET
          display_name = EXCLUDED.display_name,
          email = EXCLUDED.email,
@@ -292,6 +293,7 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
          department = EXCLUDED.department,
          level = EXCLUDED.level,
          avatar = EXCLUDED.avatar,
+         photo_asset = COALESCE(EXCLUDED.photo_asset, users.photo_asset),
          cover_url = COALESCE(EXCLUDED.cover_url, users.cover_url),
          cover_asset = COALESCE(EXCLUDED.cover_asset, users.cover_asset),
          bio = EXCLUDED.bio,
@@ -320,6 +322,7 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
         hasGender,
         hasDateOfBirth,
         location,
+        photo_asset || null,
       ]
     );
 
