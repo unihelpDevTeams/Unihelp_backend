@@ -2,6 +2,7 @@ import express from "express";
 import { query } from "../db/pool.js";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
 import { db } from "../firebase/firebaseAdmin.js";
+import { normalizeProfileAsset, normalizeProfileMediaValue } from "../utils/profileMedia.js";
 import { sendAppNotification } from "../utils/notifications.js";
 
 const router = express.Router();
@@ -257,6 +258,10 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
       location,
       date_of_birth,
     } = req.body;
+    const cleanAvatar = normalizeProfileMediaValue(avatar);
+    const cleanPhotoAsset = normalizeProfileAsset(photo_asset);
+    const cleanCoverUrl = normalizeProfileMediaValue(cover_url);
+    const cleanCoverAsset = normalizeProfileAsset(cover_asset);
     const hasGender = Object.hasOwn(req.body, "gender");
     const hasDateOfBirth = Object.hasOwn(req.body, "date_of_birth");
 
@@ -311,9 +316,9 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
         university,
         department,
         level,
-        avatar,
-        cover_url,
-        cover_asset,
+        cleanAvatar,
+        cleanCoverUrl,
+        cleanCoverAsset,
         bio,
         total_points,
         rank_name,
@@ -322,7 +327,7 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
         hasGender,
         hasDateOfBirth,
         location,
-        photo_asset || null,
+        cleanPhotoAsset || null,
       ]
     );
 

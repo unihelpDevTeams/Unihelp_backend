@@ -12941,6 +12941,48 @@ const formulas = [
       { symbol: "p_0", meaning: "vapour pressure of pure water" },
     ],
     example: "Find water activity given vapour pressure ratio",
+    },
+
+  // =========================
+  // BIOLOGY (new)
+  // =========================
+  {
+    id: 781,
+    title: "Hardy-Weinberg Equation",
+    subject: "Biology",
+    category: "Genetics",
+    level: "University",
+    formula: "p² + 2pq + q² = 1",
+    explanation: "Describes the genetic equilibrium in a population.",
+    variables: [
+      { symbol: "p", meaning: "frequency of the dominant allele" },
+      { symbol: "q", meaning: "frequency of the recessive allele" },
+      { symbol: "p²", meaning: "frequency of homozygous dominant genotype" },
+      { symbol: "2pq", meaning: "frequency of heterozygous genotype" },
+      { symbol: "q²", meaning: "frequency of homozygous recessive genotype" }
+    ],
+    example: "Calculate genotype frequencies given allele frequencies"
+  },
+
+  // =========================
+  // CHEMISTRY (new)
+  // =========================
+  {
+    id: 782,
+    title: "Ideal Gas Law",
+    subject: "Chemistry",
+    category: "Thermodynamics",
+    level: "Foundational",
+    formula: "PV = nRT",
+    explanation: "Relates pressure, volume, temperature, and amount of an ideal gas.",
+    variables: [
+      { symbol: "P", meaning: "pressure" },
+      { symbol: "V", meaning: "volume" },
+      { symbol: "n", meaning: "number of moles" },
+      { symbol: "R", meaning: "ideal gas constant" },
+      { symbol: "T", meaning: "temperature" }
+    ],
+    example: "Calculate pressure of 1mol gas at 25°C and 10L"
   },
 ];
 export default formulas;

@@ -6,6 +6,53 @@ import { deleteCloudinaryAsset } from "../utils/cloudinaryCleanup.js";
 
 const router = express.Router();
 
+const VALID_POST_TYPES = new Set(['text', 'image', 'colored']);
+const VALID_AUDIENCES = new Set(['friends', 'private', 'everyone']);
+const VALID_BACKGROUND_PRESETS = new Set([
+  'indigo', 'violet', 'blue', 'green', 'orange', 'pink', 'red', 'dark'
+]);
+
+const validateFeedPostPayload = (payload = {}) => {
+  const rawType = typeof payload.type === 'string' ? payload.type.trim().toLowerCase() : payload.type;
+  const type = rawType || 'text';
+  if (!VALID_POST_TYPES.has(type)) {
+    throw new Error('Unsupported post type');
+  }
+
+  const audience = typeof payload.audience === 'string' ? payload.audience.trim().toLowerCase() : 'everyone';
+  if (!VALID_AUDIENCES.has(audience)) {
+    throw new Error('Invalid audience');
+  }
+
+  const contentValue = typeof payload.content === 'string' ? payload.content.trim() : String(payload.content ?? '').trim();
+  const hasContent = Boolean(contentValue);
+
+  if (type !== 'image' && !hasContent) {
+    throw new Error('Post content cannot be empty');
+  }
+
+  if (type === 'image') {
+    const imageUrl = String(payload.imageUrl ?? payload.image_url ?? payload.image ?? '').trim();
+    if (!imageUrl || !/^https?:\/\//i.test(imageUrl)) {
+      throw new Error('Image posts require a valid image URL');
+    }
+  }
+
+  if (payload.backgroundPreset !== undefined && payload.backgroundPreset !== null && payload.backgroundPreset !== '') {
+    const backgroundPreset = String(payload.backgroundPreset).trim().toLowerCase();
+    if (!VALID_BACKGROUND_PRESETS.has(backgroundPreset)) {
+      throw new Error('Invalid background preset');
+    }
+    if (type === 'text' || type === 'image') {
+      // The client only sends a background preset for the colored-post format.
+      return { ...payload, type, audience, content: contentValue, backgroundPreset };
+    }
+    return { ...payload, type, audience, content: contentValue, backgroundPreset };
+  }
+
+  return { ...payload, type, audience, content: contentValue };
+};
+
 // Fire-and-forget cleanup query function
 const cleanupExpiredPosts = () => {
   query(`DELETE FROM feed_posts WHERE expires_at < NOW()`).catch(err => {
@@ -69,7 +116,8 @@ router.get("/", authenticateFirebaseUser, async (req, res) => {
 
 router.post("/posts", authenticateFirebaseUser, async (req, res) => {
   try {
-    const { content, imageUrl, cloudinaryPublicId, university, type, audience, backgroundPreset } = req.body;
+    const payload = validateFeedPostPayload(req.body);
+    const { content, imageUrl, cloudinaryPublicId, university, type, audience, backgroundPreset } = payload;
     
     // Fallback info for user, could come from req.user
     const authorName = req.user.name || req.user.displayName || "Student";
@@ -530,4 +578,5 @@ router.post("/posts/:id/report", authenticateFirebaseUser, async (req, res) => {
   }
 });
 
+export { validateFeedPostPayload };
 export default router;
