@@ -141,10 +141,13 @@ router.delete(
       if (messageData.senderId !== uid) {
         return res.status(403).json({ success: false, error: "You can only delete your own voice messages." });
       }
+      if (messageData.type !== "voice") {
+        return res.status(400).json({ success: false, error: "This message is not a voice message." });
+      }
 
       const createdAtMillis = messageData.createdAt?.toMillis?.() || messageData.createdAt?.toDate?.()?.getTime?.() || 0;
-      if (!createdAtMillis || Date.now() - createdAtMillis > 60 * 60 * 1000) {
-        return res.status(403).json({ success: false, error: "Messages can only be deleted within one hour." });
+      if (!createdAtMillis || Date.now() - createdAtMillis > 30 * 60 * 1000) {
+        return res.status(403).json({ success: false, error: "Voice messages can only be deleted within 30 minutes of sending." });
       }
 
       const deletePayload = buildVoiceDeletePayload(messageDoc);
