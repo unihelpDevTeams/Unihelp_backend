@@ -3,7 +3,6 @@ import { authenticateFirebaseUser } from "../middleware/auth.js";
 import { db } from "../firebase/firebaseAdmin.js";
 import { FieldValue } from "firebase-admin/firestore";
 import { sendAppNotification } from "../utils/notifications.js";
-import { query } from "../db/pool.js";
 import { isStickerAccessible } from "../services/stickerService.js";
 
 const router = express.Router();
@@ -84,27 +83,14 @@ router.post("/:conversationId/messages", authenticateFirebaseUser, async (req, r
       if (receiverId) {
         // Save notification
         const notifBody = messageType === 'voice' ? '🎤 Sent a voice message' : messageType === 'sticker' ? '🎟️ Sent a sticker' : (payload.text || 'Sent an attachment');
-        const sql = `
-          INSERT INTO notifications (user_id, title, message, category, type, url, read, created_at)
-          VALUES ($1, $2, $3, $4, $5, $6, $7, NOW())
-        `;
-        await query(sql, [
-          receiverId,
-          payload.senderName || "New Message",
-          notifBody,
-          "Message",
-          "direct_message",
-          `/messages?conversationId=${conversationId}`,
-          false
-        ]);
-        
-        // Push notification
+        // sendAppNotification persists the linked notification and sends the push.
+        // Do not insert a second row here: it creates duplicate direct-message alerts.
         try {
           await sendAppNotification({
             userIds: [receiverId],
             title: payload.senderName || "New Message",
             body: notifBody,
-            type: 'message',
+            type: 'direct_message',
             category: 'Message',
             url: `/messages?conversationId=${conversationId}`,
             data: { conversationId },

@@ -38,6 +38,8 @@ export const sendNotification = async ({
   type = 'general',
   category = 'General',
   url = '/notifications',
+  categoryId = 'unihelp_general',
+  threadId = '',
   sound = 'default',
   priority = 'high',
 }) => {
@@ -88,6 +90,7 @@ export const sendNotification = async ({
         notification: {
           channelId: 'default',
           sound: 'default',
+          tag: threadId || undefined,
         },
       },
       data: Object.fromEntries(
@@ -95,6 +98,8 @@ export const sendNotification = async ({
           ...data,
           type,
           category,
+          categoryId,
+          categoryIdentifier: categoryId,
           announcementId: data?.announcementId || '',
           url,
           title,
@@ -102,6 +107,15 @@ export const sendNotification = async ({
           message: body,
         }).map(([key, value]) => [key, normalizeFcmStringValue(value)])
       ),
+      apns: {
+        payload: {
+          aps: {
+            category: categoryId,
+            threadId: threadId || undefined,
+            sound: sound || 'default',
+          },
+        },
+      },
       tokens: chunk.map((recipient) => recipient.token),
     };
 

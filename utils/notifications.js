@@ -2,6 +2,24 @@ import { admin, db, messaging } from "../firebase/firebaseAdmin.js";
 import { sendNotification } from "./expoPush.js";
 import { query } from "../db/pool.js";
 
+const categoryForType = (type = "general") => ({
+  message: "unihelp_message",
+  direct_message: "unihelp_message",
+  group_message: "unihelp_group_message",
+  comment: "unihelp_comment",
+  comment_reply: "unihelp_comment",
+  like: "unihelp_like",
+  announcement: "unihelp_promotion",
+  promotion: "unihelp_promotion",
+}[String(type).toLowerCase()] || "unihelp_general");
+
+const mutedForRecipient = async (userId, data = {}) => {
+  const targetId = data.conversationId || data.conversation_id || data.groupId || data.group_id;
+  if (!targetId) return false;
+  const settings = await db.collection("users").doc(userId).collection("conversationSettings").doc(String(targetId)).get();
+  return settings.exists && settings.data()?.muted === true;
+};
+
 const chunkArray = (items = [], size = 500) => {
   const chunks = [];
 
@@ -71,13 +89,25 @@ export const sendAppNotification = async ({
     const userSnap = await db.collection("users").doc(uid).get();
     const user = userSnap.data() || {};
 
-    targetRecipients.push({ userId: uid });
+    let notificationId = "";
+    try {
+      const inserted = await query(
+        `INSERT INTO notifications (user_id, title, message, category, type, url, announcement_id, read, created_at)
+         VALUES ($1, $2, $3, $4, $5, $6, $7, false, NOW()) RETURNING id`,
+        [uid, title, body, category, type, url, announcementId]
+      );
+      notificationId = inserted.rows?.[0]?.id?.toString() || "";
+    } catch (error) {
+      // A temporary notification-store failure must not prevent a real-time push.
+      console.error("Could not persist notification before push:", error?.message || error);
+    }
+    targetRecipients.push({ userId: uid, notificationId });
 
     const notificationsEnabled =
       user.notificationsEnabled !== false &&
       user.notifications?.enabled !== false;
 
-    if (!notificationsEnabled) continue;
+    if (!notificationsEnabled || await mutedForRecipient(uid, data)) continue;
 
     const tokenCandidates = [
       user.fcmToken,
@@ -89,45 +119,23 @@ export const sendAppNotification = async ({
     ];
 
     for (const token of [...new Set(tokenCandidates.filter(Boolean))]) {
-      resolvedRecipients.push({ userId: uid, token, pushType: "fcm" });
+      resolvedRecipients.push({ userId: uid, token, pushType: "fcm", notificationId });
     }
   }
 
   let sent = 0;
 
-  if (resolvedRecipients.length > 0) {
+  // Each recipient receives its own persisted notification id, enabling tray actions to
+  // mark the correct record read without opening the app.
+  for (const recipient of resolvedRecipients) {
     const fcmResult = await sendNotification({
-      recipients: resolvedRecipients,
-      title,
-      body,
-      data: {
-        ...(data || {}),
-        type,
-        category,
-        announcementId: announcementId || "",
-        url,
-      },
+      recipients: [recipient], title, body, type, category, url,
+      categoryId: categoryForType(type),
+      threadId: data?.conversationId || data?.conversation_id || data?.groupId || data?.group_id || "",
+      data: { ...(data || {}), notificationId: recipient.notificationId, type, category, announcementId: announcementId || "", url },
     });
-
     sent += fcmResult.sent || 0;
     await clearInvalidFcmTokens(fcmResult.invalidRecipients);
-  }
-
-  const insertSql = `
-    INSERT INTO notifications (user_id, title, message, category, type, url, announcement_id, read, created_at)
-    VALUES ($1, $2, $3, $4, $5, $6, $7, false, NOW())
-  `;
-
-  for (const recipient of targetRecipients) {
-    await query(insertSql, [
-      recipient.userId,
-      title,
-      body,
-      category,
-      type,
-      url,
-      announcementId
-    ]);
   }
 
   return {
