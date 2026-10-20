@@ -9,7 +9,7 @@ import notificationRoutes, {
   cleanupExpiredNotifications,
   sendStudyReminderNotifications,
 } from "./routes/notifications.js";
-import mediaCleanupRoutes from "./routes/mediaCleanup.js";
+import mediaCleanupRoutes, { cleanupExpiredGroupPosts } from "./routes/mediaCleanup.js";
 import aiRoutes from "./routes/aiRoutes.js";
 import aiToolsRoutes from "./routes/aiTools.js";
 import suggestionsRoutes from "./routes/suggestions.js";
@@ -192,6 +192,7 @@ let reminderJobInFlight = false;
 let supportCleanupStarted = false;
 let notificationCleanupStarted = false;
 let birthdayGreetingSchedulerStarted = false;
+let groupPostCleanupStarted = false;
 
 const startReminderScheduler = () => {
   if (reminderSchedulerStarted) {
@@ -307,6 +308,23 @@ const startBirthdayGreetingScheduler = () => {
   runBirthdayGreetingJob();
   setInterval(runBirthdayGreetingJob, 15 * 60 * 1000);
 };
+
+const startGroupPostCleanupScheduler = () => {
+  if (groupPostCleanupStarted) return;
+  groupPostCleanupStarted = true;
+
+  const run = async () => {
+    try {
+      const result = await cleanupExpiredGroupPosts();
+      if (result.removed) console.log("[group-post-cleanup] removed expired posts", result);
+    } catch (error) {
+      console.error("[group-post-cleanup] failed", error?.message || error);
+    }
+  };
+
+  run();
+  setInterval(run, 60 * 60 * 1000);
+};
   
   // Initialize database if DATABASE_URL is configured
   if (process.env.DATABASE_URL) {
@@ -329,4 +347,5 @@ const startBirthdayGreetingScheduler = () => {
     startSupportCleanupScheduler();
     startNotificationCleanupScheduler();
     startBirthdayGreetingScheduler();
+    startGroupPostCleanupScheduler();
   });

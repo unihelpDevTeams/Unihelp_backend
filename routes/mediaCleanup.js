@@ -1,5 +1,5 @@
 import express from "express";
-import { FieldValue } from "firebase-admin/firestore";
+import { FieldValue, Timestamp } from "firebase-admin/firestore";
 
 import { admin, db } from "../firebase/firebaseAdmin.js";
 import { authenticateFirebaseUser } from "../middleware/auth.js";
@@ -77,6 +77,35 @@ const cleanupThenDelete = async ({ ref, data }) => {
   console.log(`[cleanup] Firestore document deleted successfully: ${ref.path}`);
 
   return summarizeCloudinaryResults(cloudinaryResults);
+};
+
+const GROUP_POST_TTL_MS = 14 * 24 * 60 * 60 * 1000;
+
+// Called by the server scheduler. Expiration is enforced centrally, not only when a member opens a group.
+export const cleanupExpiredGroupPosts = async () => {
+  if (!db) return { removed: 0, skipped: 'firebase-unavailable' };
+
+  const cutoff = Timestamp.fromDate(new Date(Date.now() - GROUP_POST_TTL_MS));
+  const snapshot = await db.collectionGroup('posts').where('createdAt', '<=', cutoff).limit(250).get();
+  let removed = 0;
+
+  for (const postDoc of snapshot.docs) {
+    const groupRef = postDoc.ref.parent.parent;
+    if (!groupRef || groupRef.parent?.id !== 'groups') continue;
+
+    try {
+      const assets = collectCloudinaryAssets(postDoc.data());
+      if (assets.length) await deleteCloudinaryAssets(assets);
+    } catch (error) {
+      // Storage cleanup is best effort here: an expired post must not reappear because a legacy asset is missing.
+      console.warn(`[cleanup] Could not remove media for expired post ${postDoc.ref.path}:`, error?.message || error);
+    }
+
+    await postDoc.ref.delete();
+    removed += 1;
+  }
+
+  return { removed, scanned: snapshot.size, hasMore: snapshot.size === 250 };
 };
 
 router.use(authenticateFirebaseUser);
