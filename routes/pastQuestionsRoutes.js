@@ -1492,14 +1492,15 @@ questionsRoutes.post("/", authenticateFirebaseUser, async (req, res) => {
     const payload = await buildDraftFromPayload({
       ...body,
       createdBy: isAdminUser ? (body.createdBy || req.user.uid) : req.user.uid,
-      status: isAdminUser ? body.status : "draft",
-      processing: isAdminUser
-        ? body.processing
-        : {
-            status: "manual_review",
-            source: "user_submission",
-            warnings: ["Submitted by a student; admin review is required before publishing."],
-          },
+      // Student submissions are available immediately; administrators only moderate
+      // by removing inappropriate documents, not by approving a queue.
+      status: "published",
+      processing: {
+        ...(body.processing || {}),
+        status: "ready",
+        source: body.processing?.source || "user_submission",
+        warnings: Array.isArray(body.warnings) ? body.warnings : [],
+      },
     });
     const saved = await saveDraftToFirestore(payload);
     return res.status(201).json({ success: true, item: saved });

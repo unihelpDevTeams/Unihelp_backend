@@ -103,8 +103,9 @@ const validateItem = (payload = {}, partial = false) => {
     price: parsePrice(payload.price),
     phone: cleanString(payload.phone),
     description: cleanString(payload.description),
-    status: cleanString(payload.status, "pending") || "pending",
-    verified: Boolean(payload.verified),
+    // Marketplace listings are visible immediately. There is no admin approval queue.
+    status: "listed",
+    verified: false,
     premiumUser: Boolean(payload.premiumUser),
   };
   if (!partial && (!next.title || !next.category || !next.phone)) {
@@ -324,8 +325,8 @@ marketplaceRoutes.put("/:id", authenticateFirebaseUser, async (req, res) => {
       price: req.body.price ?? existing.rows[0].price,
       phone: req.body.phone ?? existing.rows[0].phone,
       description: req.body.description ?? existing.rows[0].description,
-      status: req.body.status ?? existing.rows[0].status,
-      verified: req.body.verified ?? existing.rows[0].verified,
+      status: "listed",
+      verified: false,
       premiumUser: req.body.premiumUser ?? existing.rows[0].premium_user,
     };
     const { value } = validateItem(merged, true);
