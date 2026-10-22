@@ -8,6 +8,51 @@ import { isStickerAccessible } from "../services/stickerService.js";
 const router = express.Router();
 const DEFAULT_MESSAGE_PAGE_SIZE = 20;
 
+const parsePositiveInt = (value, fallback) => {
+  const next = Number(value ?? fallback);
+  if (!Number.isFinite(next) || next <= 0) return fallback;
+  return next;
+};
+
+const getMessageRetentionConfig = () => ({
+  retentionDays: parsePositiveInt(process.env.MEDIA_RETENTION_DAYS, 7),
+  maxUndeliveredDays: parsePositiveInt(process.env.MEDIA_MAX_UNDELIVERED_DAYS, 30),
+});
+
+const normalizeMessageAttachment = (attachment = {}, index = 0, conversationId = "") => {
+  if (!attachment || typeof attachment !== "object") return null;
+
+  const url = attachment.url || attachment.fileUrl || attachment.secure_url || attachment.downloadUrl || attachment.previewUrl || "";
+  const publicId = attachment.publicId || attachment.cloudinaryPublicId || attachment.key || attachment.public_id || "";
+  const fileName = attachment.fileName || attachment.name || `attachment-${index + 1}`;
+  const mimeType = attachment.mimeType || attachment.type || attachment.fileType || "";
+  const size = Number(attachment.size || attachment.fileSize || 0) || 0;
+  const config = getMessageRetentionConfig();
+
+  return {
+    id: attachment.id || `media-${conversationId}-${index}-${Date.now()}`,
+    url,
+    fileName,
+    mimeType,
+    size,
+    publicId,
+    storageProvider: attachment.storageProvider || attachment.storage_provider || (url || publicId ? "r2" : "unknown"),
+    mediaStatus: url ? "uploaded" : "failed",
+    deliveryStatus: "pending_delivery",
+    downloadedBy: [],
+    retentionDays: config.retentionDays,
+    maxUndeliveredDays: config.maxUndeliveredDays,
+    retentionExpiresAt: new Date(Date.now() + config.retentionDays * 24 * 60 * 60 * 1000).toISOString(),
+    createdAt: new Date().toISOString(),
+  };
+};
+
+const normalizeMessageAttachments = (attachments = [], conversationId = "") => {
+  if (!Array.isArray(attachments)) return [];
+  const normalized = attachments.map((attachment, index) => normalizeMessageAttachment(attachment, index, conversationId)).filter(Boolean);
+  return normalized;
+};
+
 router.post("/:conversationId/messages", authenticateFirebaseUser, async (req, res) => {
   try {
     const { conversationId } = req.params;
@@ -24,6 +69,7 @@ router.post("/:conversationId/messages", authenticateFirebaseUser, async (req, r
     if (!["text", "voice", "image", "video", "sticker"].includes(messageType)) {
       return res.status(400).json({ success: false, error: "Unsupported message type" });
     }
+    const attachments = normalizeMessageAttachments(payload.attachments, conversationId);
     let sticker = null;
     if (messageType === "sticker") {
       sticker = await isStickerAccessible(user.uid, payload.stickerId);
@@ -34,6 +80,7 @@ router.post("/:conversationId/messages", authenticateFirebaseUser, async (req, r
     
     const messageData = {
       ...payload,
+      attachments,
       id: messageRef.id,
       type: messageType,
       senderId: user.uid,
@@ -41,6 +88,14 @@ router.post("/:conversationId/messages", authenticateFirebaseUser, async (req, r
       deliveredTo: [user.uid],
       readBy: [user.uid],
       reactions: {},
+      mediaState: attachments.length ? {
+        status: "pending_delivery",
+        retentionDays: getMessageRetentionConfig().retentionDays,
+        maxUndeliveredDays: getMessageRetentionConfig().maxUndeliveredDays,
+        retentionExpiresAt: new Date(Date.now() + getMessageRetentionConfig().retentionDays * 24 * 60 * 60 * 1000).toISOString(),
+        finalRecipients: convData.memberIds.filter((memberId) => memberId !== user.uid),
+        downloadedBy: [],
+      } : null,
       createdAt: now,
     };
     

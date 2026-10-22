@@ -166,11 +166,17 @@ app.get("/api/health", (req, res) => {
       process.env.R2_PUBLIC_URL
   );
 
+  const retentionConfig = {
+    mediaRetentionDays: Number(process.env.MEDIA_RETENTION_DAYS || 7),
+    mediaMaxUndeliveredDays: Number(process.env.MEDIA_MAX_UNDELIVERED_DAYS || 30),
+  };
+
   return res.status(200).json({
     success: true,
     service: "unihelp-backend",
     storage: storageConfigured ? "r2-configured" : "r2-missing-config",
     storageProvider: "cloudflare-r2",
+    mediaRetention: retentionConfig,
   });
 });
 
