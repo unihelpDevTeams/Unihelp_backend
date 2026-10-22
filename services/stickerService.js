@@ -17,7 +17,7 @@ const stickerCollection = () => db.collection("stickers");
 const packCollection = () => db.collection("stickerPacks");
 const userRef = (uid) => db.collection("users").doc(uid);
 const cleanText = (value, max) => String(value || "").trim().slice(0, max);
-const allowedTextColors = new Set(["#FFFFFF", "#000000", "#FF3B30", "#FFD60A"]);
+const allowedTextColors = new Set(["#FFFFFF", "#000000", "#FF3B30", "#FFD60A", "#34C759", "#0A84FF"]);
 
 const cleanStickerEditor = (editor = {}) => {
   const text = cleanText(editor.text, 40);
@@ -55,6 +55,12 @@ const textOverlay = (text, textSize, color, x = 0, y = 42) => ({
 });
 
 export const buildEditedStickerUrls = (upload, editor, leadingTransformations = []) => {
+  // Sticker uploads live in R2. Cloudinary transformations cannot be applied
+  // to an R2 object, so retain the original asset and deliver editor settings
+  // alongside it for the client renderer instead of returning a broken URL.
+  if (!String(upload.assetUrl || "").includes("res.cloudinary.com")) {
+    return { assetUrl: upload.assetUrl, thumbnailUrl: upload.thumbnailUrl || upload.assetUrl };
+  }
   if (upload.type !== "image" || !upload.cloudinaryPublicId || (!editor.text && !editor.emoji)) {
     return {
       assetUrl: leadingTransformations.length
@@ -128,6 +134,7 @@ const toPublicSticker = (snapshot) => {
     isAnimated: Boolean(item.isAnimated),
     isPremium: Boolean(item.isPremium),
     isActive: item.isActive !== false,
+    editor: cleanStickerEditor(item.editor),
     createdAt: item.createdAt || null,
   };
 };
@@ -135,6 +142,13 @@ const toPublicSticker = (snapshot) => {
 const visibleSticker = (sticker, uid, premium) =>
   sticker.isActive !== false &&
   ((sticker.ownerId === uid) || (!sticker.ownerId && (!sticker.isPremium || premium)));
+
+const canUseSticker = async (uid, stickerId, sticker, premium) => {
+  if (visibleSticker(sticker, uid, premium)) return true;
+  if (sticker.isActive === false) return false;
+  const favorite = await userRef(uid).collection("stickerFavorites").doc(stickerId).get();
+  return favorite.exists;
+};
 
 export const DEFAULT_FREE_STICKER_PACK_ID = "unihelp-default-free";
 const DEFAULT_FREE_STICKERS = [
@@ -179,7 +193,10 @@ export const listStickers = async (uid, { packId, search, owner, recent = false,
   return snapshots
     .filter((item) => item.exists)
     .map(toPublicSticker)
-    .filter((sticker) => (!packId || sticker.packId === packId) && visibleSticker(sticker, uid, premium))
+    // A favorite can be a sticker received from another member. It stays in
+    // the recipient's private Favorites collection even when it is not part
+    // of their own sticker library or an official pack.
+    .filter((sticker) => (!packId || sticker.packId === packId) && (favorites || visibleSticker(sticker, uid, premium)))
     .filter((sticker) => !search || sticker.name.toLowerCase().includes(String(search).toLowerCase()))
     .slice(0, 300);
 };
@@ -262,7 +279,7 @@ export const recordStickerUse = async (uid, stickerId) => {
   if (!snapshot.exists) throw new Error("Sticker not found");
   const sticker = snapshot.data();
   const profile = await getTrustedEntitlementProfile(uid);
-  if (!visibleSticker(sticker, uid, isPremiumEntitled(profile))) throw new Error("You cannot use this sticker");
+  if (!await canUseSticker(uid, stickerId, sticker, isPremiumEntitled(profile))) throw new Error("You cannot use this sticker");
   await userRef(uid).collection("stickerRecent").doc(stickerId).set({ stickerId, updatedAt: admin.firestore.FieldValue.serverTimestamp() });
   const recent = await userRef(uid).collection("stickerRecent").orderBy("updatedAt", "desc").limit(51).get();
   if (recent.size > 50) await recent.docs[50].ref.delete();
@@ -272,8 +289,7 @@ export const recordStickerUse = async (uid, stickerId) => {
 export const toggleStickerFavorite = async (uid, stickerId, favorite) => {
   const sticker = await stickerCollection().doc(stickerId).get();
   if (!sticker.exists) throw new Error("Sticker not found");
-  const profile = await getTrustedEntitlementProfile(uid);
-  if (!visibleSticker(sticker.data(), uid, isPremiumEntitled(profile))) throw new Error("You cannot favorite this sticker");
+  if (sticker.data().isActive === false) throw new Error("You cannot favorite this sticker");
   const ref = userRef(uid).collection("stickerFavorites").doc(stickerId);
   if (favorite) await ref.set({ stickerId, updatedAt: admin.firestore.FieldValue.serverTimestamp() });
   else await ref.delete();
@@ -439,6 +455,40 @@ export const updateOwnedSticker = async (uid, stickerId, payload = {}) => {
     updatedAt: admin.firestore.FieldValue.serverTimestamp(),
   };
 
+  // A replacement image is uploaded first, then atomically attached here.
+  // This keeps editing as reliable as creating a new sticker and avoids
+  // duplicate uploads when the request is retried.
+  const replacementId = cleanText(payload.uploadId, 120);
+  if (replacementId) {
+    const { ref: uploadRef, data: upload } = await getStickerUpload(uid, replacementId);
+    updates.type = upload.type;
+    updates.assetUrl = upload.assetUrl;
+    updates.thumbnailUrl = upload.thumbnailUrl || upload.assetUrl;
+    updates.originalAssetUrl = upload.assetUrl;
+    updates.cloudinaryPublicId = upload.cloudinaryPublicId;
+    updates.width = upload.width || 0;
+    updates.height = upload.height || 0;
+    updates.fileSize = Number(upload.bytes || 0);
+    updates.duration = Number(upload.duration || 0);
+    updates.isAnimated = Boolean(upload.isAnimated);
+    updates.backgroundRemoved = false;
+    await db.runTransaction(async (transaction) => {
+      const userSnapshot = await transaction.get(userRef(uid));
+      const user = userSnapshot.exists ? userSnapshot.data() : {};
+      const bytes = Number(upload.bytes || 0) - Number(sticker.fileSize || 0);
+      if (Number(user.stickerStorageBytes || 0) + bytes > STICKER_LIMITS.maxStorageBytes) throw new Error("Sticker storage limit reached");
+      const nextAnimated = Number(user.animatedStickerCount || 0) - (sticker.isAnimated ? 1 : 0) + (upload.isAnimated ? 1 : 0);
+      if (nextAnimated > STICKER_LIMITS.maxAnimated) throw new Error("Animated sticker limit reached");
+      transaction.update(stickerCollection().doc(stickerId), updates);
+      transaction.set(uploadRef, { used: true, usedAt: admin.firestore.FieldValue.serverTimestamp(), stickerId }, { merge: true });
+      transaction.set(userRef(uid), {
+        stickerStorageBytes: Math.max(0, Number(user.stickerStorageBytes || 0) + bytes),
+        animatedStickerCount: Math.max(0, nextAnimated),
+      }, { merge: true });
+    });
+    return toPublicSticker({ id: stickerId, ...sticker, ...updates });
+  }
+
   if (sticker.cloudinaryPublicId) {
     const editedUrls = buildEditedStickerUrls(
       {
@@ -475,6 +525,6 @@ export const isStickerAccessible = async (uid, stickerId) => {
   if (!snapshot.exists) return null;
   const profile = await getTrustedEntitlementProfile(uid);
   const sticker = snapshot.data();
-  if (!visibleSticker(sticker, uid, isPremiumEntitled(profile))) return null;
+  if (!await canUseSticker(uid, stickerId, sticker, isPremiumEntitled(profile))) return null;
   return { id: snapshot.id, ...sticker };
 };

@@ -37,7 +37,7 @@ router.post("/:conversationId/messages", authenticateFirebaseUser, async (req, r
       id: messageRef.id,
       type: messageType,
       senderId: user.uid,
-      ...(sticker ? { stickerId: sticker.id, sticker: { id: sticker.id, type: sticker.type, assetUrl: sticker.assetUrl, thumbnailUrl: sticker.thumbnailUrl, name: sticker.name } } : {}),
+      ...(sticker ? { stickerId: sticker.id, sticker: { id: sticker.id, type: sticker.type, assetUrl: sticker.assetUrl, thumbnailUrl: sticker.thumbnailUrl, name: sticker.name, editor: sticker.editor || null } } : {}),
       deliveredTo: [user.uid],
       readBy: [user.uid],
       reactions: {},
