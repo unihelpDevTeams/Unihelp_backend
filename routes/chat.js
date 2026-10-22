@@ -4,6 +4,7 @@ import { db } from "../firebase/firebaseAdmin.js";
 import { FieldValue } from "firebase-admin/firestore";
 import { sendAppNotification } from "../utils/notifications.js";
 import { isStickerAccessible } from "../services/stickerService.js";
+import { getMediaRetentionConfig } from "../services/mediaRetention.js";
 
 const router = express.Router();
 const DEFAULT_MESSAGE_PAGE_SIZE = 20;
@@ -14,9 +15,9 @@ const parsePositiveInt = (value, fallback) => {
   return next;
 };
 
-const getMessageRetentionConfig = () => ({
-  retentionDays: parsePositiveInt(process.env.MEDIA_RETENTION_DAYS, 7),
-  maxUndeliveredDays: parsePositiveInt(process.env.MEDIA_MAX_UNDELIVERED_DAYS, 30),
+const getMessageRetentionConfig = () => getMediaRetentionConfig({
+  retentionDays: process.env.MEDIA_RETENTION_DAYS,
+  maxUndeliveredDays: process.env.MEDIA_MAX_UNDELIVERED_DAYS,
 });
 
 const normalizeMessageAttachment = (attachment = {}, index = 0, conversationId = "") => {
@@ -78,9 +79,17 @@ router.post("/:conversationId/messages", authenticateFirebaseUser, async (req, r
     const messageRef = db.collection("conversations").doc(conversationId).collection("messages").doc();
     const now = FieldValue.serverTimestamp();
     
+    const retentionConfig = getMessageRetentionConfig();
     const messageData = {
       ...payload,
-      attachments,
+      attachments: attachments.map((attachment) => ({
+        ...attachment,
+        retentionDays: retentionConfig.retentionDays,
+        maxUndeliveredDays: retentionConfig.maxUndeliveredDays,
+        deliveryStatus: 'pending_delivery',
+        mediaStatus: attachment.url ? 'uploaded' : 'failed',
+        retentionExpiresAt: new Date(Date.now() + retentionConfig.retentionDays * 24 * 60 * 60 * 1000).toISOString(),
+      })),
       id: messageRef.id,
       type: messageType,
       senderId: user.uid,
@@ -90,9 +99,9 @@ router.post("/:conversationId/messages", authenticateFirebaseUser, async (req, r
       reactions: {},
       mediaState: attachments.length ? {
         status: "pending_delivery",
-        retentionDays: getMessageRetentionConfig().retentionDays,
-        maxUndeliveredDays: getMessageRetentionConfig().maxUndeliveredDays,
-        retentionExpiresAt: new Date(Date.now() + getMessageRetentionConfig().retentionDays * 24 * 60 * 60 * 1000).toISOString(),
+        retentionDays: retentionConfig.retentionDays,
+        maxUndeliveredDays: retentionConfig.maxUndeliveredDays,
+        retentionExpiresAt: new Date(Date.now() + retentionConfig.retentionDays * 24 * 60 * 60 * 1000).toISOString(),
         finalRecipients: convData.memberIds.filter((memberId) => memberId !== user.uid),
         downloadedBy: [],
       } : null,

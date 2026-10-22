@@ -40,6 +40,7 @@ import { query } from "./db/pool.js";
 import { createServer } from "http";
 import { Server } from "socket.io";
 import { sendBirthdayGreetingNotifications } from "./utils/birthdayNotifications.js";
+import { cleanupExpiredMediaAttachments } from "./services/mediaCleanupWorker.js";
 
 dotenv.config();
 
@@ -199,6 +200,7 @@ let supportCleanupStarted = false;
 let notificationCleanupStarted = false;
 let birthdayGreetingSchedulerStarted = false;
 let groupPostCleanupStarted = false;
+let mediaRetentionCleanupStarted = false;
 
 const startReminderScheduler = () => {
   if (reminderSchedulerStarted) {
@@ -331,6 +333,25 @@ const startGroupPostCleanupScheduler = () => {
   run();
   setInterval(run, 60 * 60 * 1000);
 };
+
+const startMediaRetentionCleanupScheduler = () => {
+  if (mediaRetentionCleanupStarted) return;
+  mediaRetentionCleanupStarted = true;
+
+  const run = async () => {
+    try {
+      const result = await cleanupExpiredMediaAttachments();
+      if (result?.deleted || result?.scanned) {
+        console.log("[media-retention-cleanup] processed", result);
+      }
+    } catch (error) {
+      console.error("[media-retention-cleanup] failed", error?.message || error);
+    }
+  };
+
+  run();
+  setInterval(run, 60 * 60 * 1000);
+};
   
   // Initialize database if DATABASE_URL is configured
   if (process.env.DATABASE_URL) {
@@ -354,4 +375,5 @@ const startGroupPostCleanupScheduler = () => {
     startNotificationCleanupScheduler();
     startBirthdayGreetingScheduler();
     startGroupPostCleanupScheduler();
+    startMediaRetentionCleanupScheduler();
   });
