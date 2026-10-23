@@ -54,6 +54,12 @@ export const verifyGoogleSubscription = async (req, res) => {
     }
 
     const subscription = await verifyGooglePlaySubscription({ purchaseToken, productId });
+    if (!subscription.active) {
+      return res.status(409).json({
+        success: false,
+        error: "This Google Play subscription is not active yet",
+      });
+    }
     await ref.set({
       userId: uid,
       provider: "google_play",

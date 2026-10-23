@@ -1,4 +1,5 @@
 import { query } from "../db/pool.js";
+import { db } from "../firebase/firebaseAdmin.js";
 
 import {
   initializeFlutterwavePayment,
@@ -129,33 +130,19 @@ export const verifyPayment =
         });
       }
 
-      /* CALCULATE EXPIRY */
-
-      const now = new Date();
-
-      let expiryDate =
-        billing === "monthly"
-          ? new Date(
-              now.setMonth(
-                now.getMonth() + 1
-              )
-            )
-          : new Date(
-              now.setFullYear(
-                now.getFullYear() + 1
-              )
-            );
-
-      /* SAVE SUBSCRIPTION */
-
       const gateway_fee = expectedAmount * 0.014;
       const net_amount = expectedAmount - gateway_fee;
 
-      await query(
+      // A transaction can be verified more than once (for example after an app
+      // is reopened). Record it once so repeated verification never grants time
+      // repeatedly.
+      const transactionResult = await query(
         `INSERT INTO transactions (
           transaction_id, user_id, amount, type, status, 
           gateway_fee, net_amount, payment_method, customer_email, reference, created_at, updated_at
-        ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, NOW(), NOW())`,
+        ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, NOW(), NOW())
+        ON CONFLICT (transaction_id) DO NOTHING
+        RETURNING transaction_id`,
         [
           transaction_id.toString(),
           userId,
@@ -170,17 +157,56 @@ export const verifyPayment =
         ]
       );
 
-      /* UPDATE USER */
+      // Mobile profiles and every Premium feature are driven by Firestore.
+      // The old SQL UPDATE targeted columns that do not exist in the SQL
+      // schema, so a successful Flutterwave payment could not unlock Premium.
+      const userRef = db.collection("users").doc(userId);
+      let entitlement;
 
-      await query(
-        `UPDATE users SET
-          premium = true,
-          subscription_plan = $1,
-          subscription_expires_at = $2,
-          updated_at = NOW()
-        WHERE id = $3`,
-        [selectedPlan.id, expiryDate, userId]
-      );
+      if (transactionResult.rowCount) {
+        entitlement = await db.runTransaction(async (transaction) => {
+          const userSnapshot = await transaction.get(userRef);
+          const current = userSnapshot.exists ? userSnapshot.data() || {} : {};
+          const currentExpiryValue = current.subscriptionExpiresAt || current.premiumExpiresAt;
+          const currentExpiry = currentExpiryValue?.toDate?.() || new Date(currentExpiryValue || 0);
+          const start = Number.isFinite(currentExpiry.getTime()) && currentExpiry > new Date()
+            ? currentExpiry
+            : new Date();
+          const expiryDate = new Date(start);
+
+          if (billing === "monthly") expiryDate.setMonth(expiryDate.getMonth() + 1);
+          else expiryDate.setFullYear(expiryDate.getFullYear() + 1);
+
+          transaction.set(userRef, {
+            premium: true,
+            verified: true,
+            subscriptionPlan: selectedPlan.id,
+            subscriptionBilling: billing,
+            subscriptionProvider: "flutterwave",
+            subscriptionStatus: "active",
+            subscriptionExpiresAt: expiryDate,
+            premiumExpiresAt: expiryDate,
+            subscriptionAutoRenewing: false,
+            updatedAt: new Date(),
+          }, { merge: true });
+
+          return { expiryDate };
+        });
+      } else {
+        const userSnapshot = await userRef.get();
+        const current = userSnapshot.exists ? userSnapshot.data() || {} : {};
+        const expiryDate = current.subscriptionExpiresAt?.toDate?.() || current.premiumExpiresAt?.toDate?.() || null;
+        entitlement = { expiryDate };
+      }
+
+      if (!db) {
+        return res.status(503).json({
+          success: false,
+          error: "Premium service is unavailable",
+        });
+      }
+
+      const expiryDate = entitlement.expiryDate;
 
       return res.status(200).json({
         success: true,
@@ -190,8 +216,8 @@ export const verifyPayment =
 
         data: {
           premium: true,
-          subscriptionExpiresAt: expiryDate.toISOString(),
-          premiumExpiresAt: expiryDate.toISOString(),
+          subscriptionExpiresAt: expiryDate?.toISOString() || null,
+          premiumExpiresAt: expiryDate?.toISOString() || null,
           subscriptionStatus: "active",
         },
       });
