@@ -44,10 +44,8 @@ const getFriendIds = async (uid) => {
     FROM friends
     WHERE user_id_1 = $1 OR user_id_2 = $1
   `, [uid]);
-  
-  if (rows.length > 0) {
-    return rows.map(r => r.friend_id);
-  }
+
+  const ids = new Set(rows.map((row) => row.friend_id));
 
   // Fallback to Firebase for lazy migration
   if (db) {
@@ -58,7 +56,6 @@ const getFriendIds = async (uid) => {
         .limit(1000)
         .get();
         
-      const ids = new Set();
       const newFriendships = [];
       
       snapshot.docs.forEach((friendship) => {
@@ -90,7 +87,7 @@ const getFriendIds = async (uid) => {
     }
   }
 
-  return [];
+  return [...ids];
 };
 
 router.get("/:uid/social-counts", authenticateFirebaseUser, async (req, res) => {
@@ -118,6 +115,79 @@ router.get("/:uid/social-counts", authenticateFirebaseUser, async (req, res) => 
   } catch (error) {
     console.error("Error fetching social counts:", error);
     return res.status(500).json({ success: false, error: "Could not load friend counts" });
+  }
+});
+
+router.get("/:uid/friends", authenticateFirebaseUser, async (req, res) => {
+  try {
+    const targetUid = String(req.params.uid || "");
+    if (!targetUid) return res.status(400).json({ success: false, error: "User id is required" });
+    if (!db) return res.status(503).json({ success: false, error: "Friend list is unavailable" });
+
+    const viewerUid = req.user.uid;
+    const [targetBlocksViewer, viewerBlocksTarget] = viewerUid === targetUid
+      ? [{ exists: false }, { exists: false }]
+      : await Promise.all([
+          db.collection("blockedUsers").doc(`${targetUid}_${viewerUid}`).get(),
+          db.collection("blockedUsers").doc(`${viewerUid}_${targetUid}`).get(),
+        ]);
+    if (targetBlocksViewer.exists || viewerBlocksTarget.exists) {
+      return res.status(403).json({ success: false, error: "Friend list is unavailable" });
+    }
+
+    const friendIds = [...new Set(await getFriendIds(targetUid))].sort();
+    let hiddenFriendIds = new Set();
+    if (viewerUid !== targetUid) {
+      const [blockedByViewer, blockedViewer] = await Promise.all([
+        db.collection("blockedUsers").where("blockerId", "==", viewerUid).get(),
+        db.collection("blockedUsers").where("blockedId", "==", viewerUid).get(),
+      ]);
+      hiddenFriendIds = new Set([
+        ...blockedByViewer.docs.map((item) => item.data()?.blockedId),
+        ...blockedViewer.docs.map((item) => item.data()?.blockerId),
+      ]);
+    }
+
+    const visibleIds = friendIds.filter((uid) => !hiddenFriendIds.has(uid));
+    const requestedLimit = Number.parseInt(req.query.limit, 10);
+    const pageSize = Number.isFinite(requestedLimit) ? Math.min(Math.max(requestedLimit, 1), 50) : 30;
+    const cursor = String(req.query.cursor || "");
+    const cursorIndex = cursor ? visibleIds.indexOf(cursor) : -1;
+    if (cursor && cursorIndex < 0) {
+      return res.status(400).json({ success: false, error: "Invalid friend list cursor" });
+    }
+    const startIndex = cursorIndex + 1;
+    const pageIds = visibleIds.slice(startIndex, startIndex + pageSize);
+    const snapshots = await Promise.all(pageIds.map((uid) => db.collection("users").doc(uid).get()));
+    const friends = snapshots.flatMap((snapshot) => {
+      if (!snapshot.exists) return [];
+      const user = snapshot.data() || {};
+      return [{
+        uid: snapshot.id,
+        username: user.username || "",
+        displayName: user.displayName || user.firstName || user.username || "Student",
+        photo: user.photo || user.photoURL || user.avatar || "",
+        photoURL: user.photoURL || user.photo || user.avatar || "",
+        photoThumb: user.photoThumb || user.photoURL || user.photo || user.avatar || "",
+        school: user.school || user.universityName || user.university || "",
+        department: user.department || user.departmentName || "",
+        level: user.level || "",
+      }];
+    });
+
+    const nextIndex = startIndex + pageIds.length;
+    return res.json({
+      success: true,
+      data: {
+        friends,
+        total: visibleIds.length,
+        hasMore: nextIndex < visibleIds.length,
+        nextCursor: nextIndex < visibleIds.length ? pageIds[pageIds.length - 1] || null : null,
+      },
+    });
+  } catch (error) {
+    console.error("Error fetching friend list:", error);
+    return res.status(500).json({ success: false, error: "Could not load friend list" });
   }
 });
 
