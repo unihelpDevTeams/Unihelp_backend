@@ -28,6 +28,8 @@ const normalizeMessageAttachment = (attachment = {}, index = 0, conversationId =
   const fileName = attachment.fileName || attachment.name || `attachment-${index + 1}`;
   const mimeType = attachment.mimeType || attachment.type || attachment.fileType || "";
   const size = Number(attachment.size || attachment.fileSize || 0) || 0;
+  const originalSize = Number(attachment.originalSize || attachment.originalFileSize || size) || 0;
+  const uploadedSize = Number(attachment.uploadedSize || size) || 0;
   const config = getMessageRetentionConfig();
 
   return {
@@ -36,6 +38,11 @@ const normalizeMessageAttachment = (attachment = {}, index = 0, conversationId =
     fileName,
     mimeType,
     size,
+    originalSize,
+    uploadedSize,
+    compressionStatus: attachment.compressionStatus || (uploadedSize < originalSize ? "optimized" : "original"),
+    key: attachment.key || attachment.storageKey || publicId,
+    duration: Number(attachment.duration || 0) || 0,
     publicId,
     storageProvider: attachment.storageProvider || attachment.storage_provider || (url || publicId ? "r2" : "unknown"),
     mediaStatus: url ? "uploaded" : "failed",

@@ -235,7 +235,12 @@ export const spinStreakReward = async (uid, rewardId, idempotencyKey) => {
     if (spinSnap.exists) return spinSnap.data().result;
     if (!rewardSnap.exists) throw new Error("Reward not found");
     const reward = rewardSnap.data();
-    if (reward.status !== "available") throw new Error("This reward has already been claimed");
+    // A response can be lost after a successful transaction. Returning the stored
+    // outcome lets the client safely recover instead of showing a false failure.
+    if (reward.status !== "available") {
+      if (reward.status === "claimed" && reward.spinResult) return reward.spinResult;
+      throw new Error("This reward has already been claimed");
+    }
 
     const milestone = milestones.find((item) => item.days === Number(reward.milestone));
     if (!milestone) throw new Error("Milestone configuration not found");
@@ -302,6 +307,7 @@ export const spinStreakReward = async (uid, rewardId, idempotencyKey) => {
       claimedAt: admin.firestore.FieldValue.serverTimestamp(),
       selectedRewardId: selected.id,
       transactionId: transactionRef.id,
+      spinResult: result,
     }, { merge: true });
     transaction.set(spinRef, { result, createdAt: admin.firestore.FieldValue.serverTimestamp() });
     return result;

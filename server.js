@@ -340,7 +340,7 @@ const startMediaRetentionCleanupScheduler = () => {
 
   const run = async () => {
     try {
-      const result = await cleanupExpiredMediaAttachments();
+      const result = await cleanupExpiredMediaAttachments({ dryRun: process.env.MEDIA_CLEANUP_DRY_RUN !== 'false' });
       if (result?.deleted || result?.scanned) {
         console.log("[media-retention-cleanup] processed", result);
       }
