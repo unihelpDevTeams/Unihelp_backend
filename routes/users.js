@@ -313,6 +313,7 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
   try {
     const {
       display_name,
+      username,
       email,
       university,
       department,
@@ -334,6 +335,8 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
     const cleanCoverAsset = normalizeProfileAsset(cover_asset);
     const hasGender = Object.hasOwn(req.body, "gender");
     const hasDateOfBirth = Object.hasOwn(req.body, "date_of_birth");
+    const cleanUsername = typeof username === "string" && username.trim() ? username.trim() : null;
+    const cleanUsernameLower = cleanUsername ? cleanUsername.toLowerCase() : null;
 
     const allowedGenders = new Set(["female", "male", "woman", "man", "non_binary", "another_identity", "prefer_not_to_say"]);
     if (hasGender && gender && !allowedGenders.has(gender)) {
@@ -359,8 +362,8 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
     // The prompt says "users (id TEXT PRIMARY KEY...)", let's do an INSERT ... ON CONFLICT DO UPDATE
     
     const result = await query(
-      `INSERT INTO users (id, display_name, email, university, department, level, avatar, cover_url, cover_asset, bio, total_points, rank_name, gender, date_of_birth, location, photo_asset, created_at, updated_at)
-       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $17, $18, NOW(), NOW())
+      `INSERT INTO users (id, display_name, email, university, department, level, avatar, cover_url, cover_asset, bio, total_points, rank_name, gender, date_of_birth, location, photo_asset, username, username_lower, created_at, updated_at)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $17, $18, $19, $20, NOW(), NOW())
        ON CONFLICT (id) DO UPDATE SET
          display_name = EXCLUDED.display_name,
          email = EXCLUDED.email,
@@ -377,6 +380,8 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
          gender = CASE WHEN $15 THEN EXCLUDED.gender ELSE users.gender END,
          date_of_birth = CASE WHEN $16 THEN EXCLUDED.date_of_birth ELSE users.date_of_birth END,
          location = EXCLUDED.location,
+         username = COALESCE(EXCLUDED.username, users.username),
+         username_lower = COALESCE(EXCLUDED.username_lower, users.username_lower),
          updated_at = NOW()
        RETURNING *`,
       [
@@ -398,6 +403,8 @@ router.put("/", authenticateFirebaseUser, async (req, res) => {
         hasDateOfBirth,
         location,
         cleanPhotoAsset || null,
+        cleanUsername,
+        cleanUsernameLower,
       ]
     );
 
