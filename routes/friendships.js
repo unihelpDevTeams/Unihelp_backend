@@ -241,6 +241,54 @@ router.delete('/block/:userId', async (req, res) => {
   }
 });
 
+// Search users for friendships
+router.get('/search', async (req, res) => {
+  try {
+    const queryTerm = String(req.query.q || '').trim().toLowerCase();
+    if (queryTerm.length < 2) return res.json([]);
+    const currentUid = req.user.uid;
+    const term = `%${queryTerm}%`;
+    const { rows } = await query(`
+      SELECT id, display_name, username, email, university, department, level, avatar, bio, interests
+      FROM users
+      WHERE id != $1 AND (
+        LOWER(COALESCE(username, '')) LIKE $2 OR
+        LOWER(COALESCE(display_name, '')) LIKE $2 OR
+        LOWER(COALESCE(email, '')) LIKE $2 OR
+        LOWER(COALESCE(university, '')) LIKE $2 OR
+        LOWER(COALESCE(department, '')) LIKE $2
+      )
+      LIMIT 30
+    `, [currentUid, term]);
+
+    const formatted = rows.map((student) => {
+      const studentName = student.display_name || student.username || (student.email ? student.email.split('@')[0] : 'Student');
+      return {
+        id: student.id,
+        uid: student.id,
+        name: studentName,
+        displayName: student.display_name || student.username || studentName,
+        display_name: student.display_name || student.username || studentName,
+        username: student.username || student.display_name || '',
+        email: student.email || '',
+        school: student.university || '',
+        university: student.university || '',
+        department: student.department || '',
+        level: student.level || '',
+        avatar: student.avatar || '',
+        photo: student.avatar || '',
+        photoURL: student.avatar || '',
+        bio: student.bio || '',
+        interests: Array.isArray(student.interests) ? student.interests : [],
+      };
+    });
+    res.json(formatted);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Server Error' });
+  }
+});
+
 // Get suggested friends
 router.get('/suggestions', async (req, res) => {
   try {
@@ -267,26 +315,51 @@ router.get('/suggestions', async (req, res) => {
     const currentProfile = currentUserRes[0] || {};
     
     const currentInterests = new Set(Array.isArray(currentProfile.interests) ? currentProfile.interests.map(i => String(i).toLowerCase()) : []);
-    
+    const mySchool = currentProfile.university || currentProfile.school || '';
+    const myDept = currentProfile.department || '';
+    const myLevel = currentProfile.level || '';
+
     const suggestions = users
       .filter(u => !excludedIds.has(u.id))
       .map(student => {
+        const studentSchool = student.university || student.school || '';
+        const studentDept = student.department || '';
+        const studentLevel = student.level || '';
         const interests = Array.isArray(student.interests) ? student.interests : [];
         const sharedInterests = interests.filter((item) => currentInterests.has(String(item).toLowerCase())).length;
         let score = 0;
-        if ((student.school || student.university) && (student.school || student.university) === (currentProfile.school || currentProfile.university)) score += 35;
-        if (student.faculty && student.faculty === currentProfile.faculty) score += 20;
-        if (student.department && student.department === currentProfile.department) score += 25;
-        if (student.level && student.level === currentProfile.level) score += 12;
+        if (studentSchool && mySchool && String(studentSchool).toLowerCase() === String(mySchool).toLowerCase()) score += 35;
+        if (student.faculty && currentProfile.faculty && String(student.faculty).toLowerCase() === String(currentProfile.faculty).toLowerCase()) score += 20;
+        if (studentDept && myDept && String(studentDept).toLowerCase() === String(myDept).toLowerCase()) score += 25;
+        if (studentLevel && myLevel && String(studentLevel).toLowerCase() === String(myLevel).toLowerCase()) score += 12;
         score += Math.min(sharedInterests * 8, 24);
         if (student.verifiedTutor) score += 10;
         if (student.lastActiveAt) score += 4;
         const cappedScore = Math.min(score, 100);
-        return { ...student, score: cappedScore, matchPercentage: cappedScore };
+        const studentName = student.display_name || student.username || (student.email ? student.email.split('@')[0] : 'Student');
+
+        return {
+          ...student,
+          id: student.id,
+          uid: student.id,
+          name: studentName,
+          displayName: student.display_name || student.username || studentName,
+          display_name: student.display_name || student.username || studentName,
+          username: student.username || student.display_name || '',
+          email: student.email || '',
+          school: studentSchool,
+          university: studentSchool,
+          department: studentDept,
+          level: studentLevel,
+          avatar: student.avatar || '',
+          photo: student.avatar || '',
+          photoURL: student.avatar || '',
+          score: cappedScore,
+          matchPercentage: cappedScore,
+        };
       })
-      .filter(s => s.score > 0)
       .sort((a, b) => b.score - a.score)
-      .slice(0, 20);
+      .slice(0, 40);
       
     res.json(suggestions);
   } catch (error) {

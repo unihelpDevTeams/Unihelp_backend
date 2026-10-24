@@ -280,6 +280,7 @@ ALTER TABLE users ADD COLUMN IF NOT EXISTS date_of_birth DATE;
 ALTER TABLE users ADD COLUMN IF NOT EXISTS location TEXT;
 ALTER TABLE users ADD COLUMN IF NOT EXISTS username TEXT;
 ALTER TABLE users ADD COLUMN IF NOT EXISTS username_lower TEXT;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS interests TEXT[] DEFAULT '{}';
 CREATE INDEX IF NOT EXISTS idx_users_username_lower ON users(username_lower);
 
 CREATE TABLE IF NOT EXISTS bookmarks (
