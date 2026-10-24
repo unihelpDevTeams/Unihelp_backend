@@ -503,4 +503,25 @@ router.get("/activity", authenticateFirebaseUser, async (req, res) => {
   }
 });
 
+// GET /:uid - Fetch another user's public profile
+router.get("/:uid", authenticateFirebaseUser, async (req, res) => {
+  try {
+    const targetUid = String(req.params.uid || "").trim();
+    if (!targetUid) {
+      return res.status(400).json({ success: false, error: "User ID is required" });
+    }
+    const result = await query(
+      "SELECT id, display_name, username, university, department, level, avatar, photo_asset, cover_url, cover_asset, bio, total_points, rank_name, gender, date_of_birth, location, created_at, updated_at FROM users WHERE id = $1",
+      [targetUid]
+    );
+    if (result.rows.length === 0) {
+      return res.status(404).json({ success: false, error: "User not found" });
+    }
+    res.json({ success: true, data: result.rows[0] });
+  } catch (error) {
+    console.error("Error fetching public user profile:", error);
+    res.status(500).json({ success: false, error: "Internal Server Error" });
+  }
+});
+
 export default router;
