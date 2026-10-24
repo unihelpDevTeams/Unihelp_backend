@@ -146,8 +146,8 @@ router.delete(
       }
 
       const createdAtMillis = messageData.createdAt?.toMillis?.() || messageData.createdAt?.toDate?.()?.getTime?.() || 0;
-      if (!createdAtMillis || Date.now() - createdAtMillis > 30 * 60 * 1000) {
-        return res.status(403).json({ success: false, error: "Voice messages can only be deleted within 30 minutes of sending." });
+      if (!createdAtMillis || Date.now() - createdAtMillis > 2 * 60 * 60 * 1000) {
+        return res.status(403).json({ success: false, error: "Voice messages can only be deleted within 2 hours of sending." });
       }
 
       const deletePayload = buildVoiceDeletePayload(messageDoc);
