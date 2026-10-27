@@ -124,6 +124,7 @@ router.post("/:conversationId/messages", authenticateFirebaseUser, async (req, r
       const updateData = {
         lastMessage: lastMessageText,
         lastSenderId: user.uid,
+        messageCount: FieldValue.increment(1),
         updatedAt: now,
       };
       
