@@ -7,6 +7,42 @@ import { sendAppNotification } from "../utils/notifications.js";
 
 const router = express.Router();
 
+const PUBLIC_PROFILE_FIELDS = [
+  "username",
+  "displayName",
+  "firstName",
+  "lastName",
+  "photo",
+  "photoURL",
+  "photoThumb",
+  "school",
+  "universityName",
+  "department",
+  "departmentName",
+  "level",
+  "createdAt",
+];
+
+router.get("/public/:uid", async (req, res) => {
+  try {
+    if (!/^[A-Za-z0-9_-]{1,128}$/.test(req.params.uid)) {
+      return res.status(400).json({ success: false, error: "Invalid profile ID" });
+    }
+    if (!db) return res.status(503).json({ success: false, error: "Profile service is unavailable" });
+    const snapshot = await db.collection("users").doc(req.params.uid).get();
+    if (!snapshot.exists) return res.status(404).json({ success: false, error: "Profile not found" });
+
+    const data = snapshot.data() || {};
+    const profile = Object.fromEntries(PUBLIC_PROFILE_FIELDS
+      .filter((field) => data[field] !== undefined)
+      .map((field) => [field, data[field]]));
+    return res.json({ success: true, profile: { uid: snapshot.id, ...profile } });
+  } catch (error) {
+    console.error("Unable to load public profile:", error);
+    return res.status(500).json({ success: false, error: "Unable to load profile" });
+  }
+});
+
 const ADMIN_EMAILS = new Set(["iadejuwon77@gmail.com", "onakomayaokiki@gmail.com"]);
 const ADMIN_PREMIUM_GIFT_DAYS = 15;
 

@@ -12,6 +12,13 @@ const VALID_BACKGROUND_PRESETS = new Set([
   'indigo', 'violet', 'blue', 'green', 'orange', 'pink', 'red', 'dark'
 ]);
 
+export const canViewFeedPost = (post, viewerUid) => {
+  if (!post || !viewerUid) return false;
+  if (post.author_id === viewerUid) return true;
+  const audience = post.audience || "everyone";
+  return audience === "everyone" || (audience === "friends" && post.is_friend === true);
+};
+
 const validateFeedPostPayload = (payload = {}) => {
   const rawType = typeof payload.type === 'string' ? payload.type.trim().toLowerCase() : payload.type;
   const type = rawType || 'text';
@@ -223,12 +230,20 @@ router.get("/users/:uid/posts", authenticateFirebaseUser, async (req, res) => {
 
 router.get("/posts/:id", authenticateFirebaseUser, async (req, res) => {
   try {
+    if (!/^[0-9a-f-]{36}$/i.test(req.params.id)) {
+      return res.status(404).json({ success: false, error: "Post not found" });
+    }
     const result = await query(
       `SELECT feed_posts.*,
               EXISTS (
                 SELECT 1 FROM feed_post_likes
                 WHERE post_id = feed_posts.id AND user_id = $2
-              ) AS liked_by_me
+              ) AS liked_by_me,
+              EXISTS (
+                SELECT 1 FROM friends
+                WHERE (user_id_1 = $2 AND user_id_2 = feed_posts.author_id)
+                   OR (user_id_2 = $2 AND user_id_1 = feed_posts.author_id)
+              ) AS is_friend
        FROM feed_posts
        WHERE id = $1 AND expires_at > NOW()`,
       [req.params.id, req.user.uid]
@@ -239,6 +254,9 @@ router.get("/posts/:id", authenticateFirebaseUser, async (req, res) => {
     }
 
     const post = result.rows[0];
+    if (!canViewFeedPost(post, req.user.uid)) {
+      return res.status(404).json({ success: false, error: "Post not found" });
+    }
     const item = {
       id: post.id,
       authorId: post.author_id,
@@ -263,6 +281,53 @@ router.get("/posts/:id", authenticateFirebaseUser, async (req, res) => {
     res.json({ success: true, item });
   } catch (error) {
     res.status(500).json({ success: false, error: "Could not fetch post" });
+  }
+});
+
+router.get("/posts/:id/public", async (req, res) => {
+  try {
+    if (!/^[0-9a-f-]{36}$/i.test(req.params.id)) {
+      return res.status(400).json({ success: false, error: "Invalid post ID" });
+    }
+    const result = await query(
+      `SELECT id, author_id, author_name, author_photo, university, type,
+              background_preset, content, image_url, comments_count,
+              likes_count, views_count, created_at, updated_at, expires_at
+       FROM feed_posts
+       WHERE id = $1 AND audience = 'everyone' AND expires_at > NOW()`,
+      [req.params.id]
+    );
+
+    if (!result.rows.length) {
+      return res.status(404).json({ success: false, error: "Post not found" });
+    }
+
+    const post = result.rows[0];
+    return res.json({
+      success: true,
+      item: {
+        id: post.id,
+        authorId: post.author_id,
+        authorName: post.author_name,
+        authorAvatar: post.author_photo,
+        university: post.university,
+        type: post.type,
+        audience: "everyone",
+        backgroundPreset: post.background_preset,
+        content: post.content,
+        imageUrl: post.image_url,
+        commentsCount: post.comments_count,
+        likesCount: post.likes_count,
+        likedByMe: false,
+        viewsCount: post.views_count || 0,
+        createdAt: post.created_at,
+        updatedAt: post.updated_at,
+        expiresAt: post.expires_at,
+      },
+    });
+  } catch (error) {
+    console.error("Error fetching public shared post:", error);
+    return res.status(500).json({ success: false, error: "Could not fetch post" });
   }
 });
 

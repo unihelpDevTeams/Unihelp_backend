@@ -1345,6 +1345,58 @@ questionsRoutes.get("/", authenticateFirebaseUser, async (req, res) => {
   }
 });
 
+questionsRoutes.get("/:id/public", async (req, res) => {
+  try {
+    if (!/^[A-Za-z0-9_-]{1,256}$/.test(req.params.id)) {
+      return res.status(400).json({ success: false, error: "Invalid past question ID" });
+    }
+    if (!db) {
+      return res.status(404).json({ success: false, error: "Past question collection is unavailable" });
+    }
+
+    const snapshot = await db.collection("questions").doc(req.params.id).get();
+    if (!snapshot.exists) {
+      return res.status(404).json({ success: false, error: "Past question not found" });
+    }
+
+    const item = withDocumentFoundation({ id: snapshot.id, ...snapshot.data() });
+    if (item.status !== "published") {
+      return res.status(404).json({ success: false, error: "Past question not found" });
+    }
+    const publicFields = [
+      "title",
+      "courseCode",
+      "course",
+      "school",
+      "department",
+      "level",
+      "year",
+      "session",
+      "semester",
+      "examType",
+      "description",
+      "status",
+      "content",
+      "assets",
+      "questions",
+      "images",
+      "originalFile",
+      "fileUrl",
+      "downloadUrl",
+      "createdAt",
+      "updatedAt",
+      "publishedAt",
+    ];
+    const publicItem = Object.fromEntries(publicFields
+      .filter((field) => item[field] !== undefined)
+      .map((field) => [field, item[field]]));
+    return res.json({ success: true, item: { id: snapshot.id, ...publicItem } });
+  } catch (error) {
+    console.error("[past-questions] public share fetch failed", error);
+    return res.status(500).json({ success: false, error: "Unable to load past question" });
+  }
+});
+
 questionsRoutes.get("/:id", authenticateFirebaseUser, async (req, res) => {
   try {
     if (!db) {

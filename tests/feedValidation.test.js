@@ -1,7 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { validateFeedPostPayload } from '../routes/feedRoutes.js';
+import { canViewFeedPost, validateFeedPostPayload } from '../routes/feedRoutes.js';
+
+test('shared posts respect audience visibility', () => {
+  assert.equal(canViewFeedPost({ audience: 'everyone', author_id: 'author' }, 'viewer'), true);
+  assert.equal(canViewFeedPost({ audience: 'friends', author_id: 'author', is_friend: true }, 'viewer'), true);
+  assert.equal(canViewFeedPost({ audience: 'friends', author_id: 'author', is_friend: false }, 'viewer'), false);
+  assert.equal(canViewFeedPost({ audience: 'private', author_id: 'author' }, 'viewer'), false);
+  assert.equal(canViewFeedPost({ audience: 'private', author_id: 'viewer' }, 'viewer'), true);
+});
 
 test('text posts require non-empty content', () => {
   assert.throws(() => validateFeedPostPayload({ type: 'text', content: '   ' }), /empty|content/i);
