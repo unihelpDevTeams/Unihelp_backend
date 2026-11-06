@@ -55,13 +55,37 @@ const allowedOrigins = [
   process.env.CLIENT_URL,
   "http://localhost:5173",
   "http://127.0.0.1:5173",
+  "http://localhost:3000",
   "https://unihelp-testing.vercel.app",
   "https://unihelp-testing.vercel.app/",
+  "https://myunihelp.com.ng",
+  "https://www.myunihelp.com.ng",
+  "http://myunihelp.com.ng",
 ].filter(Boolean);
+
+const isOriginAllowed = (origin) => {
+  if (!origin) return true;
+  if (allowedOrigins.includes(origin)) return true;
+  try {
+    const { hostname } = new URL(origin);
+    if (
+      hostname === "myunihelp.com.ng" ||
+      hostname.endsWith(".myunihelp.com.ng") ||
+      hostname.endsWith(".vercel.app") ||
+      hostname === "localhost" ||
+      hostname === "127.0.0.1"
+    ) {
+      return true;
+    }
+  } catch {
+    // ignore parse error
+  }
+  return false;
+};
 
 const corsOptions = {
   origin: (origin, callback) => {
-    if (!origin || allowedOrigins.includes(origin)) {
+    if (isOriginAllowed(origin)) {
       callback(null, true);
       return;
     }
