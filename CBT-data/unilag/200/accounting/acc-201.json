@@ -1,0 +1,11 @@
+{
+  "school": "University of Lagos",
+  "level": "200",
+  "department": "Accounting",
+  "course": { "code": "ACC 201", "title": "Financial Accounting II" },
+  "questions": [
+    { "id": "unilag-200-acc201-001", "prompt": "Which financial statement reports assets, liabilities, and equity?", "answers": ["Income statement", "Statement of financial position", "Cash budget", "Bank reconciliation statement"], "correctIndex": 1, "difficulty": "Easy", "explanation": "The statement of financial position, also called the balance sheet, reports assets, liabilities, and equity." },
+    { "id": "unilag-200-acc201-002", "prompt": "If revenue is ₦500,000 and expenses are ₦350,000, what is the profit?", "answers": ["₦150,000", "₦350,000", "₦500,000", "₦850,000"], "correctIndex": 0, "difficulty": "Easy", "explanation": "Profit equals revenue minus expenses: ₦500,000 - ₦350,000 = ₦150,000." },
+    { "id": "unilag-200-acc201-003", "prompt": "Inventory is classified as which type of asset for a trading business?", "answers": ["Non-current asset", "Current asset", "Intangible asset", "Fictitious asset"], "correctIndex": 1, "difficulty": "Medium", "explanation": "Inventory is normally expected to be sold within the operating cycle, making it a current asset." }
+  ]
+}

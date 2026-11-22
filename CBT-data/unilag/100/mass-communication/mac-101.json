@@ -1,0 +1,11 @@
+{
+  "school": "University of Lagos",
+  "level": "100",
+  "department": "Mass Communication",
+  "course": { "code": "MAC 101", "title": "Introduction to Mass Communication" },
+  "questions": [
+    { "id": "unilag-100-mac101-001", "prompt": "Which of these is a form of mass media?", "answers": ["Newspaper", "Private diary", "Personal letter", "Class notebook"], "correctIndex": 0, "difficulty": "Easy", "explanation": "Newspapers distribute information to a large, dispersed audience." },
+    { "id": "unilag-100-mac101-002", "prompt": "The receiver of a communication message is also called the:", "answers": ["Sender", "Audience", "Channel", "Feedback"], "correctIndex": 1, "difficulty": "Easy", "explanation": "The audience is the person or group that receives the message." },
+    { "id": "unilag-100-mac101-003", "prompt": "Which communication model includes feedback as a central element?", "answers": ["Linear model", "Interactive model", "One-way model", "Transmission model"], "correctIndex": 1, "difficulty": "Medium", "explanation": "The interactive model treats communication as a two-way process that includes feedback." }
+  ]
+}

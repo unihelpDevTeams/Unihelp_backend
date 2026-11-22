@@ -1,0 +1,11 @@
+{
+  "school": "University of Ilorin",
+  "level": "100",
+  "department": "Computer Science",
+  "course": { "code": "CSC 101", "title": "Introduction to Computer Science" },
+  "questions": [
+    { "id": "unilorin-100-csc101-001", "prompt": "Which device is used to enter text into a computer?", "answers": ["Monitor", "Keyboard", "Speaker", "Printer"], "correctIndex": 1, "difficulty": "Easy", "explanation": "A keyboard is an input device used to enter text and commands." },
+    { "id": "unilorin-100-csc101-002", "prompt": "What does CPU stand for?", "answers": ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Control Processing Unit"], "correctIndex": 0, "difficulty": "Easy", "explanation": "CPU means Central Processing Unit." },
+    { "id": "unilorin-100-csc101-003", "prompt": "Which of the following is system software?", "answers": ["Microsoft Word", "Operating system", "Web browser", "Spreadsheet"], "correctIndex": 1, "difficulty": "Medium", "explanation": "An operating system manages computer hardware and provides services to applications." }
+  ]
+}
