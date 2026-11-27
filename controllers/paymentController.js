@@ -105,7 +105,14 @@ export const verifyPayment =
 
       const authenticatedEmail = String(req.user.email || "").trim().toLowerCase();
       const paidEmail = String(paymentData.customer?.email || "").trim().toLowerCase();
-      if (!authenticatedEmail || !paidEmail || authenticatedEmail !== paidEmail) {
+      const txRef = String(paymentData.tx_ref || "").trim();
+      const expectedTxPrefix = `UNIHELP_${userId}_`;
+
+      // Verify that payment either matches the user's initialized tx_ref prefix or account email
+      const isOwnerByTxRef = txRef.startsWith(expectedTxPrefix);
+      const isOwnerByEmail = authenticatedEmail && paidEmail && authenticatedEmail === paidEmail;
+
+      if (!isOwnerByTxRef && !isOwnerByEmail) {
         return res.status(403).json({
           success: false,
           error: "Payment does not belong to the authenticated account",
@@ -252,6 +259,84 @@ export const flutterwaveWebhook = async (req, res) => {
     const event = String(req.body?.event || "").toLowerCase();
     if (event && !event.includes("charge.completed")) {
       return res.status(200).json({ success: true, ignored: true });
+    }
+
+    const payloadData = req.body?.data || req.body;
+    const txRef = String(payloadData?.tx_ref || payloadData?.txRef || "");
+
+    // Handle premium subscription payments
+    if (txRef.startsWith("UNIHELP_")) {
+      const parts = txRef.split("_");
+      const userId = parts[1];
+      const transactionId = payloadData?.id || payloadData?.transaction_id;
+
+      if (userId && transactionId) {
+        const verification = await verifyFlutterwavePayment(transactionId);
+        const paymentData = verification.data;
+
+        if (paymentData && paymentData.status === "successful") {
+          const paidAmount = Number(paymentData.amount);
+          const yearlyAmount = getPremiumAmount("student-premium", "yearly");
+          const billing = paidAmount >= yearlyAmount ? "yearly" : "monthly";
+          const selectedPlan = getPremiumPlan("student-premium");
+          const expectedAmount = getPremiumAmount(selectedPlan.id, billing);
+
+          const gateway_fee = paidAmount * 0.014;
+          const net_amount = paidAmount - gateway_fee;
+
+          await query(
+            `INSERT INTO transactions (
+              transaction_id, user_id, amount, type, status, 
+              gateway_fee, net_amount, payment_method, customer_email, reference, created_at, updated_at
+            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, NOW(), NOW())
+            ON CONFLICT (transaction_id) DO NOTHING`,
+            [
+              transactionId.toString(),
+              userId,
+              paidAmount,
+              'premium_subscription',
+              'successful',
+              gateway_fee,
+              net_amount,
+              paymentData.payment_type || 'card',
+              paymentData.customer?.email || '',
+              paymentData.tx_ref || txRef
+            ]
+          );
+
+          if (db) {
+            const userRef = db.collection("users").doc(userId);
+            await db.runTransaction(async (transaction) => {
+              const userSnapshot = await transaction.get(userRef);
+              const current = userSnapshot.exists ? userSnapshot.data() || {} : {};
+              const currentExpiryValue = current.subscriptionExpiresAt || current.premiumExpiresAt;
+              const currentExpiry = currentExpiryValue?.toDate?.() || new Date(currentExpiryValue || 0);
+              const start = Number.isFinite(currentExpiry.getTime()) && currentExpiry > new Date()
+                ? currentExpiry
+                : new Date();
+              const expiryDate = new Date(start);
+
+              if (billing === "monthly") expiryDate.setMonth(expiryDate.getMonth() + 1);
+              else expiryDate.setFullYear(expiryDate.getFullYear() + 1);
+
+              transaction.set(userRef, {
+                premium: true,
+                verified: true,
+                subscriptionPlan: selectedPlan.id,
+                subscriptionBilling: billing,
+                subscriptionProvider: "flutterwave",
+                subscriptionStatus: "active",
+                subscriptionExpiresAt: expiryDate,
+                premiumExpiresAt: expiryDate,
+                subscriptionAutoRenewing: false,
+                updatedAt: new Date(),
+              }, { merge: true });
+            });
+          }
+
+          return res.status(200).json({ success: true, processed: "premium_subscription", txRef });
+        }
+      }
     }
 
     const result = await processMarketplaceSponsorshipWebhook(req.body);
