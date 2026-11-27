@@ -42,6 +42,53 @@ const repairTextEncoding = (value) => {
 };
 
 const MATH_PATTERN = /[=+−–×÷√∛∜∫∑∏≤≥≠≈∞∩∪∈∉∂∆πθλμσ²³⁴⁵⁶⁷⁸⁹⁰¹₀₁₂₃₄₅₆₇₈₉]|\b(?:log|ln|sin|cos|tan|cot|sec|csc|matrix|det|lim|integral|differentiate|coefficient)\b/i;
+const SUPER_TO_ASCII = { '⁰': '0', '¹': '1', '²': '2', '³': '3', '⁴': '4', '⁵': '5', '⁶': '6', '⁷': '7', '⁸': '8', '⁹': '9', '⁺': '+', '⁻': '-', '⁼': '=', '⁽': '(', '⁾': ')', 'ⁿ': 'n', 'ⁱ': 'i', 'ˣ': 'x', 'ʸ': 'y' };
+const SUB_TO_ASCII = { '₀': '0', '₁': '1', '₂': '2', '₃': '3', '₄': '4', '₅': '5', '₆': '6', '₇': '7', '₈': '8', '₉': '9', '₊': '+', '₋': '-', '₌': '=', '₍': '(', '₎': ')' };
+const toLatex = (value) => {
+  let latex = String(value || '').trim();
+  latex = latex.replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾ⁿⁱˣʸ]+/g, (group) => `^{${[...group].map((char) => SUPER_TO_ASCII[char] || char).join('')}}`);
+  latex = latex.replace(/[₀₁₂₃₄₅₆₇₈₉₊₋₌₍₎]+/g, (group) => `_{${[...group].map((char) => SUB_TO_ASCII[char] || char).join('')}}`);
+  latex = latex
+    .replace(/∛\(([^()]+)\)/g, '\\sqrt[3]{$1}')
+    .replace(/∜\(([^()]+)\)/g, '\\sqrt[4]{$1}')
+    .replace(/√\(([^()]+)\)/g, '\\sqrt{$1}')
+    .replace(/√/g, '\\sqrt{}')
+    .replace(/∫/g, '\\int ')
+    .replace(/∑/g, '\\sum ')
+    .replace(/∏/g, '\\prod ')
+    .replace(/∩/g, '\\cap ')
+    .replace(/∪/g, '\\cup ')
+    .replace(/∈/g, '\\in ')
+    .replace(/∉/g, '\\notin ')
+    .replace(/≤/g, '\\le ')
+    .replace(/≥/g, '\\ge ')
+    .replace(/≠/g, '\\ne ')
+    .replace(/≈/g, '\\approx ')
+    .replace(/∞/g, '\\infty ')
+    .replace(/[−–]/g, '-')
+    .replace(/×/g, '\\times ')
+    .replace(/÷/g, '\\div ')
+    .replace(/π/g, '\\pi ')
+    .replace(/θ/g, '\\theta ')
+    .replace(/λ/g, '\\lambda ')
+    .replace(/μ/g, '\\mu ')
+    .replace(/σ/g, '\\sigma ')
+    .replace(/∆/g, '\\Delta ');
+  latex = latex.replace(/(?<![A-Za-z])([0-9]+)\/([0-9]+)(?![A-Za-z])/g, '\\frac{$1}{$2}');
+  return latex;
+};
+const isFormulaOnly = (value) => {
+  const text = String(value || '').trim();
+  const numericOrVariableFormula = /^[0-9a-zA-Z\s,./=+\-−–(){}]+$/.test(text) && /(?:[=\/]|\d\s*[+\-−–]\s*\d|[a-zA-Z]\s*=)/.test(text);
+  return Boolean(text) && (MATH_PATTERN.test(text) || numericOrVariableFormula) && !/\b(?:the|this|that|which|and|or|is|are|with|from|find|solve|simplify|determine|coefficient)\b/i.test(text);
+};
+const extractPromptFormula = (prompt) => {
+  const candidates = [...String(prompt || '').matchAll(/\b(?:in|of|where|simplify)\s+(.+?)(?:[.?!]|$)/gi)]
+    .map((match) => match[1]?.trim())
+    .filter(Boolean);
+  const candidate = candidates.find(isFormulaOnly);
+  return candidate ? toLatex(candidate) : null;
+};
 const decorateQuestion = (question) => {
   const prompt = repairTextEncoding(question.prompt);
   const answers = question.answers.map(repairTextEncoding);
@@ -52,6 +99,10 @@ const decorateQuestion = (question) => {
     answers,
     explanation,
     containsMath: MATH_PATTERN.test([prompt, ...answers, explanation].join(" ")),
+    math: {
+      promptLatex: extractPromptFormula(prompt),
+      answerLatex: answers.map((answer) => isFormulaOnly(answer) ? toLatex(answer) : null),
+    },
   };
 };
 
