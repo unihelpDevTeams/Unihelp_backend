@@ -12,6 +12,49 @@ const normalize = (value) => String(value || "").trim().toLowerCase();
 const catalogId = ({ school, level, department, course }) =>
   [school, level, department, course].map((value) => encodeURIComponent(String(value))).join("|");
 
+// Some imported CBT banks were saved as UTF-8 and later read as Windows-1252.
+// Repair those sequences at the API boundary so every client receives real
+// mathematical symbols (², ₈, ∩, √, −, …) instead of âˆ©/Â²-style mojibake.
+const WINDOWS_1252_BYTES = new Map([
+  ["€", 0x80], ["‚", 0x82], ["ƒ", 0x83], ["„", 0x84], ["…", 0x85], ["†", 0x86], ["‡", 0x87],
+  ["ˆ", 0x88], ["‰", 0x89], ["Š", 0x8A], ["‹", 0x8B], ["Œ", 0x8C], ["Ž", 0x8E], ["‘", 0x91],
+  ["’", 0x92], ["“", 0x93], ["”", 0x94], ["•", 0x95], ["–", 0x96], ["—", 0x97], ["˜", 0x98],
+  ["™", 0x99], ["š", 0x9A], ["›", 0x9B], ["œ", 0x9C], ["ž", 0x9E], ["Ÿ", 0x9F],
+]);
+const encodeWindows1252 = (value) => Buffer.from([...value].map((character) => {
+  const code = character.codePointAt(0);
+  return WINDOWS_1252_BYTES.get(character) ?? (code <= 0xFF ? code : 0x3F);
+}));
+
+const repairTextEncoding = (value) => {
+  if (typeof value !== "string") return value;
+  let repaired = value;
+  for (let pass = 0; pass < 2 && /(?:Ã.|Â.|â.|á.)/.test(repaired); pass += 1) {
+    try {
+      const candidate = encodeWindows1252(repaired).toString("utf8");
+      if (candidate.includes("�")) break;
+      repaired = candidate;
+    } catch {
+      break;
+    }
+  }
+  return repaired;
+};
+
+const MATH_PATTERN = /[=+−–×÷√∛∜∫∑∏≤≥≠≈∞∩∪∈∉∂∆πθλμσ²³⁴⁵⁶⁷⁸⁹⁰¹₀₁₂₃₄₅₆₇₈₉]|\b(?:log|ln|sin|cos|tan|cot|sec|csc|matrix|det|lim|integral|differentiate|coefficient)\b/i;
+const decorateQuestion = (question) => {
+  const prompt = repairTextEncoding(question.prompt);
+  const answers = question.answers.map(repairTextEncoding);
+  const explanation = repairTextEncoding(question.explanation || "");
+  return {
+    ...question,
+    prompt,
+    answers,
+    explanation,
+    containsMath: MATH_PATTERN.test([prompt, ...answers, explanation].join(" ")),
+  };
+};
+
 const toPublicQuestion = ({ correctIndex, explanation, ...question }) => question;
 
 const parseLimit = (value) => {
@@ -80,7 +123,7 @@ const loadQuestionBanks = () => {
       const duplicateCount = questionIdCounts.get(question.id) || 0;
       questionIdCounts.set(question.id, duplicateCount + 1);
       return [{
-        ...question,
+        ...decorateQuestion(question),
         // Some imported banks reuse IDs. Keep every valid item addressable for marking.
         id: duplicateCount ? `${question.id}--${duplicateCount + 1}` : question.id,
         school,
