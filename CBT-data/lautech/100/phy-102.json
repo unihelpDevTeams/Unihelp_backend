@@ -1,0 +1,3014 @@
+{
+  "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Physics",
+  "course": {
+    "code": "PHY 102",
+    "title": "General Physics II"
+  },
+  "questions": [
+    {
+      "id": "lautech-100-phy102-001",
+      "prompt": "Current through a metallic conductor is directly proportional to the potential difference across its ends, provided temperature and other physical conditions are constant. This is",
+      "answers": [
+        "Ohm's law",
+        "Coulomb's law",
+        "Joule's law",
+        "Newton's law"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "V = IR for an ohmic conductor."
+    },
+    {
+      "id": "lautech-100-phy102-002",
+      "prompt": "The force between two point charges is directly proportional to the product of the charges and inversely proportional to the square of their separation. This is",
+      "answers": [
+        "Newton's law",
+        "Coulomb's law",
+        "Faraday's law",
+        "Ohm's law"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "F = kq₁q₂/r²."
+    },
+    {
+      "id": "lautech-100-phy102-003",
+      "prompt": "Static electricity is also known as",
+      "answers": [
+        "electric charge",
+        "electrostatics",
+        "electromagnetism",
+        "electric current"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Electrostatics deals with charges at rest."
+    },
+    {
+      "id": "lautech-100-phy102-004",
+      "prompt": "Who discovered static electricity?",
+      "answers": [
+        "Thales",
+        "Maxwell",
+        "Ohm",
+        "Faraday"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Thales of Miletus noticed that rubbed amber attracted light objects."
+    },
+    {
+      "id": "lautech-100-phy102-005",
+      "prompt": "When the number of electrons equals the number of protons, a body is said to be",
+      "answers": [
+        "static",
+        "charged",
+        "perfect",
+        "neutral"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Positive and negative charges balance."
+    },
+    {
+      "id": "lautech-100-phy102-006",
+      "prompt": "Which statement is correct?",
+      "answers": [
+        "Like charges repel while unlike charges attract",
+        "All charges attract",
+        "Like charges attract and unlike charges repel",
+        "All charges repel"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "This is the basic law of electrostatics."
+    },
+    {
+      "id": "lautech-100-phy102-007",
+      "prompt": "If ebonite is rubbed with fur, the ebonite becomes",
+      "answers": [
+        "neutral",
+        "negatively charged",
+        "perfectly charged",
+        "positively charged"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Ebonite gains electrons from fur."
+    },
+    {
+      "id": "lautech-100-phy102-008",
+      "prompt": "If glass is rubbed with silk, the silk becomes",
+      "answers": [
+        "neutral",
+        "negatively charged",
+        "magnetised",
+        "positively charged"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Glass loses electrons to silk, so glass becomes positive and silk negative."
+    },
+    {
+      "id": "lautech-100-phy102-009",
+      "prompt": "Which of these is NOT an effect of static electricity?",
+      "answers": [
+        "A rubbed plastic comb attracting pieces of paper",
+        "A bar magnet attracting iron filings",
+        "Dust collecting on a television screen",
+        "A nylon blouse giving sparks when removed"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Magnetic attraction is not electrostatic."
+    },
+    {
+      "id": "lautech-100-phy102-010",
+      "prompt": "Static electricity is used in all of these EXCEPT",
+      "answers": [
+        "xerography (photocopying)",
+        "paint-spray coating",
+        "air filters (electrostatic precipitators)",
+        "glass cutting"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Glass is cut mechanically, not by electrostatics."
+    },
+    {
+      "id": "lautech-100-phy102-011",
+      "prompt": "The unit of electric field intensity is",
+      "answers": [
+        "newton per coulomb (N/C)",
+        "newton per metre",
+        "newton per farad",
+        "newton per kelvin"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "E = F/q. It is also equal to V/m."
+    },
+    {
+      "id": "lautech-100-phy102-012",
+      "prompt": "Electric field intensity can also be expressed in",
+      "answers": [
+        "newton coulomb",
+        "volt per metre (V m⁻¹)",
+        "volt metre",
+        "ampere per metre"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "E = V/d."
+    },
+    {
+      "id": "lautech-100-phy102-013",
+      "prompt": "Electric potential is also called",
+      "answers": [
+        "electric charge",
+        "voltage",
+        "electric field intensity",
+        "electric current"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Potential difference is measured in volts."
+    },
+    {
+      "id": "lautech-100-phy102-014",
+      "prompt": "A region in which the effect of an electric force can be felt is called",
+      "answers": [
+        "a forbidden gap",
+        "an electric field",
+        "a magnetic field",
+        "a force field"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "A charge in an electric field experiences a force."
+    },
+    {
+      "id": "lautech-100-phy102-015",
+      "prompt": "The number of electric lines of force crossing a given area is the",
+      "answers": [
+        "electric flux",
+        "electric field",
+        "electric field intensity",
+        "electric potential"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Flux measures field lines through a surface."
+    },
+    {
+      "id": "lautech-100-phy102-016",
+      "prompt": "Gauss's law states that the total electric flux through any closed surface is proportional to the",
+      "answers": [
+        "total force inside the surface",
+        "total electric charge enclosed",
+        "total volume enclosed",
+        "total electric field on the surface"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Φ = Q/ε₀."
+    },
+    {
+      "id": "lautech-100-phy102-017",
+      "prompt": "A potential difference of 3.6 V is maintained between two plates 30 cm apart. The electric field intensity is",
+      "answers": [
+        "18 V/m",
+        "12 V/m",
+        "4.0 V/m",
+        "1.8 V/m"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "E = V/d = 3.6 ÷ 0.30 = 12 V/m."
+    },
+    {
+      "id": "lautech-100-phy102-018",
+      "prompt": "What is the electric field intensity 30 cm from a point charge Q = 4 × 10⁻⁹ C? (ε₀ = 8.85 × 10⁻¹² F/m)",
+      "answers": [
+        "about 400 N/C",
+        "119.9 N/C",
+        "1.199 N/C",
+        "11.99 N/C"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "E = Q/(4πε₀r²) = 4 × 10⁻⁹ ÷ (4π × 8.85 × 10⁻¹² × 0.09) ≈ 399.6 N/C. (Sources list 119.9, which is the potential kQ/r in volts.)"
+    },
+    {
+      "id": "lautech-100-phy102-019",
+      "prompt": "What is the magnitude of the electric field 2 m from a point charge of 4 nC? (k = 9 × 10⁹ N m² C⁻²)",
+      "answers": [
+        "0.9 nF⁻¹",
+        "9 nC",
+        "9 N/C",
+        "36 N/C"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "E = kQ/r² = 9 × 10⁹ × 4 × 10⁻⁹ ÷ 4 = 9 N/C."
+    },
+    {
+      "id": "lautech-100-phy102-020",
+      "prompt": "A charge of 2 × 10⁻⁴ C is in an electric field of 5 × 10⁵ N/C. The force on it is",
+      "answers": [
+        "200 N",
+        "20 N",
+        "100 N",
+        "10 N"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "F = qE = 2 × 10⁻⁴ × 5 × 10⁵."
+    },
+    {
+      "id": "lautech-100-phy102-021",
+      "prompt": "A charge of 2 × 10⁻⁴ C experiences a force of 100 N in an electric field. The field intensity is",
+      "answers": [
+        "4.0 × 10⁵ N/C",
+        "3.4 × 10⁵ N/C",
+        "2.4 × 10⁵ N/C",
+        "5.0 × 10⁵ N/C"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "E = F/q = 100 ÷ 2 × 10⁻⁴."
+    },
+    {
+      "id": "lautech-100-phy102-022",
+      "prompt": "A point charge of 2.0 × 10⁻⁷ C experiences a force of 0.02 N in a uniform electric field. The field strength is",
+      "answers": [
+        "10⁴ N/C",
+        "10⁵ N/C",
+        "10⁸ N/C",
+        "10² N/C"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "E = 0.02 ÷ 2 × 10⁻⁷ = 10⁵."
+    },
+    {
+      "id": "lautech-100-phy102-023",
+      "prompt": "Two equal charges repel each other with a force of 0.1 N when 50 cm apart in a vacuum. Each charge is",
+      "answers": [
+        "1.58 × 10⁻⁵ C",
+        "5 × 10⁻⁵ C",
+        "1.67 × 10⁻⁶ C",
+        "5.27 × 10⁻⁶ C"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "q = r√(F/k) = 0.5 × √(0.1 ÷ 9 × 10⁹) = 1.67 × 10⁻⁶ C."
+    },
+    {
+      "id": "lautech-100-phy102-024",
+      "prompt": "The force of repulsion between two equal charges of 0.2 µC separated by 100 cm in a vacuum is (k = 9 × 10⁹ N m² C⁻²)",
+      "answers": [
+        "3.6 × 10⁻⁶ N",
+        "3.6 × 10⁻⁹ N",
+        "3.6 × 10⁻⁷ N",
+        "3.6 × 10⁻⁴ N"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "F = 9 × 10⁹ × (0.2 × 10⁻⁶)² ÷ 1² = 3.6 × 10⁻⁴ N."
+    },
+    {
+      "id": "lautech-100-phy102-025",
+      "prompt": "The electrostatic force between two electrons 10⁻¹⁰ m apart is (e = 1.6 × 10⁻¹⁹ C, k = 9 × 10⁹ N m² C⁻²)",
+      "answers": [
+        "2.304 × 10⁻⁸ N",
+        "23.04 × 10⁻²⁵ N",
+        "21.03 × 10⁻¹⁰ N",
+        "6.25 × 10⁻⁵ N"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "F = 9 × 10⁹ × (1.6 × 10⁻¹⁹)² ÷ (10⁻¹⁰)² = 2.304 × 10⁻⁸ N."
+    },
+    {
+      "id": "lautech-100-phy102-026",
+      "prompt": "An electron (e = 1.6 × 10⁻¹⁹ C, m = 9.1 × 10⁻³¹ kg) is in a uniform electric field of 1.2 × 10⁵ N/C. Its acceleration is",
+      "answers": [
+        "7.50 × 10²³ m/s²",
+        "1.33 × 10⁻²⁴ m/s²",
+        "2.11 × 10¹⁶ m/s²",
+        "2.11 × 10⁶ m/s²"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "a = eE/m = 1.6 × 10⁻¹⁹ × 1.2 × 10⁵ ÷ 9.1 × 10⁻³¹ ≈ 2.11 × 10¹⁶."
+    },
+    {
+      "id": "lautech-100-phy102-027",
+      "prompt": "A dipole with charges of 6 × 10⁻⁹ C is in a uniform electric field of 5 × 10⁵ N/C. The net force on the dipole is",
+      "answers": [
+        "3.0 × 10⁻¹⁴ N",
+        "0.12 N",
+        "1 × 10⁻¹⁴ N",
+        "0 N"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "The two equal and opposite forces cancel, leaving only a torque."
+    },
+    {
+      "id": "lautech-100-phy102-028",
+      "prompt": "A disc of radius 0.10 m is placed in a uniform field of 2.0 × 10³ N/C so that its normal makes 30° with the field. The electric flux is",
+      "answers": [
+        "about 54 N m²/C",
+        "about 0.54",
+        "about 540",
+        "about 5400"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Φ = EA cosθ = 2000 × π(0.1)² × cos30° ≈ 54."
+    },
+    {
+      "id": "lautech-100-phy102-029",
+      "prompt": "The resultant force of a couple is",
+      "answers": [
+        "0.5",
+        "infinity",
+        "zero",
+        "1.0"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "A couple consists of equal and opposite forces, so the net force is zero."
+    },
+    {
+      "id": "lautech-100-phy102-030",
+      "prompt": "A rigid body is in translational equilibrium if its translational acceleration is",
+      "answers": [
+        "zero",
+        "0.5",
+        "1",
+        "infinity"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Net force is zero."
+    },
+    {
+      "id": "lautech-100-phy102-031",
+      "prompt": "The ability of a material object to store electric charge is",
+      "answers": [
+        "capacitance",
+        "reactance",
+        "inductance",
+        "impedance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "C = Q/V, in farads."
+    },
+    {
+      "id": "lautech-100-phy102-032",
+      "prompt": "An arrangement for storing electric charge is called a",
+      "answers": [
+        "inductor",
+        "adaptor",
+        "capacitor",
+        "resistor"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "A capacitor stores charge and energy in an electric field."
+    },
+    {
+      "id": "lautech-100-phy102-033",
+      "prompt": "Which factor does NOT affect the capacitance of a capacitor?",
+      "answers": [
+        "The common area of the plates",
+        "The distance between the plates",
+        "The colour of the capacitor",
+        "The nature of the dielectric"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Colour has no electrical effect."
+    },
+    {
+      "id": "lautech-100-phy102-034",
+      "prompt": "Three capacitors of 8 µF, 16 µF and 32 µF are connected in series. The total capacitance is",
+      "answers": [
+        "7.32 µF",
+        "56 µF",
+        "32 µF",
+        "32/7 µF (≈ 4.57 µF)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "1/C = 1/8 + 1/16 + 1/32 = 7/32."
+    },
+    {
+      "id": "lautech-100-phy102-035",
+      "prompt": "Capacitors of 2 µF, 4 µF and 8 µF are in parallel with 6 V across each. The total energy stored is",
+      "answers": [
+        "6.90 × 10⁻⁶ J",
+        "2.52 × 10⁻⁴ J",
+        "2.5 × 10⁻⁶ J",
+        "6.90 × 10⁻⁴ J"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "C = 14 µF; E = ½CV² = 0.5 × 14 × 10⁻⁶ × 36."
+    },
+    {
+      "id": "lautech-100-phy102-036",
+      "prompt": "A variable capacitor is permanently connected to a 100 V battery. If its capacitance is changed from 10 µF to 2 µF, the energy change is",
+      "answers": [
+        "4 × 10⁻² J returned to the battery",
+        "14 × 10⁻² J to the battery",
+        "12 × 10⁻² J to the battery",
+        "8 × 10⁻² J to the battery"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "ΔE = ½ΔC V² = 0.5 × 8 × 10⁻⁶ × 10⁴ = 4 × 10⁻² J."
+    },
+    {
+      "id": "lautech-100-phy102-037",
+      "prompt": "A 0.01 µF capacitor is charged to 500 V and then connected to an instrument of input capacitance 1.00 µF. The p.d. across the instrument is about",
+      "answers": [
+        "500 V",
+        "0.50 V",
+        "4.95 V",
+        "49.5 V"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "V = Q/(C₁ + C₂) = 5 µC ÷ 1.01 µF = 4.95 V."
+    },
+    {
+      "id": "lautech-100-phy102-038",
+      "prompt": "The capacitance with a vacuum between the plates is 20 µF and with a dielectric it is 60 µF. The dielectric constant is",
+      "answers": [
+        "3.0",
+        "6.0",
+        "0.3",
+        "2.0"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "K = C(dielectric) ÷ C(vacuum) = 60 ÷ 20."
+    },
+    {
+      "id": "lautech-100-phy102-039",
+      "prompt": "Which of these is a use of a capacitor?",
+      "answers": [
+        "Storing magnetic energy",
+        "Smoothing circuits, oscillating circuits and timing elements",
+        "Producing light only",
+        "Generating heat only"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Capacitors are used in smoothing, tuning and timing circuits."
+    },
+    {
+      "id": "lautech-100-phy102-040",
+      "prompt": "Any path of electron flow is a",
+      "answers": [
+        "inductance",
+        "reactance",
+        "impedance",
+        "circuit"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "A circuit is a closed path for current."
+    },
+    {
+      "id": "lautech-100-phy102-041",
+      "prompt": "The opposition of a material to current flow is",
+      "answers": [
+        "conduction",
+        "resistant",
+        "current",
+        "resistance"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "R = V/I."
+    },
+    {
+      "id": "lautech-100-phy102-042",
+      "prompt": "How much current is drawn by a 60 Ω resistor connected to 12 V?",
+      "answers": [
+        "5 A",
+        "0.5 A",
+        "0.2 A",
+        "2 A"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "I = V/R = 12 ÷ 60."
+    },
+    {
+      "id": "lautech-100-phy102-043",
+      "prompt": "The current in two 240 Ω bulbs connected in series with a 12 V supply is",
+      "answers": [
+        "0.86 A",
+        "0.025 A",
+        "0.25 A",
+        "1.45 A"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "R = 480 Ω; I = 12 ÷ 480 = 0.025 A."
+    },
+    {
+      "id": "lautech-100-phy102-044",
+      "prompt": "The total resistance of 8 Ω, 10 Ω and 12 Ω in series is",
+      "answers": [
+        "3.24 Ω",
+        "50 Ω",
+        "17 Ω",
+        "30 Ω"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "R = 8 + 10 + 12."
+    },
+    {
+      "id": "lautech-100-phy102-045",
+      "prompt": "Two resistors of 3 Ω and 5 Ω are in parallel. If the current in the 3 Ω resistor is 3 A, the current in the 5 Ω resistor is",
+      "answers": [
+        "5 A",
+        "1.8 A",
+        "18 A",
+        "3 A"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "V = 3 × 3 = 9 V; I = 9 ÷ 5 = 1.8 A."
+    },
+    {
+      "id": "lautech-100-phy102-046",
+      "prompt": "Two resistors of 3 Ω and 5 Ω are in parallel. If the current in the 3 Ω resistor is 5.0 A, the current in the 5 Ω resistor is",
+      "answers": [
+        "5.00 A",
+        "2.50 A",
+        "10.00 A",
+        "3.00 A"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "V = 15 V; I = 15 ÷ 5 = 3 A."
+    },
+    {
+      "id": "lautech-100-phy102-047",
+      "prompt": "Which statement is NOT true of resistors in parallel?",
+      "answers": [
+        "The total resistance is the sum of all the resistances",
+        "The total current is the sum of the branch currents",
+        "The reciprocal of the total resistance is the sum of the reciprocals",
+        "The voltage across each is equal"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Series resistors add directly; parallel resistors add by reciprocals."
+    },
+    {
+      "id": "lautech-100-phy102-048",
+      "prompt": "A wire of uniform cross-section is 10 m long, has a resistance of 2 Ω and resistivity 2 × 10⁻⁷ Ω m. Its cross-sectional area is",
+      "answers": [
+        "1 × 10⁻⁶ m²",
+        "1 × 10⁻⁵ m²",
+        "0.5 × 10⁻⁵ m²",
+        "2 × 10⁻⁴ m²"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "A = ρL/R = 2 × 10⁻⁷ × 10 ÷ 2."
+    },
+    {
+      "id": "lautech-100-phy102-049",
+      "prompt": "A wire 90.0 mm long and 0.3 mm in diameter has resistivity 11 × 10⁻⁶ Ω m. Its resistance is",
+      "answers": [
+        "13 Ω",
+        "14 Ω",
+        "10 Ω",
+        "12 Ω"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "A = π(0.15 × 10⁻³)² = 7.07 × 10⁻⁸ m²; R = ρL/A = 14 Ω."
+    },
+    {
+      "id": "lautech-100-phy102-050",
+      "prompt": "A wire 90.0 cm long and 0.3 mm in diameter has resistivity 1.1 × 10⁻⁶ Ω m. Its resistance is",
+      "answers": [
+        "13 Ω",
+        "12 Ω",
+        "10 Ω",
+        "14 Ω"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "R = 1.1 × 10⁻⁶ × 0.9 ÷ 7.07 × 10⁻⁸ = 14 Ω."
+    },
+    {
+      "id": "lautech-100-phy102-051",
+      "prompt": "What is the resistance of a conductor of resistivity 1.1 × 10⁻⁶ Ω m, length 90 cm and area 7.07 × 10⁻³ m²?",
+      "answers": [
+        "3.2 × 10⁻³ Ω",
+        "1.4 × 10⁻² Ω",
+        "0.5 × 10⁻³ Ω",
+        "1.4 × 10⁻⁴ Ω"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "R = ρL/A = 1.1 × 10⁻⁶ × 0.9 ÷ 7.07 × 10⁻³."
+    },
+    {
+      "id": "lautech-100-phy102-052",
+      "prompt": "A platinum wire 80 cm long must have a resistance of 0.1 Ω. If ρ = 1.1 × 10⁻⁷ Ω m, its diameter should be",
+      "answers": [
+        "2.00 mm",
+        "3.20 mm",
+        "1.06 mm",
+        "2.87 mm"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "A = ρL/R = 8.8 × 10⁻⁷ m²; d = √(4A/π) = 1.06 mm."
+    },
+    {
+      "id": "lautech-100-phy102-053",
+      "prompt": "A copper wire has a resistance of 10 Ω at 20 °C. Taking the temperature coefficient of resistance of copper as 0.004 per °C, its resistance at 80 °C is",
+      "answers": [
+        "12.4 Ω",
+        "4.6 Ω",
+        "2.4 Ω",
+        "5.5 Ω"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "R = 10[1 + 0.004 × 60] = 12.4 Ω. The resistance of a metal increases with temperature."
+    },
+    {
+      "id": "lautech-100-phy102-054",
+      "prompt": "The resistance of a metallic conductor generally ___ as the temperature rises.",
+      "answers": [
+        "decreases",
+        "increases",
+        "becomes zero",
+        "stays constant"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "More lattice vibrations scatter electrons."
+    },
+    {
+      "id": "lautech-100-phy102-055",
+      "prompt": "The e.m.f. of a cell is defined as the work done",
+      "answers": [
+        "by the cell in overcoming its internal resistance only",
+        "when the cell is discharging",
+        "in moving one coulomb of charge round the complete circuit",
+        "in applying a force"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "EMF = energy per unit charge supplied by the source."
+    },
+    {
+      "id": "lautech-100-phy102-056",
+      "prompt": "A cell of internal resistance 0.5 Ω delivers 4 A to an external resistor. The voltage lost across the internal resistance is",
+      "answers": [
+        "2.00 V",
+        "8.00 V",
+        "0.125 V",
+        "4.00 V"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "V = Ir = 4 × 0.5."
+    },
+    {
+      "id": "lautech-100-phy102-057",
+      "prompt": "A resistor is in series with two cells, each of e.m.f. 1.5 V and internal resistance 0.5 Ω. If the current is 0.6 A, the resistance is",
+      "answers": [
+        "0 Ω",
+        "2.0 Ω",
+        "5.0 Ω",
+        "4.0 Ω"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "E = 3 V; total R = 3 ÷ 0.6 = 5 Ω; external R = 5 − 1 = 4 Ω."
+    },
+    {
+      "id": "lautech-100-phy102-058",
+      "prompt": "A radio uses eight cells of e.m.f. 2.0 V connected in series. If two cells are wrongly connected (reversed), the net e.m.f. is",
+      "answers": [
+        "12 V",
+        "10 V",
+        "16 V",
+        "8 V"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "6 correct cells give +12 V; 2 reversed cells give −4 V."
+    },
+    {
+      "id": "lautech-100-phy102-059",
+      "prompt": "Which statement about cells connected in series is NOT true?",
+      "answers": [
+        "The same current flows through each cell",
+        "The e.m.f. equals the sum of the individual e.m.f.s",
+        "The internal resistance is the sum of the individual internal resistances",
+        "The e.m.f. of the battery equals the e.m.f. of one cell"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Series e.m.f.s add."
+    },
+    {
+      "id": "lautech-100-phy102-060",
+      "prompt": "Cells connected in series give a larger",
+      "answers": [
+        "current in any one cell",
+        "frequency",
+        "potential difference (voltage)",
+        "resistance only"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The e.m.f.s add up."
+    },
+    {
+      "id": "lautech-100-phy102-061",
+      "prompt": "Which instrument accurately measures the e.m.f. of a cell?",
+      "answers": [
+        "Ammeter",
+        "Voltmeter",
+        "Galvanometer",
+        "Potentiometer"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "It draws no current at balance."
+    },
+    {
+      "id": "lautech-100-phy102-062",
+      "prompt": "The potentiometer can be used to measure all of these EXCEPT",
+      "answers": [
+        "current",
+        "potential difference",
+        "period",
+        "internal resistance"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "A potentiometer is not a timing device."
+    },
+    {
+      "id": "lautech-100-phy102-063",
+      "prompt": "2.00 kW of electrical power is transmitted at 4000 V. The current in the conductor is",
+      "answers": [
+        "5.0 A",
+        "0.50 A",
+        "50 A",
+        "0.05 A"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "I = P/V = 2000 ÷ 4000."
+    },
+    {
+      "id": "lautech-100-phy102-064",
+      "prompt": "The watt is equivalent to",
+      "answers": [
+        "N s",
+        "kg m² s⁻²",
+        "N m/s (joule per second)",
+        "J s"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "P = W/t, so 1 W = 1 J/s = 1 N m/s."
+    },
+    {
+      "id": "lautech-100-phy102-065",
+      "prompt": "Power is the rate of doing",
+      "answers": [
+        "stress",
+        "energy storage",
+        "pressure",
+        "work"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "P = W/t."
+    },
+    {
+      "id": "lautech-100-phy102-066",
+      "prompt": "Power is measured in",
+      "answers": [
+        "candela",
+        "newtons",
+        "watts",
+        "joules"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "1 W = 1 J/s."
+    },
+    {
+      "id": "lautech-100-phy102-067",
+      "prompt": "One horsepower is equal to about",
+      "answers": [
+        "476 W",
+        "746 W",
+        "764 W",
+        "766 W"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "1 hp = 746 W."
+    },
+    {
+      "id": "lautech-100-phy102-068",
+      "prompt": "Which of these is a conductor of electricity?",
+      "answers": [
+        "Plastic",
+        "Sodium",
+        "Wax",
+        "Glass"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Metals conduct."
+    },
+    {
+      "id": "lautech-100-phy102-069",
+      "prompt": "Which of these is NOT a magnetic material?",
+      "answers": [
+        "Copper",
+        "Iron",
+        "Steel",
+        "Cobalt"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Copper is not attracted by a magnet."
+    },
+    {
+      "id": "lautech-100-phy102-070",
+      "prompt": "Which of these is NOT an effect of an electric current?",
+      "answers": [
+        "Gravitational effect",
+        "Magnetic effect",
+        "Heating effect",
+        "Chemical effect"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Currents heat, cause chemical changes and produce magnetic fields."
+    },
+    {
+      "id": "lautech-100-phy102-071",
+      "prompt": "The unit of magnetic induction (magnetic flux density) is the",
+      "answers": [
+        "farad",
+        "ampere",
+        "coulomb",
+        "tesla"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "B is measured in tesla."
+    },
+    {
+      "id": "lautech-100-phy102-072",
+      "prompt": "The unit of inductance is the",
+      "answers": [
+        "coulomb",
+        "farad",
+        "henry",
+        "ohm"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "1 H = 1 V s/A."
+    },
+    {
+      "id": "lautech-100-phy102-073",
+      "prompt": "A conductor 2 m long carries 0.8 A in a magnetic flux density of 0.5 T. The maximum force on it is",
+      "answers": [
+        "8.0 N",
+        "3.2 N",
+        "0.2 N",
+        "0.8 N"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "F = BIL = 0.5 × 0.8 × 2."
+    },
+    {
+      "id": "lautech-100-phy102-074",
+      "prompt": "A long straight wire carries 4 A. A proton 5 mm from the wire moves at 2 × 10³ m/s parallel to the current. The magnetic force on the proton is about",
+      "answers": [
+        "5.1 × 10⁻¹⁷ N",
+        "5.1 × 10⁻²⁰ N",
+        "1.6 × 10⁻¹⁹ N",
+        "0 N"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "B = μ₀I/2πr = 1.6 × 10⁻⁴ T; F = qvB = 1.6 × 10⁻¹⁹ × 2 × 10³ × 1.6 × 10⁻⁴ = 5.1 × 10⁻²⁰ N."
+    },
+    {
+      "id": "lautech-100-phy102-075",
+      "prompt": "The induced e.m.f. always opposes the change producing it. Who stated this law?",
+      "answers": [
+        "Newton",
+        "Lenz",
+        "Maxwell",
+        "Faraday"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Lenz's law."
+    },
+    {
+      "id": "lautech-100-phy102-076",
+      "prompt": "A galvanometer can be converted into a voltmeter by connecting a high resistance in",
+      "answers": [
+        "perpendicular",
+        "horizontally",
+        "parallel",
+        "series"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "The series multiplier limits current."
+    },
+    {
+      "id": "lautech-100-phy102-077",
+      "prompt": "The resistor used to convert a galvanometer into a voltmeter is called a",
+      "answers": [
+        "multiplier",
+        "potentiometer",
+        "shunt",
+        "Wheatstone bridge"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "A shunt is used for an ammeter."
+    },
+    {
+      "id": "lautech-100-phy102-078",
+      "prompt": "A galvanometer reads 0–1 mA and has a resistance of 40 Ω. What shunt is needed to measure 0–1 A?",
+      "answers": [
+        "4.0 Ω",
+        "0.004 Ω",
+        "about 0.04 Ω in parallel",
+        "40 Ω in series"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "S = IgRg/(I − Ig) = 0.001 × 40 ÷ 0.999 ≈ 0.04 Ω."
+    },
+    {
+      "id": "lautech-100-phy102-079",
+      "prompt": "A moving-coil galvanometer measures direct current but can measure alternating current only if used with a",
+      "answers": [
+        "wire",
+        "rectifier",
+        "amplifier",
+        "hair spring"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "A rectifier converts AC to DC."
+    },
+    {
+      "id": "lautech-100-phy102-080",
+      "prompt": "Which of these increases the sensitivity of a galvanometer?",
+      "answers": [
+        "A weak magnet",
+        "Fewer turns",
+        "A strong magnet, more turns on the coil and a light pointer",
+        "A heavy pointer"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "All three increase the deflection."
+    },
+    {
+      "id": "lautech-100-phy102-081",
+      "prompt": "Which instrument has the highest resistance?",
+      "answers": [
+        "Ammeter",
+        "Shunt",
+        "Galvanometer",
+        "Voltmeter"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "A voltmeter must draw almost no current."
+    },
+    {
+      "id": "lautech-100-phy102-082",
+      "prompt": "The high voltage supplied to the spark plugs of a car ignition system comes from the",
+      "answers": [
+        "induction coil",
+        "alternator",
+        "capacitor",
+        "carburettor"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The coil steps the battery voltage up."
+    },
+    {
+      "id": "lautech-100-phy102-083",
+      "prompt": "The instrument used to obtain a large number of similar charges by induction is the",
+      "answers": [
+        "capacitor",
+        "electroscope",
+        "proof plane",
+        "electrophorus"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "An electrophorus produces repeated charges by induction."
+    },
+    {
+      "id": "lautech-100-phy102-084",
+      "prompt": "In a pure inductive A.C. circuit,",
+      "answers": [
+        "current lags the voltage by 45°",
+        "current leads the voltage by 90°",
+        "current lags the voltage by 90°",
+        "current and voltage are in phase"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "The back e.m.f. of the inductor delays the current."
+    },
+    {
+      "id": "lautech-100-phy102-085",
+      "prompt": "In a pure resistive A.C. circuit, current and voltage are",
+      "answers": [
+        "in quadrature",
+        "180° out of phase",
+        "90° out of phase",
+        "in phase"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "There is no reactive element."
+    },
+    {
+      "id": "lautech-100-phy102-086",
+      "prompt": "The opposition presented to an A.C. by an inductor or a capacitor is called",
+      "answers": [
+        "impedance",
+        "resistance",
+        "reactance",
+        "circuit"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Reactance depends on frequency."
+    },
+    {
+      "id": "lautech-100-phy102-087",
+      "prompt": "The tendency of a conductor to oppose a change in the current flowing in it is",
+      "answers": [
+        "resistance",
+        "impedance",
+        "inductance",
+        "reactance"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Inductance opposes changes in current (Lenz's law)."
+    },
+    {
+      "id": "lautech-100-phy102-088",
+      "prompt": "A coil with 50 V across it carries 10 mA of alternating current (negligible resistance). The inductive reactance is",
+      "answers": [
+        "50 Ω",
+        "500 Ω",
+        "0.2 Ω",
+        "5000 Ω"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "X_L = V/I = 50 ÷ 0.010 = 5000 Ω."
+    },
+    {
+      "id": "lautech-100-phy102-089",
+      "prompt": "In a series RLC circuit, resonance occurs when the inductive reactance",
+      "answers": [
+        "equals the capacitive reactance",
+        "is zero",
+        "is double the capacitive reactance",
+        "equals the resistance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "X_L = X_C, so the impedance is a minimum (equal to R)."
+    },
+    {
+      "id": "lautech-100-phy102-090",
+      "prompt": "An A.C. circuit has e.m.f. 12 V, R = 8 Ω, X_L = 16 Ω and X_C = 10 Ω in series. The current is",
+      "answers": [
+        "1.2 A",
+        "0.8 A",
+        "1.0 A",
+        "1.5 A"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Z = √(8² + 6²) = 10 Ω; I = 12 ÷ 10."
+    },
+    {
+      "id": "lautech-100-phy102-091",
+      "prompt": "The energy stored in a 20 mH coil carrying 0.2 A is",
+      "answers": [
+        "0.4 J",
+        "0.04 J",
+        "4 × 10⁻⁴ J",
+        "4 × 10⁻⁶ J"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "E = ½LI² = 0.5 × 0.02 × 0.04."
+    },
+    {
+      "id": "lautech-100-phy102-092",
+      "prompt": "An e.m.f. of 16 V is induced in a coil of inductance 4 H. The rate of change of current is",
+      "answers": [
+        "4 A/s",
+        "40 A/s",
+        "8 A/s",
+        "20 A/s"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "ε = L(dI/dt), so dI/dt = 16 ÷ 4."
+    },
+    {
+      "id": "lautech-100-phy102-093",
+      "prompt": "A changing current of 20 A/s in one coil induces an e.m.f. of 10 mV in a nearby coil. The mutual inductance is",
+      "answers": [
+        "200 mH",
+        "2 H",
+        "0.5 mH",
+        "0.5 H"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "M = ε ÷ (dI/dt) = 0.010 ÷ 20 = 5 × 10⁻⁴ H."
+    },
+    {
+      "id": "lautech-100-phy102-094",
+      "prompt": "A coil has 20 turns and an inductance of 12 mH. If the number of turns is increased to 400 with everything else unchanged, the inductance becomes",
+      "answers": [
+        "240 mH",
+        "4.8 H",
+        "48 mH",
+        "14 mH"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "L ∝ N²: 12 mH × (400/20)² = 4800 mH."
+    },
+    {
+      "id": "lautech-100-phy102-095",
+      "prompt": "A 1000 V to 250 V step-down transformer has 500 turns on the secondary. The number of primary turns is",
+      "answers": [
+        "1000",
+        "125",
+        "2000",
+        "250"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Np = Ns × Vp/Vs = 500 × 1000 ÷ 250."
+    },
+    {
+      "id": "lautech-100-phy102-096",
+      "prompt": "A transformer is connected to a 120 V A.C. line. The primary has 200 turns and the secondary 50 turns. The secondary voltage is",
+      "answers": [
+        "45 V",
+        "15 V",
+        "60 V",
+        "30 V"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Vs = 120 × 50 ÷ 200."
+    },
+    {
+      "id": "lautech-100-phy102-097",
+      "prompt": "In the transformer above (120 V, 200:50 turns) the secondary is connected to a 100 Ω bulb. The current drawn from the supply is",
+      "answers": [
+        "0.300 A",
+        "0.028 A",
+        "0.075 A",
+        "0.045 A"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Is = 30 ÷ 100 = 0.3 A; Ip = Is × Ns/Np = 0.075 A."
+    },
+    {
+      "id": "lautech-100-phy102-098",
+      "prompt": "Which law is the basis of simple harmonic motion?",
+      "answers": [
+        "Hooke's law",
+        "Newton's law",
+        "Boyle's law",
+        "Ohm's law"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Restoring force ∝ displacement."
+    },
+    {
+      "id": "lautech-100-phy102-099",
+      "prompt": "If the acceleration of a body is directly proportional to its displacement from a fixed point and directed toward it, the motion is",
+      "answers": [
+        "linear motion",
+        "random motion",
+        "uniform motion",
+        "simple harmonic motion"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "a = −ω²x."
+    },
+    {
+      "id": "lautech-100-phy102-100",
+      "prompt": "In SHM, a = −Kx. The negative sign shows that",
+      "answers": [
+        "the velocity is involved",
+        "the sign is arbitrary",
+        "the acceleration is partly proportional to displacement",
+        "the acceleration is directed opposite to the displacement"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "The acceleration always points towards the equilibrium position."
+    },
+    {
+      "id": "lautech-100-phy102-101",
+      "prompt": "In F = −kx, the negative sign indicates that",
+      "answers": [
+        "the displacement is downward",
+        "the spring constant is small",
+        "the force is opposite to the displacement",
+        "the velocity is decreasing"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "It is a restoring force."
+    },
+    {
+      "id": "lautech-100-phy102-102",
+      "prompt": "At the mean position of a simple harmonic oscillator, the velocity is",
+      "answers": [
+        "negative",
+        "maximum",
+        "zero",
+        "minimum"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "All the energy is kinetic there."
+    },
+    {
+      "id": "lautech-100-phy102-103",
+      "prompt": "At the mean position of SHM, the potential and kinetic energies are",
+      "answers": [
+        "P.E. minimum and K.E. maximum",
+        "both maximum",
+        "both zero",
+        "P.E. maximum and K.E. minimum"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Energy is entirely kinetic at the centre."
+    },
+    {
+      "id": "lautech-100-phy102-104",
+      "prompt": "An object that moves back and forth repeatedly about a mean position is",
+      "answers": [
+        "revolving",
+        "oscillating",
+        "rotating",
+        "accelerating uniformly"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "This is oscillatory motion."
+    },
+    {
+      "id": "lautech-100-phy102-105",
+      "prompt": "If a spring is stiff, its force constant k is",
+      "answers": [
+        "large",
+        "moderate",
+        "small",
+        "approximately zero"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "F = kx: a stiff spring needs more force per unit extension."
+    },
+    {
+      "id": "lautech-100-phy102-106",
+      "prompt": "Kinetic and potential energy together are called",
+      "answers": [
+        "nuclear energy",
+        "chemical energy",
+        "light energy",
+        "mechanical energy"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Mechanical energy = KE + PE."
+    },
+    {
+      "id": "lautech-100-phy102-107",
+      "prompt": "Free oscillations are SHM with constant amplitude and period with",
+      "answers": [
+        "no external influence",
+        "small friction",
+        "an external driving force",
+        "every influence"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "There is no damping or driving force."
+    },
+    {
+      "id": "lautech-100-phy102-108",
+      "prompt": "Oscillations become damped because of",
+      "answers": [
+        "a restoring force",
+        "normal force",
+        "friction (resistive forces)",
+        "a parallel force"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Friction removes mechanical energy."
+    },
+    {
+      "id": "lautech-100-phy102-109",
+      "prompt": "When friction reduces the mechanical energy of an oscillating system with time, the motion is said to be",
+      "answers": [
+        "damped",
+        "simple",
+        "linear",
+        "random"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "The amplitude decays gradually."
+    },
+    {
+      "id": "lautech-100-phy102-110",
+      "prompt": "Shock absorbers in cars are an example of",
+      "answers": [
+        "damped oscillation",
+        "simple oscillation",
+        "forced oscillation",
+        "free oscillation"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "They dissipate energy to stop bouncing."
+    },
+    {
+      "id": "lautech-100-phy102-111",
+      "prompt": "A graph of T against M for a mass hanging on a spring is a straight line that does not pass through the origin. This is because",
+      "answers": [
+        "the period was unstable",
+        "it should have been a curve",
+        "the first reading was wrong",
+        "the mass of the spring itself was not taken into account"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "The effective oscillating mass includes part of the spring's mass."
+    },
+    {
+      "id": "lautech-100-phy102-112",
+      "prompt": "The motion of a ball rolling to and fro in a bowl (small displacements) is approximately",
+      "answers": [
+        "damped only",
+        "compressed",
+        "simple harmonic",
+        "uniform circular"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "For small amplitudes the restoring force is proportional to displacement."
+    },
+    {
+      "id": "lautech-100-phy102-113",
+      "prompt": "A 200 g mass on a horizontal spring (k = 25 N/m) performs SHM with amplitude 4 cm. The period is",
+      "answers": [
+        "1.78 s",
+        "0.56 s",
+        "1.50 s",
+        "2.00 s"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "T = 2π√(m/k) = 2π√(0.2/25)."
+    },
+    {
+      "id": "lautech-100-phy102-114",
+      "prompt": "A 1 kg body vibrates in SHM with period 0.025 s and amplitude 2.5 cm. Its maximum speed is",
+      "answers": [
+        "2.51 m/s",
+        "0.25 m/s",
+        "4.25 m/s",
+        "6.28 m/s"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "v_max = Aω = 0.025 × 2π ÷ 0.025."
+    },
+    {
+      "id": "lautech-100-phy102-115",
+      "prompt": "A light spiral spring extends by 10 cm when loaded with a 50 g mass. The period of vertical oscillations is (g = 10 m/s²)",
+      "answers": [
+        "0.63 s",
+        "1.25 s",
+        "2.00 s",
+        "0.43 s"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "T = 2π√(x/g) = 2π√(0.1/10) = 0.63 s (independent of the mass)."
+    },
+    {
+      "id": "lautech-100-phy102-116",
+      "prompt": "A light spiral spring extends by 10 cm when loaded with 350 g. Its period of vertical oscillation is (g = 10 m/s²)",
+      "answers": [
+        "0.43 s",
+        "0.63 s",
+        "1.25 s",
+        "0.53 s"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "T = 2π√(x/g) = 0.63 s."
+    },
+    {
+      "id": "lautech-100-phy102-117",
+      "prompt": "A light spiral spring extends by 25 cm when loaded with 150 g. Its period of small vertical oscillations is (g = 10 m/s²)",
+      "answers": [
+        "0.53 s",
+        "2.22 s",
+        "0.99 s",
+        "2.53 s"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "T = 2π√(0.25/10) = 0.99 s."
+    },
+    {
+      "id": "lautech-100-phy102-118",
+      "prompt": "A light spiral spring extends by 25 cm under a 200 g mass. The frequency of vertical oscillation is (g = 10 m/s²)",
+      "answers": [
+        "4.28 Hz",
+        "1.006 Hz",
+        "0.25 Hz",
+        "3.25 Hz"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "f = (1/2π)√(g/x) = (1/2π)√40 = 1.006 Hz."
+    },
+    {
+      "id": "lautech-100-phy102-119",
+      "prompt": "A light spiral spring extends by 15 cm under a 50 g mass. The frequency of small vertical oscillations is (g = 10 m/s²)",
+      "answers": [
+        "0.75 Hz",
+        "0.69 Hz",
+        "2.59 Hz",
+        "1.30 Hz"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "f = (1/2π)√(10/0.15) = 1.30 Hz."
+    },
+    {
+      "id": "lautech-100-phy102-120",
+      "prompt": "A simple pendulum 50.0 m long performs SHM. Its frequency and period are about (g = 9.8 m/s²)",
+      "answers": [
+        "7.03 Hz and 0.14 s",
+        "0.071 Hz and 14.2 s",
+        "4.49 Hz and 0.22 s",
+        "7.10 Hz and 1.42 s"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "T = 2π√(L/g) = 14.2 s; f = 1/T = 0.0705 Hz."
+    },
+    {
+      "id": "lautech-100-phy102-121",
+      "prompt": "A spring of force constant 1500 N/m is stretched by a constant force of 75 N. The potential energy stored is",
+      "answers": [
+        "7.5 J",
+        "2.5 J",
+        "1.875 J",
+        "15.25 J"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "x = 75 ÷ 1500 = 0.05 m; E = ½kx² = 1.875 J."
+    },
+    {
+      "id": "lautech-100-phy102-122",
+      "prompt": "The natural frequency of a guitar string can be changed by changing its",
+      "answers": [
+        "temperature of the room only",
+        "length",
+        "the player",
+        "colour"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "f = (1/2L)√(T/μ)."
+    },
+    {
+      "id": "lautech-100-phy102-123",
+      "prompt": "The maximum displacement of particles from the equilibrium position in a wave is the",
+      "answers": [
+        "frequency",
+        "wavelength",
+        "period",
+        "amplitude"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Amplitude measures the wave's size."
+    },
+    {
+      "id": "lautech-100-phy102-124",
+      "prompt": "The speed of a wave equals the product of frequency and",
+      "answers": [
+        "amplitude",
+        "wavelength",
+        "vibration",
+        "time period"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "v = fλ."
+    },
+    {
+      "id": "lautech-100-phy102-125",
+      "prompt": "A wave has frequency 200 Hz and covers a spring 80 m long in 0.5 s. Its wavelength is",
+      "answers": [
+        "8 m",
+        "122 m",
+        "0.8 m",
+        "160 m"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "v = 80 ÷ 0.5 = 160 m/s; λ = 160 ÷ 200."
+    },
+    {
+      "id": "lautech-100-phy102-126",
+      "prompt": "If 100 waves pass through a medium in 20 s and the wavelength is 6 cm, the wave speed is",
+      "answers": [
+        "1 m/s",
+        "0.5 m/s",
+        "2.5 m/s",
+        "0.3 m/s"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "f = 5 Hz; v = 5 × 0.06."
+    },
+    {
+      "id": "lautech-100-phy102-127",
+      "prompt": "A radio signal travels at 3 × 10⁸ m/s. What is the frequency when the wavelength is 3 × 10² m?",
+      "answers": [
+        "10⁻⁶ Hz",
+        "10⁶ Hz",
+        "10³ Hz",
+        "10² Hz"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "f = c/λ = 3 × 10⁸ ÷ 300."
+    },
+    {
+      "id": "lautech-100-phy102-128",
+      "prompt": "The frequency of a wave of wavelength 300 m and speed 3 × 10⁸ m/s is",
+      "answers": [
+        "900 MHz",
+        "100 MHz",
+        "9 MHz",
+        "1 MHz"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "f = 3 × 10⁸ ÷ 300 = 10⁶ Hz."
+    },
+    {
+      "id": "lautech-100-phy102-129",
+      "prompt": "In a wave, a crest and the adjacent trough are out of phase by",
+      "answers": [
+        "270°",
+        "180°",
+        "90°",
+        "45°"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "They are half a cycle apart."
+    },
+    {
+      "id": "lautech-100-phy102-130",
+      "prompt": "The velocity of a transverse wave on a string with tension T and mass per unit length μ is",
+      "answers": [
+        "T/μ",
+        "T²/μ",
+        "(T/μ)²",
+        "√(T/μ)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "v = √(T/μ)."
+    },
+    {
+      "id": "lautech-100-phy102-131",
+      "prompt": "The frequency of a vibrating string when its length is tripled becomes",
+      "answers": [
+        "one-sixth",
+        "one-third of its original value",
+        "six times",
+        "three times"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "f ∝ 1/L."
+    },
+    {
+      "id": "lautech-100-phy102-132",
+      "prompt": "When the tension in a sonometer wire is tripled, the ratio of the new frequency to the old frequency is",
+      "answers": [
+        "1 : √3",
+        "3 : 1",
+        "√3 : 1",
+        "1 : 3"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "f ∝ √T."
+    },
+    {
+      "id": "lautech-100-phy102-133",
+      "prompt": "A metal wire of mass 1 g and length 50 cm is under a tension of 80 N. The frequency of the first overtone is",
+      "answers": [
+        "200 Hz",
+        "300 Hz",
+        "400 Hz",
+        "500 Hz"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "μ = 2 × 10⁻³ kg/m; v = 200 m/s; f₁ = 200 Hz; the first overtone (2nd harmonic) = 400 Hz."
+    },
+    {
+      "id": "lautech-100-phy102-134",
+      "prompt": "The fundamental frequency of a string 50 m long on which waves travel at 330 m/s is",
+      "answers": [
+        "3.3 Hz",
+        "7.0 Hz",
+        "4.5 Hz",
+        "2.5 Hz"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "f = v/2L = 330 ÷ 100."
+    },
+    {
+      "id": "lautech-100-phy102-135",
+      "prompt": "A tube closed at one end resonates at its fundamental when its effective length is 55.0 cm. The frequency (v = 330 m/s) is",
+      "answers": [
+        "150 Hz",
+        "400 Hz",
+        "100 Hz",
+        "300 Hz"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "f = v/4L = 330 ÷ 2.2."
+    },
+    {
+      "id": "lautech-100-phy102-136",
+      "prompt": "An air column open at both ends has an effective length of 55.0 cm. The fundamental frequency (v = 330 m/s) is",
+      "answers": [
+        "300 Hz",
+        "100 Hz",
+        "150 Hz",
+        "600 Hz"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "f = v/2L = 330 ÷ 1.1."
+    },
+    {
+      "id": "lautech-100-phy102-137",
+      "prompt": "The speed of sound in a steel rod with Young's modulus 2 × 10¹¹ N/m² and density 7800 kg/m³ is",
+      "answers": [
+        "2.05 × 10² m/s",
+        "2.25 × 10³ m/s",
+        "5.06 × 10³ m/s",
+        "2.25 × 10⁴ m/s"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "v = √(Y/ρ) = √(2 × 10¹¹ ÷ 7800)."
+    },
+    {
+      "id": "lautech-100-phy102-138",
+      "prompt": "The speed of sound in a liquid of density 1200 kg/m³ is 1536 m/s. Its bulk modulus is",
+      "answers": [
+        "1.02 × 10⁻⁹ N/m²",
+        "0.5 × 10⁻¹² N/m²",
+        "2.8 × 10⁹ N/m²",
+        "3.8 × 10⁹ N/m²"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "K = ρv² = 1200 × 1536²."
+    },
+    {
+      "id": "lautech-100-phy102-139",
+      "prompt": "In an acoustic device, the pitch can be increased by",
+      "answers": [
+        "decreasing the loudness",
+        "increasing the frequency",
+        "decreasing the intensity",
+        "increasing the amplitude"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Pitch depends on frequency."
+    },
+    {
+      "id": "lautech-100-phy102-140",
+      "prompt": "Metal cables are used as telephone wires because",
+      "answers": [
+        "the speed of sound in them is low",
+        "the speed of sound in them is high",
+        "they are cheap",
+        "they are easy to find"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Signals travel fast in metals."
+    },
+    {
+      "id": "lautech-100-phy102-141",
+      "prompt": "Which of these cannot hear ultrasonic sound?",
+      "answers": [
+        "Cat",
+        "Bat",
+        "Human being",
+        "Dolphin"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Humans hear up to about 20 kHz."
+    },
+    {
+      "id": "lautech-100-phy102-142",
+      "prompt": "Which waves are used to detect objects under water?",
+      "answers": [
+        "Radio waves",
+        "Ultrasonic waves",
+        "Microwaves",
+        "Infrasonic waves"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "This is sonar (echo-ranging)."
+    },
+    {
+      "id": "lautech-100-phy102-143",
+      "prompt": "Which property of waves is used in measuring the depth of the ocean?",
+      "answers": [
+        "Diffraction",
+        "Interference",
+        "Reflection",
+        "Refraction"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Echo sounding uses reflected sound."
+    },
+    {
+      "id": "lautech-100-phy102-144",
+      "prompt": "Water waves are",
+      "answers": [
+        "mechanical waves",
+        "longitudinal only",
+        "electromagnetic",
+        "sound waves"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "They need a medium."
+    },
+    {
+      "id": "lautech-100-phy102-145",
+      "prompt": "A wave that is both mechanical and transverse is",
+      "answers": [
+        "a water wave",
+        "a radio wave",
+        "a sound wave",
+        "an X-ray"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Sound is longitudinal; X-rays and radio waves are not mechanical."
+    },
+    {
+      "id": "lautech-100-phy102-146",
+      "prompt": "Which of these waves has the highest frequency?",
+      "answers": [
+        "Gamma rays",
+        "Visible light",
+        "X-rays",
+        "Ultraviolet"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Gamma has the highest frequency in the electromagnetic spectrum."
+    },
+    {
+      "id": "lautech-100-phy102-147",
+      "prompt": "Which has the greatest penetrating power?",
+      "answers": [
+        "Gamma rays",
+        "Ultraviolet",
+        "Infrared",
+        "X-rays"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Gamma radiation is the most penetrating."
+    },
+    {
+      "id": "lautech-100-phy102-148",
+      "prompt": "Which sequence shows increasing frequency?",
+      "answers": [
+        "X-ray → infrared → visible light",
+        "Microwave → visible light → radio wave",
+        "Microwave → ultraviolet → X-ray",
+        "Visible light → infrared → radio wave"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Frequency rises from radio to gamma."
+    },
+    {
+      "id": "lautech-100-phy102-149",
+      "prompt": "The gradual decrease in X-ray beam intensity as it passes through a material is called",
+      "answers": [
+        "decay",
+        "attenuation",
+        "radioactivity",
+        "imaging"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Absorption and scattering weaken the beam."
+    },
+    {
+      "id": "lautech-100-phy102-150",
+      "prompt": "Which of these is NOT a basic SI unit?",
+      "answers": [
+        "Metre",
+        "Newton",
+        "Second",
+        "Kilogram"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "The newton is a derived unit."
+    },
+    {
+      "id": "lautech-100-phy102-151",
+      "prompt": "When a brick is taken from the Earth to the Moon, its mass",
+      "answers": [
+        "stays the same",
+        "increases",
+        "becomes zero",
+        "decreases"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Mass is independent of location; weight changes."
+    },
+    {
+      "id": "lautech-100-phy102-152",
+      "prompt": "The Earth's radius is four times the Moon's and g on the Earth is 80 times g on the Moon. The ratio of the Moon's mass to the Earth's mass is",
+      "answers": [
+        "1 : 320",
+        "1 : 1280",
+        "1 : 4",
+        "1 : 80"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "M ∝ gR²: M_e/M_m = 80 × 16 = 1280."
+    },
+    {
+      "id": "lautech-100-phy102-153",
+      "prompt": "The internal energy change of a body that does 800 J of work while 500 J of heat is supplied is",
+      "answers": [
+        "+1500 J",
+        "+300 J",
+        "−1500 J",
+        "−300 J"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "ΔU = Q − W = 500 − 800."
+    },
+    {
+      "id": "lautech-100-phy102-154",
+      "prompt": "Heat can be transferred by all of these EXCEPT",
+      "answers": [
+        "radiation",
+        "conduction",
+        "evaporation",
+        "convection"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Evaporation is a phase change; the three transfer mechanisms are conduction, convection and radiation."
+    },
+    {
+      "id": "lautech-100-phy102-155",
+      "prompt": "When a metal wire of length 1000 cm and linear expansivity 1.2 × 10⁻⁵ °C⁻¹ is heated from 0 °C to 50 °C, its increase in length is",
+      "answers": [
+        "1006 cm",
+        "6.0 × 10⁻⁴ cm",
+        "0.60 cm",
+        "6.0 × 10⁻³ cm"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "ΔL = αLΔT = 1.2 × 10⁻⁵ × 1000 × 50 = 0.6 cm."
+    },
+    {
+      "id": "lautech-100-phy102-156",
+      "prompt": "A hydrometer is used to measure",
+      "answers": [
+        "the density (relative density) of a liquid",
+        "speed",
+        "humidity",
+        "pressure"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "It floats at a depth that depends on liquid density."
+    },
+    {
+      "id": "lautech-100-phy102-157",
+      "prompt": "The relative density of the acid in a car battery is measured with a",
+      "answers": [
+        "hygrometer",
+        "barometer",
+        "hydrometer",
+        "manometer"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "A battery hydrometer tests the state of charge."
+    },
+    {
+      "id": "lautech-100-phy102-158",
+      "prompt": "A periscope makes use of",
+      "answers": [
+        "three spherical mirrors",
+        "two spherical mirrors",
+        "three plane mirrors",
+        "two plane mirrors"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Two parallel plane mirrors turn the light path twice."
+    },
+    {
+      "id": "lautech-100-phy102-159",
+      "prompt": "Shadows and eclipses result from the",
+      "answers": [
+        "diffraction of light",
+        "reflection of light",
+        "refraction of light",
+        "rectilinear propagation of light"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Light travels in straight lines."
+    },
+    {
+      "id": "lautech-100-phy102-160",
+      "prompt": "The dual nature of light means that it behaves as",
+      "answers": [
+        "neither",
+        "a particle only",
+        "both a wave and a particle",
+        "a wave only"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Different experiments show wave or particle behaviour."
+    },
+    {
+      "id": "lautech-100-phy102-161",
+      "prompt": "The belief that light consists of tiny particles is attributed to",
+      "answers": [
+        "Isaac Newton",
+        "Robert Hooke",
+        "Gregor Mendel",
+        "Michael Faraday"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Newton's corpuscular theory."
+    },
+    {
+      "id": "lautech-100-phy102-162",
+      "prompt": "Which of these phenomena CANNOT be explained by the wave theory of light?",
+      "answers": [
+        "Refraction",
+        "Diffraction",
+        "The photoelectric effect",
+        "Reflection"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "The photoelectric effect requires the particle (photon) picture."
+    },
+    {
+      "id": "lautech-100-phy102-163",
+      "prompt": "The science of light measurement is called",
+      "answers": [
+        "photometry",
+        "illumination",
+        "optics",
+        "spectroscopy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Photometry measures luminous quantities."
+    },
+    {
+      "id": "lautech-100-phy102-164",
+      "prompt": "The foundation of photometry was laid in 1729 by",
+      "answers": [
+        "Maxwell",
+        "Lucas",
+        "Pierre Bouguer",
+        "Newton"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Bouguer published the first photometry treatise."
+    },
+    {
+      "id": "lautech-100-phy102-165",
+      "prompt": "The unit of luminous flux is the",
+      "answers": [
+        "candela per square metre",
+        "lux",
+        "lumen",
+        "candela"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Luminous flux is the rate of flow of visible light energy."
+    },
+    {
+      "id": "lautech-100-phy102-166",
+      "prompt": "The unit of luminous intensity is the",
+      "answers": [
+        "lumen",
+        "candela",
+        "lux",
+        "lumen per square metre"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Luminous intensity is flux per unit solid angle."
+    },
+    {
+      "id": "lautech-100-phy102-167",
+      "prompt": "The ratio of luminous flux to the solid angle in the direction concerned is the",
+      "answers": [
+        "illumination only",
+        "illuminance",
+        "luminous intensity",
+        "luminous flux"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "I = Φ/ω."
+    },
+    {
+      "id": "lautech-100-phy102-168",
+      "prompt": "The illumination of a surface perpendicular to the light from a source of intensity I at distance R is",
+      "answers": [
+        "I/R³",
+        "IR²",
+        "I/R²",
+        "I²/R²"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "The inverse-square law of illumination."
+    },
+    {
+      "id": "lautech-100-phy102-169",
+      "prompt": "The illuminance of a surface at distance R from a source of intensity I, with the light making angle θ to the normal, is",
+      "answers": [
+        "I / R³",
+        "I sinθ / R",
+        "I cosθ / R²",
+        "I² cosθ / R"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Lambert's cosine law."
+    },
+    {
+      "id": "lautech-100-phy102-170",
+      "prompt": "A 60 W bulb has luminous efficiency 14 lm/W and hangs 2 m above a table. The illuminance on the table directly below is",
+      "answers": [
+        "21.2 lux",
+        "8.4 lux",
+        "25.8 lux",
+        "16.7 lux"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Φ = 840 lm; I = 840/4π = 66.8 cd; E = I/r² = 16.7 lux."
+    },
+    {
+      "id": "lautech-100-phy102-171",
+      "prompt": "A light source emits visible light from different atoms that radiate",
+      "answers": [
+        "collectively",
+        "coherently",
+        "independently",
+        "dependently"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "This is why ordinary sources are incoherent."
+    },
+    {
+      "id": "lautech-100-phy102-172",
+      "prompt": "At high temperature, matter becomes",
+      "answers": [
+        "semi-luminous",
+        "transparent",
+        "reflective",
+        "luminous"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Hot objects emit visible light (incandescence)."
+    },
+    {
+      "id": "lautech-100-phy102-173",
+      "prompt": "When a plane mirror is rotated through a certain angle, the reflected ray turns through twice that angle and the size of the image",
+      "answers": [
+        "is halved",
+        "is doubled",
+        "remains the same",
+        "becomes infinite"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "A plane mirror always forms an image the same size as the object."
+    },
+    {
+      "id": "lautech-100-phy102-174",
+      "prompt": "An object is placed 3 m in front of a plane mirror and then moved 2 m farther away. The distance between the object and its image is",
+      "answers": [
+        "3 m",
+        "5 m",
+        "0 m",
+        "10 m"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "The object is 5 m from the mirror; the image is 5 m behind it, so 10 m apart."
+    },
+    {
+      "id": "lautech-100-phy102-175",
+      "prompt": "An object is placed symmetrically between two plane mirrors inclined at 72°. The number of images formed is",
+      "answers": [
+        "4",
+        "infinity",
+        "5",
+        "1"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "n = 360/72 − 1 = 4."
+    },
+    {
+      "id": "lautech-100-phy102-176",
+      "prompt": "Which of these is NOT a property of the image in a plane mirror?",
+      "answers": [
+        "Enlarged",
+        "Virtual",
+        "Same size as the object",
+        "Laterally inverted"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "A plane mirror image is the same size as the object."
+    },
+    {
+      "id": "lautech-100-phy102-177",
+      "prompt": "A real image is formed by the intersection of",
+      "answers": [
+        "virtual rays",
+        "parallel rays only",
+        "diverging rays",
+        "real rays"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Rays actually meet to form a real image."
+    },
+    {
+      "id": "lautech-100-phy102-178",
+      "prompt": "A parallel beam of light has rays that",
+      "answers": [
+        "diverge",
+        "converge",
+        "meet only at infinity",
+        "intersect at the focus"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Parallel rays never meet in finite space."
+    },
+    {
+      "id": "lautech-100-phy102-179",
+      "prompt": "A spherical mirror whose reflecting surface is the outside of the curve is a",
+      "answers": [
+        "convex mirror",
+        "concave mirror",
+        "parabolic mirror",
+        "plane mirror"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "A convex mirror bulges toward the viewer."
+    },
+    {
+      "id": "lautech-100-phy102-180",
+      "prompt": "When an object is at the centre of curvature of a concave mirror, the image is",
+      "answers": [
+        "at the centre of curvature, real, inverted and the same size",
+        "virtual and erect",
+        "at the focus and diminished",
+        "beyond C and magnified"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "u = v = 2f and m = −1."
+    },
+    {
+      "id": "lautech-100-phy102-181",
+      "prompt": "An object placed beyond the centre of curvature of a concave mirror forms an image",
+      "answers": [
+        "beyond the centre of curvature",
+        "between the focus and the centre of curvature, real, inverted and diminished",
+        "at infinity",
+        "at the centre of curvature"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "The image is smaller than the object."
+    },
+    {
+      "id": "lautech-100-phy102-182",
+      "prompt": "When an object is at the focus of a concave mirror, the image is formed",
+      "answers": [
+        "at infinity",
+        "behind the mirror",
+        "at the centre of curvature",
+        "at the focus"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Reflected rays are parallel."
+    },
+    {
+      "id": "lautech-100-phy102-183",
+      "prompt": "Which of these is NOT a use of a concave mirror?",
+      "answers": [
+        "A driver's rear-view mirror",
+        "A dentist's mirror",
+        "A reflecting telescope",
+        "A car headlamp reflector"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Rear-view mirrors are convex (wide field of view, diminished image)."
+    },
+    {
+      "id": "lautech-100-phy102-184",
+      "prompt": "Car rear-view mirrors should produce images that are",
+      "answers": [
+        "inverted and diminished",
+        "magnified and erect",
+        "diminished, virtual and erect",
+        "magnified and inverted"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "A convex mirror gives a wide field of view."
+    },
+    {
+      "id": "lautech-100-phy102-185",
+      "prompt": "In which mirror is the image always smaller than the object?",
+      "answers": [
+        "Parabolic mirror",
+        "Concave mirror",
+        "Plane mirror",
+        "Convex mirror"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "A convex mirror always forms a virtual, erect, diminished image."
+    },
+    {
+      "id": "lautech-100-phy102-186",
+      "prompt": "What type of mirror produces a parallel beam, as in car headlamps?",
+      "answers": [
+        "Cylindrical mirror",
+        "Plane mirror",
+        "Parabolic mirror",
+        "Spherical convex mirror"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "A lamp at the focus of a parabolic mirror gives a parallel beam."
+    },
+    {
+      "id": "lautech-100-phy102-187",
+      "prompt": "In a concave mirror, the size of the image depends on the",
+      "answers": [
+        "colour of the object",
+        "shape of the object",
+        "material of the mirror",
+        "position of the object"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "The magnification changes as the object is moved."
+    },
+    {
+      "id": "lautech-100-phy102-188",
+      "prompt": "The mirror formula relates the object distance, image distance and",
+      "answers": [
+        "focal length",
+        "time",
+        "speed",
+        "energy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "1/f = 1/u + 1/v."
+    },
+    {
+      "id": "lautech-100-phy102-189",
+      "prompt": "An object is 10 cm from a concave mirror of focal length 2 cm. The magnification is",
+      "answers": [
+        "−0.25 (real, inverted, diminished)",
+        "−25",
+        "+25",
+        "+0.25"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "1/v = 1/2 − 1/10 → v = 2.5 cm; m = −v/u = −0.25."
+    },
+    {
+      "id": "lautech-100-phy102-190",
+      "prompt": "An object is 10 cm from a concave mirror of focal length 20 cm. The magnification is",
+      "answers": [
+        "−0.5",
+        "−2",
+        "+2 (virtual, erect, magnified)",
+        "+0.5"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "1/v = 1/20 − 1/10 → v = −20 cm (behind the mirror); m = −v/u = +2."
+    },
+    {
+      "id": "lautech-100-phy102-191",
+      "prompt": "Total internal reflection occurs when light passes from",
+      "answers": [
+        "a denser to a rarer medium at any angle",
+        "a denser to a less dense medium with an angle of incidence greater than the critical angle",
+        "a rare to a denser medium",
+        "a rare to a denser medium at a large angle"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Both conditions are needed."
+    },
+    {
+      "id": "lautech-100-phy102-192",
+      "prompt": "The critical angle for water (n = 1.33) with air is",
+      "answers": [
+        "50.0°",
+        "51.0°",
+        "49.1°",
+        "48.8°"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "sin c = 1/1.33 → c = 48.75°."
+    },
+    {
+      "id": "lautech-100-phy102-193",
+      "prompt": "Total internal reflection is NOT used in",
+      "answers": [
+        "optical fibres",
+        "periscopes using prisms",
+        "prism binoculars",
+        "a plane silvered mirror"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Plane mirrors work by ordinary reflection."
+    },
+    {
+      "id": "lautech-100-phy102-194",
+      "prompt": "A mirage is caused by",
+      "answers": [
+        "refraction and total internal reflection of light",
+        "scattering of light",
+        "polarisation",
+        "diffraction of light"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Light bends through air layers of different density."
+    },
+    {
+      "id": "lautech-100-phy102-195",
+      "prompt": "The blue colour of the sky and the red colour of the Sun at sunrise and sunset are due to",
+      "answers": [
+        "scattering",
+        "reflection",
+        "interference",
+        "refraction"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Shorter wavelengths scatter more strongly."
+    },
+    {
+      "id": "lautech-100-phy102-196",
+      "prompt": "The colours of a rainbow are formed by",
+      "answers": [
+        "diffusion",
+        "reflection",
+        "dispersion",
+        "interference only"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Water droplets refract and disperse white light."
+    },
+    {
+      "id": "lautech-100-phy102-197",
+      "prompt": "During refraction, the quantity that does NOT change is the",
+      "answers": [
+        "speed",
+        "direction",
+        "wavelength",
+        "frequency"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Frequency is set by the source."
+    },
+    {
+      "id": "lautech-100-phy102-198",
+      "prompt": "When light is refracted into a denser medium, its frequency is ___ and its wavelength is ___.",
+      "answers": [
+        "changed; unchanged",
+        "unchanged; unchanged",
+        "changed; changed",
+        "unchanged; changed"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Speed and wavelength change; frequency does not."
+    },
+    {
+      "id": "lautech-100-phy102-199",
+      "prompt": "Refraction is the change in the ___ of light as it passes into another medium.",
+      "answers": [
+        "frequency",
+        "phase only",
+        "velocity",
+        "colour"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Speed changes, causing bending."
+    },
+    {
+      "id": "lautech-100-phy102-200",
+      "prompt": "A wave moving from a denser medium to a less dense medium bends",
+      "answers": [
+        "away from the normal",
+        "along the normal",
+        "towards the normal",
+        "not at all"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Speed increases, so the ray bends away from the normal."
+    },
+    {
+      "id": "lautech-100-phy102-201",
+      "prompt": "The speed of light in any material medium is ___ its speed in a vacuum.",
+      "answers": [
+        "greater than",
+        "twice",
+        "less than",
+        "equal to"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "n = c/v > 1."
+    },
+    {
+      "id": "lautech-100-phy102-202",
+      "prompt": "The velocity of light in steel, if its refractive index relative to a vacuum is 2.5, is",
+      "answers": [
+        "1.2 × 10¹⁰ m/s",
+        "5 × 10⁸ m/s",
+        "1.2 × 10⁸ m/s",
+        "2.5 × 10⁸ m/s"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "v = c/n = 3 × 10⁸ ÷ 2.5."
+    },
+    {
+      "id": "lautech-100-phy102-203",
+      "prompt": "The speed of light in water is about",
+      "answers": [
+        "2.3 × 10⁵ m/s",
+        "3.3 × 10⁸ m/s",
+        "4.3 × 10⁸ m/s",
+        "2.3 × 10⁸ m/s"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "v = c/1.33 ≈ 2.25 × 10⁸ m/s."
+    },
+    {
+      "id": "lautech-100-phy102-204",
+      "prompt": "A prism of refractive index 1.5 has a refracting angle of 30°. A ray enters one face normally. The deviation is about",
+      "answers": [
+        "20.5°",
+        "19.5°",
+        "16°",
+        "18.6°"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "At the second face, sin e = 1.5 sin30° = 0.75, so e = 48.6°; deviation = 48.6° − 30° = 18.6°."
+    },
+    {
+      "id": "lautech-100-phy102-205",
+      "prompt": "A 60° prism has a refractive index of 1.60. The angle of incidence at minimum deviation is",
+      "answers": [
+        "53.1°",
+        "43.1°",
+        "63.2°",
+        "63.1°"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "sin i = n sin(A/2) = 1.6 × 0.5 = 0.8 → i = 53.1°."
+    },
+    {
+      "id": "lautech-100-phy102-206",
+      "prompt": "Minimum deviation occurs when light passes through a prism",
+      "answers": [
+        "symmetrically",
+        "longitudinally",
+        "asymmetrically",
+        "parallel to the base"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The ray inside the prism is parallel to the base."
+    },
+    {
+      "id": "lautech-100-phy102-207",
+      "prompt": "Which sequence shows increasing deviation by a prism?",
+      "answers": [
+        "Violet → indigo → violet",
+        "Green → yellow → orange",
+        "Blue → indigo → violet",
+        "Yellow → orange → red"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Shorter wavelengths are bent more."
+    },
+    {
+      "id": "lautech-100-phy102-208",
+      "prompt": "Which instrument measures the refractive index of glass?",
+      "answers": [
+        "Photometer",
+        "Refractometer",
+        "Calorimeter",
+        "Kaleidoscope"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "A refractometer is designed for this."
+    },
+    {
+      "id": "lautech-100-phy102-209",
+      "prompt": "A colour of a single wavelength is called a",
+      "answers": [
+        "primary colour",
+        "secondary colour",
+        "spectral colour",
+        "tertiary colour"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Spectral colours are pure wavelengths."
+    },
+    {
+      "id": "lautech-100-phy102-210",
+      "prompt": "A converging lens is also called a",
+      "answers": [
+        "plane lens",
+        "concave lens",
+        "diverging lens",
+        "convex lens"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "A convex lens is thicker at the centre."
+    },
+    {
+      "id": "lautech-100-phy102-211",
+      "prompt": "A diverging lens is also called a",
+      "answers": [
+        "concave lens",
+        "converging lens",
+        "convex lens",
+        "bifocal lens"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "A concave lens is thinner at the centre."
+    },
+    {
+      "id": "lautech-100-phy102-212",
+      "prompt": "The focal length of a diverging lens is",
+      "answers": [
+        "zero",
+        "infinite",
+        "positive",
+        "negative"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "It has a virtual focus."
+    },
+    {
+      "id": "lautech-100-phy102-213",
+      "prompt": "A lens that is thin at the centre and thick at the edges is",
+      "answers": [
+        "plano-convex",
+        "concave (diverging)",
+        "convex (converging)",
+        "bi-convex"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "That is the shape of a concave lens."
+    },
+    {
+      "id": "lautech-100-phy102-214",
+      "prompt": "The lens that causes parallel rays to diverge is",
+      "answers": [
+        "a fibre lens",
+        "a convex lens",
+        "a concave lens",
+        "a counter lens"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "It is a diverging lens."
+    },
+    {
+      "id": "lautech-100-phy102-215",
+      "prompt": "A lens with a long focal length is",
+      "answers": [
+        "opaque",
+        "strongly curved",
+        "not strongly curved",
+        "thick"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "A weakly curved lens has a long focal length."
+    },
+    {
+      "id": "lautech-100-phy102-216",
+      "prompt": "The distance between the optical centre and the principal focus is the",
+      "answers": [
+        "radius of curvature",
+        "centre of curvature",
+        "linear length",
+        "focal length"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "It is the lens's focal length f."
+    },
+    {
+      "id": "lautech-100-phy102-217",
+      "prompt": "The straight line through the two centres of curvature of a lens is the",
+      "answers": [
+        "focal length",
+        "principal axis",
+        "principal focus",
+        "paraxial ray"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "It passes through the optical centre."
+    },
+    {
+      "id": "lautech-100-phy102-218",
+      "prompt": "A lens has a power of −4 dioptres. Its focal length is",
+      "answers": [
+        "+0.25 m",
+        "−0.25 m",
+        "−2 m",
+        "−4 m"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "f = 1/P = 1/(−4)."
+    },
+    {
+      "id": "lautech-100-phy102-219",
+      "prompt": "A double convex lens (n = 1.5, both radii of curvature 20 cm) has an object 10 cm in front of it. The image is at",
+      "answers": [
+        "−20 cm (virtual, on the same side as the object)",
+        "+10 cm",
+        "−35 cm",
+        "+20 cm (real)"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "1/f = (n − 1)(2/R) = 1/20, f = 20 cm; 1/v = 1/20 − 1/10 → v = −20 cm."
+    },
+    {
+      "id": "lautech-100-phy102-220",
+      "prompt": "An object is 15 cm from a converging lens of focal length 20 cm. The image distance is",
+      "answers": [
+        "60 cm (virtual, on the same side as the object)",
+        "20 cm",
+        "35 cm",
+        "5 cm"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "1/v = 1/20 − 1/15 = −1/60."
+    },
+    {
+      "id": "lautech-100-phy102-221",
+      "prompt": "An object is 30 cm from a converging lens and its real image is formed 90 cm from the lens. The focal length is",
+      "answers": [
+        "15 cm",
+        "44 cm",
+        "20 cm",
+        "22.5 cm"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "1/f = 1/30 + 1/90 = 4/90."
+    },
+    {
+      "id": "lautech-100-phy102-222",
+      "prompt": "The image formed on the retina of the human eye is",
+      "answers": [
+        "real and magnified",
+        "virtual and inverted",
+        "virtual and magnified",
+        "real and inverted"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "The brain interprets it upright."
+    },
+    {
+      "id": "lautech-100-phy102-223",
+      "prompt": "A person whose eye focuses rays in front of the retina (short sight) is corrected with a",
+      "answers": [
+        "plane mirror",
+        "diverging lens",
+        "converging mirror",
+        "converging lens"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "A concave lens moves the image back onto the retina."
+    },
+    {
+      "id": "lautech-100-phy102-224",
+      "prompt": "The inability of the eye to see objects clearly is called a",
+      "answers": [
+        "clarity of vision",
+        "defect of vision",
+        "blur image",
+        "small image"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Examples are myopia and hypermetropia."
+    },
+    {
+      "id": "lautech-100-phy102-225",
+      "prompt": "Which part of a camera corresponds to the iris of the eye?",
+      "answers": [
+        "The shutter",
+        "The lens",
+        "The film",
+        "The diaphragm"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "The diaphragm controls the aperture."
+    },
+    {
+      "id": "lautech-100-phy102-226",
+      "prompt": "A simple microscope consists of",
+      "answers": [
+        "a plane mirror",
+        "two converging lenses",
+        "a single converging lens",
+        "three converging lenses"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "A magnifying glass is a simple microscope."
+    },
+    {
+      "id": "lautech-100-phy102-227",
+      "prompt": "A compound microscope uses",
+      "answers": [
+        "three lenses",
+        "one lens",
+        "a concave mirror only",
+        "two lenses (objective and eyepiece)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "The objective forms a real image that the eyepiece magnifies."
+    },
+    {
+      "id": "lautech-100-phy102-228",
+      "prompt": "An astronomical telescope has an eyepiece of focal length 5.0 cm and an angular magnification of 10 in normal adjustment. The distance between objective and eyepiece is",
+      "answers": [
+        "50 cm",
+        "45 cm",
+        "55 cm",
+        "10 cm"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "fo = 10 × 5 = 50 cm; separation = fo + fe = 55 cm."
+    },
+    {
+      "id": "lautech-100-phy102-229",
+      "prompt": "The variation in image magnification across the field is called",
+      "answers": [
+        "coma",
+        "distortion",
+        "chromatic aberration",
+        "accommodation"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Distortion arises when magnification varies with distance from the axis."
+    },
+    {
+      "id": "lautech-100-phy102-230",
+      "prompt": "A real image can be photographed directly, but a virtual image can be photographed only with the help of a ___ optical system.",
+      "answers": [
+        "converging",
+        "diverging",
+        "monochromatic",
+        "reflecting"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "A camera lens must form a real image from the virtual one."
+    },
+    {
+      "id": "lautech-100-phy102-231",
+      "prompt": "Which of these devices does NOT use plane mirrors?",
+      "answers": [
+        "Periscope",
+        "Kaleidoscope",
+        "Sextant",
+        "Binoculars"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Prism binoculars use total internal reflection in prisms."
+    }
+  ]
+}
