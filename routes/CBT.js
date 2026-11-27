@@ -9,6 +9,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CBT_DATA_DIRECTORY = path.resolve(__dirname, "../CBT-data");
 
 const normalize = (value) => String(value || "").trim().toLowerCase();
+const catalogId = ({ school, level, department, course }) =>
+  [school, level, department, course].map((value) => encodeURIComponent(String(value))).join("|");
 
 const toPublicQuestion = ({ correctIndex, explanation, ...question }) => question;
 
@@ -43,7 +45,7 @@ const getJsonFiles = (directory) => {
 };
 
 const loadQuestionBanks = () => {
-  const questionIds = new Set();
+  const questionIdCounts = new Map();
 
   return getJsonFiles(CBT_DATA_DIRECTORY).flatMap((filePath) => {
     let bank;
@@ -70,19 +72,23 @@ const loadQuestionBanks = () => {
         question.correctIndex >= 0 &&
         question.correctIndex < question.answers.length;
 
-      if (!validQuestion || questionIds.has(question.id)) {
-        console.error(`[cbt] Ignoring invalid or duplicate question ${question?.id || "without an id"}`);
+      if (!validQuestion) {
+        console.error(`[cbt] Ignoring invalid question ${question?.id || "without an id"}`);
         return [];
       }
 
-      questionIds.add(question.id);
+      const duplicateCount = questionIdCounts.get(question.id) || 0;
+      questionIdCounts.set(question.id, duplicateCount + 1);
       return [{
         ...question,
+        // Some imported banks reuse IDs. Keep every valid item addressable for marking.
+        id: duplicateCount ? `${question.id}--${duplicateCount + 1}` : question.id,
         school,
         level: String(level),
         department,
         course: course.code,
         courseTitle: course.title || course.code,
+        courseId: catalogId({ school, level, department, course: course.code }),
       }];
     });
   });
@@ -126,12 +132,46 @@ cbtRoutes.get("/", (req, res) => {
   });
 });
 
-// GET /api/cbt/meta - schools, levels, departments, and courses available for CBT.
+// GET /api/cbt/meta - a structured university > level > department > course catalog.
 cbtRoutes.get("/meta", (req, res) => {
   const uniqueValues = (key) =>
     [...new Set(cbtQuestions.map((question) => question[key]))].sort((a, b) =>
       String(a).localeCompare(String(b))
     );
+
+  const courses = [...new Map(cbtQuestions.map((question) => [question.courseId, {
+    id: question.courseId,
+    school: question.school,
+    level: question.level,
+    department: question.department,
+    code: question.course,
+    title: question.courseTitle,
+  }])).values()].sort((a, b) =>
+    [a.school, a.level, a.department, a.code].join("|").localeCompare(
+      [b.school, b.level, b.department, b.code].join("|")
+    )
+  );
+  const courseQuestionCounts = cbtQuestions.reduce((counts, question) => {
+    counts[question.courseId] = (counts[question.courseId] || 0) + 1;
+    return counts;
+  }, {});
+
+  const catalog = Object.values(courses.reduce((schools, course) => {
+    const school = schools[course.school] ||= { school: course.school, levels: {} };
+    const level = school.levels[course.level] ||= { level: course.level, departments: {} };
+    const department = level.departments[course.department] ||= {
+      department: course.department,
+      courses: [],
+    };
+    department.courses.push(course);
+    return schools;
+  }, {})).map((school) => ({
+    school: school.school,
+    levels: Object.values(school.levels).map((level) => ({
+      level: level.level,
+      departments: Object.values(level.departments),
+    })),
+  }));
 
   return res.json({
     success: true,
@@ -139,10 +179,9 @@ cbtRoutes.get("/meta", (req, res) => {
     schools: uniqueValues("school"),
     levels: uniqueValues("level"),
     departments: uniqueValues("department"),
-    courses: [...new Map(cbtQuestions.map((question) => [question.course, {
-      code: question.course,
-      title: question.courseTitle,
-    }])).values()],
+    courses,
+    catalog,
+    courseQuestionCounts,
     difficulties: uniqueValues("difficulty"),
   });
 });
@@ -156,7 +195,7 @@ cbtRoutes.get("/:id", (req, res) => {
 });
 
 // POST /api/cbt/submit
-// Body: { answers: [{ questionId: "...", selectedIndex: 0 }] }
+// Body: { answers: [{ questionId: "...", selectedIndex: 0 | null }] }
 cbtRoutes.post("/submit", (req, res) => {
   const { answers } = req.body || {};
 
@@ -177,10 +216,10 @@ cbtRoutes.post("/submit", (req, res) => {
     const questionId = answer?.questionId;
     const selectedIndex = answer?.selectedIndex;
 
-    if (typeof questionId !== "string" || !Number.isInteger(selectedIndex)) {
+    if (typeof questionId !== "string" || (selectedIndex !== null && !Number.isInteger(selectedIndex))) {
       return res.status(400).json({
         success: false,
-        error: "Each answer requires a questionId string and an integer selectedIndex",
+        error: "Each answer requires a questionId string and an integer selectedIndex (or null when skipped)",
       });
     }
     if (seenQuestionIds.has(questionId)) {
@@ -192,7 +231,7 @@ cbtRoutes.post("/submit", (req, res) => {
     if (!question) {
       return res.status(400).json({ success: false, error: `Unknown questionId: ${questionId}` });
     }
-    if (selectedIndex < 0 || selectedIndex >= question.answers.length) {
+    if (selectedIndex !== null && (selectedIndex < 0 || selectedIndex >= question.answers.length)) {
       return res.status(400).json({
         success: false,
         error: `selectedIndex is invalid for questionId: ${questionId}`,
@@ -203,7 +242,8 @@ cbtRoutes.post("/submit", (req, res) => {
       questionId,
       selectedIndex,
       correctIndex: question.correctIndex,
-      isCorrect: selectedIndex === question.correctIndex,
+      isCorrect: selectedIndex !== null && selectedIndex === question.correctIndex,
+      isSkipped: selectedIndex === null,
       explanation: question.explanation,
     });
   }

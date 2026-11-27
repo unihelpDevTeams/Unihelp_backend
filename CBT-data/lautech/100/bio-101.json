@@ -1,0 +1,6330 @@
+{
+  "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Biological Sciences",
+  "course": {
+    "code": "BIO 101",
+    "title": "General Biology I"
+  },
+  "questions": [
+    {
+      "id": "lautech-100-bio101-001",
+      "prompt": "Who proposed the cell theory?",
+      "answers": [
+        "Matthias Schleiden and Theodor Schwann",
+        "Gregor Mendel and Charles Darwin",
+        "Louis Pasteur and Rudolf Virchow",
+        "Robert Hooke and Robert Brown"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Schleiden (botanist) and Schwann (zoologist) proposed that all living things are made of cells."
+    },
+    {
+      "id": "lautech-100-bio101-002",
+      "prompt": "In which year was the cell theory postulated?",
+      "answers": [
+        "1839",
+        "1819",
+        "1809",
+        "1829"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Schleiden and Schwann published the cell theory in 1838–1839; 1839 is the standard exam answer."
+    },
+    {
+      "id": "lautech-100-bio101-003",
+      "prompt": "Who postulated 'Omnis cellula e cellula' (every cell arises from a pre-existing cell)?",
+      "answers": [
+        "Matthias Schleiden",
+        "Robert Hooke",
+        "Rudolf Virchow",
+        "Louis Pasteur"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Rudolf Virchow (1855) added that new cells come only from existing cells."
+    },
+    {
+      "id": "lautech-100-bio101-004",
+      "prompt": "'Omne vivum e vivo' (all living things come from living things) was postulated by",
+      "answers": [
+        "Rudolf Virchow",
+        "Theodor Schwann",
+        "Louis Pasteur",
+        "Matthias Schleiden"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Louis Pasteur (1859) disproved spontaneous generation with this principle."
+    },
+    {
+      "id": "lautech-100-bio101-005",
+      "prompt": "Who is regarded as the father of modern cell biology?",
+      "answers": [
+        "Gregor Mendel",
+        "George Emil Palade",
+        "Anton van Leeuwenhoek",
+        "Robert Hooke"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Palade pioneered electron-microscope study of cell organelles and is called the father of modern cell biology."
+    },
+    {
+      "id": "lautech-100-bio101-006",
+      "prompt": "Who first observed and named 'cells' in cork in 1665?",
+      "answers": [
+        "Robert Hooke",
+        "Louis Pasteur",
+        "Robert Brown",
+        "Theodor Schwann"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Hooke saw box-like compartments in cork under his microscope and called them cells."
+    },
+    {
+      "id": "lautech-100-bio101-007",
+      "prompt": "The nucleus was discovered by Robert Brown in the year",
+      "answers": [
+        "1666",
+        "1665",
+        "1831",
+        "1839"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Robert Brown described the cell nucleus in 1831."
+    },
+    {
+      "id": "lautech-100-bio101-008",
+      "prompt": "The basic structural and functional unit of life is the",
+      "answers": [
+        "cell",
+        "organ",
+        "nucleus",
+        "tissue"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "All life processes occur in cells; they are the fundamental units of life."
+    },
+    {
+      "id": "lautech-100-bio101-009",
+      "prompt": "Cell biology is also called",
+      "answers": [
+        "histology",
+        "cytology",
+        "taxonomy",
+        "genetics"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Cytology is the study of cell structure and function."
+    },
+    {
+      "id": "lautech-100-bio101-010",
+      "prompt": "Cell theory is also referred to as the cell",
+      "answers": [
+        "doctrine",
+        "cycle",
+        "circle",
+        "idea"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The cell theory is also called the cell doctrine."
+    },
+    {
+      "id": "lautech-100-bio101-011",
+      "prompt": "The study of tissues is called",
+      "answers": [
+        "cytology",
+        "ecology",
+        "embryology",
+        "histology"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Histology deals with the structure of tissues."
+    },
+    {
+      "id": "lautech-100-bio101-012",
+      "prompt": "The study of algae is called",
+      "answers": [
+        "photobiology",
+        "phycology",
+        "gerontology",
+        "geology"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Phycology (algology) is the branch of biology that studies algae."
+    },
+    {
+      "id": "lautech-100-bio101-013",
+      "prompt": "The study of the social, physical, mental and psychological effects of ageing is called",
+      "answers": [
+        "gerontology",
+        "phycology",
+        "cytology",
+        "geology"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Gerontology studies ageing and its effects."
+    },
+    {
+      "id": "lautech-100-bio101-014",
+      "prompt": "Astrobiology is the study of",
+      "answers": [
+        "tissues",
+        "algae",
+        "ageing",
+        "life in the universe"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Astrobiology studies the origin, evolution and distribution of life in the universe."
+    },
+    {
+      "id": "lautech-100-bio101-015",
+      "prompt": "The group of cells with many discrete organelles, such as a nucleus and mitochondria, is classified as",
+      "answers": [
+        "prokaryotic",
+        "viral",
+        "eukaryotic",
+        "acellular"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Eukaryotic cells have a true nucleus and membrane-bound organelles."
+    },
+    {
+      "id": "lautech-100-bio101-016",
+      "prompt": "Multicellular animals are heterotrophs whose cells lack",
+      "answers": [
+        "ribosomes",
+        "a nucleus",
+        "cell membranes",
+        "cell walls"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Animal cells have no cell wall; plant cells do."
+    },
+    {
+      "id": "lautech-100-bio101-017",
+      "prompt": "Organisms that make their own organic compounds from inorganic substances are called",
+      "answers": [
+        "heterotrophs",
+        "autotrophs",
+        "saprophytes",
+        "fluid feeders"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Autotrophs (e.g. green plants) synthesise food from CO2 and water."
+    },
+    {
+      "id": "lautech-100-bio101-018",
+      "prompt": "Which of the following is an organ?",
+      "answers": [
+        "Liver",
+        "Guard cells",
+        "Xylem bundle",
+        "Blood"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "An organ is made of several tissues working together; the liver is an organ, blood is a tissue."
+    },
+    {
+      "id": "lautech-100-bio101-019",
+      "prompt": "The activities of the cell are controlled and regulated by the",
+      "answers": [
+        "nucleus",
+        "lysosome",
+        "ribosome",
+        "mitochondrion"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "The nucleus holds the DNA that directs all cell activity."
+    },
+    {
+      "id": "lautech-100-bio101-020",
+      "prompt": "Which of the following is a component of a typical plant cell?",
+      "answers": [
+        "Cell wall",
+        "Cell membrane",
+        "Protoplasm",
+        "All of the above"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "A plant cell has a cell wall, a cell membrane and protoplasm, among other parts."
+    },
+    {
+      "id": "lautech-100-bio101-021",
+      "prompt": "Which of the following is a function of the cell wall?",
+      "answers": [
+        "It synthesises proteins",
+        "It increases metabolism in the cell",
+        "It provides shape and skeletal support",
+        "It stores genetic information"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The cell wall gives shape, strength and protection to the protoplast."
+    },
+    {
+      "id": "lautech-100-bio101-022",
+      "prompt": "Which of these is NOT a function of the cell wall?",
+      "answers": [
+        "It serves as a skeleton giving strength to the plant",
+        "It makes the cell less rigid and flexible",
+        "It protects the protoplast",
+        "It maintains the shape of the cell"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "The cell wall makes the cell rigid, not flexible."
+    },
+    {
+      "id": "lautech-100-bio101-023",
+      "prompt": "Which of the following is a function of the cell membrane?",
+      "answers": [
+        "Storing starch",
+        "Producing ATP by photosynthesis",
+        "Synthesising chlorophyll",
+        "Controlling the entry and exit of substances"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "The cell membrane is selectively permeable and regulates what enters and leaves the cell."
+    },
+    {
+      "id": "lautech-100-bio101-024",
+      "prompt": "The double layer of phospholipids sandwiched between two protein layers (cell membrane model) was proposed by",
+      "answers": [
+        "Danielli and Davson (1935)",
+        "Daniell and Davison (1945)",
+        "Danielli and Davson (1972)",
+        "Singer and Nicolson (1935)"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Danielli and Davson proposed the 'sandwich' model in 1935; the fluid mosaic model came later."
+    },
+    {
+      "id": "lautech-100-bio101-025",
+      "prompt": "Hydrophilic heads and hydrophobic tails show that the cell membrane is",
+      "answers": [
+        "dissoluble",
+        "dimeric",
+        "amphihydrolytic",
+        "amphipathic"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Phospholipids have a water-loving head and water-hating tails, so they are amphipathic."
+    },
+    {
+      "id": "lautech-100-bio101-026",
+      "prompt": "Cytoplasm is",
+      "answers": [
+        "protoplasm plus the nucleus",
+        "the solid portion of the cell",
+        "the powerhouse of the cell",
+        "protoplasm of the cell minus the nucleus"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Protoplasm = cytoplasm + nucleus, so cytoplasm is protoplasm without the nucleus."
+    },
+    {
+      "id": "lautech-100-bio101-027",
+      "prompt": "The liquid portion of the cytoplasm is called",
+      "answers": [
+        "cytopy",
+        "cytosure",
+        "cytin",
+        "cytosol"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Cytosol is the fluid matrix in which organelles are suspended."
+    },
+    {
+      "id": "lautech-100-bio101-028",
+      "prompt": "The living material of the cell is the",
+      "answers": [
+        "vacuole sap",
+        "protoplasm",
+        "cell wall",
+        "inclusions"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Protoplasm (cytoplasm and nucleus) is the living part of the cell."
+    },
+    {
+      "id": "lautech-100-bio101-029",
+      "prompt": "The non-living components of a cell are the",
+      "answers": [
+        "inclusions",
+        "organelles",
+        "protoplasm",
+        "nucleus"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Inclusions such as starch grains and crystals are non-living cell contents."
+    },
+    {
+      "id": "lautech-100-bio101-030",
+      "prompt": "Which organelle is the site of protein synthesis?",
+      "answers": [
+        "Centriole",
+        "Golgi apparatus",
+        "Ribosome",
+        "Lysosome"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Ribosomes translate mRNA into proteins."
+    },
+    {
+      "id": "lautech-100-bio101-031",
+      "prompt": "Ribosomes found in groups are called",
+      "answers": [
+        "petosomes",
+        "monosomes",
+        "lysosomes",
+        "polysomes"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "A string of ribosomes on one mRNA is a polysome (polyribosome)."
+    },
+    {
+      "id": "lautech-100-bio101-032",
+      "prompt": "The smallest and most numerous organelles in the cell are the",
+      "answers": [
+        "chromosomes",
+        "ribosomes",
+        "centrosomes",
+        "lysosomes"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Ribosomes are tiny and found in huge numbers."
+    },
+    {
+      "id": "lautech-100-bio101-033",
+      "prompt": "Smooth endoplasmic reticulum is involved in the metabolism of fats (lipids).",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Smooth ER synthesises and breaks down lipids; rough ER makes proteins."
+    },
+    {
+      "id": "lautech-100-bio101-034",
+      "prompt": "The finger-like inner folds of the mitochondrion are called",
+      "answers": [
+        "cristae",
+        "thylakoids",
+        "grana",
+        "cisternae"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Cristae increase the surface area for the electron transport chain."
+    },
+    {
+      "id": "lautech-100-bio101-035",
+      "prompt": "The space enclosed by the inner membrane of a mitochondrion is the",
+      "answers": [
+        "cristae",
+        "cytosol",
+        "matrix",
+        "stroma"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "The mitochondrial matrix contains enzymes of the Krebs cycle."
+    },
+    {
+      "id": "lautech-100-bio101-036",
+      "prompt": "The fluid-filled space of a chloroplast around the thylakoids is the",
+      "answers": [
+        "stroma",
+        "lenticel",
+        "stomata",
+        "matrix"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The stroma is where the dark (Calvin cycle) reactions occur."
+    },
+    {
+      "id": "lautech-100-bio101-037",
+      "prompt": "The number of mitochondria increases in cells of",
+      "answers": [
+        "dead seeds",
+        "dormant seeds",
+        "dry seeds",
+        "germinating seeds"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Germinating seeds respire rapidly and need more ATP."
+    },
+    {
+      "id": "lautech-100-bio101-038",
+      "prompt": "The organelle that provides support, transport and motility and holds organelles in position is the",
+      "answers": [
+        "cell wall",
+        "cytoskeleton",
+        "plasmalemma",
+        "cytoplasm"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "The cytoskeleton of microtubules and filaments gives shape and movement."
+    },
+    {
+      "id": "lautech-100-bio101-039",
+      "prompt": "Which of these is NOT a component of the cell wall?",
+      "answers": [
+        "Myosin",
+        "Cellulose",
+        "Lignin",
+        "Suberin"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Myosin is a muscle protein; cellulose, lignin and suberin occur in cell walls."
+    },
+    {
+      "id": "lautech-100-bio101-040",
+      "prompt": "The packaging of proteins and lipids for export from the cell is done by the",
+      "answers": [
+        "mitochondrion",
+        "Golgi apparatus",
+        "smooth endoplasmic reticulum",
+        "rough endoplasmic reticulum"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "The Golgi apparatus modifies, sorts and packages secretory products."
+    },
+    {
+      "id": "lautech-100-bio101-041",
+      "prompt": "Which of these organelles is NOT involved in transport within the cell?",
+      "answers": [
+        "Endoplasmic reticulum",
+        "Golgi apparatus",
+        "Lysosome",
+        "Transport vesicles"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Lysosomes digest materials; ER, Golgi and vesicles transport them."
+    },
+    {
+      "id": "lautech-100-bio101-042",
+      "prompt": "Colourless plastids that store starch, oils and proteins are called",
+      "answers": [
+        "leucoplasts",
+        "chromoplasts",
+        "etioplasts",
+        "chloroplasts"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Leucoplasts are non-pigmented storage plastids."
+    },
+    {
+      "id": "lautech-100-bio101-043",
+      "prompt": "Large leucoplasts that store starch are called",
+      "answers": [
+        "amyloplasts",
+        "proteinoplasts",
+        "elaioplasts",
+        "etioplasts"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Amyloplasts convert glucose into starch for storage."
+    },
+    {
+      "id": "lautech-100-bio101-044",
+      "prompt": "Chloroplasts that have been kept in darkness and lack active pigment are called",
+      "answers": [
+        "chromoplasts",
+        "amyloplasts",
+        "etioplasts",
+        "xanthophylls"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Etioplasts develop in dark-grown tissue and turn into chloroplasts in light."
+    },
+    {
+      "id": "lautech-100-bio101-045",
+      "prompt": "Plastids that give flowers and fruits their yellow and orange colours are",
+      "answers": [
+        "leucoplasts",
+        "chromoplasts",
+        "amyloplasts",
+        "chloroplasts"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Chromoplasts contain carotenoid pigments."
+    },
+    {
+      "id": "lautech-100-bio101-046",
+      "prompt": "Cilia and flagella arise from",
+      "answers": [
+        "the cell wall",
+        "the nucleus",
+        "basal bodies in the cell",
+        "the Golgi body"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Both are built on basal bodies (centriole-like structures)."
+    },
+    {
+      "id": "lautech-100-bio101-047",
+      "prompt": "The smallest known cells are tiny bacteria called",
+      "answers": [
+        "mycoplasma",
+        "Amoeba",
+        "Vaucheria",
+        "Euglena"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Mycoplasmas, also called PPLO, are the smallest cells."
+    },
+    {
+      "id": "lautech-100-bio101-048",
+      "prompt": "PPLO stands for",
+      "answers": [
+        "plant pathogenic lipid organisms",
+        "primary protein-like organelles",
+        "pure plant living organisms",
+        "pleuropneumonia-like organisms"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "PPLO is another name for mycoplasma."
+    },
+    {
+      "id": "lautech-100-bio101-049",
+      "prompt": "The organism Vaucheria is best described as a",
+      "answers": [
+        "yellow-green alga",
+        "protozoan",
+        "fungus",
+        "virus"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Vaucheria is a filamentous yellow-green alga."
+    },
+    {
+      "id": "lautech-100-bio101-050",
+      "prompt": "Fertilization results in the formation of",
+      "answers": [
+        "a spore",
+        "a zygote",
+        "a tissue",
+        "a gamete"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Male and female gametes fuse to form a diploid zygote."
+    },
+    {
+      "id": "lautech-100-bio101-051",
+      "prompt": "A single cell that begins the life of most organisms is the product of",
+      "answers": [
+        "isolation",
+        "conjugation",
+        "fertilization",
+        "transduction"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The zygote is formed by fertilization."
+    },
+    {
+      "id": "lautech-100-bio101-052",
+      "prompt": "The substance responsible for apical dominance in plants is",
+      "answers": [
+        "thrombin",
+        "auxin",
+        "insulin",
+        "ethanol"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Auxin from the apical bud inhibits lateral bud growth."
+    },
+    {
+      "id": "lautech-100-bio101-053",
+      "prompt": "Monocotyledonous plants are plants with",
+      "answers": [
+        "no cotyledon",
+        "three cotyledons",
+        "one cotyledon in the seed",
+        "two cotyledons in the seed"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Mono- means one seed leaf."
+    },
+    {
+      "id": "lautech-100-bio101-054",
+      "prompt": "The tissue that acts as a secondary meristem in a dicot root but is absent in a monocot root is the",
+      "answers": [
+        "cambium",
+        "phloem",
+        "pith",
+        "xylem"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Dicots have vascular cambium for secondary growth; monocots do not."
+    },
+    {
+      "id": "lautech-100-bio101-055",
+      "prompt": "Cycas revoluta belongs to the order",
+      "answers": [
+        "Filicales",
+        "Gnetales",
+        "Cycadales",
+        "Coniferales"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Cycas is a cycad in the order Cycadales."
+    },
+    {
+      "id": "lautech-100-bio101-056",
+      "prompt": "The two main phases of the cell cycle are",
+      "answers": [
+        "prophase and telophase",
+        "anaphase and metaphase",
+        "interphase and M phase (mitotic phase)",
+        "initiation and progression"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The cycle alternates between growth (interphase) and division (M phase)."
+    },
+    {
+      "id": "lautech-100-bio101-057",
+      "prompt": "The series of growth and division of a cell is collectively called the",
+      "answers": [
+        "cell circle",
+        "life cycle",
+        "life circle",
+        "cell cycle"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Cell cycle = ordered growth and division of a cell. Do not confuse 'cycle' with 'circle'."
+    },
+    {
+      "id": "lautech-100-bio101-058",
+      "prompt": "Interphase consists of which stages?",
+      "answers": [
+        "G1, G2, S and M",
+        "G1, G2, K and M",
+        "G1, S and G2",
+        "S, G1, G2 and N"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Interphase has three stages (G1, S, G2); M phase follows G2. G0 is an optional resting state."
+    },
+    {
+      "id": "lautech-100-bio101-059",
+      "prompt": "G2 phase is followed by",
+      "answers": [
+        "S phase",
+        "M phase",
+        "G0 phase",
+        "G1 phase"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "The order is G1 → S → G2 → M."
+    },
+    {
+      "id": "lautech-100-bio101-060",
+      "prompt": "The cell going through interphase is characterised by",
+      "answers": [
+        "complete rest",
+        "dormancy",
+        "growth and active metabolism",
+        "chromosome separation"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Interphase is a very active period of growth, organelle duplication and DNA replication, not a resting stage."
+    },
+    {
+      "id": "lautech-100-bio101-061",
+      "prompt": "The stage between two successive cell divisions is",
+      "answers": [
+        "aestivation",
+        "interphase",
+        "senescence",
+        "hibernation"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Interphase lies between one M phase and the next."
+    },
+    {
+      "id": "lautech-100-bio101-062",
+      "prompt": "The S phase of interphase involves",
+      "answers": [
+        "chromosome separation",
+        "secretion of enzymes",
+        "spindle formation",
+        "DNA synthesis"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "S stands for synthesis: DNA is replicated."
+    },
+    {
+      "id": "lautech-100-bio101-063",
+      "prompt": "Which of these is NOT an event of interphase?",
+      "answers": [
+        "DNA replication",
+        "Organelle duplication",
+        "Chromosome separation",
+        "DNA repair"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Chromosomes separate in anaphase, not interphase."
+    },
+    {
+      "id": "lautech-100-bio101-064",
+      "prompt": "During prophase the chromatin tends to",
+      "answers": [
+        "dissolve",
+        "condense",
+        "separate",
+        "multiply"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Chromatin coils into visible chromosomes in prophase."
+    },
+    {
+      "id": "lautech-100-bio101-065",
+      "prompt": "In mitosis, the nuclear membrane disappears at",
+      "answers": [
+        "anaphase",
+        "late prophase",
+        "interphase",
+        "telophase"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "The nuclear envelope breaks down at the end of prophase."
+    },
+    {
+      "id": "lautech-100-bio101-066",
+      "prompt": "Reformation of the nucleolus and nuclear membrane occurs at",
+      "answers": [
+        "telophase",
+        "metaphase",
+        "prophase",
+        "anaphase"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Telophase reverses prophase: nuclei re-form."
+    },
+    {
+      "id": "lautech-100-bio101-067",
+      "prompt": "At metaphase the chromosomes are arranged on the",
+      "answers": [
+        "poles of the cell",
+        "cell wall",
+        "nuclear membrane",
+        "equatorial plate (metaphase plate)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Chromosomes line up at the cell equator."
+    },
+    {
+      "id": "lautech-100-bio101-068",
+      "prompt": "The movement of separated chromosomes to opposite poles is brought about by",
+      "answers": [
+        "the nucleolus",
+        "spindle fibres",
+        "the cell wall",
+        "the equatorial plate"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Spindle microtubules pull chromatids apart."
+    },
+    {
+      "id": "lautech-100-bio101-069",
+      "prompt": "The tubulin-containing spindle fibres are formed from the",
+      "answers": [
+        "centrioles",
+        "nuclear membrane",
+        "centromere",
+        "nucleolus"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Centrioles organise the microtubules of the spindle."
+    },
+    {
+      "id": "lautech-100-bio101-070",
+      "prompt": "A pair of short microtubule structures involved in cell division is called a",
+      "answers": [
+        "cytoskeleton",
+        "microtubule sheath",
+        "centriole",
+        "undulipodium"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Centrioles occur in pairs near the nucleus in animal cells."
+    },
+    {
+      "id": "lautech-100-bio101-071",
+      "prompt": "The assemblage of radiating spindle fibres seen in prophase is called the",
+      "answers": [
+        "chiasma",
+        "centromere",
+        "aster",
+        "nucleolus"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Asters are star-like arrays of fibres around each centrosome."
+    },
+    {
+      "id": "lautech-100-bio101-072",
+      "prompt": "The point at which two sister chromatids are joined is the",
+      "answers": [
+        "centrosome",
+        "centriole",
+        "centromere",
+        "telomere"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Sister chromatids stay attached at the centromere until anaphase."
+    },
+    {
+      "id": "lautech-100-bio101-073",
+      "prompt": "A cell at mitotic telophase contains how many nuclei?",
+      "answers": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Two daughter nuclei form before the cell divides."
+    },
+    {
+      "id": "lautech-100-bio101-074",
+      "prompt": "Cytokinesis in plant cells occurs by the formation of",
+      "answers": [
+        "a contractile ring only",
+        "a cell plate",
+        "a metaphase plate",
+        "a cleavage furrow"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Plant cells have walls and divide by a cell plate; animal cells pinch by a cleavage furrow."
+    },
+    {
+      "id": "lautech-100-bio101-075",
+      "prompt": "Karyokinesis (nuclear division) is followed by",
+      "answers": [
+        "nuclear fusion",
+        "cytoplasmic fusion",
+        "cytoplasmic division (cytokinesis)",
+        "DNA replication"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Karyokinesis divides the nucleus; cytokinesis divides the cytoplasm."
+    },
+    {
+      "id": "lautech-100-bio101-076",
+      "prompt": "After two successive mitotic divisions of one cell, the number of daughter cells is",
+      "answers": [
+        "4",
+        "8",
+        "2",
+        "6"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "One cell → 2 → 4."
+    },
+    {
+      "id": "lautech-100-bio101-077",
+      "prompt": "Mitosis produces daughter cells that",
+      "answers": [
+        "are gametes",
+        "are genetically identical to the parent cell",
+        "have half the chromosome number",
+        "are all different"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Mitosis conserves chromosome number and gives uniform characteristics."
+    },
+    {
+      "id": "lautech-100-bio101-078",
+      "prompt": "Tissue development and growth are promoted by",
+      "answers": [
+        "crossing over",
+        "mitosis",
+        "meiosis",
+        "gene recombination"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Growth and repair depend on mitotic divisions."
+    },
+    {
+      "id": "lautech-100-bio101-079",
+      "prompt": "A cell that produces gametes must undergo",
+      "answers": [
+        "meiosis",
+        "mitosis",
+        "binary fission",
+        "equational division"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Meiosis halves the chromosome number to form gametes."
+    },
+    {
+      "id": "lautech-100-bio101-080",
+      "prompt": "Meiosis produces",
+      "answers": [
+        "two genetically identical cells",
+        "four daughter cells with the chromosome number reduced by half",
+        "organisms with uniform characteristics",
+        "four diploid daughter cells"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "One diploid cell gives four haploid cells that are genetically different."
+    },
+    {
+      "id": "lautech-100-bio101-081",
+      "prompt": "A single cell undergoes meiosis, and each daughter cell then undergoes meiosis again. How many cells are obtained in total?",
+      "answers": [
+        "8",
+        "16",
+        "20",
+        "12"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "1 cell → 4 cells → each of the 4 → 4 more = 16."
+    },
+    {
+      "id": "lautech-100-bio101-082",
+      "prompt": "A bivalent chromosome has how many pairs of sister chromatids?",
+      "answers": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "A bivalent is a pair of homologues, i.e. 4 chromatids = 2 pairs of sister chromatids."
+    },
+    {
+      "id": "lautech-100-bio101-083",
+      "prompt": "Prophase I of meiosis begins with the substage called",
+      "answers": [
+        "leptotene",
+        "zygotene",
+        "diakinesis",
+        "diplotene"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Order: leptotene, zygotene, pachytene, diplotene, diakinesis."
+    },
+    {
+      "id": "lautech-100-bio101-084",
+      "prompt": "In leptotene the chromosomes appear as",
+      "answers": [
+        "thin chromatin threads",
+        "paired bivalents",
+        "X-shaped tetrads",
+        "condensed rods at the equator"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Leptotene means 'thin thread'."
+    },
+    {
+      "id": "lautech-100-bio101-085",
+      "prompt": "Synapsis (pairing of homologous chromosomes) occurs in the substage",
+      "answers": [
+        "zygotene",
+        "leptotene",
+        "diplotene",
+        "diakinesis"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Zygotene means 'paired thread'."
+    },
+    {
+      "id": "lautech-100-bio101-086",
+      "prompt": "Crossing over (exchange of genetic material) occurs at the substage",
+      "answers": [
+        "pachytene",
+        "leptotene",
+        "zygotene",
+        "diakinesis"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Pachytene is when non-sister chromatids exchange segments."
+    },
+    {
+      "id": "lautech-100-bio101-087",
+      "prompt": "Chiasma terminalization takes place at",
+      "answers": [
+        "pachytene",
+        "diakinesis",
+        "leptotene",
+        "zygotene"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Chiasmata slide to chromosome ends in diakinesis, just before metaphase I."
+    },
+    {
+      "id": "lautech-100-bio101-088",
+      "prompt": "Separation of homologous chromosomes takes place at",
+      "answers": [
+        "anaphase II",
+        "metaphase I",
+        "metaphase II",
+        "anaphase I"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Anaphase I separates homologues; anaphase II separates sister chromatids."
+    },
+    {
+      "id": "lautech-100-bio101-089",
+      "prompt": "Anaphase II is characterised by",
+      "answers": [
+        "condensation of chromosomes",
+        "pairing of homologues",
+        "alignment of bivalents at the equator",
+        "separation of sister chromatids at the centromeres"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Centromeres divide and chromatids move to the poles."
+    },
+    {
+      "id": "lautech-100-bio101-090",
+      "prompt": "In metaphase I of meiosis, homologous chromosomes are aligned",
+      "answers": [
+        "along the nuclear membrane",
+        "at the poles",
+        "singly on the equatorial plane",
+        "in pairs on the equatorial plane"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Bivalents line up as pairs; in metaphase II chromosomes line up singly."
+    },
+    {
+      "id": "lautech-100-bio101-091",
+      "prompt": "During anaphase I of meiosis, homologous chromosomes separate at the points called",
+      "answers": [
+        "telophase",
+        "chiasmata",
+        "telomeres",
+        "nucleoli"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Chiasmata (crossover points) resolve so homologues separate; sister chromatids remain joined at the centromere."
+    },
+    {
+      "id": "lautech-100-bio101-092",
+      "prompt": "The process by which new gene combinations are formed on a chromosome is",
+      "answers": [
+        "rechromosomation",
+        "linkage",
+        "regeneration",
+        "recombination"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Crossing over in prophase I gives recombinant chromosomes."
+    },
+    {
+      "id": "lautech-100-bio101-093",
+      "prompt": "The word 'chromosome' means",
+      "answers": [
+        "coloured fluid",
+        "coloured body",
+        "coloured particle",
+        "coloured cell"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Greek: chroma = colour, soma = body."
+    },
+    {
+      "id": "lautech-100-bio101-094",
+      "prompt": "Genetics is the study of",
+      "answers": [
+        "biochemical composition of cells",
+        "heredity and respiration",
+        "heredity and variation",
+        "function and anatomy of organisms"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Genetics deals with how traits are inherited and how they vary."
+    },
+    {
+      "id": "lautech-100-bio101-095",
+      "prompt": "The carriers of heritable characters are the",
+      "answers": [
+        "tissues",
+        "cells",
+        "organs",
+        "chromosomes"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Genes are located on chromosomes and pass on traits."
+    },
+    {
+      "id": "lautech-100-bio101-096",
+      "prompt": "The unit of inheritance is the",
+      "answers": [
+        "tissue",
+        "gene",
+        "organ",
+        "cell"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "A gene is a segment of DNA on a chromosome controlling a trait."
+    },
+    {
+      "id": "lautech-100-bio101-097",
+      "prompt": "Which of these is transmitted from parents to offspring in heredity?",
+      "answers": [
+        "Education",
+        "Treatment",
+        "Characters (traits)",
+        "Medicines"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Heritable characters pass from parents to offspring."
+    },
+    {
+      "id": "lautech-100-bio101-098",
+      "prompt": "The law of inheritance of parental characters by progeny was elucidated by Mendel in the year",
+      "answers": [
+        "1920",
+        "1865",
+        "1822",
+        "1884"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Mendel presented his pea experiments in 1865."
+    },
+    {
+      "id": "lautech-100-bio101-099",
+      "prompt": "The pea plant experiments before Mendel were carried out by",
+      "answers": [
+        "Charles Darwin (1859)",
+        "Thomas Morgan (1910)",
+        "John Goss (1820)",
+        "Hugo de Vries (1900)"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Goss crossed peas around 1820, long before Mendel."
+    },
+    {
+      "id": "lautech-100-bio101-100",
+      "prompt": "Pea plants were used for genetic experiments by",
+      "answers": [
+        "John Goss and Gregor Mendel",
+        "Charles Darwin and Gregor Mendel",
+        "Matthias Schleiden and Gregor Mendel",
+        "Robert Hooke and Gregor Mendel"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Goss and later Mendel studied crosses in the garden pea."
+    },
+    {
+      "id": "lautech-100-bio101-101",
+      "prompt": "The scientific name of the garden pea used by Mendel is",
+      "answers": [
+        "Cycas revoluta",
+        "Pisum sativum",
+        "Phaseolus vulgaris",
+        "Zea mays"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Mendel worked on Pisum sativum."
+    },
+    {
+      "id": "lautech-100-bio101-102",
+      "prompt": "Pea plants were chosen for genetic experiments because they",
+      "answers": [
+        "are all homozygous dominant",
+        "have many clearly contrasting characters and are easy to cultivate",
+        "have only one trait",
+        "never produce seeds"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Contrasting traits, short life span and easy cultivation suit breeding experiments."
+    },
+    {
+      "id": "lautech-100-bio101-103",
+      "prompt": "Hybridization of plants can also be referred to as",
+      "answers": [
+        "a focus experiment",
+        "a transformation experiment",
+        "an exchange experiment",
+        "a crossing experiment"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Hybridization means crossing two different parents."
+    },
+    {
+      "id": "lautech-100-bio101-104",
+      "prompt": "A genotype in which both alleles are similar is called",
+      "answers": [
+        "heterozygous",
+        "homozygous",
+        "homo-synthetic",
+        "unitary zygous"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Homozygous = two identical alleles (TT or tt)."
+    },
+    {
+      "id": "lautech-100-bio101-105",
+      "prompt": "An individual is said to be ___ for a trait when the alleles controlling it are identical.",
+      "answers": [
+        "recessive",
+        "dominant",
+        "homozygous",
+        "heterozygous"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Identical alleles = homozygous."
+    },
+    {
+      "id": "lautech-100-bio101-106",
+      "prompt": "Heterozygous genotypes have",
+      "answers": [
+        "only one type of gene",
+        "two different forms of a gene (alleles)",
+        "identical alleles",
+        "four copies of a gene"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Heterozygous = two different alleles (Tt)."
+    },
+    {
+      "id": "lautech-100-bio101-107",
+      "prompt": "A dominant trait is characterised by",
+      "answers": [
+        "its genotype always being recessive",
+        "its ability to always appear phenotypically",
+        "never being inherited",
+        "its ability to always disappear"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "A dominant allele is expressed in the phenotype even in the heterozygote."
+    },
+    {
+      "id": "lautech-100-bio101-108",
+      "prompt": "An allele that is expressed only when two identical copies are present is",
+      "answers": [
+        "codominant",
+        "epistatic",
+        "dominant",
+        "recessive"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "A recessive trait shows only in the homozygous recessive condition."
+    },
+    {
+      "id": "lautech-100-bio101-109",
+      "prompt": "A recessive trait is expressed in a diploid offspring when",
+      "answers": [
+        "both controlling alleles are recessive (homozygous)",
+        "the controlling genes are heterozygous",
+        "there is no gene for the trait",
+        "a dominant allele is present"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Two recessive alleles are needed for expression."
+    },
+    {
+      "id": "lautech-100-bio101-110",
+      "prompt": "A pair of genes (alleles) is distributed ___ into the gametes during inheritance.",
+      "answers": [
+        "dependently",
+        "smoothly",
+        "independently",
+        "jointly"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Mendel's law of independent assortment."
+    },
+    {
+      "id": "lautech-100-bio101-111",
+      "prompt": "In a monohybrid cross between two heterozygotes, the F2 phenotypic ratio is",
+      "answers": [
+        "1:1",
+        "1:2:1",
+        "9:3:3:1",
+        "3:1"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Three show the dominant trait to one recessive."
+    },
+    {
+      "id": "lautech-100-bio101-112",
+      "prompt": "In a monohybrid cross between two heterozygotes, the F2 genotypic ratio is",
+      "answers": [
+        "3:1",
+        "1:2:1",
+        "9:3:3:1",
+        "1:1"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "1 homozygous dominant : 2 heterozygous : 1 homozygous recessive."
+    },
+    {
+      "id": "lautech-100-bio101-113",
+      "prompt": "In a cross between pure red-eyed (RR) and white-eyed (rr) Drosophila, the F2 phenotypic and genotypic ratios are respectively",
+      "answers": [
+        "1:2:1 and 3:1",
+        "1:1 and 3:1",
+        "9:3:3:1 and 1:1",
+        "3:1 and 1:2:1"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "F1 is all Rr; selfing gives 3 red : 1 white and 1 RR : 2 Rr : 1 rr."
+    },
+    {
+      "id": "lautech-100-bio101-114",
+      "prompt": "In a dihybrid cross, the number of phenotypes in the F2 generation is",
+      "answers": [
+        "2",
+        "6",
+        "9",
+        "4"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "The 9:3:3:1 ratio has four phenotypic classes."
+    },
+    {
+      "id": "lautech-100-bio101-115",
+      "prompt": "The F2 phenotypic ratio of a dihybrid cross is",
+      "answers": [
+        "9:3:3:1",
+        "1:2:1",
+        "3:1",
+        "1:1:1:1"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Mendel's dihybrid ratio."
+    },
+    {
+      "id": "lautech-100-bio101-116",
+      "prompt": "How many different gametes can be formed by a plant heterozygous for three contrasting characters?",
+      "answers": [
+        "8",
+        "3",
+        "16",
+        "9"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "2^3 = 8 gamete types."
+    },
+    {
+      "id": "lautech-100-bio101-117",
+      "prompt": "The first generation of a cross between a homozygous tall plant (TT) and a heterozygous tall plant (Tt) has a genotypic ratio of",
+      "answers": [
+        "3:1",
+        "1:2:1",
+        "1:1",
+        "1:1:1:1"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "TT × Tt gives 1 TT : 1 Tt."
+    },
+    {
+      "id": "lautech-100-bio101-118",
+      "prompt": "A cross between RRDD (round, yellow) and rrdd (wrinkled, green) peas gives F1 plants that are",
+      "answers": [
+        "half round, half wrinkled",
+        "round and green",
+        "all round and yellow",
+        "all wrinkled and green"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Round and yellow are dominant, so every F1 plant shows them."
+    },
+    {
+      "id": "lautech-100-bio101-119",
+      "prompt": "How many pea characters are mentioned? Plant A is tall with yellow flowers and white seeds, while plant B is short with yellow flowers and white seeds.",
+      "answers": [
+        "3",
+        "6",
+        "4",
+        "2"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "The characters are height, flower colour and seed colour."
+    },
+    {
+      "id": "lautech-100-bio101-120",
+      "prompt": "Gene expression means",
+      "answers": [
+        "synthesis of proteins",
+        "accumulation of proteins",
+        "neutralisation of proteins",
+        "digestion of proteins"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "A gene is expressed when it is transcribed and translated into protein."
+    },
+    {
+      "id": "lautech-100-bio101-121",
+      "prompt": "Gene mutations may occur in nucleic acids.",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Mutations are changes in the DNA (or RNA) base sequence."
+    },
+    {
+      "id": "lautech-100-bio101-122",
+      "prompt": "The commonest form of nucleic acid is",
+      "answers": [
+        "inorganic acid",
+        "RNA",
+        "organic acid",
+        "DNA"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "DNA is the genetic material of most organisms."
+    },
+    {
+      "id": "lautech-100-bio101-123",
+      "prompt": "DNA is a polymer built from",
+      "answers": [
+        "fatty acid monomers",
+        "nucleoside monomers",
+        "amino acid monomers",
+        "nucleotide monomers"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Each nucleotide has a base, a pentose sugar and a phosphate group."
+    },
+    {
+      "id": "lautech-100-bio101-124",
+      "prompt": "Nucleic acids contain which sub-units?",
+      "answers": [
+        "Nitrogenous bases, pentose sugars and phosphate groups",
+        "Fatty acids and phosphate",
+        "Pentose sugars and amino acids",
+        "Amino acids and glycerol"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "These three parts make up each nucleotide."
+    },
+    {
+      "id": "lautech-100-bio101-125",
+      "prompt": "A nucleoside consists of",
+      "answers": [
+        "two phosphate groups",
+        "a phosphate group and a pentose sugar",
+        "a nitrogenous base and a pentose sugar",
+        "a nitrogenous base and a phosphate group"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Nucleoside + phosphate group = nucleotide."
+    },
+    {
+      "id": "lautech-100-bio101-126",
+      "prompt": "A nucleotide is made up of",
+      "answers": [
+        "a phosphate and an alkyl group",
+        "a nucleoside and an alkyl group",
+        "a nucleoside and a phosphate group",
+        "two nucleosides"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "A nucleotide is a phosphorylated nucleoside."
+    },
+    {
+      "id": "lautech-100-bio101-127",
+      "prompt": "The bases of the two DNA strands are held together by",
+      "answers": [
+        "ionic bonds",
+        "hydrogen bonds",
+        "covalent bonds",
+        "van der Waals forces"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "A–T and G–C pairs are joined by hydrogen bonds."
+    },
+    {
+      "id": "lautech-100-bio101-128",
+      "prompt": "The process by which a stretch of DNA is copied into RNA is called",
+      "answers": [
+        "translocation",
+        "transcription",
+        "mutation",
+        "translation"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Transcription makes an RNA copy of a gene."
+    },
+    {
+      "id": "lautech-100-bio101-129",
+      "prompt": "A human gamete (sex cell) contains how many chromosomes?",
+      "answers": [
+        "23 pairs",
+        "46",
+        "23",
+        "22"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Gametes are haploid, with n = 23."
+    },
+    {
+      "id": "lautech-100-bio101-130",
+      "prompt": "Man has how many pairs of chromosomes in each body cell?",
+      "answers": [
+        "24",
+        "46",
+        "22",
+        "23"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Humans have 46 chromosomes = 23 pairs."
+    },
+    {
+      "id": "lautech-100-bio101-131",
+      "prompt": "The process by which chlorophyll-containing plants convert light energy into chemical energy is",
+      "answers": [
+        "photosynthesis",
+        "chlorination",
+        "irritability",
+        "plant phosphorylation"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Photosynthesis traps light energy to make sugars."
+    },
+    {
+      "id": "lautech-100-bio101-132",
+      "prompt": "6CO2 + 6H2O → C6H12O6 + 6O2 is the overall equation for",
+      "answers": [
+        "photosynthesis",
+        "excretion",
+        "gluconeogenesis",
+        "glycolysis"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Carbon dioxide and water form glucose and oxygen using light."
+    },
+    {
+      "id": "lautech-100-bio101-133",
+      "prompt": "Photosynthesis takes place in the plant's",
+      "answers": [
+        "leucoplasts",
+        "amyloplasts",
+        "etioplasts",
+        "chloroplasts"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Chloroplasts contain chlorophyll and the enzymes needed."
+    },
+    {
+      "id": "lautech-100-bio101-134",
+      "prompt": "The major site of photosynthesis in plants is the",
+      "answers": [
+        "leaves",
+        "stems",
+        "roots",
+        "flowers"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Leaves have the most chloroplast-rich tissue (mesophyll)."
+    },
+    {
+      "id": "lautech-100-bio101-135",
+      "prompt": "The green pigment in chloroplasts is",
+      "answers": [
+        "xanthophyll",
+        "chlorophyll",
+        "phaeophytin",
+        "carotene"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Chlorophyll gives leaves their green colour."
+    },
+    {
+      "id": "lautech-100-bio101-136",
+      "prompt": "Chlorophyll is housed in the",
+      "answers": [
+        "grana of the chloroplast",
+        "stomata",
+        "mesophyll cell wall",
+        "stroma of the chloroplast"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Chlorophyll sits in the thylakoid membranes stacked as grana."
+    },
+    {
+      "id": "lautech-100-bio101-137",
+      "prompt": "The basic unit of all chlorophyll molecules is the",
+      "answers": [
+        "imidazole ring",
+        "granum",
+        "stroma",
+        "porphyrin ring"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "A porphyrin ring of four pyrrole nuclei forms the head of chlorophyll."
+    },
+    {
+      "id": "lautech-100-bio101-138",
+      "prompt": "The atom at the centre of the porphyrin ring of chlorophyll is",
+      "answers": [
+        "potassium",
+        "iron",
+        "magnesium",
+        "calcium"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Magnesium sits at the centre; iron is in haem."
+    },
+    {
+      "id": "lautech-100-bio101-139",
+      "prompt": "The porphyrin ring of chlorophyll is joined to a phytol tail by",
+      "answers": [
+        "an ester linkage",
+        "a peptide bond",
+        "a hydrogen bond",
+        "a triple covalent bond"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "The phytol alcohol is esterified to the ring."
+    },
+    {
+      "id": "lautech-100-bio101-140",
+      "prompt": "Which of these is NOT a pigment found in chloroplasts?",
+      "answers": [
+        "Phaeophytin",
+        "Xanthophyll",
+        "Carotene",
+        "Quinine"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Quinine is a drug, not a plant photosynthetic pigment."
+    },
+    {
+      "id": "lautech-100-bio101-141",
+      "prompt": "The yellow pigment in leaves is",
+      "answers": [
+        "phaeophytin",
+        "chlorophyll a",
+        "quinine",
+        "xanthophyll"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Xanthophylls give yellow colouration."
+    },
+    {
+      "id": "lautech-100-bio101-142",
+      "prompt": "Which pigment is a precursor of vitamin A?",
+      "answers": [
+        "Phaeophytin",
+        "Chlorophyll b",
+        "Xanthophyll",
+        "Carotene"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Beta-carotene is converted to vitamin A in the body."
+    },
+    {
+      "id": "lautech-100-bio101-143",
+      "prompt": "The chlorophyll-like pigment of purple bacteria is",
+      "answers": [
+        "bacterioviridin",
+        "bacteriochlorophyll",
+        "xanthophyll",
+        "chlorophyll a"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Purple bacteria use bacteriochlorophyll."
+    },
+    {
+      "id": "lautech-100-bio101-144",
+      "prompt": "The chlorophyll-like pigment found in green sulphur bacteria is",
+      "answers": [
+        "bacteriochlorophyll",
+        "phaeophytin",
+        "bacterioviridin",
+        "carotene"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Green sulphur bacteria contain bacterioviridin (chlorobium chlorophyll)."
+    },
+    {
+      "id": "lautech-100-bio101-145",
+      "prompt": "The main photosynthetic pigment of green and purple sulphur bacteria is",
+      "answers": [
+        "bacteriochlorophyll",
+        "carotenoids",
+        "chlorophyll a",
+        "sulphur pigments"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Bacteriochlorophylls absorb light in these bacteria."
+    },
+    {
+      "id": "lautech-100-bio101-146",
+      "prompt": "Substances that selectively absorb light are called",
+      "answers": [
+        "stomata",
+        "colour absorbants",
+        "pigments",
+        "thylakoids"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Each pigment absorbs particular wavelengths."
+    },
+    {
+      "id": "lautech-100-bio101-147",
+      "prompt": "Chloroplast pigments absorb blue and red light most effectively and reflect or transmit ___ light.",
+      "answers": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Leaves look green because green light is reflected."
+    },
+    {
+      "id": "lautech-100-bio101-148",
+      "prompt": "Pigments that absorb light energy that chlorophyll a cannot absorb are called",
+      "answers": [
+        "etioplasts",
+        "accessory pigments",
+        "leucoplasts",
+        "lipid-soluble pigments"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Carotenoids and chlorophyll b pass energy to chlorophyll a."
+    },
+    {
+      "id": "lautech-100-bio101-149",
+      "prompt": "The arrangement of chlorophyll and other pigments in the thylakoids is called a",
+      "answers": [
+        "phototropism",
+        "photosystem",
+        "phytoplankton",
+        "hueism"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Photosystems I and II are the light-harvesting units."
+    },
+    {
+      "id": "lautech-100-bio101-150",
+      "prompt": "The flattened membrane sac in the chloroplast where light energy is converted to chemical energy is the",
+      "answers": [
+        "stroma",
+        "thylakoid",
+        "vacuole",
+        "cristae"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Light reactions occur on the thylakoid membrane."
+    },
+    {
+      "id": "lautech-100-bio101-151",
+      "prompt": "Which of these has no chlorophyll yet synthesises carbohydrates?",
+      "answers": [
+        "Marchantia polymorpha",
+        "Thiobacillus thioxidans",
+        "Euglena viridis",
+        "Spirogyra"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "It is a chemoautotroph using energy from oxidising sulphur compounds."
+    },
+    {
+      "id": "lautech-100-bio101-152",
+      "prompt": "Chemoautotrophic sulphur bacteria make carbohydrate in the absence of light and chlorophyll using energy from",
+      "answers": [
+        "oxidation of CO2",
+        "sunlight",
+        "reduction of H2S",
+        "oxidation of H2S"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Energy released by oxidising hydrogen sulphide drives CO2 reduction."
+    },
+    {
+      "id": "lautech-100-bio101-153",
+      "prompt": "Photosynthesis has two stages, namely",
+      "answers": [
+        "photosystem and phosphorylation",
+        "light reaction and dark reaction",
+        "glycolysis and Krebs cycle",
+        "dark reaction and glucose formation"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Light-dependent and light-independent stages."
+    },
+    {
+      "id": "lautech-100-bio101-154",
+      "prompt": "The light reaction of photosynthesis is also known as the",
+      "answers": [
+        "carbon fixation",
+        "photochemical reaction",
+        "Calvin cycle",
+        "dark stage"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Light absorption drives chemical changes, so it is photochemical."
+    },
+    {
+      "id": "lautech-100-bio101-155",
+      "prompt": "The end products of the light reaction stage are",
+      "answers": [
+        "ATP and CO2",
+        "glucose and O2",
+        "ATP and NADPH",
+        "ADP and NADP"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "These carry energy and reducing power to the dark reaction."
+    },
+    {
+      "id": "lautech-100-bio101-156",
+      "prompt": "Photolysis of water means",
+      "answers": [
+        "splitting of carbon dioxide",
+        "fusion of water and CO2",
+        "splitting of water molecules in photosynthesis",
+        "formation of sugars"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Light splits water into H+, electrons and oxygen."
+    },
+    {
+      "id": "lautech-100-bio101-157",
+      "prompt": "Photolysis of water is also known as",
+      "answers": [
+        "photocleavage of CO2",
+        "photodissociation (photodecomposition)",
+        "photoreception",
+        "photo-effect"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "All describe the light-driven splitting of water."
+    },
+    {
+      "id": "lautech-100-bio101-158",
+      "prompt": "The oxygen released in photosynthesis comes from",
+      "answers": [
+        "chlorophyll",
+        "glucose",
+        "carbon dioxide",
+        "water"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Photolysis of water liberates O2."
+    },
+    {
+      "id": "lautech-100-bio101-159",
+      "prompt": "The oxygen produced by the photosynthetic reaction is",
+      "answers": [
+        "added to sugar",
+        "used up in the plant",
+        "released into the atmosphere",
+        "stored until needed"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Oxygen is a by-product that leaves through the stomata."
+    },
+    {
+      "id": "lautech-100-bio101-160",
+      "prompt": "The hydrogen from photolysis of water is picked up by",
+      "answers": [
+        "NADP+",
+        "stomata",
+        "lenticels",
+        "carotenoids"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "NADP+ accepts hydrogen to form NADPH."
+    },
+    {
+      "id": "lautech-100-bio101-161",
+      "prompt": "The production of ATP in photosynthesis is called",
+      "answers": [
+        "glycolysis",
+        "photosynthetic phosphorylation",
+        "ATP decarboxylation",
+        "dark phosphorylation"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Also called photophosphorylation."
+    },
+    {
+      "id": "lautech-100-bio101-162",
+      "prompt": "Another name for photophosphorylation is",
+      "answers": [
+        "photosynthesis",
+        "dark reaction",
+        "photodecomposition",
+        "photosynthetic phosphorylation"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Light energy is used to add phosphate to ADP."
+    },
+    {
+      "id": "lautech-100-bio101-163",
+      "prompt": "The electron-transport system that generates ATP in photosynthesis also evolves",
+      "answers": [
+        "oxygen",
+        "sulphur",
+        "nitrogen",
+        "carbon dioxide"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Electrons come from water, which releases O2."
+    },
+    {
+      "id": "lautech-100-bio101-164",
+      "prompt": "Which of these acts as a reducing agent in photosynthesis?",
+      "answers": [
+        "ATP",
+        "ADP",
+        "NADP+",
+        "NADPH"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "NADPH donates hydrogen/electrons; NADP+ is its oxidised form."
+    },
+    {
+      "id": "lautech-100-bio101-165",
+      "prompt": "The second major phase of photosynthesis is the",
+      "answers": [
+        "photolysis of water",
+        "dark reaction",
+        "production of NADPH",
+        "light reaction"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "The dark (light-independent) stage reduces CO2 to sugar."
+    },
+    {
+      "id": "lautech-100-bio101-166",
+      "prompt": "The dark reaction of photosynthesis is also known as the",
+      "answers": [
+        "Krebs cycle",
+        "Calvin cycle",
+        "carbon cycle",
+        "Melvin cycle"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Named after Melvin Calvin."
+    },
+    {
+      "id": "lautech-100-bio101-167",
+      "prompt": "The dark reaction takes place in the",
+      "answers": [
+        "cytoplasm",
+        "stroma of the chloroplast",
+        "thylakoid membrane",
+        "mitochondrial matrix"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Calvin-cycle enzymes are in the stroma."
+    },
+    {
+      "id": "lautech-100-bio101-168",
+      "prompt": "The dark reaction involves the",
+      "answers": [
+        "oxidation of O2",
+        "reduction of O2",
+        "reduction of CO2",
+        "oxidation of CO2"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "CO2 is reduced to carbohydrate."
+    },
+    {
+      "id": "lautech-100-bio101-169",
+      "prompt": "The dark reaction ultimately forms",
+      "answers": [
+        "protein",
+        "pentose sugar",
+        "ethanol",
+        "hexose sugar"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Carbon fixation yields glucose and other hexoses."
+    },
+    {
+      "id": "lautech-100-bio101-170",
+      "prompt": "The incorporation of carbon dioxide into organic compounds is called",
+      "answers": [
+        "phosphorylation",
+        "esterification",
+        "carbon fixation",
+        "decarboxylation"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "CO2 is 'fixed' into organic molecules."
+    },
+    {
+      "id": "lautech-100-bio101-171",
+      "prompt": "The key enzyme of the Calvin cycle is",
+      "answers": [
+        "amylase",
+        "ATPase",
+        "hydrogenase",
+        "RuBisCO (ribulose-1,5-bisphosphate carboxylase)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "RuBisCO fixes CO2 onto RuBP."
+    },
+    {
+      "id": "lautech-100-bio101-172",
+      "prompt": "The carboxylation of the C5 compound that fixes CO2 in photosynthesis involves",
+      "answers": [
+        "pyruvate",
+        "ferredoxin",
+        "ribulose 1,5-bisphosphate",
+        "photosynthetic phosphorylation"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "RuBP is the CO2 acceptor."
+    },
+    {
+      "id": "lautech-100-bio101-173",
+      "prompt": "The first stable intermediate of the overall photosynthetic process is",
+      "answers": [
+        "NADH",
+        "phosphoglyceric acid (PGA)",
+        "ribulose 1,5-bisphosphate",
+        "NADP"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "RuBP + CO2 gives two molecules of PGA."
+    },
+    {
+      "id": "lautech-100-bio101-174",
+      "prompt": "PGA is reduced to a triose sugar by",
+      "answers": [
+        "NADP and ADP",
+        "NAD+ and ATP",
+        "ATP and ADP",
+        "NADPH and ATP"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "The light reaction supplies NADPH and ATP."
+    },
+    {
+      "id": "lautech-100-bio101-175",
+      "prompt": "Which of these is NOT a limiting factor of photosynthesis?",
+      "answers": [
+        "Temperature",
+        "Light intensity",
+        "Air current",
+        "Carbon dioxide concentration"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Light, CO2 and temperature limit the rate; air current does not directly."
+    },
+    {
+      "id": "lautech-100-bio101-176",
+      "prompt": "An internal factor affecting photosynthesis is",
+      "answers": [
+        "carbon dioxide in air",
+        "chlorophyll content",
+        "temperature",
+        "light intensity"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Internal factors are within the plant; the others are external."
+    },
+    {
+      "id": "lautech-100-bio101-177",
+      "prompt": "As light intensity increases, the rate of the light reaction increases and photosynthesis",
+      "answers": [
+        "remains constant",
+        "stops",
+        "decreases",
+        "increases (until another factor becomes limiting)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "More light drives more ATP and NADPH formation."
+    },
+    {
+      "id": "lautech-100-bio101-178",
+      "prompt": "The best photosynthetic rate is obtained when favourable light is available during the day for about",
+      "answers": [
+        "2–6 hours",
+        "4–5 hours",
+        "10–12 hours",
+        "1–6 hours"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Longer favourable illumination gives higher yield."
+    },
+    {
+      "id": "lautech-100-bio101-179",
+      "prompt": "The most significant chemical energy carrier in living cells is",
+      "answers": [
+        "ADP",
+        "ATP",
+        "NADPH2",
+        "NADP"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "ATP is the energy currency of the cell."
+    },
+    {
+      "id": "lautech-100-bio101-180",
+      "prompt": "The full meaning of ATP is",
+      "answers": [
+        "adenosine triphosphate",
+        "adenine triphosphate",
+        "amino tri-phosphate",
+        "adenosine tri-protein"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Adenosine with three phosphate groups."
+    },
+    {
+      "id": "lautech-100-bio101-181",
+      "prompt": "The carbon dioxide produced by respiration is used up by",
+      "answers": [
+        "mitochondria",
+        "chlorophyll-containing cells",
+        "membrane cells",
+        "plastid cells"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Chlorophyllous cells fix it in photosynthesis."
+    },
+    {
+      "id": "lautech-100-bio101-182",
+      "prompt": "Which plant tissue is mainly concerned with photosynthesis and starch storage?",
+      "answers": [
+        "Cork",
+        "Parenchyma",
+        "Xylem fibre",
+        "Sclerenchyma"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Parenchyma (chlorenchyma) carries out photosynthesis and stores starch."
+    },
+    {
+      "id": "lautech-100-bio101-183",
+      "prompt": "Respiration is the process by which cells obtain energy as ATP by",
+      "answers": [
+        "absorbing light",
+        "digesting food in the gut",
+        "losing water",
+        "taking in oxygen and releasing carbon dioxide from oxidation of organic substances"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Cellular respiration oxidises food to release ATP, CO2 and water."
+    },
+    {
+      "id": "lautech-100-bio101-184",
+      "prompt": "Glycolysis takes place in the",
+      "answers": [
+        "mitochondrial outer membrane",
+        "cytoplasm",
+        "nucleus",
+        "mitochondrial matrix"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Glycolysis occurs in the cytosol."
+    },
+    {
+      "id": "lautech-100-bio101-185",
+      "prompt": "The substance needed to begin glycolysis is",
+      "answers": [
+        "glucose",
+        "pyruvate",
+        "alcohol",
+        "carbon dioxide"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Glucose is the substrate; ATP is only needed for activation."
+    },
+    {
+      "id": "lautech-100-bio101-186",
+      "prompt": "The first phase in the breakdown of glucose in an animal cell is",
+      "answers": [
+        "glycolysis",
+        "electron transport chain",
+        "Krebs cycle",
+        "fermentation"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Glycolysis precedes all other stages."
+    },
+    {
+      "id": "lautech-100-bio101-187",
+      "prompt": "The end product of glycolysis is",
+      "answers": [
+        "citric acid",
+        "fumaric acid",
+        "pyruvic acid (pyruvate)",
+        "acetic acid"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Glucose (6C) splits into two pyruvates (3C)."
+    },
+    {
+      "id": "lautech-100-bio101-188",
+      "prompt": "In addition to ATP, the products of glycolysis are",
+      "answers": [
+        "CO2 and NADH",
+        "CO2 and oxygen",
+        "NADH and pyruvate",
+        "CO2 and pyruvate"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "No CO2 is released in glycolysis."
+    },
+    {
+      "id": "lautech-100-bio101-189",
+      "prompt": "The net gain of ATP in glycolysis is",
+      "answers": [
+        "6",
+        "4",
+        "2",
+        "8"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "4 ATP are made but 2 are used, so net 2."
+    },
+    {
+      "id": "lautech-100-bio101-190",
+      "prompt": "The part of respiration common to both aerobic and anaerobic respiration is",
+      "answers": [
+        "Krebs cycle",
+        "electron transport chain",
+        "glycolysis",
+        "fermentation"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Both begin with glycolysis in the cytoplasm."
+    },
+    {
+      "id": "lautech-100-bio101-191",
+      "prompt": "Glucose is incompletely oxidised in glycolysis and completely oxidised in",
+      "answers": [
+        "the dihydroxyacetone pathway",
+        "glycolysis again",
+        "fermentation",
+        "the Krebs cycle and electron transport chain"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Mitochondrial stages finish the oxidation to CO2 and water."
+    },
+    {
+      "id": "lautech-100-bio101-192",
+      "prompt": "The three phases of aerobic respiration are glycolysis, Krebs cycle and",
+      "answers": [
+        "carbonation",
+        "oxidative phosphorylation (electron transport chain)",
+        "fermentation",
+        "exhalation"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "ETC and chemiosmosis make most ATP."
+    },
+    {
+      "id": "lautech-100-bio101-193",
+      "prompt": "Aerobic respiration occurs in the",
+      "answers": [
+        "mitochondria and nucleus",
+        "ribosome and nucleus",
+        "cytoplasm and mitochondria",
+        "cytoplasm and ribosome"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Glycolysis is cytoplasmic; Krebs and ETC are mitochondrial."
+    },
+    {
+      "id": "lautech-100-bio101-194",
+      "prompt": "Anaerobic and aerobic respiration take place respectively in",
+      "answers": [
+        "cytoplasm and cell membrane",
+        "mitochondria and cytoplasm",
+        "cytoplasm and mitochondria",
+        "cell membrane and cytoplasm"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Anaerobic respiration is cytoplasmic."
+    },
+    {
+      "id": "lautech-100-bio101-195",
+      "prompt": "Most of the CO2 from aerobic respiration is released during the",
+      "answers": [
+        "electron transport chain",
+        "glycolysis",
+        "citric acid (Krebs) cycle",
+        "fermentation"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "CO2 is released at the decarboxylation steps of the Krebs cycle (and link reaction)."
+    },
+    {
+      "id": "lautech-100-bio101-196",
+      "prompt": "Which of the following is released as waste in the Krebs cycle?",
+      "answers": [
+        "Lactic acid",
+        "Carbon dioxide",
+        "Pyruvic acid",
+        "Ethanol"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Acetyl CoA is oxidised to CO2; water is formed in the electron transport chain."
+    },
+    {
+      "id": "lautech-100-bio101-197",
+      "prompt": "During which stage of aerobic respiration is oxygen necessary?",
+      "answers": [
+        "Electron transport chain",
+        "Glycolysis",
+        "Citric acid cycle",
+        "Pyruvate dehydrogenase step"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Oxygen is the final electron acceptor."
+    },
+    {
+      "id": "lautech-100-bio101-198",
+      "prompt": "The primary role of oxygen in cellular respiration is to",
+      "answers": [
+        "combine with carbon to form CO2",
+        "act as the final acceptor of electrons and hydrogen, forming water",
+        "combine with lactate to form pyruvate",
+        "produce glucose"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Without O2 the electron transport chain stops."
+    },
+    {
+      "id": "lautech-100-bio101-199",
+      "prompt": "Oxidation is",
+      "answers": [
+        "addition of protons",
+        "the loss of electrons from a molecule",
+        "the loss of water",
+        "the gain of electrons"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Oxidation is loss of electrons; reduction is gain."
+    },
+    {
+      "id": "lautech-100-bio101-200",
+      "prompt": "The enzyme that converts pyruvate to acetyl coenzyme A by decarboxylation is",
+      "answers": [
+        "phosphofructokinase",
+        "fumarase",
+        "citrate synthase",
+        "pyruvate dehydrogenase"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "The pyruvate dehydrogenase complex removes CO2 from pyruvate."
+    },
+    {
+      "id": "lautech-100-bio101-201",
+      "prompt": "The intermediate formed when a carbon is removed from pyruvate and which enters the citric acid cycle is",
+      "answers": [
+        "acetyl coenzyme A",
+        "citrate",
+        "lactate",
+        "oxaloacetate"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Pyruvate → acetyl CoA + CO2."
+    },
+    {
+      "id": "lautech-100-bio101-202",
+      "prompt": "Anaerobic respiration is common in",
+      "answers": [
+        "lower organisms such as bacteria and yeast",
+        "mammals",
+        "flowering plants",
+        "birds"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Simple, mostly unicellular organisms rely on it."
+    },
+    {
+      "id": "lautech-100-bio101-203",
+      "prompt": "The end products of fermentation in yeast are",
+      "answers": [
+        "ethanol and carbon dioxide",
+        "CO2 and O2",
+        "CO2 and citric acid",
+        "CO2 and acetaldehyde only"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Yeast converts pyruvate into ethanol and CO2."
+    },
+    {
+      "id": "lautech-100-bio101-204",
+      "prompt": "When yeast ferments sugar in dough, the gas that makes the dough rise is",
+      "answers": [
+        "oxygen",
+        "carbon dioxide",
+        "ethanol vapour",
+        "water vapour"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "CO2 bubbles are trapped in the dough."
+    },
+    {
+      "id": "lautech-100-bio101-205",
+      "prompt": "Which of these is NOT a product of anaerobic respiration?",
+      "answers": [
+        "Alcohol",
+        "Carbon dioxide",
+        "Lactic acid",
+        "Water"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Water is a product of aerobic respiration."
+    },
+    {
+      "id": "lautech-100-bio101-206",
+      "prompt": "Muscle cramps are caused by the accumulation of",
+      "answers": [
+        "tartaric acid",
+        "pyruvic acid",
+        "lactic acid",
+        "citric acid"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Muscles respire anaerobically in strenuous exercise and make lactic acid."
+    },
+    {
+      "id": "lautech-100-bio101-207",
+      "prompt": "Sufficient energy is released in ___ respiration while a low amount is released in ___ respiration.",
+      "answers": [
+        "aerobic; anaerobic",
+        "anaerobic; aerobic",
+        "glycolysis; pyruvate",
+        "fermentation; oxidation"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Aerobic respiration yields far more ATP per glucose."
+    },
+    {
+      "id": "lautech-100-bio101-208",
+      "prompt": "During and after strenuous exercise, more oxygen is used by the muscles and the amount of carbon dioxide in the blood",
+      "answers": [
+        "overflows",
+        "remains zero",
+        "decreases",
+        "increases"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Faster respiration produces more CO2."
+    },
+    {
+      "id": "lautech-100-bio101-209",
+      "prompt": "In higher plants, the main respiratory (gas exchange) structures are the",
+      "answers": [
+        "vacuoles",
+        "lenticels only",
+        "stomata and lenticels",
+        "stomata only"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Gases enter leaves via stomata and woody stems via lenticels."
+    },
+    {
+      "id": "lautech-100-bio101-210",
+      "prompt": "Gaseous exchange between the atmosphere and the leaf takes place through the",
+      "answers": [
+        "stomata",
+        "cytoplasm",
+        "mitochondria",
+        "gut"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Stomata are pores in the leaf epidermis."
+    },
+    {
+      "id": "lautech-100-bio101-211",
+      "prompt": "Gaseous exchange in plants takes place through the stomata and",
+      "answers": [
+        "lenticels",
+        "cambium",
+        "cuticle",
+        "epidermal cells"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Lenticels are pores in bark."
+    },
+    {
+      "id": "lautech-100-bio101-212",
+      "prompt": "Gills are organs of gas exchange in",
+      "answers": [
+        "mammals",
+        "aquatic animals",
+        "terrestrial insects",
+        "birds"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Gills extract dissolved oxygen from water."
+    },
+    {
+      "id": "lautech-100-bio101-213",
+      "prompt": "The tracheal system of gaseous exchange is common in",
+      "answers": [
+        "fish",
+        "goats",
+        "earthworms",
+        "insects"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Insects have tracheae opening through spiracles."
+    },
+    {
+      "id": "lautech-100-bio101-214",
+      "prompt": "The tracheal system of insects opens to the outside through openings called",
+      "answers": [
+        "spiracles",
+        "gills",
+        "lenticels",
+        "lungs"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Spiracles are the pores through which air enters the tracheae."
+    },
+    {
+      "id": "lautech-100-bio101-215",
+      "prompt": "The respiratory organ of an insect is the",
+      "answers": [
+        "Malpighian tubule",
+        "nephridium",
+        "tracheal system",
+        "flame cell"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Insects breathe through tracheae."
+    },
+    {
+      "id": "lautech-100-bio101-216",
+      "prompt": "Which organism uses its body surface (skin) for respiration?",
+      "answers": [
+        "Frog",
+        "Bat",
+        "Monkey",
+        "Fish"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Frogs breathe partly through moist skin."
+    },
+    {
+      "id": "lautech-100-bio101-217",
+      "prompt": "One characteristic of a respiratory surface is that it is",
+      "answers": [
+        "impermeable to water",
+        "rounded in shape",
+        "permeable to gases",
+        "coloured"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Gases must diffuse across it; it is also thin and moist."
+    },
+    {
+      "id": "lautech-100-bio101-218",
+      "prompt": "A respiratory surface must be ventilated so that",
+      "answers": [
+        "it stays dry",
+        "it becomes coloured",
+        "fresh respiratory medium keeps a steep diffusion gradient",
+        "it stores oxygen"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Ventilation replaces stale air or water with fresh supplies."
+    },
+    {
+      "id": "lautech-100-bio101-219",
+      "prompt": "The primary function of gaseous exchange in animals is to",
+      "answers": [
+        "reproduce",
+        "deliver oxygen to the body cells and remove carbon dioxide",
+        "carry out excretion only",
+        "digest food"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Gas exchange supplies O2 for respiration and removes CO2."
+    },
+    {
+      "id": "lautech-100-bio101-220",
+      "prompt": "The area of the body with the highest oxygen concentration is the",
+      "answers": [
+        "tissue",
+        "lungs",
+        "gland",
+        "ileum"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Inhaled air raises oxygen levels in the lungs."
+    },
+    {
+      "id": "lautech-100-bio101-221",
+      "prompt": "Oxygen is transported in the body from the",
+      "answers": [
+        "kidney to the tissues",
+        "tissues to the lungs",
+        "tissues to the ileum",
+        "lungs to the tissues"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Blood carries oxygen from the lungs to cells."
+    },
+    {
+      "id": "lautech-100-bio101-222",
+      "prompt": "Catabolism has the major purpose of",
+      "answers": [
+        "storing heat",
+        "building complex molecules",
+        "removing water",
+        "providing energy and components needed for anabolism"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Catabolism breaks down molecules to release energy and building blocks."
+    },
+    {
+      "id": "lautech-100-bio101-223",
+      "prompt": "Three steps are needed for anabolism. Which of these is NOT one of them?",
+      "answers": [
+        "Assembly of precursors into complex molecules",
+        "Production of precursors",
+        "Activation of precursors into active forms",
+        "Breaking down of complex molecules"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Breaking down complex molecules is catabolism."
+    },
+    {
+      "id": "lautech-100-bio101-224",
+      "prompt": "A complex sequence of controlled biochemical reactions in cellular metabolism is called a",
+      "answers": [
+        "metabolic pathway",
+        "catabolism",
+        "anabolism",
+        "homeostasis"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "A metabolic pathway links reactions in sequence."
+    },
+    {
+      "id": "lautech-100-bio101-225",
+      "prompt": "In a metabolic pathway, one chemical is transformed into another by a sequence of",
+      "answers": [
+        "precursors",
+        "enzymes",
+        "catalysts only",
+        "coenzymes"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Each step has its own enzyme."
+    },
+    {
+      "id": "lautech-100-bio101-226",
+      "prompt": "All cells carry out ___ activities.",
+      "answers": [
+        "homeostatic only",
+        "metabolic",
+        "anabolic only",
+        "catabolic only"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Every living cell has metabolism."
+    },
+    {
+      "id": "lautech-100-bio101-227",
+      "prompt": "Digested food is converted into energy in the cells through",
+      "answers": [
+        "ingestion",
+        "egestion",
+        "peristalsis",
+        "metabolism"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Biochemical reactions of metabolism release energy."
+    },
+    {
+      "id": "lautech-100-bio101-228",
+      "prompt": "Lipids are generally soluble in",
+      "answers": [
+        "polar solvents",
+        "water",
+        "inorganic solvents",
+        "organic solvents"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Lipids are non-polar."
+    },
+    {
+      "id": "lautech-100-bio101-229",
+      "prompt": "Which group of compounds includes fats, waxes, phospholipids, carotenoids and sterols?",
+      "answers": [
+        "Lipids",
+        "Vitamins",
+        "Carbohydrates",
+        "Proteins"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "These are all lipid-soluble biomolecules."
+    },
+    {
+      "id": "lautech-100-bio101-230",
+      "prompt": "The simplest phospholipid is",
+      "answers": [
+        "phosphatidic acid",
+        "phosphotidic alcohol",
+        "phosphatidiol",
+        "phosphotidiol"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Phosphatidic acid has glycerol, two fatty acids and a phosphate."
+    },
+    {
+      "id": "lautech-100-bio101-231",
+      "prompt": "In carbohydrates the ratio of carbon to hydrogen to oxygen is",
+      "answers": [
+        "1:1:2",
+        "1:2:1",
+        "2:1:3",
+        "2:1:1"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "General formula (CH2O)n."
+    },
+    {
+      "id": "lautech-100-bio101-232",
+      "prompt": "Which of these are six-carbon monosaccharides (hexoses)?",
+      "answers": [
+        "Ribose and deoxyribose",
+        "Glucose, fructose and galactose",
+        "Starch and glycogen",
+        "Maltose and lactose"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "All have the formula C6H12O6."
+    },
+    {
+      "id": "lautech-100-bio101-233",
+      "prompt": "Five-carbon sugars (pentoses) include",
+      "answers": [
+        "ribose and deoxyribose",
+        "glucose and fructose",
+        "sucrose and lactose",
+        "starch and cellulose"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "They form part of RNA and DNA."
+    },
+    {
+      "id": "lautech-100-bio101-234",
+      "prompt": "Maltose is made of",
+      "answers": [
+        "glucose + fructose",
+        "glucose + galactose",
+        "glucose + glucose",
+        "fructose + galactose"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Maltose is malt sugar."
+    },
+    {
+      "id": "lautech-100-bio101-235",
+      "prompt": "Lactose is made of",
+      "answers": [
+        "fructose + galactose",
+        "glucose + glucose",
+        "glucose + galactose",
+        "glucose + fructose"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Lactose is milk sugar."
+    },
+    {
+      "id": "lautech-100-bio101-236",
+      "prompt": "Sucrose is made of",
+      "answers": [
+        "glucose + galactose",
+        "glucose + glucose",
+        "fructose + galactose",
+        "glucose + fructose"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Sucrose is table sugar."
+    },
+    {
+      "id": "lautech-100-bio101-237",
+      "prompt": "Which of the following is NOT a polysaccharide?",
+      "answers": [
+        "Cellulose",
+        "Chitin",
+        "Lignin",
+        "Glycogen"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Lignin is a phenolic polymer, not a carbohydrate."
+    },
+    {
+      "id": "lautech-100-bio101-238",
+      "prompt": "The polysaccharide in the cell wall of fungi is",
+      "answers": [
+        "chitin",
+        "lignin",
+        "murein",
+        "cellulose"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Fungal walls are made of chitin."
+    },
+    {
+      "id": "lautech-100-bio101-239",
+      "prompt": "The complex polymer found in older, woody cell walls is",
+      "answers": [
+        "synaptonemal complex",
+        "peptidoglycan",
+        "lignin",
+        "chitin"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Lignin gives wood rigidity."
+    },
+    {
+      "id": "lautech-100-bio101-240",
+      "prompt": "Animals store energy mainly as",
+      "answers": [
+        "xylose",
+        "glucose",
+        "starch",
+        "glycogen"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Excess glucose is stored as glycogen in liver and muscle."
+    },
+    {
+      "id": "lautech-100-bio101-241",
+      "prompt": "The enzyme that acts on carbohydrate (starch) is",
+      "answers": [
+        "amylase",
+        "carbon oxidase",
+        "carbonic anhydrase",
+        "trypsin"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Amylase hydrolyses starch to sugars."
+    },
+    {
+      "id": "lautech-100-bio101-242",
+      "prompt": "In the formation of a peptide bond between amino acids,",
+      "answers": [
+        "two R-groups join",
+        "two carboxyl groups join",
+        "the carboxyl group of one amino acid joins the amino group of the next",
+        "two amino groups join"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Condensation links –COOH of one to –NH2 of another."
+    },
+    {
+      "id": "lautech-100-bio101-243",
+      "prompt": "The type of an amino acid is determined by its",
+      "answers": [
+        "peptide bond",
+        "carboxylic group",
+        "side chain (R group)",
+        "amino group"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "The R group differs between amino acids."
+    },
+    {
+      "id": "lautech-100-bio101-244",
+      "prompt": "Which of these is a fat-soluble vitamin?",
+      "answers": [
+        "Vitamin D",
+        "Vitamin B",
+        "Vitamin C",
+        "Vitamin B12"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Vitamins A, D, E and K are fat-soluble."
+    },
+    {
+      "id": "lautech-100-bio101-245",
+      "prompt": "Vitamins are required in",
+      "answers": [
+        "trace amounts",
+        "large amounts",
+        "no amount",
+        "only in plants"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Small quantities are enough; some act as coenzymes."
+    },
+    {
+      "id": "lautech-100-bio101-246",
+      "prompt": "Excess amino acids are deaminated in the",
+      "answers": [
+        "liver",
+        "thymus gland",
+        "spleen",
+        "kidney"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The liver removes the amino group and forms urea."
+    },
+    {
+      "id": "lautech-100-bio101-247",
+      "prompt": "Movement of materials into and out of cells by diffusion, osmosis, phagocytosis and active transport is described as",
+      "answers": [
+        "chemical",
+        "biological only",
+        "physical",
+        "nuclear"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "These are physical processes."
+    },
+    {
+      "id": "lautech-100-bio101-248",
+      "prompt": "Exchange of substances between cells and their surroundings occurs primarily by",
+      "answers": [
+        "diffusion",
+        "cell gradient",
+        "translocation",
+        "osmosis"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Diffusion is the main passive mechanism for gas and solute exchange."
+    },
+    {
+      "id": "lautech-100-bio101-249",
+      "prompt": "Which of these favours the rate of diffusion?",
+      "answers": [
+        "A thicker membrane",
+        "Lower temperature",
+        "A shallower concentration gradient",
+        "A steeper concentration gradient"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "The greater the concentration difference, the faster the diffusion."
+    },
+    {
+      "id": "lautech-100-bio101-250",
+      "prompt": "Which state of matter has the greatest molecular speed?",
+      "answers": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Crystal"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Gas molecules move fastest, so gases diffuse fastest."
+    },
+    {
+      "id": "lautech-100-bio101-251",
+      "prompt": "Which of these is NOT suitable for demonstrating diffusion?",
+      "answers": [
+        "Ammonia solution",
+        "Perfume",
+        "Hydrogen sulphide",
+        "Protein particles"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Large protein particles diffuse too slowly to show it."
+    },
+    {
+      "id": "lautech-100-bio101-252",
+      "prompt": "Osmosis is a special case of",
+      "answers": [
+        "imbibition",
+        "translocation",
+        "transpiration",
+        "diffusion"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Osmosis is diffusion of water through a selectively permeable membrane."
+    },
+    {
+      "id": "lautech-100-bio101-253",
+      "prompt": "For osmosis to occur, which of these must be present?",
+      "answers": [
+        "A selectively permeable membrane",
+        "A completely permeable wall",
+        "Light",
+        "Only solid particles"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "The membrane lets water pass but restricts solutes."
+    },
+    {
+      "id": "lautech-100-bio101-254",
+      "prompt": "Which apparatus is used to demonstrate osmosis?",
+      "answers": [
+        "Photometer",
+        "Potometer only",
+        "Spirometer",
+        "Osmometer"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "An osmometer shows water movement through a semi-permeable membrane."
+    },
+    {
+      "id": "lautech-100-bio101-255",
+      "prompt": "In osmosis, the osmotic potential of a solution describes its tendency to",
+      "answers": [
+        "lose solutes",
+        "gain water",
+        "remain unchanged",
+        "lose water"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "A concentrated solution has a high tendency to take up water."
+    },
+    {
+      "id": "lautech-100-bio101-256",
+      "prompt": "Water enters root hairs by",
+      "answers": [
+        "guttation",
+        "transpiration",
+        "translocation",
+        "osmosis"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Soil water is more dilute than the cell sap, so it enters by osmosis."
+    },
+    {
+      "id": "lautech-100-bio101-257",
+      "prompt": "In an osmosis experiment with yam tissue in sodium chloride solution, which is the weaker (more dilute) solution?",
+      "answers": [
+        "Water",
+        "Salt crystals",
+        "Sodium chloride solution",
+        "Yam sap"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Water has the lowest solute concentration."
+    },
+    {
+      "id": "lautech-100-bio101-258",
+      "prompt": "A cell placed in a solution of higher osmotic concentration than its contents will",
+      "answers": [
+        "gain water and burst",
+        "divide",
+        "remain unchanged",
+        "lose water and shrink"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Water moves out by osmosis."
+    },
+    {
+      "id": "lautech-100-bio101-259",
+      "prompt": "During plasmolysis, the protoplast shrinks by",
+      "answers": [
+        "dividing",
+        "pulling toward the cell wall",
+        "swelling against the wall",
+        "pulling away from the cell wall"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Water loss makes the protoplast contract and detach from the wall."
+    },
+    {
+      "id": "lautech-100-bio101-260",
+      "prompt": "Plasmolysis is the shrinking of the protoplasm of",
+      "answers": [
+        "bacteria only",
+        "animal cells",
+        "non-living things",
+        "plant cells"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "It is seen in plant cells with cell walls."
+    },
+    {
+      "id": "lautech-100-bio101-261",
+      "prompt": "The pressure exerted on the cell wall by the protoplast of a turgid plant cell is called",
+      "answers": [
+        "turgor pressure",
+        "osmotic potential",
+        "atmospheric pressure",
+        "wall pressure"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Turgor pressure is hydrostatic pressure of the protoplast on the wall."
+    },
+    {
+      "id": "lautech-100-bio101-262",
+      "prompt": "Turgidity is important because it",
+      "answers": [
+        "helps humans survive heat",
+        "gives support to the plant cell and maintains its shape",
+        "stops transpiration",
+        "provides support to animals"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Turgid cells keep leaves and young stems firm."
+    },
+    {
+      "id": "lautech-100-bio101-263",
+      "prompt": "Imbibition is the absorption of water by",
+      "answers": [
+        "stomata",
+        "root hairs by active transport",
+        "xylem vessels only",
+        "colloids such as cell walls and protoplasm"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Hydrophilic colloids swell by imbibition."
+    },
+    {
+      "id": "lautech-100-bio101-264",
+      "prompt": "Which two parts of a plant cell absorb water by imbibition?",
+      "answers": [
+        "Cell wall and cell membrane",
+        "Cytoplasm and protoplasm only",
+        "Vacuole and nucleus",
+        "Cell wall and protoplasm"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Both are made of hydrophilic colloids."
+    },
+    {
+      "id": "lautech-100-bio101-265",
+      "prompt": "Imbibition occurs particularly in",
+      "answers": [
+        "dry or semi-dry conditions",
+        "flooded conditions",
+        "humid conditions only",
+        "wet conditions"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Dry colloids absorb water strongly."
+    },
+    {
+      "id": "lautech-100-bio101-266",
+      "prompt": "In imbibition, water moves from the",
+      "answers": [
+        "cell to the wall only",
+        "wetter region to the drier region",
+        "drier region to the wetter region",
+        "soil to air"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Water moves down its gradient into the dry colloid."
+    },
+    {
+      "id": "lautech-100-bio101-267",
+      "prompt": "Imbibition plays an important role in the",
+      "answers": [
+        "anatomy of animals",
+        "psychology of plants",
+        "physiology of animal life",
+        "physiology of plant life"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Seed germination and water uptake depend on it."
+    },
+    {
+      "id": "lautech-100-bio101-268",
+      "prompt": "The bursting of the seed coat of a germinating seed is caused by",
+      "answers": [
+        "atmospheric pressure",
+        "imbibitional pressure",
+        "turgor pressure",
+        "wall pressure"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Swelling seed tissue produces a strong imbibitional pressure."
+    },
+    {
+      "id": "lautech-100-bio101-269",
+      "prompt": "Which of these seeds shows a successful example of imbibition when soaked?",
+      "answers": [
+        "Glass bead",
+        "Maize seed",
+        "Burnt seed",
+        "Stone"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Dry maize grains swell as they imbibe water."
+    },
+    {
+      "id": "lautech-100-bio101-270",
+      "prompt": "Amoeba feeds by the process known as",
+      "answers": [
+        "exocytosis",
+        "endocytosis (phagocytosis)",
+        "amoeocytosis",
+        "mycocytosis"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Amoeba engulfs food with pseudopodia."
+    },
+    {
+      "id": "lautech-100-bio101-271",
+      "prompt": "The process of engulfing solid particles by a cell is called",
+      "answers": [
+        "exosmosis",
+        "plasmolysis",
+        "phagocytosis",
+        "turgidity"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Phagocytosis is cell eating."
+    },
+    {
+      "id": "lautech-100-bio101-272",
+      "prompt": "Materials engulfed by phagocytosis are retained in",
+      "answers": [
+        "the nucleus",
+        "membrane-bounded vacuoles",
+        "the cell wall",
+        "the nucleolus"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "They are enclosed in food vacuoles."
+    },
+    {
+      "id": "lautech-100-bio101-273",
+      "prompt": "Which of these is the odd one out among physical processes in living things?",
+      "answers": [
+        "Plasmolysis",
+        "Imbibition",
+        "Endocytosis",
+        "Neuron movement"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "The others are cellular physical processes."
+    },
+    {
+      "id": "lautech-100-bio101-274",
+      "prompt": "The solute products of photosynthesis enter plant cells by",
+      "answers": [
+        "diffusion",
+        "transpiration pull",
+        "cytoplasmic streaming only",
+        "active transport"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Active transport uses ATP to move sugars against a gradient."
+    },
+    {
+      "id": "lautech-100-bio101-275",
+      "prompt": "Transport in plants allows the plant to",
+      "answers": [
+        "distribute water and materials throughout the plant body",
+        "excrete food",
+        "heat up in sunlight",
+        "absorb excess water from the soil"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Transport carries water, minerals and food to all parts."
+    },
+    {
+      "id": "lautech-100-bio101-276",
+      "prompt": "Which tissue conducts water and mineral salts in plants?",
+      "answers": [
+        "Xylem",
+        "Phloem",
+        "Cambium",
+        "Epidermis"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Xylem carries water from roots upward."
+    },
+    {
+      "id": "lautech-100-bio101-277",
+      "prompt": "Which tissue conducts manufactured food in plants?",
+      "answers": [
+        "Xylem",
+        "Phloem",
+        "Collenchyma",
+        "Cortex"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Phloem translocates sugars from leaves."
+    },
+    {
+      "id": "lautech-100-bio101-278",
+      "prompt": "The movement of materials in plants through specialised conducting tissue is called",
+      "answers": [
+        "respiration",
+        "guttation",
+        "transpiration",
+        "translocation"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Translocation moves organic solutes through the phloem."
+    },
+    {
+      "id": "lautech-100-bio101-279",
+      "prompt": "Flow of solution in the phloem is ___ while in the xylem it is ___.",
+      "answers": [
+        "both bidirectional",
+        "unidirectional; bidirectional",
+        "bidirectional; unidirectional",
+        "both unidirectional"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Sap in xylem moves only upward; food in phloem can move up or down."
+    },
+    {
+      "id": "lautech-100-bio101-280",
+      "prompt": "Food manufactured in leaves is transported to other parts of the plant by the",
+      "answers": [
+        "stomata",
+        "guard cells",
+        "phloem",
+        "xylem"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Sieve tubes carry sugars."
+    },
+    {
+      "id": "lautech-100-bio101-281",
+      "prompt": "Which theory explains movement of food in phloem?",
+      "answers": [
+        "Imbibition theory",
+        "Pressure flow theory",
+        "Cohesion theory",
+        "Transpiration pull theory"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Pressure from sugar loading drives mass flow through sieve tubes."
+    },
+    {
+      "id": "lautech-100-bio101-282",
+      "prompt": "Which of these is NOT associated with transport of food materials in plants?",
+      "answers": [
+        "Cytoplasmic streaming",
+        "Active transport",
+        "Natural selection",
+        "Pressure flow theory"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Natural selection is an evolution concept."
+    },
+    {
+      "id": "lautech-100-bio101-283",
+      "prompt": "Movement of materials in the sieve tube results from",
+      "answers": [
+        "pressure (mass) flow",
+        "osmosis only",
+        "imbibition",
+        "transpiration pull"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Turgor gradients push the sap along."
+    },
+    {
+      "id": "lautech-100-bio101-284",
+      "prompt": "The upward movement of water in xylem is helped by",
+      "answers": [
+        "translocation push",
+        "transpiration pull",
+        "root hair growth",
+        "guttation"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Water lost from leaves pulls a column of water upwards."
+    },
+    {
+      "id": "lautech-100-bio101-285",
+      "prompt": "Interconnected vascular bundles in plants make possible",
+      "answers": [
+        "photosynthesis",
+        "rapid cremation",
+        "pollination",
+        "easy conduction of food and water"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "They link all organs for rapid transport."
+    },
+    {
+      "id": "lautech-100-bio101-286",
+      "prompt": "Vascular bundles consist of",
+      "answers": [
+        "xylem and pericycle",
+        "pericycle and cambium",
+        "phloem and xylem",
+        "cortex and pith"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Xylem and phloem are the two conducting tissues."
+    },
+    {
+      "id": "lautech-100-bio101-287",
+      "prompt": "How many main distinct tissues are found within the conducting vessels (vascular bundle)?",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "6"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Xylem and phloem."
+    },
+    {
+      "id": "lautech-100-bio101-288",
+      "prompt": "The cambium lies",
+      "answers": [
+        "between the xylem and phloem",
+        "outside the epidermis",
+        "in the cortex",
+        "in the epidermis"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Cambium forms new xylem and phloem."
+    },
+    {
+      "id": "lautech-100-bio101-289",
+      "prompt": "In older roots, water passes first through the ___ before entering the xylem.",
+      "answers": [
+        "guard cell",
+        "chloroplast",
+        "cambium",
+        "petiole"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "In older roots, secondary growth places cambium before xylem."
+    },
+    {
+      "id": "lautech-100-bio101-290",
+      "prompt": "Which of the following correctly shows the pathway of water from the soil into the root xylem?",
+      "answers": [
+        "Cortex → endodermis → epidermis → xylem",
+        "Root hair → epidermis → cortex → endodermis → pericycle → xylem",
+        "Root hair → cortex → endodermis → phloem",
+        "Epidermis → endodermis → cortex → xylem"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Water crosses the root tissues from outside inwards."
+    },
+    {
+      "id": "lautech-100-bio101-291",
+      "prompt": "Which route correctly shows water movement from xylem into the leaf?",
+      "answers": [
+        "Phloem → petiole → vein",
+        "Xylem → cambium → vein → petiole",
+        "Xylem → palisade → petiole → vein",
+        "Xylem → petiole → vein → mesophyll cells"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Water leaves the xylem through the leaf stalk into veins and then mesophyll."
+    },
+    {
+      "id": "lautech-100-bio101-292",
+      "prompt": "The pericycle connects the endodermis to the",
+      "answers": [
+        "vascular bundles",
+        "epidermis",
+        "pith only",
+        "cortex"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "The pericycle lies just inside the endodermis."
+    },
+    {
+      "id": "lautech-100-bio101-293",
+      "prompt": "Transport in unicellular organisms is simple because",
+      "answers": [
+        "they have no cells",
+        "they have xylem",
+        "they have a heart",
+        "each cell is in direct contact with its environment"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Materials diffuse straight in and out."
+    },
+    {
+      "id": "lautech-100-bio101-294",
+      "prompt": "Unicellular organisms use ___ for feeding and excretion.",
+      "answers": [
+        "diffusion and translocation",
+        "transpiration and translocation",
+        "osmosis and diffusion",
+        "transpiration and diffusion"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Simple organisms rely on passive movement across membranes."
+    },
+    {
+      "id": "lautech-100-bio101-295",
+      "prompt": "In cnidarians and flatworms, transport and distribution of materials is by",
+      "answers": [
+        "diffusion",
+        "egestion",
+        "a circulatory system",
+        "autophagy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "They are thin and lack a circulatory system."
+    },
+    {
+      "id": "lautech-100-bio101-296",
+      "prompt": "Which of these is NOT transported in animals?",
+      "answers": [
+        "Food manufactured in leaves",
+        "Respiratory gases",
+        "Digested food",
+        "Hormones"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Leaves are found in plants, not animals."
+    },
+    {
+      "id": "lautech-100-bio101-297",
+      "prompt": "The loss of water vapour from the aerial parts of a plant is",
+      "answers": [
+        "osmosis",
+        "plasmolysis",
+        "transpiration",
+        "translocation"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Mainly through stomata of leaves."
+    },
+    {
+      "id": "lautech-100-bio101-298",
+      "prompt": "Transpiration is hinged on",
+      "answers": [
+        "respiration",
+        "photosynthesis",
+        "translocation",
+        "digestion"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Stomata open for photosynthetic gas exchange, and water vapour escapes."
+    },
+    {
+      "id": "lautech-100-bio101-299",
+      "prompt": "Stomatal transpiration accounts for about what share of water lost from leaves?",
+      "answers": [
+        "55–75%",
+        "10–20%",
+        "25–50%",
+        "80–90%"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Most water vapour escapes through open stomata."
+    },
+    {
+      "id": "lautech-100-bio101-300",
+      "prompt": "The majority of water given off from plant leaves passes through the",
+      "answers": [
+        "cuticle",
+        "upper epidermis only",
+        "palisade cells",
+        "stomata"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "The cuticle is largely impermeable."
+    },
+    {
+      "id": "lautech-100-bio101-301",
+      "prompt": "Escape of water vapour through stomata and cuticle is called",
+      "answers": [
+        "lenticular only",
+        "imbibition",
+        "stomatal and cuticular transpiration",
+        "guttation"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Both routes lose water vapour."
+    },
+    {
+      "id": "lautech-100-bio101-302",
+      "prompt": "Tiny openings in the bark of stems and roots through which gases and some water vapour escape are",
+      "answers": [
+        "palisade cells",
+        "lenticels",
+        "cuticle",
+        "stomata"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Lenticels are porous spots in bark."
+    },
+    {
+      "id": "lautech-100-bio101-303",
+      "prompt": "Excess water is lost in liquid form from leaf margins when too much water is absorbed by the roots. This is",
+      "answers": [
+        "evaporation",
+        "transpiration",
+        "condensation",
+        "guttation"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Guttation occurs when root pressure is high and transpiration is low."
+    },
+    {
+      "id": "lautech-100-bio101-304",
+      "prompt": "Which of these does NOT affect the rate of transpiration?",
+      "answers": [
+        "Space",
+        "Light",
+        "Temperature",
+        "Humidity"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Space is not an environmental factor."
+    },
+    {
+      "id": "lautech-100-bio101-305",
+      "prompt": "Which of these is a factor affecting the rate of transpiration?",
+      "answers": [
+        "Sea level",
+        "Microorganisms",
+        "Soil water",
+        "Soil colour"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Water availability influences water loss."
+    },
+    {
+      "id": "lautech-100-bio101-306",
+      "prompt": "Transpiration is slow when relative humidity is",
+      "answers": [
+        "fluctuating",
+        "low",
+        "high",
+        "zero"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Moist air reduces the water-vapour gradient."
+    },
+    {
+      "id": "lautech-100-bio101-307",
+      "prompt": "The higher the temperature, the ___ the rate of transpiration.",
+      "answers": [
+        "unchanged",
+        "more irregular",
+        "slower",
+        "faster"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Heat increases evaporation."
+    },
+    {
+      "id": "lautech-100-bio101-308",
+      "prompt": "An increase in air current (wind) will ___ the rate of transpiration.",
+      "answers": [
+        "stabilise",
+        "decrease",
+        "increase",
+        "stop"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Wind carries away humid air near the leaf."
+    },
+    {
+      "id": "lautech-100-bio101-309",
+      "prompt": "High soil water tends to ___ the rate of transpiration.",
+      "answers": [
+        "stop",
+        "increase",
+        "stabilise",
+        "decrease"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "More available water supports faster water loss."
+    },
+    {
+      "id": "lautech-100-bio101-310",
+      "prompt": "The closing of stomata at night and their opening in the day shows the effect of which factor on transpiration?",
+      "answers": [
+        "Temperature",
+        "Air current",
+        "Light",
+        "Soil water"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Light triggers stomatal opening."
+    },
+    {
+      "id": "lautech-100-bio101-311",
+      "prompt": "Which statement is true?",
+      "answers": [
+        "When turgor is lost, the stomata close",
+        "Gentle air currents decrease transpiration",
+        "Slow water absorption increases transpiration",
+        "Transpiration is rapid in moist air"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Flaccid guard cells close the pore."
+    },
+    {
+      "id": "lautech-100-bio101-312",
+      "prompt": "Which of these is NOT a significance of transpiration?",
+      "answers": [
+        "Photolysis of water",
+        "Cooling the leaves",
+        "Bringing raw materials from the roots to the leaf",
+        "Creating a suction force that pulls water upward"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Photolysis belongs to photosynthesis."
+    },
+    {
+      "id": "lautech-100-bio101-313",
+      "prompt": "Removal of excess water from the plant is a significance of",
+      "answers": [
+        "translocation",
+        "transpiration",
+        "phototropism",
+        "photosynthesis"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Transpiration disposes of excess water."
+    },
+    {
+      "id": "lautech-100-bio101-314",
+      "prompt": "Transpiration helps distribute",
+      "answers": [
+        "starch only",
+        "water and minerals in the plant",
+        "hormones only",
+        "pigments only"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "The transpiration stream carries minerals from roots to shoots."
+    },
+    {
+      "id": "lautech-100-bio101-315",
+      "prompt": "Which of these is NOT an adaptation to reduce transpiration?",
+      "answers": [
+        "Waxy cuticle",
+        "Reduction of leaves to spines",
+        "Broad leaves",
+        "Succulent leaves"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Broad leaves give more surface area for water loss."
+    },
+    {
+      "id": "lautech-100-bio101-316",
+      "prompt": "Which anatomical feature does NOT reduce transpiration?",
+      "answers": [
+        "Increased leaf surface area",
+        "Thick cuticle",
+        "Sunken stomata",
+        "Shedding of leaves by deciduous trees"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "A larger surface loses more water."
+    },
+    {
+      "id": "lautech-100-bio101-317",
+      "prompt": "A thick cuticle on a leaf",
+      "answers": [
+        "reduces photosynthesis only",
+        "increases transpiration",
+        "prevents excessive water loss",
+        "stores water"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Waxy cuticle is waterproof."
+    },
+    {
+      "id": "lautech-100-bio101-318",
+      "prompt": "The stalk of a leaf is called the",
+      "answers": [
+        "sessile",
+        "stipule",
+        "petiole",
+        "plumule"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The petiole joins the blade to the stem."
+    },
+    {
+      "id": "lautech-100-bio101-319",
+      "prompt": "The main function of the leaf is",
+      "answers": [
+        "storage of starch",
+        "flowering",
+        "photosynthesis",
+        "transpiration"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Leaves are the main photosynthetic organs."
+    },
+    {
+      "id": "lautech-100-bio101-320",
+      "prompt": "The pores on the upper and lower epidermis of leaves that open to the outside are the",
+      "answers": [
+        "lenticels",
+        "filaments",
+        "stomatids",
+        "stomata"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Stomata allow gas exchange and water loss."
+    },
+    {
+      "id": "lautech-100-bio101-321",
+      "prompt": "The mesophyll layer of a leaf is divided into",
+      "answers": [
+        "palisade and spongy layers",
+        "spindle and complex layers",
+        "radial and meso layers",
+        "upper and lower cuticle"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Palisade cells are packed; spongy cells have air spaces."
+    },
+    {
+      "id": "lautech-100-bio101-322",
+      "prompt": "The mesophyll between the upper and lower epidermis is specialised for",
+      "answers": [
+        "vascular differentiation",
+        "photosynthesis",
+        "leaf senescence",
+        "taxis"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "It is rich in chloroplasts."
+    },
+    {
+      "id": "lautech-100-bio101-323",
+      "prompt": "Food and water reach the leaf through the",
+      "answers": [
+        "vascular bundles (veins)",
+        "cuticle",
+        "pericycle",
+        "mesophyll layer"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Veins contain xylem and phloem."
+    },
+    {
+      "id": "lautech-100-bio101-324",
+      "prompt": "The layer that helps in food production and diffusion of gases because of its air spaces is the",
+      "answers": [
+        "cuticle",
+        "palisade layer",
+        "spongy mesophyll",
+        "upper epidermis"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Air spaces permit gas diffusion."
+    },
+    {
+      "id": "lautech-100-bio101-325",
+      "prompt": "The opening and closing of stomata is controlled by",
+      "answers": [
+        "phloem",
+        "xylem",
+        "cuticle",
+        "guard cells"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Guard cells change shape with turgor."
+    },
+    {
+      "id": "lautech-100-bio101-326",
+      "prompt": "Guard cells are mostly found in the",
+      "answers": [
+        "palisade layer",
+        "mesophyll",
+        "lower epidermis",
+        "cambium"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Most dicot leaves have more stomata below."
+    },
+    {
+      "id": "lautech-100-bio101-327",
+      "prompt": "The shape of guard cells is",
+      "answers": [
+        "bean-shaped",
+        "irregular",
+        "biconcave",
+        "oval"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Two bean-shaped cells surround each pore."
+    },
+    {
+      "id": "lautech-100-bio101-328",
+      "prompt": "The only epidermal cells that contain chloroplasts are the",
+      "answers": [
+        "collenchyma cells",
+        "guard cells",
+        "parenchyma cells",
+        "lenticels"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Other epidermal cells are colourless."
+    },
+    {
+      "id": "lautech-100-bio101-329",
+      "prompt": "Which statement about guard cells is NOT true?",
+      "answers": [
+        "They are specialised epidermal cells",
+        "They are photosynthetic",
+        "They have a thin inner wall and a thick outer wall",
+        "They are bean-shaped"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Guard cells have a thick inner wall (next to the pore) and thin outer wall."
+    },
+    {
+      "id": "lautech-100-bio101-330",
+      "prompt": "When guard cells become turgid, the stomata",
+      "answers": [
+        "close",
+        "become lenticels",
+        "disappear",
+        "open"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Turgidity bows the cells apart."
+    },
+    {
+      "id": "lautech-100-bio101-331",
+      "prompt": "When guard cells become flaccid, the stomata",
+      "answers": [
+        "increase in length",
+        "open",
+        "close",
+        "dissolve"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Loss of turgor closes the pore."
+    },
+    {
+      "id": "lautech-100-bio101-332",
+      "prompt": "When active transport of ions into guard cells stops, ions diffuse out and water flows out, so the guard cells become",
+      "answers": [
+        "pigmented",
+        "flaccid",
+        "cremated",
+        "turgid"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Water loss makes them limp and the stomata close."
+    },
+    {
+      "id": "lautech-100-bio101-333",
+      "prompt": "Arrange in order the events when solute concentration in guard cells increases: 1 water enters from adjacent cells; 2 turgor pressure increases; 3 stomata open; 4 water potential reduces.",
+      "answers": [
+        "3, 1, 4, 2",
+        "4, 1, 2, 3",
+        "2, 3, 4, 1",
+        "1, 2, 3, 4"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Solutes lower water potential → water enters → turgor rises → stomata open."
+    },
+    {
+      "id": "lautech-100-bio101-334",
+      "prompt": "Additional solute lowering the water potential of guard cells causes water to",
+      "answers": [
+        "become toxic",
+        "leave the guard cells",
+        "flow along the vascular bundles",
+        "enter the guard cells by osmosis"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Water moves into cells with lower water potential."
+    },
+    {
+      "id": "lautech-100-bio101-335",
+      "prompt": "Parenchyma is isodiametric. This means that its cells",
+      "answers": [
+        "expand vertically",
+        "are long fibres",
+        "are dead",
+        "expand equally on all sides"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Isodiametric means equal diameter in all directions."
+    },
+    {
+      "id": "lautech-100-bio101-336",
+      "prompt": "Which of these describe parenchyma tissue?",
+      "answers": [
+        "Thick lignified walls only",
+        "Dead cells only",
+        "It has thin cellulose walls, living cells, and is found in soft parts of plants",
+        "Hollow tubes only"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Parenchyma is a simple living tissue with thin cellulose walls."
+    },
+    {
+      "id": "lautech-100-bio101-337",
+      "prompt": "Parenchyma is found in",
+      "answers": [
+        "roots only",
+        "roots, stems and leaves",
+        "stems only",
+        "leaves only"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "It is the ground tissue everywhere."
+    },
+    {
+      "id": "lautech-100-bio101-338",
+      "prompt": "Which plant tissue is used for food storage and manufacture?",
+      "answers": [
+        "Xylem",
+        "Parenchyma",
+        "Collenchyma",
+        "Sclerenchyma"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Chlorenchyma makes food and storage parenchyma holds starch."
+    },
+    {
+      "id": "lautech-100-bio101-339",
+      "prompt": "Parenchyma containing chloroplasts is called",
+      "answers": [
+        "mesochyma",
+        "collenchyma",
+        "aerenchyma only",
+        "chlorenchyma"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Chloro- (green) + parenchyma."
+    },
+    {
+      "id": "lautech-100-bio101-340",
+      "prompt": "Which plant tissue gives tensile strength and flexible support to growing parts?",
+      "answers": [
+        "Parenchyma",
+        "Sclerenchyma",
+        "Collenchyma",
+        "Phloem"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Collenchyma has thickened corners and supports young stems."
+    },
+    {
+      "id": "lautech-100-bio101-341",
+      "prompt": "The tissue found under the epidermis of herbaceous dicot stems is",
+      "answers": [
+        "cork",
+        "collenchyma",
+        "sclerenchyma",
+        "parenchyma"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "It forms the hypodermis in herbaceous stems."
+    },
+    {
+      "id": "lautech-100-bio101-342",
+      "prompt": "Which two plant tissues are made of living cells?",
+      "answers": [
+        "Parenchyma and sclerenchyma",
+        "Parenchyma and collenchyma",
+        "Xylem vessels and sclerenchyma",
+        "Collenchyma and sclerenchyma"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Sclerenchyma is dead at maturity."
+    },
+    {
+      "id": "lautech-100-bio101-343",
+      "prompt": "Which plant cells are dead at maturity?",
+      "answers": [
+        "Companion cells",
+        "Collenchyma",
+        "Parenchyma",
+        "Sclerenchyma"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Their thick lignified walls leave no living protoplast."
+    },
+    {
+      "id": "lautech-100-bio101-344",
+      "prompt": "Which tissue gives mechanical strength and rigidity to the plant?",
+      "answers": [
+        "Parenchyma",
+        "Collenchyma",
+        "Epidermis",
+        "Sclerenchyma"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Fibres and sclereids are strengthened with lignin."
+    },
+    {
+      "id": "lautech-100-bio101-345",
+      "prompt": "Sclerenchyma cells that look like fibres are called",
+      "answers": [
+        "collenchymatous fibres",
+        "sclerenpolythallus fibres",
+        "sclerenchymatous fibres",
+        "sclerenpopatus fibres"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "They are long, thick-walled, pointed cells."
+    },
+    {
+      "id": "lautech-100-bio101-346",
+      "prompt": "Dead cells that form the covering of seeds and the hard parts of fruits are",
+      "answers": [
+        "sclereids",
+        "phloem",
+        "xylem",
+        "collenchyma"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Sclereids (stone cells) make hard shells and seed coats."
+    },
+    {
+      "id": "lautech-100-bio101-347",
+      "prompt": "Sclereids are found in the hard cortex and strong parts of fruits.",
+      "answers": [
+        "False",
+        "True"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "They give hardness, e.g. in nut shells."
+    },
+    {
+      "id": "lautech-100-bio101-348",
+      "prompt": "Which xylem element is living and stores food?",
+      "answers": [
+        "Tracheids",
+        "Vessels",
+        "Wood parenchyma",
+        "Wood fibres"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Tracheids, vessels and fibres are dead at maturity."
+    },
+    {
+      "id": "lautech-100-bio101-349",
+      "prompt": "The elements of xylem include",
+      "answers": [
+        "companion cells only",
+        "sieve tubes only",
+        "tracheids, vessels, wood fibres and wood parenchyma",
+        "bast fibres only"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "All four make up xylem tissue."
+    },
+    {
+      "id": "lautech-100-bio101-350",
+      "prompt": "The main xylem elements that conduct water are",
+      "answers": [
+        "sieve tubes and companion cells",
+        "vessels and tracheids",
+        "vessels and wood parenchyma",
+        "wood fibres and parenchyma"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "These are the hollow conducting cells."
+    },
+    {
+      "id": "lautech-100-bio101-351",
+      "prompt": "Xylem also gives strength and rigidity to the plant.",
+      "answers": [
+        "False",
+        "True"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Lignified walls of xylem provide support."
+    },
+    {
+      "id": "lautech-100-bio101-352",
+      "prompt": "Water conduction is unidirectional in",
+      "answers": [
+        "cambium only",
+        "tracheids and vessels",
+        "sieve tubes and phloem",
+        "wood parenchyma and phloem"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Water moves upward only."
+    },
+    {
+      "id": "lautech-100-bio101-353",
+      "prompt": "Which xylem element occurs alone as the water-conducting cell in ferns and gymnosperms?",
+      "answers": [
+        "Sieve tubes",
+        "Companion cells",
+        "Vessels",
+        "Tracheids"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Vessels are typical of angiosperms."
+    },
+    {
+      "id": "lautech-100-bio101-354",
+      "prompt": "The types of thickening in tracheids are annular, spiral, pitted and scalariform.",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "These are the patterns of secondary wall deposition."
+    },
+    {
+      "id": "lautech-100-bio101-355",
+      "prompt": "Which elements make up phloem tissue?",
+      "answers": [
+        "Sclereids only",
+        "Vessels and tracheids",
+        "Wood fibres only",
+        "Sieve tubes, companion cells, phloem parenchyma and bast fibres"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "These are the four phloem cell types."
+    },
+    {
+      "id": "lautech-100-bio101-356",
+      "prompt": "Companion cells are found only in",
+      "answers": [
+        "ferns",
+        "thallophytes",
+        "gymnosperms",
+        "angiosperms"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Gymnosperms and ferns have albuminous cells instead."
+    },
+    {
+      "id": "lautech-100-bio101-357",
+      "prompt": "The cortex's innermost layer, the endodermis, is followed inwards by the",
+      "answers": [
+        "epidermis",
+        "cambium",
+        "cortex",
+        "pericycle"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Order: epidermis, cortex, endodermis, pericycle, vascular tissue."
+    },
+    {
+      "id": "lautech-100-bio101-358",
+      "prompt": "Examples of wastes stored in the cell vacuoles and cell walls in leaves are crystals of",
+      "answers": [
+        "carbon benzoate and calcium carbonate",
+        "calcium oxalate and calcium carbonate",
+        "sodium chloride and glucose",
+        "carbon oxalate and calcium sulphate"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Plants store insoluble crystals to keep them harmless."
+    },
+    {
+      "id": "lautech-100-bio101-359",
+      "prompt": "Waste products of metabolism in plants are stored in all these parts EXCEPT the",
+      "answers": [
+        "leaves",
+        "fruit",
+        "sepals of flowers",
+        "stigma"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Stigma is a pollen-receiving surface, not a waste store."
+    },
+    {
+      "id": "lautech-100-bio101-360",
+      "prompt": "Plants store waste products mainly in the",
+      "answers": [
+        "cell vacuoles",
+        "cell membrane",
+        "mitochondria",
+        "nucleus"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Vacuoles sequester wastes."
+    },
+    {
+      "id": "lautech-100-bio101-361",
+      "prompt": "Which is an example of a secondary waste product in plants?",
+      "answers": [
+        "Myosin",
+        "Tannin",
+        "Keratin",
+        "Trypsin"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Tannins, resins, latex and alkaloids are secondary plant wastes."
+    },
+    {
+      "id": "lautech-100-bio101-362",
+      "prompt": "Which of these is a waste product of plants?",
+      "answers": [
+        "Resins, tannins and alkaloids",
+        "Tannins only",
+        "Resins only",
+        "Only urea"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "All are secondary metabolites stored as waste."
+    },
+    {
+      "id": "lautech-100-bio101-363",
+      "prompt": "Toxic chemicals in plants are made non-toxic or transported to ___ where they cause no harm.",
+      "answers": [
+        "the contractile vacuole",
+        "dead cells",
+        "somatic cells",
+        "the nucleus"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Dead tissues such as heartwood hold wastes safely."
+    },
+    {
+      "id": "lautech-100-bio101-364",
+      "prompt": "Plants give off gaseous wastes mainly through",
+      "answers": [
+        "stomata and lenticels",
+        "phloem",
+        "root hairs",
+        "lenticels only"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Gas pores serve as the excretory outlets in plants."
+    },
+    {
+      "id": "lautech-100-bio101-365",
+      "prompt": "Pine needles are a modification that",
+      "answers": [
+        "attracts insects",
+        "reduces water loss (transpiration)",
+        "stores water as sap",
+        "increases photosynthesis surface"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Narrow needles with thick cuticle reduce surface area."
+    },
+    {
+      "id": "lautech-100-bio101-366",
+      "prompt": "The removal of waste products of metabolism from the body of a living organism is called",
+      "answers": [
+        "egestion",
+        "excretion",
+        "digestion",
+        "respiration"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Excretion removes metabolic wastes made by cells."
+    },
+    {
+      "id": "lautech-100-bio101-367",
+      "prompt": "The bulk wastes from the alimentary canal are not excretory products because they",
+      "answers": [
+        "were not produced by the body cells",
+        "are produced by cellular metabolism",
+        "contain urea",
+        "are produced after excretion"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Faeces are undigested food (egestion), not products of cell metabolism."
+    },
+    {
+      "id": "lautech-100-bio101-368",
+      "prompt": "Which of the following is NOT a waste product of metabolism?",
+      "answers": [
+        "Carbon dioxide",
+        "Faeces",
+        "Urea",
+        "Water"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Faeces are egested, not metabolic wastes."
+    },
+    {
+      "id": "lautech-100-bio101-369",
+      "prompt": "Which of these is NOT a way by which wastes leave the body?",
+      "answers": [
+        "Exosmosis",
+        "Diffusion",
+        "Evaporation",
+        "Crystallisation"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Crystallisation is not an excretory process in animals."
+    },
+    {
+      "id": "lautech-100-bio101-370",
+      "prompt": "Excretion can occur through the following EXCEPT",
+      "answers": [
+        "exosmosis",
+        "diffusion",
+        "translocation",
+        "evaporation"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Translocation is transport inside plants."
+    },
+    {
+      "id": "lautech-100-bio101-371",
+      "prompt": "Which of these is NOT an excretory product formed in animals?",
+      "answers": [
+        "Water",
+        "Carbon monoxide",
+        "Mineral salts",
+        "Carbon dioxide"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "CO is not a metabolic by-product excreted by animals."
+    },
+    {
+      "id": "lautech-100-bio101-372",
+      "prompt": "Common excretory products in animals include",
+      "answers": [
+        "water, urea and carbon dioxide",
+        "oxygen, glucose and urea",
+        "carbon monoxide and starch",
+        "oxygen and amino acids"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Mammals excrete water, urea, CO2 and mineral salts."
+    },
+    {
+      "id": "lautech-100-bio101-373",
+      "prompt": "Special excretory systems convert harmful wastes into harmless ones, such as",
+      "answers": [
+        "urea",
+        "ammonia",
+        "uric acid crystals",
+        "carbon dioxide"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Ammonia is converted to less toxic urea."
+    },
+    {
+      "id": "lautech-100-bio101-374",
+      "prompt": "Which of these excretory products is harmless?",
+      "answers": [
+        "Ammonia",
+        "Urea in excess",
+        "Carbon monoxide",
+        "Water"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Water is non-toxic."
+    },
+    {
+      "id": "lautech-100-bio101-375",
+      "prompt": "Water and carbon dioxide are expelled from the body through the",
+      "answers": [
+        "lungs",
+        "artery",
+        "vein",
+        "kidneys only"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Exhaled air carries both."
+    },
+    {
+      "id": "lautech-100-bio101-376",
+      "prompt": "The internal part of mammalian skin that secretes sweat is the",
+      "answers": [
+        "contractile gland",
+        "excretory gland",
+        "sweat gland",
+        "Malpighian gland"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Sweat glands release water, salts and a little urea."
+    },
+    {
+      "id": "lautech-100-bio101-377",
+      "prompt": "What the mammalian skin secretes as watery waste is",
+      "answers": [
+        "haemoglobin",
+        "urea",
+        "sweat",
+        "uric acid"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Sweat is secreted through skin pores."
+    },
+    {
+      "id": "lautech-100-bio101-378",
+      "prompt": "The outer layer of mammalian skin is the",
+      "answers": [
+        "melanocytes",
+        "dermis",
+        "epidermis",
+        "hair"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The epidermis forms the outer covering."
+    },
+    {
+      "id": "lautech-100-bio101-379",
+      "prompt": "Unicellular organisms excrete either by diffusion from the cell surface or by a special organelle called the",
+      "answers": [
+        "nucleus",
+        "food vacuole",
+        "chloroplast",
+        "contractile vacuole"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "It collects and expels water and wastes."
+    },
+    {
+      "id": "lautech-100-bio101-380",
+      "prompt": "Which animals remove nitrogenous wastes through contractile vacuoles?",
+      "answers": [
+        "Protozoans",
+        "Planarians",
+        "Earthworms",
+        "Arthropods"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Protozoa such as Amoeba use contractile vacuoles."
+    },
+    {
+      "id": "lautech-100-bio101-381",
+      "prompt": "The osmoregulatory function of the contractile vacuole in freshwater Amoeba is an example of",
+      "answers": [
+        "turgidity",
+        "plasmolysis",
+        "osmosis",
+        "imbibition"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Water entering by osmosis is pumped out."
+    },
+    {
+      "id": "lautech-100-bio101-382",
+      "prompt": "A contractile vacuole acts as an excretory organ when",
+      "answers": [
+        "only toxic waste diffuses into it",
+        "oxygen and urea diffuse into it",
+        "no substance diffuses into it",
+        "non-toxic waste diffuses into it and is expelled from the body surface"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "It expels water with dissolved wastes."
+    },
+    {
+      "id": "lautech-100-bio101-383",
+      "prompt": "Flatworms excrete through",
+      "answers": [
+        "flame cells",
+        "nephrons",
+        "kidneys",
+        "Malpighian tubules"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Flame cells with ciliated tufts drive fluid down tubules."
+    },
+    {
+      "id": "lautech-100-bio101-384",
+      "prompt": "Flukes have no special excretory organs but possess a pair of ducts called",
+      "answers": [
+        "Malpighian tubules",
+        "nephridia",
+        "flame cells",
+        "contractile vacuoles"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Flatworms such as flukes use flame (protonephridial) cells."
+    },
+    {
+      "id": "lautech-100-bio101-385",
+      "prompt": "The fluid in a flame cell is composed of",
+      "answers": [
+        "water and waste substances",
+        "water only",
+        "only salts and sugars",
+        "waste substances only"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "It carries water and wastes to the excretory pore."
+    },
+    {
+      "id": "lautech-100-bio101-386",
+      "prompt": "Waste products generated in flame cells are passed into the tubule by",
+      "answers": [
+        "active transport and osmosis",
+        "diffusion alone",
+        "osmosis and diffusion",
+        "active transport and ultrafiltration"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Fluid is filtered into the tubule and ions are actively moved."
+    },
+    {
+      "id": "lautech-100-bio101-387",
+      "prompt": "The combined excretory and osmoregulatory organ of annelids is the",
+      "answers": [
+        "pelvis",
+        "nephridium",
+        "nephron",
+        "flame cell"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Each segment has a pair of nephridia."
+    },
+    {
+      "id": "lautech-100-bio101-388",
+      "prompt": "A nephridium consists of a ciliated funnel called the",
+      "answers": [
+        "nephridiopore",
+        "nephrostome",
+        "nephron",
+        "nephrine"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "The nephrostome collects fluid from the coelom."
+    },
+    {
+      "id": "lautech-100-bio101-389",
+      "prompt": "The nephrostome leads to a ciliated muscular tubule and a bladder where fluid is stored before release through an external opening called the",
+      "answers": [
+        "nephridiopore",
+        "nephrostome",
+        "nephridium",
+        "nephron"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The nephridiopore opens to the outside."
+    },
+    {
+      "id": "lautech-100-bio101-390",
+      "prompt": "A typical nephridium consists of all of these EXCEPT",
+      "answers": [
+        "bladder",
+        "capillaries",
+        "nephrostome",
+        "nephridiopore"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Capillaries are not part of the nephridium."
+    },
+    {
+      "id": "lautech-100-bio101-391",
+      "prompt": "Annelids are classified into the orders Polychaeta, Oligochaeta and",
+      "answers": [
+        "Silurinidae",
+        "Hirudinea",
+        "Insecta",
+        "Anthozoa"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Hirudinea are leeches."
+    },
+    {
+      "id": "lautech-100-bio101-392",
+      "prompt": "Nephridia are found in all these groups EXCEPT",
+      "answers": [
+        "Oligochaeta",
+        "Polychaeta",
+        "Hirudinea",
+        "Anthozoa"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Anthozoa (sea anemones) are cnidarians without nephridia."
+    },
+    {
+      "id": "lautech-100-bio101-393",
+      "prompt": "Flame cells are to flatworms as ___ and ___ are to annelids and insects respectively.",
+      "answers": [
+        "nephridia; Malpighian tubules",
+        "lungs; nephridia",
+        "Malpighian tubules; nephridia",
+        "kidneys; flame cells"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Annelids use nephridia; insects use Malpighian tubules."
+    },
+    {
+      "id": "lautech-100-bio101-394",
+      "prompt": "The excretory organ of insects has slender thread-like tubes called",
+      "answers": [
+        "flame cells",
+        "contractile vacuoles",
+        "Malpighian tubules",
+        "nephridia"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "These tubules take wastes from the haemolymph."
+    },
+    {
+      "id": "lautech-100-bio101-395",
+      "prompt": "In the cockroach, the Malpighian tubules arise at the junction of the",
+      "answers": [
+        "nephridia and nephrostome",
+        "midgut and hindgut",
+        "septum and bladder",
+        "foregut and midgut"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "They open into the gut at this junction."
+    },
+    {
+      "id": "lautech-100-bio101-396",
+      "prompt": "The main nitrogenous waste of insects is",
+      "answers": [
+        "water",
+        "oxygen",
+        "uric acid",
+        "urea"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Uric acid is excreted as a semi-solid paste."
+    },
+    {
+      "id": "lautech-100-bio101-397",
+      "prompt": "Insects excrete solid or semi-solid uric acid in order to",
+      "answers": [
+        "attract predators",
+        "make the body heavy",
+        "conserve water",
+        "interfere with egg laying"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Uric acid needs little water to excrete."
+    },
+    {
+      "id": "lautech-100-bio101-398",
+      "prompt": "The bean-shaped organs in the abdominal cavity are the",
+      "answers": [
+        "kidneys",
+        "lungs",
+        "liver",
+        "spleen"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Humans have a pair of kidneys."
+    },
+    {
+      "id": "lautech-100-bio101-399",
+      "prompt": "Which of these is NOT seen in a longitudinal section of the kidney?",
+      "answers": [
+        "Medulla",
+        "Cortex",
+        "Pelvis",
+        "Hepatocyte"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Hepatocytes are liver cells."
+    },
+    {
+      "id": "lautech-100-bio101-400",
+      "prompt": "When the kidney is cut longitudinally, all of these are seen EXCEPT",
+      "answers": [
+        "vacuoles",
+        "pelvis",
+        "cortex",
+        "medulla"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Vacuoles are cell structures, not kidney regions."
+    },
+    {
+      "id": "lautech-100-bio101-401",
+      "prompt": "The functional (excretory) unit of the mammalian kidney is the",
+      "answers": [
+        "pelvis",
+        "nephron",
+        "medulla",
+        "cortex"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "A kidney has about a million nephrons."
+    },
+    {
+      "id": "lautech-100-bio101-402",
+      "prompt": "The Bowman's capsule is",
+      "answers": [
+        "a structure in the intestine",
+        "a lymph node",
+        "a renal capsule in the cortex of the kidney",
+        "a vein"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "It surrounds the glomerulus."
+    },
+    {
+      "id": "lautech-100-bio101-403",
+      "prompt": "The first step in urine formation is",
+      "answers": [
+        "ultrafiltration",
+        "selective reabsorption",
+        "peristalsis",
+        "hormonal secretion"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Blood is filtered in the glomerulus."
+    },
+    {
+      "id": "lautech-100-bio101-404",
+      "prompt": "Ultrafiltration of blood takes place in the",
+      "answers": [
+        "distal tubule",
+        "collecting duct",
+        "loop of Henle",
+        "Bowman's capsule (glomerulus)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Small molecules pass from the glomerular capillaries into the capsule."
+    },
+    {
+      "id": "lautech-100-bio101-405",
+      "prompt": "The pressure that drives ultrafiltration comes from",
+      "answers": [
+        "blood pressure (hydrostatic pressure)",
+        "gases from the lungs",
+        "ions in neurotransmitters",
+        "movement of the bowels"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "High hydrostatic pressure forces fluid out."
+    },
+    {
+      "id": "lautech-100-bio101-406",
+      "prompt": "The renal artery takes blood to the kidney and divides to form the",
+      "answers": [
+        "loop of Henle",
+        "urethra",
+        "glomerulus",
+        "convoluted tubule"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "The afferent arterioles feed the glomerular capillary network."
+    },
+    {
+      "id": "lautech-100-bio101-407",
+      "prompt": "After ultrafiltration, the substances left behind in the blood include",
+      "answers": [
+        "urea and salts",
+        "glucose and amino acids",
+        "water and urea",
+        "proteins, red blood cells and platelets"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Large molecules and cells are too big to pass."
+    },
+    {
+      "id": "lautech-100-bio101-408",
+      "prompt": "Most selective reabsorption takes place in the",
+      "answers": [
+        "glomerulus",
+        "proximal convoluted tubule",
+        "bladder",
+        "renal capsule"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Glucose, amino acids and salts are reabsorbed there."
+    },
+    {
+      "id": "lautech-100-bio101-409",
+      "prompt": "Useful substances are reabsorbed against a concentration gradient by",
+      "answers": [
+        "diffusion",
+        "passive transport",
+        "active transport",
+        "facilitated diffusion only"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Active transport uses ATP."
+    },
+    {
+      "id": "lautech-100-bio101-410",
+      "prompt": "Antidiuretic hormone (ADH) is produced in the",
+      "answers": [
+        "pancreas",
+        "testes",
+        "hypothalamus",
+        "ovary"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "ADH is made by neurosecretory cells of the hypothalamus."
+    },
+    {
+      "id": "lautech-100-bio101-411",
+      "prompt": "ADH passes to the posterior pituitary gland from the hypothalamus by a process called",
+      "answers": [
+        "synapsis",
+        "neuron movement",
+        "neurotransmission",
+        "neurosecretion"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Neurosecretory cells carry hormone along their axons."
+    },
+    {
+      "id": "lautech-100-bio101-412",
+      "prompt": "ADH makes the urine",
+      "answers": [
+        "less concentrated",
+        "more abundant",
+        "more acidic",
+        "more concentrated"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "It increases water reabsorption."
+    },
+    {
+      "id": "lautech-100-bio101-413",
+      "prompt": "Diuresis is the production of",
+      "answers": [
+        "a large volume of concentrated urine",
+        "a small volume of dilute urine",
+        "a small volume of concentrated urine",
+        "a large volume of dilute urine"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Diuresis means increased urine flow."
+    },
+    {
+      "id": "lautech-100-bio101-414",
+      "prompt": "Production of a large amount of dilute urine is a symptom of",
+      "answers": [
+        "diabetes mellitus",
+        "diabetes insipidus",
+        "hypocalcaemia",
+        "hyperglycaemia"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "It is caused by lack of ADH."
+    },
+    {
+      "id": "lautech-100-bio101-415",
+      "prompt": "Urine moves from the renal pelvis through the ureter to the bladder by",
+      "answers": [
+        "diffusion",
+        "peristalsis",
+        "vasodilation",
+        "vasoconstriction"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Waves of muscle contraction push it along."
+    },
+    {
+      "id": "lautech-100-bio101-416",
+      "prompt": "To discharge urine, the bladder",
+      "answers": [
+        "relaxes",
+        "dilates",
+        "contracts",
+        "folds up"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The detrusor muscle contracts."
+    },
+    {
+      "id": "lautech-100-bio101-417",
+      "prompt": "The kidney regulates the osmotic pressure and internal environment of the body through",
+      "answers": [
+        "excretion only",
+        "respiration",
+        "oxygenation",
+        "osmoregulation"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Osmoregulation keeps water and salt balance."
+    },
+    {
+      "id": "lautech-100-bio101-418",
+      "prompt": "The maintenance of a steady state in the animal body is called",
+      "answers": [
+        "excretion",
+        "perspiration",
+        "homeostasis",
+        "respiration"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Homeostasis keeps the internal environment constant."
+    },
+    {
+      "id": "lautech-100-bio101-419",
+      "prompt": "Important features of the internal environment that must be kept constant include",
+      "answers": [
+        "only pH of food",
+        "osmotic pressure, water and temperature",
+        "only oxygen",
+        "only light"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "These are regulated by homeostasis."
+    },
+    {
+      "id": "lautech-100-bio101-420",
+      "prompt": "The osmotic concentration of blood plasma is affected by all these EXCEPT",
+      "answers": [
+        "sugar",
+        "air",
+        "amino acids",
+        "mineral salts"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Dissolved solutes change osmotic concentration, not air."
+    },
+    {
+      "id": "lautech-100-bio101-421",
+      "prompt": "Regulation of blood sugar takes place mainly in the",
+      "answers": [
+        "lungs",
+        "ileum",
+        "kidney",
+        "pancreas"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Insulin and glucagon from the pancreas control blood sugar."
+    },
+    {
+      "id": "lautech-100-bio101-422",
+      "prompt": "Insulin is secreted by the pancreas in the region called the",
+      "answers": [
+        "islets of Langerhans",
+        "secretion site",
+        "action region",
+        "Langer Hans gland"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Beta cells in the islets make insulin."
+    },
+    {
+      "id": "lautech-100-bio101-423",
+      "prompt": "The condition in which blood sugar level is uncontrollably high is",
+      "answers": [
+        "glycosuria",
+        "hyperglycaemia",
+        "normoglycaemia",
+        "hypoglycaemia"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Hyper- means above normal."
+    },
+    {
+      "id": "lautech-100-bio101-424",
+      "prompt": "Over-activity of the thyroid gland is called",
+      "answers": [
+        "hypothyroidism",
+        "diabetes",
+        "hyperglycaemia",
+        "hyperthyroidism"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Hyper- means excessive hormone production."
+    },
+    {
+      "id": "lautech-100-bio101-425",
+      "prompt": "Hormones are produced by",
+      "answers": [
+        "target organs",
+        "effectors",
+        "endocrine glands",
+        "receptors"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Endocrine glands secrete hormones directly into blood."
+    },
+    {
+      "id": "lautech-100-bio101-426",
+      "prompt": "Blood transports hormones from their site of production, the",
+      "answers": [
+        "endocrine glands",
+        "muscles",
+        "vestigial organs",
+        "spleen"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Hormones are carried to target organs."
+    },
+    {
+      "id": "lautech-100-bio101-427",
+      "prompt": "Blood is a liquid tissue whose corpuscles float in the",
+      "answers": [
+        "polymorphs",
+        "plasma",
+        "platelets",
+        "erythrocytes"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Plasma is the fluid part."
+    },
+    {
+      "id": "lautech-100-bio101-428",
+      "prompt": "The physical vehicle for transport of materials in the blood is the",
+      "answers": [
+        "platelet",
+        "white blood cell",
+        "plasma",
+        "red blood cell"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Plasma carries nutrients, hormones and wastes."
+    },
+    {
+      "id": "lautech-100-bio101-429",
+      "prompt": "The red colour of blood is due to",
+      "answers": [
+        "fibrin",
+        "plasma",
+        "protein in plasma",
+        "haemoglobin"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Haemoglobin contains iron and binds oxygen."
+    },
+    {
+      "id": "lautech-100-bio101-430",
+      "prompt": "Red blood cells are shaped like",
+      "answers": [
+        "biconcave discs",
+        "spheres",
+        "biconvex discs",
+        "convex discs"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "This shape increases surface area for gas exchange."
+    },
+    {
+      "id": "lautech-100-bio101-431",
+      "prompt": "Another name for red blood cells is",
+      "answers": [
+        "leucocytes",
+        "thrombocytes",
+        "lymphocytes",
+        "erythrocytes"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Erythro- means red."
+    },
+    {
+      "id": "lautech-100-bio101-432",
+      "prompt": "The blood component with the longest life span is the",
+      "answers": [
+        "plasma",
+        "white blood cell",
+        "red blood cell",
+        "platelet"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "RBCs live about 120 days."
+    },
+    {
+      "id": "lautech-100-bio101-433",
+      "prompt": "The RBC has a life span of about",
+      "answers": [
+        "120 days",
+        "10 days",
+        "365 days",
+        "50 days"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Old RBCs are removed by the spleen and liver."
+    },
+    {
+      "id": "lautech-100-bio101-434",
+      "prompt": "Platelets (thrombocytes) have a life span of about",
+      "answers": [
+        "5–9 days",
+        "1 year",
+        "1 day",
+        "120 days"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Platelets are short-lived."
+    },
+    {
+      "id": "lautech-100-bio101-435",
+      "prompt": "The largest blood cell is the",
+      "answers": [
+        "white blood cell (leucocyte)",
+        "chondrocyte",
+        "platelet",
+        "erythrocyte"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Leucocytes are larger than RBCs."
+    },
+    {
+      "id": "lautech-100-bio101-436",
+      "prompt": "The smallest blood cell fragment is the",
+      "answers": [
+        "erythrocyte",
+        "platelet (thrombocyte)",
+        "lymphocyte",
+        "leucocyte"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Platelets are cell fragments."
+    },
+    {
+      "id": "lautech-100-bio101-437",
+      "prompt": "The major role of white blood cells is",
+      "answers": [
+        "carrying oxygen",
+        "combating infection",
+        "transport of digested food",
+        "vasodilation"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "They provide defence."
+    },
+    {
+      "id": "lautech-100-bio101-438",
+      "prompt": "T cells and B cells are types of",
+      "answers": [
+        "lymphocytes",
+        "phagocytes",
+        "erythrocytes",
+        "thrombocytes"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "They are involved in immunity."
+    },
+    {
+      "id": "lautech-100-bio101-439",
+      "prompt": "Which of these is a function of lymphocytes?",
+      "answers": [
+        "Ingestion of bacteria",
+        "Antibody production",
+        "Formation of blood clot",
+        "Oxygen transport"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "B lymphocytes become antibody-producing plasma cells."
+    },
+    {
+      "id": "lautech-100-bio101-440",
+      "prompt": "Polymorphs (granulocytes) are formed in the",
+      "answers": [
+        "lymphatic tissue",
+        "thymus gland",
+        "bone marrow",
+        "lymphatic glands"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "The red bone marrow makes blood cells."
+    },
+    {
+      "id": "lautech-100-bio101-441",
+      "prompt": "Which of these is NOT a polymorph (granulocyte)?",
+      "answers": [
+        "Eosinophil",
+        "Neutrophil",
+        "Lymphocyte",
+        "Basophil"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Lymphocytes are agranulocytes."
+    },
+    {
+      "id": "lautech-100-bio101-442",
+      "prompt": "Which blood cells are involved in blood clotting?",
+      "answers": [
+        "Erythrocytes",
+        "Leucocytes",
+        "Platelets (thrombocytes)",
+        "Lymphocytes"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Platelets release clotting factors."
+    },
+    {
+      "id": "lautech-100-bio101-443",
+      "prompt": "Which of these is NOT used in blood clotting?",
+      "answers": [
+        "Thrombocytes",
+        "Platelets",
+        "Leucocytes",
+        "Plasma"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Clotting uses plasma proteins and platelets."
+    },
+    {
+      "id": "lautech-100-bio101-444",
+      "prompt": "When platelets rupture on exposure to air, a lipoprotein called ___ is released.",
+      "answers": [
+        "thrombin",
+        "prothrombin",
+        "fibrinogen",
+        "thrombokinase (thromboplastin)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "It starts the clotting cascade."
+    },
+    {
+      "id": "lautech-100-bio101-445",
+      "prompt": "The active enzyme that hydrolyses fibrinogen to fibrin in blood clotting is",
+      "answers": [
+        "prothrombin",
+        "fibrin",
+        "thrombokinase",
+        "thrombin"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Thrombin is made from prothrombin."
+    },
+    {
+      "id": "lautech-100-bio101-446",
+      "prompt": "A blood clot is formed by needle-like fibres of",
+      "answers": [
+        "fibrinogen",
+        "fibrin",
+        "thrombin",
+        "thromboplastin"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Fibrin threads trap blood cells."
+    },
+    {
+      "id": "lautech-100-bio101-447",
+      "prompt": "Which protein is present in plasma and is the precursor of fibrin?",
+      "answers": [
+        "Thrombin",
+        "Haemoglobin",
+        "Auxin",
+        "Fibrinogen"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Fibrinogen is a soluble plasma protein."
+    },
+    {
+      "id": "lautech-100-bio101-448",
+      "prompt": "Which of these is NOT a main component of normal blood plasma?",
+      "answers": [
+        "Active thrombin",
+        "Fibrinogen",
+        "Serum globulin",
+        "Prothrombin"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Thrombin is formed only during clotting."
+    },
+    {
+      "id": "lautech-100-bio101-449",
+      "prompt": "The organ responsible for the destruction of platelets is the",
+      "answers": [
+        "kidney",
+        "heart",
+        "spleen",
+        "tissue"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "The spleen removes old blood cells."
+    },
+    {
+      "id": "lautech-100-bio101-450",
+      "prompt": "The most abundant mineral ion in blood plasma is",
+      "answers": [
+        "potassium (K+)",
+        "calcium (Ca2+)",
+        "sodium (Na+)",
+        "magnesium (Mg2+)"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Na+ is the main plasma cation."
+    },
+    {
+      "id": "lautech-100-bio101-451",
+      "prompt": "Which of these is NOT a function of blood?",
+      "answers": [
+        "Digestion",
+        "Transport of oxygen",
+        "Defence against infection",
+        "Temperature regulation"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Digestion occurs in the alimentary canal."
+    },
+    {
+      "id": "lautech-100-bio101-452",
+      "prompt": "Which statement about the functions of blood is INCORRECT?",
+      "answers": [
+        "Transport of excretory products from the kidney to the tissues",
+        "Transport of oxygen from lungs to tissues",
+        "Transport of digested food from the ileum",
+        "Transport of excretory products from tissues to the kidney"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Wastes go from the tissues to the kidney, not the reverse."
+    },
+    {
+      "id": "lautech-100-bio101-453",
+      "prompt": "Blood carries excretory waste from",
+      "answers": [
+        "tissues to the kidney",
+        "kidney to the tissues",
+        "tissues to the ileum",
+        "lungs to the tissues"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The kidney filters the blood of wastes."
+    },
+    {
+      "id": "lautech-100-bio101-454",
+      "prompt": "The driving force of blood circulation is the",
+      "answers": [
+        "liver",
+        "vein",
+        "heart",
+        "artery"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The heart pumps blood."
+    },
+    {
+      "id": "lautech-100-bio101-455",
+      "prompt": "The mammalian heart has how many chambers?",
+      "answers": [
+        "4",
+        "1",
+        "3",
+        "2"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Two atria and two ventricles."
+    },
+    {
+      "id": "lautech-100-bio101-456",
+      "prompt": "Which blood vessels return blood from tissues to the heart?",
+      "answers": [
+        "Aorta",
+        "Veins",
+        "Capillaries",
+        "Arteries"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Veins carry blood toward the heart."
+    },
+    {
+      "id": "lautech-100-bio101-457",
+      "prompt": "The vessels that carry blood from the heart to the lower limbs are the",
+      "answers": [
+        "iliac arteries",
+        "hepatic veins",
+        "jugular veins",
+        "pulmonary veins"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "The iliac arteries branch from the abdominal aorta."
+    },
+    {
+      "id": "lautech-100-bio101-458",
+      "prompt": "The expansion of blood vessels to lose heat is called",
+      "answers": [
+        "vasocompression",
+        "vasoconstriction",
+        "vasodilation",
+        "vasoregulation"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Vasodilation widens vessels; vasoconstriction narrows them."
+    },
+    {
+      "id": "lautech-100-bio101-459",
+      "prompt": "The universal blood donor group is",
+      "answers": [
+        "AB",
+        "A",
+        "O",
+        "B"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Group O red cells carry neither A nor B antigens."
+    },
+    {
+      "id": "lautech-100-bio101-460",
+      "prompt": "The universal recipient blood group is",
+      "answers": [
+        "AB",
+        "O",
+        "A",
+        "B"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "AB has no anti-A or anti-B antibodies."
+    },
+    {
+      "id": "lautech-100-bio101-461",
+      "prompt": "The central nervous system is composed of the",
+      "answers": [
+        "cranial nerves and spinal nerves",
+        "brain and neurons",
+        "brain and spinal cord",
+        "sympathetic and parasympathetic nerves"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The CNS = brain + spinal cord."
+    },
+    {
+      "id": "lautech-100-bio101-462",
+      "prompt": "Paired cranial nerves and paired spinal nerves form the",
+      "answers": [
+        "peripheral nervous system",
+        "autonomic nervous system only",
+        "central nervous system",
+        "association nervous system"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Nerves outside the CNS make up the PNS."
+    },
+    {
+      "id": "lautech-100-bio101-463",
+      "prompt": "The nervous system consists of",
+      "answers": [
+        "the central nervous system and the peripheral nervous system",
+        "the brain and heart",
+        "the CNS and endocrine system",
+        "neurons only"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "These are its two divisions."
+    },
+    {
+      "id": "lautech-100-bio101-464",
+      "prompt": "The basic structural and functional unit of the nervous system is the",
+      "answers": [
+        "glia",
+        "axon only",
+        "nephron",
+        "neuron"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Neurons transmit impulses."
+    },
+    {
+      "id": "lautech-100-bio101-465",
+      "prompt": "The cell body of a neurone contains a ___ and cytoplasm.",
+      "answers": [
+        "nucleus",
+        "contractile vacuole",
+        "cell wall",
+        "chloroplast"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The cell body (perikaryon) holds the nucleus."
+    },
+    {
+      "id": "lautech-100-bio101-466",
+      "prompt": "The space between interconnected neurons is the",
+      "answers": [
+        "dendrite",
+        "chromatid",
+        "axon",
+        "synapse"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Impulses cross it by neurotransmitters."
+    },
+    {
+      "id": "lautech-100-bio101-467",
+      "prompt": "Impulses are transmitted across the",
+      "answers": [
+        "synaptic knobs",
+        "synaptic windows",
+        "synaptic chemicals",
+        "synaptic gap (cleft)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Chemical transmitters diffuse across the gap."
+    },
+    {
+      "id": "lautech-100-bio101-468",
+      "prompt": "The myelin sheath of peripheral neurons is produced by",
+      "answers": [
+        "Sertoli cells",
+        "Kupffer cells",
+        "Schwann cells",
+        "oligodendrocytes in nerves"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Schwann cells wrap around axons."
+    },
+    {
+      "id": "lautech-100-bio101-469",
+      "prompt": "A neuron that carries impulses from the CNS to an effector is called a",
+      "answers": [
+        "motor (efferent) neuron",
+        "receptor neuron",
+        "relay neuron",
+        "sensory (afferent) neuron"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Efferent = away from CNS."
+    },
+    {
+      "id": "lautech-100-bio101-470",
+      "prompt": "Nervous coordination is based mainly on",
+      "answers": [
+        "osmotic pressure",
+        "non-reflexes",
+        "halophytes",
+        "reflexes"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Reflex actions are the basic response unit."
+    },
+    {
+      "id": "lautech-100-bio101-471",
+      "prompt": "Each cerebral hemisphere has frontal, temporal, parietal and occipital lobes. Which of these is NOT a lobe?",
+      "answers": [
+        "Occipital lobe",
+        "Temporal lobe",
+        "Pons varolii",
+        "Frontal lobe"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "The pons is part of the brain stem."
+    },
+    {
+      "id": "lautech-100-bio101-472",
+      "prompt": "Which of these has a simple nerve net but no brain?",
+      "answers": [
+        "Mammals",
+        "Birds",
+        "Fishes",
+        "Hydra (cnidarians such as jellyfish and sea anemones)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Cnidarians have diffuse nerve nets."
+    },
+    {
+      "id": "lautech-100-bio101-473",
+      "prompt": "Which of these is NOT an animal tissue?",
+      "answers": [
+        "Muscular tissue",
+        "Epithelial tissue",
+        "Connective tissue",
+        "Vascular tissue"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Vascular tissue (xylem and phloem) is a plant tissue."
+    },
+    {
+      "id": "lautech-100-bio101-474",
+      "prompt": "All animal tissues are derived from",
+      "answers": [
+        "ectoderm only",
+        "endoderm only",
+        "ectoderm, mesoderm and endoderm",
+        "mesoderm only"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "The three germ layers give all tissues."
+    },
+    {
+      "id": "lautech-100-bio101-475",
+      "prompt": "Epithelial tissue is derived from how many germ layers?",
+      "answers": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Epithelia come from ectoderm, mesoderm and endoderm."
+    },
+    {
+      "id": "lautech-100-bio101-476",
+      "prompt": "The germ layer that forms connective tissue is the",
+      "answers": [
+        "ectoderm",
+        "endoderm",
+        "mesoderm",
+        "neuroderm"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Connective tissue is mesodermal."
+    },
+    {
+      "id": "lautech-100-bio101-477",
+      "prompt": "The germ layer that forms nervous tissue is the",
+      "answers": [
+        "endoderm",
+        "all of them",
+        "mesoderm",
+        "ectoderm"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "The nervous system develops from ectoderm."
+    },
+    {
+      "id": "lautech-100-bio101-478",
+      "prompt": "Connective tissue is divided into",
+      "answers": [
+        "mesophyll and blood tissue",
+        "xylem and phloem",
+        "blood tissue and skeletal tissue",
+        "muscle tissue and epithelial tissue"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Blood and skeletal tissues are its two main groups."
+    },
+    {
+      "id": "lautech-100-bio101-479",
+      "prompt": "Epithelial tissue is divided into",
+      "answers": [
+        "simple and compound (stratified) epithelium",
+        "simple and complex",
+        "striated and smooth",
+        "parallel and complex"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Simple epithelium has one layer; compound has several."
+    },
+    {
+      "id": "lautech-100-bio101-480",
+      "prompt": "The closely fitting cells of simple squamous epithelium are often called",
+      "answers": [
+        "pavement epithelium",
+        "compound epithelium",
+        "parallel epithelium",
+        "columnar epithelium"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "They look like paving stones."
+    },
+    {
+      "id": "lautech-100-bio101-481",
+      "prompt": "The types of cartilage are",
+      "answers": [
+        "fibrous, smooth and cardiac",
+        "hyaline, elastic and fibrous cartilage",
+        "hyaline, bone and ligament",
+        "elastic, tendon and bone"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "These are the three cartilage types."
+    },
+    {
+      "id": "lautech-100-bio101-482",
+      "prompt": "The cells of cartilage are called",
+      "answers": [
+        "chondrocytes",
+        "monocytes",
+        "thrombocytes",
+        "lymphocytes"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Chondro- means cartilage."
+    },
+    {
+      "id": "lautech-100-bio101-483",
+      "prompt": "Water absorbed from the soil follows which sequence to reach the leaves?",
+      "answers": [
+        "Soil → root → stem → leaf",
+        "Stem → leaf → root",
+        "Root → leaf → stem",
+        "Leaf → stem → root"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Water enters the roots, rises through the stem xylem and reaches the leaves."
+    },
+    {
+      "id": "lautech-100-bio101-484",
+      "prompt": "Chlorophyll can be found in guard cells.",
+      "answers": [
+        "False",
+        "True"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Guard cells are the only epidermal cells with chloroplasts."
+    },
+    {
+      "id": "lautech-100-bio101-485",
+      "prompt": "A cell deprived of oxygen will",
+      "answers": [
+        "be unable to accumulate ions and may lose much of what it had accumulated",
+        "resist plasmolysis more strongly",
+        "behave like a turgid cell",
+        "accumulate more ions"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Active uptake of ions needs ATP from aerobic respiration."
+    },
+    {
+      "id": "lautech-100-bio101-486",
+      "prompt": "Which of these does NOT involve cilia or flagella?",
+      "answers": [
+        "Movement in Chlamydomonas",
+        "Movement in bacteria",
+        "Movement in Amoeba",
+        "Movement in Euglena"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Amoeba moves by pseudopodia."
+    },
+    {
+      "id": "lautech-100-bio101-487",
+      "prompt": "The first generation in which all plants show only the dominant trait in a monohybrid cross of pure parents is the",
+      "answers": [
+        "parental generation",
+        "F2 generation",
+        "F3 generation",
+        "F1 generation"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Crossing pure dominant with pure recessive gives uniform F1 hybrids."
+    }
+  ]
+}

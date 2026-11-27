@@ -1,0 +1,5001 @@
+{
+  "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Fine and Applied Arts",
+  "course": {
+    "code": "FAA 101",
+    "title": "FAA 101"
+  },
+  "questions": [
+    {
+      "id": "lautech-100-faa101-a-001",
+      "prompt": "Which of these is not an element of art?",
+      "answers": [
+        "Form",
+        "Line",
+        "Shape",
+        "Colour",
+        "Dominance"
+      ],
+      "correctIndex": 4,
+      "difficulty": "Easy",
+      "explanation": "Dominance is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-002",
+      "prompt": "A line can best be define as ________",
+      "answers": [
+        "Straight mark",
+        "The outline of an area",
+        "Distance from one point to another",
+        "Movements of objects",
+        "Pencil drawing"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "The outline of an area is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-003",
+      "prompt": "If you are to draw the Movement of an air plane taking off with a line, which line will best described the plane’s movement",
+      "answers": [
+        "Horizontal line",
+        "Vertical line",
+        "Diagonal line",
+        "Zigzag line",
+        "Curved line"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Diagonal line is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-004",
+      "prompt": "Texture can be define as _______",
+      "answers": [
+        "The way an object looks",
+        "Surface quality of an object in terms of rou1 n ghness and smoothness",
+        "The consistence of a substances",
+        "A type of textile material",
+        "Degree of roughness of an object"
+      ],
+      "correctIndex": 4,
+      "difficulty": "Easy",
+      "explanation": "Degree of roughness of an object is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-005",
+      "prompt": "Which of the objects is not a shape",
+      "answers": [
+        "D (According to the manual)",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "D (According to the manual) is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-006",
+      "prompt": "There are two (2) types of texture",
+      "answers": [
+        "Smooth and rough texture",
+        "Thin and liquid texture",
+        "Contour and line",
+        "Pineapple and pawpaw",
+        "Actual and simulated texture"
+      ],
+      "correctIndex": 4,
+      "difficulty": "Easy",
+      "explanation": "Actual and simulated texture is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-007",
+      "prompt": "Arts is defined by all of these except",
+      "answers": [
+        "Drawing",
+        "Acquisition of Skills",
+        "Universal language",
+        "Creation by human endeavours rather than by nature",
+        "Creation of beautiful and thought provoking works"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Creation by human endeavours rather than by nature is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-008",
+      "prompt": "Identify the shading techniques for the form above",
+      "answers": [
+        "Favourtism",
+        "Constructivsm",
+        "Pointlisn",
+        "Sportish"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Pointlisn is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-a-009",
+      "prompt": "The tree above is shaded using ________ technique",
+      "answers": [
+        "Pointillism",
+        "Linear",
+        "Dots",
+        "Cross-Hatching"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Cross-Hatching is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-010",
+      "prompt": "The shading techniques used for the form above is known as",
+      "answers": [
+        "Hatching",
+        "Cross-hatching",
+        "Scudding",
+        "Blocking"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Hatching is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-a-011",
+      "prompt": "The font above is shaded using _____ techniques",
+      "answers": [
+        "Hatching",
+        "Pointillism",
+        "Block",
+        "Smudging"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Block is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-012",
+      "prompt": "Identify the Shading techniques in C and D",
+      "answers": [
+        "Hatching",
+        "Cross-Hatching",
+        "Cross-Hatching and Pointillism",
+        "Hatching and Cross Hatching"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Hatching and Cross Hatching is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-a-013",
+      "prompt": "The head above is a combination of ________ shading techniques",
+      "answers": [
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "4 is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-a-014",
+      "prompt": "The leaf above looks abstract for its shading techniques which is ________",
+      "answers": [
+        "Pointillism",
+        "Smudging",
+        "Block",
+        "Hatching"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Hatching is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-a-015",
+      "prompt": "The form above is scheduled using _____ technique",
+      "answers": [
+        "Smudging",
+        "Beating",
+        "Cross-Hatching",
+        "Woolen"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Cross-Hatching is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-016",
+      "prompt": "The area closets to the sources of light in the form above is ______",
+      "answers": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "C is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-a-017",
+      "prompt": "The form above combines three shading techniques to brings out its solidity",
+      "answers": [
+        "Pointillism, Smudging and Block",
+        "Smudging, Hatching and Hedging",
+        "Hatching, Block and Pointillism",
+        "Block, Hatching and Cross-Hatching"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Hatching, Block and Pointillism is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-a-018",
+      "prompt": "Pictorial representation of a heap of Sand or gravel is better represented in _____ shading technique",
+      "answers": [
+        "Pointillism",
+        "Blurring",
+        "Scribbling",
+        "Smoothing GEN DAVID TUTORIAL"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Pointillism is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-a-019",
+      "prompt": "Sand painting is comparable to _______ shading techniques",
+      "answers": [
+        "Scribbling",
+        "Pointillism",
+        "Blurring",
+        "Hatching"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Pointillism is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-a-020",
+      "prompt": "Vivid representation of cloud in shading is better done with _____",
+      "answers": [
+        "Pointillism",
+        "Scribbling",
+        "Blurring",
+        "Hatching"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Blurring is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-a-021",
+      "prompt": "Elements of design cannot be reffered to as the building blocks of a visual arts object",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "False is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-022",
+      "prompt": "In the visual arts, line performs many functions and configurations",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-023",
+      "prompt": "Two of these are elements of Arts A. Line B. Graduation C. Hue D. Texture E. Rhythm",
+      "answers": [
+        "A & B",
+        "A& C",
+        "A & D",
+        "A & E"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "A & D is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-024",
+      "prompt": "One of the following does not belong to the family of elements of design",
+      "answers": [
+        "Texture",
+        "Colour",
+        "Line",
+        "Dominance"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Dominance is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-025",
+      "prompt": "The above diagram represents _________ as an element of design",
+      "answers": [
+        "Shape",
+        "line",
+        "form",
+        "texture"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Shape is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-026",
+      "prompt": "In objects representation, an article develops skill in ________",
+      "answers": [
+        "Observation and drawing",
+        "Painting and playing",
+        "Drawing and Merry",
+        "Observation and sight-seeing"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Observation and drawing is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-027",
+      "prompt": "One of the principles of art and design is ________",
+      "answers": [
+        "Line",
+        "Space",
+        "Rhythm",
+        "Colour"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Rhythm is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-028",
+      "prompt": "Balance is achieved in art and design in two ways",
+      "answers": [
+        "Scale and Symmetry",
+        "Vanishing and scale",
+        "Size and Synchromatics",
+        "Symmetry and Asymmetry"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Symmetry and Asymmetry is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-029",
+      "prompt": "_____ is a combination of units which are similar in one or more respect",
+      "answers": [
+        "Variety",
+        "Harmony",
+        "Repetition",
+        "Colour"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Harmony is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-030",
+      "prompt": "A simple way of balancing or unifying a work of arts is through ______",
+      "answers": [
+        "Logical process GEN DAVID TUTORIAL",
+        "Diagonal process",
+        "Horizontal process",
+        "Symmetrical process"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Symmetrical process is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-031",
+      "prompt": "The arrangement of dissimilar shapes or forms to achieve a balanced work is known as ______",
+      "answers": [
+        "Symmetry balance",
+        "Conjugate balance",
+        "Modular balance",
+        "Asymmetry balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Symmetry balance is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-032",
+      "prompt": "______ is the relationship established between significantly different element in art",
+      "answers": [
+        "Unity",
+        "Harmony",
+        "Balance",
+        "Contrast"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Harmony is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-033",
+      "prompt": "Repetition, Balance and rhythm are _______ of art and design",
+      "answers": [
+        "Elements",
+        "Principle",
+        "Fundamentals",
+        "Basics"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Principle is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-034",
+      "prompt": "Even distribution of weight around central axis means",
+      "answers": [
+        "Balance",
+        "Contrast",
+        "Emphasis",
+        "Proportion"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Balance is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-035",
+      "prompt": "Rhythm implies _____ in design",
+      "answers": [
+        "Emphasis",
+        "Focus",
+        "Repetition",
+        "Variety"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Emphasis is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-036",
+      "prompt": "Three- dimensional arts process ________",
+      "answers": [
+        "Breadth and Length",
+        "Length and Breadth",
+        "Length, Width and Height",
+        "Shape and Form"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Length, Width and Height is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-037",
+      "prompt": "Two-dimensional arts processes ________ GEN DAVID TUTORIAL",
+      "answers": [
+        "Breadth and Length",
+        "Length and Breadth",
+        "Length, Width and Height",
+        "Shape and Form"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Breadth and Length is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-038",
+      "prompt": "In a composition, an objects or figure occupies _______",
+      "answers": [
+        "Linear void",
+        "Positive space",
+        "Negative space",
+        "Plausible space"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Positive space is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-039",
+      "prompt": "One of these is a principle of art and design",
+      "answers": [
+        "Colour",
+        "Line",
+        "Plane",
+        "Rhythm"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Rhythm is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-040",
+      "prompt": "Areas of specialization in arts include the one of these",
+      "answers": [
+        "Calligraphy",
+        "Lettering",
+        "Sketching",
+        "Textile Design"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Textile Design is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-041",
+      "prompt": "Visual arts is divided into ________ and _______ Arts",
+      "answers": [
+        "Fine and Applied",
+        "Fine and Drama",
+        "Music and Drama",
+        "Applied and Planning"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Fine and Applied is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-042",
+      "prompt": "The illustration above represents ________ as a principle of design",
+      "answers": [
+        "Dominance",
+        "balance",
+        "rhythm",
+        "unity"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Dominance is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-043",
+      "prompt": "The illustration above represents _______ as a principle of design",
+      "answers": [
+        "Balance",
+        "contrast",
+        "rhythm",
+        "proportion"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Balance is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-044",
+      "prompt": "Which of these is not an element of art?",
+      "answers": [
+        "Line",
+        "Graduation",
+        "Colour",
+        "Repetition"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Repetition is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-045",
+      "prompt": "Q: Rhythm is one of the ________ of art and design",
+      "answers": [
+        "principles",
+        "elements",
+        "mediums",
+        "techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "principles is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-046",
+      "prompt": "_______ is a point in design which is highlighted as centre of interest",
+      "answers": [
+        "Emphasis",
+        "balance",
+        "rhythm",
+        "unity"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Emphasis is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-a-047",
+      "prompt": "An artist needs a basic understanding of ______ and ______ of art in order to have a good design",
+      "answers": [
+        "Element and Principle",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Element and Principle is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-048",
+      "prompt": "Pattern is area of relatively constant repetition shapes or forms while rhythm is distinguished by direction",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "True is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-049",
+      "prompt": "Harmony can be achieved through all of these except one",
+      "answers": [
+        "Colours",
+        "Shape",
+        "Size",
+        "Line",
+        "Using unrelated elements"
+      ],
+      "correctIndex": 4,
+      "difficulty": "Easy",
+      "explanation": "Using unrelated elements is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-050",
+      "prompt": "The following are the principles of arts and design except ______",
+      "answers": [
+        "Proportion",
+        "Shape",
+        "Dominance",
+        "Repetition"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Shape is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-051",
+      "prompt": "_______ are colours that are opposite each other on the colour wheel",
+      "answers": [
+        "Complementary colours",
+        "Shape",
+        "Texture",
+        "Perspective"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Complementary colours is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-052",
+      "prompt": "Properties of colour are",
+      "answers": [
+        "Hue, Value and Intensity",
+        "Shape",
+        "Texture",
+        "Perspective"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Hue, Value and Intensity is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-053",
+      "prompt": "Monochrome means _______",
+      "answers": [
+        "One colour",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "One colour is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-054",
+      "prompt": "_________ is the addition of white to a hue while _______ is addition of black to a hue",
+      "answers": [
+        "Tint and Shade",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Tint and Shade is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-055",
+      "prompt": "What is colour:",
+      "answers": [
+        "Colour is the element of art that involves shadow",
+        "Colour is the element of arts involves nature",
+        "Colour is the element of arts that involves light",
+        "Colour is the element of art that involves force"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Colour is the element of arts that involves light is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-056",
+      "prompt": "Colour can be broken down into three basic types in this sequence",
+      "answers": [
+        "Primary, Secondary, Primary",
+        "Secondary, Tertiary, Primary",
+        "Primary, Secondary, Tertiary",
+        "Tertiary, Primary, Secondary"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Secondary, Tertiary, Primary is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-057",
+      "prompt": "Black and white are called neutral colours because _____",
+      "answers": [
+        "Because they do not have specific wavelets",
+        "Because they do not have specific wavelites",
+        "Because they do not have specific wavelength",
+        "Because the do not have specific waveguides"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Because they do not have specific wavelength is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-058",
+      "prompt": "One of the most important tools in learning the science of colours in design is the ____",
+      "answers": [
+        "Colour contour",
+        "Colour rainbow",
+        "Colour wheel",
+        "Colour palette"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Colour rainbow is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-059",
+      "prompt": "Every colour used must be described in terms of three physical properties",
+      "answers": [
+        "Tone, Light, Value",
+        "Light, Light, Value",
+        "Hue, Value, Intensity",
+        "Intensity, Light, Value"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Hue, Value, Intensity is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-060",
+      "prompt": "The generic name for colour Red, Blue, Yellow is _____",
+      "answers": [
+        "Value",
+        "Tone",
+        "Hue",
+        "Light"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Hue is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-061",
+      "prompt": "Neutral colours are ______ and ______",
+      "answers": [
+        "White and Black",
+        "red and blue",
+        "green and yellow",
+        "orange and violet"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "White and Black is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-062",
+      "prompt": "All the colours can be represented on ________",
+      "answers": [
+        "A colour wheel",
+        "Shape",
+        "Texture",
+        "Perspective"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "A colour wheel is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-063",
+      "prompt": "Colours are of three basic types",
+      "answers": [
+        "Primary colours, Secondary colours and Tertiary colours",
+        "Shape",
+        "Texture",
+        "Perspective"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Primary colours, Secondary colours and Tertiary colours is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-064",
+      "prompt": "Which of the set of colours below is associated with the sun or fire",
+      "answers": [
+        "Green, blue, pink",
+        "White, wine, violet",
+        "Red, orange, yellow",
+        "Gray, black, red"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Red, orange, yellow is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-065",
+      "prompt": "The term intensity is used to distinguish",
+      "answers": [
+        "Sweetness and dullness of a colour",
+        "Colourful and dullness of a colour",
+        "Brightness and dullness of a colour",
+        "Harmony and dullness of colour"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Brightness and dullness of a colour is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-066",
+      "prompt": "Which of these groups of colours are good examples of cool colours",
+      "answers": [
+        "Yellow, red, orange",
+        "Green, purple, brown",
+        "Blue, green, violet",
+        "Orange, green, blue"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Green, purple, brown is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-067",
+      "prompt": "The compliment of Red in the triadic colour system",
+      "answers": [
+        "Blue",
+        "Yellow GEN DAVID TUTORIAL",
+        "Green",
+        "Orange"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Green is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-068",
+      "prompt": "Colour black is a combination of _______",
+      "answers": [
+        "Some colours",
+        "One colour",
+        "Three colours",
+        "All colours",
+        "Few colours"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "All colours is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-069",
+      "prompt": "The colour wheel begins with ______",
+      "answers": [
+        "Secondary Colours",
+        "Primary colours",
+        "Tertiary colours",
+        "Intermediate colours",
+        "Complementary colours"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Primary colours is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-070",
+      "prompt": "The third phase of the colour wheel is called ____",
+      "answers": [
+        "Primary colour",
+        "Secondary colour",
+        "Tertiary colour",
+        "Hue colour",
+        "Hueism"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Tertiary colour is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-071",
+      "prompt": "A set of three colours equidistant from each other is known as ________",
+      "answers": [
+        "Triad colours",
+        "Triart colours",
+        "Tripod colors",
+        "Triadic colours"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Triad colours is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-072",
+      "prompt": "All triads have underlying colours connecting them except ______",
+      "answers": [
+        "Intermediate triad",
+        "Primary Triad",
+        "Tertiary Triad",
+        "Secondary Triad",
+        "Hue triad"
+      ],
+      "correctIndex": 4,
+      "difficulty": "Easy",
+      "explanation": "Hue triad is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-073",
+      "prompt": "Bright colours are said to be warm or _________",
+      "answers": [
+        "Advancing colours",
+        "Shape",
+        "Texture",
+        "Perspective"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Advancing colours is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-074",
+      "prompt": "Dark colours are referred to as cool or _______",
+      "answers": [
+        "Receeding colours",
+        "Shape",
+        "Texture",
+        "Perspective"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Receeding colours is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-075",
+      "prompt": "Another term for pure colour is GEN DAVID TUTORIAL",
+      "answers": [
+        "Hue",
+        "value",
+        "intensity",
+        "tone"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Hue is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-076",
+      "prompt": "Colours has various symbolism from culture to ______",
+      "answers": [
+        "Culture",
+        "Shape",
+        "Texture",
+        "Perspective"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Culture is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-077",
+      "prompt": "Colours have psychological way of affecting _______",
+      "answers": [
+        "Human moods",
+        "Shape",
+        "Texture",
+        "Perspective"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Human moods is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-078",
+      "prompt": "Red, yellow and blue is an example of ______",
+      "answers": [
+        "Primary triad",
+        "Tertiary triad",
+        "Secondary triad",
+        "Triad",
+        "Secondary colours"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Primary triad is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-079",
+      "prompt": "Triads are basically categorized into three of primary, secondary and tertiary?",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-080",
+      "prompt": "Green, Orange and purple are examples of a primary triad:",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "False is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-081",
+      "prompt": "The pure colour is also known as ____",
+      "answers": [
+        "Hue",
+        "Uhe",
+        "Pigment",
+        "Perfection"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Hue is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-082",
+      "prompt": "The particular quality of brightness, deepness of any colour is referred as _______",
+      "answers": [
+        "Shade",
+        "Tone",
+        "Tint",
+        "Cool",
+        "Warm"
+      ],
+      "correctIndex": 4,
+      "difficulty": "Easy",
+      "explanation": "Warm is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-083",
+      "prompt": "A mixture of equal proportions of colours green and yellow results in ________",
+      "answers": [
+        "Mixed colour",
+        "Tertiary colour",
+        "Premier colour",
+        "Secondary colour"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Tertiary colour is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-084",
+      "prompt": "Sir Isaac Newton established the colour theory in 1666 he passed sunlight beam through a glass prism to obtain colours of the spectrum namely;",
+      "answers": [
+        "ROYGBIV [i.e. Red, Orange, Yellow, Green, Blue, Indigo, Violet]",
+        "Shape",
+        "Texture",
+        "Perspective"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "ROYGBIV [i.e. Red, Orange, Yellow, Green, Blue, Indigo, Violet] is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-085",
+      "prompt": "A tinted colour contains a particular colour and _____",
+      "answers": [
+        "White",
+        "Blue",
+        "Red",
+        "Rainbow"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "White is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-086",
+      "prompt": "Which of the following is similar to colour?",
+      "answers": [
+        "Hew",
+        "Hue",
+        "Shoe",
+        "Hewn"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Hue is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-087",
+      "prompt": "Colour is from _____",
+      "answers": [
+        "Light",
+        "pigment",
+        "shadow",
+        "texture"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Light is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-088",
+      "prompt": "Without ________ there can be no colour",
+      "answers": [
+        "Light",
+        "pigment",
+        "shadow",
+        "texture"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Light is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-089",
+      "prompt": "Scientific colour derived from white light is different from artists colour called ______",
+      "answers": [
+        "PIGMENT",
+        "light",
+        "hue",
+        "shade"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "PIGMENT is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-090",
+      "prompt": "Primary colours are _______, ________ and _______",
+      "answers": [
+        "Red, Yellow and Blue",
+        "orange, green and violet",
+        "red, green and blue",
+        "yellow, orange and violet"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Red, Yellow and Blue is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-091",
+      "prompt": "Secondary colours are ________, _______ and ______",
+      "answers": [
+        "Orange, Green and Violet",
+        "red, yellow and blue",
+        "blue, green and violet",
+        "red, orange and yellow"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Orange, Green and Violet is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-092",
+      "prompt": "Tertiary colour are achieved by the mixture of ________",
+      "answers": [
+        "Two colours",
+        "Shape",
+        "Texture",
+        "Perspective"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Two colours is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-093",
+      "prompt": "Who discovered the colour spectrum by allowing sunlight beam to pass through a glass prism",
+      "answers": [
+        "Michael Angelo",
+        "Sir Ahmadu Bello",
+        "Sir Isaac Newton",
+        "Sir Isaac Wilberforce"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Sir Isaac Newton is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-094",
+      "prompt": "The subtle meeting point between light and dark areas of an object is called ____",
+      "answers": [
+        "Tonal value",
+        "Intensity",
+        "Middle tone GEN DAVID TUTORIAL",
+        "High tone"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Middle tone GEN DAVID TUTORIAL is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-a-095",
+      "prompt": "When green and yellow colours are mixed together in equal proportion, the formed colour falls under ____",
+      "answers": [
+        "Harmonious",
+        "Intermediate",
+        "Secondary",
+        "Remedial"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Intermediate is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-096",
+      "prompt": "When an equal proportion of yellow and red colours are mixed together, it will give _____ colour",
+      "answers": [
+        "Green",
+        "Orange",
+        "Purple",
+        "Black"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Orange is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-097",
+      "prompt": "When an equal proportion of blue and red colours are mixed together, it will give _____ colour",
+      "answers": [
+        "Green",
+        "Orange",
+        "Purple",
+        "Black"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Purple is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-098",
+      "prompt": "When an equal proportion of yellow and blue colours are mixed together, it will give _____ colour",
+      "answers": [
+        "Green",
+        "Orange",
+        "Purple",
+        "Black"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Green is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-099",
+      "prompt": "A good football coach will have his team’s changing room painted ________ to create a relaxing atmosphere in a",
+      "answers": [
+        "cool colour",
+        "Red",
+        "Yellow",
+        "Blue",
+        "Orange"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Yellow is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-100",
+      "prompt": "________ colour is produced by mixing a secondary colour with an adjacent primary colour Secondary colour",
+      "answers": [
+        "D",
+        "Shape",
+        "Texture",
+        "Perspective"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "D is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-101",
+      "prompt": "Green and Blue are described as _____",
+      "answers": [
+        "Warm colours",
+        "Sharp colours",
+        "Little colours",
+        "Cool colours"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Cool colours is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-102",
+      "prompt": "The illustration above, label “A” is",
+      "answers": [
+        "Orange",
+        "Green",
+        "Purple",
+        "Grey"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Orange is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-103",
+      "prompt": "In the illustration above labeled “B” is",
+      "answers": [
+        "Orange",
+        "Green",
+        "Purple",
+        "Grey"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Green is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-104",
+      "prompt": "In the illustration above, Label “C” is",
+      "answers": [
+        "Orange",
+        "Green",
+        "Purple",
+        "Grey"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Purple is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-105",
+      "prompt": "Parallel lines receding into distance seem to converge, until they meet at a point on the horizon line where they disappear. This point is known as __________",
+      "answers": [
+        "Vanishing point",
+        "horizon line",
+        "viewpoint",
+        "picture plane"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Vanishing point is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-106",
+      "prompt": "In order for pictorial space to be consistent, the logic of linear perspective must apply to every form that recedes into the distance, including objects, human and animal forms. This effects i9s",
+      "answers": [
+        "foreshortening",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "foreshortening is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-107",
+      "prompt": "Staring off into a series of hills, you may notice that each succeeding range appears paler, bluer, and less distinct. This is an optical effect caused by_______ perspective",
+      "answers": [
+        "Aerial",
+        "linear",
+        "angular",
+        "parallel"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Aerial is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-108",
+      "prompt": "Perspective techniques used in drawing or painting to give an image on a flat surface a sense of _______",
+      "answers": [
+        "depth",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "depth is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-109",
+      "prompt": "The term perspective refers to the representation of objects in 3 dimensional space on the ______ surface of a picture",
+      "answers": [
+        "Two dimensional",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Two dimensional is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-110",
+      "prompt": "The spot where the artist stand to draw is called ______________",
+      "answers": [
+        "View point",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "View point is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-111",
+      "prompt": "____________ is the line where the land or sea meets the sky in the distance",
+      "answers": [
+        "horizon",
+        "vanishing point",
+        "viewpoint",
+        "picture plane"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "horizon is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-112",
+      "prompt": "The essence of perspective in drawing or painting is to create ________________",
+      "answers": [
+        "Distance",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Distance is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-113",
+      "prompt": "The diagram below suggests what types of perspective?",
+      "answers": [
+        "Parallel",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Parallel is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-114",
+      "prompt": "The diagram below shows what type of perspective?",
+      "answers": [
+        "Angular",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Angular is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-115",
+      "prompt": "The imaginary line in the distance at which every object seem to disappear in perspective drawing is the _______",
+      "answers": [
+        "Vanishing point",
+        "Line of horizon",
+        "Point of intersection",
+        "Oblique line"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Line of horizon is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-116",
+      "prompt": "The point of convergence at which every objects seems to disappear in perspective drawing is the _________",
+      "answers": [
+        "Terminus",
+        "Horizontal point",
+        "Location point",
+        "Vanishing point"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Vanishing point is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-117",
+      "prompt": "In perspective drawing objects seems to disappear into a converging point known as ______",
+      "answers": [
+        "Vanishing point",
+        "Location point",
+        "Terminal point GEN DAVID TUTORIAL",
+        "Linear horizon"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Vanishing point is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-118",
+      "prompt": "_________ is principle of arts that shows three dimensionality or distance on a two-dimensional surface",
+      "answers": [
+        "Pitesti",
+        "Prospective",
+        "Perceptive",
+        "Perspective"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Perspective is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-119",
+      "prompt": "__________ is the art of showing the sizes of objects in space as they really appear to the eyes of the observer",
+      "answers": [
+        "Leaner’s perspective (b. Lunar perspective",
+        "Linear perspective",
+        "Linniar perspective"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Linniar perspective is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-120",
+      "prompt": "If a house is viewed from aerial perspective which part of the house will be seen?",
+      "answers": [
+        "Front",
+        "Back",
+        "Roof",
+        "Side"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Roof is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-121",
+      "prompt": "The line of horizon is represented by _____",
+      "answers": [
+        "Vanishing point",
+        "Eye – level line",
+        "Sky",
+        "Picture line"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Eye – level line is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-122",
+      "prompt": "Below the Eye-level line is the _____",
+      "answers": [
+        "Sky",
+        "Ground",
+        "Sea",
+        "Vanishing point"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Ground is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-123",
+      "prompt": "Straight line that are parallel appears to meet at ______",
+      "answers": [
+        "Vanishing point",
+        "Eye-level",
+        "Foreground",
+        "Visual point"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Vanishing point is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-124",
+      "prompt": "Perspective that is seen from below eye-level is called ________",
+      "answers": [
+        "Angular GEN DAVID TUTORIAL",
+        "Linear",
+        "Eye",
+        "Aerial"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Aerial is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-125",
+      "prompt": "Perspective in drawing developed during the _______ period",
+      "answers": [
+        "Check second session of the pdf",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Check second session of the pdf is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-126",
+      "prompt": "Imaginary line where the earth meets the sky is also known as ______",
+      "answers": [
+        "Line of vanishing",
+        "Line of horizon",
+        "Parallel line",
+        "Perspective line"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Line of horizon is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-127",
+      "prompt": "The elementary law of optics where objects get smaller with distance is known as",
+      "answers": [
+        "Foreshortening",
+        "Perspective",
+        "Chiaroscuro",
+        "Tint"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Perspective is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-128",
+      "prompt": "One of the following is an odd word",
+      "answers": [
+        "Linear perspective",
+        "Angular perspective",
+        "Aerial perspective",
+        "Parallel perspective"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Linear perspective is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-129",
+      "prompt": "_______ is the art of showing sizes of objects in space as they appear to the eyes of the observers",
+      "answers": [
+        "Principle of art and design",
+        "Elements or arts and design",
+        "Elementary line",
+        "Linear perspective"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Linear perspective is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-130",
+      "prompt": "Define perspective drawing",
+      "answers": [
+        "A drawing of three dimensional form on a two dimensional surface",
+        "Creation of an illusion of depth on a three dimensional surface GEN DAVID TUTORIAL",
+        "Drawing of human being in profile",
+        "Representation of form or shape on a plane"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "A drawing of three dimensional form on a two dimensional surface is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-131",
+      "prompt": "The artist makes drawing and paintings within a picture _______",
+      "answers": [
+        "Foreshortening",
+        "Lettering",
+        "Perspective",
+        "Plane"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Plane is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-132",
+      "prompt": "When an artist represent a distant objects from the observer on a diminutive scale, it is _",
+      "answers": [
+        "Colour",
+        "Texture",
+        "Linear perspective",
+        "Rhythm"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Rhythm is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-133",
+      "prompt": "In perspective drawing, objects at a distance appear smaller and paler than objects at a closer range",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "True is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-134",
+      "prompt": "The point at which every objects seems to diffuse into disappearance in perspective is called ___________",
+      "answers": [
+        "Vanishing point",
+        "horizon line",
+        "viewpoint",
+        "picture plane"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Vanishing point is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-135",
+      "prompt": "The imaginary line in distance at which the sky and the foreground appear to meet is called ____________",
+      "answers": [
+        "Horizon",
+        "vanishing point",
+        "viewpoint",
+        "picture plane"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Horizon is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-136",
+      "prompt": "The father the colour, the plaer it is. This is the principle of ___________ perspective",
+      "answers": [
+        "Aerial",
+        "linear",
+        "angular",
+        "parallel"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Aerial is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-137",
+      "prompt": "__________ is the based on elementary law of optics where distant objects appear smaller and more faint than near objects",
+      "answers": [
+        "Linear",
+        "aerial",
+        "angular",
+        "parallel"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Linear is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-138",
+      "prompt": "The two types of perspective in drawing are _______________________ and ____________________",
+      "answers": [
+        "Aerial and Linear",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Aerial and Linear is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-139",
+      "prompt": "As “vanishing point: is synonymous to “centre of vision”, eye level is synonymous to ____",
+      "answers": [
+        "Line of Vision",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Line of Vision is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-a-140",
+      "prompt": "Which of these letters has the widest width?",
+      "answers": [
+        "“F”",
+        "“W”",
+        "“M” GEN DAVID TUTORIAL",
+        "“A”"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "“W” is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-141",
+      "prompt": "In English Alphabets A – Z, letter _________ is the narrowest",
+      "answers": [
+        "“L”",
+        "“S”",
+        "“I”",
+        "“P”"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "“I” is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-142",
+      "prompt": "From the letter “a” above, the portion labeled “a” is called ______",
+      "answers": [
+        "Serif",
+        "San serif",
+        "Base line",
+        "Drop line"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Serif is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-143",
+      "prompt": "Label ‘b” from the above diagram is known as _______",
+      "answers": [
+        "Lobe",
+        "Cross bar",
+        "Serif",
+        "Waist line"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Cross bar is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-144",
+      "prompt": "In letter construction, the following lines are necessary for guide except _____",
+      "answers": [
+        "Cap line",
+        "Waist line",
+        "Base line",
+        "Top line"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Top line is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-145",
+      "prompt": "Which of these letter is odd one out?",
+      "answers": [
+        "‘B’",
+        "‘C’",
+        "‘E’",
+        "M"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "M is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-146",
+      "prompt": "_________ is equivalent to capital letters",
+      "answers": [
+        "Lower cave GEN DAVID TUTORIAL",
+        "Upper case",
+        "Medium case",
+        "Titled case is called"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Upper case is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-147",
+      "prompt": "The art of writing beautiful cursive letter letters with free hand pen is called ______",
+      "answers": [
+        "Serigraphy",
+        "Calligraphy",
+        "Lithography",
+        "Pen writing"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Calligraphy is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-148",
+      "prompt": "Which of these letters does not need drop line for construction?",
+      "answers": [
+        "b",
+        "j",
+        "j",
+        "g"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "b is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-149",
+      "prompt": "Which of the letters bellow has “Sherif”",
+      "answers": [
+        "Romans",
+        "Gothics",
+        "Scripts",
+        "Italics"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Romans is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-150",
+      "prompt": "Two types of fonts that are mostly used in advertisement are _________ and __________",
+      "answers": [
+        "Gothics and Roman",
+        "Only the first listed option",
+        "Only the second listed option",
+        "Neither listed option"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Gothics and Roman is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-151",
+      "prompt": "_________ is a type face that’s is suitable for emphasis in text or design _________",
+      "answers": [
+        "Gothics",
+        "Roman",
+        "Italics",
+        "San-serif"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Roman is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-152",
+      "prompt": "Egyptian earliest form of political writing is known as _________",
+      "answers": [
+        "Hieroglyphics",
+        "Calligraphy",
+        "Typographic",
+        "Offset"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Hieroglyphics is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-153",
+      "prompt": "A typeface that consists of thick and thin strokes with serif is known as ________",
+      "answers": [
+        "Gothics",
+        "Calligraphy GEN DAVID TUTORIAL",
+        "Roman",
+        "Italics"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Roman is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-154",
+      "prompt": "The narrowest letter in English Alphabet is __________",
+      "answers": [
+        "E",
+        "C",
+        "F",
+        "I"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "I is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-155",
+      "prompt": "Which of the following typeface is mostly suitable for representing “Strength”",
+      "answers": [
+        "Gothics",
+        "Roman",
+        "Old English Text",
+        "Italics"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Gothics is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-a-156",
+      "prompt": "Art of writing beautiful lettering with pen and ink is known as ______",
+      "answers": [
+        "Hieroglyphics",
+        "Calligraphy",
+        "Offset",
+        "Typographic"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Calligraphy is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-157",
+      "prompt": "The important of a good lettering is ________",
+      "answers": [
+        "Legibility",
+        "Accessibility",
+        "Legality",
+        "Feasibility"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Legibility is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-158",
+      "prompt": "The other name for the face of a type or letter is ______",
+      "answers": [
+        "Front",
+        "Plant",
+        "Plot",
+        "Font"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Font is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-159",
+      "prompt": "________ is most important characteristics of good lettering",
+      "answers": [
+        "Straight",
+        "Curve",
+        "Creativity",
+        "Legibility"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Legibility is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-160",
+      "prompt": "Font is synonymous to GEN DAVID TUTORIAL",
+      "answers": [
+        "Face",
+        "Latter face",
+        "Lettering",
+        "Type face"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Type face is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-161",
+      "prompt": "In constructing gothic capital letters A – H, which alphabets have curved lines",
+      "answers": [
+        "D, C, D, G",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "D, C, D, G is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-162",
+      "prompt": "The sizes of Gothics letters A to Z measure 3xm by 5cm except letters ________ and ______",
+      "answers": [
+        "W and M",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "W and M is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-163",
+      "prompt": "Types of lettering are block lettering and _______",
+      "answers": [
+        "Pen lettering",
+        "Pencil lettering",
+        "Biro lettering",
+        "Straight lettering"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Pen lettering is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-164",
+      "prompt": "The best type of lettering for a poster is ______?",
+      "answers": [
+        "Pen lettering",
+        "Block lettering",
+        "Script lettering",
+        "Calligraphy"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Block lettering is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-165",
+      "prompt": "When letters are cramped together they come _______?",
+      "answers": [
+        "Legible",
+        "Not legible",
+        "Emotional",
+        "Calligraphic"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Not legible is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-166",
+      "prompt": "The best lettering for a signpost is _____?",
+      "answers": [
+        "Italics",
+        "Calligraphy",
+        "Gothics",
+        "Text"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Gothics is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-167",
+      "prompt": "The art of writing letter is called_______?",
+      "answers": [
+        "Calligraphy",
+        "Lettering",
+        "Impasto",
+        "Drawing"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Lettering is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-168",
+      "prompt": "The sizes of gothics letters A to Z measure 3cm by 5cm except letters _______ and _______",
+      "answers": [
+        "M and W",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "M and W is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-a-169",
+      "prompt": "Roman letters have Serifs?",
+      "answers": [
+        "Yes",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Yes is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-001",
+      "prompt": "of art and design are the components or the constituents of a work of art, particularly drawing",
+      "answers": [
+        "Elements",
+        "principles",
+        "mediums",
+        "techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Elements is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-002",
+      "prompt": "Elements of art are the following except",
+      "answers": [
+        "Line, Shape, Form, Space, Texture, Volume and Colour",
+        "Shape, Form, Space, Texture, Volume and Colour and Rhythm",
+        "Line, Shape, Form, Space, Texture, Volume and Character",
+        "Line, Shape, Form, Space, Texture, Volume and Tone"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Line, Shape, Form, Space, Texture, Volume and Colour is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-003",
+      "prompt": "is a path traced between two points",
+      "answers": [
+        "A line",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "A line is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-004",
+      "prompt": "have character, quality and direction",
+      "answers": [
+        "Lines",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Lines is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-005",
+      "prompt": "is made up of a combination of lines",
+      "answers": [
+        "A shape",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "A shape is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-006",
+      "prompt": "is a basic shape",
+      "answers": [
+        "Circle",
+        "Square",
+        "Triangle",
+        "Rectangle",
+        "all of the above"
+      ],
+      "correctIndex": 4,
+      "difficulty": "Easy",
+      "explanation": "all of the above is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-007",
+      "prompt": "Which of the following are example of forms",
+      "answers": [
+        "Cube, Cylinder, Pyride, Cub",
+        "Cube, Cylinder, Sphere, Pyramid or prism, Cone, Cuboid",
+        "Cube,Cylinder, Sphere, Pyramid or prism, Pyride, Cub",
+        "Cube, Cylinder, Sphere, Pyramid or prism, Middle"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Cube, Cylinder, Sphere, Pyramid or prism, Cone, Cuboid is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-008",
+      "prompt": "have volume",
+      "answers": [
+        "Forms",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Forms is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-009",
+      "prompt": "is the surface value of an object",
+      "answers": [
+        "Texture",
+        "form",
+        "space",
+        "colour"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Texture is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-010",
+      "prompt": "and can be used to show visual texture",
+      "answers": [
+        "Lines and tones",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Lines and tones is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-011",
+      "prompt": "is the degree of tones and light on an object in drawing",
+      "answers": [
+        "Value",
+        "Perspective",
+        "Calligraphy",
+        "Harmony"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Value is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-b-012",
+      "prompt": "and can be shown in drawing with the use of shading techniques",
+      "answers": [
+        "Value and texture",
+        "Perspective",
+        "Calligraphy",
+        "Harmony"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Value and texture is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-b-013",
+      "prompt": "Shading techniques include one of the following",
+      "answers": [
+        "All the options are correct",
+        "Perspective",
+        "Calligraphy",
+        "Harmony"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "All the options are correct is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-b-014",
+      "prompt": "Tones on an object comprise of",
+      "answers": [
+        "Highlight, Light tone, Semitone/Mid- tone, Dark-tone and Shadow",
+        "Perspective",
+        "Calligraphy",
+        "Harmony"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Highlight, Light tone, Semitone/Mid- tone, Dark-tone and Shadow is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-b-015",
+      "prompt": "Principles of art and design are",
+      "answers": [
+        "Balance, Dominance, Proportion, Rhythm and Unity",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Balance, Dominance, Proportion, Rhythm and Unity is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-016",
+      "prompt": "Rhythm is based on",
+      "answers": [
+        "Repetition, Contrast and similarity",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Repetition, Contrast and similarity is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-017",
+      "prompt": "and helps to emphasize elements of art in a composition or design",
+      "answers": [
+        "Dominance and Subordination",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Dominance and Subordination is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-018",
+      "prompt": "Balance is divided into and",
+      "answers": [
+        "Symmetrical balance and Asymmetrical balance",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Symmetrical balance and Asymmetrical balance is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-019",
+      "prompt": "The difference between shade and shadow is",
+      "answers": [
+        "Tonal value",
+        "Shading value",
+        "Skill value",
+        "Smudging value"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Tonal value is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-020",
+      "prompt": "Using dots to create effect of light and shade is called",
+      "answers": [
+        "Smudging",
+        "Pointillism",
+        "Hatching",
+        "Cross Hatching"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Pointillism is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-021",
+      "prompt": "When a form overlaps one another in drawing, it is called",
+      "answers": [
+        "Juxtaposed",
+        "Misplaced",
+        "Hidden-out",
+        "Adjusted"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Juxtaposed is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-022",
+      "prompt": "The technique of drawing by which volume, texture and value are added to an image is known as",
+      "answers": [
+        "Drawing technique",
+        "Shading technique",
+        "Shaping technique",
+        "Plotting technique"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Shading technique is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-023",
+      "prompt": "The following are the types of shading techniques except",
+      "answers": [
+        "Blurring",
+        "Hatching",
+        "Cross-hatching",
+        "Dadaism"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Dadaism is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-b-024",
+      "prompt": "What is „shade‟ in relation to colour mixture",
+      "answers": [
+        "Addition of black",
+        "Addition of white",
+        "Extraction of colours",
+        "Combination of colours"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Addition of black is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-025",
+      "prompt": "Line is the simplest means of",
+      "answers": [
+        "Thickness",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Thickness is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-026",
+      "prompt": "Human beings are usually in the state of motion when our bodies are to the ground",
+      "answers": [
+        "Horizontal",
+        "Monomer",
+        "Elastic",
+        "Diagonal"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Diagonal is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-027",
+      "prompt": "What kind of directional lines governs the organization of a dome",
+      "answers": [
+        "Straight lines",
+        "Diagonal lines",
+        "Perpendicular lines",
+        "Curvilinear lines"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Curvilinear lines is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-028",
+      "prompt": "is two-dimensional area that displays both width and length",
+      "answers": [
+        "A ball",
+        "A curve",
+        "A line",
+        "A shape"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "A ball is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-029",
+      "prompt": "is not a shading techniques",
+      "answers": [
+        "Cross hatching",
+        "Pointillism",
+        "Blurring",
+        "Highlight"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Highlight is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-b-030",
+      "prompt": "is the product of a relatively constant repetition of a visual detail mostly on two- dimensional surface",
+      "answers": [
+        "Harmony",
+        "Balance",
+        "Rhythm",
+        "Pattern"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Pattern is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-031",
+      "prompt": "The difference between representational drawing and the object is",
+      "answers": [
+        "The former is imagery",
+        "The former is tactile",
+        "The former is textured",
+        "The later is substantial"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "The former is imagery is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-032",
+      "prompt": "Path of many dots is also known as",
+      "answers": [
+        "Colour",
+        "Doting",
+        "Fine",
+        "Line"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Line is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-033",
+      "prompt": "Linear form is defined as",
+      "answers": [
+        "Form constructed by lines",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Form constructed by lines is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-034",
+      "prompt": "An area with identifiable boundary is",
+      "answers": [
+        "Space",
+        "Shape",
+        "Sharp",
+        "Border"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Shape is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-035",
+      "prompt": "The opposite of geometric shape is",
+      "answers": [
+        "Biological shape",
+        "Organic shape",
+        "Psychological shape",
+        "Chemical shape"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Organic shape is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-036",
+      "prompt": "When components of two sides of a drawing do not match, this is referred to as",
+      "answers": [
+        "Asymmetrical",
+        "Diagrammatical",
+        "Metrical",
+        "Tactical"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Asymmetrical is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-037",
+      "prompt": "The most appropriate type of shading for depicting a woolly material is",
+      "answers": [
+        "Hatching",
+        "Pointillism",
+        "Smudging",
+        "Rubbing"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Smudging is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-b-038",
+      "prompt": "In principle of design, how could these geometric shapes could be referred to",
+      "answers": [
+        "Discord",
+        "Similar",
+        "Identical",
+        "Symmetrical"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Identical is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-039",
+      "prompt": "The figure above represents line",
+      "answers": [
+        "Spiral (Check the diagram in your manual page 9 )",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Spiral (Check the diagram in your manual page 9 ) is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-040",
+      "prompt": "The illustration above represents as a principle of design",
+      "answers": [
+        "Rhythm (Check the diagram in your manual page 9 )",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Rhythm (Check the diagram in your manual page 9 ) is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-041",
+      "prompt": "In the illustration above, label „A‟ is",
+      "answers": [
+        "Shadow",
+        "Dark tone",
+        "Mid-tone",
+        "Highlight"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Highlight is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-042",
+      "prompt": "In the illustration above, label „B‟ represents",
+      "answers": [
+        "Shadow",
+        "Dark tone",
+        "Mid-tone",
+        "Highlight"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Mid-tone is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-043",
+      "prompt": "In the illustration above, label „C‟ identifies",
+      "answers": [
+        "Shadow",
+        "Dark tone",
+        "Mid-tone",
+        "Highlight"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Dark tone is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-044",
+      "prompt": "In the illustration above, label „D‟ points to",
+      "answers": [
+        "Shadow",
+        "Dark tone",
+        "Mid-tone",
+        "Highlight"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Shadow is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-045",
+      "prompt": "Tonal value means shading",
+      "answers": [
+        "True",
+        "Perspective",
+        "Calligraphy",
+        "Harmony"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-b-046",
+      "prompt": "Geometric shapes are usually bordered bylines",
+      "answers": [
+        "True",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-047",
+      "prompt": "A bird that flew from the central library to the one thousand two hundred (1 2 0 0 ) seater hall in a lateral direction could be said to have drawn a",
+      "answers": [
+        "Straight line",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Straight line is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-048",
+      "prompt": "is the technique of shading dots to create effect of light and shade",
+      "answers": [
+        "Pointillism",
+        "hatching",
+        "cross-hatching",
+        "smudging"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Pointillism is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-049",
+      "prompt": "In a shaded work of drawing, there must always be a directly opposite the source of light",
+      "answers": [
+        "Shadow",
+        "Perspective",
+        "Calligraphy",
+        "Harmony"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Shadow is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-050",
+      "prompt": "Artist generally read a curved line more slowly than a straight one",
+      "answers": [
+        "True",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-051",
+      "prompt": "HB is the lightest B-pencil",
+      "answers": [
+        "True",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-b-052",
+      "prompt": "Chiaroscuro is the same thing as tonal value",
+      "answers": [
+        "True",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-053",
+      "prompt": "In object representation, an artist develops skill in",
+      "answers": [
+        "Observation and drawing",
+        "Painting and playing",
+        "Drawing and merry",
+        "Observation and slight-seeing"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Observation and drawing is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-054",
+      "prompt": "One of the principles of art and design is",
+      "answers": [
+        "Line",
+        "Space",
+        "Rhythm",
+        "Colour"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Rhythm is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-055",
+      "prompt": "Elements of art and design include",
+      "answers": [
+        "Rhythm and line",
+        "Colour and texture",
+        "Colour and balance",
+        "Line and dominance"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Colour and texture is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-056",
+      "prompt": "Balance is achieved in art and design in two ways",
+      "answers": [
+        "Scale and symmetry",
+        "Vanishing and scale",
+        "Size and synchromatics",
+        "Symmetry and Asymmetry"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Symmetry and Asymmetry is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-057",
+      "prompt": "Shape defines",
+      "answers": [
+        "Out-line of a space",
+        "Vacuum",
+        "The mass of space",
+        "Form"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Out-line of a space is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-058",
+      "prompt": "Space as an element of art refers to",
+      "answers": [
+        "A given distance between two points",
+        "Area enclosed by line",
+        "Line of horizon"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "A given distance between two points is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-059",
+      "prompt": "Shape as an element of art refers to",
+      "answers": [
+        "A given distance between two points",
+        "Area enclosed by line",
+        "Line of horizon"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Area enclosed by line is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-060",
+      "prompt": "The followings are principles of art and design except",
+      "answers": [
+        "Balance",
+        "Rhythm",
+        "Dominance",
+        "Colour"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Colour is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-061",
+      "prompt": "The following are elements of art and design except",
+      "answers": [
+        "Space",
+        "Shape",
+        "Rhythm",
+        "Colour"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Rhythm is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-062",
+      "prompt": "is a combination of units which are similar in one or more aspect",
+      "answers": [
+        "Variety",
+        "Harmony",
+        "Repetition",
+        "Colour"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Repetition is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-063",
+      "prompt": "A straight broad vertical line suggest one of the followings",
+      "answers": [
+        "Contrapposto",
+        "Elegant",
+        "Loftiness",
+        "Stability"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Stability is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-064",
+      "prompt": "A simple way of balancing or unifying a work of art is through",
+      "answers": [
+        "Symmetrical process",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Symmetrical process is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-065",
+      "prompt": "The arrangement of dissimilar shapes or forms to achieve a balanced work is known as",
+      "answers": [
+        "Symmetrical balance",
+        "Conjugate balance",
+        "Modular balance",
+        "Asymmetrical balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Symmetrical balance is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-066",
+      "prompt": "is the relationship established between significantly different element in art",
+      "answers": [
+        "Unity",
+        "Harmony",
+        "Balance",
+        "Contrast"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Contrast is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-067",
+      "prompt": "Repetition, Similarity and discord are of art and design",
+      "answers": [
+        "Elements",
+        "Principles",
+        "Fundamentals",
+        "Basics"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Principles is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-068",
+      "prompt": "Even distribution of weight around a central axis means",
+      "answers": [
+        "Balance",
+        "Contrast",
+        "Emphasis",
+        "Proportion"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Balance is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-069",
+      "prompt": "Rhythm implies in design",
+      "answers": [
+        "Emphasis",
+        "Focus",
+        "Repetition",
+        "Variety"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Repetition is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-070",
+      "prompt": "Three-dimensional art processes",
+      "answers": [
+        "Breadth and Length",
+        "Length and Breadth and shape",
+        "Length, Width and Height",
+        "Shape and Form"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Length, Width and Height is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-071",
+      "prompt": "Two-dimensional art processes",
+      "answers": [
+        "Breadth and Length",
+        "Length and Breadth and shape",
+        "Length, Width and Height",
+        "Shape and Form"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Breadth and Length is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-072",
+      "prompt": "In a composition, an object or figure occupies",
+      "answers": [
+        "Linear void",
+        "Positive space",
+        "Negative space",
+        "Plausible space"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Positive space is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-073",
+      "prompt": "One of the following does not belong to the family of elements of design",
+      "answers": [
+        "Rhythm",
+        "balance",
+        "unity",
+        "contrast"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Rhythm is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-074",
+      "prompt": "Areas of specialization in arts include one of the these",
+      "answers": [
+        "Calligraphy",
+        "Lettering",
+        "Sketching",
+        "Textile design"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Textile design is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-075",
+      "prompt": "Visual art is divided into and arts",
+      "answers": [
+        "Fine and Applied",
+        "Fine and Drama",
+        "Music and Drama",
+        "Applied and planning"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Fine and Applied is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-076",
+      "prompt": "The above diagram represents as an element of design",
+      "answers": [
+        "Shape (Check the diagram in your manual page 18)",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Shape (Check the diagram in your manual page 18) is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-077",
+      "prompt": "The illustration above represents as a principle of design",
+      "answers": [
+        "Dominance (Check the diagram in your manual page 19)",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Dominance (Check the diagram in your manual page 19) is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-078",
+      "prompt": "The illustration above represents as a principle of design",
+      "answers": [
+        "Repetition (Check the diagram in your manual page 19)",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Repetition (Check the diagram in your manual page 19) is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-079",
+      "prompt": "Two of these are elements of art",
+      "answers": [
+        "Line",
+        "Graduation",
+        "Hue",
+        "Texture"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Line is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-080",
+      "prompt": "Two of these are principle of art",
+      "answers": [
+        "Line",
+        "Graduation",
+        "Balance",
+        "Repetition"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Balance is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-081",
+      "prompt": "Rhythm is one of the of art and design",
+      "answers": [
+        "Principle",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Principle is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-082",
+      "prompt": "is a certain point in a design which is highlighted or emphasized as centre of interest",
+      "answers": [
+        "Dominance",
+        "balance",
+        "rhythm",
+        "unity"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Dominance is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-b-083",
+      "prompt": "An artist needs a basic understanding of and of art in order to have a good design",
+      "answers": [
+        "Elements and Principles",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Elements and Principles is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-084",
+      "prompt": "Elements of design cannot be referred to as the building blocks of a visual art object",
+      "answers": [
+        "True",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-085",
+      "prompt": "In the visual arts, line performs many functions and configurations",
+      "answers": [
+        "True",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-086",
+      "prompt": "Pattern is area of relatively constant repetition, while rhythm is distinguished by variation",
+      "answers": [
+        "True",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-087",
+      "prompt": "is from light",
+      "answers": [
+        "Colour",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Colour is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-b-088",
+      "prompt": "Without there can be no colour",
+      "answers": [
+        "Light",
+        "pigment",
+        "shadow",
+        "texture"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Light is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-089",
+      "prompt": "Scientific colour derived from white light, is different from artists colour called",
+      "answers": [
+        "PIGMENT",
+        "light",
+        "hue",
+        "shade"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "PIGMENT is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-090",
+      "prompt": "are produced from plants, soil and some chemicals",
+      "answers": [
+        "Orange, Green and violet",
+        "red, yellow and blue",
+        "blue, green and violet",
+        "red, orange and yellow"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Orange, Green and violet is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-091",
+      "prompt": "are achieved by the mixture of two colours i.e. one primary colour and one secondary colour",
+      "answers": [
+        "Tertiary colour",
+        "Shape",
+        "Texture",
+        "Perspective"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Tertiary colour is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-092",
+      "prompt": "are white and Black",
+      "answers": [
+        "Neutral colours",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Neutral colours is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-093",
+      "prompt": "All the colours can be represented on a",
+      "answers": [
+        "Colour wheel",
+        "colour palette",
+        "colour spectrum",
+        "colour chart"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Colour wheel is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-094",
+      "prompt": "are colours that are opposite each other on the colour wheel",
+      "answers": [
+        "Hue, Value and Intensity",
+        "Shape",
+        "Texture",
+        "Perspective"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Hue, Value and Intensity is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-095",
+      "prompt": "Monochrome means",
+      "answers": [
+        "One colour",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "One colour is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-096",
+      "prompt": "are adjacent to one another on the colour wheel",
+      "answers": [
+        "Analogous colours",
+        "Shape",
+        "Texture",
+        "Perspective"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Analogous colours is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-097",
+      "prompt": "is addition of white to a hue",
+      "answers": [
+        "Tone",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Tone is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-098",
+      "prompt": "A mixture of equal proportions of colours green and yellow result in",
+      "answers": [
+        "Mixed colour",
+        "Tertiary colour",
+        "Premier colour",
+        "Secondary colour"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Tertiary colour is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-099",
+      "prompt": "A tinted colour contains a particular colour and",
+      "answers": [
+        "White",
+        "Blue",
+        "Red",
+        "Rainbow"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "White is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-100",
+      "prompt": "Which of the following is similar to colour",
+      "answers": [
+        "Hew",
+        "Hue",
+        "Shoe",
+        "Hewn"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Hue is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-101",
+      "prompt": "Who discovered the colour spectrum by allowing sunlight beam to pass through a glass prism?",
+      "answers": [
+        "Michael Angelo",
+        "Sir Ahmadu Bello",
+        "Sir Isaac Newton",
+        "Sir Isaac Wilberforce"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Sir Isaac Newton is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-102",
+      "prompt": "The subtle meeting point between light and dark areas of an object is called",
+      "answers": [
+        "Tonal value",
+        "Intensity",
+        "Middle tone",
+        "High tone"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Middle tone is correct because it identifies the shading technique or tonal feature described."
+    },
+    {
+      "id": "lautech-100-faa101-b-103",
+      "prompt": "When green and yellow colours are mixed together in equal proportion, the formed colour falls under",
+      "answers": [
+        "Harmonious",
+        "Intermediate",
+        "Secondary",
+        "Remedial"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Intermediate is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-104",
+      "prompt": "When an equal proportion of yellow and red colours are mixed together, it will give colour",
+      "answers": [
+        "Green",
+        "Orange",
+        "Purple",
+        "Black"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Orange is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-105",
+      "prompt": "When an equal proportion of blue and red colours are mixed together, it will give colour",
+      "answers": [
+        "Green",
+        "Orange",
+        "Purple",
+        "Black"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Purple is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-106",
+      "prompt": "When an equal proportion of yellow and blue colours are mixed together, it will give colour",
+      "answers": [
+        "Green",
+        "Orange",
+        "Purple",
+        "Black"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Green is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-107",
+      "prompt": "A good football coach will have his team‟s room painted to create a relaxing atmosphere in a cool colour",
+      "answers": [
+        "Red",
+        "Yellow",
+        "Blue",
+        "Orange"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Blue is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-108",
+      "prompt": "colour is produced by mixing a secondary colour with an adjacent primary colour",
+      "answers": [
+        "Secondary",
+        "Primary",
+        "Complimentary",
+        "Tertiary"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Tertiary is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-109",
+      "prompt": "Green and blue are described as",
+      "answers": [
+        "Warm colours",
+        "Sharp colours",
+        "Little colours",
+        "Cool colours"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Cool colours is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-110",
+      "prompt": "Red and orange are described as",
+      "answers": [
+        "Warm colours",
+        "Sharp colours",
+        "Little colours",
+        "Cool colours"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Warm colours is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-111",
+      "prompt": "The relative brightness or dullness of a colour is artistically referred to as",
+      "answers": [
+        "Complimentary",
+        "Cool",
+        "Warm",
+        "Intensity"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Intensity is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-112",
+      "prompt": "Another name for colour is",
+      "answers": [
+        "Chroma",
+        "Reflection",
+        "Shape",
+        "Hue"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Hue is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-113",
+      "prompt": "One of these is not an element of art and design",
+      "answers": [
+        "Colour",
+        "Line",
+        "Rhythm",
+        "Shape"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Rhythm is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-114",
+      "prompt": "Achromatic means",
+      "answers": [
+        "With hue",
+        "Without hue",
+        "Blue colour",
+        "Pale colour"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Without hue is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-115",
+      "prompt": "Who performed the experiment of colour theory in 1666",
+      "answers": [
+        "Sir Johnson Newton",
+        "Sir Isaac Newton",
+        "Sir Abraham Newton",
+        "Mr. Newton Johnson"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Sir Isaac Newton is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-116",
+      "prompt": "The lightness of colour is better known as",
+      "answers": [
+        "Shade",
+        "Tint",
+        "Colouring",
+        "Mixing"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Tint is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-117",
+      "prompt": "The darkness of colour is better known as",
+      "answers": [
+        "Shade",
+        "Tint",
+        "Colouring",
+        "Mixing"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Shade is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-118",
+      "prompt": "Which of these are primary colours?",
+      "answers": [
+        "Orange and Blue",
+        "Blue and Yellow",
+        "Green and Red",
+        "Yellow and Indigo"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Blue and Yellow is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-119",
+      "prompt": "Colours that are associated with sunlight are known as colours",
+      "answers": [
+        "Cool",
+        "Receding",
+        "Warm",
+        "Aggressive"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Warm is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-120",
+      "prompt": "The combination and the arrangement of colours in a circle gives",
+      "answers": [
+        "Primary colour",
+        "Secondary colour",
+        "Tertiary colour",
+        "Colour wheel"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Colour wheel is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-121",
+      "prompt": "In the illustration above, label „A‟ is",
+      "answers": [
+        "Orange",
+        "Green",
+        "Purple",
+        "Grey"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Orange is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-122",
+      "prompt": "In the illustration above, label „B‟ is",
+      "answers": [
+        "Orange",
+        "Green",
+        "Purple",
+        "Grey"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Green is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-123",
+      "prompt": "In the illustration above, label „C‟ is",
+      "answers": [
+        "Orange",
+        "Green",
+        "Purple",
+        "Grey"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Purple is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-124",
+      "prompt": "In the illustration above, label „A‟, „B‟ and „C‟ are colour",
+      "answers": [
+        "Tertiary",
+        "Primary",
+        "Secondary",
+        "Tint"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Secondary is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-125",
+      "prompt": "and are neutral colours",
+      "answers": [
+        "Black",
+        "Red",
+        "Green",
+        "White"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Black is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-126",
+      "prompt": ", and are examples of warm colours",
+      "answers": [
+        "Red",
+        "Yellow",
+        "Orange",
+        "Green"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Red is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-127",
+      "prompt": "Green is a mixture of and",
+      "answers": [
+        "Red",
+        "Yellow",
+        "Blue",
+        "Black"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Yellow is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-128",
+      "prompt": "Orange is a mixture of and",
+      "answers": [
+        "Red",
+        "Yellow",
+        "Blue",
+        "Green"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Red is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-129",
+      "prompt": "Purple is a mixture of and",
+      "answers": [
+        "Red",
+        "Yellow",
+        "Blue",
+        "Black"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Red is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-130",
+      "prompt": "and colours are the example of a complimentary colours on a colour wheel",
+      "answers": [
+        "Yellow",
+        "Blue",
+        "Green",
+        "Purple"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Purple is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-131",
+      "prompt": "is a principle of drawing that is applied to show three-dimensionally on a two-dimensional surface",
+      "answers": [
+        "Perspective",
+        "proportion",
+        "foreshortening",
+        "composition"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Perspective is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-132",
+      "prompt": ", and are types of perspective",
+      "answers": [
+        "Linear, Angular and Aerial",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Linear, Angular and Aerial is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-133",
+      "prompt": "and perspective can be seen from one point or two point",
+      "answers": [
+        "Linear perspective",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Linear perspective is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-134",
+      "prompt": "is synonymous with the horizon- line",
+      "answers": [
+        "The eye-level line",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "The eye-level line is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-135",
+      "prompt": "appear to disappear at a point called the vanishing point",
+      "answers": [
+        "All parallel lines",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "All parallel lines is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-136",
+      "prompt": "All parallel lines appear to disappear at a point called",
+      "answers": [
+        "Above the horizon-line and below the horizon-line",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Above the horizon-line and below the horizon-line is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-137",
+      "prompt": "In perspective, objects areviewed from angles that are not linear. For example, an object which is viewed from below",
+      "answers": [
+        "Angular perspective",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Angular perspective is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-138",
+      "prompt": "In perspective, objects areviewed from above. For example, if a house is viewed at aerial position only the roof will be seen",
+      "answers": [
+        "Aerial perspective",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Aerial perspective is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-139",
+      "prompt": "When is applied in the drawing of a human figure, the limbs or body parts seen from different views appear foreshortened",
+      "answers": [
+        "Perspective drawing",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Perspective drawing is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-140",
+      "prompt": "become fainter or paler with distance in perspective painting",
+      "answers": [
+        "Colours",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Colours is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-141",
+      "prompt": "The imaginary line in the distance at which the sky and the foreground appears to meet is called",
+      "answers": [
+        "Vanishing point",
+        "Line of horizon",
+        "Point of intersection",
+        "Oblique line"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Line of horizon is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-142",
+      "prompt": "The point of convergence at which every object seem to disappear in perspective drawing is the",
+      "answers": [
+        "Terminus",
+        "Horizontal point (v). Location point",
+        "Vanishing point"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Vanishing point is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-143",
+      "prompt": "In perspective drawing objects seem to disappear into a converging point known as",
+      "answers": [
+        "Vanishing point",
+        "Location point",
+        "Terminal point",
+        "Line of horizon"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Vanishing point is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-144",
+      "prompt": "is principle of art that shows three dimensionality or distance on a two-dimensional surface",
+      "answers": [
+        "Pitesti",
+        "Prospective",
+        "Perspective",
+        "Perceptive"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Perspective is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-145",
+      "prompt": "is the art of showing the sizes of objects in space as they really appear to the eyes of the observer",
+      "answers": [
+        "Leaner‟s perspective",
+        "Lunar perspective",
+        "Linear perspective",
+        "Linniar perspective"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Linear perspective is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-146",
+      "prompt": "If a house is viewed from aerial perspective which part of the house will be seen?",
+      "answers": [
+        "Front",
+        "Back",
+        "Roof",
+        "Side"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Roof is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-147",
+      "prompt": "The line of horizon is represented by",
+      "answers": [
+        "Vanishing point",
+        "Eye-level line",
+        "Sky",
+        "Picture line"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Eye-level line is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-148",
+      "prompt": "Below the eye-level line is the",
+      "answers": [
+        "Sky",
+        "Ground",
+        "Sea",
+        "Vanishing point"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Ground is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-149",
+      "prompt": "Straight lines that are parallel appears to meet at",
+      "answers": [
+        "Vanishing point",
+        "Eye-level",
+        "Foreground",
+        "Visual point"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Vanishing point is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-150",
+      "prompt": "Perspective that is seen from below eye-level is called",
+      "answers": [
+        "Angular",
+        "Linear",
+        "Eye",
+        "Aerial"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Aerial is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-151",
+      "prompt": "Perspective in drawing developed during the period",
+      "answers": [
+        "Classical",
+        "Renaissance (c. Greek",
+        "Roman"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Renaissance (c. Greek is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-152",
+      "prompt": "Imaginary line where the earth meets the sky is also known as",
+      "answers": [
+        "Line of vanishing",
+        "Line of horizon",
+        "Parallel line",
+        "Perspective line"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Line of horizon is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-153",
+      "prompt": "The elementary law of optics where objects get smaller with distance is known as",
+      "answers": [
+        "Foreshortening",
+        "Perspective",
+        "Chiaroscuro",
+        "Tint"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Perspective is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-154",
+      "prompt": "One of the following is an odd word",
+      "answers": [
+        "Linear perspective",
+        "Angular perspective",
+        "Aerial perspective",
+        "Parallel perspective"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Parallel perspective is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-155",
+      "prompt": "is the art of showing sizes of objects in space as they appear to the eyes of the observers",
+      "answers": [
+        "Principles of art and design",
+        "Elements of art and design",
+        "Elementary line",
+        "Linear perspective"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Linear perspective is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-156",
+      "prompt": "Define perspective drawing",
+      "answers": [
+        "A drawing of three-dimensional formon a two dimensional surface",
+        "Creation of an illusion of depth on a three- dimensional surface",
+        "Drawing of human being in profile",
+        "Representation of form or shape on a plane"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "A drawing of three-dimensional formon a two dimensional surface is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-157",
+      "prompt": "The artist makes drawings/paintings within a picture",
+      "answers": [
+        "Foreshortening",
+        "Lettering",
+        "Perspective",
+        "Plane"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Plane is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-158",
+      "prompt": "When an artist represents a distant object from the observer on a diminutive scale, it is",
+      "answers": [
+        "Colour",
+        "Texture",
+        "Linear perspective",
+        "Rhythm"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Linear perspective is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-159",
+      "prompt": "The illustration above shows the objects at different point of perspective. „A‟ indicates",
+      "answers": [
+        "Below eye level",
+        "Above eye level",
+        "Eye level",
+        "Line of horizon"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Below eye level is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-160",
+      "prompt": "The illustration above shows the objects at different point of perspective. „B‟ indicates",
+      "answers": [
+        "Below eye level",
+        "Above eye level",
+        "Eye level",
+        "Line of horizon"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Below eye level is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-161",
+      "prompt": "The illustration above shows the objects at different point of perspective. „C‟ indicates",
+      "answers": [
+        "Below eye level",
+        "Above eye level",
+        "Eye level",
+        "Line of horizon"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Above eye level is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-162",
+      "prompt": "The illustration above shows the objects at different point of perspective. „D‟ indicates",
+      "answers": [
+        "Below eye level",
+        "Above eye level",
+        "Vanishing point",
+        "Line of horizon"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Vanishing point is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-163",
+      "prompt": "The illustration above shows the objects at different point of perspective. „E‟ indicates",
+      "answers": [
+        "Below eye level",
+        "Above eye level",
+        "Eye level",
+        "Line of horizon"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Line of horizon is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-164",
+      "prompt": "Objects at a distance appear smaller and paler than objects at a closer range",
+      "answers": [
+        "True",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-165",
+      "prompt": "The point at which every object seems to diffuse into disappearance in perspective is called",
+      "answers": [
+        "Vanishing point",
+        "horizon line",
+        "viewpoint",
+        "picture plane"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Vanishing point is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-166",
+      "prompt": "The imaginary line in the distance at which the sky and the foreground appear to meet is called",
+      "answers": [
+        "Line of horizon",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Line of horizon is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-167",
+      "prompt": "The farther the colour, the paler it is. This is the principle of perspective",
+      "answers": [
+        "Aerial",
+        "linear",
+        "angular",
+        "parallel"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Aerial is correct because it identifies the colour property, relationship, or mixing concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-168",
+      "prompt": "is based on elementary law of optics where distant objects appear smaller and more faint than near objects",
+      "answers": [
+        "Perspective",
+        "proportion",
+        "foreshortening",
+        "composition"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Perspective is correct because it matches the art and design concept being tested."
+    },
+    {
+      "id": "lautech-100-faa101-b-169",
+      "prompt": "The three types of perspective in drawing are , and",
+      "answers": [
+        "Linear, Angular and Aerial",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Linear, Angular and Aerial is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-170",
+      "prompt": "As “ Vanishing point” is synonymous to “ centre of vision” eye level is synonymous to",
+      "answers": [
+        "Horizon line",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Horizon line is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-171",
+      "prompt": "Vanishing point in perspective drawing is the farthest distance in the drawing",
+      "answers": [
+        "True",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-172",
+      "prompt": "When objects move farther they get bigger in perspective",
+      "answers": [
+        "False",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "False is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-173",
+      "prompt": "Atmospheric perspective is the same as Aerial perspective",
+      "answers": [
+        "False",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "False is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-174",
+      "prompt": "Foreshortening in drawing is a type of perspective",
+      "answers": [
+        "True",
+        "Texture",
+        "Rhythm",
+        "Calligraphy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-175",
+      "prompt": "All parallel lines in a perspective drawing appear to converge at the",
+      "answers": [
+        "Vanishing point",
+        "horizon line",
+        "viewpoint",
+        "picture plane"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Vanishing point is correct because it names the perspective term or spatial effect described."
+    },
+    {
+      "id": "lautech-100-faa101-b-176",
+      "prompt": "is an artistic method adopted in writing the alphabetic symbols, letters A to Z",
+      "answers": [
+        "Lettering",
+        "calligraphy",
+        "drawing",
+        "painting"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Lettering is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-177",
+      "prompt": "and are two forms of lettering",
+      "answers": [
+        "Pen and Block lettering",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Pen and Block lettering is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-178",
+      "prompt": "is also called calligraphy or script lettering. The letters are written freely by hand and are not drawn",
+      "answers": [
+        "Pen lettering",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Pen lettering is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-179",
+      "prompt": "are made up of Roman letters, Gothic letters, Italics and Text letters",
+      "answers": [
+        "Block letters",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Block letters is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-180",
+      "prompt": "Elements of letters are , and ______",
+      "answers": [
+        "Weight, Width and Character",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Weight, Width and Character is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-181",
+      "prompt": "The correct spacing for letters is necessary in order to create to avoid cramped words or spaced out letters and to ensure legibility",
+      "answers": [
+        "Evenness",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Evenness is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-182",
+      "prompt": "The weight of letters can be group as Lightface, Standard, or Extra bold",
+      "answers": [
+        "Bold face",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Bold face is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-183",
+      "prompt": "The width of letters can be grouped as Extended, , Condensed or extra-condensed",
+      "answers": [
+        "Standard",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Standard is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-184",
+      "prompt": "The character of letters shows ideals, Emotions and of words",
+      "answers": [
+        "Meaning",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Meaning is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-185",
+      "prompt": "A good lettering must be",
+      "answers": [
+        "Font",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Font is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-186",
+      "prompt": "The important characteristic of a good lettering is",
+      "answers": [
+        "Legibility",
+        "Accessibility",
+        "Legality",
+        "Feasibility"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Legibility is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-187",
+      "prompt": "The other name for the face of a type or letter is",
+      "answers": [
+        "Front",
+        "Plant",
+        "Plot",
+        "Font"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Font is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-188",
+      "prompt": "The sizes of the following Gothic letters are wider than others",
+      "answers": [
+        "F, W",
+        "C, Y",
+        "M, W",
+        "Y, W"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "M, W is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-189",
+      "prompt": "A good lettering must be",
+      "answers": [
+        "Legible",
+        "Gothic",
+        "Romantic",
+        "3cm by 5cm"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Legible is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-190",
+      "prompt": "is most important characteristic of good lettering",
+      "answers": [
+        "Straight",
+        "Curve",
+        "Creativity",
+        "Legibility"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Legibility is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-191",
+      "prompt": "Font is synonymous to",
+      "answers": [
+        "Face",
+        "Latter face",
+        "Lettering",
+        "Type face"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Face is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-192",
+      "prompt": "A letter without cross lines to finish principal strokes is known as",
+      "answers": [
+        "San-serif",
+        "Sands- sheriff",
+        "Sheriff-sans",
+        "Sheriff-san"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "San-serif is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-193",
+      "prompt": "The art of writing letterings with pen is",
+      "answers": [
+        "Construction",
+        "Calligraphy",
+        "Technical writing",
+        "Handwriting"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Calligraphy is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-194",
+      "prompt": "What type of lettering has the combination of bold and thin strokes",
+      "answers": [
+        "Gothic lettering",
+        "Roman lettering",
+        "Italics lettering",
+        "Roman gothic"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Roman lettering is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-195",
+      "prompt": "Which one of the following is used to describe a good quality lettering",
+      "answers": [
+        "Line",
+        "Legibility",
+        "Bold",
+        "Shading"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Legibility is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-196",
+      "prompt": "The type face of letterings label “i” is",
+      "answers": [
+        "Gothic",
+        "Romans",
+        "Scripts",
+        "Italics"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Gothic is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-197",
+      "prompt": "The type face of letterings label “ii” is",
+      "answers": [
+        "Gothic",
+        "Romans",
+        "Scripts",
+        "Italics"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Romans is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-198",
+      "prompt": "The type face of letterings label “iii” is",
+      "answers": [
+        "G, B, C and D",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "G, B, C and D is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-199",
+      "prompt": "The sizes of Gothic letters A to Z measure 3cm by 5cm except letters and",
+      "answers": [
+        "I, M and W",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "I, M and W is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-200",
+      "prompt": "The types of lettering are block lettering and",
+      "answers": [
+        "Pen lettering",
+        "Pencil lettering",
+        "Biro lettering",
+        "Straight lettering"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Pen lettering is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-201",
+      "prompt": "Which of the following is not a type of Block lettering",
+      "answers": [
+        "Gothic",
+        "Text",
+        "Roman",
+        "American"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "American is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-202",
+      "prompt": "Elements of lettering are weight, width and",
+      "answers": [
+        "Yes",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Yes is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-203",
+      "prompt": "“Light” and “Bold” can be used to describe the of letters",
+      "answers": [
+        "Width",
+        "Space",
+        "Weight",
+        "Emotion"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Weight is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-204",
+      "prompt": "Calligraphy means",
+      "answers": [
+        "Pen lettering",
+        "Block lettering",
+        "Handwriting",
+        "Roman lettering"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Pen lettering is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-205",
+      "prompt": "Gothic letters are San-serifs?",
+      "answers": [
+        "False",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "False is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-206",
+      "prompt": "Q: Italics letters always slant to the right",
+      "answers": [
+        "True",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-207",
+      "prompt": "The best type of lettering for a poster is",
+      "answers": [
+        "True",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-208",
+      "prompt": "Calligraphy is another name for",
+      "answers": [
+        "Not legible",
+        "Elements",
+        "Principles",
+        "Techniques"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Not legible is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-209",
+      "prompt": "The best lettering for a Signpost is",
+      "answers": [
+        "Italics",
+        "Calligraphy",
+        "Gothic",
+        "Text"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Gothic is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-210",
+      "prompt": "The art of writing letters is called",
+      "answers": [
+        "Calligraphy",
+        "Lettering",
+        "Impreso",
+        "Drawing"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Lettering is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-211",
+      "prompt": "Freehand lettering is also known as",
+      "answers": [
+        "Pen lettering",
+        "Hand lettering",
+        "Free lettering",
+        "Block lettering"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Pen lettering is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-212",
+      "prompt": "The letter W needs more writing space than the letter E",
+      "answers": [
+        "True",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-213",
+      "prompt": "Q: Roman lettering is San-serif",
+      "answers": [
+        "False",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "False is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-214",
+      "prompt": "Q: Legibility is vital in lettering",
+      "answers": [
+        "True",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "True is correct because it identifies the lettering or typeface concept described."
+    },
+    {
+      "id": "lautech-100-faa101-b-215",
+      "prompt": "Q: Pen letters are constructed or drawn",
+      "answers": [
+        "No",
+        "Perspective",
+        "Pointillism",
+        "Balance"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "No is correct because it identifies the lettering or typeface concept described."
+    }
+  ]
+}

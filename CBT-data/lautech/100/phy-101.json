@@ -1,0 +1,4200 @@
+{
+  "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Physics",
+  "course": {
+    "code": "PHY 101",
+    "title": "General Physics I"
+  },
+  "questions": [
+    {
+      "id": "lautech-100-phy101-001",
+      "prompt": "Which of the following is not a physical quantity?",
+      "answers": [
+        "Kelvin",
+        "Candela",
+        "Henry",
+        "None of the above"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Kelvin, candela and henry are all units of physical quantities, so the answer given in the source is 'None of the above'."
+    },
+    {
+      "id": "lautech-100-phy101-002",
+      "prompt": "Which of the following is a derived unit?",
+      "answers": [
+        "Ampere",
+        "Mole",
+        "Candela",
+        "Newton"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "The newton (kg·m/s²) is derived; ampere, mole and candela are SI base units."
+    },
+    {
+      "id": "lautech-100-phy101-003",
+      "prompt": "Rad/sec is the unit of",
+      "answers": [
+        "Angular displacement",
+        "Angular velocity",
+        "Angular acceleration",
+        "Angular momentum"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Angle per unit time is angular velocity."
+    },
+    {
+      "id": "lautech-100-phy101-004",
+      "prompt": "Which would fall with greater acceleration in a vacuum – a leaf or a stone?",
+      "answers": [
+        "The leaf",
+        "The stone",
+        "They would accelerate at the same rate",
+        "It is difficult to determine without more information"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "In a vacuum there is no air resistance, so all objects fall with the same acceleration g."
+    },
+    {
+      "id": "lautech-100-phy101-005",
+      "prompt": "Speed is",
+      "answers": [
+        "A measure of how fast something is moving",
+        "Always measured in terms of a unit of distance divided by a unit of time",
+        "All of the above",
+        "None of the above"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Both statements are true of speed."
+    },
+    {
+      "id": "lautech-100-phy101-006",
+      "prompt": "As an object falls freely in a vacuum, its",
+      "answers": [
+        "Velocity increases",
+        "Acceleration increases",
+        "Both A and B",
+        "None of the above"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Acceleration stays constant at g while velocity increases steadily."
+    },
+    {
+      "id": "lautech-100-phy101-007",
+      "prompt": "A ball is thrown upwards and caught when it comes back down. In the absence of air resistance, the speed of the ball when caught would be",
+      "answers": [
+        "Less than the speed it had when thrown upwards",
+        "More than the speed it had when thrown upwards",
+        "The same as the speed it had when thrown upwards",
+        "All of the above"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Energy is conserved, so it returns to the starting point with the same speed."
+    },
+    {
+      "id": "lautech-100-phy101-008",
+      "prompt": "Suppose an object is in free fall. Each second the object falls",
+      "answers": [
+        "The same distance as in the second before",
+        "A larger distance than in the second before",
+        "With the same instantaneous speed",
+        "With the same average speed"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Correction: the source key says A, but speed increases each second, so the distance covered each second increases (b)."
+    },
+    {
+      "id": "lautech-100-phy101-009",
+      "prompt": "A ball is tossed vertically upwards, rises, reaches its highest point, and then falls back to its starting point. During this time, the acceleration of the ball is always",
+      "answers": [
+        "In the direction of motion",
+        "Opposite its velocity",
+        "Directed downward",
+        "Directed forward"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Gravity gives a constant downward acceleration throughout."
+    },
+    {
+      "id": "lautech-100-phy101-010",
+      "prompt": "Suppose you take a trip that covers 180 km and takes 3 hrs to make, your average speed is",
+      "answers": [
+        "30 km/hr",
+        "60 km/hr",
+        "180 km/hr",
+        "360 km/hr",
+        "549 km/hr"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Average speed = 180 km ÷ 3 hr = 60 km/hr."
+    },
+    {
+      "id": "lautech-100-phy101-011",
+      "prompt": "Suppose a car is moving in a straight line and steadily increases its speed. It moves from 35 km/hr to 40 km/hr the first second, and from 40 km/hr to 45 km/hr the next second. What is the car’s acceleration?",
+      "answers": [
+        "5 km/hr·s",
+        "10 km/hr·s",
+        "35 km/hr·s",
+        "40 km/hr·s",
+        "45 km/hr·s"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Speed rises by 5 km/hr every second, so a = 5 km/hr·s."
+    },
+    {
+      "id": "lautech-100-phy101-012",
+      "prompt": "A ball is thrown straight up. At the top of its path its instantaneous speed is",
+      "answers": [
+        "0 m/s",
+        "About 5 m/s",
+        "About 10 m/s",
+        "About 20 m/s",
+        "About 50 m/s"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "At the highest point the velocity is momentarily zero."
+    },
+    {
+      "id": "lautech-100-phy101-013",
+      "prompt": "A ball is thrown straight up. At the top of its path, its acceleration is",
+      "answers": [
+        "0 m/s²",
+        "About 5 m/s²",
+        "About 10 m/s²",
+        "About 20 m/s²",
+        "About 50 m/s²"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Acceleration due to gravity (about 10 m/s²) acts at every point of the flight."
+    },
+    {
+      "id": "lautech-100-phy101-014",
+      "prompt": "A car accelerates at 2 m/s². Assuming the car starts from rest, how much time does it need to accelerate to a speed of 20 m/s?",
+      "answers": [
+        "2 seconds",
+        "10 seconds",
+        "20 seconds",
+        "40 seconds",
+        "None of the above"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "t = v/a = 20/2 = 10 s."
+    },
+    {
+      "id": "lautech-100-phy101-015",
+      "prompt": "The pair of quantities which have the same dimensional formula is",
+      "answers": [
+        "Impulse & velocity",
+        "Force & weight",
+        "Impulse & inertia",
+        "Angular momentum & linear momentum"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Force and weight are both forces: MLT⁻²."
+    },
+    {
+      "id": "lautech-100-phy101-016",
+      "prompt": "If R is resistance and L is inductance, then the dimension of R/L will be the same as the dimension of",
+      "answers": [
+        "Time",
+        "Speed",
+        "Frequency",
+        "Acceleration"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "L/R is a time constant, so R/L has dimension T⁻¹, the same as frequency."
+    },
+    {
+      "id": "lautech-100-phy101-017",
+      "prompt": "If MᵃLᵇTᶜ is the dimensional formula of electric power, find the value of 5a + 2b − 6c.",
+      "answers": [
+        "25",
+        "27",
+        "30",
+        "−9"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Power = ML²T⁻³, so a=1, b=2, c=−3 and 5+4+18 = 27."
+    },
+    {
+      "id": "lautech-100-phy101-018",
+      "prompt": "The dimensional formula of the coefficient of kinematic viscosity is",
+      "answers": [
+        "M⁰L²T⁻¹",
+        "M¹L²T⁻¹",
+        "M¹L²T⁻³",
+        "M⁰L³T⁻¹"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Kinematic viscosity = η/ρ = L²T⁻¹."
+    },
+    {
+      "id": "lautech-100-phy101-019",
+      "prompt": "Which of the following is not a unit of energy?",
+      "answers": [
+        "Joule",
+        "Nm",
+        "Watts",
+        "Kgm²sec⁻²"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The watt is a unit of power."
+    },
+    {
+      "id": "lautech-100-phy101-020",
+      "prompt": "The dimensional formula of latent heat is",
+      "answers": [
+        "M¹L¹T⁻²",
+        "M⁰L²T⁻²",
+        "M¹L²T⁻¹",
+        "M⁰L²T³"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Latent heat = energy per unit mass = L²T⁻²."
+    },
+    {
+      "id": "lautech-100-phy101-021",
+      "prompt": "Which of the following is dimensionally a correct formula?",
+      "answers": [
+        "V = ut + at",
+        "V − u = at",
+        "V/u = at",
+        "Vt = u − a"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Only V − u = at has the same dimensions (velocity) on both sides."
+    },
+    {
+      "id": "lautech-100-phy101-022",
+      "prompt": "Which of the following has no units?",
+      "answers": [
+        "Thermal capacity",
+        "Magnetic susceptibility",
+        "Angular acceleration",
+        "Moment of a magnet"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Magnetic susceptibility is a dimensionless ratio."
+    },
+    {
+      "id": "lautech-100-phy101-023",
+      "prompt": "Which of the following units is a fundamental unit?",
+      "answers": [
+        "Watt",
+        "Joule/sec",
+        "Ampere",
+        "Newton"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The ampere is an SI base unit."
+    },
+    {
+      "id": "lautech-100-phy101-024",
+      "prompt": "1 KWH is a unit of",
+      "answers": [
+        "Time",
+        "Power",
+        "Energy",
+        "Stress"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Kilowatt × hour is energy."
+    },
+    {
+      "id": "lautech-100-phy101-025",
+      "prompt": "Which of the following is a pair of supplementary fundamental quantities?",
+      "answers": [
+        "Mole & radian",
+        "Candela & meter",
+        "Second & kelvin",
+        "Radian & steradian"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Radian and steradian are the two supplementary SI units."
+    },
+    {
+      "id": "lautech-100-phy101-026",
+      "prompt": "If MᵃLᵇTᶜ is the dimensional formula of momentum, and MˣLʸTᶻ is the dimensional formula of energy, find the value of ax + by + cz.",
+      "answers": [
+        "5",
+        "−1",
+        "2",
+        "7"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Momentum = MLT⁻¹ (1,1,−1); energy = ML²T⁻² (1,2,−2). So 1 + 2 + 2 = 5."
+    },
+    {
+      "id": "lautech-100-phy101-027",
+      "prompt": "Which of the following is the unit of energy?",
+      "answers": [
+        "Newton",
+        "N/sec",
+        "N-sec",
+        "None of the above"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Energy is measured in joules (N·m); none of the listed units is a joule."
+    },
+    {
+      "id": "lautech-100-phy101-028",
+      "prompt": "Which of the following is not a unit of power?",
+      "answers": [
+        "Watt",
+        "Joule/hr",
+        "Nm/sec",
+        "N/sec"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "N/s is not energy per time, so it is not a unit of power."
+    },
+    {
+      "id": "lautech-100-phy101-029",
+      "prompt": "The physical quantity having the unit of mass is",
+      "answers": [
+        "Density",
+        "Momentum",
+        "Inertia",
+        "Moment of a force"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Inertia (as a measure of mass) has the unit kg."
+    },
+    {
+      "id": "lautech-100-phy101-030",
+      "prompt": "The fundamental unit which is common in F.P.S. and M.K.S. systems is",
+      "answers": [
+        "Foot",
+        "Second",
+        "Kilogram",
+        "Pound"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Both systems use the second for time."
+    },
+    {
+      "id": "lautech-100-phy101-031",
+      "prompt": "Which of the following is a unit of length?",
+      "answers": [
+        "Lunar month",
+        "Candela",
+        "Kelvin",
+        "Light year"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "A light year is the distance light travels in a year."
+    },
+    {
+      "id": "lautech-100-phy101-032",
+      "prompt": "Boltzmann’s constant and Planck’s constant differ in the dimensions of",
+      "answers": [
+        "Time and temperature",
+        "Mass and temperature",
+        "Length and mass",
+        "Length and time"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "k = ML²T⁻²K⁻¹ and h = ML²T⁻¹, so they differ in time and temperature."
+    },
+    {
+      "id": "lautech-100-phy101-033",
+      "prompt": "Magnetic induction and magnetic flux differ in the dimensions of",
+      "answers": [
+        "Time",
+        "Mass",
+        "Electric current",
+        "Length"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Flux = induction × area, so they differ by L²."
+    },
+    {
+      "id": "lautech-100-phy101-034",
+      "prompt": "Kgm/sec is the unit of",
+      "answers": [
+        "Impulse",
+        "Angular acceleration",
+        "Capacity of condenser",
+        "Acceleration"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "kg·m/s = N·s, the unit of impulse (and momentum)."
+    },
+    {
+      "id": "lautech-100-phy101-035",
+      "prompt": "Candela is the unit of",
+      "answers": [
+        "Magnetic flux",
+        "Intensity of electric field",
+        "Luminous intensity",
+        "Charge"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The candela measures luminous intensity."
+    },
+    {
+      "id": "lautech-100-phy101-036",
+      "prompt": "Which of the following is a common unit of a physical quantity in M.K.S. and S.I. systems?",
+      "answers": [
+        "Ampere",
+        "Kelvin",
+        "Mole",
+        "Joule/sec"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Correction (moderate confidence): the source key says B (kelvin), but MKS has only metre, kilogram and second as base units, so kelvin is not an MKS unit. Joule/sec (watt) is the only unit common to both."
+    },
+    {
+      "id": "lautech-100-phy101-037",
+      "prompt": "A force of 5 N extends a spring of natural length 0.5 m by 0.1 m. What will be the extension of the spring when the applied force is 20 N?",
+      "answers": [
+        "0.1 m",
+        "0.4 m",
+        "0.2 m",
+        "0.3 m"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Extension is proportional to force: 0.1 × (20/5) = 0.4 m."
+    },
+    {
+      "id": "lautech-100-phy101-038",
+      "prompt": "As the force on a string increases from 100 N to 180 N, the string extends by 10 cm. The work done in increasing the tension in the string is",
+      "answers": [
+        "40 J",
+        "0.4 J",
+        "4 J",
+        "0.04 J"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Source answer: W = ½ × ΔF × Δe = ½ × 80 × 0.1 = 4 J. (A strict calculation using absolute extensions gives 14 J, which is not an option.)"
+    },
+    {
+      "id": "lautech-100-phy101-039",
+      "prompt": "Two moles of an ideal gas are compressed slowly and isothermally from a volume of 72 m³ to 18 m³ at the temperature of 60 °C. Calculate how much work is done (R = 8.31 J/mol K).",
+      "answers": [
+        "−7672.39 J",
+        "−2685.40 J",
+        "8257.31 J",
+        "2178.7 J"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "W = nRT ln(Vf/Vi) = 2 × 8.31 × 333 × ln(1/4) ≈ −7672 J."
+    },
+    {
+      "id": "lautech-100-phy101-040",
+      "prompt": "Rad/sec is the unit of",
+      "answers": [
+        "Angular distance",
+        "Angular frequency",
+        "Angular acceleration",
+        "Angular momentum"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Angular frequency ω is measured in rad/s."
+    },
+    {
+      "id": "lautech-100-phy101-041",
+      "prompt": "Candela is the unit of",
+      "answers": [
+        "Luminous flux",
+        "Luminous area",
+        "Luminous intensity",
+        "Luminous illumination"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The candela is the SI unit of luminous intensity."
+    },
+    {
+      "id": "lautech-100-phy101-042",
+      "prompt": "A satellite is in a parking orbit if its period is",
+      "answers": [
+        "Less than the period of the earth",
+        "More than the period of the earth",
+        "Equal to the period of the earth",
+        "The square of the period"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "A parking (geostationary) orbit has a period equal to the earth’s rotation period."
+    },
+    {
+      "id": "lautech-100-phy101-043",
+      "prompt": "Which of the following is incorrect?",
+      "answers": [
+        "Crystalline solids have definite melting points",
+        "Glass is an example of a crystalline solid",
+        "Amorphous solids are insoluble",
+        "Amorphous solids are anhydrous"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Glass is an amorphous solid, not crystalline."
+    },
+    {
+      "id": "lautech-100-phy101-044",
+      "prompt": "A speedometer measures the ____________ in your car.",
+      "answers": [
+        "Instantaneous velocity",
+        "Acceleration",
+        "Time",
+        "Average velocity"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Correction: the source key says D, but a speedometer shows the instantaneous speed (a), not the average."
+    },
+    {
+      "id": "lautech-100-phy101-045",
+      "prompt": "A gun of mass 10 kg released a bullet of mass 20 g at a speed of 100 ms⁻¹. Find the gun’s speed of recoil.",
+      "answers": [
+        "20 m/s",
+        "200 m/s",
+        "2 m/s",
+        "0.2 m/s"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Momentum conservation: 10v = 0.02 × 100, so v = 0.2 m/s."
+    },
+    {
+      "id": "lautech-100-phy101-046",
+      "prompt": "The unit of angular frequency is",
+      "answers": [
+        "Rad/s²",
+        "Rad/s",
+        "m/s",
+        "Rad"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Angular frequency is measured in rad/s."
+    },
+    {
+      "id": "lautech-100-phy101-047",
+      "prompt": "The kind of collision where energy is not conserved is called ___________",
+      "answers": [
+        "Inelastic collision",
+        "Kinetic collision",
+        "Potential collision",
+        "Elastic collision"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "In an inelastic collision kinetic energy is not conserved."
+    },
+    {
+      "id": "lautech-100-phy101-048",
+      "prompt": "The type of vibration experienced by an object from external actions is called",
+      "answers": [
+        "Natural vibrations",
+        "Sinusoidal vibrations",
+        "Forced vibrations",
+        "Damped vibrations"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Vibration driven by an external force is a forced vibration."
+    },
+    {
+      "id": "lautech-100-phy101-049",
+      "prompt": "The property of metal that makes it suitable for cooking is",
+      "answers": [
+        "Good conduction of heat",
+        "Radiation of heat",
+        "Convection",
+        "Absorption of heat"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Metals conduct heat well."
+    },
+    {
+      "id": "lautech-100-phy101-050",
+      "prompt": "A vertical spring fixed at one end has an extension of 4 cm and a mass of 2 kg attached at one end of the spring. Calculate the spring constant.",
+      "answers": [
+        "500 N/m",
+        "5000 N/m",
+        "0.5 N/m",
+        "50 N/m"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "k = mg/e = (2 × 10)/0.04 = 500 N/m."
+    },
+    {
+      "id": "lautech-100-phy101-051",
+      "prompt": "The fundamental quantity in M.K.S. and C.G.S. is",
+      "answers": [
+        "Kelvin",
+        "Kilogram",
+        "Metre",
+        "Second"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Time (second) is the unit shared by MKS and CGS."
+    },
+    {
+      "id": "lautech-100-phy101-052",
+      "prompt": "The maximum distance in SHM is",
+      "answers": [
+        "Amplitude",
+        "Period",
+        "Distance",
+        "Frequency"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Amplitude is the maximum displacement from equilibrium."
+    },
+    {
+      "id": "lautech-100-phy101-053",
+      "prompt": "The pressure of a gas supports 0.7 m of mercury of relative density 13.3. The height of a water column which the gas will support is",
+      "answers": [
+        "19.0 m",
+        "9.3 m",
+        "1.9 m",
+        "0.7 m"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "h(water) = 0.7 × 13.3 ≈ 9.3 m."
+    },
+    {
+      "id": "lautech-100-phy101-054",
+      "prompt": "Momentum is ____________ quantity.",
+      "answers": [
+        "Vector",
+        "Scalar",
+        "Dimensionless",
+        "None of the above"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Momentum has magnitude and direction."
+    },
+    {
+      "id": "lautech-100-phy101-055",
+      "prompt": "Unit of impulsive force is",
+      "answers": [
+        "N/m²",
+        "N/m",
+        "Kgm/s",
+        "Kgm/s²"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Force = kg·m/s² (the newton)."
+    },
+    {
+      "id": "lautech-100-phy101-056",
+      "prompt": "When a car’s velocity is positive and its acceleration is negative, what is the state of the car?",
+      "answers": [
+        "The car slows down",
+        "The car travels at constant speed",
+        "The car speeds up",
+        "The speed of the car equals zero"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Acceleration opposite to velocity reduces speed."
+    },
+    {
+      "id": "lautech-100-phy101-057",
+      "prompt": "The fundamental unit which is common in F.P.S. and M.K.S system is",
+      "answers": [
+        "Foot",
+        "Second",
+        "Kilogram",
+        "Pound"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Both use the second."
+    },
+    {
+      "id": "lautech-100-phy101-058",
+      "prompt": "An elastic string of length X is classically stretched through a length e by a force F, the area of the cross section of the string is A and its Young modulus is E. Which of the following expressions is correct?",
+      "answers": [
+        "F = EAe/X",
+        "F = EXe/A",
+        "F = Xe/EA",
+        "F = (X²E/Ae)·A"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "E = (F/A)/(e/X), so F = EAe/X."
+    },
+    {
+      "id": "lautech-100-phy101-059",
+      "prompt": "How long does it take an 800 W heater to raise the temperature of 2 kg of water from 20 °C to 60 °C (S.H.C. of water = 4200 J/kg K)?",
+      "answers": [
+        "4200 s",
+        "420 s",
+        "42 s",
+        "4.2 s"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "t = mcΔθ/P = 2 × 4200 × 40 / 800 = 420 s."
+    },
+    {
+      "id": "lautech-100-phy101-060",
+      "prompt": "Which of the following is not a physical quantity?",
+      "answers": [
+        "Henry",
+        "Coulomb",
+        "Kelvin",
+        "None of the above"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Following the source key: all listed items relate to physical quantities, so 'None of the above'."
+    },
+    {
+      "id": "lautech-100-phy101-061",
+      "prompt": "An object is moving with SHM of frequency 20 Hz. Calculate the period T.",
+      "answers": [
+        "5.0 s",
+        "0.05 s",
+        "0.005 s",
+        "0.5 s"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "T = 1/f = 1/20 = 0.05 s."
+    },
+    {
+      "id": "lautech-100-phy101-062",
+      "prompt": "The period of vibration of wavelength 300 m and velocity 300 m/s is?",
+      "answers": [
+        "2 s",
+        "1 s",
+        "900 s",
+        "60 s"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "T = λ/v = 300/300 = 1 s."
+    },
+    {
+      "id": "lautech-100-phy101-063",
+      "prompt": "Metals are ideal as cooking utensils because",
+      "answers": [
+        "Poor radiation of heat",
+        "Low specific heat capacity",
+        "High coefficient of expansion",
+        "Good conductor of heat"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Good thermal conductivity spreads heat to the food."
+    },
+    {
+      "id": "lautech-100-phy101-064",
+      "prompt": "Calculate the work done when a force of 20 N stretches a spring by 50 mm.",
+      "answers": [
+        "2.0 J",
+        "0.5 J",
+        "2.5 J",
+        "1.5 J"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "W = ½Fe = ½ × 20 × 0.05 = 0.5 J."
+    },
+    {
+      "id": "lautech-100-phy101-065",
+      "prompt": "Which of the following has the highest viscosity at room temperature?",
+      "answers": [
+        "Palm oil",
+        "Alcohol",
+        "Kerosene",
+        "Water"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Palm oil is far more viscous than the others."
+    },
+    {
+      "id": "lautech-100-phy101-066",
+      "prompt": "A ball is thrown straight up. At the top of its path, its acceleration is",
+      "answers": [
+        "0 m/s²",
+        "About 5 m/s²",
+        "About 10 m/s²",
+        "About 20 m/s²"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "g ≈ 10 m/s² downward throughout."
+    },
+    {
+      "id": "lautech-100-phy101-067",
+      "prompt": "The force which acts opposite in direction to the force at the centre is",
+      "answers": [
+        "Centripetal",
+        "Centrifugal",
+        "Frictional",
+        "Push"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "The centrifugal (reaction) force opposes the centripetal force."
+    },
+    {
+      "id": "lautech-100-phy101-068",
+      "prompt": "For two perpendicular vectors, the angle between them is",
+      "answers": [
+        "0 degree",
+        "45 degree",
+        "90 degree",
+        "180 degree"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Perpendicular means 90°."
+    },
+    {
+      "id": "lautech-100-phy101-069",
+      "prompt": "For two parallel vectors, the angle between them is",
+      "answers": [
+        "0 degree",
+        "45 degree",
+        "90 degree",
+        "180 degree"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Parallel vectors point the same way: 0°."
+    },
+    {
+      "id": "lautech-100-phy101-070",
+      "prompt": "At what angle is the resultant of two vectors minimum?",
+      "answers": [
+        "0 degree",
+        "90 degree",
+        "180 degree",
+        "45 degree"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Opposite vectors (180°) give the smallest resultant."
+    },
+    {
+      "id": "lautech-100-phy101-071",
+      "prompt": "The area under a velocity-time graph is",
+      "answers": [
+        "Average speed",
+        "Average acceleration",
+        "Average displacement",
+        "Uniform speed"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The area under a v–t graph gives displacement."
+    },
+    {
+      "id": "lautech-100-phy101-072",
+      "prompt": "The tendency of an object in a curved path to fly away from the centre of curvature is due to lack of",
+      "answers": [
+        "Centrifugal force",
+        "Centripetal force",
+        "Centrifugal",
+        "Centrifugal force"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Without enough centripetal force the object moves off tangentially."
+    },
+    {
+      "id": "lautech-100-phy101-073",
+      "prompt": "Frequency and period of a simple harmonic motion are",
+      "answers": [
+        "Inversely related",
+        "Directly related",
+        "Directly proportional",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "f = 1/T."
+    },
+    {
+      "id": "lautech-100-phy101-074",
+      "prompt": "If Michael has a vertical leap of 1.29 m then what is his take-off speed and his hang time (total time) to move upward to the peak and then return to the ground?",
+      "answers": [
+        "17.74 m/s & 1.03 sec",
+        "5.03 m/s & 1.03 sec",
+        "12.60 m/s & 0.3 sec",
+        "7.29 m/s & 3.02 sec"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "v = √(2 × 9.8 × 1.29) ≈ 5.03 m/s; total time = 2v/g ≈ 1.03 s."
+    },
+    {
+      "id": "lautech-100-phy101-075",
+      "prompt": "Calculate the change in internal energy of 3.00 mol of helium gas when its temperature is increased by 2.00 K.",
+      "answers": [
+        "150 J",
+        "50 J",
+        "75 J",
+        "85 J"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "ΔU = (3/2)nRΔT = 1.5 × 3 × 8.31 × 2 ≈ 75 J."
+    },
+    {
+      "id": "lautech-100-phy101-076",
+      "prompt": "A 1.00 mol sample of hydrogen gas is heated at constant pressure from 300 K to 420 K. Calculate the work done on the gas (Cv = 20.4 J/mol K and Cp = 28.8 J/mol K).",
+      "answers": [
+        "2100 J",
+        "−1008 J",
+        "−2100 J",
+        "504 J"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "W = −nRΔT with R = Cp − Cv = 8.4: −1 × 8.4 × 120 = −1008 J."
+    },
+    {
+      "id": "lautech-100-phy101-077",
+      "prompt": "Determine the final temperature of a gas compressed to one fourth of its original volume if its initial temperature is 300 K with an initial and final pressure of 1 atm and 21.7 atm respectively.",
+      "answers": [
+        "1628 K",
+        "723 K",
+        "1302 K",
+        "1085 K"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "T₂ = T₁(P₂V₂)/(P₁V₁) = 300 × 21.7 × ¼ ≈ 1628 K."
+    },
+    {
+      "id": "lautech-100-phy101-078",
+      "prompt": "How many molecules are there in an 8.00 L vessel containing a gas that is at a temperature of 20.0 °C and a pressure of 9.12 × 10⁵ Pa? (R = 8.314 J/mol K, Nₐ = 6.022 × 10²³ molecules/mol)",
+      "answers": [
+        "0.18 × 10²⁴ molecules",
+        "0.18 × 10²⁵ molecules",
+        "18 × 10²⁴ molecules",
+        "1.8 × 10²⁵ molecules"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "n = PV/RT ≈ 2.99 mol, so N ≈ 1.8 × 10²⁴ = 0.18 × 10²⁵ molecules."
+    },
+    {
+      "id": "lautech-100-phy101-079",
+      "prompt": "A spherical balloon of volume 4000 cm³ contains helium at an (inside) pressure of 1.20 × 10⁵ Pa. How many moles of helium are in the balloon if the average kinetic energy of the helium atoms is 3.60 × 10⁻²² J?",
+      "answers": [
+        "0.3 mol",
+        "0.5 mol",
+        "5 mol",
+        "3 mol"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "From KE = (3/2)kT, T ≈ 17.4 K; n = PV/RT ≈ 3.3 mol ≈ 3 mol."
+    },
+    {
+      "id": "lautech-100-phy101-080",
+      "prompt": "Find the root mean square speed and average speed respectively for five molecules of gas having speeds of 900, 500, 700, 600 and 800 m/s.",
+      "answers": [
+        "26 m/s and 700 m/s",
+        "1507 m/s and 700 m/s",
+        "510 m/s and 700 m/s",
+        "714 m/s and 700 m/s"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "v_rms = √(2,550,000/5) ≈ 714 m/s; mean = 3500/5 = 700 m/s."
+    },
+    {
+      "id": "lautech-100-phy101-081",
+      "prompt": "A tungsten filament of a 100 W light bulb radiates 2.00 W of light. If the filament has a surface area of 0.25 mm² and an emissivity of 0.95, find the filament’s temperature (σ = 5.67 × 10⁻⁸ W/m²K⁴).",
+      "answers": [
+        "9283 K",
+        "9236 K",
+        "3490 K",
+        "110 K"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "P = εσAT⁴ gives T⁴ ≈ 1.485 × 10¹⁴, so T ≈ 3490 K."
+    },
+    {
+      "id": "lautech-100-phy101-082",
+      "prompt": "Calculate the thermal conductivity of a glass window pane that transfers energy at a rate of 10 kW, whose area is 3.0 m², thickness 0.6 cm and temperature difference of 25 °C.",
+      "answers": [
+        "0.8 W/m°C",
+        "0.08 m°C/W",
+        "80 W/m°C",
+        "8 W/m°C"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "k = P·d/(AΔT) = 10000 × 0.006/(3 × 25) = 0.8 W/m°C."
+    },
+    {
+      "id": "lautech-100-phy101-083",
+      "prompt": "What mechanism of energy is transferred by mass motion of fluid from one region of space to another?",
+      "answers": [
+        "Radiation",
+        "Convection",
+        "Conduction",
+        "Sublimation"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Convection is heat transfer by bulk motion of a fluid."
+    },
+    {
+      "id": "lautech-100-phy101-084",
+      "prompt": "Find the average volume expansion coefficient of a copper material with linear expansion coefficient of 17 × 10⁻⁶ °C⁻¹.",
+      "answers": [
+        "5.1 × 10⁻⁵ °C⁻¹",
+        "51 × 10⁻⁵ °C⁻¹",
+        "3.4 × 10⁻⁵ °C⁻¹",
+        "34 × 10⁻⁵ °C⁻¹"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "β = 3α = 3 × 17 × 10⁻⁶ = 5.1 × 10⁻⁵ °C⁻¹."
+    },
+    {
+      "id": "lautech-100-phy101-085",
+      "prompt": "A student’s body temperature reads 50 °F. Calculate the temperature equivalent in degrees Celsius and Kelvin.",
+      "answers": [
+        "27 °C and 300 K",
+        "20 °C and 293 K",
+        "10 °C and 283 K",
+        "32 °C and 305 K"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "°C = (50 − 32) × 5/9 = 10 °C; K = 283."
+    },
+    {
+      "id": "lautech-100-phy101-086",
+      "prompt": "A spring of natural length 3 m is extended by 0.01 m by a force of 4 N. What will be its length when the applied force is 12 N?",
+      "answers": [
+        "6.03 m",
+        "6.06 m",
+        "1.53 m",
+        "3.03 m"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Extension = 0.01 × 3 = 0.03 m, so length = 3.03 m."
+    },
+    {
+      "id": "lautech-100-phy101-087",
+      "prompt": "An elastic wire extends by 1.0 cm when a mass of 20 g hangs from it. What additional mass will be required to cause a further extension of 2.0 cm?",
+      "answers": [
+        "0.04 kg",
+        "0.4 kg",
+        "4.0 kg",
+        "20 kg"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "3 cm total needs 60 g, so additional mass = 40 g = 0.04 kg."
+    },
+    {
+      "id": "lautech-100-phy101-088",
+      "prompt": "One among the following quantities is dimensionless.",
+      "answers": [
+        "Stress",
+        "Strain",
+        "Surface tension",
+        "Pressure"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Strain is a ratio of lengths."
+    },
+    {
+      "id": "lautech-100-phy101-089",
+      "prompt": "Young modulus defines ______________ of a material.",
+      "answers": [
+        "Structural properties",
+        "Electronics properties",
+        "Mechanical properties",
+        "Thermal properties"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Young modulus is a mechanical (elastic) property."
+    },
+    {
+      "id": "lautech-100-phy101-090",
+      "prompt": "Calculate the total translational kinetic energy of the gas molecules for a 0.3 m³ volume tank containing 2.0 mol of ideal gas at 20 °C.",
+      "answers": [
+        "7300 J",
+        "6100 J",
+        "6.07 × 10⁻²¹ J",
+        "5200 J"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "KE = (3/2)nRT = 1.5 × 2 × 8.31 × 293 ≈ 7300 J."
+    },
+    {
+      "id": "lautech-100-phy101-091",
+      "prompt": "In a thermodynamic system the state of a system is described by the following variables with an exception of ______________",
+      "answers": [
+        "Pressure",
+        "Volume",
+        "Heat",
+        "Internal energy"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Correction: the source key says D, but internal energy is a state variable; heat is not (it is path-dependent), so the exception is heat (c)."
+    },
+    {
+      "id": "lautech-100-phy101-092",
+      "prompt": "The molar specific heat of a monoatomic gas at constant pressure and constant volume are given respectively as",
+      "answers": [
+        "(3/2)R and (5/2)R",
+        "(2/5)R and (3/2)R",
+        "(5/2)R and (3/2)R",
+        "(7/2)R and (5/2)R"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Cp = (5/2)R and Cv = (3/2)R for a monoatomic gas."
+    },
+    {
+      "id": "lautech-100-phy101-093",
+      "prompt": "The property of a body to restore its original size and shape as the deforming force ceases to act is called _____________",
+      "answers": [
+        "Energy",
+        "Stress",
+        "Density",
+        "Elasticity"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "This is the definition of elasticity."
+    },
+    {
+      "id": "lautech-100-phy101-094",
+      "prompt": "The strain of the material is proportional to the applied stress within the elastic limit of that material.",
+      "answers": [
+        "Stress law",
+        "Hooke’s law",
+        "Bernoulli’s law",
+        "Poisson’s law"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "This is Hooke’s law."
+    },
+    {
+      "id": "lautech-100-phy101-095",
+      "prompt": "10⁻⁹, 10³, 10⁻¹⁵ have the following prefixes",
+      "answers": [
+        "Giga, kilo, pico",
+        "Zepto, kilo, femto",
+        "Nano, kilo, femto",
+        "Nano, kilo, pico"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "10⁻⁹ = nano, 10³ = kilo, 10⁻¹⁵ = femto."
+    },
+    {
+      "id": "lautech-100-phy101-096",
+      "prompt": "The dimensions of the ratio of gravitational constant to power is?",
+      "answers": [
+        "M¹L⁻¹T¹",
+        "M⁻¹L¹T⁻¹",
+        "M⁻²L¹T¹",
+        "M²L⁻¹T¹"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "G = M⁻¹L³T⁻² and P = ML²T⁻³, so G/P = M⁻²L¹T¹."
+    },
+    {
+      "id": "lautech-100-phy101-097",
+      "prompt": "The velocity v of a transverse wave along a stretched string depends on (i) its stress P, i.e. force per unit area, (ii) the density ρ of the material, (iii) its length. Find the actual equation.",
+      "answers": [
+        "V = K√(PL³)",
+        "V³ = KPL³",
+        "B and D",
+        "V = K√(P/ρ)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Dimensional analysis gives v = K√(P/ρ), independent of length."
+    },
+    {
+      "id": "lautech-100-phy101-098",
+      "prompt": "Consider a planet of mass m, revolving around the sun. The time period (T) of oscillation depends on the mass of the sun, the radius of the orbit (r) and the gravitational constant G. Using dimensional analysis, find the actual equation.",
+      "answers": [
+        "T = K√G",
+        "T² = K²G",
+        "T = K√(G³)",
+        "T = K√(r³/G)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Dimensional analysis gives T ∝ √(r³/(GM)); the matching option is T = K√(r³/G)."
+    },
+    {
+      "id": "lautech-100-phy101-099",
+      "prompt": "The motion of a particle is described by the equation x = 20t³ + 5t + 10. Find the instantaneous velocity and acceleration at 5 secs.",
+      "answers": [
+        "1000 m/s, 101 m/s²",
+        "1505 m/s, 600 m/s²",
+        "600 m/s, 1505 m/s²",
+        "101 m/s, 1000 m/s²"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "v = 60t² + 5 = 1505 m/s; a = 120t = 600 m/s²."
+    },
+    {
+      "id": "lautech-100-phy101-100",
+      "prompt": "A bus travels 250 km south along a straight path with an average velocity of 50 km/hr. The bus stops for a 20-minute break, then travels 100 km south with an average velocity of 50 km/hr to the south. How long does the trip last?",
+      "answers": [
+        "27 hr",
+        "720 min",
+        "440 min",
+        "4.4 hr"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "300 min + 20 min + 120 min = 440 min."
+    },
+    {
+      "id": "lautech-100-phy101-101",
+      "prompt": "Calculate the power of a pump which lifts 600 kg of water over a height of 5 m in 10 secs.",
+      "answers": [
+        "300 W",
+        "30 W",
+        "0.3 W",
+        "3000 W"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "P = mgh/t = 600 × 10 × 5/10 = 3000 W."
+    },
+    {
+      "id": "lautech-100-phy101-102",
+      "prompt": "A body is pulled along a horizontal smooth surface by a constant force of 30 N at an angle of 15° to the vertical. Calculate the work done in moving the body a distance of 50 m.",
+      "answers": [
+        "1449 J",
+        "750 J",
+        "150 J",
+        "0 J"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Source answer: W = F cos15° × d = 30 × 0.966 × 50 ≈ 1449 J (this treats 15° as the angle to the horizontal direction of motion)."
+    },
+    {
+      "id": "lautech-100-phy101-103",
+      "prompt": "A man of mass 20 kg climbs up 15 steps each of height 0.4 m in 30 secs. Calculate the power of the boy.",
+      "answers": [
+        "400 W",
+        "4 W",
+        "40 W",
+        "0.4 W"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "P = mgh/t = 20 × 10 × 6/30 = 40 W."
+    },
+    {
+      "id": "lautech-100-phy101-104",
+      "prompt": "A ball of mass 10 kg falls from rest from a height of 150 m, neglecting air resistance. Calculate its kinetic energy after falling a distance of 40 m.",
+      "answers": [
+        "400 J",
+        "4000 J",
+        "11000 J",
+        "1100 J"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "KE = mgh = 10 × 10 × 40 = 4000 J."
+    },
+    {
+      "id": "lautech-100-phy101-105",
+      "prompt": "The following are fundamental quantities except",
+      "answers": [
+        "Electric current",
+        "Temperature",
+        "Kilogram",
+        "Time"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The kilogram is a unit; the fundamental quantity is mass."
+    },
+    {
+      "id": "lautech-100-phy101-106",
+      "prompt": "A car of mass 2300 kg is pushed with a net force of 240 N. What is the acceleration acting on the car?",
+      "answers": [
+        "0.161 m/s²",
+        "1.61 m/s²",
+        "0.104 m/s²",
+        "1.04 m/s²"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "a = F/m = 240/2300 ≈ 0.104 m/s²."
+    },
+    {
+      "id": "lautech-100-phy101-107",
+      "prompt": "An artillery shell has a mass of 40,000 g. The projectile is fired from the piece and has a velocity of 600 m/s when it leaves the barrel. The gun barrel is 2 m long. Assuming the force and therefore the acceleration is constant while in the barrel, calculate the force that acted on the projectile.",
+      "answers": [
+        "3.6 × 10³ N",
+        "6.3 × 10⁶ N",
+        "3.6 × 10⁶ N",
+        "3.6 × 10³ N"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "a = v²/2s = 90,000 m/s²; F = 40 × 90,000 = 3.6 × 10⁶ N."
+    },
+    {
+      "id": "lautech-100-phy101-108",
+      "prompt": "Which of these are not correct according to Newton’s law? (I) sum of upward forces equals sum of downward forces (II) force is proportional to change in momentum (III) −F_A = F_B (IV) total momentum before collision equals total momentum after collision",
+      "answers": [
+        "I and II only",
+        "II only",
+        "I, II and III only",
+        "I, II, III and IV"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Source answer: II only, because Newton’s second law relates force to the rate of change of momentum, not to the change itself."
+    },
+    {
+      "id": "lautech-100-phy101-109",
+      "prompt": "A block of bricks of mass 30 kg was carried by a man of mass 100 kg up a vertical ladder of length 6 m. What work has he done?",
+      "answers": [
+        "1900 J",
+        "1800 J",
+        "1700 J",
+        "1600 J"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Source answer: work on the bricks = mgh = 30 × 10 × 6 = 1800 J."
+    },
+    {
+      "id": "lautech-100-phy101-110",
+      "prompt": "Find the potential energy of a man of 65 kg standing on a building floor 12 m above the ground level.",
+      "answers": [
+        "7800 J",
+        "7182 J",
+        "7810 J",
+        "7000 J"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "PE = mgh = 65 × 10 × 12 = 7800 J."
+    },
+    {
+      "id": "lautech-100-phy101-111",
+      "prompt": "A boy of mass 20 kg climbs up 15 steps each of height 0.4 m in 30 secs. Calculate the power of the boy.",
+      "answers": [
+        "20 J",
+        "60 J",
+        "80 J",
+        "40 J"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "P = 20 × 10 × 6/30 = 40 (watts; the source option lists the unit as J)."
+    },
+    {
+      "id": "lautech-100-phy101-112",
+      "prompt": "The period T of oscillation in a simple pendulum experiment depends on: I. length l of the pendulum, II. mass m of the bob, III. acceleration due to gravity g at the location. Using dimensional analysis, find an equation for the period T.",
+      "answers": [
+        "T = 2π l/g",
+        "T = g l/2π",
+        "T = 2π√(l/g)",
+        "T = 2π√(g/l)"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Dimensional analysis gives T ∝ √(l/g), independent of mass: T = 2π√(l/g)."
+    },
+    {
+      "id": "lautech-100-phy101-113",
+      "prompt": "What is the unit of stress?",
+      "answers": [
+        "N",
+        "N/m²",
+        "Nm",
+        "Nm²"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Stress = force/area = N/m²."
+    },
+    {
+      "id": "lautech-100-phy101-114",
+      "prompt": "Which of the following is not an example of a machine?",
+      "answers": [
+        "Inclined plane",
+        "Lever",
+        "Screw",
+        "Horizontal plane"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "A horizontal plane is not a simple machine."
+    },
+    {
+      "id": "lautech-100-phy101-115",
+      "prompt": "Which of the following is not correct about the pressure of a liquid?",
+      "answers": [
+        "It is directly proportional to the depth",
+        "It is the same at all points in the same horizontal plane",
+        "It is independent of the cross-sectional area of the container",
+        "Its value at a point is the same in all directions",
+        "It is equal at all depths in all liquids"
+      ],
+      "correctIndex": 4,
+      "difficulty": "Medium",
+      "explanation": "Pressure = ρgh depends on depth and the liquid’s density."
+    },
+    {
+      "id": "lautech-100-phy101-116",
+      "prompt": "Young modulus of elasticity has dimension of",
+      "answers": [
+        "Nm",
+        "Nm²s⁻²",
+        "N/m²",
+        "N²m",
+        "All of the above"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Young modulus = stress/strain, so its unit is N/m²."
+    },
+    {
+      "id": "lautech-100-phy101-117",
+      "prompt": "The types of motion which a cylindrical drum rolling down an inclined plane undergoes are",
+      "answers": [
+        "Circular and translational",
+        "Rotational and translational",
+        "Rotational and circular",
+        "Vibrational and circular",
+        "Rectilinear and circular"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "It spins (rotation) while its centre moves down the slope (translation)."
+    },
+    {
+      "id": "lautech-100-phy101-118",
+      "prompt": "The weakest form of bonding that can be found in a material is",
+      "answers": [
+        "Van der Waals",
+        "Ionic",
+        "Covalent",
+        "Metallic"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Van der Waals forces are the weakest bonds."
+    },
+    {
+      "id": "lautech-100-phy101-119",
+      "prompt": "If P is the momentum of an object of mass m, then the expression P²/m has the dimension of",
+      "answers": [
+        "Power",
+        "Impulse",
+        "Force",
+        "Acceleration",
+        "Energy"
+      ],
+      "correctIndex": 4,
+      "difficulty": "Medium",
+      "explanation": "P²/m = (mv)²/m = mv², which is energy’s dimension ML²T⁻²."
+    },
+    {
+      "id": "lautech-100-phy101-120",
+      "prompt": "A ball is projected horizontally at 15 m/s from a point 20 m above a horizontal surface (g = 10 m/s²). The magnitude of its velocity in m/s when it hits the surface is",
+      "answers": [
+        "10",
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Correction: the source key says C. Vertical speed = √(2 × 10 × 20) = 20 m/s, so v = √(15² + 20²) = 25 m/s (d)."
+    },
+    {
+      "id": "lautech-100-phy101-121",
+      "prompt": "If a small body of mass m is moving with an angular velocity ω in a circle of radius r, what is its kinetic energy?",
+      "answers": [
+        "ω²/r",
+        "mω²r²/2",
+        "m²m/2",
+        "ω²r²/2",
+        "ω²m²r/2"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "KE = ½mv² with v = ωr gives ½mω²r²."
+    },
+    {
+      "id": "lautech-100-phy101-122",
+      "prompt": "The frequency of oscillation of a mass m suspended at the end of a vertical spring having a spring constant K is directly proportional to",
+      "answers": [
+        "√T",
+        "√K",
+        "√L",
+        "√π",
+        "None of the above"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "f = (1/2π)√(K/m), so f ∝ √K."
+    },
+    {
+      "id": "lautech-100-phy101-123",
+      "prompt": "Given two vectors A = i + 2j − 4k and B = 3i − j + 5k, find A × B.",
+      "answers": [
+        "6i − 17j − 7k",
+        "2i + 7j + 3k",
+        "3i − 2j + 3k",
+        "4i + 3j − 2k"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Determinant expansion gives 6i − 17j − 7k."
+    },
+    {
+      "id": "lautech-100-phy101-124",
+      "prompt": "A trolley of mass 60 kg moves on a frictionless horizontal surface and has kinetic energy of 120 J. A mass of 40 kg is lowered vertically onto the trolley. The total kinetic energy of the system is",
+      "answers": [
+        "60 J",
+        "72 J",
+        "120 J",
+        "144 J"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Momentum 60 × 2 = 120 is conserved, so v = 1.2 m/s and KE = ½ × 100 × 1.44 = 72 J."
+    },
+    {
+      "id": "lautech-100-phy101-125",
+      "prompt": "The following are derived quantities except",
+      "answers": [
+        "Energy",
+        "Force",
+        "Momentum",
+        "Mass"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Mass is a fundamental quantity."
+    },
+    {
+      "id": "lautech-100-phy101-126",
+      "prompt": "A metal rod of Young modulus 2 × 10¹⁰ N/m² undergoes elastic strain of 0.06%. The energy per unit volume stored is",
+      "answers": [
+        "3600 J/m³",
+        "7200 J/m³",
+        "10800 J/m³",
+        "14400 J/m³"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Energy density = ½Eε² = 0.5 × 2 × 10¹⁰ × (6 × 10⁻⁴)² = 3600 J/m³."
+    },
+    {
+      "id": "lautech-100-phy101-127",
+      "prompt": "An aluminium rod with Young modulus 7.0 × 10⁹ N/m² has a breaking strain of 0.2%. The minimum cross-sectional area of the rod in m² in order to support a load of 10⁴ N is",
+      "answers": [
+        "7.1 × 10⁻⁴ m²",
+        "7.1 × 10² m²",
+        "3.25 × 10³ m²",
+        "None of the above"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Stress = Eε = 1.4 × 10⁷ Pa, so A = 10⁴/1.4 × 10⁷ ≈ 7.1 × 10⁻⁴ m²."
+    },
+    {
+      "id": "lautech-100-phy101-128",
+      "prompt": "A simple harmonic oscillator has a period of 1 second and an amplitude of 2 m. The magnitude of the velocity at the centre of oscillation is",
+      "answers": [
+        "0.4π m/s",
+        "4π m/s",
+        "8π m/s",
+        "16π m/s"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "v_max = Aω = 2 × 2π/1 = 4π m/s."
+    },
+    {
+      "id": "lautech-100-phy101-129",
+      "prompt": "The average speed of an object is determined by dividing the sum of its initial and final speed by 2 only when the acceleration is",
+      "answers": [
+        "Changing",
+        "Uniform",
+        "Increasing",
+        "Decreasing",
+        "None of the above"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "(u + v)/2 holds only for uniform (constant) acceleration."
+    },
+    {
+      "id": "lautech-100-phy101-130",
+      "prompt": "If the earth were assumed to have uniform density and spherical symmetry, the value of g halfway to the centre will be",
+      "answers": [
+        "0 m/s²",
+        "1.25 m/s²",
+        "5 m/s²",
+        "10 m/s²"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Inside a uniform sphere g ∝ r, so at R/2, g = 10/2 = 5 m/s²."
+    },
+    {
+      "id": "lautech-100-phy101-131",
+      "prompt": "Water flows in a streamline manner through a capillary tube of radius A, the pressure difference being P, and the rate of flow being Q. If the radius is reduced to A/2 and the pressure increased to 2P, then the rate of flow becomes",
+      "answers": [
+        "4Q",
+        "Q",
+        "Q/2",
+        "Q/4",
+        "Q/8"
+      ],
+      "correctIndex": 4,
+      "difficulty": "Hard",
+      "explanation": "Poiseuille: Q ∝ Pr⁴, so Q′ = 2 × (1/16) Q = Q/8."
+    },
+    {
+      "id": "lautech-100-phy101-132",
+      "prompt": "Gravel is dropped onto a conveyor belt at the rate of 5 kg/s. The extra force in N required to keep the belt moving at 2 m/s is",
+      "answers": [
+        "20 N",
+        "15 N",
+        "10 N",
+        "5 N"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "F = (dm/dt)v = 5 × 2 = 10 N."
+    },
+    {
+      "id": "lautech-100-phy101-133",
+      "prompt": "A locomotive developed a power of 5 × 10⁵ watts. If the total frictional force is 2 × 10⁴ N, the maximum speed is",
+      "answers": [
+        "50 m/s",
+        "25 m/s",
+        "15 m/s",
+        "10 m/s"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "v = P/F = 5 × 10⁵/2 × 10⁴ = 25 m/s."
+    },
+    {
+      "id": "lautech-100-phy101-134",
+      "prompt": "A mass on the end of a spring undergoes S.H.M. with a frequency of 0.5 Hz. If the attached mass is reduced to ¼ of its value, the new frequency in Hz is",
+      "answers": [
+        "0.5 Hz",
+        "1 Hz",
+        "3 Hz",
+        "2 Hz",
+        "5 Hz"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "f ∝ 1/√m, so a quarter of the mass doubles f to 1 Hz."
+    },
+    {
+      "id": "lautech-100-phy101-135",
+      "prompt": "Ade runs from a goal post and covers a distance X to another goal post. He returns following the same direction back to his goal post. What is the displacement of Ade?",
+      "answers": [
+        "0",
+        "X",
+        "X/2",
+        "2X"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "He ends where he started, so displacement is zero."
+    },
+    {
+      "id": "lautech-100-phy101-136",
+      "prompt": "For two different vectors A and B that are mutually perpendicular to each other, the dot product of vectors A and B is",
+      "answers": [
+        "AB cosθ",
+        "AB",
+        "0",
+        "AB sinθ"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "A·B = AB cos90° = 0."
+    },
+    {
+      "id": "lautech-100-phy101-137",
+      "prompt": "All fundamental quantities are scalar quantities.",
+      "answers": [
+        "True",
+        "False",
+        "True and false",
+        "All of the above"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Following the source key (the seven base quantities are treated as scalars)."
+    },
+    {
+      "id": "lautech-100-phy101-138",
+      "prompt": "The magnitude of the resultant of two mutually perpendicular forces F₁ and F₂ is 13 N. If the magnitude of F₁ is 5 N, what is the magnitude of F₂?",
+      "answers": [
+        "2.5 N",
+        "8.0 N",
+        "12.0 N",
+        "18.0 N"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "F₂ = √(13² − 5²) = 12 N."
+    },
+    {
+      "id": "lautech-100-phy101-139",
+      "prompt": "The force responsible for holding the moon in its orbit around the earth against the gravity pull of the earth is",
+      "answers": [
+        "Centrifugal",
+        "Acceleration due to gravity",
+        "Gravitational constant",
+        "None of the above"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Following the source key."
+    },
+    {
+      "id": "lautech-100-phy101-140",
+      "prompt": "A gas of pressure P N/m² and temperature 27 °C is heated to 77 °C at constant volume. The new pressure is",
+      "answers": [
+        "0.05P N/m²",
+        "1.16P N/m²",
+        "2.65P N/m²",
+        "7.85P N/m²"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "P₂ = P × 350/300 ≈ 1.16P."
+    },
+    {
+      "id": "lautech-100-phy101-141",
+      "prompt": "The melting point of naphthalene is 78 °C. What is the temperature in kelvin?",
+      "answers": [
+        "295 K",
+        "287 K",
+        "351 K",
+        "444 K"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "78 + 273 = 351 K."
+    },
+    {
+      "id": "lautech-100-phy101-142",
+      "prompt": "A motor tyre is inflated to a pressure of 2.0 × 10⁵ N/m² when the temperature of air is 27 °C. What will be the pressure in it at 87 °C, assuming that the volume of the tyre was not changed?",
+      "answers": [
+        "2.6 × 10⁵ N/m²",
+        "2.4 × 10⁵ N/m²",
+        "2.2 × 10⁵ N/m²",
+        "1.3 × 10⁵ N/m²"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "P₂ = 2.0 × 10⁵ × 360/300 = 2.4 × 10⁵ N/m²."
+    },
+    {
+      "id": "lautech-100-phy101-143",
+      "prompt": "The temperature at which the water vapour present in air is just sufficient to saturate it is called",
+      "answers": [
+        "Ice point",
+        "Boiling point",
+        "Steam point",
+        "Dew point",
+        "Saturated point"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "This is the definition of dew point."
+    },
+    {
+      "id": "lautech-100-phy101-144",
+      "prompt": "Which of the following instruments may be used to measure relative humidity?",
+      "answers": [
+        "Hydrometer",
+        "Barometer",
+        "Pyrometer",
+        "Hygrometer",
+        "Anemometer"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "A hygrometer measures humidity."
+    },
+    {
+      "id": "lautech-100-phy101-145",
+      "prompt": "If two substances are in thermal equilibrium with each other and one of the substances is in thermal equilibrium with a third substance, this statement is called",
+      "answers": [
+        "Law of inertia",
+        "Zeroth law of thermodynamics",
+        "Second law of thermodynamics",
+        "First law of thermodynamics"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "This is the zeroth law of thermodynamics."
+    },
+    {
+      "id": "lautech-100-phy101-146",
+      "prompt": "A pressure cooker saves time and fuel in cooking because inside the cooker the",
+      "answers": [
+        "Pressure is constant",
+        "Boiling point of the water is raised",
+        "Heat is completely transferred",
+        "Temperature is evenly distributed",
+        "Volume of the steam varies"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Higher pressure raises the boiling point, so food cooks faster."
+    },
+    {
+      "id": "lautech-100-phy101-147",
+      "prompt": "The equation PˣVʸTᶻ = constant is Charles’s law when",
+      "answers": [
+        "x = −1, y = −1, z = 0",
+        "x = 0, y = 1, z = −1",
+        "x = 1, y = 0, z = −1",
+        "x = 0, y = 1, z = 1"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Charles’s law: V/T = constant, so V¹T⁻¹ with x = 0."
+    },
+    {
+      "id": "lautech-100-phy101-148",
+      "prompt": "A temperature scale has a lower fixed point of 40 mm and an upper fixed point of 200 mm. What is the reading of the scale when a thermometer reads 60 °C?",
+      "answers": [
+        "33.3 mm",
+        "56.0 mm",
+        "96.0 mm",
+        "136.0 mm"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Reading = 40 + (60/100) × 160 = 136 mm."
+    },
+    {
+      "id": "lautech-100-phy101-149",
+      "prompt": "A room is heated by means of a charcoal fire. A man standing away from the fire is warmed by",
+      "answers": [
+        "Thermionic emission",
+        "Conduction",
+        "Convection",
+        "None of the above"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "He is warmed by radiation, which is not among the options, so 'None of the above'."
+    },
+    {
+      "id": "lautech-100-phy101-150",
+      "prompt": "An orange falling vertically downwards falls with",
+      "answers": [
+        "Uniform velocity",
+        "Non-uniform velocity",
+        "Constant acceleration",
+        "Non-uniform acceleration",
+        "Zero acceleration"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Free fall has constant acceleration g."
+    },
+    {
+      "id": "lautech-100-phy101-151",
+      "prompt": "A body which is accelerating is observed to have constant speed. This means that the body is moving",
+      "answers": [
+        "Along a straight line",
+        "In a circle",
+        "In an ellipse",
+        "In a parabola"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Constant speed with acceleration means the direction is changing, i.e. circular motion."
+    },
+    {
+      "id": "lautech-100-phy101-152",
+      "prompt": "For which of the following sets are the fundamental quantities?",
+      "answers": [
+        "Volume, length and speed",
+        "Area, length and volume",
+        "Length, mass and time",
+        "Time, mass and momentum"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Length, mass and time are fundamental quantities."
+    },
+    {
+      "id": "lautech-100-phy101-153",
+      "prompt": "Which of the following dimensions is for kinetic energy?",
+      "answers": [
+        "M²T²",
+        "ML²T²",
+        "ML²T⁻²",
+        "ML²T⁻¹"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "KE = ½mv² has dimension ML²T⁻²."
+    },
+    {
+      "id": "lautech-100-phy101-154",
+      "prompt": "A boy tried 20 oscillations of a certain pendulum three times and obtained 44.3 seconds, 45.5 seconds, 45.4 seconds. Calculate the mean period of the pendulum.",
+      "answers": [
+        "0.13 s",
+        "2.22 s",
+        "2.26 s",
+        "44.30 s",
+        "45.17 s"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Mean time ≈ 45.07 s for 20 oscillations, so T ≈ 2.25 s; 2.26 s is the closest option."
+    },
+    {
+      "id": "lautech-100-phy101-155",
+      "prompt": "The force of attraction between two point masses is 2.0 × 10⁻³ N when the distance between them is 180 mm. If the distance is reduced to 60 mm, what is the new force of attraction?",
+      "answers": [
+        "1.5 × 10⁻² N",
+        "1.8 × 10⁻² N",
+        "2.3 × 10⁻³ N",
+        "2.7 × 10⁻³ N"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "F ∝ 1/r²; distance is divided by 3, so F × 9 = 1.8 × 10⁻² N."
+    },
+    {
+      "id": "lautech-100-phy101-156",
+      "prompt": "The velocity of a particle at time t is given by the equation V = 10 + 2t². Find the instantaneous acceleration after 5 seconds.",
+      "answers": [
+        "20 m/s²",
+        "4 m/s²",
+        "10 m/s²",
+        "15 m/s²"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "a = dV/dt = 4t = 20 m/s²."
+    },
+    {
+      "id": "lautech-100-phy101-157",
+      "prompt": "The pressure exerted by a force on a portion of a wall of 0.5 m² is 100 pascal. Calculate the value of the force if it acts perpendicularly to the wall.",
+      "answers": [
+        "100 N",
+        "50 N",
+        "150 N",
+        "200 N"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "F = PA = 100 × 0.5 = 50 N."
+    },
+    {
+      "id": "lautech-100-phy101-158",
+      "prompt": "Find the magnitude of the resultant of two vectors of magnitude 5 N and 12 N respectively inclined at 90° to each other.",
+      "answers": [
+        "3.5 N",
+        "7 N",
+        "8.5 N",
+        "13 N",
+        "17 N"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "R = √(5² + 12²) = 13 N."
+    },
+    {
+      "id": "lautech-100-phy101-159",
+      "prompt": "A spring of force constant 500 N m⁻¹ is acted upon by a constant force of 50 N. Calculate the potential energy stored in the spring.",
+      "answers": [
+        "2.50 J",
+        "1.25 J",
+        "7.50 J",
+        "15.00 J",
+        "30.00 J"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "e = F/k = 0.1 m; PE = ½ke² = 2.5 J."
+    },
+    {
+      "id": "lautech-100-phy101-160",
+      "prompt": "Two forces 10.0 N and 6.0 N act in opposite directions on a body of mass 20 kg. Calculate the acceleration of the body.",
+      "answers": [
+        "1/10 m/s²",
+        "1/5 m/s²",
+        "1/2 m/s²",
+        "2 m/s²",
+        "5 m/s²"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Net force = 4 N; a = 4/20 = 1/5 m/s²."
+    },
+    {
+      "id": "lautech-100-phy101-161",
+      "prompt": "A ball of mass 100 g falls from a height of 5 m onto a floor and rebounds to a height of 3 m. What energy is lost by the ball as a result of the impact on the floor?",
+      "answers": [
+        "2 J",
+        "20 J",
+        "100 J",
+        "1000 J",
+        "2000 J"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Energy lost = mg(5 − 3) = 0.1 × 10 × 2 = 2 J."
+    },
+    {
+      "id": "lautech-100-phy101-162",
+      "prompt": "A train travelling at 30 m/s overcomes a frictional resistance of 100 N while moving. What is the power of the engine in horse power (1 h.p. = ¾ kW)?",
+      "answers": [
+        "2.5 h.p",
+        "0.4 h.p",
+        "0.25 h.p",
+        "4.4 h.p",
+        "4.0 h.p"
+      ],
+      "correctIndex": 4,
+      "difficulty": "Medium",
+      "explanation": "P = Fv = 3000 W = 3 kW; 3 ÷ 0.75 = 4.0 h.p."
+    },
+    {
+      "id": "lautech-100-phy101-163",
+      "prompt": "Given two vectors A = i + 2j − 4k and B = 3i − j + 5k. Find A × B.",
+      "answers": [
+        "6i + 17j − 7k",
+        "6i + 7j − 7k",
+        "6i + 17j + 7k",
+        "6i − 17j − 7k",
+        "6i + 7j + 7k"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Cross product = 6i − 17j − 7k (option d)."
+    },
+    {
+      "id": "lautech-100-phy101-164",
+      "prompt": "A simple harmonic oscillator has a period of 0.01 second and amplitude of 0.2 m. What is the magnitude of the velocity in m/s at the centre of oscillation?",
+      "answers": [
+        "20",
+        "20π",
+        "100",
+        "40π",
+        "100π"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "v = Aω = 0.2 × 2π/0.01 = 40π m/s."
+    },
+    {
+      "id": "lautech-100-phy101-165",
+      "prompt": "A trolley of mass 60 kg moves on a frictionless horizontal surface and has kinetic energy of 120 J. A mass of 40 kg is lowered vertically onto the trolley. What is the total kinetic energy of the system?",
+      "answers": [
+        "60 J",
+        "72 J",
+        "120 J",
+        "144 J",
+        "Zero"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Momentum is conserved: KE = 120 × 60/100 = 72 J."
+    },
+    {
+      "id": "lautech-100-phy101-166",
+      "prompt": "A locomotive develops a power of 5 × 10⁵ W. If the total frictional force is 2 × 10⁴ N, what is the maximum speed in m/s?",
+      "answers": [
+        "25",
+        "20",
+        "15",
+        "10",
+        "5"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "v = P/F = 25 m/s."
+    },
+    {
+      "id": "lautech-100-phy101-167",
+      "prompt": "How long does it take an 800 W heater to raise the temperature of 2 kg of water from 20 °C to 60 °C (specific heat capacity of water = 4200 J kg⁻¹ K⁻¹)?",
+      "answers": [
+        "4200 s",
+        "42 sec",
+        "420 sec",
+        "4.2 sec"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "t = 2 × 4200 × 40/800 = 420 s."
+    },
+    {
+      "id": "lautech-100-phy101-168",
+      "prompt": "A copper rod is 3 m long at a certain temperature. Calculate its length for a temperature rise of 100 K if the expansivity of the copper is 17 × 10⁻⁶ K⁻¹.",
+      "answers": [
+        "3.0051 m",
+        "3.0001 m",
+        "3.51 m",
+        "3.051 m"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "ΔL = 3 × 17 × 10⁻⁶ × 100 = 0.0051 m."
+    },
+    {
+      "id": "lautech-100-phy101-169",
+      "prompt": "The volume of a gas is 76 cm³ at 27 °C and 800 mm mercury pressure. What is its volume at S.T.P.?",
+      "answers": [
+        "36.2 cm³",
+        "60 cm³",
+        "72.8 cm³",
+        "100 cm³",
+        "120 cm³"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "V = 76 × (800/760) × (273/300) ≈ 72.8 cm³."
+    },
+    {
+      "id": "lautech-100-phy101-170",
+      "prompt": "Calculate the pressure exerted by a gas at a temperature of 54 °C if the gas at constant volume has a pressure of 30 N m⁻² at a temperature of 27 °C.",
+      "answers": [
+        "15.03 N m⁻²",
+        "32.73 N m⁻²",
+        "53.03 N m⁻²",
+        "57.4 N m⁻²"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "P₂ = 30 × 327/300 = 32.7 N m⁻²."
+    },
+    {
+      "id": "lautech-100-phy101-171",
+      "prompt": "The speed of a radio signal is 3 × 10⁸ m/s. What is the frequency, if the wavelength is 30 × 10² m?",
+      "answers": [
+        "10⁶ Hz",
+        "10⁻⁶ Hz",
+        "10³ Hz",
+        "10² Hz",
+        "10 Hz"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Source answer: 10⁶ Hz (this corresponds to a wavelength of 300 m; with exactly 3000 m, f would be 10⁵ Hz, which is not an option)."
+    },
+    {
+      "id": "lautech-100-phy101-172",
+      "prompt": "A wave whose frequency is 0.4 Hz travels 54 m in 9 seconds. What is the distance between adjacent crests?",
+      "answers": [
+        "30 m",
+        "20 m",
+        "15 m",
+        "10 m",
+        "25 m"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "v = 54/9 = 6 m/s; λ = v/f = 6/0.4 = 15 m."
+    },
+    {
+      "id": "lautech-100-phy101-173",
+      "prompt": "A hunter 408 m from a cliff fires a gun and hears an echo 2.4 seconds after. What is the speed of sound?",
+      "answers": [
+        "380 m s⁻¹",
+        "340 m s⁻¹",
+        "680 m s⁻¹",
+        "17 m s⁻¹",
+        "400 m s⁻¹"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "v = 2d/t = 816/2.4 = 340 m/s."
+    },
+    {
+      "id": "lautech-100-phy101-174",
+      "prompt": "A gas which obeys Charles’s law has a volume of 283.0 cm³ at 10 °C. Calculate its volume at 30 °C.",
+      "answers": [
+        "142.0 cm³",
+        "293.0 cm³",
+        "303.0 cm³",
+        "566.0 cm³"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "V₂ = 283 × 303/283 = 303 cm³."
+    },
+    {
+      "id": "lautech-100-phy101-175",
+      "prompt": "A block and tackle system has two movable and two fixed pulleys. If the efficiency is 100%, calculate the mechanical advantage of the system.",
+      "answers": [
+        "2",
+        "4",
+        "24",
+        "50"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Four pulleys give a velocity ratio (and mechanical advantage at 100% efficiency) of 4."
+    },
+    {
+      "id": "lautech-100-phy101-176",
+      "prompt": "Express a pressure of 75.0 cm of mercury in pascal.",
+      "answers": [
+        "1 × 10⁵ Pa",
+        "2 × 10⁴ Pa",
+        "7 × 10⁶ Pa",
+        "4 × 10⁷ Pa"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "P = ρgh = 13600 × 10 × 0.75 ≈ 1 × 10⁵ Pa."
+    },
+    {
+      "id": "lautech-100-phy101-177",
+      "prompt": "Determine the upthrust on an iron cube of volume 400 cm³ if it is totally immersed in oil of density 0.8 g/cm³.",
+      "answers": [
+        "2.5 N",
+        "3.2 N",
+        "4.8 N",
+        "7.2 N"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "U = ρVg = 800 × 4 × 10⁻⁴ × 10 = 3.2 N."
+    },
+    {
+      "id": "lautech-100-phy101-178",
+      "prompt": "The bob of a simple pendulum of length 10 m oscillates with a small amplitude. Calculate the period (g = 10 m/s², π = 3.14).",
+      "answers": [
+        "6.284 s",
+        "3.421 s",
+        "32.43 s",
+        "1.28 s"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "T = 2π√(l/g) = 2 × 3.14 × 1 = 6.28 s."
+    },
+    {
+      "id": "lautech-100-phy101-179",
+      "prompt": "An ideal gas performs 800 J of work with 500 J of heat energy. What is its value of internal energy change?",
+      "answers": [
+        "300 J",
+        "400 J",
+        "−300 J",
+        "−400 J"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "ΔU = Q − W = 500 − 800 = −300 J."
+    },
+    {
+      "id": "lautech-100-phy101-180",
+      "prompt": "What is the power in horse power of a tractor that can exert a force of 5 × 10⁵ N while moving at a constant speed of 10 m/s?",
+      "answers": [
+        "2153 h.p",
+        "6702.4 h.p",
+        "3782 h.p",
+        "4862 h.p"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "P = 5 × 10⁶ W; 5 × 10⁶/746 ≈ 6702 h.p."
+    },
+    {
+      "id": "lautech-100-phy101-181",
+      "prompt": "Determine the increase in pressure that is required to decrease the 1 m³ volume of water by 2 × 10⁻⁴ m³, if the bulk modulus of water is 2 × 10⁹ N m⁻².",
+      "answers": [
+        "2 × 10⁴ N/m²",
+        "3 × 10⁶ N/m²",
+        "4 × 10⁵ N/m²",
+        "3 × 10⁶ N/m²"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "ΔP = K ΔV/V = 2 × 10⁹ × 2 × 10⁻⁴ = 4 × 10⁵ N/m²."
+    },
+    {
+      "id": "lautech-100-phy101-182",
+      "prompt": "A force of 10 N is applied to push a mass of 2 kg along a straight horizontal level. What is the acceleration of the body?",
+      "answers": [
+        "2 m/s²",
+        "4 m/s²",
+        "5 m/s²",
+        "7 m/s²"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "a = F/m = 10/2 = 5 m/s²."
+    },
+    {
+      "id": "lautech-100-phy101-183",
+      "prompt": "The angle between A = i − j + k and B = 2i − 7j − 3k is",
+      "answers": [
+        "28°",
+        "57°",
+        "64°",
+        "98°"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "cosθ = 6/(√3 × √62) ≈ 0.44, so θ ≈ 64°."
+    },
+    {
+      "id": "lautech-100-phy101-184",
+      "prompt": "The vector product of A = 7i − 4j + 10k and B = 2i − 7j − 3k is",
+      "answers": [
+        "82i + 41j − 41k",
+        "22i + 62j + 14k",
+        "−82i + 32j + 7k",
+        "23i + 2j + 7k"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Determinant expansion gives 82i + 41j − 41k."
+    },
+    {
+      "id": "lautech-100-phy101-185",
+      "prompt": "The temperature at which the water vapour present in the atmosphere is just sufficient to saturate is?",
+      "answers": [
+        "Boiling point",
+        "Dew point",
+        "Ice point",
+        "Steam point"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "This is the dew point."
+    },
+    {
+      "id": "lautech-100-phy101-186",
+      "prompt": "If the pressure of 20.0 cm³ of a fixed mass of gas is halved, calculate the new volume of the gas if the temperature remains constant.",
+      "answers": [
+        "20 cm³",
+        "40 cm³",
+        "60 cm³",
+        "80 cm³"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Boyle’s law: halving P doubles V to 40 cm³."
+    },
+    {
+      "id": "lautech-100-phy101-187",
+      "prompt": "A fixed mass of gas of volume 313.0 cm³ at a temperature of 40 °C is heated to 60 °C at constant pressure. Calculate its new volume.",
+      "answers": [
+        "213 cm³",
+        "143 cm³",
+        "333 cm³",
+        "425 cm³"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "V₂ = 313 × 333/313 = 333 cm³."
+    },
+    {
+      "id": "lautech-100-phy101-188",
+      "prompt": "The motion of a ball spinning on its axis is",
+      "answers": [
+        "Oscillatory",
+        "Rotational",
+        "Rectilinear",
+        "Circular"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Spinning about its own axis is rotational motion."
+    },
+    {
+      "id": "lautech-100-phy101-189",
+      "prompt": "An orange at rest falls freely from a height of 10.0 m to the ground. Calculate the time taken to reach the ground (g = 10 m/s²).",
+      "answers": [
+        "100.0 sec",
+        "10.0 sec",
+        "1.4 sec",
+        "1.0 sec"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "t = √(2h/g) = √2 ≈ 1.4 s."
+    },
+    {
+      "id": "lautech-100-phy101-190",
+      "prompt": "The behaviour by which the surface of a liquid behaves as if it is covered by an elastic skin is",
+      "answers": [
+        "Boiling point",
+        "Surface tension",
+        "Osmosis",
+        "Capillarity"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "This is surface tension."
+    },
+    {
+      "id": "lautech-100-phy101-191",
+      "prompt": "The tendency of a body to remain at rest or continue its state of uniform motion is",
+      "answers": [
+        "Displacement",
+        "Dementia",
+        "Inertia",
+        "Elasticity"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "This is inertia."
+    },
+    {
+      "id": "lautech-100-phy101-192",
+      "prompt": "A telegraph wire, 50.0 m long, is made of a material whose linear expansivity is 2 × 10⁻⁵ K⁻¹. Determine the change in the length of the wire if the temperature changes from 40 °C to 10 °C.",
+      "answers": [
+        "0.03 m",
+        "0.05 m",
+        "20.00 m",
+        "25.25 m"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "ΔL = 50 × 2 × 10⁻⁵ × 30 = 0.03 m."
+    },
+    {
+      "id": "lautech-100-phy101-193",
+      "prompt": "The ice and the steam points on an ungraduated thermometer are 120 mm apart. The thermometer is immersed in a liquid of temperature 40 °C. Calculate the length of the mercury thread above the ice point.",
+      "answers": [
+        "20.0 mm",
+        "38.0 mm",
+        "48.0 mm",
+        "60.0 mm"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Length = (40/100) × 120 = 48 mm."
+    },
+    {
+      "id": "lautech-100-phy101-194",
+      "prompt": "A train 100 m long is moving with a speed of 60 km/hr. In what time will it cross a bridge 1 km long?",
+      "answers": [
+        "43 s",
+        "51 s",
+        "66 s",
+        "148 s"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Distance = 1100 m; speed = 16.67 m/s; t = 66 s."
+    },
+    {
+      "id": "lautech-100-phy101-195",
+      "prompt": "Given the vector ai + 0.8j + 0.6k, what is the value of a given that the vector is a unit vector?",
+      "answers": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "0.8² + 0.6² = 1, so a² = 0 and a = 0."
+    },
+    {
+      "id": "lautech-100-phy101-196",
+      "prompt": "E = mc² is valid if the dimension of each side of the equation is equal to",
+      "answers": [
+        "MLT⁻²",
+        "ML²T⁻²",
+        "ML³T",
+        "ML²T⁻³"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Energy has dimension ML²T⁻²."
+    },
+    {
+      "id": "lautech-100-phy101-197",
+      "prompt": "Given the vectors 2i − 3j − k and −6i + 9j + 3k, the two vectors are",
+      "answers": [
+        "Perpendicular",
+        "Parallel",
+        "Diagonal",
+        "Similar"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "The second vector is −3 times the first, so they are parallel."
+    },
+    {
+      "id": "lautech-100-phy101-198",
+      "prompt": "The pressure due to a column of fluid of height h depends on the height of the column, the density of the fluid and acceleration due to gravity, P = ρᵃgᵇhᶜ. Find a, b and c.",
+      "answers": [
+        "0, 1, −1",
+        "1, 0, 1",
+        "1, 1, 1",
+        "1, 2, −1"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "P = ρgh, so a = b = c = 1."
+    },
+    {
+      "id": "lautech-100-phy101-199",
+      "prompt": "F = K⁻ˣ(m₁m₂)ʸrᶻ. Find x, y and z.",
+      "answers": [
+        "−1, 1, −2",
+        "0, −2, 1",
+        "2, 1, 3",
+        "0, 0, 1"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Newton’s law F = Gm₁m₂/r² gives x = −1, y = 1, z = −2."
+    },
+    {
+      "id": "lautech-100-phy101-200",
+      "prompt": "A person travelling along a straight road due east covers the first half distance with a speed of V₁ and the second half distance with speed V₂. What is the total average speed of the person?",
+      "answers": [
+        "2(V₁+V₂)/(V₁V₂)",
+        "2V₁V₂/(V₁+V₂)",
+        "(V₁²+V₂²)/(V₁V₂)",
+        "None of the above"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Average speed = total distance/total time = 2V₁V₂/(V₁ + V₂)."
+    },
+    {
+      "id": "lautech-100-phy101-201",
+      "prompt": "If velocity V, time T and force F are chosen as fundamental quantities, then the dimension of mass will be",
+      "answers": [
+        "FTV",
+        "FVT²",
+        "FV⁻¹T",
+        "F⁻¹VT⁻¹"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "M = F T²/L with L = VT, so M = F T/V = FV⁻¹T."
+    },
+    {
+      "id": "lautech-100-phy101-202",
+      "prompt": "What is the dimension of the constants a and b in the general gas equation (P + a/V²)(V − b) = RT?",
+      "answers": [
+        "ML¹T⁻⁴, L³",
+        "ML²T⁻¹, L³",
+        "ML⁻¹T⁻², L⁴",
+        "None of the above"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Correction: the source key says A. a/V² has the dimension of pressure, so a = ML⁵T⁻², and b = L³. No listed option has a = ML⁵T⁻², so the answer is 'None of the above' (d)."
+    },
+    {
+      "id": "lautech-100-phy101-203",
+      "prompt": "The distance travelled by a particle starting from rest is plotted against time elapsed from the commencement of motion. The resulting graph is linear. The slope of the graph is a measure of",
+      "answers": [
+        "Initial displacement",
+        "Initial velocity",
+        "Acceleration",
+        "Half of acceleration"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Source answer: since s = ½at², a linear plot (against t²) has slope ½a."
+    },
+    {
+      "id": "lautech-100-phy101-204",
+      "prompt": "The motion of a car along the y-axis is given by the relation y = t³ − 6t² + 9t + 5. Calculate the total distance covered.",
+      "answers": [
+        "11 m",
+        "26 m",
+        "35 m",
+        "28 m"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Source answer: assuming t = 0 to 5 s, the car moves 4 m, back 4 m, then 20 m, a total of 28 m."
+    },
+    {
+      "id": "lautech-100-phy101-205",
+      "prompt": "The acceleration of a moving object is represented by a function a = 5t² + 2t. At t = 0, the object x₀ = −2 m and it is travelling with a velocity of 3 m s⁻¹ in a negative x-direction. How far is the object moving at t = 2 seconds?",
+      "answers": [
+        "3.02 m/s",
+        "20.33 m/s",
+        "48.37 m/s",
+        "51.27 m/s"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Source answer: v = (5/3)t³ + t² + 3 = 20.33 m/s at t = 2."
+    },
+    {
+      "id": "lautech-100-phy101-206",
+      "prompt": "A room is heated by means of charcoal. A man standing away from the fire is warmed by",
+      "answers": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Sublimation"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Heat reaches him across the air by radiation."
+    },
+    {
+      "id": "lautech-100-phy101-207",
+      "prompt": "The first law of thermodynamics is a consequence of conservation of",
+      "answers": [
+        "Work",
+        "Energy",
+        "Heat",
+        "All of the above"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "It is the statement of conservation of energy."
+    },
+    {
+      "id": "lautech-100-phy101-208",
+      "prompt": "A heat engine which converts heat into work with an efficiency of 1",
+      "answers": [
+        "Violates both laws of thermodynamics",
+        "Does not violate the first law of thermodynamics, but does violate the second law of thermodynamics",
+        "Has yet to be conducted, but the technology is moving swiftly in this direction",
+        "Is also known as a car engine"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "100% efficiency conserves energy but violates the second law."
+    },
+    {
+      "id": "lautech-100-phy101-209",
+      "prompt": "The first law of thermodynamics is a statement of",
+      "answers": [
+        "Conservation of heat",
+        "Conservation of work",
+        "Conservation of momentum",
+        "Conservation of energy"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "It states conservation of energy."
+    },
+    {
+      "id": "lautech-100-phy101-210",
+      "prompt": "The quantity ΔU in the first law of thermodynamics is the change in the ___________ of the system.",
+      "answers": [
+        "Entropy",
+        "Internal energy",
+        "Heat energy",
+        "Temperature"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "U denotes internal energy."
+    },
+    {
+      "id": "lautech-100-phy101-211",
+      "prompt": "A car engine absorbs 51 kJ of heat and exhausts 44 kJ of heat in each cycle. Calculate the engine’s efficiency in % and the work done per cycle in kJ.",
+      "answers": [
+        "15.23% & 8 kJ",
+        "13.73% & 7 kJ",
+        "13.22% & 12 kJ",
+        "19.11% & 42 kJ"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "W = 51 − 44 = 7 kJ; η = 7/51 = 13.73%."
+    },
+    {
+      "id": "lautech-100-phy101-212",
+      "prompt": "A heat engine operating at a maximum efficiency of 28.0% does 175 joules of work in each cycle. How much heat is absorbed by this engine per cycle? If the heat is absorbed at 187 °C, at what temperature is the heat discarded?",
+      "answers": [
+        "629 J & 448 K",
+        "546 J & 333.2 K",
+        "625 J & 331.2 K",
+        "688 J & 332.3 K"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Q_h = 175/0.28 = 625 J; T_c = 460 × 0.72 = 331.2 K."
+    },
+    {
+      "id": "lautech-100-phy101-213",
+      "prompt": "Which of the following properties cannot be used to describe the state of a system?",
+      "answers": [
+        "Pressure",
+        "Volume",
+        "Temperature",
+        "Universal gas constant"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "The gas constant is a fixed constant, not a state variable."
+    },
+    {
+      "id": "lautech-100-phy101-214",
+      "prompt": "When work is done on a system or by a system there is a change in __________",
+      "answers": [
+        "External energy",
+        "Internal energy",
+        "Adiabatic energy",
+        "Isothermal energy"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Work changes the internal energy."
+    },
+    {
+      "id": "lautech-100-phy101-215",
+      "prompt": "The system that does not allow heat to pass through its boundary between the system and surroundings is called ___________ system.",
+      "answers": [
+        "Adiabatic",
+        "Open",
+        "Isothermal",
+        "Closed"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "This describes an adiabatic system."
+    },
+    {
+      "id": "lautech-100-phy101-216",
+      "prompt": "In an adiabatic process the work done is 50 kJ. What is its internal energy change?",
+      "answers": [
+        "50 kJ",
+        "25 kJ",
+        "−50 kJ",
+        "−25 kJ"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "With Q = 0, ΔU = −W = −50 kJ."
+    },
+    {
+      "id": "lautech-100-phy101-217",
+      "prompt": "In an adiabatic process pressure is related to volume as _________",
+      "answers": [
+        "PV = constant",
+        "PVᵞ = constant",
+        "PV³ = constant",
+        "PV² = constant"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Adiabatic processes obey PVᵞ = constant."
+    },
+    {
+      "id": "lautech-100-phy101-218",
+      "prompt": "The first law of thermodynamics states that the energy of an isolated system is constant.",
+      "answers": [
+        "True",
+        "False",
+        "True and false",
+        "None of the above"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "This is the first law for an isolated system."
+    },
+    {
+      "id": "lautech-100-phy101-219",
+      "prompt": "An open system allows the transfer of ___________",
+      "answers": [
+        "Only mass",
+        "Only energy",
+        "Both mass and energy",
+        "Neither mass nor energy"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Open systems exchange both mass and energy."
+    },
+    {
+      "id": "lautech-100-phy101-220",
+      "prompt": "A Carnot engine’s operating temperatures are 290 °C and 55 °C. The engine’s power output is 990 W. Calculate the rate of heat output.",
+      "answers": [
+        "1467.3 W",
+        "1367.1 W",
+        "1738.2 W",
+        "1322.9 W"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Q_c = W × T_c/(T_h − T_c) = 990 × 328/235 ≈ 1380 W; 1367.1 W is the closest option."
+    },
+    {
+      "id": "lautech-100-phy101-221",
+      "prompt": "Both isolated and closed systems are the same.",
+      "answers": [
+        "True",
+        "False",
+        "True and false",
+        "None of the above"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "A closed system exchanges energy; an isolated system exchanges neither."
+    },
+    {
+      "id": "lautech-100-phy101-222",
+      "prompt": "If work is done on an adiabatic wall, then which of the following is true? (i) ΔU = −W (ii) ΔU = W (iii) ΔU + W = 0 (iv) ΔU = −W",
+      "answers": [
+        "I only",
+        "II only",
+        "I, III and IV only",
+        "I, II, III and IV"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Following the source key (statements i, iii and iv are equivalent)."
+    },
+    {
+      "id": "lautech-100-phy101-223",
+      "prompt": "The temperature of an object increases slowly, then the energy of that object",
+      "answers": [
+        "Increases slowly",
+        "Decreases quickly",
+        "Increases quickly",
+        "Decreases slowly"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Energy rises at the same slow rate as the temperature."
+    },
+    {
+      "id": "lautech-100-phy101-224",
+      "prompt": "Which of the following is the dimension of stress?",
+      "answers": [
+        "ML⁻¹T⁻¹",
+        "ML⁻¹T⁻²",
+        "ML²T⁻³",
+        "ML²T⁴"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Stress = force/area = ML⁻¹T⁻²."
+    },
+    {
+      "id": "lautech-100-phy101-225",
+      "prompt": "Which of the following is the dimension of force?",
+      "answers": [
+        "MLT⁻²",
+        "M²L²T⁻³",
+        "ML²",
+        "M⁻²T⁻²"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Force = MLT⁻²."
+    },
+    {
+      "id": "lautech-100-phy101-226",
+      "prompt": "A freely falling object starts from rest. After falling for 4 sec, it will have a speed of about",
+      "answers": [
+        "20 m/s",
+        "30 m/s",
+        "40 m/s",
+        "50 m/s"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "v = gt = 10 × 4 = 40 m/s."
+    },
+    {
+      "id": "lautech-100-phy101-227",
+      "prompt": "A car increases its forward velocity uniformly from 40 m/s to 80 m/s while travelling a distance of 200 m. What is its acceleration during this time?",
+      "answers": [
+        "6 m/s²",
+        "12 m/s²",
+        "18 m/s²",
+        "24 m/s²"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "a = (80² − 40²)/(2 × 200) = 12 m/s²."
+    },
+    {
+      "id": "lautech-100-phy101-228",
+      "prompt": "A wire 2 m long and 2 mm in diameter is stretched by a mass of 8 kg. What is the stress on the wire?",
+      "answers": [
+        "2.55 × 10⁷ N/m²",
+        "3.28 × 10⁶ N/m²",
+        "4.59 × 10³ N/m²",
+        "7.29 × 10⁷ N/m²"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Stress = 80/(π × 10⁻⁶) ≈ 2.55 × 10⁷ N/m²."
+    },
+    {
+      "id": "lautech-100-phy101-229",
+      "prompt": "Which of the following quantities has the unit of a velocity?",
+      "answers": [
+        "9.8 m/s² downward",
+        "186,000 m",
+        "40 km southwest",
+        "−120 m/s"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Only −120 m/s has units of velocity (m/s)."
+    },
+    {
+      "id": "lautech-100-phy101-230",
+      "prompt": "Which of the following with respect to a body performing S.H.M. are in phase?",
+      "answers": [
+        "Displacement and velocity of the body",
+        "Displacement and force on the body",
+        "Velocity and acceleration of the body",
+        "Force acting on the body and the acceleration"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Correction: the source key says C, but F = ma so force and acceleration are always in phase (d). Velocity and acceleration are 90° out of phase."
+    },
+    {
+      "id": "lautech-100-phy101-231",
+      "prompt": "A car initially travelling at 60 km/hr accelerates at a constant rate of 2 m/s². How much time is required for the car to reach a speed of 90 km/hr?",
+      "answers": [
+        "305 sec",
+        "4.2 sec",
+        "8.5 sec",
+        "4.6 sec"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Δv = 30 km/hr = 8.33 m/s; t = 8.33/2 ≈ 4.2 s."
+    },
+    {
+      "id": "lautech-100-phy101-232",
+      "prompt": "Which of the following is the dimension of moment?",
+      "answers": [
+        "ML²T⁻²",
+        "MLT⁻²",
+        "ML²T⁻³",
+        "M²L²T²"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Moment of a force = force × distance = ML²T⁻²."
+    },
+    {
+      "id": "lautech-100-phy101-233",
+      "prompt": "What is the angle between vectors A = 2i + 3j and B = i − 2j?",
+      "answers": [
+        "60°",
+        "125°",
+        "145°",
+        "120°"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "cosθ = −4/(√13 × √5) ≈ −0.496, so θ ≈ 120°."
+    },
+    {
+      "id": "lautech-100-phy101-234",
+      "prompt": "A force acting on an object changes its momentum from 100 N·s to 350 N·s in 10 sec. The magnitude of the force is",
+      "answers": [
+        "10 N",
+        "35 N",
+        "25 N",
+        "45 N"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "F = Δp/t = 250/10 = 25 N."
+    },
+    {
+      "id": "lautech-100-phy101-235",
+      "prompt": "What is the formula for modulus of elasticity?",
+      "answers": [
+        "Stress × strain",
+        "Strain/stress",
+        "Stress/strain",
+        "Stress + strain"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Modulus = stress/strain."
+    },
+    {
+      "id": "lautech-100-phy101-236",
+      "prompt": "A process that occurs at constant temperature is called",
+      "answers": [
+        "Isobaric process",
+        "Isothermal process",
+        "Adiabatic process",
+        "All of the above"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Constant temperature is isothermal."
+    },
+    {
+      "id": "lautech-100-phy101-237",
+      "prompt": "A 1 kg pigeon sits on the middle of a clothline whose supports are 10 cm apart. The clothline sags by 1 m. If the weight of the clothline is negligible, find the tension in it.",
+      "answers": [
+        "15 N",
+        "25.5 N",
+        "28.7 N",
+        "45.2 N"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Source answer: this fits supports 10 m apart (sinθ = 1/√26), giving T = mg/(2 sinθ) ≈ 25.5 N."
+    },
+    {
+      "id": "lautech-100-phy101-238",
+      "prompt": "The frequency of a vibrating string is",
+      "answers": [
+        "Proportional to its length",
+        "Inversely proportional to the tension within it",
+        "Proportional to the amplitude of vibration",
+        "Inversely proportional to its cross-sectional area",
+        "Proportional to the square root of the tension within it"
+      ],
+      "correctIndex": 4,
+      "difficulty": "Medium",
+      "explanation": "f = (1/2L)√(T/μ), so f ∝ √T."
+    },
+    {
+      "id": "lautech-100-phy101-239",
+      "prompt": "A 50 kg barrel hangs from one end of a 30 kg beam 3 m long. The distance from the loaded end to the balance point is",
+      "answers": [
+        "94 cm",
+        "56 cm",
+        "113 cm",
+        "175 cm"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Moments: 50x = 30(1.5 − x), so x = 0.5625 m ≈ 56 cm."
+    },
+    {
+      "id": "lautech-100-phy101-240",
+      "prompt": "The work done by a simple pendulum during one complete oscillation is equal to",
+      "answers": [
+        "Zero",
+        "Total energy",
+        "Kinetic energy",
+        "Potential energy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "It returns to its starting state, so net work is zero."
+    },
+    {
+      "id": "lautech-100-phy101-241",
+      "prompt": "An object in free fall has a velocity of 5 m/s in upward direction. What is the instantaneous velocity of the object one second later?",
+      "answers": [
+        "5 m/s up",
+        "5 m/s down",
+        "10 m/s up",
+        "10 m/s down"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "v = 5 − 10 = −5 m/s, i.e. 5 m/s downward."
+    },
+    {
+      "id": "lautech-100-phy101-242",
+      "prompt": "When a ball is thrown straight up with no air resistance, acceleration is",
+      "answers": [
+        "Zero",
+        "Upward",
+        "Downward",
+        "Vertically"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Gravity gives a constant downward acceleration."
+    },
+    {
+      "id": "lautech-100-phy101-243",
+      "prompt": "If the acceleration of a body is zero, it cannot be moved.",
+      "answers": [
+        "True",
+        "False",
+        "Not known",
+        "All of the above"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "A body with zero acceleration can move at constant velocity."
+    },
+    {
+      "id": "lautech-100-phy101-244",
+      "prompt": "An airplane travels at 300 mi/hr south for 2.00 hours and then at 250 mi/hr north for 750 miles. What is the average speed of the trip?",
+      "answers": [
+        "260 mi/hr",
+        "270 mi/hr",
+        "275 mi/hr",
+        "280 mi/hr"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Distances: 600 + 750 = 1350 mi; times: 2 + 3 = 5 h; speed = 270 mi/hr."
+    },
+    {
+      "id": "lautech-100-phy101-245",
+      "prompt": "Acceleration of a moving object is represented by the formula 9t² + 2. At t = 0, the object distance x₀ = −2 and is travelling with a velocity of 3 m/s in the negative x-direction. What is the instantaneous acceleration at t = 3 sec?",
+      "answers": [
+        "83 m/s²",
+        "9 m/s²",
+        "54 m/s²",
+        "19 m/s²"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "a = 9(3)² + 2 = 83 m/s²."
+    },
+    {
+      "id": "lautech-100-phy101-246",
+      "prompt": "Which of the following suitably defines modulus of elasticity?",
+      "answers": [
+        "Strain + stress",
+        "Stress/strain",
+        "Strain × stress",
+        "Stress − strain"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Modulus = stress/strain."
+    },
+    {
+      "id": "lautech-100-phy101-247",
+      "prompt": "If a constant force of 16 N acts on a body of 4 kg for 2 sec, what change in velocity would be produced on the body?",
+      "answers": [
+        "2.0 m/s",
+        "0.5 m/s",
+        "32.0 m/s",
+        "8.0 m/s"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Δv = Ft/m = 16 × 2/4 = 8 m/s."
+    },
+    {
+      "id": "lautech-100-phy101-248",
+      "prompt": "The work done in a thermodynamic process is",
+      "answers": [
+        "Negative",
+        "Positive",
+        "Neutral",
+        "None"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Work can be positive, negative or zero depending on the process, so none of the single choices is always true."
+    },
+    {
+      "id": "lautech-100-phy101-249",
+      "prompt": "Speedometer and odometer can be used to measure _____________ and ___________",
+      "answers": [
+        "Acceleration and speed",
+        "Speed and distance",
+        "Speed and acceleration",
+        "Distance and time"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "A speedometer reads speed and an odometer reads distance."
+    },
+    {
+      "id": "lautech-100-phy101-250",
+      "prompt": "An object is moving with a constant non-zero acceleration in the +x direction. The velocity–time graph of the object is",
+      "answers": [
+        "A parabolic curve",
+        "A straight vertical line",
+        "A horizontal straight line making an angle with the x-axis",
+        "None of the above"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Source answer: constant acceleration gives a straight line of constant slope on a v–t graph."
+    },
+    {
+      "id": "lautech-100-phy101-251",
+      "prompt": "A car travelling at 22.4 m/s skids to a stop in 2.55 sec. Determine the skidding distance of the car (assume uniform acceleration).",
+      "answers": [
+        "39 m",
+        "25 m",
+        "17.20 m",
+        "28.60 m"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "d = (22.4/2) × 2.55 ≈ 28.6 m."
+    },
+    {
+      "id": "lautech-100-phy101-252",
+      "prompt": "An object X of mass 5 kg is moving with a velocity of 10 m/s and collides head-on with an object Y of mass 2 kg moving in the opposite direction with a velocity of 5 m/s. After the collision, both objects stick together. What is their common velocity?",
+      "answers": [
+        "5.71 m/s",
+        "2.35 m/s",
+        "3.25 m/s",
+        "4.28 m/s"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "(5 × 10 − 2 × 5)/7 = 40/7 ≈ 5.71 m/s."
+    },
+    {
+      "id": "lautech-100-phy101-253",
+      "prompt": "Ball A is dropped from the top of a building. 1 second later, ball B is dropped from the same building. Neglecting air resistance, as time progresses, the difference in their speeds",
+      "answers": [
+        "Cannot be determined from the information given",
+        "Decreases",
+        "Remains constant",
+        "Increases"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Both gain speed at g, so the difference stays g × 1 s."
+    },
+    {
+      "id": "lautech-100-phy101-254",
+      "prompt": "Under what condition is the average velocity equal to the object’s initial and final velocity?",
+      "answers": [
+        "This can only occur if there is no acceleration",
+        "The acceleration is constant",
+        "This can occur only when the velocity is zero",
+        "The acceleration must be constantly increasing",
+        "The acceleration must be constantly decreasing"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "If there is no acceleration, initial, final and average velocity are all equal."
+    },
+    {
+      "id": "lautech-100-phy101-255",
+      "prompt": "If an object moves with constant speed round a circle, it has an acceleration that is",
+      "answers": [
+        "Constant in magnitude and constant in direction",
+        "Constant in magnitude and varying in direction",
+        "Varying in magnitude but constant in direction",
+        "Varying in magnitude and varying in direction"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Centripetal acceleration v²/r is constant in size but always changes direction."
+    },
+    {
+      "id": "lautech-100-phy101-256",
+      "prompt": "The work done of a thermodynamic system is negative if the work is done",
+      "answers": [
+        "By heat",
+        "Out of the system",
+        "On the system",
+        "By thermal"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "By convention, work done on the system is negative."
+    },
+    {
+      "id": "lautech-100-phy101-257",
+      "prompt": "If two forces of 3 N towards north and 4 N towards east are acting on an object, the resultant force and the direction will be",
+      "answers": [
+        "3 N and 36.87°",
+        "5 N and 36.86°",
+        "5 N and 48.87°",
+        "4 N and 63.87°"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "R = √(3² + 4²) = 5 N, directed tan⁻¹(3/4) ≈ 36.87° north of east (the source key lists 36.86°)."
+    },
+    {
+      "id": "lautech-100-phy101-258",
+      "prompt": "The resistance force generated between blades as they move across each other is called",
+      "answers": [
+        "Friction",
+        "Acceleration",
+        "Motion",
+        "Retardation"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "A resistive force between surfaces in contact is friction."
+    },
+    {
+      "id": "lautech-100-phy101-259",
+      "prompt": "A billiard ball moving at 5 m/s strikes a stationary ball of the same mass. After the collision, the original ball moves off with a velocity of 3 m/s at an angle of 30° to the original line of motion. If we assume elastic collision and disregard frictional forces, find the magnitude and direction of the velocity of the target ball after the collision.",
+      "answers": [
+        "2.83 m/s and 32°",
+        "11.30 m/s and 30°",
+        "1.25 m/s and 45°",
+        "All of the above"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Momentum conservation: v cosφ = 5 − 3cos30° = 2.40, v sinφ = 1.5, giving v ≈ 2.83 m/s at ≈ 32°."
+    },
+    {
+      "id": "lautech-100-phy101-260",
+      "prompt": "An object is thrown straight downward on earth with an initial velocity of 10 m/s from a position of 20 m above the ground. The speed of the object when it reaches the ground is about",
+      "answers": [
+        "11.25 m/s",
+        "22.36 m/s",
+        "48.75 m/s",
+        "22.65 m/s"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "v² = 10² + 2 × 10 × 20 = 500, so v ≈ 22.36 m/s."
+    },
+    {
+      "id": "lautech-100-phy101-261",
+      "prompt": "A block of concrete weighs 900 N and its base is a square of side 2 m. What pressure does the block exert on the ground?",
+      "answers": [
+        "325 N/m²",
+        "485 N/m²",
+        "225 N/m²",
+        "362 N/m²"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "P = 900/(2 × 2) = 225 N/m²."
+    },
+    {
+      "id": "lautech-100-phy101-262",
+      "prompt": "A box changes from x = 5 m to x = 200 m and back to x = 5 m. What is the displacement?",
+      "answers": [
+        "390 m",
+        "0 m",
+        "200 m",
+        "205 m"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "It ends at its starting point, so displacement is 0."
+    },
+    {
+      "id": "lautech-100-phy101-263",
+      "prompt": "The addition of two vectors is",
+      "answers": [
+        "Reactive",
+        "Distributive",
+        "Derimutive",
+        "Commutative"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "A + B = B + A, so vector addition is commutative."
+    },
+    {
+      "id": "lautech-100-phy101-264",
+      "prompt": "An object moving along a circular path is",
+      "answers": [
+        "Not moving with constant speed",
+        "In equilibrium",
+        "Random motion",
+        "Not in equilibrium"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "It has a net centripetal force, so it is not in equilibrium."
+    },
+    {
+      "id": "lautech-100-phy101-265",
+      "prompt": "The pressure exerted on the ground by a person weighing 70 kg whose feet cover an area of 400 cm² (g = 10 m/s²) is",
+      "answers": [
+        "17.5 × 10³ N/m²",
+        "175 × 10³ N/m²",
+        "3.5 × 10³ N/m²",
+        "35 × 10³ N/m²"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "P = 700/0.04 = 17,500 N/m²."
+    },
+    {
+      "id": "lautech-100-phy101-266",
+      "prompt": "If the angular velocity of the second hand of a clock is 0.105 rad/sec and its length is 1.8 cm, the speed of the tip of the hand is",
+      "answers": [
+        "0.189 cm/s",
+        "2.0 m/s",
+        "0.189 m/s",
+        "0.00189 cm/s"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "v = ωr = 0.105 × 1.8 = 0.189 cm/s."
+    },
+    {
+      "id": "lautech-100-phy101-267",
+      "prompt": "The dot product of two vectors perpendicular to each other is",
+      "answers": [
+        "Non-zero",
+        "Zero",
+        "One",
+        "Unity"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "A·B = AB cos90° = 0."
+    },
+    {
+      "id": "lautech-100-phy101-268",
+      "prompt": "The period of an oscillation is 25 sec. What is its frequency?",
+      "answers": [
+        "4 Hz",
+        "0.4 Hz",
+        "0.04 Hz",
+        "25 Hz"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "f = 1/25 = 0.04 Hz."
+    },
+    {
+      "id": "lautech-100-phy101-269",
+      "prompt": "If the stress on a wire is 10⁷ N m⁻² and the wire is stretched from 10.00 cm to 10.03 cm, the Young modulus of the wire is",
+      "answers": [
+        "5.0 × 10⁴ N m⁻²",
+        "2.0 × 10⁶ N/m²",
+        "3.33 × 10⁹ N/m²",
+        "9.27 × 10⁹ N/m²"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Strain = 0.03/10 = 0.003; E = 10⁷/0.003 = 3.33 × 10⁹ N/m²."
+    },
+    {
+      "id": "lautech-100-phy101-270",
+      "prompt": "Atmospheric pressure is measured by",
+      "answers": [
+        "Mercury barometer",
+        "Open-tube manometer",
+        "Mercury manometer",
+        "Open-tube barometer"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "A mercury barometer measures atmospheric pressure."
+    },
+    {
+      "id": "lautech-100-phy101-271",
+      "prompt": "The vibration resulting from the action of an external periodic force on the motion of a body is called",
+      "answers": [
+        "Damped",
+        "Forced",
+        "Natural",
+        "Sinusoidal"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "This is forced vibration."
+    },
+    {
+      "id": "lautech-100-phy101-272",
+      "prompt": "If the mass of an object is 4 kg and the object is held stationary at a height of 8 m, what is the gravitational potential energy?",
+      "answers": [
+        "100 J",
+        "200 J",
+        "300 J",
+        "400 J"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Correction: the source key says D (400 J), but PE = mgh = 4 × 10 × 8 = 320 J (313.6 J with g = 9.8). Neither is listed; the closest option is 300 J (c)."
+    },
+    {
+      "id": "lautech-100-phy101-273",
+      "prompt": "Which of the following is not a type of oscillation?",
+      "answers": [
+        "Damped oscillation",
+        "Free oscillation",
+        "Forced oscillation",
+        "Compound oscillation"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Compound oscillation is not a standard type."
+    },
+    {
+      "id": "lautech-100-phy101-274",
+      "prompt": "A stone is dropped into a deep well and is found to hit the water 3.4 sec after being dropped. Determine the depth of the well.",
+      "answers": [
+        "45.00 m",
+        "47.00 m",
+        "−57.00 m",
+        "−17.20 m"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "h = ½gt² = ½ × 9.8 × 3.4² ≈ 56.6 m ≈ 57 m (the negative sign denotes below the starting point)."
+    },
+    {
+      "id": "lautech-100-phy101-275",
+      "prompt": "If MᵃLᵇTᶜ is the dimensional formula of electric power, find the value of 5a + 2b − 6c.",
+      "answers": [
+        "9",
+        "18",
+        "27",
+        "36"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Power = ML²T⁻³, so 5(1) + 2(2) − 6(−3) = 27."
+    },
+    {
+      "id": "lautech-100-phy101-276",
+      "prompt": "The time rate of change of acceleration is called",
+      "answers": [
+        "Speed",
+        "Velocity",
+        "Jerk",
+        "Displacement"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Jerk = da/dt."
+    },
+    {
+      "id": "lautech-100-phy101-277",
+      "prompt": "The density of sea water is approximately 1025 kg m⁻³ and the maximum depth of the Atlantic ocean is approximately 8500 m. Calculate the water pressure at this depth (g = 9.8 m/s²).",
+      "answers": [
+        "10045 Pa",
+        "87125000 Pa",
+        "85400000 Pa",
+        "83300 Pa"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Correction: the source key says B, but with g = 9.8, P = ρgh = 1025 × 9.8 × 8500 ≈ 8.54 × 10⁷ Pa = option c. (B comes from using g = 10.)"
+    },
+    {
+      "id": "lautech-100-phy101-278",
+      "prompt": "At infinity, the gravitational potential is",
+      "answers": [
+        "0",
+        "Infinity",
+        "2",
+        "1"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Gravitational potential is taken as zero at infinity."
+    },
+    {
+      "id": "lautech-100-phy101-279",
+      "prompt": "A metal box of weight 400 N is pulled on a horizontal rough surface with a force of 300 N. If the force is applied horizontally, determine the coefficient of static friction if that force is just sufficient to cause the box to move.",
+      "answers": [
+        "0.25",
+        "0.75",
+        "1.25",
+        "2.5"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "μ = F/N = 300/400 = 0.75."
+    },
+    {
+      "id": "lautech-100-phy101-280",
+      "prompt": "A block of weight 200 N is pushed along a surface. If it takes 80 N to get the block moving and 40 N to keep the block moving at a constant velocity, what are the coefficients of static and dynamic friction?",
+      "answers": [
+        "0.4 and 0.5",
+        "0.4 and 0.2",
+        "0.5 and 0.8",
+        "0.6 and 1.2",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "μs = 80/200 = 0.4; μk = 40/200 = 0.2."
+    },
+    {
+      "id": "lautech-100-phy101-281",
+      "prompt": "Suppose a block with a mass of 2.5 kg is resting on a plank. If the coefficient of static friction is 0.35, what maximum angle can the plank make with the horizontal before the block starts to slip down?",
+      "answers": [
+        "15.0°",
+        "19.3°",
+        "25.5°",
+        "30.0°",
+        "45°"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "tanθ = μ = 0.35, so θ ≈ 19.3°."
+    },
+    {
+      "id": "lautech-100-phy101-282",
+      "prompt": "A crate of mass 50 kg is pulled up a rough inclined plane, inclined at an angle of 60° to the horizontal. Determine the total work done to the top of the inclined plane 20 m high (g = 10 m/s²).",
+      "answers": [
+        "10 kJ",
+        "20 kJ",
+        "25 kJ",
+        "30 kJ"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Correction: the source key says B (20 kJ). Work against gravity is mgh = 50 × 10 × 20 = 10 kJ (a); no friction coefficient is given to justify more."
+    },
+    {
+      "id": "lautech-100-phy101-283",
+      "prompt": "A body of mass 5 kg moving with a velocity of 10 m/s is acted upon by a force of 25 N for 2 seconds. Determine the final velocity of the body.",
+      "answers": [
+        "5 m/s",
+        "10 m/s",
+        "20 m/s",
+        "40 m/s"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Source answer: v = u + Ft/m = 10 + 25 × 2/5 = 20 m/s (the original prints 250 N, but 25 N matches the options)."
+    },
+    {
+      "id": "lautech-100-phy101-284",
+      "prompt": "Calculate the pressure when the force on an object is 12 kN and the area of the object is 36 m². Leave your answer in atmospheres.",
+      "answers": [
+        "3.29 × 10⁻⁵ atm",
+        "1.5 × 10⁻⁶ atm",
+        "8.35 × 10⁻⁷ atm",
+        "2.78 × 10⁻⁵ atm",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Source answer: P = 12000/36 = 333 Pa. The printed exponent appears off: 333/101325 ≈ 3.29 × 10⁻³ atm, and option a has the matching digits."
+    },
+    {
+      "id": "lautech-100-phy101-285",
+      "prompt": "What is the difference in blood pressure between the top of the head and the bottom of the feet of a 1.5 m tall man standing upright (density of blood = 1.05 × 10³ kg/m³)?",
+      "answers": [
+        "25.34 kN/m²",
+        "15.27 kN/m²",
+        "32.50 kN/m²",
+        "15.44 kN/m²"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "ΔP = ρgh = 1050 × 9.8 × 1.5 ≈ 15.4 kN/m²."
+    },
+    {
+      "id": "lautech-100-phy101-286",
+      "prompt": "A body of 30 kg is set in motion by two forces 3 N and 4 N acting at right angles to each other. Determine the magnitude of acceleration.",
+      "answers": [
+        "4.00 m/s²",
+        "2.89 m/s²",
+        "0.35 m/s²",
+        "0.25 m/s²"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Source answer: R = 5 N; the key’s 0.25 m/s² corresponds to a 20 kg body (with 30 kg, a ≈ 0.17 m/s²)."
+    },
+    {
+      "id": "lautech-100-phy101-287",
+      "prompt": "In the equation Ft = mv − mu: (i) the dimension of F is MLT² (ii) the dimension of mv and mu are MLT⁻¹ (iii) the dimensions of all the three terms are the same. Which of the following is/are correct?",
+      "answers": [
+        "I and II",
+        "I and III",
+        "II and III only",
+        "I only"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "F is MLT⁻² (not MLT²), so (i) is wrong; (ii) and (iii) are correct."
+    },
+    {
+      "id": "lautech-100-phy101-288",
+      "prompt": "If a constant force of 16 N acts on a body of mass 4 kg for 2 seconds, what change in the velocity will be produced on the body?",
+      "answers": [
+        "0.5 m/s",
+        "2.0 m/s",
+        "8.0 m/s",
+        "32.0 m/s",
+        "128 m/s"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Δv = Ft/m = 16 × 2/4 = 8 m/s."
+    },
+    {
+      "id": "lautech-100-phy101-289",
+      "prompt": "A constant force of 5 N acts for 5 seconds on a mass of 5 kg initially at rest. Calculate the final momentum of the mass.",
+      "answers": [
+        "125 kg m/s",
+        "25 kg m/s",
+        "15 kg m/s",
+        "35 kg m/s"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "p = Ft = 5 × 5 = 25 kg m/s."
+    },
+    {
+      "id": "lautech-100-phy101-290",
+      "prompt": "A footballer applies a force of 30.0 N for a period of 0.05 second. If the mass of the ball is 0.075 kg, calculate the speed with which the ball moves off.",
+      "answers": [
+        "4.50 m/s",
+        "11.25 m/s",
+        "20.00 m/s",
+        "35.00 m/s",
+        "7.00 m/s"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "v = Ft/m = 30 × 0.05/0.075 = 20 m/s."
+    },
+    {
+      "id": "lautech-100-phy101-291",
+      "prompt": "A constant-volume gas thermometer indicates a pressure of 250 mmHg at ice point and 750 mmHg at steam point. What temperature will it read when it reaches a pressure of 450 mmHg?",
+      "answers": [
+        "10 °C",
+        "20 °C",
+        "30 °C",
+        "40 °C",
+        "50 °C"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "θ = (450 − 250)/(750 − 250) × 100 = 40 °C."
+    },
+    {
+      "id": "lautech-100-phy101-292",
+      "prompt": "A brass rod is 2 m long at a certain temperature. If the linear expansion of the rod is 0.0036 m, what is the change in temperature? (α = 1.8 × 10⁻⁵ K⁻¹)",
+      "answers": [
+        "100 °C",
+        "100 K",
+        "373 K",
+        "3730 °C"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "ΔT = ΔL/(Lα) = 0.0036/(2 × 1.8 × 10⁻⁵) = 100 K."
+    },
+    {
+      "id": "lautech-100-phy101-293",
+      "prompt": "The acceleration of a moving object is represented by a function a = 5t² + 2t. At t = 0, the object x₀ = −2 m and it is travelling with a velocity of 3 m s⁻¹ in a negative x-direction. How fast is the object moving at t = 2 sec?",
+      "answers": [
+        "3.02 m/s",
+        "20.33 m/s",
+        "48.37 m/s",
+        "92.65 m/s"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Source answer: v = (5/3)t³ + t² + 3 = 20.33 m/s at t = 2."
+    },
+    {
+      "id": "lautech-100-phy101-294",
+      "prompt": "The following are examples of vector quantities except",
+      "answers": [
+        "Weight",
+        "Force",
+        "Pressure",
+        "Acceleration due to gravity"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Pressure is a scalar."
+    },
+    {
+      "id": "lautech-100-phy101-295",
+      "prompt": "The position of a particle moving on an x-axis is expressed by x = 13.2 + 8.9t² + 2t³. What is the acceleration of the particle at t = 2.6 sec?",
+      "answers": [
+        "36.52 m/s²",
+        "214 m/s²",
+        "17.8 m/s²",
+        "7.2 m/s²"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Source answer: a = 17.8 + 12t. Note: with the printed numbers this gives 49.0 m/s², which is not an option; the key selects 36.52 m/s²."
+    },
+    {
+      "id": "lautech-100-phy101-296",
+      "prompt": "A golf ball is released from rest at the top of a tall building. Neglecting air resistance, calculate the position and the velocity of the ball after 6 sec (g = 9.8 m/s²).",
+      "answers": [
+        "78.4 m, 4.2 m/s",
+        "9.9 m, 9.8 m/s",
+        "19.6 m, 19.6 m",
+        "176.4 m, 58.8 m/s"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "s = ½gt² = 176.4 m; v = gt = 58.8 m/s."
+    },
+    {
+      "id": "lautech-100-phy101-297",
+      "prompt": "The unit of impulse is",
+      "answers": [
+        "JS",
+        "J/S",
+        "NS",
+        "NS⁻¹"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Impulse = force × time = N·s."
+    },
+    {
+      "id": "lautech-100-phy101-298",
+      "prompt": "A vector given as 5i + 2j − 3k is projected on the x–y plane. What is the length of this vector on the xy plane?",
+      "answers": [
+        "5.39",
+        "6.16",
+        "3.00",
+        "5.83"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Length = √(5² + 2²) = √29 ≈ 5.39."
+    },
+    {
+      "id": "lautech-100-phy101-299",
+      "prompt": "The dimension of the coefficient of viscosity is given by",
+      "answers": [
+        "ML⁻¹T⁻¹",
+        "MLT⁻²",
+        "L²T⁻²",
+        "ML⁻²T⁻²"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "η = force/(area × velocity gradient) = ML⁻¹T⁻¹."
+    },
+    {
+      "id": "lautech-100-phy101-300",
+      "prompt": "A car starts from rest and reaches a speed of 80 m/s in 16 sec. The distance covered during this time is",
+      "answers": [
+        "600 m",
+        "620 m",
+        "630 m",
+        "640 m"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "s = ½(0 + 80) × 16 = 640 m."
+    },
+    {
+      "id": "lautech-100-phy101-301",
+      "prompt": "If forces F₁ = 2i − j − 3k, F₂ = i + 3j + 2k, F₃ = −i + 2j − k, the resultant and magnitude of the forces are",
+      "answers": [
+        "2i + 2j + 2k, √12",
+        "2i − 2j + 2k, 2√3",
+        "2i + 2j − 0k, √8",
+        "2i + 4j − 2k, 2√6"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Resultant = (2, 4, −2); magnitude = √24 = 2√6."
+    },
+    {
+      "id": "lautech-100-phy101-302",
+      "prompt": "The length of vector A = 3i − j + 2k is",
+      "answers": [
+        "3.47",
+        "4.3",
+        "3.19",
+        "3.74"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "|A| = √(9 + 1 + 4) = √14 ≈ 3.74."
+    },
+    {
+      "id": "lautech-100-phy101-303",
+      "prompt": "A boat is heading due north as it crosses a wide river with a velocity of 10 km/hr relative to the water. The river has a uniform velocity of 5 km/hr. Determine the velocity of the boat with respect to an observer on the river bank.",
+      "answers": [
+        "11.2 m/s",
+        "6.5 m/s",
+        "4.1 m/s",
+        "11.56 m/s",
+        "8.10 m/s"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Correction: the source key says E, but the resultant is √(10² + 5²) = 11.2 (km/hr; the option label's unit is a typo), which matches option a."
+    },
+    {
+      "id": "lautech-100-phy101-304",
+      "prompt": "The kind of collision where energy is not conserved is called",
+      "answers": [
+        "Inelastic collision",
+        "Kinetic collision",
+        "Potential collision",
+        "Elastic collision"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Kinetic energy is not conserved in an inelastic collision."
+    },
+    {
+      "id": "lautech-100-phy101-305",
+      "prompt": "The type of vibration experienced by an object from external actions is called",
+      "answers": [
+        "Natural vibration",
+        "Sinusoidal vibration",
+        "Forced vibration",
+        "Damped vibration"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "This is forced vibration."
+    },
+    {
+      "id": "lautech-100-phy101-306",
+      "prompt": "The property of metal that makes it suitable for cooking is",
+      "answers": [
+        "Good conduction of heat",
+        "Radiation of heat",
+        "Convection of heat",
+        "Absorption of heat"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Metals conduct heat well."
+    },
+    {
+      "id": "lautech-100-phy101-307",
+      "prompt": "The maximum distance in S.H.M. is",
+      "answers": [
+        "Amplitude",
+        "Period",
+        "Distance",
+        "Frequency"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Amplitude is the maximum displacement."
+    },
+    {
+      "id": "lautech-100-phy101-308",
+      "prompt": "Which of the following has the highest viscosity at room temperature?",
+      "answers": [
+        "Palm oil",
+        "Alcohol",
+        "Kerosene",
+        "Water"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Palm oil is the most viscous."
+    },
+    {
+      "id": "lautech-100-phy101-309",
+      "prompt": "A body performing uniform circular motion has constant speed but variable velocity because",
+      "answers": [
+        "It experiences a centripetal force",
+        "Its centripetal and centrifugal forces balance each other",
+        "It experiences centrifugal force",
+        "Its direction of motion changes"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Velocity is a vector, and its direction changes continuously."
+    },
+    {
+      "id": "lautech-100-phy101-310",
+      "prompt": "The force with which an object is attracted to the earth is called the force of",
+      "answers": [
+        "Acceleration",
+        "Mass",
+        "Gravity",
+        "Impulse"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "This is the force of gravity."
+    },
+    {
+      "id": "lautech-100-phy101-311",
+      "prompt": "A particle of mass 10⁻² kg is fixed to the top of a fan blade with an angular velocity of 100 rad/s. If the radius of the blade is 0.2 m, then the centripetal force is",
+      "answers": [
+        "2 N",
+        "20 N",
+        "200 N",
+        "500 N"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "F = mω²r = 10⁻² × 10⁴ × 0.2 = 20 N."
+    },
+    {
+      "id": "lautech-100-phy101-312",
+      "prompt": "What is the force of attraction between 10⁶ kg of load hanging 1 m away from a tower of 10³ kg?",
+      "answers": [
+        "7 × 10⁻²⁰ N",
+        "7 × 10⁻⁸ N",
+        "7 × 10⁻² N",
+        "7 × 10³ N"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "F = Gm₁m₂/r² = 6.67 × 10⁻¹¹ × 10⁹/1 ≈ 7 × 10⁻² N."
+    },
+    {
+      "id": "lautech-100-phy101-313",
+      "prompt": "A body of mass 5 kg moving with a velocity of 10 m/s is acted upon by a force of 25 N for 0.2 sec. Determine the final velocity of the body.",
+      "answers": [
+        "10 m/s",
+        "11 m/s",
+        "12 m/s",
+        "13 m/s"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "v = 10 + (25 × 0.2)/5 = 11 m/s."
+    },
+    {
+      "id": "lautech-100-phy101-314",
+      "prompt": "The resultant of two like parallel forces is 15 N and acts at a distance of 60 cm from the 7 N force. Find the magnitude of the other force and the distance of its line of action.",
+      "answers": [
+        "8 N, 11.25 cm",
+        "7 N, 11.25 cm",
+        "15 N, 5.25 cm",
+        "10 N, 2.25 cm"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "The other force is 15 − 7 = 8 N. Source answer for the distance: 11.25 cm."
+    },
+    {
+      "id": "lautech-100-phy101-315",
+      "prompt": "The elastic limit for steel is 2.48 × 10⁸ Pa. What is the minimum weight that can be supported without exceeding the elastic limit if the diameter of the steel is 2 mm?",
+      "answers": [
+        "3.142 × 10⁻⁶ N",
+        "779 N",
+        "325 N",
+        "374 N"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "F = stress × A = 2.48 × 10⁸ × π × (10⁻³)² ≈ 779 N."
+    },
+    {
+      "id": "lautech-100-phy101-316",
+      "prompt": "A hydrostatic press contains 50 litres of oil. Find the decrease in volume of the oil if it is subjected to a pressure of 3000 kPa. Assume the bulk modulus is 1000 MPa.",
+      "answers": [
+        "2.78 mL",
+        "−8.82 mL",
+        "−8.82 L",
+        "−882 L"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Source answer: −8.82 mL. Note: the direct calculation ΔV = V·ΔP/K gives −150 mL (0.15 L), which is not an option."
+    },
+    {
+      "id": "lautech-100-phy101-317",
+      "prompt": "A glass tube 0.15 mm in diameter is dipped in glycerin whose surface tension is 0.0632 N/m. Calculate the contact angle, if the glycerin rises to a height of 14 cm. The density of glycerin is 125 kg/m³ and g = 9.8 m/s².",
+      "answers": [
+        "29.4°",
+        "78.2°",
+        "84.2°",
+        "95.7°"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "cosθ = hρgr/(2T) ≈ 0.102, so θ ≈ 84.2°."
+    },
+    {
+      "id": "lautech-100-phy101-318",
+      "prompt": "What is the relationship between frequency and velocity?",
+      "answers": [
+        "f is directly proportional to v",
+        "f is inversely proportional to v",
+        "f is equal to v",
+        "f is greater than v"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "v = fλ, so f ∝ v for fixed wavelength."
+    },
+    {
+      "id": "lautech-100-phy101-319",
+      "prompt": "What is the definition of frequency?",
+      "answers": [
+        "Number of oscillations in one second",
+        "Number of oscillations in one period",
+        "Number of oscillations in one hour",
+        "Number of oscillations in one year"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Frequency is oscillations per second."
+    }
+  ]
+}
