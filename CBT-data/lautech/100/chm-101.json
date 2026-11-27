@@ -1,0 +1,5012 @@
+{
+  "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Chemistry",
+  "course": {
+    "code": "CHM 101",
+    "title": "General Chemistry I"
+  },
+  "questions": [
+    {
+      "id": "lautech-100-chm101-001",
+      "prompt": "Who discovered the neutron?",
+      "answers": [
+        "John Dalton",
+        "J.J. Thomson",
+        "James Chadwick",
+        "Ernest Rutherford"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Chadwick discovered the neutron in 1932."
+    },
+    {
+      "id": "lautech-100-chm101-002",
+      "prompt": "Who discovered the proton?",
+      "answers": [
+        "J.J. Thomson",
+        "Robert Millikan",
+        "Ernest Rutherford",
+        "James Chadwick"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Rutherford identified the proton in 1919 through nuclear bombardment experiments."
+    },
+    {
+      "id": "lautech-100-chm101-003",
+      "prompt": "Who discovered the electron?",
+      "answers": [
+        "John Dalton",
+        "James Chadwick",
+        "Ernest Rutherford",
+        "J.J. Thomson"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Thomson discovered the electron in 1897 with cathode-ray tubes."
+    },
+    {
+      "id": "lautech-100-chm101-004",
+      "prompt": "Who coined the name 'electron'?",
+      "answers": [
+        "Robert Millikan",
+        "G. Johnstone Stoney",
+        "J.J. Thomson",
+        "James Chadwick"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Stoney proposed the name electron for the unit of charge; Thomson discovered the particle."
+    },
+    {
+      "id": "lautech-100-chm101-005",
+      "prompt": "Who proposed the atomic theory in 1803–1808?",
+      "answers": [
+        "G.J. Stoney",
+        "John Dalton",
+        "James Chadwick",
+        "J.J. Thomson"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Dalton's theory said matter is made of indivisible atoms."
+    },
+    {
+      "id": "lautech-100-chm101-006",
+      "prompt": "Who proposed the planetary (nuclear) model of the atom?",
+      "answers": [
+        "John Dalton",
+        "James Chadwick",
+        "J.J. Thomson",
+        "Ernest Rutherford"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Rutherford's gold-foil work showed a small dense nucleus orbited by electrons."
+    },
+    {
+      "id": "lautech-100-chm101-007",
+      "prompt": "In Rutherford's scattering experiment, a thin metal foil was bombarded with a beam of",
+      "answers": [
+        "neutrons",
+        "alpha particles",
+        "electrons",
+        "protons"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Alpha particles were fired at gold foil."
+    },
+    {
+      "id": "lautech-100-chm101-008",
+      "prompt": "The discovery of the nucleus came from the observation that",
+      "answers": [
+        "electrons in the foil were excited",
+        "beryllium sheets shrank",
+        "alpha particles were deflected by a small, dense, positively charged centre",
+        "atoms were indivisible"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Some alpha particles were deflected sharply, showing the mass is concentrated in a tiny positive nucleus."
+    },
+    {
+      "id": "lautech-100-chm101-009",
+      "prompt": "Which of these is one of Dalton's original postulates?",
+      "answers": [
+        "Isotopes of an element occur in whole-number ratios",
+        "Atoms react to attain the noble-gas configuration",
+        "Atoms of different elements differ in their number of protons",
+        "When atoms of different elements combine, they do so in simple whole-number ratios"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "The simple whole-number combining ratio is part of Dalton's atomic theory."
+    },
+    {
+      "id": "lautech-100-chm101-010",
+      "prompt": "When elements combine, they do so in",
+      "answers": [
+        "simple whole-number ratios",
+        "random ratios",
+        "simple whole-number fractions",
+        "multiple whole-number fractions"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "This is the law of definite and multiple proportions."
+    },
+    {
+      "id": "lautech-100-chm101-011",
+      "prompt": "Atomic theory was supported by all of the following EXCEPT",
+      "answers": [
+        "the law of conservation of mass",
+        "the law of definite proportions (Proust)",
+        "the law of multiple proportions",
+        "Frosh's law"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "'Frosh's law' does not exist."
+    },
+    {
+      "id": "lautech-100-chm101-012",
+      "prompt": "The nucleus of an atom contains",
+      "answers": [
+        "protons and positrons",
+        "protons and electrons",
+        "electrons and neutrons",
+        "protons and neutrons"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Electrons are outside the nucleus."
+    },
+    {
+      "id": "lautech-100-chm101-013",
+      "prompt": "The relative charges of the proton, neutron and electron respectively are",
+      "answers": [
+        "positive, negative, neutral",
+        "neutral, positive, negative",
+        "negative, positive, neutral",
+        "positive, neutral, negative"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Proton +1, neutron 0, electron −1."
+    },
+    {
+      "id": "lautech-100-chm101-014",
+      "prompt": "In an electrically neutral atom, the number of protons equals the number of",
+      "answers": [
+        "electrons",
+        "isotopes",
+        "neutrons",
+        "nucleons"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Positive and negative charges balance."
+    },
+    {
+      "id": "lautech-100-chm101-015",
+      "prompt": "The mass of an atom is determined by the number of",
+      "answers": [
+        "valence electrons",
+        "protons and neutrons",
+        "protons only",
+        "electrons"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Electrons have negligible mass."
+    },
+    {
+      "id": "lautech-100-chm101-016",
+      "prompt": "The mass number is the same as the",
+      "answers": [
+        "electron number",
+        "neutron number",
+        "proton number",
+        "nucleon number"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Mass number = protons + neutrons (nucleons)."
+    },
+    {
+      "id": "lautech-100-chm101-017",
+      "prompt": "An atom of element X is represented as ᴬ_Z X. Its basic chemical properties depend on",
+      "answers": [
+        "Z (the atomic number)",
+        "A (the mass number)",
+        "A − Z",
+        "Z − A"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Chemical properties are decided by the electron arrangement, which follows from the number of protons."
+    },
+    {
+      "id": "lautech-100-chm101-018",
+      "prompt": "The mass of an electron compared with that of a hydrogen atom is about",
+      "answers": [
+        "1/18",
+        "1/184",
+        "1/1000",
+        "1/1840 (1840 times lighter)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "An electron is roughly 1840 times lighter than hydrogen."
+    },
+    {
+      "id": "lautech-100-chm101-019",
+      "prompt": "Isotopes are atoms of the same element with",
+      "answers": [
+        "the same number of neutrons but different protons",
+        "the same number of protons but different numbers of neutrons",
+        "different numbers of electrons only",
+        "the same mass number but different protons"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "This gives them the same atomic number but different mass numbers."
+    },
+    {
+      "id": "lautech-100-chm101-020",
+      "prompt": "Isotopes of the same element have similar chemical properties because they have the same",
+      "answers": [
+        "atomic number",
+        "atomic mass",
+        "mass number",
+        "number of neutrons"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The same number of protons and electrons gives the same chemistry."
+    },
+    {
+      "id": "lautech-100-chm101-021",
+      "prompt": "The difference in physical properties of isotopes of the same element is due to differences in their",
+      "answers": [
+        "number of neutrons",
+        "number of protons",
+        "number of electrons",
+        "atomic number"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Different neutron numbers give different masses."
+    },
+    {
+      "id": "lautech-100-chm101-022",
+      "prompt": "Deuterium has how many protons, neutrons and electrons respectively?",
+      "answers": [
+        "1, 1, 1",
+        "1, 2, 1",
+        "1, 0, 1",
+        "1, 0, 0"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Deuterium is hydrogen-2."
+    },
+    {
+      "id": "lautech-100-chm101-023",
+      "prompt": "The atomic number of caesium is 55 and its mass number is 133. Its nucleus contains",
+      "answers": [
+        "78 protons and 55 neutrons",
+        "78 neutrons and 55 electrons",
+        "55 protons and 78 electrons",
+        "55 protons and 78 neutrons"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Neutrons = 133 − 55 = 78."
+    },
+    {
+      "id": "lautech-100-chm101-024",
+      "prompt": "Oxygen exists as ¹⁶O (90 %) and ¹⁸O (10 %). Its relative atomic mass is",
+      "answers": [
+        "18.0",
+        "16.2",
+        "16.0",
+        "17.0"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "(16 × 0.90) + (18 × 0.10) = 16.2."
+    },
+    {
+      "id": "lautech-100-chm101-025",
+      "prompt": "The relative atomic mass of an element can be determined with a",
+      "answers": [
+        "Geiger–Müller counter",
+        "hydrometer",
+        "UV spectrophotometer",
+        "mass spectrometer"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "A mass spectrometer separates ions by mass-to-charge ratio."
+    },
+    {
+      "id": "lautech-100-chm101-026",
+      "prompt": "In a mass spectrometer, ions are separated according to their mass-to-charge ratio by the",
+      "answers": [
+        "magnetic field",
+        "detector",
+        "ion source",
+        "electrical heater"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The magnetic field deflects ions by different amounts."
+    },
+    {
+      "id": "lautech-100-chm101-027",
+      "prompt": "Who built the first mass spectrometer?",
+      "answers": [
+        "John Dalton",
+        "Francis Aston",
+        "James Chadwick",
+        "J.J. Thomson"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Aston developed the mass spectrograph in 1919."
+    },
+    {
+      "id": "lautech-100-chm101-028",
+      "prompt": "Nuclear energy is released through",
+      "answers": [
+        "solar power and fusion",
+        "natural gas and coal",
+        "nuclear fission and fusion",
+        "hydroelectric and geothermal processes"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Splitting heavy nuclei (fission) or joining light nuclei (fusion) releases nuclear energy."
+    },
+    {
+      "id": "lautech-100-chm101-029",
+      "prompt": "The total number of electrons in the chloride ion ³⁵₁₇Cl⁻ is",
+      "answers": [
+        "18",
+        "19",
+        "16",
+        "17"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "17 electrons plus one gained."
+    },
+    {
+      "id": "lautech-100-chm101-030",
+      "prompt": "How many electrons are in a Ca²⁺ ion?",
+      "answers": [
+        "20",
+        "18",
+        "22",
+        "40"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Ca has 20 electrons; Ca²⁺ has lost two."
+    },
+    {
+      "id": "lautech-100-chm101-031",
+      "prompt": "Two elements each have 10 protons. How many electrons are in X⁻ and Y⁺ respectively?",
+      "answers": [
+        "11 and 9",
+        "11 and 12",
+        "9 and 11",
+        "12 and 13"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "X⁻ gains one (11); Y⁺ loses one (9)."
+    },
+    {
+      "id": "lautech-100-chm101-032",
+      "prompt": "The ion Y²⁺ has 10 electrons. The atomic number of Y is",
+      "answers": [
+        "10",
+        "11",
+        "12",
+        "8"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Y has 10 + 2 = 12 electrons in the neutral atom, so Z = 12."
+    },
+    {
+      "id": "lautech-100-chm101-033",
+      "prompt": "The atom and the ion of sodium have the same",
+      "answers": [
+        "charge",
+        "number of protons",
+        "number of electrons",
+        "chemical properties"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Forming Na⁺ changes electrons, not protons."
+    },
+    {
+      "id": "lautech-100-chm101-034",
+      "prompt": "An element X²⁺ has the ground-state configuration 1s²2s²2p⁶3s²3p⁶. The atomic number of X is",
+      "answers": [
+        "20",
+        "22",
+        "18",
+        "16"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "X²⁺ has 18 electrons, so X has 20."
+    },
+    {
+      "id": "lautech-100-chm101-035",
+      "prompt": "Which of these is the electronic configuration of oxygen?",
+      "answers": [
+        "1s²2s²2p²",
+        "1s²2s²2p⁶",
+        "1s²2s²2p³",
+        "1s²2s²2p⁴"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Oxygen has 8 electrons."
+    },
+    {
+      "id": "lautech-100-chm101-036",
+      "prompt": "The electronic configuration of scandium (Z = 21) is",
+      "answers": [
+        "[Ar] 4s²3d¹",
+        "[Ar] 4s¹3d²",
+        "[Ar] 3d³",
+        "[Ar] 4s²3d²"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The 4s sub-shell fills before 3d."
+    },
+    {
+      "id": "lautech-100-chm101-037",
+      "prompt": "The electronic configuration of Fe³⁺ (Fe = 26) is",
+      "answers": [
+        "1s²2s²2p⁶3s²3p⁶4s²3d⁶",
+        "1s²2s²2p⁶3s²3p⁶4s²3d³",
+        "1s²2s²2p⁶3s²3p⁶3d⁶",
+        "1s²2s²2p⁶3s²3p⁶3d⁵"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Fe loses its 4s electrons first and then one 3d electron."
+    },
+    {
+      "id": "lautech-100-chm101-038",
+      "prompt": "What is the shape of an s-orbital?",
+      "answers": [
+        "Spherical",
+        "Rectangular",
+        "Cylindrical",
+        "Dumb-bell"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "s-orbitals are spherically symmetrical."
+    },
+    {
+      "id": "lautech-100-chm101-039",
+      "prompt": "How many degenerate orbitals are in a d sub-shell?",
+      "answers": [
+        "5",
+        "2",
+        "7",
+        "3"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "d has five orbitals of equal energy."
+    },
+    {
+      "id": "lautech-100-chm101-040",
+      "prompt": "How many degenerate orbitals are in a p sub-shell?",
+      "answers": [
+        "1",
+        "3",
+        "7",
+        "5"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "p has px, py and pz."
+    },
+    {
+      "id": "lautech-100-chm101-041",
+      "prompt": "The maximum number of electrons an f sub-shell can hold is",
+      "answers": [
+        "6",
+        "14",
+        "10",
+        "12"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "f has 7 orbitals × 2 electrons."
+    },
+    {
+      "id": "lautech-100-chm101-042",
+      "prompt": "The maximum number of electrons in the nth energy level is",
+      "answers": [
+        "2n",
+        "n²",
+        "2n²",
+        "2(2n)"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "This follows from the quantum number rules."
+    },
+    {
+      "id": "lautech-100-chm101-043",
+      "prompt": "Energy level III can hold 18 electrons. How many orbitals does it have?",
+      "answers": [
+        "9",
+        "6",
+        "3",
+        "8"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Each orbital holds 2 electrons: 18 ÷ 2 = 9."
+    },
+    {
+      "id": "lautech-100-chm101-044",
+      "prompt": "Two electrons paired in one orbital have spins that are",
+      "answers": [
+        "the same",
+        "opposite",
+        "mutual",
+        "undefined"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Pauli exclusion principle."
+    },
+    {
+      "id": "lautech-100-chm101-045",
+      "prompt": "Electrons promoted to higher energy levels are unstable and therefore they",
+      "answers": [
+        "absorb more energy",
+        "remain in the excited state indefinitely",
+        "fall back to the ground state, emitting the excess energy as radiation",
+        "never return to the ground state"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "The emitted energy gives atomic spectra."
+    },
+    {
+      "id": "lautech-100-chm101-046",
+      "prompt": "In the hydrogen emission spectrum, transitions to n = 1 form the ___ series.",
+      "answers": [
+        "Paschen",
+        "Lyman",
+        "Balmer",
+        "Brackett"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Lyman is in the ultraviolet."
+    },
+    {
+      "id": "lautech-100-chm101-047",
+      "prompt": "In the hydrogen emission spectrum, transitions to n = 2 form the ___ series.",
+      "answers": [
+        "Lyman",
+        "Balmer",
+        "Paschen",
+        "Pfund"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Balmer lines are visible."
+    },
+    {
+      "id": "lautech-100-chm101-048",
+      "prompt": "In the hydrogen emission spectrum, transitions to n = 3 form the ___ series.",
+      "answers": [
+        "Brackett",
+        "Balmer",
+        "Paschen",
+        "Lyman"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Paschen lines are in the infrared."
+    },
+    {
+      "id": "lautech-100-chm101-049",
+      "prompt": "Elements P, Q, R and S have atomic numbers 6, 10, 12 and 4. Which is a noble gas?",
+      "answers": [
+        "Q",
+        "R",
+        "P",
+        "S"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Z = 10 is neon."
+    },
+    {
+      "id": "lautech-100-chm101-050",
+      "prompt": "Elements with the same number of outermost-shell electrons are in the same",
+      "answers": [
+        "period",
+        "isotope",
+        "block only",
+        "group"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Group number reflects valence electron count."
+    },
+    {
+      "id": "lautech-100-chm101-051",
+      "prompt": "Which of these is NOT a period 3 element?",
+      "answers": [
+        "Aluminium",
+        "Sodium",
+        "Magnesium",
+        "Lithium"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Lithium is in period 2."
+    },
+    {
+      "id": "lautech-100-chm101-052",
+      "prompt": "The group of elements with completely filled valence shells is",
+      "answers": [
+        "halogens",
+        "alkaline earth metals",
+        "noble gases",
+        "alkali metals"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "This makes them chemically stable."
+    },
+    {
+      "id": "lautech-100-chm101-053",
+      "prompt": "Elements that are stable on their own because of their filled valence shells are the",
+      "answers": [
+        "noble gases",
+        "halogens",
+        "chalcogens",
+        "alkali metals"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "They rarely form compounds."
+    },
+    {
+      "id": "lautech-100-chm101-054",
+      "prompt": "The group with the highest ionization energy is",
+      "answers": [
+        "Group VI",
+        "Group VIII (noble gases)",
+        "Group V",
+        "Group VII"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Full outer shells are hard to remove electrons from."
+    },
+    {
+      "id": "lautech-100-chm101-055",
+      "prompt": "Which atom (electron arrangement) has the highest ionization energy?",
+      "answers": [
+        "2, 8, 8, 1",
+        "2, 8, 7",
+        "2, 8, 8",
+        "2, 8, 8, 2"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "2,8,8 is argon, a noble gas."
+    },
+    {
+      "id": "lautech-100-chm101-056",
+      "prompt": "The very high ionization energies of the noble gases are due to their",
+      "answers": [
+        "completely filled outermost shells",
+        "many valence electrons",
+        "few valence electrons",
+        "high reactivity"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "A stable octet is difficult to disrupt."
+    },
+    {
+      "id": "lautech-100-chm101-057",
+      "prompt": "The higher the ionization energy of an element, the more ___ it is.",
+      "answers": [
+        "unstable",
+        "easily oxidised",
+        "stable",
+        "reactive"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "A high ionization energy means electrons are held tightly."
+    },
+    {
+      "id": "lautech-100-chm101-058",
+      "prompt": "Ionization energy is the energy needed to remove an electron from",
+      "answers": [
+        "a molecule in solution",
+        "a gaseous atom in its ground state",
+        "an anion",
+        "a solid atom"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Li(g) → Li⁺(g) + e⁻ is an ionization energy."
+    },
+    {
+      "id": "lautech-100-chm101-059",
+      "prompt": "The energy change in Li(g) → Li⁺(g) + e⁻ is the",
+      "answers": [
+        "electronegativity",
+        "electron affinity",
+        "ionization energy",
+        "binding energy"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Removal of an electron from a gaseous atom."
+    },
+    {
+      "id": "lautech-100-chm101-060",
+      "prompt": "Second, third and fourth ionization energies are higher than the first because",
+      "answers": [
+        "removing electrons from an increasingly positive ion is more difficult",
+        "the atom becomes larger",
+        "less energy is needed",
+        "there are more electrons in the shell"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "The remaining electrons feel a stronger nuclear pull."
+    },
+    {
+      "id": "lautech-100-chm101-061",
+      "prompt": "Which pair of elements has similar chemical properties?",
+      "answers": [
+        "1s²2s²2p⁴ and 1s²2s²2p⁶3s¹",
+        "1s²2s²2p⁶3s¹ and 1s²2s¹",
+        "1s²2s²2p⁵ and 1s²2s²2p⁴",
+        "1s²2s²2p⁴ and 1s²2s¹"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Both are alkali metals with one valence electron (Na and Li)."
+    },
+    {
+      "id": "lautech-100-chm101-062",
+      "prompt": "The valence electrons are the electrons in the",
+      "answers": [
+        "outermost energy level of an atom",
+        "orbitals of the nucleus",
+        "lowest energy sub-shell",
+        "first energy level"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "They take part in bonding."
+    },
+    {
+      "id": "lautech-100-chm101-063",
+      "prompt": "How many valence electrons does boron have?",
+      "answers": [
+        "5",
+        "2",
+        "8",
+        "3"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Boron is in Group 3."
+    },
+    {
+      "id": "lautech-100-chm101-064",
+      "prompt": "The valency of boron is",
+      "answers": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Boron forms three bonds, as in BCl₃."
+    },
+    {
+      "id": "lautech-100-chm101-065",
+      "prompt": "The octet rule states that atoms tend to lose, gain or share electrons to have",
+      "answers": [
+        "two electrons in the outermost shell",
+        "eight protons",
+        "eight electrons in the outermost shell",
+        "ten neutrons"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "They aim for the noble-gas configuration."
+    },
+    {
+      "id": "lautech-100-chm101-066",
+      "prompt": "The electrons in an incompletely filled outermost shell of an atom are called",
+      "answers": [
+        "covalent electrons",
+        "duplet electrons",
+        "octet electrons",
+        "valence electrons"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "They determine bonding."
+    },
+    {
+      "id": "lautech-100-chm101-067",
+      "prompt": "Which of these is an amphoteric substance?",
+      "answers": [
+        "Water",
+        "Sodium chloride",
+        "Hydrochloric acid",
+        "Sodium hydroxide"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Water can act as an acid or a base."
+    },
+    {
+      "id": "lautech-100-chm101-068",
+      "prompt": "A Lewis base is a species that",
+      "answers": [
+        "donates protons",
+        "donates a lone pair of electrons",
+        "accepts protons",
+        "accepts a lone pair"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Lewis bases are electron-pair donors."
+    },
+    {
+      "id": "lautech-100-chm101-069",
+      "prompt": "Hydrogen combines with ___ to form a halide.",
+      "answers": [
+        "chlorine",
+        "nitrogen",
+        "carbon",
+        "oxygen"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "HCl is a hydrogen halide."
+    },
+    {
+      "id": "lautech-100-chm101-070",
+      "prompt": "NaOH (1 g) is dissolved in 100 cm³ of water. The concentration is approximately (Na = 23, O = 16, H = 1)",
+      "answers": [
+        "0.10 mol dm⁻³",
+        "0.01 mol dm⁻³",
+        "0.25 mol dm⁻³",
+        "0.50 mol dm⁻³"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "1 g ÷ 40 g/mol = 0.025 mol; 0.025 ÷ 0.100 dm³ = 0.25 mol dm⁻³."
+    },
+    {
+      "id": "lautech-100-chm101-071",
+      "prompt": "How would you prepare 250 cm³ of 0.25 M aqueous NaCl? (Na = 23, Cl = 35.5)",
+      "answers": [
+        "Add 14.6 g NaCl to 250 cm³ of water",
+        "Add 3.66 g NaCl to 250 cm³ of water",
+        "Weigh 3.66 g NaCl into a 250 cm³ flask and add distilled water up to the mark",
+        "Weigh 14.6 g NaCl into a 250 cm³ flask and add distilled water"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "0.25 mol dm⁻³ × 0.25 dm³ = 0.0625 mol × 58.5 g/mol = 3.66 g, made up to 250 cm³ in a volumetric flask."
+    },
+    {
+      "id": "lautech-100-chm101-072",
+      "prompt": "What is the molarity of a solution containing 6.0 g of NaCl in 200 cm³? (Na = 23, Cl = 35.5)",
+      "answers": [
+        "0.153 mol dm⁻³",
+        "0.313 mol dm⁻³",
+        "0.135 mol dm⁻³",
+        "0.513 mol dm⁻³"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "6.0 ÷ 58.5 = 0.1026 mol; ÷ 0.200 dm³ = 0.513 mol dm⁻³."
+    },
+    {
+      "id": "lautech-100-chm101-073",
+      "prompt": "Calculate the molarity of a solution containing 5.00 g of AlCl₃ in 250 cm³ (Al = 27.0, Cl = 35.5).",
+      "answers": [
+        "0.14 mol dm⁻³",
+        "0.15 mol dm⁻³",
+        "0.12 mol dm⁻³",
+        "0.13 mol dm⁻³"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "M(AlCl₃) = 133.5; 5.00 ÷ 133.5 = 0.0375 mol; ÷ 0.250 = 0.15."
+    },
+    {
+      "id": "lautech-100-chm101-074",
+      "prompt": "What mass of KMnO₄ is present in 3.00 dm³ of a 0.25 M solution? (K = 39, Mn = 55, O = 16)",
+      "answers": [
+        "191 g",
+        "109 g",
+        "119 g",
+        "32.2 g"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "n = 0.25 × 3.00 = 0.75 mol; M = 158 g/mol; mass = 118.5 ≈ 119 g."
+    },
+    {
+      "id": "lautech-100-chm101-075",
+      "prompt": "How many moles of KMnO₄ are in 3.00 dm³ of a 0.25 M solution?",
+      "answers": [
+        "0.75 mol",
+        "0.57 mol",
+        "0.37 mol",
+        "0.45 mol"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "n = C × V = 0.25 × 3.00."
+    },
+    {
+      "id": "lautech-100-chm101-076",
+      "prompt": "How many moles of H⁺ are in 1 dm³ of 0.5 M H₂SO₄?",
+      "answers": [
+        "1.0 mol",
+        "2.0 mol",
+        "0.5 mol",
+        "0.05 mol"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "H₂SO₄ gives 2 H⁺ per molecule: 0.5 × 2 = 1.0 mol."
+    },
+    {
+      "id": "lautech-100-chm101-077",
+      "prompt": "What volume of 0.5 mol dm⁻³ H₂SO₄ will exactly neutralise 20 cm³ of 0.1 mol dm⁻³ NaOH?",
+      "answers": [
+        "8.3 cm³",
+        "5.0 cm³",
+        "2.0 cm³",
+        "6.8 cm³"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "nNaOH = 0.002 mol; H₂SO₄ + 2NaOH → so nH₂SO₄ = 0.001 mol; V = 0.001 ÷ 0.5 = 2.0 cm³."
+    },
+    {
+      "id": "lautech-100-chm101-078",
+      "prompt": "How many moles of H₂SO₄ are in 10 g of the acid? (H = 1, S = 32, O = 16)",
+      "answers": [
+        "0.102 mol",
+        "0.204 mol",
+        "0.500 mol",
+        "0.704 mol"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "10 ÷ 98 = 0.102 mol."
+    },
+    {
+      "id": "lautech-100-chm101-079",
+      "prompt": "How many moles of aluminium are in 5.4 g? (Al = 27)",
+      "answers": [
+        "0.4 mol",
+        "0.3 mol",
+        "0.2 mol",
+        "0.1 mol"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "5.4 ÷ 27 = 0.2."
+    },
+    {
+      "id": "lautech-100-chm101-080",
+      "prompt": "How many moles are there in 40 g of sodium hydroxide? (Na = 23, O = 16, H = 1)",
+      "answers": [
+        "1.5 mol",
+        "1 mol",
+        "0.5 mol",
+        "2 mol"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "M(NaOH) = 40 g/mol."
+    },
+    {
+      "id": "lautech-100-chm101-081",
+      "prompt": "What is the relative molecular mass of Na₂CO₃·10H₂O? (Na = 23, C = 12, O = 16, H = 1)",
+      "answers": [
+        "286",
+        "178",
+        "200",
+        "250"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "106 + 10 × 18 = 286."
+    },
+    {
+      "id": "lautech-100-chm101-082",
+      "prompt": "What is the mass of 0.433 mol of sucrose, C₁₂H₂₂O₁₁?",
+      "answers": [
+        "148.1 g",
+        "128 g",
+        "265 g",
+        "402 g"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "M = 342 g/mol; 0.433 × 342 = 148.1 g."
+    },
+    {
+      "id": "lautech-100-chm101-083",
+      "prompt": "What is the mass of 1.45 × 10²³ molecules of sucrose, C₁₂H₂₂O₁₁?",
+      "answers": [
+        "28.4 g",
+        "128.5 g",
+        "80 g",
+        "82.4 g"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "n = 1.45 × 10²³ ÷ 6.02 × 10²³ = 0.241 mol; × 342 = 82.4 g."
+    },
+    {
+      "id": "lautech-100-chm101-084",
+      "prompt": "How many moles of glucose are in 1.09 g of C₆H₁₂O₆? (C = 12, H = 1, O = 16)",
+      "answers": [
+        "4.28 × 10⁻³ mol",
+        "6.06 × 10⁻³ mol",
+        "2.35 × 10⁻³ mol",
+        "2.06 × 10⁻³ mol"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "1.09 ÷ 180 = 6.06 × 10⁻³."
+    },
+    {
+      "id": "lautech-100-chm101-085",
+      "prompt": "How many moles of ammonia are in 500 cm³ of the gas at S.T.P.? (molar volume = 22.4 dm³)",
+      "answers": [
+        "0.75 mol",
+        "0.022 mol",
+        "0.79 mol",
+        "0.35 mol"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "500 ÷ 22400 = 0.0223 mol."
+    },
+    {
+      "id": "lautech-100-chm101-086",
+      "prompt": "How many atoms of copper are in 35.4 g of copper? (Cu = 63.5, N_A = 6.02 × 10²³)",
+      "answers": [
+        "1.20 × 10²²",
+        "3.36 × 10²³",
+        "1.08 × 10²⁴",
+        "6.02 × 10²³"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "35.4 ÷ 63.5 = 0.557 mol; × 6.02 × 10²³ = 3.36 × 10²³."
+    },
+    {
+      "id": "lautech-100-chm101-087",
+      "prompt": "How many oxygen atoms are in 10 g of H₂SO₄? (H = 1, S = 32, O = 16)",
+      "answers": [
+        "3.76 × 10²⁴",
+        "2.46 × 10²²",
+        "6.00 × 10²³",
+        "2.46 × 10²³"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "0.102 mol × 4 O × 6.02 × 10²³ = 2.46 × 10²³."
+    },
+    {
+      "id": "lautech-100-chm101-088",
+      "prompt": "How many hydrogen atoms are in 10 g of H₂SO₄? (M = 98 g/mol, N_A = 6.02 × 10²³)",
+      "answers": [
+        "1.23 × 10²³",
+        "6.15 × 10²²",
+        "2.46 × 10²³",
+        "6.02 × 10²³"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "0.102 mol × 2 H × 6.02 × 10²³ = 1.23 × 10²³."
+    },
+    {
+      "id": "lautech-100-chm101-089",
+      "prompt": "How many hydrogen ions are in 4.9 g of tetraoxosulphate(VI) acid? (H = 1, S = 32, O = 16)",
+      "answers": [
+        "3.01 × 10²²",
+        "6.02 × 10²²",
+        "3.01 × 10²³",
+        "6.02 × 10²³"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "4.9 ÷ 98 = 0.05 mol; × 2 × 6.02 × 10²³ = 6.02 × 10²²."
+    },
+    {
+      "id": "lautech-100-chm101-090",
+      "prompt": "How many chlorine atoms are in 5.85 g of NaCl? (Na = 23, Cl = 35.5)",
+      "answers": [
+        "5.85 × 10²⁴",
+        "6.02 × 10²³",
+        "5.85 × 10²³",
+        "6.02 × 10²²"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "5.85 ÷ 58.5 = 0.1 mol; 0.1 × 6.02 × 10²³."
+    },
+    {
+      "id": "lautech-100-chm101-091",
+      "prompt": "How many Zn atoms are in a naira coin of mass 8.14 g that is 76.8 % zinc? (Zn = 65.58)",
+      "answers": [
+        "5.8 × 10²²",
+        "6.0 × 10²²",
+        "5.7 × 10²²",
+        "5.9 × 10²²"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "8.14 × 0.768 = 6.25 g; ÷ 65.58 = 0.0953 mol; × 6.02 × 10²³ = 5.74 × 10²². (Sources list 5.9; the arithmetic gives 5.7.)"
+    },
+    {
+      "id": "lautech-100-chm101-092",
+      "prompt": "How many moles of copper are in a naira coin weighing 7.39 g that is 86 % copper? (Cu = 63.5)",
+      "answers": [
+        "0.2 mol",
+        "0.1 mol",
+        "0.01 mol",
+        "0.02 mol"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "7.39 × 0.86 = 6.36 g; ÷ 63.5 = 0.10 mol."
+    },
+    {
+      "id": "lautech-100-chm101-093",
+      "prompt": "Which gas contains the least number of atoms at S.T.P.?",
+      "answers": [
+        "1 mol of butane",
+        "3 mol of ozone",
+        "4 mol of chlorine",
+        "7 mol of argon"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Atoms: Ar 7 mol, O₃ 9 mol, C₄H₁₀ 14 mol, Cl₂ 8 mol."
+    },
+    {
+      "id": "lautech-100-chm101-094",
+      "prompt": "What is the percentage composition of oxygen in ZnSO₄·7H₂O? (Zn = 65, S = 32, O = 16, H = 1)",
+      "answers": [
+        "36.1 %",
+        "40.0 %",
+        "63.1 %",
+        "61.3 %"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "M = 287; O = 11 × 16 = 176; 176 ÷ 287 = 61.3 %."
+    },
+    {
+      "id": "lautech-100-chm101-095",
+      "prompt": "What is the percentage of zinc in ZnSO₄·7H₂O?",
+      "answers": [
+        "23.65 %",
+        "32.65 %",
+        "22.65 %",
+        "33.56 %"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "65 ÷ 287 × 100 = 22.65 %."
+    },
+    {
+      "id": "lautech-100-chm101-096",
+      "prompt": "What is the percentage of oxygen in CaCO₃? (Ca = 40, C = 12, O = 16)",
+      "answers": [
+        "40 %",
+        "68 %",
+        "28 %",
+        "48 %"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "48 ÷ 100."
+    },
+    {
+      "id": "lautech-100-chm101-097",
+      "prompt": "What is the percentage by mass of oxygen in Al₂(SO₄)₃·2H₂O? (Al = 27, S = 32, O = 16, H = 1)",
+      "answers": [
+        "14.29 %",
+        "59.25 %",
+        "50.79 %",
+        "25.39 %"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "M = 378; O = 14 × 16 = 224; 224 ÷ 378 = 59.25 %."
+    },
+    {
+      "id": "lautech-100-chm101-098",
+      "prompt": "What is the empirical formula of a compound containing 40.1 % C and 6.667 % H (remainder O)?",
+      "answers": [
+        "C₂H₄O₂",
+        "CH₂O₂",
+        "CHO",
+        "CH₂O"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "C 3.34 : H 6.67 : O 3.33 → 1 : 2 : 1."
+    },
+    {
+      "id": "lautech-100-chm101-099",
+      "prompt": "A compound contains 47.35 % C, 10.60 % H and 42.05 % O. Its empirical formula is",
+      "answers": [
+        "C₂H₇O",
+        "C₂H₅O",
+        "CHO₂",
+        "C₃H₈O₂"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "C 3.95 : H 10.6 : O 2.63 → 3 : 8 : 2."
+    },
+    {
+      "id": "lautech-100-chm101-100",
+      "prompt": "An oxide of antimony contains 24.73 % oxygen. Its empirical formula is (Sb = 121.8)",
+      "answers": [
+        "Sb₂O₅",
+        "SbO₅",
+        "SbO₂",
+        "Sb₂O₄"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Sb 0.618 mol : O 1.546 mol = 2 : 5."
+    },
+    {
+      "id": "lautech-100-chm101-101",
+      "prompt": "An oxide of nitrogen contains 30.4 % nitrogen. Its empirical formula is (N = 14, O = 16)",
+      "answers": [
+        "N₂O",
+        "N₂O₂",
+        "NO",
+        "NO₂"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "N 2.17 : O 4.35 = 1 : 2."
+    },
+    {
+      "id": "lautech-100-chm101-102",
+      "prompt": "14.28 g of hydrogen combines with 85.72 g of carbon. The empirical formula is (C = 12, H = 1)",
+      "answers": [
+        "C₂H₆",
+        "C₂H₄",
+        "C₂H₃",
+        "CH₂"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "C 7.14 mol : H 14.28 mol = 1 : 2."
+    },
+    {
+      "id": "lautech-100-chm101-103",
+      "prompt": "A compound contains 40.2 % K, 26.9 % Cr and the rest oxygen. Its empirical formula is (K = 39, Cr = 52, O = 16)",
+      "answers": [
+        "K₂CrO₄",
+        "K₂Cr₂O₄",
+        "K₃Cr₂O₇",
+        "K₃Cr₄O"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "K 1.03 : Cr 0.52 : O 2.06 = 2 : 1 : 4."
+    },
+    {
+      "id": "lautech-100-chm101-104",
+      "prompt": "The relative number of moles of Te, K and O are 0.55, 1.10 and 1.65. The simplest formula is",
+      "answers": [
+        "KTeO₃",
+        "K₂Te₃O₂",
+        "K₂TeO₃",
+        "K₂TeO₆"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Divide by 0.55: Te 1 : K 2 : O 3."
+    },
+    {
+      "id": "lautech-100-chm101-105",
+      "prompt": "An organic compound of vapour density 56.5 contains C 53.1 %, N 12.4 %, O 28.3 % and H 6.2 %. Its molecular formula is (C = 12, N = 14, O = 16, H = 1)",
+      "answers": [
+        "C₅H₆O₂N",
+        "C₅H₇O₂N",
+        "C₃H₆O₂N",
+        "(C₅H₇ON)₂"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Empirical formula C₅H₇O₂N (M = 113); molar mass = 2 × 56.5 = 113."
+    },
+    {
+      "id": "lautech-100-chm101-106",
+      "prompt": "0.07 g of a hydrocarbon occupies 56 cm³ at S.T.P. and contains 14.29 % hydrogen by mass. Its formula is",
+      "answers": [
+        "C₄H₈",
+        "C₂H₄",
+        "C₃H₆",
+        "CH₂"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "M = 0.07 ÷ 0.0025 = 28 g/mol; empirical formula CH₂, so C₂H₄."
+    },
+    {
+      "id": "lautech-100-chm101-107",
+      "prompt": "5 g of calcium combines with chlorine to give 13.88 g of calcium chloride. The formula is (Ca = 40, Cl = 35.5)",
+      "answers": [
+        "CaCl₃",
+        "CaCl",
+        "CaCl₄",
+        "CaCl₂"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Cl = 8.88 g = 0.25 mol; Ca = 0.125 mol → 1 : 2."
+    },
+    {
+      "id": "lautech-100-chm101-108",
+      "prompt": "Balance: w C₂H₆ + x O₂ → y H₂O + z CO₂. The values of w, x, y, z are",
+      "answers": [
+        "2, 9, 4, 2",
+        "1, 6, 4, 6",
+        "2, 7, 4, 6",
+        "2, 7, 6, 4"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "2C₂H₆ + 7O₂ → 6H₂O + 4CO₂."
+    },
+    {
+      "id": "lautech-100-chm101-109",
+      "prompt": "Balance C₆H₁₄ + O₂ → CO₂ + H₂O.",
+      "answers": [
+        "2C₆H₁₄ + 13O₂ → 12CO₂ + 14H₂O",
+        "C₆H₁₄ + 19O₂ → 12CO₂ + 7H₂O",
+        "2C₆H₁₄ + 19O₂ → 12CO₂ + 14H₂O",
+        "C₆H₁₄ + 9O₂ → 6CO₂ + 7H₂O"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "C: 12 on each side; H: 28 → 14 H₂O; O: 24 + 14 = 38 = 19 O₂."
+    },
+    {
+      "id": "lautech-100-chm101-110",
+      "prompt": "Balance w H₂SO₄ + x Al(OH)₃ → y H₂O + z Al₂(SO₄)₃. The values of w, x, y, z are",
+      "answers": [
+        "3, 2, 6, 1",
+        "2, 2, 5, 1",
+        "2, 2, 6, 2",
+        "3, 2, 5, 2"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "3H₂SO₄ + 2Al(OH)₃ → 6H₂O + Al₂(SO₄)₃."
+    },
+    {
+      "id": "lautech-100-chm101-111",
+      "prompt": "Balance w NH₃ + x O₂ → y NO + z H₂O. The values of w, x, y, z are",
+      "answers": [
+        "4, 5, 4, 6",
+        "6, 5, 6, 4",
+        "5, 6, 5, 4",
+        "4, 6, 4, 5"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "4NH₃ + 5O₂ → 4NO + 6H₂O."
+    },
+    {
+      "id": "lautech-100-chm101-112",
+      "prompt": "Balance x Cu + y HNO₃ → 3 Cu(NO₃)₂ + 4 H₂O + z NO. The values of x, y, z are",
+      "answers": [
+        "8, 3, 2",
+        "3, 8, 2",
+        "2, 8, 3",
+        "4, 1, 2"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "3Cu + 8HNO₃ → 3Cu(NO₃)₂ + 4H₂O + 2NO."
+    },
+    {
+      "id": "lautech-100-chm101-113",
+      "prompt": "Balance x P₂O₃ + y H₂O → z H₃PO₃. The values of x, y, z are",
+      "answers": [
+        "2, 1, 2",
+        "3, 1, 2",
+        "2, 1, 3",
+        "1, 3, 2"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "P₂O₃ + 3H₂O → 2H₃PO₃."
+    },
+    {
+      "id": "lautech-100-chm101-114",
+      "prompt": "MnO₂ + x HCl → MnCl₂ + Cl₂ + y H₂O. The values of x and y are",
+      "answers": [
+        "3 and 2",
+        "2 and 5",
+        "4 and 2",
+        "2 and 4"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "MnO₂ + 4HCl → MnCl₂ + Cl₂ + 2H₂O."
+    },
+    {
+      "id": "lautech-100-chm101-115",
+      "prompt": "Balance a C₃H₅(NO₃)₃ → b N₂ + c O₂ + d CO₂ + e H₂O. The values of a, b, c, d, e are",
+      "answers": [
+        "2, 5, 1, 7, 5",
+        "4, 6, 1, 12, 10",
+        "1, 4, 6, 8, 2",
+        "4, 2, 8, 6, 5"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "4C₃H₅(NO₃)₃ → 6N₂ + O₂ + 12CO₂ + 10H₂O."
+    },
+    {
+      "id": "lautech-100-chm101-116",
+      "prompt": "What mass of water is produced when 8.0 g of hydrogen reacts with excess oxygen? (H = 1, O = 16)",
+      "answers": [
+        "32 g",
+        "48 g",
+        "72 g",
+        "56 g"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "8.0 g H₂ = 4 mol → 4 mol H₂O = 72 g."
+    },
+    {
+      "id": "lautech-100-chm101-117",
+      "prompt": "What mass of copper(II) sulphate can be obtained from 10 g of copper(II) oxide? CuO + H₂SO₄ → CuSO₄ + H₂O (Cu = 63.5, S = 32, O = 16)",
+      "answers": [
+        "21.2 g",
+        "20.1 g",
+        "22.9 g",
+        "12.1 g"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "10 ÷ 79.5 = 0.126 mol × 159.5 = 20.1 g."
+    },
+    {
+      "id": "lautech-100-chm101-118",
+      "prompt": "Sodium burns in oxygen: 4Na + O₂ → 2Na₂O. What mass of O₂ is needed to burn 4.6 g of sodium?",
+      "answers": [
+        "3.1 g",
+        "1.6 g",
+        "1.9 g",
+        "6.1 g"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "4.6 ÷ 23 = 0.2 mol Na → 0.05 mol O₂ = 1.6 g."
+    },
+    {
+      "id": "lautech-100-chm101-119",
+      "prompt": "What mass of oxygen is needed to burn 23.0 g of ethylene? C₂H₄ + 3O₂ → 2CO₂ + 2H₂O",
+      "answers": [
+        "26.2 g",
+        "69.0 g",
+        "60.5 g",
+        "78.9 g"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "23.0 ÷ 28 = 0.821 mol C₂H₄ → 2.46 mol O₂ = 78.9 g."
+    },
+    {
+      "id": "lautech-100-chm101-120",
+      "prompt": "What mass of hydrogen is produced when an excess of zinc is added to 500 cm³ of 0.8 M HCl? Zn + 2HCl → ZnCl₂ + H₂",
+      "answers": [
+        "0.200 g",
+        "0.600 g",
+        "0.400 g",
+        "0.100 g"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "0.4 mol HCl → 0.2 mol H₂ = 0.40 g."
+    },
+    {
+      "id": "lautech-100-chm101-121",
+      "prompt": "How many moles of CO₂ are produced from 32 g of methane? CH₄ + 2O₂ → CO₂ + 2H₂O (C = 12, H = 1)",
+      "answers": [
+        "2 mol",
+        "8 mol",
+        "4 mol",
+        "3 mol"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "32 ÷ 16 = 2 mol CH₄ → 2 mol CO₂."
+    },
+    {
+      "id": "lautech-100-chm101-122",
+      "prompt": "What volume of gas is evolved at S.T.P. when 2 g of CaCO₃ is added to excess HCl? (Ca = 40, C = 12, O = 16; molar volume = 22.4 dm³)",
+      "answers": [
+        "224 cm³",
+        "112 cm³",
+        "448 cm³",
+        "2240 cm³"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "0.02 mol CaCO₃ → 0.02 mol CO₂ = 448 cm³."
+    },
+    {
+      "id": "lautech-100-chm101-123",
+      "prompt": "What volume of CO₂ at S.T.P. is evolved when 20 g of CaCO₃ reacts with HCl? (molar volume = 22.4 dm³)",
+      "answers": [
+        "112 dm³",
+        "4.48 dm³",
+        "2240 dm³",
+        "2.24 dm³"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "0.2 mol × 22.4 = 4.48 dm³."
+    },
+    {
+      "id": "lautech-100-chm101-124",
+      "prompt": "The mass of lead obtained by heating 34.25 g of red lead oxide (Pb₃O₄) in hydrogen is (Pb = 207, O = 16)",
+      "answers": [
+        "35.15 g",
+        "53.13 g",
+        "30.01 g",
+        "31.05 g"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "34.25 ÷ 685 = 0.05 mol Pb₃O₄ → 0.15 mol Pb = 31.05 g."
+    },
+    {
+      "id": "lautech-100-chm101-125",
+      "prompt": "The mass of water obtained by heating 34.25 g of red lead oxide (Pb₃O₄) in hydrogen is (Pb = 207, H = 1, O = 16)",
+      "answers": [
+        "9.6 g",
+        "3.6 g",
+        "7.2 g",
+        "2.5 g"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Pb₃O₄ + 4H₂ → 3Pb + 4H₂O: 0.05 × 4 = 0.2 mol H₂O = 3.6 g."
+    },
+    {
+      "id": "lautech-100-chm101-126",
+      "prompt": "How many grams of HBr are needed to react with 2 g of propyne (C₃H₄)? (C = 12, H = 1, Br = 80)",
+      "answers": [
+        "16.2 g",
+        "4.1 g",
+        "6.1 g",
+        "8.1 g"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "0.05 mol propyne adds 2 HBr → 0.1 mol × 81 = 8.1 g."
+    },
+    {
+      "id": "lautech-100-chm101-127",
+      "prompt": "Which statement correctly describes a closed system?",
+      "answers": [
+        "Matter is equal to energy",
+        "Matter can be exchanged with the surroundings",
+        "Energy cannot cross its boundary",
+        "Matter cannot be exchanged with the surroundings"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Only energy may cross the boundary of a closed system."
+    },
+    {
+      "id": "lautech-100-chm101-128",
+      "prompt": "The volume of a given mass of gas at constant temperature is inversely proportional to the pressure. This is",
+      "answers": [
+        "Avogadro's law",
+        "Dalton's law",
+        "Boyle's law",
+        "Charles's law"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "PV = constant at constant T."
+    },
+    {
+      "id": "lautech-100-chm101-129",
+      "prompt": "According to Boyle's law, which quantity is constant?",
+      "answers": [
+        "Volume",
+        "Pressure",
+        "Temperature",
+        "Vapour pressure"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "T and amount of gas are fixed."
+    },
+    {
+      "id": "lautech-100-chm101-130",
+      "prompt": "Which expression represents Charles's law?",
+      "answers": [
+        "V₁/T₁ = V₂/T₂",
+        "P ∝ 1/V",
+        "P₁V₁ = P₂V₂",
+        "V ∝ n"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Volume is proportional to absolute temperature at constant pressure."
+    },
+    {
+      "id": "lautech-100-chm101-131",
+      "prompt": "According to Charles's law, the volume of a gas would become zero at",
+      "answers": [
+        "−100 °C",
+        "−173 °C",
+        "−273 °C",
+        "0 °C"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "This is absolute zero."
+    },
+    {
+      "id": "lautech-100-chm101-132",
+      "prompt": "The lowest temperature that can be reached by any substance is",
+      "answers": [
+        "absolute zero",
+        "the freezing point",
+        "the boiling point",
+        "the melting point"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Absolute zero is 0 K (−273 °C)."
+    },
+    {
+      "id": "lautech-100-chm101-133",
+      "prompt": "Which of these is a measure of the average kinetic energy of gas molecules?",
+      "answers": [
+        "Volume",
+        "Mass",
+        "Temperature",
+        "Pressure"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Temperature is proportional to average kinetic energy."
+    },
+    {
+      "id": "lautech-100-chm101-134",
+      "prompt": "When a gas in a closed container of fixed volume is heated,",
+      "answers": [
+        "collisions between molecules decrease",
+        "the average kinetic energy of the molecules increases",
+        "the pressure decreases",
+        "the temperature remains the same"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Molecules move faster and hit the walls harder."
+    },
+    {
+      "id": "lautech-100-chm101-135",
+      "prompt": "Which relationship between P, V and T represents ideal gas behaviour?",
+      "answers": [
+        "PT ∝ V",
+        "P ∝ T/V",
+        "P ∝ VT",
+        "P ∝ V/T"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "PV = nRT."
+    },
+    {
+      "id": "lautech-100-chm101-136",
+      "prompt": "Which equation is the van der Waals equation for a real gas?",
+      "answers": [
+        "(P − a/V²)(V + b) = nRT",
+        "PV = nRT",
+        "P(V − b) = nRT",
+        "(P + a/V²)(V − b) = nRT"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "The terms correct for intermolecular attraction (a) and molecular volume (b)."
+    },
+    {
+      "id": "lautech-100-chm101-137",
+      "prompt": "For a real gas at pressures well above 1 atm, increasing the pressure further generally",
+      "answers": [
+        "increases the PV value",
+        "reduces PV to zero",
+        "keeps PV constant",
+        "makes the gas ideal"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Repulsive forces and molecular volume dominate at high pressure."
+    },
+    {
+      "id": "lautech-100-chm101-138",
+      "prompt": "A gas above its critical temperature cannot be liquefied by",
+      "answers": [
+        "adding a catalyst only",
+        "increasing the pressure alone",
+        "cooling it further",
+        "lowering its temperature"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Above T_c no pressure will liquefy the gas."
+    },
+    {
+      "id": "lautech-100-chm101-139",
+      "prompt": "The volume of one mole of a substance at its critical temperature and pressure is the",
+      "answers": [
+        "exact volume",
+        "lowest volume",
+        "critical volume",
+        "critical area"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Critical volume is a critical constant."
+    },
+    {
+      "id": "lautech-100-chm101-140",
+      "prompt": "The co-existence of ice, liquid water and water vapour at 0.0075 °C and 4.58 mmHg is the",
+      "answers": [
+        "triple point of water",
+        "freezing point of water",
+        "liquefaction of water",
+        "boiling point of water"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "All three phases are in equilibrium at the triple point."
+    },
+    {
+      "id": "lautech-100-chm101-141",
+      "prompt": "The phase of matter with the strongest inter-particle attraction is",
+      "answers": [
+        "liquid",
+        "plasma",
+        "gas",
+        "solid"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Particles in a solid are tightly held."
+    },
+    {
+      "id": "lautech-100-chm101-142",
+      "prompt": "A small amount of water enclosed in a very large container will exist as",
+      "answers": [
+        "ice and liquid",
+        "a gas (vapour)",
+        "a liquid",
+        "a solid"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "It evaporates until the vapour pressure is reached."
+    },
+    {
+      "id": "lautech-100-chm101-143",
+      "prompt": "Energy close to zero potential is characteristic of the",
+      "answers": [
+        "liquid state",
+        "gaseous state",
+        "solid state",
+        "crystal state"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Gas particles are far apart with negligible attraction."
+    },
+    {
+      "id": "lautech-100-chm101-144",
+      "prompt": "The relative molecular mass of a gas is 2Y. Y is the gas's",
+      "answers": [
+        "volume",
+        "pressure",
+        "gas constant",
+        "vapour density"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Relative molecular mass = 2 × vapour density."
+    },
+    {
+      "id": "lautech-100-chm101-145",
+      "prompt": "An oxide XO₂ has a vapour density of 32. The atomic mass of X is (O = 16)",
+      "answers": [
+        "12",
+        "20",
+        "32",
+        "14"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "M = 64; X = 64 − 32 = 32."
+    },
+    {
+      "id": "lautech-100-chm101-146",
+      "prompt": "The volume occupied by 1.58 g of a gas at S.T.P. is 500 cm³. Its relative molecular mass is (molar volume = 22 400 cm³)",
+      "answers": [
+        "71",
+        "28",
+        "344",
+        "32"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "M = 1.58 × 22 400 ÷ 500 = 70.8."
+    },
+    {
+      "id": "lautech-100-chm101-147",
+      "prompt": "The partial pressure of oxygen in air is 330 mmHg and the total pressure is 760 mmHg. The mole fraction of oxygen is",
+      "answers": [
+        "4.34",
+        "2.17",
+        "0.217",
+        "0.434"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "330 ÷ 760 = 0.434."
+    },
+    {
+      "id": "lautech-100-chm101-148",
+      "prompt": "0.75 mol of cyclopropane and 0.66 mol of oxygen are mixed at a total pressure of 0.7 atm. The partial pressure of oxygen is",
+      "answers": [
+        "0.44 atm",
+        "0.55 atm",
+        "0.33 atm",
+        "0.22 atm"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "0.66 ÷ 1.41 × 0.7 = 0.33."
+    },
+    {
+      "id": "lautech-100-chm101-149",
+      "prompt": "The total pressure of a mixture of gases A and B is 76.2 cmHg. A is 0.0075 mol and B is 0.0040 mol. Their partial pressures respectively are",
+      "answers": [
+        "26.5 cmHg and 49.7 cmHg",
+        "47.9 cmHg and 26.5 cmHg",
+        "49.7 cmHg and 26.5 cmHg",
+        "23.7 cmHg and 48.9 cmHg"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "A: 0.0075/0.0115 × 76.2 = 49.7; B = 26.5."
+    },
+    {
+      "id": "lautech-100-chm101-150",
+      "prompt": "12 g of N₂, 0.4 g of H₂ and 9.0 g of O₂ are put in a 1.00 dm³ container at 27 °C. The total pressure is (R = 0.08205 atm dm³ mol⁻¹ K⁻¹)",
+      "answers": [
+        "22.4 atm",
+        "20.2 atm",
+        "38.1 atm",
+        "21.3 atm"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "n = 0.4286 + 0.2 + 0.28125 = 0.910 mol; P = nRT/V = 22.4 atm."
+    },
+    {
+      "id": "lautech-100-chm101-151",
+      "prompt": "A fluorescent bulb of 4.00 dm³ holds argon at 6.8 atm and is connected to a 10.0 dm³ bulb holding krypton at 4.25 atm. The partial pressure of argon after mixing is",
+      "answers": [
+        "2.50 atm",
+        "4.03 atm",
+        "3.04 atm",
+        "1.94 atm"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "P₂ = 6.8 × 4 ÷ 14 = 1.94 atm."
+    },
+    {
+      "id": "lautech-100-chm101-152",
+      "prompt": "A gas at 25 °C and 1 atm occupies 1.50 dm³. What volume will it occupy at 100 °C and 1 atm?",
+      "answers": [
+        "6.00 dm³",
+        "60.0 dm³",
+        "1.88 dm³",
+        "18.0 dm³"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "V₂ = 1.50 × 373 ÷ 298 = 1.88 dm³."
+    },
+    {
+      "id": "lautech-100-chm101-153",
+      "prompt": "A gas initially at 0 °C and 9 atm has its pressure reduced to 3 atm at constant volume. The final temperature is",
+      "answers": [
+        "182 K",
+        "819 K",
+        "273 K",
+        "91 K"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "T₂ = 273 × 3 ÷ 9 = 91 K."
+    },
+    {
+      "id": "lautech-100-chm101-154",
+      "prompt": "To what temperature must a gas at 273 K be heated to double both its volume and its pressure?",
+      "answers": [
+        "1092 K",
+        "298 K",
+        "546 K",
+        "819 K"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Volume × 2 and pressure × 2 means T × 4 = 1092 K."
+    },
+    {
+      "id": "lautech-100-chm101-155",
+      "prompt": "A gas of volume 146 cm³ at 18 °C and 0.971 atm occupies what volume at S.T.P.?",
+      "answers": [
+        "266 cm³",
+        "133 cm³",
+        "292 cm³",
+        "146 cm³"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "V = 146 × 0.971 × 273 ÷ 291 = 133 cm³."
+    },
+    {
+      "id": "lautech-100-chm101-156",
+      "prompt": "A gas occupying 2.76 dm³ at 0.825 atm has its volume halved at constant temperature. The new pressure is",
+      "answers": [
+        "0.413 atm",
+        "0.275 atm",
+        "1.65 atm",
+        "0.825 atm"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "P₂ = 0.825 × 2 = 1.65 atm."
+    },
+    {
+      "id": "lautech-100-chm101-157",
+      "prompt": "A gas at 8.2 atm occupies 2.93 dm³ at 20 °C (R = 0.082 atm dm³ K⁻¹ mol⁻¹). The number of moles is",
+      "answers": [
+        "1.00",
+        "2.00",
+        "3.00",
+        "4.00"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "n = PV/RT = 24.0 ÷ 24.0 = 1.00."
+    },
+    {
+      "id": "lautech-100-chm101-158",
+      "prompt": "Two moles of an ideal gas occupy 6 m³ at 25 °C (R = 8.31 J K⁻¹ mol⁻¹). The pressure is",
+      "answers": [
+        "about 826 N m⁻²",
+        "about 412 N m⁻²",
+        "about 625 N m⁻²",
+        "about 1481 N m⁻²"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "P = nRT/V = 2 × 8.31 × 298 ÷ 6 = 826."
+    },
+    {
+      "id": "lautech-100-chm101-159",
+      "prompt": "One mole of an ideal gas occupies 12 dm³ at 25 °C. The pressure is",
+      "answers": [
+        "about 204 kPa",
+        "about 101 kPa",
+        "about 206 kPa",
+        "about 202 kPa"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "P = 8.314 × 298 ÷ 0.012 = 206 kPa."
+    },
+    {
+      "id": "lautech-100-chm101-160",
+      "prompt": "Graham's law of diffusion can be used to determine",
+      "answers": [
+        "its purity",
+        "its boiling point",
+        "its melting point",
+        "the molar mass of an unknown gas"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Rate ∝ 1/√M."
+    },
+    {
+      "id": "lautech-100-chm101-161",
+      "prompt": "The higher the molecular mass of a gas,",
+      "answers": [
+        "the lower its rate of diffusion",
+        "the faster it diffuses",
+        "the greater its average speed",
+        "the shorter the time it takes to diffuse"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Heavier molecules move more slowly."
+    },
+    {
+      "id": "lautech-100-chm101-162",
+      "prompt": "Hydrogen diffuses ___ as fast as oxygen.",
+      "answers": [
+        "three times",
+        "the same rate",
+        "twice",
+        "four times"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "√(32/2) = 4."
+    },
+    {
+      "id": "lautech-100-chm101-163",
+      "prompt": "What is the relative rate of diffusion of hydrogen compared with oxygen at the same temperature?",
+      "answers": [
+        "2 : 1",
+        "1 : 4",
+        "16 : 1",
+        "4 : 1"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Rate ratio = √(M_O₂/M_H₂) = 4."
+    },
+    {
+      "id": "lautech-100-chm101-164",
+      "prompt": "Two gases A and B have relative molecular masses 64 and 16. The ratio of the rates of diffusion A : B is",
+      "answers": [
+        "1 : 2",
+        "2 : 1",
+        "1 : 3",
+        "3 : 1"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "√(16/64) = 1/2."
+    },
+    {
+      "id": "lautech-100-chm101-165",
+      "prompt": "Equal volumes of hydrogen and oxygen diffuse through a porous pot in 24 and 96 minutes. The density of hydrogen relative to oxygen is",
+      "answers": [
+        "1/32",
+        "1/16",
+        "1/4",
+        "1/8"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Density ratio = (t_H/t_O)² = (1/4)² = 1/16."
+    },
+    {
+      "id": "lautech-100-chm101-166",
+      "prompt": "Equal volumes of hydrogen and oxygen diffuse through a porous partition in 12 and 48 minutes. The density of oxygen relative to hydrogen is",
+      "answers": [
+        "1/16",
+        "16",
+        "8",
+        "32"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "(48/12)² = 16."
+    },
+    {
+      "id": "lautech-100-chm101-167",
+      "prompt": "If 30 cm³ of oxygen diffuses through a porous plug in 7 s, how long will 60 cm³ of chlorine take?",
+      "answers": [
+        "about 21 s",
+        "12 s",
+        "30 s",
+        "14 s"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Rate O₂ = 4.29 cm³/s; Cl₂ is √(32/71) times as fast = 2.88 cm³/s; t = 60 ÷ 2.88 = 20.9 s."
+    },
+    {
+      "id": "lautech-100-chm101-168",
+      "prompt": "500 cm³ of oxygen diffuses through a porous partition in 20 s. How long will 200 cm³ of carbon dioxide take?",
+      "answers": [
+        "2.5 s",
+        "88.0 s",
+        "9.4 s",
+        "11.0 s"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Rate CO₂ = 25 × √(32/44) = 21.3 cm³/s; t = 9.4 s."
+    },
+    {
+      "id": "lautech-100-chm101-169",
+      "prompt": "If 25 cm³ of oxygen diffuses from an apparatus in 10 s, what volume of nitrogen diffuses in 15 s under the same conditions?",
+      "answers": [
+        "40.1 cm³",
+        "28.3 cm³",
+        "42.7 cm³",
+        "23.1 cm³"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Rate N₂ = 2.5 × √(32/28) = 2.67 cm³/s; × 15 = 40.1."
+    },
+    {
+      "id": "lautech-100-chm101-170",
+      "prompt": "A gas A diffuses at 30 cm³/min and gas B at 15 cm³/min under the same conditions. If the density of A is 1.0 g/dm³, the density of B is",
+      "answers": [
+        "2.0 g/dm³",
+        "4.0 g/dm³",
+        "5.0 g/dm³",
+        "3.0 g/dm³"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Rate ratio 2 → density ratio 4."
+    },
+    {
+      "id": "lautech-100-chm101-171",
+      "prompt": "60 cm³ of gas A diffuses in 10 s; 480 cm³ of hydrogen diffuses in 20 s under the same conditions. The relative molecular mass of A is",
+      "answers": [
+        "8",
+        "64",
+        "16",
+        "32"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Rate A = 6, rate H₂ = 24; (24/6)² = 16 = M/2 → M = 32."
+    },
+    {
+      "id": "lautech-100-chm101-172",
+      "prompt": "The time for a given amount of an organic compound X to diffuse is 306 s; the same amount of argon diffuses in 62 s. The molecular mass of X is (Ar = 39.9)",
+      "answers": [
+        "467 g/mol",
+        "971.9 g/mol",
+        "251 g/mol",
+        "629 g/mol"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "M = 39.9 × (306/62)² = 971.9."
+    },
+    {
+      "id": "lautech-100-chm101-173",
+      "prompt": "Carvone vapour takes 186 s to diffuse through a porous plug; the same amount of argon takes 96 s. The molar mass of carvone is (Ar = 39.95)",
+      "answers": [
+        "149.97 g/mol",
+        "10.64 g/mol",
+        "20.6 g/mol",
+        "77.40 g/mol"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "M = 39.95 × (186/96)² = 149.97."
+    },
+    {
+      "id": "lautech-100-chm101-174",
+      "prompt": "Calculate the root mean square speed of SO₂ molecules at 27 °C (M = 64 g/mol, R = 8.314 J K⁻¹ mol⁻¹).",
+      "answers": [
+        "128 m/s",
+        "342 m/s",
+        "320 m/s",
+        "421 m/s"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "√(3RT/M) = √(3 × 8.314 × 300 ÷ 0.064) = 342 m/s."
+    },
+    {
+      "id": "lautech-100-chm101-175",
+      "prompt": "Calculate the root mean square speed of CO₂ molecules at 27 °C (M = 44 g/mol).",
+      "answers": [
+        "412 m/s",
+        "781 m/s",
+        "235 m/s",
+        "128 m/s"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "√(3 × 8.314 × 300 ÷ 0.044) = 412 m/s."
+    },
+    {
+      "id": "lautech-100-chm101-176",
+      "prompt": "At what temperature will oxygen molecules have the same r.m.s. speed as CO₂ molecules at 27 °C?",
+      "answers": [
+        "−75 °C",
+        "−40 °C",
+        "−22 °C",
+        "−55 °C"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "T = 300 × 32/44 = 218 K = −55 °C."
+    },
+    {
+      "id": "lautech-100-chm101-177",
+      "prompt": "Which of the following is true of two gases at the same temperature?",
+      "answers": [
+        "Their molecules move at the same speed",
+        "Their molecules have the same average kinetic energy",
+        "The heavier gas has the greater average kinetic energy",
+        "The lighter gas has the greater average kinetic energy"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Average KE depends only on temperature."
+    },
+    {
+      "id": "lautech-100-chm101-178",
+      "prompt": "Chemical equilibrium can only be established between reactants and products in a",
+      "answers": [
+        "closed system",
+        "open system",
+        "supersaturated system",
+        "saturated system only"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Nothing can enter or leave a closed system, so forward and backward reactions can balance."
+    },
+    {
+      "id": "lautech-100-chm101-179",
+      "prompt": "Dynamic equilibrium occurs when",
+      "answers": [
+        "the backward rate is greater than the forward rate",
+        "the rate of the forward reaction equals the rate of the backward reaction",
+        "the forward rate is greater than the backward rate",
+        "all reactions stop"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Reactions continue but concentrations stay constant."
+    },
+    {
+      "id": "lautech-100-chm101-180",
+      "prompt": "The equilibrium constant of a reaction is constant at constant",
+      "answers": [
+        "pressure",
+        "temperature",
+        "area",
+        "volume"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Kc changes only with temperature."
+    },
+    {
+      "id": "lautech-100-chm101-181",
+      "prompt": "For aA + bB ⇌ cC, the equilibrium constant Kc for the forward reaction is",
+      "answers": [
+        "[A]^a [C]^c / [B]^b",
+        "[B]^b / ([A]^a [C]^c)",
+        "[C]^c / ([A]^a [B]^b)",
+        "[A]^a [B]^b / [C]^c"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Products over reactants, each raised to its coefficient."
+    },
+    {
+      "id": "lautech-100-chm101-182",
+      "prompt": "For aA + bB ⇌ cC + dD, the equilibrium constant for the backward reaction is",
+      "answers": [
+        "[A]^a [B]^b / ([C]^c [D]^d)",
+        "[C]^c [D]^d / ([A]^a [B]^b)",
+        "[A][B] / ([C][D])",
+        "[C][D] / ([A][B])"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The backward Kc is the reciprocal of the forward Kc."
+    },
+    {
+      "id": "lautech-100-chm101-183",
+      "prompt": "For 3Fe(s) + 4H₂O(g) ⇌ Fe₃O₄(s) + 4H₂(g), Kc is",
+      "answers": [
+        "[Fe₃O₄][H₂]⁴ / ([H₂O]⁴[Fe]³)",
+        "[H₂O]⁴ / [H₂]⁴",
+        "[H₂]⁴ / [H₂O]⁴",
+        "[Fe₃O₄] / [Fe]³"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Pure solids are left out of the expression."
+    },
+    {
+      "id": "lautech-100-chm101-184",
+      "prompt": "For CdCO₃(s) ⇌ CdO(s) + CO₂(g), the equilibrium constant is",
+      "answers": [
+        "[CO₂]",
+        "[CdCO₃] / ([CO₂][CdO])",
+        "[CdO]",
+        "[CdO][CO₂] / [CdCO₃]"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Solids have constant concentration, leaving only [CO₂]."
+    },
+    {
+      "id": "lautech-100-chm101-185",
+      "prompt": "For H₂O(s) ⇌ H₂O(g), the equilibrium constant is",
+      "answers": [
+        "[H₂O(s)] / [H₂O(g)]",
+        "[H₂O(s)]",
+        "[H₂O(g)]",
+        "[H₂O(g)] / [H₂O(s)]"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "The solid is omitted."
+    },
+    {
+      "id": "lautech-100-chm101-186",
+      "prompt": "For A(s) + 2B⁺(aq) ⇌ A²⁺(aq) + 2B(s), the equilibrium constant is",
+      "answers": [
+        "[A²⁺] / ([A][B⁺]²)",
+        "[A²⁺][B]² / [A][B⁺]²",
+        "[A²⁺] / [B⁺]²",
+        "[B]² / [A]"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Solids A and B are omitted."
+    },
+    {
+      "id": "lautech-100-chm101-187",
+      "prompt": "In aA + bB → mM + nN, Kc is",
+      "answers": [
+        "[A]^a [B]^b / ([M]^m [N]^n)",
+        "[M]^m [N]^n / ([A]^a [B]^b)",
+        "[B]^b [A]^n / ([M]^a [N]^m)",
+        "[A]^a [N]^n / ([B]^b [M]^m)"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Products in the numerator."
+    },
+    {
+      "id": "lautech-100-chm101-188",
+      "prompt": "At equilibrium, the forward and backward rate constants are related by (aA + bB ⇌ cC + yY)",
+      "answers": [
+        "k_f[A]^a[B]^b = k_r[C]^c[Y]^y",
+        "k_f[A]^a[B]^b = 0",
+        "k_f[C]^c[Y]^y = k_r[A]^a[B]^b",
+        "k_f = k_r always"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Rates are equal at equilibrium."
+    },
+    {
+      "id": "lautech-100-chm101-189",
+      "prompt": "The relationship between Kp and Kc is",
+      "answers": [
+        "Kc = Kp/(RT)",
+        "Kp = Kc(RT)^Δn",
+        "Kc = Kp(RT)^Δn",
+        "Kp = Kc/(RT)"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Δn = moles of gaseous products − moles of gaseous reactants."
+    },
+    {
+      "id": "lautech-100-chm101-190",
+      "prompt": "Kp = Kc when Δn is",
+      "answers": [
+        "0",
+        "1",
+        "2",
+        "−2"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "(RT)⁰ = 1."
+    },
+    {
+      "id": "lautech-100-chm101-191",
+      "prompt": "For the reaction aA + bB ⇌ cC + dD, Δn is",
+      "answers": [
+        "(a + b) − (c + d)",
+        "(C + D) − (A + B)",
+        "(A + B) − (C + D)",
+        "(c + d) − (a + b)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Δn uses stoichiometric coefficients of gases."
+    },
+    {
+      "id": "lautech-100-chm101-192",
+      "prompt": "For I₂(g) + H₂(g) ⇌ 2HI(g), Kc = Kp because",
+      "answers": [
+        "Δn = 0",
+        "Δn > 0",
+        "R = 1",
+        "Δn < 0"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "2 mol gas on each side."
+    },
+    {
+      "id": "lautech-100-chm101-193",
+      "prompt": "For a gaseous reaction with equal moles of reactants and products,",
+      "answers": [
+        "there is no K",
+        "Kp < Kc",
+        "Kp = Kc",
+        "Kp > Kc"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Δn = 0."
+    },
+    {
+      "id": "lautech-100-chm101-194",
+      "prompt": "If Δn is negative, then",
+      "answers": [
+        "Kp > Kc",
+        "Kp = Kc",
+        "Kp < Kc",
+        "Kp = 0"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "(RT) raised to a negative power is less than 1 (in dm³ atm units)."
+    },
+    {
+      "id": "lautech-100-chm101-195",
+      "prompt": "For reactions involving gases, the equilibrium law can conveniently be expressed in terms of",
+      "answers": [
+        "partial masses",
+        "partial pressures",
+        "partial volumes",
+        "partial temperatures"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "This gives Kp."
+    },
+    {
+      "id": "lautech-100-chm101-196",
+      "prompt": "For the dissociation of SO₃ at 393 K, Kp = 1.78 × 10⁻⁶ atm. Kc is (R = 0.08205 atm dm³ mol⁻¹ K⁻¹)",
+      "answers": [
+        "5.52 × 10⁻³ mol dm⁻³",
+        "3.25 × 10⁻² mol dm⁻³",
+        "2.58 × 10⁻⁶ mol dm⁻³",
+        "5.52 × 10⁻⁸ mol dm⁻³"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "2SO₃ ⇌ 2SO₂ + O₂, Δn = 1; Kc = Kp/RT = 1.78 × 10⁻⁶ ÷ 32.24."
+    },
+    {
+      "id": "lautech-100-chm101-197",
+      "prompt": "For H₂O(g) ⇌ H₂(g) + ½O₂(g) at 1500 °C, Kp = 1.87 × 10⁻⁶ atm^½. Kc is (R = 0.08205 atm dm³ mol⁻¹ K⁻¹)",
+      "answers": [
+        "1.78 × 10⁻⁵",
+        "3.52 × 10⁷",
+        "2.68 × 10⁻⁶",
+        "1.55 × 10⁻⁷ mol^½ dm^(−3/2)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Δn = ½; Kc = Kp/(RT)^½ = 1.87 × 10⁻⁶ ÷ √145.5 = 1.55 × 10⁻⁷."
+    },
+    {
+      "id": "lautech-100-chm101-198",
+      "prompt": "One mole of ethanoic acid is mixed with one mole of ethanol. At equilibrium 0.667 mol of acid has reacted to form ethyl ethanoate. Kc is",
+      "answers": [
+        "3.01",
+        "5.01",
+        "2.01",
+        "4.01"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Equilibrium: acid 0.333, alcohol 0.333, ester 0.667, water 0.667; Kc = 0.667²/0.333² = 4.01."
+    },
+    {
+      "id": "lautech-100-chm101-199",
+      "prompt": "At equilibrium, propanol is 0.012 mol dm⁻³, butanoic acid 0.832 mol dm⁻³, and propyl butanoate and water are each 0.174 mol dm⁻³. Kc is",
+      "answers": [
+        "4.03",
+        "2.03",
+        "3.03",
+        "1.03"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Kc = (0.174)²/(0.012 × 0.832) = 3.03."
+    },
+    {
+      "id": "lautech-100-chm101-200",
+      "prompt": "8.28 g of ethanol is heated with 60 g of ethanoic acid, leaving 49.74 g of acid at equilibrium. Kc is (C = 12, H = 1, O = 16)",
+      "answers": [
+        "4.38",
+        "3.92",
+        "4.52",
+        "6.12"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Ethanol 0.18 mol, acid 1.0 mol; 0.171 mol acid reacts; Kc = 0.171²/(0.009 × 0.829) = 3.92."
+    },
+    {
+      "id": "lautech-100-chm101-201",
+      "prompt": "In A + B ⇌ C + D, the initial concentration of A and B is 1.6 mol dm⁻³ each. At equilibrium [C] = 1.2 mol dm⁻³. Kc is",
+      "answers": [
+        "12",
+        "9",
+        "6",
+        "3"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "[A] = [B] = 0.4; [C] = [D] = 1.2; Kc = 1.44/0.16 = 9."
+    },
+    {
+      "id": "lautech-100-chm101-202",
+      "prompt": "When Kc is large, the equilibrium mixture consists mainly of",
+      "answers": [
+        "reactants",
+        "products",
+        "equal amounts of both",
+        "catalyst"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "A large K means the equilibrium lies to the right."
+    },
+    {
+      "id": "lautech-100-chm101-203",
+      "prompt": "When Kc is small, the equilibrium mixture consists mainly of",
+      "answers": [
+        "products",
+        "reactants",
+        "both equally",
+        "none"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "A small K means the equilibrium lies to the left."
+    },
+    {
+      "id": "lautech-100-chm101-204",
+      "prompt": "Increasing the concentration of a reactant at equilibrium favours the formation of",
+      "answers": [
+        "reactants",
+        "products",
+        "the catalyst",
+        "neither"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Le Chatelier's principle: the system shifts to reduce the change."
+    },
+    {
+      "id": "lautech-100-chm101-205",
+      "prompt": "Decreasing the concentration of a product at equilibrium favours the formation of",
+      "answers": [
+        "neither",
+        "products",
+        "reactants",
+        "none of the above"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "The system shifts right to replace what was removed."
+    },
+    {
+      "id": "lautech-100-chm101-206",
+      "prompt": "Increasing the temperature of an endothermic reaction at equilibrium favours",
+      "answers": [
+        "only the catalyst",
+        "reactants",
+        "neither",
+        "products"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Heat is absorbed to oppose the change."
+    },
+    {
+      "id": "lautech-100-chm101-207",
+      "prompt": "Increasing the temperature of an exothermic reaction at equilibrium favours",
+      "answers": [
+        "products",
+        "reactants",
+        "both equally",
+        "neither"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "The reverse reaction absorbs heat."
+    },
+    {
+      "id": "lautech-100-chm101-208",
+      "prompt": "Decreasing the temperature of an exothermic reaction favours",
+      "answers": [
+        "products",
+        "both equally",
+        "neither",
+        "reactants"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The forward reaction releases heat."
+    },
+    {
+      "id": "lautech-100-chm101-209",
+      "prompt": "An increase in pressure on a gaseous equilibrium where the reactants have fewer moles than the products favours",
+      "answers": [
+        "reactants",
+        "neither",
+        "both equally",
+        "products"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The system shifts to the side with fewer moles of gas."
+    },
+    {
+      "id": "lautech-100-chm101-210",
+      "prompt": "A decrease in pressure on a gaseous equilibrium where the products have more moles than the reactants favours",
+      "answers": [
+        "products",
+        "neither",
+        "only the catalyst",
+        "reactants"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The system shifts toward more moles of gas."
+    },
+    {
+      "id": "lautech-100-chm101-211",
+      "prompt": "Which of these does NOT change the position of a chemical equilibrium?",
+      "answers": [
+        "Changing the temperature",
+        "Changing the concentration",
+        "Adding a catalyst",
+        "Changing the pressure of a gaseous system"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "A catalyst speeds both reactions equally."
+    },
+    {
+      "id": "lautech-100-chm101-212",
+      "prompt": "Which of these does NOT affect the rate of a chemical reaction?",
+      "answers": [
+        "Pressure (for gases)",
+        "Concentration",
+        "Temperature",
+        "Entropy change"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Entropy is a thermodynamic property, not a rate factor."
+    },
+    {
+      "id": "lautech-100-chm101-213",
+      "prompt": "In the Haber process, which of the following does NOT favour the production of ammonia?",
+      "answers": [
+        "High pressure",
+        "Increased concentration of reactants",
+        "High temperature",
+        "Removing ammonia as it forms"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "The reaction is exothermic, so a high temperature shifts equilibrium to the left (though it speeds up the rate)."
+    },
+    {
+      "id": "lautech-100-chm101-214",
+      "prompt": "Which of these increases the equilibrium yield of ammonia in the Haber process (N₂ + 3H₂ ⇌ 2NH₃, ΔH = −92 kJ)?",
+      "answers": [
+        "Increase in pressure",
+        "Adding more catalyst",
+        "Increase in temperature",
+        "Decrease in the concentration of the reactants"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Higher pressure shifts equilibrium to the side with fewer gas moles; a catalyst only speeds up the rate."
+    },
+    {
+      "id": "lautech-100-chm101-215",
+      "prompt": "In the contact process, which of these does NOT favour the production of SO₃?",
+      "answers": [
+        "High pressure",
+        "Increase in the concentration of reactants",
+        "Low temperature",
+        "High temperature"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "The reaction is exothermic (ΔH = −197 kJ/mol)."
+    },
+    {
+      "id": "lautech-100-chm101-216",
+      "prompt": "The enthalpy change for forming SO₃ is −197 kJ/mol. Which condition will NOT increase the yield of SO₃?",
+      "answers": [
+        "Adding oxygen to the mixture",
+        "Increase in pressure",
+        "Increase in temperature",
+        "Decrease in temperature"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Exothermic reactions are favoured by low temperature."
+    },
+    {
+      "id": "lautech-100-chm101-217",
+      "prompt": "Which of these increases the equilibrium yield of SO₃ in the contact process?",
+      "answers": [
+        "High pressure",
+        "Low pressure",
+        "Removing oxygen",
+        "High temperature"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Fewer moles of gas on the product side."
+    },
+    {
+      "id": "lautech-100-chm101-218",
+      "prompt": "Heterogeneous equilibria are those in which the reactants and products are",
+      "answers": [
+        "all in the solid state",
+        "all in the liquid state",
+        "in different physical states",
+        "all in the same physical state"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Hetero- means different."
+    },
+    {
+      "id": "lautech-100-chm101-219",
+      "prompt": "A homogeneous equilibrium is one in which reactants and products are",
+      "answers": [
+        "in different physical states",
+        "in the same physical state",
+        "different atomic numbers",
+        "different chemical elements"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Homo- means same."
+    },
+    {
+      "id": "lautech-100-chm101-220",
+      "prompt": "The Kc of a reaction has no units when",
+      "answers": [
+        "Δn = 0",
+        "Δn = −1",
+        "Kc is large",
+        "Δn = 1"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Concentration units cancel."
+    },
+    {
+      "id": "lautech-100-chm101-221",
+      "prompt": "The ionic product of dissolved ions in equilibrium with an undissolved solid is called the",
+      "answers": [
+        "solubility",
+        "concentration",
+        "ionic solubility",
+        "solubility product"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Ksp measures the extent of dissolution."
+    },
+    {
+      "id": "lautech-100-chm101-222",
+      "prompt": "The solubility product Ksp of aluminium sulphate is",
+      "answers": [
+        "[Al³⁺]²[SO₄²⁻]³",
+        "[Al³⁺]²[SO₄²⁻]²",
+        "[Al³⁺][SO₄²⁻]",
+        "[Al³⁺]³[SO₄²⁻]²"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Al₂(SO₄)₃ ⇌ 2Al³⁺ + 3SO₄²⁻."
+    },
+    {
+      "id": "lautech-100-chm101-223",
+      "prompt": "The solubility product Ksp of calcium phosphate, Ca₃(PO₄)₂, is",
+      "answers": [
+        "[Ca³⁺]⁴[PO₄³⁻]²",
+        "[Ca²⁺]²[PO₄³⁻]",
+        "[Ca²⁺]³[PO₄²⁻]⁴",
+        "[Ca²⁺]³[PO₄³⁻]²"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Ca₃(PO₄)₂ ⇌ 3Ca²⁺ + 2PO₄³⁻."
+    },
+    {
+      "id": "lautech-100-chm101-224",
+      "prompt": "The Ksp of PbI₂ is 1.00 × 10⁻⁹ mol³ dm⁻⁹. Its solubility is",
+      "answers": [
+        "1.36 × 10⁻³ mol dm⁻³",
+        "1.00 × 10⁻³ mol dm⁻³",
+        "6.3 × 10⁻⁴ mol dm⁻³",
+        "3.1 × 10⁻⁵ mol dm⁻³"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Ksp = 4s³, so s = (2.5 × 10⁻¹⁰)^⅓ = 6.3 × 10⁻⁴."
+    },
+    {
+      "id": "lautech-100-chm101-225",
+      "prompt": "The solubility of AgCl at 18 °C is 1.38 × 10⁻³ g dm⁻³ (M = 143.5 g/mol). Its Ksp is",
+      "answers": [
+        "1.20 × 10⁻¹⁰ mol² dm⁻⁶",
+        "2.40 × 10⁻¹⁰ mol² dm⁻⁶",
+        "9.25 × 10⁻¹¹ mol² dm⁻⁶",
+        "7.48 × 10⁻¹¹ mol² dm⁻⁶"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "s = 9.62 × 10⁻⁶ mol dm⁻³; Ksp = s² = 9.25 × 10⁻¹¹."
+    },
+    {
+      "id": "lautech-100-chm101-226",
+      "prompt": "Oxidation is the",
+      "answers": [
+        "gain of protons",
+        "gain of electrons",
+        "loss of neutrons",
+        "loss of electrons"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "OIL RIG: Oxidation Is Loss, Reduction Is Gain."
+    },
+    {
+      "id": "lautech-100-chm101-227",
+      "prompt": "Reduction is the",
+      "answers": [
+        "gain of electrons",
+        "gain of neutrons",
+        "loss of electrons",
+        "loss of protons"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "OIL RIG."
+    },
+    {
+      "id": "lautech-100-chm101-228",
+      "prompt": "Oxidation is the gain of electrons while reduction is the loss of electrons.",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "It is the opposite: oxidation is loss, reduction is gain."
+    },
+    {
+      "id": "lautech-100-chm101-229",
+      "prompt": "Oxidation is the addition of hydrogen and reduction is the addition of oxygen.",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Oxidation is addition of oxygen (or loss of hydrogen); reduction is the reverse."
+    },
+    {
+      "id": "lautech-100-chm101-230",
+      "prompt": "Which of these does NOT define oxidation?",
+      "answers": [
+        "Addition of oxygen",
+        "A process in which the oxidation number decreases",
+        "Loss of electrons",
+        "A process in which the oxidation number increases"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "A decrease in oxidation number is reduction."
+    },
+    {
+      "id": "lautech-100-chm101-231",
+      "prompt": "Which of these best defines reduction?",
+      "answers": [
+        "Addition of oxygen",
+        "A process in which the oxidation number decreases",
+        "A process in which the oxidation number increases",
+        "Loss of electrons"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Reduction lowers the oxidation number."
+    },
+    {
+      "id": "lautech-100-chm101-232",
+      "prompt": "The addition of an electronegative element (such as oxygen) to a substance is",
+      "answers": [
+        "hydrolysis",
+        "redox",
+        "reduction",
+        "oxidation"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Oxidation also includes addition of oxygen."
+    },
+    {
+      "id": "lautech-100-chm101-233",
+      "prompt": "The addition of an electropositive element (such as hydrogen or a metal) to a substance is",
+      "answers": [
+        "reduction",
+        "hydrolysis",
+        "oxidation",
+        "neutralisation"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Reduction is addition of electropositive or removal of electronegative elements."
+    },
+    {
+      "id": "lautech-100-chm101-234",
+      "prompt": "The removal of an electron from a chemical species is called",
+      "answers": [
+        "oxidation",
+        "reduction",
+        "dissociation",
+        "hydrolysis"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "The species loses electrons."
+    },
+    {
+      "id": "lautech-100-chm101-235",
+      "prompt": "The two processes that make up a redox reaction are",
+      "answers": [
+        "reduction and hydrolysis",
+        "oxidation and reduction",
+        "electrolysis and oxidation",
+        "hydrolysis and decomposition"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "They always occur together."
+    },
+    {
+      "id": "lautech-100-chm101-236",
+      "prompt": "The species that brings about oxidation and is itself reduced is the",
+      "answers": [
+        "oxidising agent (oxidant)",
+        "oxidation",
+        "reduction",
+        "reducing agent"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "An oxidising agent takes electrons from another species."
+    },
+    {
+      "id": "lautech-100-chm101-237",
+      "prompt": "The species that brings about reduction and is itself oxidised is the",
+      "answers": [
+        "reduction",
+        "reducing agent (reductant)",
+        "oxidising agent",
+        "oxidation"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "A reducing agent donates electrons."
+    },
+    {
+      "id": "lautech-100-chm101-238",
+      "prompt": "An oxidising agent is",
+      "answers": [
+        "the species whose oxidation number increases",
+        "the species that is oxidised",
+        "an electron acceptor",
+        "an electron donor"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "It gains electrons and is reduced."
+    },
+    {
+      "id": "lautech-100-chm101-239",
+      "prompt": "A reductant is best described as",
+      "answers": [
+        "a donor of electrons",
+        "an acceptor of electrons",
+        "a producer of protons",
+        "one that gains electrons"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "It loses electrons and is oxidised."
+    },
+    {
+      "id": "lautech-100-chm101-240",
+      "prompt": "A species that is both oxidised and acts as a reducing agent is called a",
+      "answers": [
+        "reductant",
+        "reduction",
+        "oxidant",
+        "oxidation"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Reductants are oxidised."
+    },
+    {
+      "id": "lautech-100-chm101-241",
+      "prompt": "The charge an atom appears to have in a neutral molecule or in an ion is its",
+      "answers": [
+        "oxidation number",
+        "electronegativity",
+        "oxidising agent",
+        "valency"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Oxidation number is the apparent charge on an atom."
+    },
+    {
+      "id": "lautech-100-chm101-242",
+      "prompt": "The oxidation number of an uncombined element is",
+      "answers": [
+        "−1",
+        "+1",
+        "0",
+        "+2"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Atoms in the free element are neutral."
+    },
+    {
+      "id": "lautech-100-chm101-243",
+      "prompt": "The oxidation number of oxygen in NaOH is",
+      "answers": [
+        "−2",
+        "−1",
+        "+1",
+        "+2"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "O is −2, H is +1, Na is +1."
+    },
+    {
+      "id": "lautech-100-chm101-244",
+      "prompt": "The oxidation numbers of oxygen in H₂O and H₂O₂ respectively are",
+      "answers": [
+        "+2 and −1",
+        "−1 and −2",
+        "−2 and +2",
+        "−2 and −1"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Peroxides contain O–O bonds with oxygen at −1."
+    },
+    {
+      "id": "lautech-100-chm101-245",
+      "prompt": "The oxidation number of oxygen in a peroxide is",
+      "answers": [
+        "+3",
+        "−2",
+        "−1",
+        "+1"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Peroxides have the O₂²⁻ unit."
+    },
+    {
+      "id": "lautech-100-chm101-246",
+      "prompt": "The oxidation number of oxygen in KO₂ (a superoxide) is",
+      "answers": [
+        "−1",
+        "+2",
+        "−2",
+        "−½"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Potassium is +1, so the two O atoms carry −1 together."
+    },
+    {
+      "id": "lautech-100-chm101-247",
+      "prompt": "The oxidation number of each oxygen atom in O₃⁻ is",
+      "answers": [
+        "−2",
+        "−½",
+        "−1",
+        "−⅓"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Total charge −1 shared among 3 atoms."
+    },
+    {
+      "id": "lautech-100-chm101-248",
+      "prompt": "The oxidation number of hydrogen in H₂O₂ and H₂O is",
+      "answers": [
+        "+1 and +1",
+        "−½ and +1",
+        "−1 and +1",
+        "+2 and −1"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Hydrogen is +1 in both."
+    },
+    {
+      "id": "lautech-100-chm101-249",
+      "prompt": "Hydrogen has an oxidation number of −1 in",
+      "answers": [
+        "halides",
+        "peroxides",
+        "hydrides",
+        "hydroxides"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "In metal hydrides such as NaH, hydrogen is the more electronegative element."
+    },
+    {
+      "id": "lautech-100-chm101-250",
+      "prompt": "Hydrogen has an oxidation number of −1 when combined with a",
+      "answers": [
+        "metal",
+        "non-metal",
+        "halogen",
+        "noble gas"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Metal hydrides contain H⁻."
+    },
+    {
+      "id": "lautech-100-chm101-251",
+      "prompt": "The oxidation number of hydrogen is +1 in all of these EXCEPT",
+      "answers": [
+        "NaH",
+        "NaOH",
+        "H₂S",
+        "HCl"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "In NaH hydrogen is −1."
+    },
+    {
+      "id": "lautech-100-chm101-252",
+      "prompt": "In which compound is the oxidation state of hydrogen −1?",
+      "answers": [
+        "H₂S",
+        "NaOH",
+        "H₂O",
+        "NaH"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "NaH is a metal hydride."
+    },
+    {
+      "id": "lautech-100-chm101-253",
+      "prompt": "The oxidation number of hydrogen is +1 in",
+      "answers": [
+        "hydrides",
+        "halides",
+        "sodium hydride",
+        "metal hydrides"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "In HCl, H is +1 and Cl is −1."
+    },
+    {
+      "id": "lautech-100-chm101-254",
+      "prompt": "The oxidation number of chromium in K₂Cr₂O₇ is",
+      "answers": [
+        "−6",
+        "+6",
+        "−7",
+        "+7"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "2(+1) + 2x + 7(−2) = 0, so x = +6."
+    },
+    {
+      "id": "lautech-100-chm101-255",
+      "prompt": "The oxidation number of chromium in K₂CrO₄ is",
+      "answers": [
+        "−7",
+        "−6",
+        "+6",
+        "+7"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "2(+1) + x + 4(−2) = 0."
+    },
+    {
+      "id": "lautech-100-chm101-256",
+      "prompt": "The oxidation number of chromium in Cr₂O₇²⁻ is",
+      "answers": [
+        "+6",
+        "−6",
+        "−7",
+        "+7"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "2x − 14 = −2."
+    },
+    {
+      "id": "lautech-100-chm101-257",
+      "prompt": "The oxidation number of iodine in NaIO₄ is",
+      "answers": [
+        "+8",
+        "+7",
+        "−8",
+        "−7"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "+1 + x − 8 = 0."
+    },
+    {
+      "id": "lautech-100-chm101-258",
+      "prompt": "The oxidation number of iodine in IO₃⁻ is",
+      "answers": [
+        "−1",
+        "+1",
+        "+5",
+        "−5"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "x − 6 = −1."
+    },
+    {
+      "id": "lautech-100-chm101-259",
+      "prompt": "The oxidation number of phosphorus in PH₃ is",
+      "answers": [
+        "−3",
+        "−5",
+        "+5",
+        "+3"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "H is +1, so P is −3."
+    },
+    {
+      "id": "lautech-100-chm101-260",
+      "prompt": "The oxidation number of phosphorus in PO₄³⁻ is",
+      "answers": [
+        "+5",
+        "−5",
+        "+6",
+        "+4"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "x − 8 = −3."
+    },
+    {
+      "id": "lautech-100-chm101-261",
+      "prompt": "The oxidation number of manganese in KMnO₄ is",
+      "answers": [
+        "+7",
+        "+1",
+        "+2",
+        "+6"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "+1 + x − 8 = 0."
+    },
+    {
+      "id": "lautech-100-chm101-262",
+      "prompt": "The oxidation number of nitrogen in N₂O is",
+      "answers": [
+        "+2",
+        "+1",
+        "−1",
+        "−2"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "2x − 2 = 0."
+    },
+    {
+      "id": "lautech-100-chm101-263",
+      "prompt": "The oxidation number of nitrogen in NO₂ is",
+      "answers": [
+        "−4",
+        "+4",
+        "+2",
+        "−1"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "x − 4 = 0."
+    },
+    {
+      "id": "lautech-100-chm101-264",
+      "prompt": "In which oxide does nitrogen have an oxidation number of +4?",
+      "answers": [
+        "N₂O",
+        "N₂O₃",
+        "NO₂",
+        "KNO₃"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "N₂O is +1, N₂O₃ is +3, KNO₃ is +5."
+    },
+    {
+      "id": "lautech-100-chm101-265",
+      "prompt": "In which of these does nitrogen have an oxidation number of +1?",
+      "answers": [
+        "NO₂",
+        "KNO₃",
+        "NO",
+        "N₂O"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "2x − 2 = 0."
+    },
+    {
+      "id": "lautech-100-chm101-266",
+      "prompt": "Given that O is −2 and C is +4, the charge on the CO₃ ion is",
+      "answers": [
+        "−1",
+        "−2",
+        "−4",
+        "0"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "+4 + 3(−2) = −2."
+    },
+    {
+      "id": "lautech-100-chm101-267",
+      "prompt": "In 2Al(s) + 6H⁺ → 2Al³⁺ + 3H₂, how many moles of electrons are transferred?",
+      "answers": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Each Al loses 3 electrons: 2 × 3 = 6."
+    },
+    {
+      "id": "lautech-100-chm101-268",
+      "prompt": "In Sn²⁺ + 2Fe³⁺ → Sn⁴⁺ + 2Fe²⁺, electrons are transferred from",
+      "answers": [
+        "Sn²⁺ to Fe³⁺",
+        "Fe³⁺ to Sn²⁺",
+        "Fe²⁺ to Sn⁴⁺",
+        "Sn⁴⁺ to Fe²⁺"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Sn²⁺ is oxidised, giving electrons to Fe³⁺."
+    },
+    {
+      "id": "lautech-100-chm101-269",
+      "prompt": "How many electrons are transferred in Sn²⁺ + 2Fe³⁺ → Sn⁴⁺ + 2Fe²⁺?",
+      "answers": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Sn loses 2 electrons; each Fe³⁺ gains 1."
+    },
+    {
+      "id": "lautech-100-chm101-270",
+      "prompt": "In MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O, the number of electrons transferred is",
+      "answers": [
+        "9",
+        "7",
+        "4",
+        "5"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Mn goes from +7 to +2 (5 electrons gained)."
+    },
+    {
+      "id": "lautech-100-chm101-271",
+      "prompt": "In 5Fe²⁺ + MnO₄⁻ + 8H⁺ → 5Fe³⁺ + Mn²⁺ + 4H₂O, the species reduced is",
+      "answers": [
+        "Fe²⁺",
+        "Fe³⁺",
+        "Mn²⁺",
+        "MnO₄⁻"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Mn(+7) → Mn(+2)."
+    },
+    {
+      "id": "lautech-100-chm101-272",
+      "prompt": "In Fe²⁺ + MnO₄⁻ → Fe³⁺ + Mn²⁺ the oxidising agent is",
+      "answers": [
+        "Mn²⁺",
+        "Fe²⁺",
+        "MnO₄⁻",
+        "Fe³⁺"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "MnO₄⁻ accepts electrons."
+    },
+    {
+      "id": "lautech-100-chm101-273",
+      "prompt": "In MnO₄⁻ + 5Fe²⁺ → Mn²⁺ + 5Fe³⁺, the number of H⁺ ions needed to balance it in acidic medium is",
+      "answers": [
+        "8",
+        "4",
+        "10",
+        "2"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O."
+    },
+    {
+      "id": "lautech-100-chm101-274",
+      "prompt": "In MnO₄⁻ + 5Fe²⁺ → Mn²⁺ + 5Fe³⁺, the number of OH⁻ ions needed to balance it in alkaline medium is",
+      "answers": [
+        "8",
+        "4",
+        "2",
+        "5"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Add 8OH⁻ to both sides to convert the 8H⁺ into 8H₂O."
+    },
+    {
+      "id": "lautech-100-chm101-275",
+      "prompt": "In the equation Mo₂₄O₃₇ + a MnO₄⁻ + b H⁺ → c MoO₃ + d Mn²⁺ + e H₂O, the values of a, b and c are",
+      "answers": [
+        "14, 42 and 24",
+        "2, 14 and 42",
+        "42, 14 and 24",
+        "24, 42 and 14"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Mo₂₄O₃₇ loses 70 e⁻; each MnO₄⁻ gains 5, so a = 14; charge balance gives b = 42; c = 24."
+    },
+    {
+      "id": "lautech-100-chm101-276",
+      "prompt": "How many electrons are transferred in Mo₂₄O₃₇ + 14MnO₄⁻ + 42H⁺ → 24MoO₃ + 14Mn²⁺ + 21H₂O?",
+      "answers": [
+        "24",
+        "5",
+        "14",
+        "70"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "14 MnO₄⁻ × 5 e⁻ = 70."
+    },
+    {
+      "id": "lautech-100-chm101-277",
+      "prompt": "In 3CuO + 2NH₃ → 3Cu + N₂ + 3H₂O, the oxidising agent is",
+      "answers": [
+        "N₂",
+        "NH₃",
+        "CuO",
+        "Cu"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Cu(+2) is reduced to Cu(0)."
+    },
+    {
+      "id": "lautech-100-chm101-278",
+      "prompt": "In 3CuO + 2NH₃ → 3Cu + N₂ + 3H₂O, the reducing agent is",
+      "answers": [
+        "CuO",
+        "NH₃",
+        "H₂O",
+        "Cu"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "N(−3) is oxidised to N(0)."
+    },
+    {
+      "id": "lautech-100-chm101-279",
+      "prompt": "In 2H₂S + SO₂ → 3S + 2H₂O, the oxidising agent is",
+      "answers": [
+        "H₂O",
+        "H₂S",
+        "SO₂",
+        "S"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "S(+4) is reduced to S(0)."
+    },
+    {
+      "id": "lautech-100-chm101-280",
+      "prompt": "When H₂S is passed through a solution and a yellow deposit of sulphur forms, the solution contains",
+      "answers": [
+        "an oxidising agent",
+        "an acid",
+        "a base",
+        "a reducing agent"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "H₂S is oxidised to sulphur, so the solution is oxidising."
+    },
+    {
+      "id": "lautech-100-chm101-281",
+      "prompt": "In Mn + Zn²⁺ → Mn²⁺ + Zn, the species oxidised is",
+      "answers": [
+        "Zn²⁺",
+        "Mn²⁺",
+        "Zn",
+        "Mn"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Mn goes from 0 to +2."
+    },
+    {
+      "id": "lautech-100-chm101-282",
+      "prompt": "In I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻, the species reduced is",
+      "answers": [
+        "both I₂ and S₂O₃²⁻",
+        "S₂O₃²⁻",
+        "I₂",
+        "neither"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "I₂ (0) gains electrons to become I⁻; the thiosulphate is oxidised."
+    },
+    {
+      "id": "lautech-100-chm101-283",
+      "prompt": "In 2Fe²⁺ + Cl₂ → 2Fe³⁺ + 2Cl⁻, Cl₂ is reduced because",
+      "answers": [
+        "its oxidation number decreases",
+        "it has lost electrons",
+        "it has gained a proton",
+        "it has been converted to two molecules"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Cl goes from 0 to −1."
+    },
+    {
+      "id": "lautech-100-chm101-284",
+      "prompt": "Which of the following is a redox reaction?",
+      "answers": [
+        "CaCO₃ → CaO + CO₂",
+        "2Al + 3Cu²⁺ → 2Al³⁺ + 3Cu",
+        "HCl + NaOH → NaCl + H₂O",
+        "Cr₂O₇²⁻ + H₂O → 2CrO₄²⁻ + 2H⁺"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Aluminium is oxidised and copper reduced; the others involve no oxidation-number change."
+    },
+    {
+      "id": "lautech-100-chm101-285",
+      "prompt": "Which of the following is a disproportionation reaction?",
+      "answers": [
+        "P₄ → H₂PO₂⁻ + PH₃",
+        "2Al + 3Cu²⁺ → 2Al³⁺ + 3Cu",
+        "Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O",
+        "P₄ + 5O₂ → P₄O₁₀"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "P(0) is both oxidised (to +1) and reduced (to −3)."
+    },
+    {
+      "id": "lautech-100-chm101-286",
+      "prompt": "In the disproportionation P₄ → H₂PO₂⁻ + PH₃, phosphorus is reduced by a change in oxidation state from",
+      "answers": [
+        "0 to −3",
+        "0 to +3",
+        "0 to +1",
+        "0 to −1"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "PH₃ contains P(−3)."
+    },
+    {
+      "id": "lautech-100-chm101-287",
+      "prompt": "In galvanic cells, the electrolyte commonly used in the salt bridge is",
+      "answers": [
+        "Al₂(SO₄)₃",
+        "PbCl₂",
+        "KNO₃",
+        "AgCl"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "KNO₃ (or KCl) is a salt whose ions do not interfere with the cell reactions."
+    },
+    {
+      "id": "lautech-100-chm101-288",
+      "prompt": "In a galvanic cell, which process occurs at the anode?",
+      "answers": [
+        "Oxidation",
+        "Reduction",
+        "Dissociation",
+        "Neutralisation"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "The anode is where oxidation occurs."
+    },
+    {
+      "id": "lautech-100-chm101-289",
+      "prompt": "Reduction takes place at the",
+      "answers": [
+        "anode",
+        "electrolyte",
+        "cathode",
+        "salt bridge"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Reduction occurs at the cathode in all cells."
+    },
+    {
+      "id": "lautech-100-chm101-290",
+      "prompt": "Oxidation takes place at the",
+      "answers": [
+        "anode",
+        "voltmeter",
+        "cathode",
+        "salt bridge"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Anode = oxidation."
+    },
+    {
+      "id": "lautech-100-chm101-291",
+      "prompt": "The reaction that occurs at the anode of an electrolytic cell is",
+      "answers": [
+        "reduction",
+        "hydrolysis",
+        "dissociation",
+        "oxidation"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Anions lose electrons at the anode."
+    },
+    {
+      "id": "lautech-100-chm101-292",
+      "prompt": "A galvanic cell produces",
+      "answers": [
+        "a non-redox reaction",
+        "an incomplete reaction",
+        "electrical energy",
+        "a non-spontaneous reaction"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Chemical energy from a spontaneous redox reaction is converted to electrical energy."
+    },
+    {
+      "id": "lautech-100-chm101-293",
+      "prompt": "A galvanic cell is based on a ___ reaction.",
+      "answers": [
+        "non-spontaneous",
+        "spontaneous",
+        "non-redox",
+        "non-feasible"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "ΔG is negative."
+    },
+    {
+      "id": "lautech-100-chm101-294",
+      "prompt": "In a galvanic cell, the free-energy change ΔG is",
+      "answers": [
+        "less than zero",
+        "equal to zero",
+        "greater than zero",
+        "equal to 1"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "A spontaneous process has ΔG < 0."
+    },
+    {
+      "id": "lautech-100-chm101-295",
+      "prompt": "In an electrolytic cell, energy is converted from",
+      "answers": [
+        "electrical to chemical",
+        "chemical to electrical",
+        "electrical to light",
+        "chemical to mechanical"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "A current drives a non-spontaneous reaction."
+    },
+    {
+      "id": "lautech-100-chm101-296",
+      "prompt": "The standard half-cell used as the reference in electrochemistry is the",
+      "answers": [
+        "copper half-cell",
+        "voltaic half-cell",
+        "electrolytic half-cell",
+        "standard hydrogen electrode"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "It is assigned E° = 0.00 V."
+    },
+    {
+      "id": "lautech-100-chm101-297",
+      "prompt": "E°cell of a reaction is zero when the reaction is",
+      "answers": [
+        "feasible",
+        "at equilibrium",
+        "non-spontaneous",
+        "spontaneous"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "At equilibrium the cell does no work."
+    },
+    {
+      "id": "lautech-100-chm101-298",
+      "prompt": "In an electrochemical reaction, the flow of electrons produces",
+      "answers": [
+        "oxidation only",
+        "an electric current",
+        "redox only",
+        "a spontaneous reaction only"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Moving charge is current."
+    },
+    {
+      "id": "lautech-100-chm101-299",
+      "prompt": "Which of these is NOT likely to occur as a reaction in electrochemistry?",
+      "answers": [
+        "Redox",
+        "Oxidation",
+        "Hydrolysis",
+        "Reduction"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Electrochemical cells involve redox processes."
+    },
+    {
+      "id": "lautech-100-chm101-300",
+      "prompt": "The Zn|Zn²⁺ ‖ Pb²⁺|Pb cell has E°(Zn²⁺/Zn) = −0.76 V and E°(Pb²⁺/Pb) = −0.13 V. The cell EMF is",
+      "answers": [
+        "0.76 V",
+        "0.13 V",
+        "0.63 V",
+        "0.89 V"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "E°cell = E°cathode − E°anode = −0.13 − (−0.76) = 0.63 V. (Sources list 0.89 V, which adds the values.)"
+    },
+    {
+      "id": "lautech-100-chm101-301",
+      "prompt": "The electrode where current leaves the electrolyte in an electrolytic cell is the",
+      "answers": [
+        "anode",
+        "electrolyte",
+        "filament",
+        "cathode"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Conventional current enters the electrolyte at the anode and leaves at the cathode."
+    },
+    {
+      "id": "lautech-100-chm101-302",
+      "prompt": "The electrode through which current enters the electrolyte in an electrolytic cell is the",
+      "answers": [
+        "anode",
+        "electrolyte",
+        "salt bridge",
+        "cathode"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Conventional current enters at the anode."
+    },
+    {
+      "id": "lautech-100-chm101-303",
+      "prompt": "The vessel in which electrolysis takes place is called an",
+      "answers": [
+        "electrote",
+        "electrolyte",
+        "electrode",
+        "electrolytic cell (electrolyzer)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Electrodes dip into the electrolyte inside the cell."
+    },
+    {
+      "id": "lautech-100-chm101-304",
+      "prompt": "Which compound conducts electricity the least in solution?",
+      "answers": [
+        "Sugar solution",
+        "NaCl",
+        "NH₃ (aq)",
+        "ZnSO₄"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Sugar is a non-electrolyte; it does not form ions."
+    },
+    {
+      "id": "lautech-100-chm101-305",
+      "prompt": "Which compound is the odd one out among these aqueous solutions?",
+      "answers": [
+        "NaCl(aq)",
+        "Na₂SO₄(aq)",
+        "H₂SO₄(aq)",
+        "C₂H₅OH(aq)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Ethanol is a non-electrolyte; the others are electrolytes."
+    },
+    {
+      "id": "lautech-100-chm101-306",
+      "prompt": "A poor conductor cannot conduct electricity because it lacks",
+      "answers": [
+        "cations only",
+        "anions only",
+        "mobile electrons (or mobile charge carriers)",
+        "electrolytes only"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "No charge carriers can move freely."
+    },
+    {
+      "id": "lautech-100-chm101-307",
+      "prompt": "The SI unit of electric charge (quantity of electricity) is the",
+      "answers": [
+        "ampere",
+        "volt",
+        "ohm",
+        "coulomb"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "Q = I × t, in coulombs."
+    },
+    {
+      "id": "lautech-100-chm101-308",
+      "prompt": "Which of these is NOT an industrial use of electrolysis?",
+      "answers": [
+        "Extraction of aluminium",
+        "Extraction of iron",
+        "Electroplating",
+        "Purification of metals"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Iron is extracted in the blast furnace by reduction with carbon."
+    },
+    {
+      "id": "lautech-100-chm101-309",
+      "prompt": "Which of these is NOT a use of electrolysis?",
+      "answers": [
+        "Electroplating",
+        "Hydrogenation",
+        "Extraction of metals",
+        "Purification of metals"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Hydrogenation uses a catalyst and H₂ gas, not electrolysis."
+    },
+    {
+      "id": "lautech-100-chm101-310",
+      "prompt": "The process of coating a metal surface with another metal by electrolysis is",
+      "answers": [
+        "electroduction",
+        "electrodialysis",
+        "electrometal",
+        "electroplating"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "The object to be plated is made the cathode."
+    },
+    {
+      "id": "lautech-100-chm101-311",
+      "prompt": "Crude copper is purified by the electrolysis of CuSO₄ solution when the crude copper is made the",
+      "answers": [
+        "salt bridge",
+        "cathode",
+        "anode",
+        "electrolyte"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Copper dissolves from the anode and deposits on a pure copper cathode."
+    },
+    {
+      "id": "lautech-100-chm101-312",
+      "prompt": "In the purification of copper, the reaction at the anode is",
+      "answers": [
+        "oxidation (loss of electrons)",
+        "reduction because electrons are lost",
+        "oxidation because electrons are gained",
+        "reduction (gain of electrons)"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Cu → Cu²⁺ + 2e⁻."
+    },
+    {
+      "id": "lautech-100-chm101-313",
+      "prompt": "In the purification of copper, the cathode half-reaction is",
+      "answers": [
+        "Cu²⁺ − 2e⁻ → Cu",
+        "Cu²⁺ + 2e⁻ → Cu",
+        "Cu → Cu²⁺ + 2e⁻",
+        "Cu²⁺ + 2e⁻ → 2Cu"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Copper ions are reduced and deposited."
+    },
+    {
+      "id": "lautech-100-chm101-314",
+      "prompt": "In the electrolysis of dilute solution containing Al³⁺, Na⁺, Ca²⁺ and H⁺, which ion is discharged at an inert cathode?",
+      "answers": [
+        "Ca²⁺",
+        "Al³⁺",
+        "H⁺",
+        "Na⁺"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "H⁺ is lower in the reactivity series than the metals, so it is discharged first."
+    },
+    {
+      "id": "lautech-100-chm101-315",
+      "prompt": "What is discharged at the cathode during electrolysis of aqueous CuSO₄?",
+      "answers": [
+        "SO₄²⁻",
+        "Cu²⁺ (copper is deposited)",
+        "H⁺ only",
+        "both Cu²⁺ and H⁺"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Copper is below hydrogen in the reactivity series."
+    },
+    {
+      "id": "lautech-100-chm101-316",
+      "prompt": "In the electrolysis of aqueous CuSO₄, the ions that migrate to the anode are",
+      "answers": [
+        "Cu²⁺ and OH⁻",
+        "Cu²⁺ and SO₄²⁻",
+        "SO₄²⁻ and OH⁻",
+        "Cu²⁺ and H⁺"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Anions move to the anode."
+    },
+    {
+      "id": "lautech-100-chm101-317",
+      "prompt": "When platinum electrodes are used to electrolyse CuSO₄ solution, the solution becomes progressively",
+      "answers": [
+        "neutral",
+        "acidic",
+        "alkaline",
+        "basic"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "OH⁻ is discharged, leaving H⁺ (as H₂SO₄) in solution."
+    },
+    {
+      "id": "lautech-100-chm101-318",
+      "prompt": "In the electrolysis of copper(II) chloride solution, the reaction at the anode is",
+      "answers": [
+        "2Cl⁻ → Cl₂(g) + 2e⁻",
+        "4OH⁻ + 4e⁻ → O₂ + 2H₂O",
+        "2Cl⁻ → Cl(s) + 2e⁻",
+        "2Cl⁻ → Cl(aq) + 2e⁻"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Chloride ions are oxidised to chlorine gas."
+    },
+    {
+      "id": "lautech-100-chm101-319",
+      "prompt": "Which occurs at the cathode during electrolysis of brine?",
+      "answers": [
+        "2Cl⁻ → Cl₂ + 2e⁻",
+        "Na⁺ + e⁻ → Na",
+        "2H⁺ + 2e⁻ → H₂",
+        "H₂O → H⁺ + OH⁻"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Hydrogen is discharged in preference to sodium."
+    },
+    {
+      "id": "lautech-100-chm101-320",
+      "prompt": "In the electrolysis of NaCl solution, which of these ions is NOT present?",
+      "answers": [
+        "Ca²⁺",
+        "OH⁻",
+        "Na⁺",
+        "H⁺"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Calcium ions are not in a sodium chloride solution."
+    },
+    {
+      "id": "lautech-100-chm101-321",
+      "prompt": "In the electrolysis of molten NaCl, sodium forms at the",
+      "answers": [
+        "electrolyte",
+        "cathode",
+        "anode",
+        "salt bridge"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Na⁺ + e⁻ → Na is reduction."
+    },
+    {
+      "id": "lautech-100-chm101-322",
+      "prompt": "How many coulombs flow when a current of 0.4 A passes for 1 hour?",
+      "answers": [
+        "965 C",
+        "144 C",
+        "1440 C",
+        "96 500 C"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Q = It = 0.4 × 3600 = 1440 C."
+    },
+    {
+      "id": "lautech-100-chm101-323",
+      "prompt": "How many moles of electrons are transferred when 4825 C passes through an electrolytic cell? (1 F = 96 500 C)",
+      "answers": [
+        "0.025 mol",
+        "0.005 mol",
+        "0.0075 mol",
+        "0.05 mol"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "4825 ÷ 96 500 = 0.05."
+    },
+    {
+      "id": "lautech-100-chm101-324",
+      "prompt": "How many moles of magnesium are deposited by 6 mol of electrons? Mg²⁺ + 2e⁻ → Mg",
+      "answers": [
+        "1 mol",
+        "3 mol",
+        "4 mol",
+        "2 mol"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "6 ÷ 2 = 3."
+    },
+    {
+      "id": "lautech-100-chm101-325",
+      "prompt": "How many moles of copper are deposited by 3 F of electricity from CuSO₄ solution? (1 F = 96 500 C)",
+      "answers": [
+        "3.0 mol",
+        "1.5 mol",
+        "1.0 mol",
+        "0.5 mol"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Cu²⁺ + 2e⁻ → Cu needs 2 F per mole."
+    },
+    {
+      "id": "lautech-100-chm101-326",
+      "prompt": "How many moles of copper are deposited by 1 faraday of electricity from CuSO₄ solution?",
+      "answers": [
+        "0.5 mol",
+        "3 mol",
+        "2 mol",
+        "1 mol"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "2 faradays deposit 1 mole of Cu."
+    },
+    {
+      "id": "lautech-100-chm101-327",
+      "prompt": "How many faradays are needed to deposit 0.30 mol of nickel from Ni²⁺ solution?",
+      "answers": [
+        "0.15 F",
+        "0.06 F",
+        "0.60 F",
+        "0.30 F"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Ni²⁺ + 2e⁻ → Ni needs 2 F per mole."
+    },
+    {
+      "id": "lautech-100-chm101-328",
+      "prompt": "The same current is passed for the same time through AgNO₃ and CuSO₄ in series. How much silver is deposited when 1.00 g of copper is produced? (Ag = 108, Cu = 63.5)",
+      "answers": [
+        "6.8 g",
+        "1.7 g",
+        "3.4 g",
+        "13.6 g"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "1.00 g Cu = 0.0157 mol → 0.0315 mol e⁻ → 0.0315 mol Ag = 3.4 g."
+    },
+    {
+      "id": "lautech-100-chm101-329",
+      "prompt": "0.325 g of metal X (M = 65 g/mol) is deposited by a current of 0.5 A flowing for 32 min 10 s (F = 96 500 C/mol). The charge on the metal ion is",
+      "answers": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Q = 0.5 × 1930 = 965 C = 0.01 mol e⁻; 0.325 ÷ 65 = 0.005 mol X → 2 e⁻ per ion."
+    },
+    {
+      "id": "lautech-100-chm101-330",
+      "prompt": "What mass of sodium is discharged when 10.0 A passes through molten NaCl for 4 hours? (Na = 23, F = 96 500 C/mol)",
+      "answers": [
+        "78.3 g",
+        "34.3 g",
+        "56.25 g",
+        "23.8 g"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Q = 144 000 C = 1.49 mol e⁻ → 1.49 mol Na = 34.3 g."
+    },
+    {
+      "id": "lautech-100-chm101-331",
+      "prompt": "Electrolysis of a salt yields 9.71 g of chromium after 10 A flows for 1.5 hours (Cr = 52). The oxidation number of chromium in the salt is",
+      "answers": [
+        "+4",
+        "+3",
+        "−4",
+        "−3"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Q = 54 000 C = 0.56 mol e⁻; 9.71 ÷ 52 = 0.187 mol Cr → 3 e⁻ per ion."
+    },
+    {
+      "id": "lautech-100-chm101-332",
+      "prompt": "What mass of aluminium is produced in one day by electrolysing Al₂O₃ in molten cryolite at a constant current of 1 × 10⁵ A? (Al = 27, F = 96 500 C/mol)",
+      "answers": [
+        "4.28 × 10⁶ g",
+        "3.25 × 10⁻⁷ g",
+        "8.06 × 10⁵ g",
+        "2.36 × 10² g"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Q = 8.64 × 10⁹ C → 8.95 × 10⁴ mol e⁻ ÷ 3 × 27 = 8.06 × 10⁵ g."
+    },
+    {
+      "id": "lautech-100-chm101-333",
+      "prompt": "0.98 g of a trivalent metal is deposited by 10 A flowing for 2.4 minutes. Its molar mass is (F = 96 500 C/mol)",
+      "answers": [
+        "84 g/mol",
+        "197 g/mol",
+        "120 g/mol",
+        "281 g/mol"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Q = 1440 C = 0.0149 mol e⁻ → 0.00497 mol metal; M = 0.98 ÷ 0.00497 = 197."
+    },
+    {
+      "id": "lautech-100-chm101-334",
+      "prompt": "A current of 3.0 A is passed through acidified water for 2 hours. The volume of oxygen at S.T.P. is (F = 96 500 C/mol; molar volume = 22.4 dm³)",
+      "answers": [
+        "1253 cm³",
+        "4200 cm³",
+        "1156 cm³",
+        "3214 cm³"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Q = 21 600 C = 0.224 mol e⁻ → 0.056 mol O₂ = 1.25 dm³."
+    },
+    {
+      "id": "lautech-100-chm101-335",
+      "prompt": "What mass of gold is deposited when 15 A flows for 193 s through gold(III) sulphate solution? (Au = 197, F = 96 500 C/mol)",
+      "answers": [
+        "19.70 g",
+        "1.97 g",
+        "3.94 g",
+        "5.91 g"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Q = 2895 C = 0.03 mol e⁻ → 0.01 mol Au = 1.97 g."
+    },
+    {
+      "id": "lautech-100-chm101-336",
+      "prompt": "If 10.8 g of silver is deposited in a silver voltameter, the volume of oxygen liberated at S.T.P. is (Ag = 108, molar volume = 22.4 dm³)",
+      "answers": [
+        "5.60 dm³",
+        "0.56 dm³",
+        "22.40 dm³",
+        "11.20 dm³"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "0.1 mol e⁻ → 0.025 mol O₂ = 0.56 dm³."
+    },
+    {
+      "id": "lautech-100-chm101-337",
+      "prompt": "In a spontaneous reaction, ΔG is",
+      "answers": [
+        "infinite",
+        "positive",
+        "zero",
+        "negative"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "ΔG < 0 means a spontaneous (feasible) reaction."
+    },
+    {
+      "id": "lautech-100-chm101-338",
+      "prompt": "For a reaction with ΔG = −42 J at 1300 K, the reaction is",
+      "answers": [
+        "not feasible",
+        "at equilibrium",
+        "endothermic",
+        "spontaneous"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "A negative ΔG means spontaneous."
+    },
+    {
+      "id": "lautech-100-chm101-339",
+      "prompt": "For C(s) + H₂O → H₂ + CO(g), ΔG at 1300 K is −43 kJ. At this temperature the reaction is",
+      "answers": [
+        "non-spontaneous",
+        "endothermic only",
+        "at equilibrium",
+        "spontaneous"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "ΔG < 0."
+    },
+    {
+      "id": "lautech-100-chm101-340",
+      "prompt": "Entropy is a measure of the",
+      "answers": [
+        "degree of randomness (disorder) of a system",
+        "heat content",
+        "activation energy",
+        "free energy"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Higher disorder = higher entropy."
+    },
+    {
+      "id": "lautech-100-chm101-341",
+      "prompt": "Which of these leads to an increase in entropy?",
+      "answers": [
+        "Cooling a saturated solution",
+        "Freezing water",
+        "Boiling a sample of water",
+        "Condensation of water vapour"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "A liquid becoming a gas increases disorder."
+    },
+    {
+      "id": "lautech-100-chm101-342",
+      "prompt": "The standard Gibbs free-energy change for CaCO₃ → CaO + CO₂ at 25 °C is (ΔH = +178 kJ/mol, ΔS = 161 J/mol/K)",
+      "answers": [
+        "−130 kJ/mol",
+        "−47 800 J/mol",
+        "+47 800 kJ/mol",
+        "+130 kJ/mol"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "ΔG = ΔH − TΔS = 178 − 298 × 0.161 = +130 kJ/mol."
+    },
+    {
+      "id": "lautech-100-chm101-343",
+      "prompt": "The free-energy change of a system is −899 kJ/mol and ΔS = 10 kJ/mol/K at 25 °C. The enthalpy change is",
+      "answers": [
+        "+2081 kJ/mol",
+        "+699 J/mol",
+        "−2081 J/mol",
+        "−699 J/mol"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "ΔH = ΔG + TΔS = −899 + 298 × 10 ≈ +2081 kJ/mol."
+    },
+    {
+      "id": "lautech-100-chm101-344",
+      "prompt": "The molar heat of transition of a substance is 9500 J/mol at 60 °C. The entropy change is",
+      "answers": [
+        "28.5 J/mol/K",
+        "158 kJ/mol/K",
+        "158.3 J/mol/K",
+        "9500 J/mol/K"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "ΔS = ΔH/T = 9500 ÷ 333 = 28.5."
+    },
+    {
+      "id": "lautech-100-chm101-345",
+      "prompt": "For N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = −92 kJ. The enthalpy of formation of ammonia is",
+      "answers": [
+        "−92 kJ/mol",
+        "+46 kJ/mol",
+        "+92 kJ/mol",
+        "−46 kJ/mol"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "The enthalpy of formation is per mole of NH₃: −92 ÷ 2 = −46 kJ/mol."
+    },
+    {
+      "id": "lautech-100-chm101-346",
+      "prompt": "For aA + bB ⇌ cC + dD, ΔH = −10 kJ. What is ΔH for cC + dD ⇌ aA + bB?",
+      "answers": [
+        "−20 kJ",
+        "+20 kJ",
+        "−10 kJ",
+        "+10 kJ"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Reversing a reaction changes the sign of ΔH."
+    },
+    {
+      "id": "lautech-100-chm101-347",
+      "prompt": "For A + B → C + D, ΔH = −10 kJ. What is ΔH for 2C + 2D → 2A + 2B?",
+      "answers": [
+        "−20 kJ",
+        "0",
+        "+20 kJ",
+        "−10 kJ"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Reverse the reaction (+10) and double it (+20)."
+    },
+    {
+      "id": "lautech-100-chm101-348",
+      "prompt": "C(s) + 2S → CS₂(g), ΔH = +89 kJ/mol. This implies that",
+      "answers": [
+        "89 kJ/mol of energy is absorbed",
+        "both elements release 89 kJ/mol",
+        "carbon and sulphur each contain 89 kJ/mol",
+        "89 kJ/mol of energy is released"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "A positive ΔH means an endothermic reaction."
+    },
+    {
+      "id": "lautech-100-chm101-349",
+      "prompt": "CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O, ΔH = −890 kJ/mol. This ΔH is the standard enthalpy of",
+      "answers": [
+        "neutralisation",
+        "combustion",
+        "formation",
+        "solution"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "It is the heat released on burning one mole of methane."
+    },
+    {
+      "id": "lautech-100-chm101-350",
+      "prompt": "During bond formation in a chemical reaction, energy is",
+      "answers": [
+        "supplied",
+        "absorbed",
+        "released",
+        "not changed"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Bond making is exothermic."
+    },
+    {
+      "id": "lautech-100-chm101-351",
+      "prompt": "The enthalpy of combustion of hydrogen is −283.5 kJ/mol. The enthalpy of formation of liquid water is",
+      "answers": [
+        "−283.5 kJ/mol",
+        "−146.5 kJ/mol",
+        "+243.5 kJ/mol",
+        "+283.5 kJ/mol"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Burning H₂ forms water, so combustion of H₂ equals formation of H₂O. (The sources' key of +283.5 has the wrong sign.)"
+    },
+    {
+      "id": "lautech-100-chm101-352",
+      "prompt": "2H₂(g) + O₂(g) → 2H₂O, ΔH = −57 kJ per mole of equation. How much heat is liberated by 12 g of hydrogen? (H = 1)",
+      "answers": [
+        "114 kJ",
+        "57 kJ",
+        "171 kJ",
+        "232 kJ"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "12 g = 6 mol H₂ = 3 × the equation: 3 × 57 = 171 kJ released (ΔH = −171 kJ)."
+    },
+    {
+      "id": "lautech-100-chm101-353",
+      "prompt": "When water freezes at 0 °C, heat is released. How much is released when 50 g freezes? (M = 18 g/mol; ΔH_freezing = −6 kJ/mol)",
+      "answers": [
+        "+16.7 kJ",
+        "−16.7 kJ",
+        "−6 kJ",
+        "+6 kJ"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "50 ÷ 18 = 2.78 mol × (−6) = −16.7 kJ."
+    },
+    {
+      "id": "lautech-100-chm101-354",
+      "prompt": "What is the heat change when 500 kg of ammonia is produced? N₂ + 3H₂ → 2NH₃, ΔH = −91.8 kJ (N = 14, H = 1)",
+      "answers": [
+        "+1350 kJ",
+        "−1350 kJ",
+        "−1.35 × 10⁶ kJ",
+        "+1.35 × 10⁶ kJ"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "500 000 ÷ 17 = 29 412 mol NH₃ ÷ 2 × (−91.8) = −1.35 × 10⁶ kJ."
+    },
+    {
+      "id": "lautech-100-chm101-355",
+      "prompt": "Calculate ΔH for 2CO + O₂ → 2CO₂, given ΔHf(CO₂) = −393 kJ/mol and ΔHf(CO) = −110.4 kJ/mol.",
+      "answers": [
+        "−565.2 kJ",
+        "+565.2 kJ",
+        "−282.6 kJ",
+        "−503.4 kJ"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "ΔH = 2(−393) − 2(−110.4) = −565.2 kJ."
+    },
+    {
+      "id": "lautech-100-chm101-356",
+      "prompt": "In an exothermic reaction, ΔH is",
+      "answers": [
+        "zero",
+        "negative",
+        "positive",
+        "infinite"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Heat is released to the surroundings."
+    },
+    {
+      "id": "lautech-100-chm101-357",
+      "prompt": "The degree to which a measured value matches the true or accepted value is",
+      "answers": [
+        "error",
+        "precision",
+        "accuracy",
+        "data quality"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Accuracy is closeness to the true value."
+    },
+    {
+      "id": "lautech-100-chm101-358",
+      "prompt": "The closeness of agreement between replicate measurements is",
+      "answers": [
+        "accuracy",
+        "the true value",
+        "precision",
+        "error"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Precision describes reproducibility."
+    },
+    {
+      "id": "lautech-100-chm101-359",
+      "prompt": "Which statement about precision and accuracy is true?",
+      "answers": [
+        "Accurate measurements can be imprecise",
+        "Precision always implies accuracy",
+        "Accuracy and precision are cheap to obtain",
+        "Precise measurements can be inaccurate"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "A systematic error can shift precise results away from the true value."
+    },
+    {
+      "id": "lautech-100-chm101-360",
+      "prompt": "Which of these can be used to estimate accuracy?",
+      "answers": [
+        "Absolute error",
+        "Probable error",
+        "Standard deviation",
+        "Average deviation"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Absolute error compares a result with the true value; the others measure spread."
+    },
+    {
+      "id": "lautech-100-chm101-361",
+      "prompt": "Precision is estimated by all of the following EXCEPT",
+      "answers": [
+        "standard deviation",
+        "probable error",
+        "average deviation",
+        "absolute error"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Absolute error measures accuracy."
+    },
+    {
+      "id": "lautech-100-chm101-362",
+      "prompt": "The two kinds of errors affecting scientific measurements are",
+      "answers": [
+        "instrumental and personal only",
+        "constant and systematic only",
+        "random and chance only",
+        "determinate (systematic) and indeterminate (random)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "All errors fall into determinate and indeterminate classes."
+    },
+    {
+      "id": "lautech-100-chm101-363",
+      "prompt": "Errors due to faulty apparatus or reagents are called",
+      "answers": [
+        "operative errors",
+        "personal errors",
+        "methodical errors",
+        "instrumental errors"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "They arise from the equipment or reagents."
+    },
+    {
+      "id": "lautech-100-chm101-364",
+      "prompt": "Which of these CANNOT correct a determinate error?",
+      "answers": [
+        "Use of an independent method",
+        "Calibration of apparatus",
+        "Running a blank",
+        "Use of parallel (replicate) determinations"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Replicates reduce random error but do not remove systematic error."
+    },
+    {
+      "id": "lautech-100-chm101-365",
+      "prompt": "An error in a data set that leads to the commission of another error is called",
+      "answers": [
+        "false precision",
+        "propagation",
+        "spawning",
+        "horizontal error"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Errors propagate through calculations."
+    },
+    {
+      "id": "lautech-100-chm101-366",
+      "prompt": "An analyst finds 20.44 % iron in a sample whose true iron content is 20.34 %. The absolute error is",
+      "answers": [
+        "−0.20",
+        "−0.10",
+        "+0.20",
+        "+0.10"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "20.44 − 20.34 = +0.10."
+    },
+    {
+      "id": "lautech-100-chm101-367",
+      "prompt": "A student measures a mass as 52.63 g; the true mass is 58.78 g. The percentage relative error is",
+      "answers": [
+        "−10.5 %",
+        "−10.3 %",
+        "−10.7 %",
+        "−10.1 %"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "(52.63 − 58.78) ÷ 58.78 × 100 = −10.46 %."
+    },
+    {
+      "id": "lautech-100-chm101-368",
+      "prompt": "The mean chloride content measured is 27.99 µg/g and the true value is 34.75 µg/g. The relative error is",
+      "answers": [
+        "+0.195",
+        "−0.195 (−19.5 %)",
+        "−0.1946 × 10",
+        "−0.994"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "(27.99 − 34.75) ÷ 34.75 = −0.195."
+    },
+    {
+      "id": "lautech-100-chm101-369",
+      "prompt": "The mean Fe content found is 5.98 µg/g and the true value is 6.94 µg/g. The relative accuracy in parts per thousand is",
+      "answers": [
+        "861",
+        "160",
+        "861.67",
+        "1160"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "(5.98 ÷ 6.94) × 1000 = 861.67."
+    },
+    {
+      "id": "lautech-100-chm101-370",
+      "prompt": "The mean found is 2.4 g and the true value is 3.7 g. The relative accuracy is",
+      "answers": [
+        "0.6486",
+        "0.6497",
+        "0.2917",
+        "0.2968"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "2.4 ÷ 3.7 = 0.6486."
+    },
+    {
+      "id": "lautech-100-chm101-371",
+      "prompt": "The standard deviation of a measurement is 0.450 and the mean is 6.83. The coefficient of variation (%) is",
+      "answers": [
+        "6.50",
+        "6.59",
+        "6.54",
+        "6.89"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "(0.450 ÷ 6.83) × 100 = 6.59 %."
+    },
+    {
+      "id": "lautech-100-chm101-372",
+      "prompt": "Nine replicate vanadium determinations have a sum of deviations of 3.64 µg/L. The average deviation of the mean is",
+      "answers": [
+        "1.21",
+        "0.328",
+        "0.135",
+        "0.404"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Average deviation = 3.64 ÷ 9 = 0.404; the average deviation of the mean is 0.404 ÷ √9 = 0.135."
+    },
+    {
+      "id": "lautech-100-chm101-373",
+      "prompt": "The vanadium concentrations (µg/L) are 3.65, 4.11, 3.59, 7.51, 3.95, 3.87, 4.06, 1.48, 3.76 and 11.49. The mean is",
+      "answers": [
+        "4.75",
+        "4.91",
+        "3.29",
+        "3.86"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Sum = 47.47; ÷ 10 = 4.75."
+    },
+    {
+      "id": "lautech-100-chm101-374",
+      "prompt": "The same vanadium data (3.65, 4.11, 3.59, 7.51, 3.95, 3.87, 4.06, 1.48, 3.76, 11.49) have outliers 1.48, 7.51 and 11.49 rejected. The mean of the remaining values is",
+      "answers": [
+        "3.29",
+        "4.25",
+        "3.86",
+        "4.75"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Sum of the seven remaining values = 27.0; ÷ 7 = 3.86."
+    },
+    {
+      "id": "lautech-100-chm101-375",
+      "prompt": "Nine chloride results (µg/g) are 27.24, 27.18, 45.94, 27.31, 27.29, 27.38, 17.39, 27.42 and 11.44. The mean of all nine is",
+      "answers": [
+        "26.51",
+        "34.82",
+        "27.99",
+        "27.30"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Sum = 238.59; ÷ 9 = 26.51."
+    },
+    {
+      "id": "lautech-100-chm101-376",
+      "prompt": "Round 6.36500 to 3 significant figures.",
+      "answers": [
+        "6.36",
+        "6.370",
+        "6.38",
+        "6.37"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Using round-half-to-even, the preceding digit 6 is even, so 6.365 → 6.36."
+    },
+    {
+      "id": "lautech-100-chm101-377",
+      "prompt": "Simplify 2.568 × 5.8 ÷ 4.186, giving the correct number of significant figures.",
+      "answers": [
+        "3.558",
+        "3.56",
+        "3.5581",
+        "3.6"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "The result is 3.558; 5.8 has only 2 significant figures, so the answer is 3.6."
+    },
+    {
+      "id": "lautech-100-chm101-378",
+      "prompt": "Simplify 5.41 − 0.398, giving the correct number of decimal places.",
+      "answers": [
+        "5.01",
+        "5.0",
+        "5.0120",
+        "5.012"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Subtraction keeps the fewest decimal places (2): 5.012 → 5.01."
+    },
+    {
+      "id": "lautech-100-chm101-379",
+      "prompt": "Simplify (4.18 − 58.16) × (3.38 − 3.01) to the correct number of significant figures.",
+      "answers": [
+        "−19.97",
+        "−2.0",
+        "−20",
+        "−19.972"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "(−53.98) × (0.37) = −19.97; 0.37 has 2 significant figures, so −20."
+    },
+    {
+      "id": "lautech-100-chm101-380",
+      "prompt": "Simplify 5.61 × 7.891 ÷ 9.1 to the correct number of significant figures.",
+      "answers": [
+        "4.8",
+        "4.9",
+        "4.865",
+        "4.86"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "The result is 4.865; 9.1 has 2 significant figures, so 4.9. (Sources list 4.8, which truncates instead of rounding.)"
+    },
+    {
+      "id": "lautech-100-chm101-381",
+      "prompt": "Calculate 8.91 − 6.435 to the correct number of decimal places.",
+      "answers": [
+        "2.475",
+        "2.47",
+        "2.48",
+        "2.4750"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "2.475 rounded to 2 decimal places is 2.48."
+    },
+    {
+      "id": "lautech-100-chm101-382",
+      "prompt": "Calculate 6.81 − 6.730 to the correct number of decimal places.",
+      "answers": [
+        "−0.08",
+        "0.008",
+        "0.05",
+        "0.08"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "The least precise value (6.81) has 2 decimal places: 0.080 → 0.08."
+    },
+    {
+      "id": "lautech-100-chm101-383",
+      "prompt": "Solve 58.7 + 0.0394 − 4.296789 and give the answer to the correct significant figures.",
+      "answers": [
+        "54.013",
+        "54.0126",
+        "54.4",
+        "54.012667"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Addition/subtraction is limited by 58.7 (1 decimal place): 54.4425 → 54.4."
+    },
+    {
+      "id": "lautech-100-chm101-384",
+      "prompt": "Solve 58.27 + 0.0394 − 4.296789 and give the answer to the correct significant figures.",
+      "answers": [
+        "54.01",
+        "54.012611",
+        "54.0132",
+        "54.013"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "58.27 has 2 decimal places: 54.0126 → 54.01."
+    },
+    {
+      "id": "lautech-100-chm101-385",
+      "prompt": "Which of these has the correct oxidation-state statement: the sum of oxidation numbers in a neutral compound is",
+      "answers": [
+        "+1",
+        "−1",
+        "zero",
+        "equal to the number of atoms"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "A neutral compound has no net charge."
+    }
+  ]
+}

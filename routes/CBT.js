@@ -42,6 +42,12 @@ const repairTextEncoding = (value) => {
 };
 
 const MATH_PATTERN = /[=+−–×÷√∛∜∫∑∏≤≥≠≈∞∩∪∈∉∂∆πθλμσ²³⁴⁵⁶⁷⁸⁹⁰¹₀₁₂₃₄₅₆₇₈₉]|\b(?:log|ln|sin|cos|tan|cot|sec|csc|matrix|det|lim|integral|differentiate|coefficient)\b/i;
+const hasMathContent = (value) => {
+  const text = String(value || '');
+  // A year range such as 1803–1808 is not a calculation.
+  const withoutYearRanges = text.replace(/\b(?:1[5-9]\d{2}|20\d{2})[–-](?:1[5-9]\d{2}|20\d{2})\b/g, '');
+  return MATH_PATTERN.test(withoutYearRanges) || isFormulaOnly(withoutYearRanges);
+};
 const SUPER_TO_ASCII = { '⁰': '0', '¹': '1', '²': '2', '³': '3', '⁴': '4', '⁵': '5', '⁶': '6', '⁷': '7', '⁸': '8', '⁹': '9', '⁺': '+', '⁻': '-', '⁼': '=', '⁽': '(', '⁾': ')', 'ⁿ': 'n', 'ⁱ': 'i', 'ˣ': 'x', 'ʸ': 'y' };
 const SUB_TO_ASCII = { '₀': '0', '₁': '1', '₂': '2', '₃': '3', '₄': '4', '₅': '5', '₆': '6', '₇': '7', '₈': '8', '₉': '9', '₊': '+', '₋': '-', '₌': '=', '₍': '(', '₎': ')' };
 const toLatex = (value) => {
@@ -98,7 +104,8 @@ const decorateQuestion = (question) => {
     prompt,
     answers,
     explanation,
-    containsMath: MATH_PATTERN.test([prompt, ...answers, explanation].join(" ")),
+    containsMath: hasMathContent([prompt, ...answers, explanation].join(" ")),
+    answerContainsMath: answers.map(hasMathContent),
     math: {
       promptDisplay: extractPromptFormula(prompt),
       promptLatex: (() => {
