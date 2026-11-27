@@ -87,7 +87,7 @@ const extractPromptFormula = (prompt) => {
     .map((match) => match[1]?.trim())
     .filter(Boolean);
   const candidate = candidates.find(isFormulaOnly);
-  return candidate ? toLatex(candidate) : null;
+  return candidate || null;
 };
 const decorateQuestion = (question) => {
   const prompt = repairTextEncoding(question.prompt);
@@ -100,7 +100,11 @@ const decorateQuestion = (question) => {
     explanation,
     containsMath: MATH_PATTERN.test([prompt, ...answers, explanation].join(" ")),
     math: {
-      promptLatex: extractPromptFormula(prompt),
+      promptDisplay: extractPromptFormula(prompt),
+      promptLatex: (() => {
+        const expression = extractPromptFormula(prompt);
+        return expression ? toLatex(expression) : null;
+      })(),
       answerLatex: answers.map((answer) => isFormulaOnly(answer) ? toLatex(answer) : null),
     },
   };
