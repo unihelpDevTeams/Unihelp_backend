@@ -1,0 +1,4081 @@
+{
+    "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "200",
+  "department": "Cyber security",
+  "course": {
+    "code": "CYB 202",
+    "title": "Introduction to Cybersecurity"
+  },
+
+    "questions": [
+        {
+          "id": "cyb202-001",
+          "prompt": "What is the primary role of an operating system in a computer system?",
+          "answers": [
+            "Serving as the fundamental layer of software managing hardware resources",
+            "Designing graphical user interfaces for web applications",
+            "Running antivirus programs automatically",
+            "Providing physical security for data servers"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-002",
+          "prompt": "According to the text, which of the following is characteristic of first-generation operating systems (1945-1955)?",
+          "answers": [
+            "They introduced the concept of batch processing.",
+            "They supported graphical user interfaces and multiprogramming.",
+            "They were very simple and allowed only one program to run at a time.",
+            "They included advanced features such as networking and distributed processing."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-003",
+          "prompt": "The concept of batch processing, which allowed multiple programs to be executed sequentially without user interactions, was introduced in which generation of operating systems?",
+          "answers": [
+            "First generation",
+            "Second generation",
+            "Third generation",
+            "Fourth generation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-004",
+          "prompt": "In the context of operating system security functions, what is the difference between authentication and authorization?",
+          "answers": [
+            "Authentication allocates memory resources, while authorization prioritizes processes.",
+            "Authentication verifies user identity, while authorization determines the permissions granted to those users.",
+            "Authentication encrypts data, while authorization monitors network traffic.",
+            "Authentication identifies malicious code, while authorization installs system patches."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-005",
+          "prompt": "Which of the following best describes the 'Real-time Protection' function of an operating system in malware defense?",
+          "answers": [
+            "Installing updates manually to address vulnerabilities",
+            "Enforcing access controls for files and directories",
+            "Providing real-time monitoring for potential threats to enable immediate action",
+            "Creating virtual machines to isolate application environments"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-006",
+          "prompt": "In which type of operating system architecture are components organized haphazardly such that any module can call any other module without reservation?",
+          "answers": [
+            "Layered architecture",
+            "Microkernel architecture",
+            "Hybrid architecture",
+            "Monolithic architecture"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-007",
+          "prompt": "What is a primary disadvantage of the layered operating system architecture compared to the monolithic architecture, according to the text?",
+          "answers": [
+            "It is less secure because it lacks strict access controls.",
+            "It requires completely rewriting code for new hardware.",
+            "It can make the system less efficient.",
+            "It cannot handle multi-user interactions simultaneously."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-008",
+          "prompt": "Which operating system architecture implements only the essential core services in the kernel and adds all new services to user space?",
+          "answers": [
+            "Microkernel architecture",
+            "Monolithic architecture",
+            "Hybrid architecture",
+            "Network architecture"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-009",
+          "prompt": "Which component of an operating system is considered the core component responsible for managing hardware resources like CPU, memory, and I/O devices?",
+          "answers": [
+            "System Calls",
+            "Device Drivers",
+            "User Programs",
+            "Kernel"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-010",
+          "prompt": "How do user programs interact with the operating system's kernel to request services such as creating a new process?",
+          "answers": [
+            "Through device drivers",
+            "Through system calls",
+            "Through the graphical user interface",
+            "Through network protocols"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-011",
+          "prompt": "Which type of operating system manages a group of independent computers and makes them appear to users as a single system?",
+          "answers": [
+            "Real-Time Operating System",
+            "Time-Sharing Operating System",
+            "Distributed Operating System",
+            "Embedded Operating System"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-012",
+          "prompt": "An operating system that allows multiple users to interact with the computer simultaneously giving each user a small time slice of CPU time is known as a:",
+          "answers": [
+            "Time-Sharing Operating System",
+            "Batch Processing Operating System",
+            "Hypervisor-Based Operating System",
+            "Network Operating System"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-013",
+          "prompt": "What type of operating system interface uses visual elements like windows, icons, and menus for user interaction?",
+          "answers": [
+            "Command-line interface (CLI)",
+            "Batch interface",
+            "Graphical user interface (GUI)",
+            "Hybrid kernel interface"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-014",
+          "prompt": "According to the text, which of the following is NOT one of the possible states in a process's life cycle?",
+          "answers": [
+            "Dormant",
+            "Executing",
+            "Ready",
+            "Suspended or Block"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-015",
+          "prompt": "In a Process Control Block (PCB), what is the function of the Program Counter?",
+          "answers": [
+            "It records the total amount of CPU time used by the process.",
+            "It stores a pointer to the address of the next instruction to be executed.",
+            "It maintains a list of all I/O devices currently allocated to the process.",
+            "It indicates whether the process is in a ready, running, or suspended state."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-016",
+          "prompt": "Which scheduling criterion refers to the time a process spends waiting for resource allocation due to contention with other processes?",
+          "answers": [
+            "Processor Utilization",
+            "Response Time",
+            "Turnaround Time",
+            "Waiting Time"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-017",
+          "prompt": "Which process scheduling algorithm selects processes strictly in the order of their arrival and is an example of a non-preemptive policy?",
+          "answers": [
+            "First Come First Serve (FCFS)",
+            "Shortest Job Next (SJN)",
+            "Round Robin Scheduling",
+            "Multiple Levels Feedback"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-018",
+          "prompt": "In Round Robin Scheduling, what happens if a process is not finished within its allocated time quantum?",
+          "answers": [
+            "It is terminated and an error message is displayed.",
+            "It continues running until it finishes, overriding other processes.",
+            "It is interrupted and placed at the end of the ready queue.",
+            "Its priority is permanently increased to ensure it finishes next."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-019",
+          "prompt": "What is the primary role of a Long Term Scheduler (or job scheduler)?",
+          "answers": [
+            "To manage the change of a process from the ready state to the running state",
+            "To determine which programs are admitted to the system for processing and load them into memory",
+            "To temporarily suspend running processes and save their state to a hard drive",
+            "To handle the execution of system calls made by user programs"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-020",
+          "prompt": "Which scheduling algorithm assigns priority as the inverse of the service time, selecting the process with the shortest service time for execution?",
+          "answers": [
+            "Round Robin Scheduling",
+            "Priority Based Scheduling",
+            "Shortest Job Next (SJN)",
+            "The Multiple Levels Feedback"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-021",
+          "prompt": "What are the two complementary inter-process communication types discussed?",
+          "answers": [
+            "Shared-memory system and message-passing system",
+            "Mutual exclusion and semaphores",
+            "Synchronous and asynchronous communication",
+            "Test and set instruction and wait and signal mechanism"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-022",
+          "prompt": "In a shared-memory scheme, who is primarily responsible for providing communication?",
+          "answers": [
+            "The operating system",
+            "The application programmers",
+            "The process scheduler",
+            "The hardware controller"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-023",
+          "prompt": "A situation where two or more processes are reading or writing shared variables simultaneously, and the final results depend on who runs precisely and when, is called a:",
+          "answers": [
+            "Critical section",
+            "Race condition",
+            "Deadlock",
+            "Mutual exclusion"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-024",
+          "prompt": "The part of the program where shared memory or file is accessed is called the:",
+          "answers": [
+            "Synchronization block",
+            "Race condition",
+            "Critical section",
+            "Message-passing system"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-025",
+          "prompt": "Which of the following is generally considered an unattractive approach for achieving mutual exclusion because it gives user processes too much power?",
+          "answers": [
+            "Using semaphores",
+            "Test and set instruction",
+            "Disabling interrupts",
+            "Wait and signal mechanism"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-026",
+          "prompt": "Which synchronization mechanism is wasteful of processing resources because the blocked process continually loops testing the lock variable?",
+          "answers": [
+            "Test and set mechanism",
+            "Wait and signal mechanism",
+            "Monitor",
+            "Message passing system"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-027",
+          "prompt": "What programming language construct is designed to guarantee system integrity automatically turning all critical sections into internal procedures, ensuring no two processes execute their critical sections at the same time?",
+          "answers": [
+            "Semaphores",
+            "Monitors",
+            "Message queues",
+            "Test and set instruction"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-028",
+          "prompt": "What issue with message implementation arises when the exchange is blocking and the sender must wait until a willing receiver accepts the message?",
+          "answers": [
+            "Indirect naming",
+            "Synchronous message exchange",
+            "Asynchronous message exchange",
+            "Variable message length"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-029",
+          "prompt": "What term describes a situation where two or more processes hold onto certain resources while waiting for the release of remaining resources held others in the group, making it impossible for any to proceed?",
+          "answers": [
+            "Starvation",
+            "Race condition",
+            "Priority inversion",
+            "Deadlock"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-030",
+          "prompt": "Which of the following Coffman conditions for deadlock occurs when resources previously granted cannot be forcibly taken away from a process?",
+          "answers": [
+            "Mutual exclusion condition",
+            "Hold and wait condition",
+            "No pre-emption condition",
+            "Circular wait condition"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-031",
+          "prompt": "According to Holt's Resource Graph for modeling deadlocks, what does an arc from are source node (square) to a process node (circle) represent?",
+          "answers": [
+            "The process is waiting for the resource",
+            "The resource has been requested by the process",
+            "The process has released the resource",
+            "The resource has been assigned to and is currently held by the process"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-032",
+          "prompt": "Which deadlock handling strategy involves requiring processes to request all resources at once or forces release before requesting new ones?",
+          "answers": [
+            "Prevention (Hold and wait)",
+            "Prevention (Circular wait)",
+            "Detection and Recovery",
+            "Ignore (Ostrich algorithm)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-033",
+          "prompt": "How do many general-purpose OSes like traditional UNIX handle deadlocks?",
+          "answers": [
+            "They strictly enforce deadlock prevention algorithms",
+            "They continuously run deadlock detection algorithms",
+            "They abort processes to recover from deadlocks",
+            "They often ignore deadlocks for simplicity (Ostrich algorithm)"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-034",
+          "prompt": "How can an attacker potentially exploit a poorly designed mutual TLS or key exchange flow to cause a deadlock in cybersecurity?",
+          "answers": [
+            "By forcing a race condition on shared variables",
+            "By causing two communicating parties to wait for each other to send an authentication token first",
+            "By rapidly changing their IP address to evade detection",
+            "By consuming all available network bandwidth"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-035",
+          "prompt": "Starvation, or indefinite blocking, is usually caused :",
+          "answers": [
+            "A circular chain of two or more processes waiting for resources",
+            "Scheduling or resource-allocation policies that favor other processes indefinitely",
+            "Disabling interrupts in a distributed system",
+            "The occurrence of race conditions in databases"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-036",
+          "prompt": "Which scenario is a common cause of starvation?",
+          "answers": [
+            "Using a fair-share scheduler",
+            "A high-priority task blocking lower-priority ones indefinitely due to strict priority scheduling",
+            "Forcing processes to release all resources before requesting new ones",
+            "Pre-empting resources safely"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-037",
+          "prompt": "Which of the following is a prevention and mitigation technique for starvation?",
+          "answers": [
+            "Strict priority scheduling without aging",
+            "Implementing aging to gradually increase the priority of waiting tasks",
+            "Ignoring deadlocks using the Ostrich algorithm",
+            "Giving unlimited quotas to resource-intensive processes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-038",
+          "prompt": "What symptom might indicate that starvation is occurring in a system?",
+          "answers": [
+            "Processes that complete their execution too quickly",
+            "Decreasing queue lengths for specific requests",
+            "Processes remaining in a waiting or runnable state for excessively long times relative to peers",
+            "Absence of any lock conflicts in a database"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-039",
+          "prompt": "In a cybersecurity context, what might happen if an attacker causes starvation of monitoring or auditing processes (like loggers or IDS)?",
+          "answers": [
+            "The system will recover automatically and patch itself",
+            "The defender will be blinded, allowing the attacker to operate longer undetected",
+            "It will trigger an immediate deadlock in the database",
+            "It will enhance the performance of legitimate user requests"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-040",
+          "prompt": "Which locking mechanism is preferred to help mitigate starvation when multiple processes are attempting to acquire a lock?",
+          "answers": [
+            "Indefinite spinlocks",
+            "Fair locks (FIFO mutexes)",
+            "Unfair priority-based locks",
+            "Test and set mechanisms with unbounded wait times"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-041",
+          "prompt": "What is a major problem introduced the static partitioning allocation scheme where space is unused within a partition?",
+          "answers": [
+            "Internal Fragmentation",
+            "External Fragmentation",
+            "Thrashing",
+            "Paging"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-042",
+          "prompt": "Which of the following best describes the dynamic partitioning allocation scheme?",
+          "answers": [
+            "Both the size and the number of partitions are dynamic",
+            "The size of partitions is fixed but the number is dynamic",
+            "The size of partitions is dynamic but the number is fixed",
+            "Both the size and the number of partitions are fixed"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-043",
+          "prompt": "What problem is created the subsequent allocation of memory in dynamic partitioning?",
+          "answers": [
+            "Internal fragmentation",
+            "External fragmentation",
+            "Intrusion",
+            "Boot failure"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-044",
+          "prompt": "What is the primary purpose of virtual memory?",
+          "answers": [
+            "To increase the speed of the CPU",
+            "To allow the execution of a process that may not be completely in memory",
+            "To prevent external fragmentation",
+            "To permanently store files on the disk"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-045",
+          "prompt": "Which memory-management scheme solves the problem of external fragmentation permitting the physical address space of a process to be non-contiguous?",
+          "answers": [
+            "Static Partitioning",
+            "Dynamic Partitioning",
+            "Paging",
+            "Swapping"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-046",
+          "prompt": "In segmented memory allocation, segments are generally:",
+          "answers": [
+            "The same size",
+            "Of different sizes",
+            "Stored contiguously in physical memory",
+            "Unable to provide protection"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-047",
+          "prompt": "Which of the following is NOT a typical attribute of a file?",
+          "answers": [
+            "Identifier",
+            "Location",
+            "Size",
+            "CPU Register"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-048",
+          "prompt": "Which file operation re-positions the file pointer from the current position to a specific place in the file?",
+          "answers": [
+            "Read",
+            "Truncate",
+            "Seek",
+            "Append"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-049",
+          "prompt": "What does the \"truncate\" file operation do?",
+          "answers": [
+            "Deletes the file completely including its attributes",
+            "Simply deletes the file contents except the attributes",
+            "Renames the existing file",
+            "Adds data to the end of the file"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-050",
+          "prompt": "Which file access method is most commonly used operating systems, reading the file word word?",
+          "answers": [
+            "Direct Access",
+            "Indexed Access",
+            "Sequential Access",
+            "Random Access"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-051",
+          "prompt": "Which file access method is generally implemented in database applications to give required results without traversing unneeded blocks?",
+          "answers": [
+            "Sequential Access",
+            "Indexed Access",
+            "Direct Access",
+            "Dynamic Access"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-052",
+          "prompt": "In a two-level directory structure, what is the primary advantage over a single-level directory?",
+          "answers": [
+            "It provides a separate directory for each user",
+            "It contains only one big list of all files",
+            "It allows anyone to enter another user's directory",
+            "It completely eliminates the need for searching"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-053",
+          "prompt": "Which directory structure allows any directory entry to either be a file or a sub-directory, overcoming the limitations of single and two-level systems?",
+          "answers": [
+            "Linear structured directory",
+            "Tree structured directory",
+            "Network structured directory",
+            "Flat structured directory"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-054",
+          "prompt": "Which file system is specifically designed for storing files on flash memory devices to avoid issues like erasing blocks and wear levelling?",
+          "answers": [
+            "Disk file systems",
+            "Database file systems",
+            "Flash file systems",
+            "Network file systems"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-055",
+          "prompt": "In the file system structure, which layer is responsible for checking if the application program has the required permissions for a file?",
+          "answers": [
+            "Logical file system",
+            "File organization module",
+            "Basic file system",
+            "I/O control"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-056",
+          "prompt": "What does MBR stand for in the context of file systems and operating systems?",
+          "answers": [
+            "Memory Base Register",
+            "Master Boot Record",
+            "Main Boot Registry",
+            "Minimum Byte Requirement"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-057",
+          "prompt": "Where is the special program called BIOS typically stored?",
+          "answers": [
+            "Hard Disk",
+            "ROM",
+            "Flash Memory",
+            "RAM"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-058",
+          "prompt": "Which access control model allows users to grant or revoke access permissions to the resources they own?",
+          "answers": [
+            "Mandatory Access Control (MAC)",
+            "Discretionary Access Control (DAC)",
+            "Role-Based Access Control (RBAC)",
+            "Rule-Based Access Control (RBAC)"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-059",
+          "prompt": "Which access control model enforces a centralized set of access control policies that cannot be overridden individual users?",
+          "answers": [
+            "Role-Based Access Control (RBAC)",
+            "Discretionary Access Control (DAC)",
+            "Mandatory Access Control (MAC)",
+            "None of the above"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-060",
+          "prompt": "What are Access Control Lists (ACLs) in the context of operating system security?",
+          "answers": [
+            "A list of all active network connections",
+            "A metadata associated with system resources specifying users allowed to access them",
+            "A list of passwords for all users",
+            "A set of rules for data encryption"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-061",
+          "prompt": "Which of the following is NOT a component of Process Isolation as described in the text?",
+          "answers": [
+            "Memory Separation",
+            "CPU Execution Separation",
+            "Memory Paging",
+            "Privilege Separation"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-062",
+          "prompt": "What mechanism restricts processes from consuming excessive system resources and potentially disrupting other processes?",
+          "answers": [
+            "Inter-Process Communication (IPC)",
+            "Resource Allocation and Containment",
+            "Memory Protection",
+            "Sandboxing"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-063",
+          "prompt": "Which term describes a secure, restricted environment commonly used for running untrusted or potentially malicious code?",
+          "answers": [
+            "Protection Rings",
+            "Memory Segment",
+            "Sandbox",
+            "Virtual Machine"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-064",
+          "prompt": "In memory protection, what defines the boundaries between different memory areas such as code, data, stack, and heap?",
+          "answers": [
+            "Memory Paging",
+            "Memory Segmentation",
+            "Virtual Memory Management",
+            "CPU Execution Separation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-065",
+          "prompt": "Which operating system component translates virtual addresses used processes into the corresponding physical addresses?",
+          "answers": [
+            "Memory Management Unit (MMU)",
+            "Inter-Process Communication (IPC)",
+            "Access Control Lists (ACLs)",
+            "FileVault"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-066",
+          "prompt": "How do operating systems typically implement multiple privilege levels to define the level of access and control over the system?",
+          "answers": [
+            "Memory Paging",
+            "Sandboxing",
+            "Protection Rings",
+            "Full-Disk Encryption"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-067",
+          "prompt": "Which of the following represents a best practice for Filesystem Hardening?",
+          "answers": [
+            "Disabling file integrity monitoring",
+            "Allowing universal access to system-level configurations",
+            "Reviewing and optimizing permissions on files and directories to ensure the principle of least privilege",
+            "Disabling full-disk encryption"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-068",
+          "prompt": "File System Encryption is primarily designed to protect the confidentiality of:",
+          "answers": [
+            "The entire storage device",
+            "Individual files and directories within a file system",
+            "Data currently in RAM",
+            "Data transmitted over the network"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-069",
+          "prompt": "Which of the following is an example of Full-Disk Encryption (FDE)?",
+          "answers": [
+            "eCryptFS",
+            "EncFS",
+            "BitLocker Drive Encryption",
+            "Access Control Lists"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-070",
+          "prompt": "What is a primary distinction of Disk Wiping compared to Secure Data Deletion of individual files?",
+          "answers": [
+            "It only removes specific files while leaving the OS intact.",
+            "It involves completely erasing all data from a storage device, including the OS and applications.",
+            "It is faster and less thorough than secure file deletion.",
+            "It uses hardware-based encryption keys."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-071",
+          "prompt": "A vulnerability that allows unprivileged users to gain unauthorized elevated privileges is known as a:",
+          "answers": [
+            "Privilege Escalation Vulnerability",
+            "Buffer Overflow Attack",
+            "Denial of Service (DoS) Attack",
+            "Malware Infection"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-072",
+          "prompt": "Exploiting memory corruption vulnerabilities to hijack control flow and execute arbitrary code is known as a:",
+          "answers": [
+            "Rootkit Infection",
+            "Buffer Overflow Attack",
+            "Injection Vulnerability",
+            "Hardware Attack"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-073",
+          "prompt": "What is the systematic identification, assessment, and remediation of weaknesses within an OS and associated software called?",
+          "answers": [
+            "Process Isolation",
+            "Resource Allocation",
+            "Vulnerability Management",
+            "Secure Data Deletion"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-074",
+          "prompt": "During Vulnerability Assessment, what factor is often used to assess a vulnerability's severity and prioritize remediation efforts?",
+          "answers": [
+            "Available disk space",
+            "Memory segmentation boundaries",
+            "CVSS (Common Vulnerability Scoring System) score",
+            "Allocated CPU time"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-075",
+          "prompt": "What type of malicious software is designed to maintain privileged access while stealthily hiding its presence?",
+          "answers": [
+            "Rootkit",
+            "Worm",
+            "Ransomware",
+            "Spyware"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-076",
+          "prompt": "Which filesystem security mechanism uses lists to define and enforce the level of access that users, groups, or processes have to files?",
+          "answers": [
+            "Filesystem Hardening",
+            "Disk Encryption",
+            "Access Control Lists (ACLs)",
+            "File Integrity Monitoring (FIM)"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-077",
+          "prompt": "According to the manual, what is one of the crucial reasons for logging file system activities?",
+          "answers": [
+            "To decrease CPU utilization",
+            "To detect and investigate security incidents",
+            "To eliminate the need for regular backups",
+            "To automatically patch the operating system"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-078",
+          "prompt": "What does CPU isolation aim to prevent within an operating system?",
+          "answers": [
+            "Memory leaks from applications",
+            "Unauthorized network access",
+            "One process from monopolizing the CPU and starving others",
+            "Filesystem encryption bypass"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-079",
+          "prompt": "Which resource isolation technique involves employing quotas, paging, and swapping to manage resources?",
+          "answers": [
+            "CPU Isolation",
+            "Memory Isolation",
+            "Network Isolation",
+            "I/O Isolation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-080",
+          "prompt": "Which type of attack exploits vulnerabilities in the hardware/software interface, such as DMA attacks or BIOS vulnerabilities?",
+          "answers": [
+            "Supply Chain Attacks",
+            "Insider Threats",
+            "Hardware/Firmware Attacks",
+            "Injection Vulnerabilities"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-081",
+          "prompt": "What is the primary risk of using weak passwords?",
+          "answers": [
+            "They require multi-factor authentication",
+            "They are easily cracked by attackers, giving unauthorized access",
+            "They are difficult to remember",
+            "They cause system misconfigurations"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-082",
+          "prompt": "Which of the following is an example of an authentication mechanism weakness?",
+          "answers": [
+            "Implementing strong password policies",
+            "Lack of multi-factor authentication",
+            "Frequent patching of software vulnerabilities",
+            "Proper encryption of password storage"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-083",
+          "prompt": "How can misconfigurations make systems vulnerable?",
+          "answers": [
+            "By enforcing strict security policies",
+            "By ensuring all ports are closed",
+            "By leaving default settings unsecured and ports open",
+            "By preventing unauthorized access"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-084",
+          "prompt": "What is Phishing?",
+          "answers": [
+            "A type of social engineering attack that tricks users into revealing sensitive information",
+            "Malicious software that damages computer systems",
+            "A vulnerability in software unknown to the vendor",
+            "An automated tool that scans for vulnerabilities"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-085",
+          "prompt": "What is Malware?",
+          "answers": [
+            "A hardware device used to secure networks",
+            "A type of social engineering attack via email",
+            "Malicious software that can damage or disable computer systems",
+            "A zero-day vulnerability in operating systems"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-086",
+          "prompt": "What makes zero-day vulnerabilities particularly difficult to defend against?",
+          "answers": [
+            "They are caused by weak passwords",
+            "They only affect outdated hardware",
+            "There is no patch available to fix the vulnerability because the vendor is unaware",
+            "They are easily detected by antivirus software"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-087",
+          "prompt": "What is a recommended best practice for creating strong passwords?",
+          "answers": [
+            "Using the same password for different accounts",
+            "Including only lowercase letters",
+            "Being at least 12 characters long and including a mix of upper, lowercase, numbers, and symbols",
+            "Keeping them written on sticky notes"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-088",
+          "prompt": "What is the primary function of a firewall?",
+          "answers": [
+            "To scan the computer for malware",
+            "To monitor and control incoming and outgoing network traffic",
+            "To guess user passwords",
+            "To provide two-factor authentication"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-089",
+          "prompt": "What is the process of identifying, evaluating, and prioritizing security vulnerabilities called?",
+          "answers": [
+            "Phishing",
+            "Vulnerability Assessment",
+            "Containerization",
+            "Data Execution Prevention"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-090",
+          "prompt": "What is a key benefit of vulnerability assessment and scanning?",
+          "answers": [
+            "It creates zero-day vulnerabilities",
+            "It helps organizations identify and mitigate vulnerabilities before they can be exploited",
+            "It replaces the need for antivirus software",
+            "It eliminates the need for strong passwords"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-091",
+          "prompt": "What does Data Execution Prevention (DEP) do?",
+          "answers": [
+            "It randomizes the addresses of key system components",
+            "It places random values on the stack to detect buffer overflows",
+            "It prevents code from being executed from data areas of memory",
+            "It verifies that control flow transfers are only made to valid targets"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-092",
+          "prompt": "Which exploit mitigation technique randomizes the addresses of key system components like the stack and heap?",
+          "answers": [
+            "Address Space Layout Randomization (ASLR)",
+            "Data Execution Prevention (DEP)",
+            "Control Flow Integrity (CFI)",
+            "Stack canaries"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-093",
+          "prompt": "What is the focus of Server Hardening?",
+          "answers": [
+            "Only securing third-party applications",
+            "Securing the data, ports, components, functions, and permissions of a server using advanced security measures",
+            "Physical security of the server room",
+            "Training employees on social engineering"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-094",
+          "prompt": "Database hardening primarily involves which of the following?",
+          "answers": [
+            "Controlling user privileges, disabling unnecessary services, and encrypting database information",
+            "Updating web browsers to the latest version",
+            "Installing a network firewall",
+            "Disabling antivirus software"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-095",
+          "prompt": "In account lockout policies, what does Account Lockout duration define?",
+          "answers": [
+            "The time a user must wait before changing their password",
+            "The number of invalid log-on attempts allowed before lockout",
+            "The amount of time the account will remain locked out",
+            "The number of minutes before the lockout counter resets to zero"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-096",
+          "prompt": "What is the purpose of a Key Logger?",
+          "answers": [
+            "To secure a system against unauthorized access",
+            "To record the keys pressed on a system to steal passwords and sensitive information",
+            "To encrypt data stored on a hard drive",
+            "To monitor and control network traffic"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-097",
+          "prompt": "Which of the following is an effective method to prevent falling victim to Key-loggers?",
+          "answers": [
+            "Using simple, easily guessable passwords",
+            "Clicking on links in unsolicited emails",
+            "Using an automatic form filler or One-Time-Passwords (OTPs)",
+            "Disabling antivirus software"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-098",
+          "prompt": "What characterizes Active Sniffing in a network?",
+          "answers": [
+            "Capturing data on a hub-based network passively",
+            "Passively capturing data without injecting traffic",
+            "Actively monitoring network traffic and taking action without user knowledge",
+            "Actively injecting traffic into the switch to capture intended target traffic"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-099",
+          "prompt": "Which virtualization technology creates a virtual environment on top of physical hardware and runs VMs?",
+          "answers": [
+            "Hypervisor",
+            "Key Logger",
+            "Active Sniffer",
+            "Antivirus"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-100",
+          "prompt": "What makes Containerization more efficient than traditional Virtual Machines (VMs)?",
+          "answers": [
+            "Containers run slower than virtual machines",
+            "Containers share the underlying operating system kernel",
+            "Containers require more hardware resources than VMs",
+            "Containers are not isolated from each other"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-101",
+          "prompt": "Which generation of operating systems allowed only one program to run at a time?",
+          "answers": [
+            "First Generation",
+            "Second Generation",
+            "Third Generation",
+            "Fourth Generation"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-102",
+          "prompt": "Which operating system is an example of a first-generation operating system?",
+          "answers": [
+            "Windows",
+            "Linux",
+            "IBM System/360",
+            "macOS"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-103",
+          "prompt": "Which generation of operating systems introduced batch processing?",
+          "answers": [
+            "First Generation",
+            "Second Generation",
+            "Third Generation",
+            "Fourth Generation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-104",
+          "prompt": "Which operating system is an example of a second-generation operating system?",
+          "answers": [
+            "Windows",
+            "Atlas",
+            "Linux",
+            "Android"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-105",
+          "prompt": "Which generation of operating systems introduced multiprogramming?",
+          "answers": [
+            "First Generation",
+            "Second Generation",
+            "Third Generation",
+            "Fourth Generation"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-106",
+          "prompt": "Which generation of operating systems introduced graphical user interfaces (GUIs)?",
+          "answers": [
+            "First Generation",
+            "Second Generation",
+            "Third Generation",
+            "Fourth Generation"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-107",
+          "prompt": "Which of the following is an example of a third-generation operating system?",
+          "answers": [
+            "IBM System/360",
+            "Atlas",
+            "Windows",
+            "Windows Server"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-108",
+          "prompt": "Which generation of operating systems includes features such as networking and distributed processing?",
+          "answers": [
+            "First Generation",
+            "Second Generation",
+            "Third Generation",
+            "Fourth Generation"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-109",
+          "prompt": "Which of the following is a function of an operating system in cybersecurity?",
+          "answers": [
+            "Resource Management",
+            "Access Control",
+            "Malware Defense",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-110",
+          "prompt": "What is the difference between authentication and authorization?",
+          "answers": [
+            "Authentication grants permissions; authorization verifies identity",
+            "Authentication verifies identity; authorization grants permissions",
+            "Both are the same process",
+            "Authentication is done after authorization"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-111",
+          "prompt": "Which function of an OS in cybersecurity involves maintaining logs of user activities?",
+          "answers": [
+            "Resource Management",
+            "Access Control",
+            "Security Policies Enforcement",
+            "Malware Defense"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-112",
+          "prompt": "Which OS function involves controlling incoming and outgoing network traffic?",
+          "answers": [
+            "Resource Management",
+            "Access Control",
+            "Firewall and Network Security",
+            "Patch Management"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-113",
+          "prompt": "Which OS function supports the installation of antivirus software?",
+          "answers": [
+            "Access Control",
+            "Malware Defense",
+            "Data Protection",
+            "System Monitoring"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-114",
+          "prompt": "Which OS architecture has components organized haphazardly where any module can call any other module?",
+          "answers": [
+            "Layered Architecture",
+            "Microkernel Architecture",
+            "Monolithic Architecture",
+            "Hybrid Architecture"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-115",
+          "prompt": "Which operating system is an example of a monolithic architecture?",
+          "answers": [
+            "Traditional UNIX",
+            "MS-DOS",
+            "Windows NT 4.0",
+            "MINIX"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-116",
+          "prompt": "Which OS architecture is divided into a series of layers with specific tasks?",
+          "answers": [
+            "Monolithic Architecture",
+            "Layered Architecture",
+            "Microkernel Architecture",
+            "Hybrid Architecture"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-117",
+          "prompt": "Which operating system is an example of a layered architecture?",
+          "answers": [
+            "MS-DOS",
+            "Windows NT 4.0",
+            "Traditional UNIX",
+            "Symbian OS"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-118",
+          "prompt": "Which OS architecture has only essential components running in the kernel?",
+          "answers": [
+            "Monolithic Architecture",
+            "Layered Architecture",
+            "Microkernel Architecture",
+            "Hybrid Architecture"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-119",
+          "prompt": "Which of the following is an example of a microkernel architecture?",
+          "answers": [
+            "MS-DOS",
+            "Traditional UNIX",
+            "Windows NT 4.0",
+            "Linux"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-120",
+          "prompt": "Which of the following is a benefit of microkernel architecture?",
+          "answers": [
+            "Platform dependent",
+            "Difficult to extend",
+            "More secure and flexible",
+            "Less reliable"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-121",
+          "prompt": "Which of the following is NOT a component of an operating system?",
+          "answers": [
+            "Kernel",
+            "Device Drivers",
+            "WebBrowser",
+            "File System"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-122",
+          "prompt": "What is the function of system calls?",
+          "answers": [
+            "To manage hardware devices directly",
+            "To allow user programs to interact with the kernel",
+            "To organize files on storage devices",
+            "To provide a graphical interface to users"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-123",
+          "prompt": "What is the function of the kernel?",
+          "answers": [
+            "To provide a graphical user interface",
+            "To manage system resources such as CPU, memory, and I/O devices",
+            "To allow users to type commands",
+            "To run application programs"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-124",
+          "prompt": "What is the function of device drivers?",
+          "answers": [
+            "To manage memory allocation",
+            "To allow the operating system to communicate with hardware devices",
+            "To organize files on storage devices",
+            "To provide a command-line interface"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-125",
+          "prompt": "Which type of operating system is designed for personal computers?",
+          "answers": [
+            "Server Operating System",
+            "Desktop Operating System",
+            "Mobile Operating System",
+            "Embedded Operating System"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-126",
+          "prompt": "Which type of operating system is designed for smartphones and tablets?",
+          "answers": [
+            "Desktop Operating System",
+            "Server Operating System",
+            "Mobile Operating System",
+            "Embedded Operating System"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-127",
+          "prompt": "Which operating system is an example of a batch operating system?",
+          "answers": [
+            "Windows",
+            "Linux",
+            "Early IBM mainframe systems",
+            "Android"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-128",
+          "prompt": "Which operating system is an example of a time-sharing operating system?",
+          "answers": [
+            "Windows Server",
+            "VxWorks",
+            "UNIX",
+            "IBM mainframe system"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-129",
+          "prompt": "Which OS interface uses windows, icons, and menus?",
+          "answers": [
+            "CLI",
+            "GUI",
+            "Hybrid",
+            "Kernel"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-130",
+          "prompt": "Which OS interface requires users to type commands?",
+          "answers": [
+            "GUI",
+            "CLI",
+            "Hybrid",
+            "Kernel"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-131",
+          "prompt": "Which of the following is an example of a GUI used Linux?",
+          "answers": [
+            "Windows Shell",
+            "Aqua",
+            "GNOME",
+            "Material Design"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-132",
+          "prompt": "Which of the following is NOT a process state?",
+          "answers": [
+            "Ready",
+            "Running",
+            "Waiting",
+            "Completed"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-133",
+          "prompt": "What is a Process Control Block (PCB)?",
+          "answers": [
+            "A hardware component",
+            "A data structure maintained by the OS for every process",
+            "A scheduling algorithm",
+            "A memory management technique"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-134",
+          "prompt": "Which information is stored in a PCB?",
+          "answers": [
+            "Process State",
+            "Program Counter",
+            "CPU Registers",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-135",
+          "prompt": "What is the function of the Program Counter in a PCB?",
+          "answers": [
+            "To store the process ID",
+            "To point to the next instruction to be executed",
+            "To store CPU scheduling information",
+            "To manage I/O devices"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-136",
+          "prompt": "Which scheduling criterion measures the average time the processor is busy?",
+          "answers": [
+            "Waiting Time",
+            "Response Time",
+            "Processor Utilization",
+            "Throughput"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-137",
+          "prompt": "Which scheduling criterion must be minimized for batch users?",
+          "answers": [
+            "Response Time",
+            "Turnaround Time",
+            "Processor Utilization",
+            "Throughput"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-138",
+          "prompt": "Which scheduling algorithm processes jobs in the order they arrive?",
+          "answers": [
+            "Shortest Job Next",
+            "Priority Scheduling",
+            "First Come First Serve",
+            "Round Robin"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-139",
+          "prompt": "Which scheduling algorithm selects the process with the shortest service time?",
+          "answers": [
+            "First Come First Serve",
+            "Shortest Job Next",
+            "Round Robin",
+            "Multilevel Feedback Queue"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-140",
+          "prompt": "Which scheduling algorithm assigns a priority to each process and runs the highest priority first?",
+          "answers": [
+            "First Come First Serve",
+            "Shortest Job Next",
+            "Priority Based Scheduling",
+            "Round Robin"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-141",
+          "prompt": "In Priority Based Scheduling, what happens to processes with the same priority?",
+          "answers": [
+            "They are executed randomly",
+            "They are executed FCFS",
+            "They are executed in reverse order",
+            "They are not executed"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-142",
+          "prompt": "Which operating systems use Priority Based Scheduling?",
+          "answers": [
+            "Windows and Linux",
+            "macOS and Android",
+            "iOS and Symbian",
+            "Unix and VxWorks"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-143",
+          "prompt": "What is the typical time quantum in Round Robin Scheduling?",
+          "answers": [
+            "1 to 5 milliseconds",
+            "100 milliseconds to 2 seconds",
+            "10 to 20 seconds",
+            "1 to 5 minutes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-144",
+          "prompt": "What happens when a process exceeds its quantum in Round Robin?",
+          "answers": [
+            "It continues running",
+            "It is terminated",
+            "It is interrupted and placed at the rear of the ready queue",
+            "It is moved to a higher priority queue"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-145",
+          "prompt": "Which scheduling algorithm splits the ready list into multiple queues?",
+          "answers": [
+            "Round Robin",
+            "Priority Scheduling",
+            "Multilevel Feedback Queue",
+            "Selfish Round Robin"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-146",
+          "prompt": "In Multilevel Feedback Queue, which queue has the highest priority?",
+          "answers": [
+            "Higher-numbered queue",
+            "Lower-numbered queue",
+            "All queues have equal priority",
+            "The queue with the most processes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-147",
+          "prompt": "Which scheduling algorithm partitions processes into \"new\" and \"accepted\" lists?",
+          "answers": [
+            "Round Robin",
+            "Priority Scheduling",
+            "Multilevel Feedback Queue",
+            "Selfish Round Robin"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-148",
+          "prompt": "Which scheduler is also called a job scheduler?",
+          "answers": [
+            "Long Term Scheduler",
+            "Short Term Scheduler",
+            "Medium Term Scheduler",
+            "CPU Scheduler"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-149",
+          "prompt": "Which scheduler is also called a CPU scheduler?",
+          "answers": [
+            "Long Term Scheduler",
+            "Short Term Scheduler",
+            "Medium Term Scheduler",
+            "Job Scheduler"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-150",
+          "prompt": "What is the function of the Medium Term Scheduler?",
+          "answers": [
+            "To select programs for admission",
+            "To allocate CPU to ready processes",
+            "To handle swapping and remove processes from memory",
+            "To manage I/O requests"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-151",
+          "prompt": "Which scheduling algorithm is considered non-preemptive?",
+          "answers": [
+            "Round Robin",
+            "First Come First Serve",
+            "Selfish Round Robin",
+            "Multilevel Feedback Queue"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-152",
+          "prompt": "What happens if the quantum in Round Robin is set too short?",
+          "answers": [
+            "CPU efficiency increases",
+            "Too many process switches lower CPU efficiency",
+            "Response time improves significantly",
+            "Processes run faster"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-153",
+          "prompt": "What happens if the quantum in Round Robin is set too long?",
+          "answers": [
+            "CPU efficiency increases",
+            "Poor response to short interactive requests",
+            "Process switching becomes too frequent",
+            "Throughput decreases"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-154",
+          "prompt": "Which scheduler controls the degree of multiprogramming?",
+          "answers": [
+            "Long Term Scheduler",
+            "Short Term Scheduler",
+            "Medium Term Scheduler",
+            "CPU Scheduler"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-155",
+          "prompt": "Which of the following is NOT a type of scheduler?",
+          "answers": [
+            "Long Term Scheduler",
+            "Short Term Scheduler",
+            "Medium Term Scheduler",
+            "Process Scheduler"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-156",
+          "prompt": "In a shared-memory system, who is responsible for providing communication?",
+          "answers": [
+            "The operating system",
+            "The application programmers",
+            "The hardware",
+            "The network administrator"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-157",
+          "prompt": "What is a race condition?",
+          "answers": [
+            "When two processes run at the same speed",
+            "When the final result depends on which process runs precisely when",
+            "When one process finishes before another",
+            "When processes share memory"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-158",
+          "prompt": "What is the critical section?",
+          "answers": [
+            "The entire program",
+            "The part of the program where shared memory is accessed",
+            "The part of the program where I/O occurs",
+            "The part of the program where interrupts are disabled"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-159",
+          "prompt": "What is mutual exclusion?",
+          "answers": [
+            "Allowing multiple processes to access shared data simultaneously",
+            "Preventing more than one process from accessing shared data at the same time",
+            "Allowing processes to communicate with each other",
+            "Disabling interrupts permanently"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-160",
+          "prompt": "Which synchronization mechanism involves disabling all interrupts?",
+          "answers": [
+            "Test and Set",
+            "Wait and Signal",
+            "Disabling Interrupts",
+            "Monitor"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-161",
+          "prompt": "Why is disabling interrupts unattractive as a mutual exclusion mechanism?",
+          "answers": [
+            "It is too slow",
+            "User processes should not have power to turn off interrupts",
+            "It requires too much memory",
+            "It only works on single-core systems"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-162",
+          "prompt": "In the Test and Set mechanism, what does a lock variable value of 0 indicate?",
+          "answers": [
+            "The resource is busy",
+            "The resource is available",
+            "The resource is locked",
+            "The process is waiting"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-163",
+          "prompt": "In the Test and Set mechanism, what happens when a process sets the lock variable to 1?",
+          "answers": [
+            "The resource becomes available",
+            "The resource becomes busy",
+            "The process is terminated",
+            "The process is blocked"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-164",
+          "prompt": "Which mechanism uses LOCK(X) and UNLOCK(X) operations?",
+          "answers": [
+            "Disabling Interrupts",
+            "Test and Set",
+            "Wait and Signal",
+            "Monitor"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-165",
+          "prompt": "What does WAIT(X) do?",
+          "answers": [
+            "Sets the process PCB to ready state",
+            "Sets the process PCB to blocked state and links it to the lock variable",
+            "Terminates the process",
+            "Allocates CPU to the process"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-166",
+          "prompt": "What does SIGNAL(X) do?",
+          "answers": [
+            "Blocks a process",
+            "Checks the block list and moves one process to ready state",
+            "Terminates a process",
+            "Allocates memory"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-167",
+          "prompt": "Which mechanism is wasteful of processor resources?",
+          "answers": [
+            "Disabling Interrupts",
+            "Test and Set",
+            "Wait and Signal",
+            "Monitor"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-168",
+          "prompt": "What is a monitor?",
+          "answers": [
+            "A hardware device",
+            "A programming construct to control access to shared data",
+            "A type of scheduling algorithm",
+            "A memory management technique"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-169",
+          "prompt": "What does the monitor encapsulate?",
+          "answers": [
+            "Only the shared data",
+            "Only the procedures",
+            "Both shared data and procedures",
+            "Only the operating system"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-170",
+          "prompt": "What are the primitives used in message passing systems?",
+          "answers": [
+            "LOCK and UNLOCK",
+            "WAIT and SIGNAL",
+            "SEND and RECEIVE",
+            "OPEN and CLOSE"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-171",
+          "prompt": "What is direct naming in message passing?",
+          "answers": [
+            "Sender names the recipient and receiver names the source",
+            "Messages are sent to a mailbox",
+            "Messages are broadcast to all processes",
+            "Messages are sent to the operating system"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-172",
+          "prompt": "How can message transfer be accomplished?",
+          "answers": [
+            "Only by copying the whole message",
+            "Only by passing a pointer",
+            "By either copying the whole message or passing a pointer",
+            "By using shared memory"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-173",
+          "prompt": "What is the difference between synchronous and asynchronous message passing?",
+          "answers": [
+            "Synchronous sends faster",
+            "Asynchronous requires acknowledgment",
+            "Synchronous waits for acknowledgment; asynchronous does not",
+            "There is no difference"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-174",
+          "prompt": "Which issue in message implementation deals with message length?",
+          "answers": [
+            "Naming",
+            "Copying",
+            "Synchronous versus Asynchronous",
+            "Length"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-175",
+          "prompt": "What is the problem that shared-memory systems can lead to?",
+          "answers": [
+            "Deadlock",
+            "Starvation",
+            "Race conditions",
+            "Thrashing"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-176",
+          "prompt": "What is the purpose of mutual exclusion?",
+          "answers": [
+            "To allow all processes to access shared data simultaneously",
+            "To ensure only one process accesses shared data at a time",
+            "To improve system performance",
+            "To increase memory usage"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-177",
+          "prompt": "In Test and Set, what happens if the original lock value was 1?",
+          "answers": [
+            "The process proceeds to use the resource",
+            "The process goes back to Step 1 and loops",
+            "The process is terminated",
+            "The lock variable is set to 0"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-178",
+          "prompt": "What does UNLOCK(X) do in the Wait and Signal mechanism?",
+          "answers": [
+            "Sets the lock variable to 1 and calls WAIT",
+            "Sets the lock variable to 0 and calls SIGNAL",
+            "Sets the lock variable to 1 and calls SIGNAL",
+            "Sets the lock variable to 0 and calls WAIT"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-179",
+          "prompt": "Which is a benefit of message passing over shared memory?",
+          "answers": [
+            "Faster communication",
+            "Direct process-to-process communication",
+            "No need for synchronization",
+            "Simpler implementation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-180",
+          "prompt": "What are the three steps required to use a resource?",
+          "answers": [
+            "Request, Use, Release",
+            "Open, Read, Close",
+            "Allocate, Execute, Free",
+            "Lock, Access, Unlock"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-181",
+          "prompt": "What is a deadlock?",
+          "answers": [
+            "When a process terminates unexpectedly",
+            "When processes are permanently blocked waiting for resources held by each other",
+            "When a process runs faster than others",
+            "When memory is full"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-182",
+          "prompt": "Which of the following is a case of deadlock?",
+          "answers": [
+            "Deadlock on file request",
+            "Deadlock in databases",
+            "Deadlock in dedicated device allocation",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-183",
+          "prompt": "What does the Mutual Exclusion condition state?",
+          "answers": [
+            "Resources can be shared by multiple processes",
+            "Each resource is either assigned to one process or available",
+            "Resources can be forcibly taken away",
+            "Processes can request resources in any order"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-184",
+          "prompt": "What does the Hold and Wait condition state?",
+          "answers": [
+            "Processes must release all resources before requesting new ones",
+            "Processes holding resources can request new resources",
+            "Processes cannot hold any resources",
+            "Resources must be requested in a specific order"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-185",
+          "prompt": "What does the No Pre-emption condition state?",
+          "answers": [
+            "Resources can be forcibly taken away",
+            "Resources must be explicitly released by the process holding them",
+            "Resources can be preempted at any time",
+            "Resources are automatically released"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-186",
+          "prompt": "What does the Circular Wait condition state?",
+          "answers": [
+            "Processes wait in a line",
+            "There is a circular chain of processes each waiting for a resource held by another",
+            "Processes wait for resources in a specific order",
+            "Processes do not wait for resources"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-187",
+          "prompt": "In a Resource Graph, what does a circle represent?",
+          "answers": [
+            "A resource",
+            "A process",
+            "A deadlock",
+            "A file"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-188",
+          "prompt": "In a Resource Graph, what does a square represent?",
+          "answers": [
+            "A process",
+            "A resource",
+            "A deadlock",
+            "A scheduler"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-189",
+          "prompt": "What does a cycle in a Resource Graph indicate?",
+          "answers": [
+            "No deadlock",
+            "Deadlock",
+            "Starvation",
+            "Successful execution"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-190",
+          "prompt": "Which deadlock prevention strategy involves making resources sharable?",
+          "answers": [
+            "Eliminating Mutual Exclusion",
+            "Eliminating Hold and Wait",
+            "Eliminating No Pre-emption",
+            "Eliminating Circular Wait"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-191",
+          "prompt": "Which deadlock prevention strategy involves requiring processes to request all resources at once?",
+          "answers": [
+            "Eliminating Mutual Exclusion",
+            "Eliminating Hold and Wait",
+            "Eliminating No Pre-emption",
+            "Eliminating Circular Wait"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-192",
+          "prompt": "Which deadlock prevention strategy involves imposing a partial ordering on resource types?",
+          "answers": [
+            "Eliminating Mutual Exclusion",
+            "Eliminating Hold and Wait",
+            "Eliminating No Pre-emption",
+            "Eliminating Circular Wait"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-193",
+          "prompt": "What is the Banker's Algorithm used for?",
+          "answers": [
+            "Deadlock prevention",
+            "Deadlock avoidance",
+            "Deadlock detection",
+            "Deadlock recovery"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-194",
+          "prompt": "Which deadlock handling strategy involves periodically running algorithms to find cycles?",
+          "answers": [
+            "Prevention",
+            "Avoidance",
+            "Detection and Recovery",
+            "Ignore"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-195",
+          "prompt": "Which deadlock recovery method involves aborting one or more processes?",
+          "answers": [
+            "Resource Preemption",
+            "Process Termination",
+            "Ostrich Algorithm",
+            "Banker's Algorithm"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-196",
+          "prompt": "Which deadlock recovery method involves selecting resources to preempt and rolling back processes?",
+          "answers": [
+            "Resource Preemption",
+            "Process Termination",
+            "Ostrich Algorithm",
+            "Banker's Algorithm"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-197",
+          "prompt": "Which deadlock handling strategy is also called the Ostrich Algorithm?",
+          "answers": [
+            "Prevention",
+            "Avoidance",
+            "Detection and Recovery",
+            "Ignore"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-198",
+          "prompt": "Which operating systems typically ignore deadlocks for simplicity?",
+          "answers": [
+            "Windows",
+            "Traditional UNIX",
+            "Linux",
+            "macOS"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-199",
+          "prompt": "How can attackers use deadlocks in a cybersecurity context?",
+          "answers": [
+            "To improve system performance",
+            "To cause Denial of Service (DoS)",
+            "To speed up processes",
+            "To increase memory usage"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-200",
+          "prompt": "What is starvation?",
+          "answers": [
+            "When a process completes quickly",
+            "When a process is perpetually denied resources it needs to make progress",
+            "When a process holds resources too long",
+            "When a process terminates unexpectedly"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-201",
+          "prompt": "Which of the following can cause starvation?",
+          "answers": [
+            "Fair scheduling policies",
+            "Strict priority scheduling without fairness",
+            "Round Robin scheduling",
+            "Fair-share scheduling"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-202",
+          "prompt": "What is aging in the context of starvation prevention?",
+          "answers": [
+            "Making processes older",
+            "Gradually increasing the priority of waiting tasks",
+            "Decreasing the priority of running tasks",
+            "Terminating old processes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-203",
+          "prompt": "Which scheduling algorithm helps prevent starvation?",
+          "answers": [
+            "Strict Priority Scheduling",
+            "Shortest Job Next",
+            "Completely Fair Scheduler (CFS)",
+            "First Come First Serve"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-204",
+          "prompt": "What is priority inversion?",
+          "answers": [
+            "When high priority tasks run faster",
+            "When low priority tasks hold resources needed by high priority tasks",
+            "When all tasks have equal priority",
+            "When priorities are randomly assigned"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-205",
+          "prompt": "How can starvation affect cybersecurity?",
+          "answers": [
+            "It improves system monitoring",
+            "It can blind monitoring processes allowing attackers to operate undetected",
+            "It speeds up patch installation",
+            "It prevents all attacks"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-206",
+          "prompt": "Which of the following is a prevention technique for starvation?",
+          "answers": [
+            "Using strict priority scheduling",
+            "Implementing bounded waiting guarantees",
+            "Allowing processes to hold resources indefinitely",
+            "Disabling scheduling"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-207",
+          "prompt": "What is the difference between deadlock and starvation?",
+          "answers": [
+            "Deadlock involves a cycle; starvation does not",
+            "Starvation involves a cycle; deadlock does not",
+            "They are the same",
+            "Deadlock is permanent; starvation is temporary"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-208",
+          "prompt": "Which memory allocation scheme requires two hardware registers for base address and program size?",
+          "answers": [
+            "Static Partitioning",
+            "Dynamic Partitioning",
+            "Single User Contiguous Allocation",
+            "Paging"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-209",
+          "prompt": "What is the major problem with Single User Contiguous Allocation?",
+          "answers": [
+            "It is too slow",
+            "It does not support multiprogramming",
+            "It requires too much memory",
+            "It is too complex"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-210",
+          "prompt": "Which memory allocation scheme divides memory into fixed partitions?",
+          "answers": [
+            "Single User Contiguous",
+            "Static Partitioning",
+            "Dynamic Partitioning",
+            "Paging"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-211",
+          "prompt": "What is external fragmentation?",
+          "answers": [
+            "Wasted memory inside allocated blocks",
+            "Fragments of free memory between blocks of allocated memory",
+            "Memory that is never used",
+            "Memory allocated to the operating system"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-212",
+          "prompt": "Which memory allocation scheme creates partitions dynamically when processes demand them?",
+          "answers": [
+            "Single User Contiguous",
+            "Static Partitioning",
+            "Dynamic Partitioning",
+            "Paging"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-213",
+          "prompt": "What is virtual memory?",
+          "answers": [
+            "Memory that does not exist",
+            "A technique allowing processes to execute even if not entirely in physical memory",
+            "Memory used only by the operating system",
+            "Memory that cannot be accessed"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-214",
+          "prompt": "What is demand paging?",
+          "answers": [
+            "Loading entire process into memory",
+            "Bringing only necessary pages into memory",
+            "Swapping all pages to disk",
+            "Loading pages in advance"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-215",
+          "prompt": "What does the valid-invalid bit scheme distinguish?",
+          "answers": [
+            "Valid and invalid processes",
+            "Pages in memory and pages on disk",
+            "Valid and invalid files",
+            "Valid and invalid users"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-216",
+          "prompt": "What problem does paging solve?",
+          "answers": [
+            "Internal fragmentation",
+            "External fragmentation",
+            "Deadlock",
+            "Starvation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-217",
+          "prompt": "What are segments in segmented memory allocation?",
+          "answers": [
+            "Fixed size blocks of memory",
+            "Logical entities formed by grouping related items",
+            "Physical memory blocks",
+            "Disk partitions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-218",
+          "prompt": "Which of the following is NOT an attribute of a file?",
+          "answers": [
+            "Name",
+            "Identifier",
+            "Printer",
+            "Location"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-219",
+          "prompt": "Which file operation re-positions the file pointer to a specific place?",
+          "answers": [
+            "Read",
+            "Write",
+            "Seek",
+            "Append"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-220",
+          "prompt": "Which file operation deletes all data and frees disk space?",
+          "answers": [
+            "Truncate",
+            "Delete",
+            "Close",
+            "Rename"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-221",
+          "prompt": "Which file operation deletes file contents except attributes?",
+          "answers": [
+            "Delete",
+            "Truncate",
+            "Close",
+            "Append"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-222",
+          "prompt": "Which file access method reads files word word from beginning to end?",
+          "answers": [
+            "Direct Access",
+            "Indexed Access",
+            "Sequential Access",
+            "Random Access"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-223",
+          "prompt": "Which file access method is most used in database applications?",
+          "answers": [
+            "Sequential Access",
+            "Direct Access",
+            "Indexed Access",
+            "Random Access"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-224",
+          "prompt": "Which file access method uses an index to access records quickly?",
+          "answers": [
+            "Sequential Access",
+            "Direct Access",
+            "Indexed Access",
+            "Random Access"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-225",
+          "prompt": "What is a directory?",
+          "answers": [
+            "A file containing metadata of a group of files",
+            "A physical storage device",
+            "A type of file system",
+            "A memory management technique"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-226",
+          "prompt": "Which directory structure allows each user to have their own directory?",
+          "answers": [
+            "Single-Level Directory",
+            "Two-Level Directory",
+            "Tree-Structured Directory",
+            "Flat Directory"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-227",
+          "prompt": "Which directory structure allows subdirectories within directories?",
+          "answers": [
+            "Single-Level Directory",
+            "Two-Level Directory",
+            "Tree-Structured Directory",
+            "Flat Directory"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-228",
+          "prompt": "Which type of file system is designed for storage on disk drives?",
+          "answers": [
+            "Disk File Systems",
+            "Flash File Systems",
+            "Network File Systems",
+            "Special Purpose File Systems"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-229",
+          "prompt": "Which of the following is an example of a disk file system?",
+          "answers": [
+            "procfs",
+            "NTFS",
+            "VxWorks",
+            "Hadoop"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-230",
+          "prompt": "What is the Master Boot Record (MBR)?",
+          "answers": [
+            "A file in the file system",
+            "Information in the first sector of a hard disk containing boot information",
+            "A type of file system",
+            "A memory management technique"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-231",
+          "prompt": "What is the first program accessed when a computer is turned on?",
+          "answers": [
+            "Operating System",
+            "BIOS",
+            "MBR",
+            "Boot Loader"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-232",
+          "prompt": "What does BIOS stand for?",
+          "answers": [
+            "Basic Input Output System",
+            "Binary Input Output System",
+            "Basic Internal Operating System",
+            "Binary Internal Operating System"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-233",
+          "prompt": "Which memory allocation scheme fully utilizes memory when first processes are loaded?",
+          "answers": [
+            "Single User Contiguous",
+            "Static Partitioning",
+            "Dynamic Partitioning",
+            "Paging"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-234",
+          "prompt": "What is the function of the File Organization Module?",
+          "answers": [
+            "To manage user authentication",
+            "To map logical blocks to physical blocks",
+            "To handle network communication",
+            "To manage process scheduling"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-235",
+          "prompt": "Which of the following is a special purpose file system?",
+          "answers": [
+            "NTFS",
+            "FAT32",
+            "procfs",
+            "HFS+"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-236",
+          "prompt": "What does the Logical File System contain?",
+          "answers": [
+            "Physical blocks",
+            "Device drivers",
+            "Metadata and directory structure",
+            "I/O control code"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-237",
+          "prompt": "Which of the following is a reason why OS security is important?",
+          "answers": [
+            "Operating systems run with the highest levels of system privileges",
+            "Operating systems manage sensitive data",
+            "Operating systems serve as the foundation for security controls",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-238",
+          "prompt": "What is the difference between authentication and authorization?",
+          "answers": [
+            "Authentication determines permissions; authorization verifies identity",
+            "Authentication verifies identity; authorization determines permissions",
+            "Both are the same",
+            "Authentication is done after authorization"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-239",
+          "prompt": "Which access control model allows users to grant or revoke permissions to resources they own?",
+          "answers": [
+            "Mandatory Access Control (MAC)",
+            "Discretionary Access Control (DAC)",
+            "Role-Based Access Control (RBAC)",
+            "Attribute-Based Access Control (ABAC)"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-240",
+          "prompt": "Which access control model enforces centralized policies that cannot be overridden individual users?",
+          "answers": [
+            "Mandatory Access Control (MAC)",
+            "Discretionary Access Control (DAC)",
+            "Role-Based Access Control (RBAC)",
+            "Attribute-Based Access Control (ABAC)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-241",
+          "prompt": "Which access control model assigns permissions based on user roles?",
+          "answers": [
+            "Mandatory Access Control (MAC)",
+            "Discretionary Access Control (DAC)",
+            "Role-Based Access Control (RBAC)",
+            "Attribute-Based Access Control (ABAC)"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-242",
+          "prompt": "What is an Access Control List (ACL)?",
+          "answers": [
+            "A list of all users in the system",
+            "Metadata specifying users or groups allowed to access resources and the type of access",
+            "A list of all files in the system",
+            "A list of all processes in the system"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-243",
+          "prompt": "What is process isolation?",
+          "answers": [
+            "Allowing all processes to access memory freely",
+            "Protecting the system and resources from interference by running processes",
+            "Allowing processes to run at the same priority",
+            "Terminating all processes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-244",
+          "prompt": "What does memory separation provide?",
+          "answers": [
+            "Shared memory for all processes",
+            "Each process with its own isolated memory space",
+            "All processes accessing the same memory",
+            "Memory that is never used"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-245",
+          "prompt": "What is sandboxing?",
+          "answers": [
+            "Running all processes at the highest privilege level",
+            "Isolating processes within a secure, restricted environment",
+            "Allowing processes to access all system resources",
+            "Terminating all processes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-246",
+          "prompt": "What is the function of the Memory Management Unit (MMU)?",
+          "answers": [
+            "To manage file storage",
+            "To translate virtual addresses to physical addresses",
+            "To manage network connections",
+            "To handle user authentication"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-247",
+          "prompt": "What are protection rings?",
+          "answers": [
+            "Physical rings on the CPU",
+            "Privilege levels that define the level of access a process has",
+            "Rings used in network communication",
+            "Rings used in file management"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-248",
+          "prompt": "Which privilege level does the kernel run at?",
+          "answers": [
+            "User mode",
+            "Kernel mode",
+            "Administrator mode",
+            "Guest mode"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-249",
+          "prompt": "What is filesystem encryption?",
+          "answers": [
+            "Encrypting only the operating system files",
+            "Encrypting the contents of individual files and directories",
+            "Encrypting only user passwords",
+            "Encrypting network traffic"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-250",
+          "prompt": "Which of the following is an example of filesystem encryption?",
+          "answers": [
+            "BitLocker",
+            "FileVault",
+            "eCryptFS",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-251",
+          "prompt": "What is full-disk encryption?",
+          "answers": [
+            "Encrypting only the operating system",
+            "Encrypting the entire storage device",
+            "Encrypting only user files",
+            "Encrypting network traffic"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-252",
+          "prompt": "Which of the following is an example of full-disk encryption?",
+          "answers": [
+            "LUKS",
+            "eCryptFS",
+            "procfs",
+            "ext2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-253",
+          "prompt": "What is secure data deletion?",
+          "answers": [
+            "Deleting a file normally",
+            "Permanently removing data in a way that makes it cryptographically unrecoverable",
+            "Moving a file to the recycle bin",
+            "Formatting the disk"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-254",
+          "prompt": "Which standard is used for secure data deletion?",
+          "answers": [
+            "NIST SP 800-88",
+            "ISO 9001",
+            "PCI DSS",
+            "HIPAA"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-255",
+          "prompt": "What is a buffer overflow attack?",
+          "answers": [
+            "An attack that floods the network",
+            "An attack that exploits memory corruption to execute arbitrary code",
+            "An attack that steals passwords",
+            "An attack that deletes files"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-256",
+          "prompt": "What is privilege escalation?",
+          "answers": [
+            "Giving all users administrative privileges",
+            "Weaknesses in access control allowing unprivileged users to gain elevated privileges",
+            "Reducing user privileges",
+            "Terminating user accounts"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-257",
+          "prompt": "What is a rootkit?",
+          "answers": [
+            "A type of antivirus software",
+            "Malicious software that infects the OS using kernel-level exploits",
+            "A type of firewall",
+            "A type of scheduling algorithm"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-258",
+          "prompt": "What is a zero-day vulnerability?",
+          "answers": [
+            "A vulnerability that has existed for zero days",
+            "A vulnerability unknown to the software vendor",
+            "A vulnerability that has already been patched",
+            "A vulnerability that cannot be exploited"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-259",
+          "prompt": "What is Data Execution Prevention (DEP)?",
+          "answers": [
+            "A technique to allow execution from all memory areas",
+            "A technique that prevents code from being executed from data areas of memory",
+            "A technique to increase memory usage",
+            "A technique to speed up execution"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-260",
+          "prompt": "What is Address Space Layout Randomization (ASLR)?",
+          "answers": [
+            "A technique that makes all memory addresses predictable",
+            "A technique that randomizes addresses of key system components",
+            "A technique that disables memory protection",
+            "A technique that increases memory usage"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-261",
+          "prompt": "What are stack canaries?",
+          "answers": [
+            "Random values placed on the stack to detect buffer overflow attacks",
+            "A type of bird found in stacks",
+            "A technique to increase stack size",
+            "A technique to disable stack protection"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-262",
+          "prompt": "Which of the following is a common OS security threat?",
+          "answers": [
+            "Buffer overflow attacks",
+            "Injection vulnerabilities",
+            "Denial of Service attacks",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-263",
+          "prompt": "What is vulnerability assessment?",
+          "answers": [
+            "The process of installing patches",
+            "The process of identifying, evaluating, and prioritizing vulnerabilities",
+            "The process of creating user accounts",
+            "The process of managing network connections"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-264",
+          "prompt": "What is vulnerability scanning?",
+          "answers": [
+            "Using automated tools to scan systems for known vulnerabilities",
+            "Manually checking every file",
+            "Scanning network traffic",
+            "Scanning user passwords"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-265",
+          "prompt": "Which of the following is a benefit of vulnerability assessment and scanning?",
+          "answers": [
+            "Identify security vulnerabilities",
+            "Reduce risk of security breaches",
+            "Improve compliance",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-266",
+          "prompt": "What is control flow integrity (CFI)?",
+          "answers": [
+            "A technique that allows any control flow transfer",
+            "A technique that verifies control flow transfers are only made to valid targets",
+            "A technique that disables control flow checking",
+            "A technique that increases control flow transfers"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-267",
+          "prompt": "What is filesystem hardening?",
+          "answers": [
+            "Making the filesystem larger",
+            "Enhancing security through configurations, policies, and best practices",
+            "Deleting all files",
+            "Creating new files"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-268",
+          "prompt": "What is file integrity monitoring (FIM)?",
+          "answers": [
+            "A tool to monitor file access and detect unauthorized changes",
+            "A tool to create files",
+            "A tool to delete files",
+            "A tool to rename files"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-269",
+          "prompt": "What is the principle of least privilege?",
+          "answers": [
+            "Giving all users the same privileges",
+            "Giving users only the privileges they need to perform their duties",
+            "Giving all users administrative privileges",
+            "Giving no privileges to anyone"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-270",
+          "prompt": "Which of the following is a supply chain attack?",
+          "answers": [
+            "An attack on a single computer",
+            "Compromising the development or distribution of OS components",
+            "An attack on the network",
+            "An attack on user passwords"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-271",
+          "prompt": "What is a hardware-based attack?",
+          "answers": [
+            "An attack on software only",
+            "Exploiting vulnerabilities in the hardware-software interface",
+            "An attack on user passwords",
+            "An attack on network connections"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-272",
+          "prompt": "What is an insider threat?",
+          "answers": [
+            "A threat from outside the organization",
+            "Malicious actions by authorized users with elevated privileges",
+            "A threat from hardware",
+            "A threat from the network"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-273",
+          "prompt": "What is the function of audit trails in OS security?",
+          "answers": [
+            "To speed up the system",
+            "To maintain logs of user activities and system changes",
+            "To create user accounts",
+            "To manage memory"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-274",
+          "prompt": "Which of the following is a method to protect against keyloggers?",
+          "answers": [
+            "Using strong passwords",
+            "Using automatic form fillers",
+            "Using one-time passwords",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-275",
+          "prompt": "What is the function of file permissions?",
+          "answers": [
+            "To define the size of files",
+            "To define and enforce the level of access users have to files",
+            "To define the location of files",
+            "To define the type of files"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-276",
+          "prompt": "Which of the following is a type of system hardening?",
+          "answers": [
+            "Server hardening",
+            "Software application hardening",
+            "Operating system hardening",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-277",
+          "prompt": "What does server hardening involve?",
+          "answers": [
+            "Securing only the operating system",
+            "Securing data, ports, components, functions, and permissions of a server",
+            "Securing only the network",
+            "Securing only applications"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-278",
+          "prompt": "Which of the following is a server hardening measure?",
+          "answers": [
+            "Keeping the OS patched and updated",
+            "Using strong passwords",
+            "Locking user accounts after failed login attempts",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-279",
+          "prompt": "What is software application hardening?",
+          "answers": [
+            "Securing the entire server system",
+            "Updating and implementing security measures for applications",
+            "Securing the network",
+            "Securing the database"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-280",
+          "prompt": "Which of the following is an example of application hardening?",
+          "answers": [
+            "Patching applications automatically",
+            "Using firewalls",
+            "Using antivirus software",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-281",
+          "prompt": "What is operating system hardening?",
+          "answers": [
+            "Installing more applications",
+            "Patching and implementing security measures for the OS",
+            "Securing the network",
+            "Securing the database"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-282",
+          "prompt": "What is database hardening?",
+          "answers": [
+            "Securing only the operating system",
+            "Securing the contents of a database and the DBMS",
+            "Securing the network",
+            "Securing applications"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-283",
+          "prompt": "Which of the following is a database hardening technique?",
+          "answers": [
+            "Restricting administrator privileges",
+            "Encrypting database information",
+            "Adhering to RBAC policy",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-284",
+          "prompt": "What is network hardening?",
+          "answers": [
+            "Securing the operating system",
+            "Securing the network infrastructure",
+            "Securing applications",
+            "Securing the database"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-285",
+          "prompt": "What is a password policy?",
+          "answers": [
+            "A policy that defines password requirements for users",
+            "A policy that defines network requirements",
+            "A policy that defines application requirements",
+            "A policy that defines hardware requirements"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-286",
+          "prompt": "Which of the following is a password policy setting?",
+          "answers": [
+            "Minimum password length",
+            "Password complexity",
+            "Maximum password age",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-287",
+          "prompt": "What is the purpose of an account lockout policy?",
+          "answers": [
+            "To prevent users from logging in permanently",
+            "To lock accounts after a number of failed login attempts",
+            "To delete user accounts",
+            "To change user passwords"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-288",
+          "prompt": "Which of the following is an account lockout policy setting?",
+          "answers": [
+            "Account lockout duration",
+            "Account lockout threshold",
+            "Reset account lockout counter after",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-289",
+          "prompt": "What is a key logger?",
+          "answers": [
+            "A type of firewall",
+            "Recording of keys pressed on a system",
+            "A type of antivirus software",
+            "A type of scheduling algorithm"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-290",
+          "prompt": "Which of the following is a type of key logger?",
+          "answers": [
+            "Software key-loggers",
+            "Hardware key-loggers",
+            "Both A and B",
+            "Neither A nor B"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-291",
+          "prompt": "What is a USB keylogger?",
+          "answers": [
+            "A software program",
+            "A USB connector that records keystrokes",
+            "A type of firewall",
+            "A type of antivirus"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-292",
+          "prompt": "Which of the following is a prevention method against keyloggers?",
+          "answers": [
+            "Anti-Key-logger software",
+            "Automatic form fillers",
+            "One-Time Passwords",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-293",
+          "prompt": "What is sniffing?",
+          "answers": [
+            "A process of monitoring and capturing data packets on a network",
+            "A process of encrypting data",
+            "A process of deleting data",
+            "A process of creating data"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-294",
+          "prompt": "Which type of sniffing occurs in a switch?",
+          "answers": [
+            "Passive sniffing",
+            "Active sniffing",
+            "Both A and B",
+            "Neither A nor B"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-295",
+          "prompt": "What is virtualization?",
+          "answers": [
+            "Creating physical hardware",
+            "Creating a virtual environment on top of physical hardware",
+            "Creating more physical servers",
+            "Creating more storage"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-296",
+          "prompt": "Which type of virtualization creates a virtual layer directly on top of physical hardware?",
+          "answers": [
+            "Type 1 (Bare-Metal Virtualization)",
+            "Type 2 (Hosted Virtualization)",
+            "Both A and B",
+            "Neither A nor B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-297",
+          "prompt": "Which type of virtualization creates a virtual layer on top of an existing operating system?",
+          "answers": [
+            "Type 1 (Bare-Metal Virtualization)",
+            "Type 2 (Hosted Virtualization)",
+            "Both A and B",
+            "Neither A nor B"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-298",
+          "prompt": "What is a hypervisor?",
+          "answers": [
+            "A type of application",
+            "A layer that manages physical resources and creates VMs",
+            "A type of firewall",
+            "A type of database"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-299",
+          "prompt": "Which of the following is an example of Type 1 virtualization?",
+          "answers": [
+            "VMware ESXi",
+            "Oracle VirtualBox",
+            "VMware Workstation",
+            "Docker"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-300",
+          "prompt": "What is containerization?",
+          "answers": [
+            "A form of virtualization that packages applications and their dependencies into containers",
+            "A form of hardware virtualization",
+            "A type of firewall",
+            "A type of database"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-301",
+          "prompt": "Which of the following is a benefit of containerization?",
+          "answers": [
+            "Portability",
+            "Agility",
+            "Efficiency",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-302",
+          "prompt": "What is Docker?",
+          "answers": [
+            "A type of hardware",
+            "A popular containerization platform",
+            "A type of firewall",
+            "A type of database"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-303",
+          "prompt": "What is Kubernetes?",
+          "answers": [
+            "A type of hardware",
+            "An open-source container orchestration platform",
+            "A type of firewall",
+            "A type of database"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-304",
+          "prompt": "How do containers differ from virtual machines?",
+          "answers": [
+            "Containers have their own OS; VMs do not",
+            "VMs have their own OS; containers share the underlying OS kernel",
+            "They are the same",
+            "Containers are less efficient than VMs"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-305",
+          "prompt": "What is the benefit of using OTPs (One-Time Passwords)?",
+          "answers": [
+            "Passwords are easier to remember",
+            "A new password is used every time you login",
+            "Passwords are longer",
+            "Passwords are stored permanently"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-306",
+          "prompt": "Which of the following is a database hardening process?",
+          "answers": [
+            "Controlling and limiting user privileges and access",
+            "Disabling unnecessary database services",
+            "Securing database information",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-307",
+          "prompt": "What is the purpose of file integrity monitoring?",
+          "answers": [
+            "To monitor file access and detect unauthorized changes",
+            "To create new files",
+            "To delete files",
+            "To rename files"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-308",
+          "prompt": "What is the principle of least privilege in system hardening?",
+          "answers": [
+            "Giving all users the same privileges",
+            "Giving users only the privileges they need to perform their duties",
+            "Giving all users administrative privileges",
+            "Giving no privileges to anyone"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-309",
+          "prompt": "Which of the following is a method to protect against sniffing?",
+          "answers": [
+            "Encryption",
+            "Using stronger passwords",
+            "Using firewalls",
+            "All of the above"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-310",
+          "prompt": "What is the purpose of account lockout threshold?",
+          "answers": [
+            "The number of invalid login attempts allowed before account is locked",
+            "The amount of time the account remains locked",
+            "The time before the lockout counter resets",
+            "The password complexity requirement"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-311",
+          "prompt": "What is the purpose of enforcing password history?",
+          "answers": [
+            "To ensure passwords are complex",
+            "To prevent users from reusing old passwords",
+            "To ensure passwords are long enough",
+            "To ensure passwords are encrypted"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-312",
+          "prompt": "Which of the following is an example of network hardening?",
+          "answers": [
+            "Securing routers and switches",
+            "Using firewalls",
+            "Configuring secure network protocols",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb202-313",
+          "prompt": "What is the benefit of using containerization with microservices?",
+          "answers": [
+            "It makes deployment more difficult",
+            "It makes it easy to deploy and manage microservices applications",
+            "It increases resource usage",
+            "It reduces portability"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

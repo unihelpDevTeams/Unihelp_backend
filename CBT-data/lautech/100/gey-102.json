@@ -1,0 +1,1051 @@
+{
+ "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Geology",
+  "course": {
+    "code": "GEY 102",
+    "title": "Evolution and Fossilization"
+  },
+  "questions": [
+        {
+          "id": "gey102-001",
+          "prompt": "What is the definition of evolution in geology?",
+          "answers": [
+            "The sudden creation of new species",
+            "The gradual change and variation of living organisms over geological time",
+            "The study of rock layers only",
+            "The process of fossilization"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-002",
+          "prompt": "Which of the following is NOT an aspect of evolution in geology?",
+          "answers": [
+            "Change over time",
+            "Fossil record",
+            "Volcanic eruptions",
+            "Stratigraphy"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-003",
+          "prompt": "What does the fossil record help reconstruct?",
+          "answers": [
+            "The history of life",
+            "The future of life",
+            "Only dinosaur bones",
+            "Only plant fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-004",
+          "prompt": "Stratigraphy is the study of:",
+          "answers": [
+            "Fossils only",
+            "Rock layers to determine relative ages of fossils",
+            "DNA sequences",
+            "Climate change"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-005",
+          "prompt": "How is biological evolution tied to geological evolution?",
+          "answers": [
+            "They are unrelated",
+            "Biological events leave fossil records that mark geological boundaries",
+            "Only plants affect geology",
+            "Geology only studies rocks"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-006",
+          "prompt": "What is an example of climatic and environmental evolution?",
+          "answers": [
+            "Volcanic eruptions",
+            "Glaciations and greenhouse periods",
+            "Earthquakes",
+            "Mountain formation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-007",
+          "prompt": "What is \"descent with modification\"?",
+          "answers": [
+            "The idea that all living organisms share a common ancestor",
+            "The sudden appearance of new species",
+            "The study of fossils",
+            "The process of fossilization"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-008",
+          "prompt": "What provides the raw material for evolution?",
+          "answers": [
+            "Fossils",
+            "Genetic variation",
+            "Rocks",
+            "Climate"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-009",
+          "prompt": "What is heritability?",
+          "answers": [
+            "The passing of traits from parents to offspring",
+            "The study of fossils",
+            "The process of fossilization",
+            "The change in climate"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-010",
+          "prompt": "What is adaptation?",
+          "answers": [
+            "The process by which species become better suited to their environment",
+            "The study of rocks",
+            "The sudden extinction of species",
+            "The formation of fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-011",
+          "prompt": "What is speciation?",
+          "answers": [
+            "The formation of new species",
+            "The study of fossils",
+            "The process of fossilization",
+            "The change in climate"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-012",
+          "prompt": "Which of the following is NOT a mechanism of evolution?",
+          "answers": [
+            "Natural selection",
+            "Genetic drift",
+            "Fossilization",
+            "Gene flow"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-013",
+          "prompt": "What is natural selection?",
+          "answers": [
+            "The process by which favorable traits are more likely to be passed on",
+            "The study of rocks",
+            "The sudden extinction of species",
+            "The formation of fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-014",
+          "prompt": "What is genetic drift?",
+          "answers": [
+            "Random changes in the frequency of genetic traits",
+            "The study of fossils",
+            "The process of fossilization",
+            "The change in climate"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-015",
+          "prompt": "What is mutation?",
+          "answers": [
+            "Changes in the DNA sequence",
+            "The study of rocks",
+            "The sudden extinction of species",
+            "The formation of fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-016",
+          "prompt": "What is gene flow?",
+          "answers": [
+            "The movement of genes between populations",
+            "The study of fossils",
+            "The process of fossilization",
+            "The change in climate"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-017",
+          "prompt": "Which of the following is evidence for evolution?",
+          "answers": [
+            "Fossil record",
+            "Volcanic eruptions",
+            "Earthquakes",
+            "Mountain formation"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-018",
+          "prompt": "What does the fossil record show?",
+          "answers": [
+            "A pattern of gradual changes in life forms",
+            "Only dinosaur bones",
+            "Only plant fossils",
+            "The future of life"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-019",
+          "prompt": "What is comparative anatomy?",
+          "answers": [
+            "The study of the structure and development of living organisms",
+            "The study of rocks",
+            "The process of fossilization",
+            "The change in climate"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-020",
+          "prompt": "What has molecular biology confirmed?",
+          "answers": [
+            "The relatedness of different organisms",
+            "Only dinosaur bones",
+            "Only plant fossils",
+            "The future of life"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-021",
+          "prompt": "What does biogeography study?",
+          "answers": [
+            "The geographic distribution of living organisms",
+            "The study of rocks",
+            "The process of fossilization",
+            "The change in climate"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-022",
+          "prompt": "Why is evolution important in geology?",
+          "answers": [
+            "It helps understand the history of life",
+            "It predicts volcanic eruptions",
+            "It studies earthquakes",
+            "It forms mountains"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-023",
+          "prompt": "What can fossils help reconstruct?",
+          "answers": [
+            "Ancient environments",
+            "Future climates",
+            "Volcanic eruptions",
+            "Earthquakes"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-024",
+          "prompt": "How can understanding evolution help us?",
+          "answers": [
+            "Predict how species may respond to future changes",
+            "Predict volcanic eruptions",
+            "Study earthquakes",
+            "Form mountains"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-025",
+          "prompt": "What is the origin of the word \"fossil\"?",
+          "answers": [
+            "Latin word \"Fossilium\"",
+            "Greek word \"Fossilos\"",
+            "English word \"Fossil\"",
+            "French word \"Fossile\""
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-026",
+          "prompt": "What was the original meaning of \"fossil\" in the sixteenth century?",
+          "answers": [
+            "Any sample dug up from the ground",
+            "Only dinosaur bones",
+            "Only plant remains",
+            "Evidence of past life"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-027",
+          "prompt": "When was the word \"fossil\" strictly used for evidence of past life?",
+          "answers": [
+            "Eighteenth century",
+            "Sixteenth century",
+            "Nineteenth century",
+            "Twentieth century"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-028",
+          "prompt": "What is a fossil?",
+          "answers": [
+            "The remains or traces of ancient life preserved in sedimentary rock",
+            "Only dinosaur bones",
+            "Only plant remains",
+            "Volcanic rocks"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-029",
+          "prompt": "What are subfossils?",
+          "answers": [
+            "Remains in rocks younger than 10,000 years",
+            "Remains in rocks older than 10,000 years",
+            "Only dinosaur bones",
+            "Only plant remains"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-030",
+          "prompt": "What is fossilization?",
+          "answers": [
+            "The process of preserving remains or traces of organisms in rocks",
+            "The study of rocks",
+            "The change in climate",
+            "The formation of mountains"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-031",
+          "prompt": "What happens to the soft parts of an organism after death?",
+          "answers": [
+            "They decay due to biological activities",
+            "They turn into fossils immediately",
+            "They become rocks",
+            "They disappear instantly"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-032",
+          "prompt": "What happens to the hard parts of an organism during fossilization?",
+          "answers": [
+            "They may be preserved",
+            "They decay immediately",
+            "They turn into rocks instantly",
+            "They disappear"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-033",
+          "prompt": "What is one condition favorable for fossilization?",
+          "answers": [
+            "The organism should have hard parts",
+            "The organism should be soft-bodied",
+            "The organism should be alive",
+            "The organism should be in water"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-034",
+          "prompt": "Why is quick burial important for fossilization?",
+          "answers": [
+            "It slows down decay and protects from scavengers",
+            "It speeds up decay",
+            "It turns the organism into rock instantly",
+            "It makes the organism disappear"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-035",
+          "prompt": "Which environment is more conducive to fossilization?",
+          "answers": [
+            "Marine",
+            "Desert",
+            "Forest",
+            "Mountain"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-036",
+          "prompt": "What is exceptional preservation?",
+          "answers": [
+            "The preservation of entire organisms, including soft parts",
+            "Only the preservation of hard parts",
+            "The preservation of rocks",
+            "The preservation of water"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-037",
+          "prompt": "What is amber?",
+          "answers": [
+            "Fossilized resin of ancient conifer trees",
+            "A type of rock",
+            "A type of fossilized bone",
+            "A type of sediment"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-038",
+          "prompt": "How are organisms preserved in amber?",
+          "answers": [
+            "They get trapped in sticky resin",
+            "They turn into rocks",
+            "They decay immediately",
+            "They disappear"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-039",
+          "prompt": "What is unaltered hard parts preservation?",
+          "answers": [
+            "The preservation of hard parts with no changes",
+            "The preservation of soft parts",
+            "The preservation of rocks",
+            "The preservation of water"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-040",
+          "prompt": "What is permineralization?",
+          "answers": [
+            "The replacement of organic material by mineralized solutions",
+            "The decay of organic material",
+            "The formation of rocks",
+            "The disappearance of fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-041",
+          "prompt": "What is petrifaction?",
+          "answers": [
+            "A slow process of replacement molecule by molecule",
+            "The decay of organic material",
+            "The formation of rocks",
+            "The disappearance of fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-042",
+          "prompt": "What is replacement in fossilization?",
+          "answers": [
+            "The dissolution of hard parts and replacement by minerals",
+            "The decay of organic material",
+            "The formation of rocks",
+            "The disappearance of fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-043",
+          "prompt": "What is carbonization?",
+          "answers": [
+            "The formation of a thin carbon film from decomposed organisms",
+            "The decay of organic material",
+            "The formation of rocks",
+            "The disappearance of fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-044",
+          "prompt": "What are molds in fossilization?",
+          "answers": [
+            "Impressions left by dissolved shells or bones",
+            "The decay of organic material",
+            "The formation of rocks",
+            "The disappearance of fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-045",
+          "prompt": "What are casts in fossilization?",
+          "answers": [
+            "Replicas formed when molds are filled with minerals",
+            "The decay of organic material",
+            "The formation of rocks",
+            "The disappearance of fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-046",
+          "prompt": "What are body fossils?",
+          "answers": [
+            "Direct evidence of ancient life, such as shells or bones",
+            "The decay of organic material",
+            "The formation of rocks",
+            "The disappearance of fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-047",
+          "prompt": "What are trace fossils?",
+          "answers": [
+            "Evidence of past organism activities, such as footprints",
+            "The decay of organic material",
+            "The formation of rocks",
+            "The disappearance of fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-048",
+          "prompt": "What are gastroliths?",
+          "answers": [
+            "Smooth stones found in the rib cage of dinosaurs",
+            "The decay of organic material",
+            "The formation of rocks",
+            "The disappearance of fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-049",
+          "prompt": "What are coprolites?",
+          "answers": [
+            "Fossilized animal droppings",
+            "The decay of organic material",
+            "The formation of rocks",
+            "The disappearance of fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-050",
+          "prompt": "What are chemical fossils?",
+          "answers": [
+            "Organically derived compounds from rocks",
+            "The decay of organic material",
+            "The formation of rocks",
+            "The disappearance of fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-051",
+          "prompt": "What are macrofossils?",
+          "answers": [
+            "Fossils larger than 0.03 mm, visible to the naked eye",
+            "Fossils smaller than 1 mm",
+            "Fossils between 5 to 60 nanometers",
+            "The decay of organic material"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-052",
+          "prompt": "What are microfossils?",
+          "answers": [
+            "Fossils smaller than 1 mm, requiring a microscope",
+            "Fossils larger than 0.03 mm",
+            "Fossils between 5 to 60 nanometers",
+            "The decay of organic material"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-053",
+          "prompt": "What are nanofossils?",
+          "answers": [
+            "Fossils between 5 to 60 nanometers, requiring an electron microscope",
+            "Fossils larger than 0.03 mm",
+            "Fossils smaller than 1 mm",
+            "The decay of organic material"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-054",
+          "prompt": "What are index fossils?",
+          "answers": [
+            "Fossils with short geological age ranges and wide distribution",
+            "Fossils with long geological age ranges",
+            "Fossils found only in one location",
+            "The decay of organic material"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-055",
+          "prompt": "What are living fossils?",
+          "answers": [
+            "Species that have lived for long spans with little morphological change",
+            "Fossils of extinct species",
+            "Fossils found only in one location",
+            "The decay of organic material"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-056",
+          "prompt": "What is one use of fossils?",
+          "answers": [
+            "To recreate geological history",
+            "To predict volcanic eruptions",
+            "To study earthquakes",
+            "To form mountains"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-057",
+          "prompt": "How are fossils used as stratigraphic indicators?",
+          "answers": [
+            "They provide information about the ages of rocks",
+            "They predict volcanic eruptions",
+            "They study earthquakes",
+            "They form mountains"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-058",
+          "prompt": "How can fossils indicate past climates?",
+          "answers": [
+            "By showing the existence of different climatic conditions",
+            "By predicting volcanic eruptions",
+            "By studying earthquakes",
+            "By forming mountains"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-059",
+          "prompt": "What do fossils show about geographic patterns?",
+          "answers": [
+            "Evidence of changes",
+            "Predictions of volcanic eruptions",
+            "Studies of earthquakes",
+            "Formation of mountains"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-060",
+          "prompt": "What do fossils provide about prehistoric life?",
+          "answers": [
+            "Information about the origin and evolution of organisms",
+            "Predictions of volcanic eruptions",
+            "Studies of earthquakes",
+            "Formation of mountains"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-061",
+          "prompt": "Which of the following is NOT a key component of evolution?",
+          "answers": [
+            "Volcanic eruptions",
+            "Descent with modification",
+            "Variation",
+            "Heritability"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-062",
+          "prompt": "Which mechanism of evolution involves random changes in trait frequency?",
+          "answers": [
+            "Genetic drift",
+            "Natural selection",
+            "Mutation",
+            "Gene flow"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-063",
+          "prompt": "Which evidence for evolution involves DNA and proteins?",
+          "answers": [
+            "Molecular biology",
+            "Fossil record",
+            "Comparative anatomy",
+            "Biogeography"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-064",
+          "prompt": "What is the primary role of fossils in geology?",
+          "answers": [
+            "To provide a record of prehistoric life",
+            "To predict volcanic eruptions",
+            "To study earthquakes",
+            "To form mountains"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-065",
+          "prompt": "Which process involves the formation of a carbon film?",
+          "answers": [
+            "Carbonization",
+            "Permineralization",
+            "Replacement",
+            "Petrification"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-066",
+          "prompt": "What type of fossil is a footprint?",
+          "answers": [
+            "Trace fossil",
+            "Body fossil",
+            "Chemical fossil",
+            "Microfossil"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-067",
+          "prompt": "Which fossil type is used for dating and correlation?",
+          "answers": [
+            "Index fossil",
+            "Living fossil",
+            "Body fossil",
+            "Trace fossil"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-068",
+          "prompt": "What is the term for fossils preserved in amber?",
+          "answers": [
+            "Exceptional preservation",
+            "Unaltered hard parts preservation",
+            "Carbonization",
+            "Replacement"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-069",
+          "prompt": "Which fossil type includes pollen and spores?",
+          "answers": [
+            "Microfossil",
+            "Macrofossil",
+            "Nanofossil",
+            "Trace fossil"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-070",
+          "prompt": "What is the term for fossilized resin?",
+          "answers": [
+            "Amber",
+            "Petrified wood",
+            "Carbon film",
+            "Mold"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-071",
+          "prompt": "Which process involves the filling of pores with minerals?",
+          "answers": [
+            "Permineralization",
+            "Carbonization",
+            "Replacement",
+            "Mold formation"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-072",
+          "prompt": "What is the term for a replica of an original shell shape?",
+          "answers": [
+            "Cast",
+            "Mold",
+            "Carbon film",
+            "Trace fossil"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-073",
+          "prompt": "Which fossil type is enriched in carbon and appears black and shiny?",
+          "answers": [
+            "Carbon film",
+            "Petrified wood",
+            "Amber",
+            "Mold"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-074",
+          "prompt": "What is the term for the impression of an organism in surrounding material?",
+          "answers": [
+            "Mold",
+            "Cast",
+            "Carbon film",
+            "Trace fossil"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-075",
+          "prompt": "Which fossil type includes bones and shells?",
+          "answers": [
+            "Body fossil",
+            "Trace fossil",
+            "Chemical fossil",
+            "Microfossil"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-076",
+          "prompt": "What is the term for fossilized animal droppings?",
+          "answers": [
+            "Coprolite",
+            "Gastrolith",
+            "Mold",
+            "Cast"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-077",
+          "prompt": "Which fossil type is preserved in ice?",
+          "answers": [
+            "Exceptional preservation",
+            "Unaltered hard parts preservation",
+            "Carbonization",
+            "Replacement"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-078",
+          "prompt": "What is the term for fossils that show little morphological change over time?",
+          "answers": [
+            "Living fossils",
+            "Index fossils",
+            "Body fossils",
+            "Trace fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-079",
+          "prompt": "Which process involves the complete dissolution of hard parts?",
+          "answers": [
+            "Replacement",
+            "Carbonization",
+            "Permineralization",
+            "Mold formation"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gey102-080",
+          "prompt": "What is the term for fossils that require an electron microscope to be seen?",
+          "answers": [
+            "Nanofossils",
+            "Microfossils",
+            "Macrofossils",
+            "Trace fossils"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

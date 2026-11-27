@@ -1,0 +1,4795 @@
+{
+     "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Computer Science",
+  "course": {
+    "code": "COS 102",
+    "title": "Introduction to Computing"
+  },
+    "questions": [
+        {
+          "id": "cos102-001",
+          "prompt": "What is a problem in computing?",
+          "answers": [
+            "A task or question that requires a solution through computational means.",
+            "The desired result or solution after processing the input supplied to the system.",
+            "The data or information provided to the system.",
+            "The objective or purpose of solving the problem."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-002",
+          "prompt": "Which characteristic defines input in computing problems?",
+          "answers": [
+            "The objective or purpose of solving the problem.",
+            "The desired result or solution.",
+            "The data or information provided to the system.",
+            "The conditions that must be met for a solution to be valid."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-003",
+          "prompt": "What is the definition of output in computing problems?",
+          "answers": [
+            "The data or information provided to the system.",
+            "The desired result or solution after processing the input.",
+            "The objective or purpose of solving the problem.",
+            "The conditions that must be met for a solution to be valid."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-004",
+          "prompt": "What do constraints represent in computing problems?",
+          "answers": [
+            "The objective or purpose of solving the problem.",
+            "The desired result or solution.",
+            "The data or information provided to the system.",
+            "Conditions that must be met for a solution to be valid."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-005",
+          "prompt": "What is the goal in computing problems?",
+          "answers": [
+            "The objective or purpose of solving the problem.",
+            "The desired result or solution.",
+            "The data or information provided to the system.",
+            "The conditions that must be met for a solution to be valid."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-006",
+          "prompt": "What is a common example of a problem in computing related to ordering items?",
+          "answers": [
+            "Search problem",
+            "Sorting problem",
+            "Optimization problem",
+            "Graph problem"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-007",
+          "prompt": "What is the input for a sorting problem?",
+          "answers": [
+            "A sorted list of numbers.",
+            "An unsorted list of numbers.",
+            "A target item.",
+            "A graph with nodes and edges."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-008",
+          "prompt": "Which characteristic describes a well-defined computational problem?",
+          "answers": [
+            "It should be measurable.",
+            "It should produce a correct solution.",
+            "It should have a clear definition of input, output, constraints, and goal.",
+            "It should yield multiple possible solutions."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-009",
+          "prompt": "What does it mean for a computational problem to be solvable?",
+          "answers": [
+            "There should be a clear definition of input and output.",
+            "At least one algorithm can produce a correct solution.",
+            "The solution should be measurable.",
+            "It should have clearly defined constraints."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-010",
+          "prompt": "What does the measurability of a computational problem refer to?",
+          "answers": [
+            "The problem produces a correct solution.",
+            "The problem has a clear definition of input and output.",
+            "The effectiveness of the solution can be measured in terms of time complexity, space complexity, or accuracy.",
+            "The problem has at least one algorithm to solve it."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-011",
+          "prompt": "What are intractable problems?",
+          "answers": [
+            "Problems for which no algorithm can be made that always leads to a correct yes-or-no answer.",
+            "Problems that can be solved in polynomial time (P).",
+            "Problems for which no polynomial-time solutions are known (NP-complete, NP-hard).",
+            "Problems that are easy to solve."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-012",
+          "prompt": "What are undecidable problems?",
+          "answers": [
+            "Problems for which no algorithm can be made that always leads to a correct yes-or-no answer.",
+            "Problems that can be solved in polynomial time (P).",
+            "Problems for which no polynomial-time solutions are known (NP-complete, NP-hard).",
+            "Problems that are easy to solve."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-013",
+          "prompt": "Which of the following is an example of a tractable problem?",
+          "answers": [
+            "Traveling Salesman Problem.",
+            "Halting Problem.",
+            "Sorting a list of numbers.",
+            "Knapsack Problem."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-014",
+          "prompt": "What is the Halting Problem an example of?",
+          "answers": [
+            "Tractable Problem.",
+            "Intractable Problem.",
+            "Undecidable Problem.",
+            "Decision Problem."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-015",
+          "prompt": "What are the major categories of problems based on their solvability?",
+          "answers": [
+            "Computational, Decision, Optimization.",
+            "Tractable, Intractable, Undecidable.",
+            "Search, Counting, Enumeration.",
+            "Dynamic, Static, Heuristic."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-016",
+          "prompt": "What is the primary characteristic of Computational Problems?",
+          "answers": [
+            "They require a 'yes' or 'no' answer.",
+            "They seek the best solution from a set of possible solutions.",
+            "They require finding a specific item or solution.",
+            "They require numerical computations and algorithms."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-017",
+          "prompt": "What distinguishes Decision Problems?",
+          "answers": [
+            "They seek the best solution from a set of possible solutions.",
+            "They require finding a specific item or solution.",
+            "They require a 'yes' or 'no' answer.",
+            "They require numerical computations."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-018",
+          "prompt": "What is the objective of Optimization Problems?",
+          "answers": [
+            "To find a 'yes' or 'no' answer.",
+            "To find a specific item or solution.",
+            "To seek the best solution from a set of possible solutions based on certain criteria.",
+            "To count the number of possible solutions."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-019",
+          "prompt": "What is a common example of an Optimization Problem?",
+          "answers": [
+            "Primality Testing.",
+            "Binary Search.",
+            "Traveling Salesman Problem.",
+            "Finding the shortest path in a graph."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-020",
+          "prompt": "What is the goal of Search Problems?",
+          "answers": [
+            "To count the number of solutions.",
+            "To find a specific item or solution within a large set of possibilities.",
+            "To determine if a program will halt.",
+            "To find the optimal solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-021",
+          "prompt": "What is the primary characteristic of Constraint Satisfaction Problems?",
+          "answers": [
+            "They involve allocating resources over time.",
+            "They involve operations on strings of characters.",
+            "They require finding a solution that satisfies a set of constraints.",
+            "They involve geometric shapes."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-022",
+          "prompt": "Which of the following is an example of a Constraint Satisfaction Problem?",
+          "answers": [
+            "Job Scheduling.",
+            "Pattern Matching.",
+            "Sudoku.",
+            "Finding the shortest path."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-023",
+          "prompt": "What type of problem involves allocating resources over time to perform a collection of tasks?",
+          "answers": [
+            "String Processing Problems.",
+            "Scheduling Problems.",
+            "Geometric Problems.",
+            "Graph Problems."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-024",
+          "prompt": "What is a common example of a Scheduling Problem?",
+          "answers": [
+            "Text Compression.",
+            "Job Scheduling.",
+            "Identifying objects within images.",
+            "Encrypting plaintext."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-025",
+          "prompt": "What do String Processing Problems involve?",
+          "answers": [
+            "Operations on geometric shapes.",
+            "Techniques for secure communication.",
+            "Operations on strings of characters.",
+            "Allocating resources over time."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-026",
+          "prompt": "Which of the following is an example of a String Processing Problem?",
+          "answers": [
+            "Timetable Scheduling.",
+            "Graph Coloring.",
+            "Pattern Matching.",
+            "Sudoku."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-027",
+          "prompt": "What do Geometric Problems primarily involve?",
+          "answers": [
+            "Developing models from data.",
+            "Operations on strings of characters.",
+            "Geometric shapes and their properties.",
+            "Operations on graph structures."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-028",
+          "prompt": "What is the core of computer science according to the text?",
+          "answers": [
+            "String Processing Problems.",
+            "Problem Solving Process.",
+            "Machine Learning Problems.",
+            "Cryptographic Problems."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-029",
+          "prompt": "What do Machine Learning Problems involve?",
+          "answers": [
+            "Operations on graph structures.",
+            "Developing models that can learn from and make predictions or decisions based on data.",
+            "Techniques for secure communication.",
+            "Operations on strings of characters."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-030",
+          "prompt": "What is an example of a Cryptographic Problem?",
+          "answers": [
+            "Regression.",
+            "Encryption.",
+            "Maximum Flow.",
+            "Shortest Path."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-031",
+          "prompt": "What is the first step in understanding a problem in computing?",
+          "answers": [
+            "Planning the solution.",
+            "Designing the algorithm.",
+            "Determining the approach.",
+            "Formulating the problem statement."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-032",
+          "prompt": "What is involved in understanding the problem statement?",
+          "answers": [
+            "Breaking down the problem.",
+            "Identifying the inputs, outputs, constraints, and goals.",
+            "Ensuring correctness and efficiency.",
+            "Translating the algorithm into code."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-033",
+          "prompt": "What is the next step after understanding the problem in the problem-solving process?",
+          "answers": [
+            "Designing the algorithm.",
+            "Planning the solution.",
+            "Testing and debugging.",
+            "Implementing the solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-034",
+          "prompt": "What is the first action to take when planning a solution?",
+          "answers": [
+            "Determine the approach.",
+            "Break down the problem.",
+            "Design the algorithm.",
+            "Implement the code."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-035",
+          "prompt": "What does \"breaking down the problem\" involve in planning a solution?",
+          "answers": [
+            "Choosing an algorithm.",
+            "Dividing the problem into smaller, manageable parts.",
+            "Ensuring correctness.",
+            "Writing the code."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-036",
+          "prompt": "What is the purpose of \"determining the approach\" in problem-solving?",
+          "answers": [
+            "To break down the problem into smaller parts.",
+            "To choose an algorithm or strategy that fits the problem requirements.",
+            "To verify the algorithm produces the correct output.",
+            "To translate the algorithm into a programming language."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-037",
+          "prompt": "What is the next step after planning the solution and determining the approach?",
+          "answers": [
+            "Understanding the problem.",
+            "Implementing the solution.",
+            "Designing the algorithm.",
+            "Testing and debugging."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-038",
+          "prompt": "What does \"designing the algorithm\" primarily involve?",
+          "answers": [
+            "Testing with various test cases.",
+            "Developing a step-by-step procedure to solve the problem.",
+            "Translating the algorithm into code.",
+            "Analyzing time and space complexity."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-039",
+          "prompt": "What is a key consideration when ensuring correctness and efficiency during algorithm design?",
+          "answers": [
+            "Translating the algorithm into a programming language.",
+            "Verifying the algorithm produces the correct output for all possible inputs.",
+            "Choosing between quicksort and mergesort.",
+            "Breaking down the problem."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-040",
+          "prompt": "What is the final step in the problem-solving process described?",
+          "answers": [
+            "Designing the Algorithm.",
+            "Implementation.",
+            "Planning the Solution.",
+            "Testing and Debugging."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-041",
+          "prompt": "What is the purpose of \"Debugging and Fix Errors\" in the problem-solving process?",
+          "answers": [
+            "To improve the algorithm's performance.",
+            "To identify and resolve any issues or bugs in the code.",
+            "To make the algorithm more robust.",
+            "To document the solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-042",
+          "prompt": "What is involved in \"Refine Efficiency\" of an algorithm?",
+          "answers": [
+            "Making the algorithm more robust.",
+            "Optimizing the algorithm to run faster or use fewer resources.",
+            "Identifying and resolving bugs.",
+            "Documenting the code."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-043",
+          "prompt": "What is the goal of \"Refine the Algorithm\"?",
+          "answers": [
+            "To improve efficiency.",
+            "To make the algorithm more robust and maintainable.",
+            "To fix errors in the code.",
+            "To document the solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-044",
+          "prompt": "Why is it important to \"Document the Solution\"?",
+          "answers": [
+            "To find and fix bugs.",
+            "To make the algorithm run faster.",
+            "To provide clear and comprehensive documentation for the code, including explanations and comments.",
+            "To ensure the algorithm handles edge cases."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-045",
+          "prompt": "What are \"Core Concepts in Computing for Problem Solving\"?",
+          "answers": [
+            "The steps involved in debugging an algorithm.",
+            "Essential concepts that form the foundation of computing and are crucial for developing efficient and effective solutions.",
+            "Methods for documenting code.",
+            "Techniques for optimizing algorithm performance."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-046",
+          "prompt": "What is an algorithm?",
+          "answers": [
+            "A specific way of organizing data on a specialized format.",
+            "A finite set of well-defined instructions for solving a specific problem or performing a task.",
+            "A linear structure allowing specific access rules.",
+            "A process of identifying and resolving issues in code."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-047",
+          "prompt": "What makes a good algorithm?",
+          "answers": [
+            "It is complex and difficult to understand.",
+            "It uses as many resources as possible.",
+            "It produces the correct output for all valid inputs and uses resources efficiently (time and space efficiency).",
+            "It only works for a limited set of inputs."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-048",
+          "prompt": "What are Data Structures?",
+          "answers": [
+            "A set of instructions for solving a problem.",
+            "A way of organizing data on a specialized format in a computer so that information can be organized, processed, stored, and retrieved quickly and effectively.",
+            "A process of debugging code.",
+            "A method for documenting solutions."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-049",
+          "prompt": "Which of the following is an example of a Data Structure listed?",
+          "answers": [
+            "Quicksort.",
+            "Binary search.",
+            "Arrays.",
+            "An algorithm."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-050",
+          "prompt": "What is a characteristic of Stacks and Queues as data structures?",
+          "answers": [
+            "They are flexible in terms of how elements are accessed.",
+            "They are non-linear structures.",
+            "They are linear structures following specific access rules (LIFO for stacks, FIFO for queues).",
+            "They are used for random data access."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-051",
+          "prompt": "What does Complexity measure in computing?",
+          "answers": [
+            "The efficiency of an algorithm in terms of time and space.",
+            "The process of defining a problem in terms of itself.",
+            "A problem-solving strategy designed to find an optimal solution.",
+            "The study of relationships between vertices and edges."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-052",
+          "prompt": "What is Big O Notation used to describe?",
+          "answers": [
+            "The exact running time of an algorithm.",
+            "The upper bound of an algorithm's complexity.",
+            "The actual memory usage of an algorithm.",
+            "The number of steps involved in a recursive function."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-053",
+          "prompt": "What is Recursion in the context of problem-solving?",
+          "answers": [
+            "A method for organizing data.",
+            "A problem-solving strategy designed to find an optimal solution.",
+            "A process where a procedure goes through one or more steps of the procedure itself, involving calling itself to solve smaller instances of the same problem.",
+            "A technique for secure communication."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-054",
+          "prompt": "What is the \"Base Case\" in a recursive function?",
+          "answers": [
+            "The part of the function that includes the recursive call.",
+            "The condition under which the recursive function stops calling itself.",
+            "The input to the recursive function.",
+            "The output of the recursive function."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-055",
+          "prompt": "What is the \"Recursive Case\" in a recursive function?",
+          "answers": [
+            "The condition under which the recursive function stops calling itself.",
+            "The part of the function that includes the recursive call.",
+            "The initial value for the recursion.",
+            "The final result of the recursion."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-056",
+          "prompt": "What are Heuristics in problem-solving?",
+          "answers": [
+            "A guarantee to find the optimal solution.",
+            "A problem-solving strategy or method that is designed to find a guaranteed optimal solution.",
+            "A problem-solving strategy or method that is not guaranteed to find the optimal solution, but is designed to find a good enough solution in a reasonable amount of time.",
+            "A method for formal verification of an algorithm."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-057",
+          "prompt": "What is the focus of Graph Theory in computing?",
+          "answers": [
+            "Numerical computations and algorithms.",
+            "Operations on strings of characters.",
+            "Relationships between vertices and edges, often representing networks or social networks.",
+            "Geometric shapes and their properties."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-058",
+          "prompt": "What is Distributed Computing?",
+          "answers": [
+            "Computing that involves only a single computer.",
+            "Computing that is often used in tandem with parallel computing, involving multiple computers to process tasks.",
+            "Computing that relies solely on heuristics.",
+            "Computing that prioritizes recursion."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-059",
+          "prompt": "What is Parallel Computing?",
+          "answers": [
+            "Processing tasks on a single computer using a single processor.",
+            "Processing tasks in parallel on a single computer with multiple processors.",
+            "A form of distributed computing where tasks are processed sequentially.",
+            "A method for solving undecidable problems."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-060",
+          "prompt": "What is an example of a Distributed and Parallel Computing application mentioned?",
+          "answers": [
+            "Fibonacci sequence.",
+            "MapReduce.",
+            "Sorting algorithms.",
+            "Graph traversals."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-061",
+          "prompt": "What is a problem in computing defined as?",
+          "answers": [
+            "A situation where there is a gap between the current state and the desired state of a system or process.",
+            "Defects in the software code.",
+            "Issues where a system ceases to function correctly.",
+            "Weaknesses in a system that could be exploited by attackers."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-062",
+          "prompt": "What are Software Bugs?",
+          "answers": [
+            "Weaknesses in a system that can be exploited by attackers.",
+            "Defects in the software code that cause unexpected behavior.",
+            "Issues where a system ceases to function correctly.",
+            "Problems related to the algorithms and logic used within a program."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-063",
+          "prompt": "What occurs when a System Failure happens?",
+          "answers": [
+            "Defects in software code.",
+            "The system not performing optimally.",
+            "The system ceases to function correctly, often leading to downtime.",
+            "Weaknesses exploited by attackers."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-064",
+          "prompt": "What do Performance Issues in computing involve?",
+          "answers": [
+            "Defects in software code.",
+            "A system ceasing to function correctly.",
+            "The system not performing optimally, such as slow response times.",
+            "Weaknesses exploited by attackers."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-065",
+          "prompt": "What are Security Vulnerabilities?",
+          "answers": [
+            "Defects in software code that cause unexpected behavior.",
+            "Issues where a system ceases to function correctly.",
+            "Weaknesses in a system that could be exploited by attackers to gain unauthorized access.",
+            "Problems related to algorithms and logic."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-066",
+          "prompt": "What do Technical Problems in computing refer to?",
+          "answers": [
+            "Problems related to the hardware or software components of a system.",
+            "Flaws in the logic or steps designed to perform a specific task.",
+            "Issues where data is not processed or managed correctly.",
+            "Problems involving the efficiency and speed of a system."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-067",
+          "prompt": "What are Security Problems?",
+          "answers": [
+            "Weaknesses in a system that can be exploited by attackers.",
+            "Defects in software code.",
+            "Issues related to system performance.",
+            "Problems concerning hardware failures."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-068",
+          "prompt": "What are Breaches in the context of security problems?",
+          "answers": [
+            "Defects in software code.",
+            "When unauthorized access to a system or data is gained.",
+            "System failures leading to downtime.",
+            "Issues of slow response times."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-069",
+          "prompt": "What is the primary reason for the importance of Early Problem Identification?",
+          "answers": [
+            "To increase software bugs.",
+            "To avoid system failures.",
+            "The cost of fixing a problem increases exponentially the later it is discovered.",
+            "To enhance system performance only."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-070",
+          "prompt": "How does early problem identification impact User Satisfaction?",
+          "answers": [
+            "It decreases user trust.",
+            "It addresses issues before they impact users, leading to higher satisfaction and trust.",
+            "It leads to more security vulnerabilities.",
+            "It has no impact on user satisfaction."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-071",
+          "prompt": "How does early detection of problems help System Stability?",
+          "answers": [
+            "By introducing more bugs.",
+            "By maintaining the stability and reliability of a system.",
+            "By increasing downtime.",
+            "By leading to performance issues."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-072",
+          "prompt": "What is the role of Monitoring and Logging in identifying problems?",
+          "answers": [
+            "They help in addressing user feedback.",
+            "They are essential for real-time detection and historical analysis of problems.",
+            "They primarily involve conducting user interviews.",
+            "They focus on generating fixed-size hash values."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-073",
+          "prompt": "What is Automated Testing used for in problem identification?",
+          "answers": [
+            "To collect qualitative data through surveys.",
+            "To systematically examine code by peers.",
+            "To automatically catch errors early in development and verify the functionality of individual components.",
+            "To analyze source code for common issues."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-074",
+          "prompt": "What is the purpose of Integration Tests in automated testing?",
+          "answers": [
+            "To verify individual unit functionality.",
+            "To ensure that different components of the system work together correctly.",
+            "To check for syntax errors in the code.",
+            "To gather user feedback."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-075",
+          "prompt": "What do Code Reviews involve?",
+          "answers": [
+            "Automatic analysis of source code.",
+            "Systematic examination of code by peers to identify potential issues.",
+            "Testing the performance of a program.",
+            "Collecting data from user interviews."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-076",
+          "prompt": "What are Peer Reviews in code review?",
+          "answers": [
+            "Tools for automatically analyzing source code.",
+            "Collaborating with team members to review each other's code, providing feedback, and suggesting improvements.",
+            "The process of debugging and fixing errors.",
+            "Measuring the efficiency of an algorithm."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-077",
+          "prompt": "What do Static Analysis Tools do for problem identification?",
+          "answers": [
+            "They involve human review of code.",
+            "They automatically analyze source code for common issues, such as syntax errors, potential bugs, and code style violations.",
+            "They primarily focus on runtime performance.",
+            "They are used for integration testing."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-078",
+          "prompt": "What are \"Tools for Problem Identification\" broadly categorized into?",
+          "answers": [
+            "Automated testing, code reviews, and static analysis.",
+            "Debuggers, profilers, and monitoring systems.",
+            "Peer reviews and user feedback.",
+            "Surveys and interviews."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-079",
+          "prompt": "What is the next crucial step after problems are identified?",
+          "answers": [
+            "Implementing the solution.",
+            "Analyzing Problems to understand their root causes and impacts.",
+            "Debugging and fixing errors.",
+            "Monitoring and logging."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-080",
+          "prompt": "What is Root Cause Analysis (RCA)?",
+          "answers": [
+            "A method to identify the symptoms of a problem.",
+            "A method used to identify the fundamental reasons for problems.",
+            "A technique for optimizing algorithm performance.",
+            "A tool for monitoring system stability."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-081",
+          "prompt": "What technique for Root Cause Analysis involves asking \"why\" multiple times?",
+          "answers": [
+            "Fishbone Diagram.",
+            "Failure Mode and Effects Analysis (FMEA).",
+            "Five Whys.",
+            "Server Crash Analysis."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-082",
+          "prompt": "What is the typical number of \"whys\" asked in the Five Whys technique?",
+          "answers": [
+            "One.",
+            "Two.",
+            "Three.",
+            "Five."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-083",
+          "prompt": "What is the purpose of a Fishbone Diagram (Ishikawa)?",
+          "answers": [
+            "To identify the symptoms of a problem.",
+            "A visual tool used to systematically categorize potential causes of a problem.",
+            "A method for analyzing the effects of failures.",
+            "A technique for optimizing system performance."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-084",
+          "prompt": "What is Failure Mode and Effects Analysis (FMEA)?",
+          "answers": [
+            "A visual tool for categorizing problem causes.",
+            "A step-by-step approach for identifying all possible failures in a design, process, product, or service.",
+            "A technique involving asking \"why\" multiple times.",
+            "A method for debugging software code."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-085",
+          "prompt": "What does \"Severity Levels\" refer to in problem assessment?",
+          "answers": [
+            "How many users are affected by a problem.",
+            "How often a problem occurs.",
+            "The impact a problem has on the system or users.",
+            "How much effort and resources are required to resolve an issue."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-086",
+          "prompt": "What characterizes a \"Critical\" severity level?",
+          "answers": [
+            "Minor impact, often cosmetic.",
+            "Moderate impact, requiring timely but not immediate attention.",
+            "Significant impact, but not as widespread or urgent.",
+            "Immediate and extensive impact requiring urgent resolution."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-087",
+          "prompt": "What is an example of a \"High\" severity issue?",
+          "answers": [
+            "Minor UI glitch.",
+            "Performance degradation affecting user experience but not preventing use.",
+            "Payment gateway issues preventing transactions for a subset of users.",
+            "Data breach exposing sensitive customer information."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-088",
+          "prompt": "What is the Pareto Analysis (80/20 rule) used for in problem analysis?",
+          "answers": [
+            "To create visual diagrams of problem causes.",
+            "To identify the root cause of a problem.",
+            "To identify the most significant factors contributing to a problem.",
+            "To visually represent system dependencies."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-089",
+          "prompt": "What are Dependency Graphs used for in Impact Analysis Tools?",
+          "answers": [
+            "To map out the causes of a problem.",
+            "To identify the most significant factors contributing to a problem.",
+            "To provide visual representations of system dependencies to understand the ripple effect of a problem.",
+            "To evaluate the impact of various problems based on different criteria."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-090",
+          "prompt": "What do Impact Assessment Matrices do?",
+          "answers": [
+            "Map out the causes of a problem.",
+            "Identify the most significant factors.",
+            "Provide visual representations of system dependencies.",
+            "Evaluate the impact of various problems based on different criteria."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-091",
+          "prompt": "What is the first step in \"Understanding the Requirements\" for a problem?",
+          "answers": [
+            "Design the solution using pseudocode.",
+            "Clarify inputs and outputs.",
+            "Choose the right tools.",
+            "Implement the solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-092",
+          "prompt": "What should be determined regarding constraints when understanding requirements?",
+          "answers": [
+            "The programming language to use.",
+            "Any limitations or constraints on your solution (e.g., time complexity, memory usage).",
+            "The modular approach.",
+            "The testing framework."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-093",
+          "prompt": "What is the purpose of \"Choosing the Right Tools and Techniques\"?",
+          "answers": [
+            "To clarify inputs and outputs.",
+            "To design the solution.",
+            "To utilize existing libraries and frameworks that can simplify the task.",
+            "To write clean and readable code."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-094",
+          "prompt": "What is a \"Modular Approach\" in designing a solution?",
+          "answers": [
+            "Using pseudocode and flowcharts.",
+            "Breaking down the problem into smaller, manageable functions or modules.",
+            "Writing clean and readable code.",
+            "Utilizing built-in functions."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-095",
+          "prompt": "What is emphasized in \"Implement the Solution\" regarding code?",
+          "answers": [
+            "Using pseudocode.",
+            "Breaking down the problem into modules.",
+            "Writing Clean and Readable Code.",
+            "Choosing the right tools."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-096",
+          "prompt": "What is the benefit of \"Using Built-in Functions\" during implementation?",
+          "answers": [
+            "It makes the code less readable.",
+            "It complicates the implementation.",
+            "It simplifies the implementation.",
+            "It increases time complexity."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-097",
+          "prompt": "What is Step 6 in the problem-solving process as shown in the example?",
+          "answers": [
+            "Design the Solution.",
+            "Implement the Solution.",
+            "Test the Solution.",
+            "Document the Solution."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-098",
+          "prompt": "What is the purpose of the `assert` statements in the \"Test the Solution\" example?",
+          "answers": [
+            "To sort the list of numbers.",
+            "To define the function.",
+            "To verify that the function produces the expected output for given inputs.",
+            "To print a message to the console."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-099",
+          "prompt": "What is Step 7 in the problem-solving process, after testing?",
+          "answers": [
+            "Implement the Solution.",
+            "Choose the Right Tools and Techniques.",
+            "Document the Solution.",
+            "Understand the Requirements."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-100",
+          "prompt": "What is the primary characteristic of \"Routine Type of Problems\"?",
+          "answers": [
+            "They require creative thinking and novel approaches.",
+            "They are often repetitive or well-suited for automation and leveraging built-in functions.",
+            "They require in-depth analysis.",
+            "They are typically complex and difficult to maintain."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-101",
+          "prompt": "What do \"Non-Routine Type of Problems\" often require?",
+          "answers": [
+            "Automation and built-in functions.",
+            "Repetitive solutions.",
+            "Creative thinking, novel approaches, and in-depth analysis.",
+            "Straightforward or well-defined solutions."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-102",
+          "prompt": "What is the first step in \"Understanding the Problem\" for non-routine problems?",
+          "answers": [
+            "Gather Information.",
+            "Define the Problem.",
+            "Clarify the inputs and outputs.",
+            "Determine constraints."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-103",
+          "prompt": "What is the role of \"Explore and Research\" in solving non-routine problems?",
+          "answers": [
+            "To define the problem.",
+            "To identify potential solutions based on understanding and research.",
+            "To conduct experiments and gather data.",
+            "To translate the refined prototype into a full-fledged solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-104",
+          "prompt": "What does \"Brainstorming\" involve in the context of non-routine problem solving?",
+          "answers": [
+            "Conducting experiments to test prototypes.",
+            "Generating a variety of potential approaches without judging them initially.",
+            "Translating a refined prototype into a full solution.",
+            "Refining and improving solutions based on feedback."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-105",
+          "prompt": "What is the purpose of \"Evaluate Feasibility\" when formulating hypotheses?",
+          "answers": [
+            "To define the problem clearly.",
+            "To assess the feasibility of each hypothesis considering resources and constraints.",
+            "To generate a variety of potential approaches.",
+            "To refine and improve solutions."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-106",
+          "prompt": "What is involved in \"Design and Prototype\" for non-routine problems?",
+          "answers": [
+            "Conducting experiments to test prototypes.",
+            "Developing detailed plans or designs for the most promising solutions and building preliminary versions.",
+            "Refining and improving solutions.",
+            "Translating the refined prototype into a full solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-107",
+          "prompt": "What is the main goal of \"Test and Validate\" in the problem-solving process for non-routine problems?",
+          "answers": [
+            "To define the problem.",
+            "To conduct experiments to test the prototypes and gather data.",
+            "To develop the final solution.",
+            "To ensure robustness."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-108",
+          "prompt": "What is the final step, \"Implement the Solution,\" in solving non-routine problems?",
+          "answers": [
+            "Designing prototypes.",
+            "Conducting experiments.",
+            "Translating the refined prototype into a full-fledged solution and ensuring robustness, scalability, and maintainability.",
+            "Evaluating the solution against initial goals."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-109",
+          "prompt": "What is the final step in the process for solving non-routine problems after \"Implement the Solution\"?",
+          "answers": [
+            "Design and Prototype.",
+            "Test and Validate.",
+            "Evaluate and Reflect.",
+            "Formulate Hypotheses and Approaches."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-110",
+          "prompt": "What does \"Assess effectiveness\" involve during the \"Evaluate and Reflect\" stage?",
+          "answers": [
+            "Developing custom algorithms.",
+            "Continuously monitoring the system's performance and retraining the model with new data.",
+            "Building and testing prototypes.",
+            "Documenting lessons learned."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-111",
+          "prompt": "What is the purpose of \"Reflect on the process\" during the evaluation stage?",
+          "answers": [
+            "To identify problems based on user feedback.",
+            "To document lessons learned and identify areas for improvement in future projects.",
+            "To develop a detailed design for the solution.",
+            "To implement the final solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-112",
+          "prompt": "What does \"Creative Thinking\" contribute to non-routine problem solving?",
+          "answers": [
+            "It ensures code readability.",
+            "It provides techniques like mind mapping, lateral thinking, and brainstorming.",
+            "It focuses on numerical computations.",
+            "It helps in sorting lists of numbers."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-113",
+          "prompt": "What is the role of \"Data Analysis\" in non-routine problem solving?",
+          "answers": [
+            "To develop custom algorithms.",
+            "To build and test prototypes.",
+            "To employ statistical analysis, machine learning, and data mining.",
+            "To reflect on the problem-solving process."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-114",
+          "prompt": "What does \"Prototyping\" involve as a key technique for non-routine problem solving?",
+          "answers": [
+            "Developing custom algorithms.",
+            "Building and test prototypes to validate concepts quickly.",
+            "Employing statistical analysis.",
+            "Continuously monitoring system performance."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-115",
+          "prompt": "What is the key characteristic of \"Finiteness\" in an algorithm?",
+          "answers": [
+            "It must be able to handle a range of inputs.",
+            "It must have a finite number of steps before it ends, and should not enter an endless loop.",
+            "It must be able to solve a group of similar problems.",
+            "It must produce one or more outputs."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-116",
+          "prompt": "What does \"Definiteness\" imply for an algorithm?",
+          "answers": [
+            "It should be able to solve various problems.",
+            "It should have a finite number of steps.",
+            "Each step of an algorithm should have clear and precise instructions, ensuring that it can be easily understood and executed.",
+            "It should produce accurate results."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-117",
+          "prompt": "What are \"Input\" requirements for an algorithm?",
+          "answers": [
+            "It must produce one or more outputs.",
+            "It must have a finite number of steps.",
+            "Algorithms require one or more inputs, which are the values supplied to the algorithm before its processing begins.",
+            "It must be easy to understand."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-118",
+          "prompt": "What defines \"Output\" in an algorithm?",
+          "answers": [
+            "The values supplied to the algorithm before processing.",
+            "The results or outcomes of the algorithm after all the steps have been completed.",
+            "The clarity of instructions.",
+            "The ability to handle similar problems."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-119",
+          "prompt": "What does \"Effectiveness\" mean for an algorithm?",
+          "answers": [
+            "The algorithm should be able to solve a group of similar problems.",
+            "The steps of an algorithm should be straightforward and feasible to execute within a finite time using basic operations.",
+            "The algorithm should have a finite number of steps.",
+            "The algorithm should produce one or more outputs."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-120",
+          "prompt": "What is \"Generality\" in algorithms?",
+          "answers": [
+            "The ability to produce correct output.",
+            "The ability to execute steps within a finite time.",
+            "The ability to solve a group of similar problems or handle a range of inputs within a specific domain.",
+            "The clarity of instructions."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-121",
+          "prompt": "What are the advantages of using Natural Language to represent algorithms?",
+          "answers": [
+            "Ambiguity and lack of structure.",
+            "Accessibility, familiarity, wide applicability, and language independence.",
+            "Difficulty in verification.",
+            "Only suitable for simple algorithms."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-122",
+          "prompt": "Which of the following is a disadvantage of using Natural Language for algorithms?",
+          "answers": [
+            "Accessibility.",
+            "Language Independence.",
+            "Ambiguity.",
+            "Wide Applicability."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-123",
+          "prompt": "What is a \"Lack of Structure\" disadvantage when using natural language for algorithms?",
+          "answers": [
+            "It makes the algorithm widely understood.",
+            "Natural language lacks a formal structure, making it challenging to represent complex algorithms with multiple steps and conditions.",
+            "It allows for easy translation into different programming languages.",
+            "It enables programmers to understand and translate them into their preferred language."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-124",
+          "prompt": "What is a disadvantage related to \"Difficulty in Verification\" when using natural language for algorithms?",
+          "answers": [
+            "Natural language is widely understood.",
+            "Due to ambiguity and lack of structure, algorithms represented in natural language may be challenging to verify for correctness.",
+            "It allows for easy translation.",
+            "It is language independent."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-125",
+          "prompt": "What is Pseudocode?",
+          "answers": [
+            "A graphical representation of algorithms.",
+            "A high-level, informal description of an algorithm.",
+            "A formal programming language.",
+            "A natural language."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-126",
+          "prompt": "How does Pseudocode strike a balance?",
+          "answers": [
+            "Between natural language and programming syntax.",
+            "Between hardware and software.",
+            "Between time complexity and space complexity.",
+            "Between simple and complex algorithms."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-127",
+          "prompt": "What is a key disadvantage of using Pseudocode?",
+          "answers": [
+            "It is human-readable.",
+            "It is not a formal programming language, which means it may lack strict rules and syntax.",
+            "It simplifies the implementation phase.",
+            "It provides a visual representation of an algorithm."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-128",
+          "prompt": "What is meant \"Ambiguity\" when using pseudocode?",
+          "answers": [
+            "It cannot be directly executed by a computer.",
+            "Pseudocode can still be ambiguous, especially if not properly documented or if the logic is not clearly expressed.",
+            "It requires familiarity with programming concepts.",
+            "It has a high-level description."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-129",
+          "prompt": "What is a limitation regarding \"Limited Execution\" of pseudocode?",
+          "answers": [
+            "It is difficult to read.",
+            "Pseudocode cannot be directly executed by a computer; it serves as a human-readable representation of an algorithm.",
+            "It lacks clarity.",
+            "It is not designed for easy understanding."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-130",
+          "prompt": "What is a potential challenge for beginners due to the \"Learning Curve\" of pseudocode?",
+          "answers": [
+            "It is too simple.",
+            "While designed to be easily understood, it still requires some familiarity with programming concepts and logic, which may pose a learning curve.",
+            "It can be directly executed by a computer.",
+            "It is too formal."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-131",
+          "prompt": "What is a general purpose of algorithms in computing?",
+          "answers": [
+            "To make systems fail.",
+            "To solve different problems.",
+            "To create more bugs.",
+            "To make systems less efficient."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-132",
+          "prompt": "What is an advantage of algorithms in terms of \"Definite procedure\"?",
+          "answers": [
+            "Algorithms provide a step-by-step representation of a solution.",
+            "Algorithms are dependent on specific programming languages.",
+            "Algorithms use a definite set of instructions, ensuring consistency and predictability in the execution of a program.",
+            "Algorithms are always easy to understand for anyone."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-133",
+          "prompt": "What is an advantage of algorithms being \"Language independent\"?",
+          "answers": [
+            "They provide a step-by-step representation.",
+            "They use a definite set of instructions.",
+            "They are not dependent on any specific programming language, making them easily understandable by anyone.",
+            "They simplify debugging."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-134",
+          "prompt": "What does \"Debugging\" as an advantage of algorithms mean?",
+          "answers": [
+            "Algorithms are language independent.",
+            "Each step in an algorithm has its own logical sequence, making it easier to identify and fix errors or bugs.",
+            "Algorithms break down a problem into smaller steps.",
+            "Algorithms provide a step-by-step representation."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-135",
+          "prompt": "How do algorithms facilitate \"Conversion to program\"?",
+          "answers": [
+            "They provide language independence.",
+            "They make it easier to identify and fix errors.",
+            "They break down a problem into smaller steps, making it easier for programmers to convert them into actual programs.",
+            "They ensure consistency and predictability."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-136",
+          "prompt": "In which industry are algorithms used for predicting disease progression or treatment outcomes?",
+          "answers": [
+            "Retail and E-commerce.",
+            "Finance.",
+            "Healthcare.",
+            "Energy."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-137",
+          "prompt": "How are algorithms used in the Finance industry?",
+          "answers": [
+            "For providing personalized recommendations to customers.",
+            "For optimizing energy consumption.",
+            "For fraud detection, risk assessment, and investment strategies.",
+            "For identifying patterns and anomalies in agricultural data."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-138",
+          "prompt": "In the Retail and E-commerce industry, what do algorithms provide?",
+          "answers": [
+            "Fraud detection.",
+            "Personalized recommendations to customers.",
+            "Optimizing energy consumption.",
+            "Predicting crop yields."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-139",
+          "prompt": "What are Flowcharts?",
+          "answers": [
+            "A set of instructions for solving a specific problem.",
+            "A high-level informal description of an algorithm.",
+            "Diagrammatic representations of algorithms or processes that visually represent the flow of control and data.",
+            "A formal programming language."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-140",
+          "prompt": "What is the symbol for a \"Flow line\" in flowcharts?",
+          "answers": [
+            "Oval.",
+            "Rectangle.",
+            "Arrow.",
+            "Diamond."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-141",
+          "prompt": "What does the \"Terminal (Stop/Start)\" symbol in a flowchart represent?",
+          "answers": [
+            "Input or output operations.",
+            "Arithmetic operations.",
+            "The start and end points of a flowchart.",
+            "Decision-making."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-142",
+          "prompt": "What is the function of the \"Input/Output\" symbol in a flowchart?",
+          "answers": [
+            "To represent the start and end points.",
+            "To represent arithmetic operations.",
+            "To represent input and output operations.",
+            "To represent decision-making."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-143",
+          "prompt": "What does the \"Processing\" symbol in a flowchart represent?",
+          "answers": [
+            "Input and output operations.",
+            "Arithmetic operations and data manipulations.",
+            "Decision-making between two or more alternatives.",
+            "Connecting different flowlines."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-144",
+          "prompt": "What is the \"Decision\" symbol in a flowchart used for?",
+          "answers": [
+            "Input and output operations.",
+            "Arithmetic operations.",
+            "Decision-making between two or more alternatives.",
+            "Representing a group of statements."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-145",
+          "prompt": "What is the function of the \"Connector (On-page)\" symbol in a flowchart?",
+          "answers": [
+            "To represent the start and end points of a flowchart.",
+            "To represent a decision point.",
+            "To join different flowlines within the same page.",
+            "To connect flowchart portions on different pages."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-146",
+          "prompt": "What is the purpose of the \"Off-page Connector\" symbol in a flowchart?",
+          "answers": [
+            "To join different flowlines within the same page.",
+            "To represent input/output operations.",
+            "To connect flowchart portions on different pages.",
+            "To represent a processing step."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-147",
+          "prompt": "What does the \"Predefined Process/Function\" symbol in a flowchart represent?",
+          "answers": [
+            "Input and output operations.",
+            "A group of statements performing a specific processing task.",
+            "Decision-making.",
+            "The start or end of a flowchart."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-148",
+          "prompt": "What is a key advantage of using flowcharts for algorithms?",
+          "answers": [
+            "Limited expressiveness.",
+            "Visual Representation.",
+            "Difficulty in modifications.",
+            "Lack of standardization."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-149",
+          "prompt": "What is a disadvantage of flowcharts in terms of \"Limited Expressiveness\"?",
+          "answers": [
+            "They are easy to understand.",
+            "Flowcharts have limited expressiveness compared to textual representations like pseudocode.",
+            "They facilitate communication.",
+            "They help in error detection."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-150",
+          "prompt": "What is a potential issue with \"Time Consuming\" when creating flowcharts?",
+          "answers": [
+            "They are easy to modify.",
+            "Creating detailed flowcharts can be time-consuming, especially for complex algorithms.",
+            "They are simple to understand.",
+            "They are language independent."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-151",
+          "prompt": "What is a \"Difficulty in Modifications\" disadvantage when using flowcharts?",
+          "answers": [
+            "They are simple to understand.",
+            "Modifying a flowchart can be challenging, especially when there are multiple interconnected steps.",
+            "They are time-consuming.",
+            "They provide a visual representation."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-152",
+          "prompt": "What is meant \"Lack of Standardization\" as a disadvantage of flowcharts?",
+          "answers": [
+            "Flowchart symbols and conventions may vary between different sources and individuals.",
+            "Flowcharts are easy to understand.",
+            "Flowcharts are used for simple algorithms.",
+            "Flowcharts have unlimited expressiveness."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-153",
+          "prompt": "What is the issue with \"Limited Scalability\" in flowcharts?",
+          "answers": [
+            "Flowcharts are easy to modify.",
+            "Flowcharts may become cluttered and harder to maintain and update for large and complex algorithms.",
+            "Flowcharts are visually appealing.",
+            "Flowcharts improve communication."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-154",
+          "prompt": "What is a key difference in \"Approach\" between algorithms and heuristics?",
+          "answers": [
+            "Algorithms are random; heuristics are systematic.",
+            "Algorithms follow a systematic step-by-step procedure; heuristics are shortcut strategies that rely on intuition and experience.",
+            "Algorithms are designed for trial and error; heuristics guarantee correct solutions.",
+            "Algorithms are time-consuming; heuristics are always quick."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-155",
+          "prompt": "What is the difference in \"Solution Guarantee\" between algorithms and heuristics?",
+          "answers": [
+            "Algorithms do not guarantee the correct solution; heuristics do.",
+            "Algorithms guarantee the correct solution; heuristics do not guarantee the correct solution.",
+            "Both algorithms and heuristics guarantee optimal solutions.",
+            "Neither algorithms nor heuristics guarantee correct solutions."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-156",
+          "prompt": "What is the distinction in \"Time and Effort\" between algorithms and heuristics?",
+          "answers": [
+            "Algorithms are always faster than heuristics.",
+            "Algorithms may be time-consuming and require a significant amount of mental effort; heuristics are designed to provide quick solutions and require less mental effort.",
+            "Both algorithms and heuristics require minimal effort.",
+            "Heuristics are always more time-consuming."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-157",
+          "prompt": "What is \"Reproducibility\" in the context of algorithms?",
+          "answers": [
+            "Algorithms are reproducible, meaning that if the same input is provided, they will always produce the same output.",
+            "Algorithms can be used to optimize production processes.",
+            "Algorithms are designed to find approximate solutions.",
+            "Algorithms are time-consuming."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-158",
+          "prompt": "What is a \"Real-world use case\" for heuristics in Pathfinding in computer games and robotics?",
+          "answers": [
+            "Optimizing production processes.",
+            "Providing personalized recommendations.",
+            "Finding the most efficient route from one point to another by using heuristics to estimate the distance or cost.",
+            "Optimizing energy consumption."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-159",
+          "prompt": "In Finance, how are heuristic algorithms used for \"Optimization problems\"?",
+          "answers": [
+            "To predict disease progression.",
+            "To optimize portfolio management and risk assessment.",
+            "To identify fraudulent transactions.",
+            "To optimize transportation routes."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-160",
+          "prompt": "How are heuristic algorithms used in \"Transportation route optimization\"?",
+          "answers": [
+            "To predict market trends.",
+            "To optimize transportation routes and scheduling by considering factors like distance, time, and resource constraints.",
+            "To manage inventory.",
+            "To provide personalized recommendations."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-161",
+          "prompt": "In \"Production process optimization\" in manufacturing, what do heuristic algorithms help with?",
+          "answers": [
+            "Predicting customer behavior.",
+            "Optimizing production processes and inventory management, maximizing throughput, and reducing costs.",
+            "Detecting fraud.",
+            "Optimizing energy consumption."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-162",
+          "prompt": "How are heuristic algorithms used for \"Resource allocation\" in telecommunications and networks?",
+          "answers": [
+            "To find the shortest path in a graph.",
+            "To allocate resources efficiently based on bandwidth and frequency.",
+            "To manage project deadlines.",
+            "To optimize investment portfolios."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-163",
+          "prompt": "What are \"Scheduling problems\" in computing?",
+          "answers": [
+            "Problems that involve operations on strings of characters.",
+            "Problems that involve allocating resources over time to perform a collection of tasks.",
+            "Problems that require finding a specific item within a large set.",
+            "Problems that involve optimizing numerical computations."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-164",
+          "prompt": "What is the goal in \"Scheduling in project management\"?",
+          "answers": [
+            "To identify the critical path.",
+            "To determine the most efficient route from one point to another.",
+            "To optimize project deadlines and minimize resource waste by allocating resources efficiently.",
+            "To balance bandwidth and frequency."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-165",
+          "prompt": "What kind of problem is the \"Traveling Salesman Problem\"?",
+          "answers": [
+            "A heuristic problem for finding the shortest path between cities.",
+            "A classic optimization problem to find the shortest possible route visiting a set of cities once and returning to the starting point.",
+            "A problem related to graph theory.",
+            "A problem that involves finding all possible solutions."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-166",
+          "prompt": "What type of algorithms are commonly used for \"ant colony optimization\"?",
+          "answers": [
+            "Algorithms that guarantee the optimal solution.",
+            "Heuristic algorithms.",
+            "Algorithms that use fixed rules.",
+            "Algorithms that have a definite procedure."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-167",
+          "prompt": "Why are heuristics commonly used for \"complex problems\"?",
+          "answers": [
+            "Because they guarantee optimal solutions.",
+            "Because they are computationally inexpensive and can provide efficient solutions.",
+            "Because they involve simple logic.",
+            "Because they always lead to a correct yes-or-no answer."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-168",
+          "prompt": "What is a \"Function Problem\"?",
+          "answers": [
+            "Problems that require a \"yes\" or \"no\" answer.",
+            "Problems that involve finding a specific item or solution.",
+            "Problems where the output is a more complex value, such as a number or a string.",
+            "Problems that involve an optimal solution from a set of possibilities."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-169",
+          "prompt": "What is a \"Search Problem\"?",
+          "answers": [
+            "Problems where the output is a more complex value.",
+            "Problems that require finding a specific element in a database, or determining the optimal solution to an optimization problem.",
+            "Problems where a simple \"yes\" or \"no\" answer is expected.",
+            "Problems involving the allocation of resources over time."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-170",
+          "prompt": "What are the two main \"Complexity Classes\" mentioned for problems?",
+          "answers": [
+            "Decision Problems and Function Problems.",
+            "Tractable Problems and Intractable Problems.",
+            "P (Polynomial Time) and NP (Nondeterministic Polynomial Time).",
+            "Solvable Problems and Unsolvable Problems."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-171",
+          "prompt": "What characterizes \"P (Polynomial Time)\" problems?",
+          "answers": [
+            "Problems that can be solved in a reasonable amount of time on a non-deterministic machine.",
+            "Problems that cannot be solved by any algorithm.",
+            "Problems that can be solved in polynomial time (where the amount of time grows polynomially with the size of the input).",
+            "Problems that require a \"yes\" or \"no\" answer."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-172",
+          "prompt": "What defines \"NP (Nondeterministic Polynomial Time)\" problems?",
+          "answers": [
+            "Problems that can be solved in polynomial time.",
+            "Problems that can be solved in a reasonable amount of time on a non-deterministic machine (a machine that can try all possible solutions in parallel).",
+            "Problems that always lead to a correct yes-or-no answer.",
+            "Problems that involve complex numerical computations."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-173",
+          "prompt": "What is \"Reduction\" in the context of problem complexity?",
+          "answers": [
+            "A way of transforming an instance of one problem into an instance of another problem, in a way that preserves the answer.",
+            "A way of showing that a problem is at least as hard as another problem, by reducing the other problem to it.",
+            "A technique to simplify the problem statement.",
+            "A method to find the optimal solution quickly."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-174",
+          "prompt": "According to the Cook-Levin Theorem, what is SAT-complete?",
+          "answers": [
+            "The Traveling Salesman Problem.",
+            "The Boolean Satisfiability Problem (SAT).",
+            "The Knapsack Problem.",
+            "The Halting Problem."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-175",
+          "prompt": "What are \"NP-complete problems\"?",
+          "answers": [
+            "Problems that can be solved in polynomial time.",
+            "Problems that are at least as hard as the hardest problems in NP, including problems like the Traveling Salesman Problem and the Knapsack Problem.",
+            "Problems that can be solved by any algorithm.",
+            "Problems that involve only a simple \"yes\" or \"no\" answer."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-176",
+          "prompt": "Which of the following is listed as an NP-complete problem?",
+          "answers": [
+            "The Halting Problem.",
+            "The Collatz Conjecture.",
+            "The Knapsack Problem.",
+            "Finding the shortest path in a graph."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-177",
+          "prompt": "What are \"Unsolvable problems\"?",
+          "answers": [
+            "Problems for which no algorithm can be found to compute a correct yes-or-no answer.",
+            "Problems that can be solved in polynomial time.",
+            "Problems that require creative thinking and novel approaches.",
+            "Problems that have a definite procedure."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-178",
+          "prompt": "What is the core idea behind the \"Halting Problem\"?",
+          "answers": [
+            "Determining if a number is prime.",
+            "Determining whether a given program will run forever or eventually stop.",
+            "Finding the shortest path in a graph.",
+            "Solving a system of linear equations."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-179",
+          "prompt": "What does \"Insolvable\" mean in the context of problems?",
+          "answers": [
+            "Not yet solved, but possible to solve.",
+            "An unsolvable problem for which no algorithm can ever be written to find the solution.",
+            "A problem that is computationally expensive.",
+            "A problem with a complex function as output."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-180",
+          "prompt": "Which of these is an \"unsolvable problem\" listed?",
+          "answers": [
+            "Sorting a list of numbers.",
+            "The Decision Problem for First-Order Logic.",
+            "Finding the maximum flow in a flow network.",
+            "The Traveling Salesman Problem."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-181",
+          "prompt": "What is the focus of \"Solvable problems\" in computer science and mathematics?",
+          "answers": [
+            "They are about very specific issues, rather than differences in values.",
+            "They are fundamental concepts.",
+            "They are problems for which no algorithm can ever be written.",
+            "They involve complex numerical computations only."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-182",
+          "prompt": "What does \"Understanding the difference\" between solvable and unsolvable problems help with?",
+          "answers": [
+            "Debugging programs.",
+            "Designing algorithms and studying computation.",
+            "Optimizing system performance.",
+            "Improving user satisfaction."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-183",
+          "prompt": "What does \"The Collatz Conjecture\" involve?",
+          "answers": [
+            "Finding the shortest tour visiting a set of cities.",
+            "Determining whether a given program will run forever or eventually stop.",
+            "Given a positive integer, determining whether it will eventually reach 1 by repeatedly applying the Collatz function.",
+            "Determining whether a given first-order logic sentence is true or false."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-184",
+          "prompt": "What is a \"Wicked Problem\"?",
+          "answers": [
+            "A problem where the objective or purpose is clear.",
+            "A problem where there is a gap between the current state and the desired state of a system.",
+            "A problem that is difficult to define and has no clear solution.",
+            "A problem that can be solved in polynomial time."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-185",
+          "prompt": "What are \"Tame Problems\"?",
+          "answers": [
+            "Problems that are difficult to define and solve.",
+            "Problems that have a clear objective and a known solution.",
+            "Problems that are unsolvable by any algorithm.",
+            "Problems that are non-routine and require creative thinking."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-186",
+          "prompt": "What are \"Messy Problems\"?",
+          "answers": [
+            "Problems where the objective is clear but the solution is unknown.",
+            "Problems that are complex and difficult to maintain.",
+            "Problems that are easily understood and executed.",
+            "Problems that can be solved by automation."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-187",
+          "prompt": "What does \"Understanding the problem\" involve in solving a \"Problem: Managing a Library's Book Inventory\"?",
+          "answers": [
+            "Identifying the solution's inputs and outputs.",
+            "Optimizing the inventory system.",
+            "Defining the core problem: managing the library's book inventory efficiently, including tracking book details, availability, and generating reports.",
+            "Designing the software interface."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-188",
+          "prompt": "What is the next step after \"Define the Core Problem\" in solving the Library Inventory problem?",
+          "answers": [
+            "Analyze the current system.",
+            "Design the solution.",
+            "Abstract Each Component.",
+            "Implement the solution."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-189",
+          "prompt": "What does \"Abstract Each Component\" involve for the Library Inventory problem?",
+          "answers": [
+            "Tracking detailed book information.",
+            "Managing complex tasks.",
+            "Encapsulating the details of each book into a \"Book Information\" class.",
+            "Generating reports."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-190",
+          "prompt": "What is \"Component 2\" in the abstracted components for the Library Inventory problem?",
+          "answers": [
+            "Book Information.",
+            "Inventory Management.",
+            "Transaction Management.",
+            "Report Generation."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-191",
+          "prompt": "What is the purpose of \"Component 3: Transaction Management\" in the Library Inventory problem?",
+          "answers": [
+            "To store book objects.",
+            "To manage borrowing and returning books.",
+            "To generate reports.",
+            "To encapsulate book details."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-192",
+          "prompt": "What is \"Component 4: Report Generation\" for the Library Inventory problem?",
+          "answers": [
+            "Managing book availability.",
+            "Creating methods to generate reports on the inventory status.",
+            "Tracking book details.",
+            "Managing borrowing and returning."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-193",
+          "prompt": "What is the final step, \"Integrate the Components,\" in solving the Library Inventory problem?",
+          "answers": [
+            "Managing the library's book inventory.",
+            "Combining the abstracted components to create a complete solution for managing the library inventory.",
+            "Generating reports.",
+            "Abstracting each component."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-194",
+          "prompt": "What is a key benefit of \"Abstraction\" in problem-solving?",
+          "answers": [
+            "It makes systems more complex.",
+            "It simplifies complex systems by focusing on high-level operations and hiding intricate details.",
+            "It limits the reusability of components.",
+            "It makes debugging more difficult."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-195",
+          "prompt": "What does \"Modularity\" in abstraction allow for?",
+          "answers": [
+            "Increased complexity.",
+            "The creation of modular components that can be independently developed, tested, and maintained.",
+            "Decreased reusability.",
+            "Hiding high-level operations."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-196",
+          "prompt": "What is \"Analogy\" in problem-solving?",
+          "answers": [
+            "A method to define specific problems.",
+            "Drawing comparisons between two different things based on their similarities to understand a problem.",
+            "A technique for optimizing code.",
+            "A process of eliminating irrelevant details."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-197",
+          "prompt": "What is \"Identifying the Problem\" when using analogy to organize digital files?",
+          "answers": [
+            "Organizing a physical study desk.",
+            "The problem is that freshers have a cluttered desktop with files scattered everywhere.",
+            "Using folders or binders to keep related documents together.",
+            "Naming conventions."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-198",
+          "prompt": "What is the \"Source Domain\" for organizing digital files using analogy?",
+          "answers": [
+            "Digital files on a computer.",
+            "A physical study desk.",
+            "Folders and binders.",
+            "Naming conventions."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-199",
+          "prompt": "What does \"Extracting Analogies\" mean in the context of organizing digital files?",
+          "answers": [
+            "Identifying similarities between the source and target domain.",
+            "Using folders or binders to keep related documents together.",
+            "Naming conventions.",
+            "Cleaning up a cluttered desktop."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-200",
+          "prompt": "What is \"Routine Cleanup\" in the context of organizing digital files?",
+          "answers": [
+            "Identifying the critical path.",
+            "Regularly tidying up the desk and setting a weekly schedule to organize new files.",
+            "Managing digital files.",
+            "Using desk drawers for organization."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-201",
+          "prompt": "What is the purpose of \"Evaluating and Refining the Solution\" in organizing digital files?",
+          "answers": [
+            "To check if files are easy to find and access.",
+            "To find missing documents.",
+            "To identify a new place for new files.",
+            "To organize documents into categories."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-202",
+          "prompt": "What is \"Mind Mapping\" as a creative thinking technique?",
+          "answers": [
+            "A linear thinking process.",
+            "A visual thinking tool that helps organize ideas and information.",
+            "A method for sequential problem-solving.",
+            "A way to evaluate feasibility."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-203",
+          "prompt": "What is a key advantage of \"Brainstorming\" in problem-solving?",
+          "answers": [
+            "It focuses on finding the single best solution.",
+            "It encourages generating a large number of ideas without immediate judgment.",
+            "It simplifies complex algorithms.",
+            "It ensures reproducibility of solutions."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-204",
+          "prompt": "What does \"Lateral Thinking\" emphasize?",
+          "answers": [
+            "A direct, step-by-step approach.",
+            "Solving problems through an indirect and creative approach.",
+            "Logical deduction.",
+            "Repetitive problem-solving."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-205",
+          "prompt": "In the context of problem-solving, what is the significance of \"Identifying the Problem\" as the first step?",
+          "answers": [
+            "It is irrelevant if the solution is clear.",
+            "Clearly defining the problem, challenge, or obstacle that requires resolution.",
+            "It is only for routine problems.",
+            "It involves selecting the right tools."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-206",
+          "prompt": "What is the goal of \"Identifying the Source Domain\" when applying analogy?",
+          "answers": [
+            "To create a new problem.",
+            "To find a situation that is unrelated to the problem at hand.",
+            "To identify a domain that shares some situation or features with the problem.",
+            "To simplify the problem statement."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-207",
+          "prompt": "What does \"Transferring the Knowledge or Solution\" involve in analogy?",
+          "answers": [
+            "Applying solutions from the source domain directly to the target problem without any modifications.",
+            "Applying the solution or understanding from the source domain to the target domain.",
+            "Ignoring the source domain.",
+            "Focusing only on the target domain."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-208",
+          "prompt": "What is the process of \"Evaluating and Refining the Solution\" when applying analogy?",
+          "answers": [
+            "To simplify the problem.",
+            "To evaluate the effectiveness of the analogy-based solution.",
+            "To identify new problems.",
+            "To ignore irrelevant details."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-209",
+          "prompt": "What is \"Brainstorming\"?",
+          "answers": [
+            "A method for sequential problem-solving.",
+            "A technique that involves generating a large number of ideas or solutions to a problem without immediate judgment or evaluation.",
+            "A technique for logical deduction.",
+            "A method for analyzing existing solutions."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-210",
+          "prompt": "What is \"Convergent Thinking\"?",
+          "answers": [
+            "Thinking that involves exploring multiple possibilities.",
+            "Thinking that focuses on narrowing down ideas to find the best or most appropriate solution.",
+            "Thinking that relies on intuition.",
+            "Thinking that generates new problems."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-211",
+          "prompt": "What is \"Divergent Thinking\"?",
+          "answers": [
+            "Focusing on a single, correct answer.",
+            "Generating a wide range of ideas and solutions.",
+            "Evaluating the feasibility of solutions.",
+            "Analyzing the root causes of problems."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-212",
+          "prompt": "What does \"Feasibility\" mean in problem-solving?",
+          "answers": [
+            "The clarity of the problem statement.",
+            "The practicality and viability of a proposed solution.",
+            "The uniqueness of the solution.",
+            "The speed of execution of an algorithm."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-213",
+          "prompt": "What is \"Evaluation and Selection\" of ideas in problem-solving?",
+          "answers": [
+            "Generating a large number of ideas.",
+            "Assessing the feasibility, impact, and alignment of ideas with goals, then selecting the most promising ones.",
+            "Developing prototypes.",
+            "Documenting the solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-214",
+          "prompt": "What is the main goal of \"Prototyping\" in problem-solving?",
+          "answers": [
+            "To create a final product.",
+            "To build and test prototypes to validate concepts quickly.",
+            "To document the solution.",
+            "To conduct peer reviews."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-215",
+          "prompt": "What does \"Refining the Solution\" involve?",
+          "answers": [
+            "Simplifying the problem statement.",
+            "Continuously improving the solution based on feedback and testing.",
+            "Identifying the root cause.",
+            "Choosing the right tools."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-216",
+          "prompt": "What is the purpose of \"Communication and Collaboration\" in problem-solving?",
+          "answers": [
+            "To work independently.",
+            "To share ideas, gather feedback, and refine the algorithm.",
+            "To limit the scope of the problem.",
+            "To enforce strict adherence to a single solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-217",
+          "prompt": "What is \"Trial and Error\"?",
+          "answers": [
+            "A systematic approach to problem-solving.",
+            "A method where various solutions are attempted until a successful one is found.",
+            "A method that guarantees an optimal solution.",
+            "A process of eliminating incorrect answers."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-218",
+          "prompt": "What is the process for \"Generating Hypothesis\" in trial and error?",
+          "answers": [
+            "To apply a fixed set of rules.",
+            "To systematically generate a range of possible solutions or hypotheses.",
+            "To select only the most promising solutions.",
+            "To rely on past experiences."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-219",
+          "prompt": "What is \"Testing and Validation\" in the context of trial and error?",
+          "answers": [
+            "To implement the solution without testing.",
+            "To evaluate the effectiveness of the hypothesis or solution through experimentation.",
+            "To skip the evaluation process.",
+            "To focus on theoretical analysis."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-220",
+          "prompt": "What does \"Refinement\" in trial and error involve?",
+          "answers": [
+            "Ignoring the feedback.",
+            "Iteratively refining the solution based on the results of testing.",
+            "Starting over with a new problem.",
+            "Documenting the original hypothesis."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-221",
+          "prompt": "What is the benefit of \"Simplicity\" when applying trial and error?",
+          "answers": [
+            "It always finds the optimal solution.",
+            "It is easy to understand and apply.",
+            "It minimizes the number of attempts.",
+            "It ensures perfect accuracy."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-222",
+          "prompt": "When is trial and error useful for \"Unfamiliar Problems\"?",
+          "answers": [
+            "When there's an existing algorithm.",
+            "When the problem is complex but a clear solution path is not immediately obvious.",
+            "When optimal solutions are required.",
+            "When precise control is needed."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-223",
+          "prompt": "What are \"Computational Problems\"?",
+          "answers": [
+            "Problems with clear, defined solutions.",
+            "Problems that can be solved by a computer.",
+            "Problems that only involve numerical calculations.",
+            "Problems that are too complex for humans to solve."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-224",
+          "prompt": "What are \"Decision Problems\"?",
+          "answers": [
+            "Problems that involve finding a specific item or solution.",
+            "Problems that require a \"yes\" or \"no\" answer.",
+            "Problems where the output is a more complex value.",
+            "Problems that involve optimizing numerical computations."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-225",
+          "prompt": "What is \"Connectivity\" as an example of a Decision Problem?",
+          "answers": [
+            "Finding the shortest path between two nodes.",
+            "Determining if there is a path between two nodes in a graph.",
+            "Optimizing the number of nodes.",
+            "Counting the number of paths."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-226",
+          "prompt": "What does \"Optimality\" mean in the context of problems?",
+          "answers": [
+            "Problems where the output is a more complex value.",
+            "Problems that require finding a specific item or solution.",
+            "Problems that involve finding the best solution among a set of possibilities.",
+            "Problems that require a \"yes\" or \"no\" answer."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-227",
+          "prompt": "What is \"Knapsack Problem\" as an example of an Optimization Problem?",
+          "answers": [
+            "Determining if a number is prime.",
+            "Maximizing the total value of items that can be put in a knapsack of fixed capacity.",
+            "Finding the shortest path in a graph.",
+            "Sorting a list of numbers."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-228",
+          "prompt": "What is \"Finding a specific item\" in a database an example of?",
+          "answers": [
+            "An optimization problem.",
+            "A function problem.",
+            "A search problem.",
+            "A decision problem."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-229",
+          "prompt": "What is \"Binary Search\" an example of?",
+          "answers": [
+            "An optimization problem.",
+            "A search problem for finding the position of a target value within a sorted array.",
+            "A function problem.",
+            "A decision problem."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-230",
+          "prompt": "What are \"Counting Problems\"?",
+          "answers": [
+            "Problems that involve finding a specific item.",
+            "Problems that require finding the optimal solution.",
+            "Problems that ask \"how many?\" or \"how much?\".",
+            "Problems that have a \"yes\" or \"no\" answer."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-231",
+          "prompt": "What is \"Number of Paths\" an example of in Counting Problems?",
+          "answers": [
+            "Determining if a graph is connected.",
+            "Finding the shortest path in a graph.",
+            "Counting the number of distinct paths between two nodes in a graph.",
+            "Optimizing path traversal."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-232",
+          "prompt": "What is \"Permutations and Combinations\" an example of in Counting Problems?",
+          "answers": [
+            "Determining if a set is unique.",
+            "Calculating the number of possible arrangements or selections of items from a set.",
+            "Finding the largest subset.",
+            "Sorting a list of items."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-233",
+          "prompt": "What are \"Computational Problems\" characterized ?",
+          "answers": [
+            "Problems that require human intuition to solve.",
+            "Problems that can be solved step-by-step by a computer.",
+            "Problems that only involve abstract concepts.",
+            "Problems that cannot be solved by any algorithm."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-234",
+          "prompt": "What does \"Well-defined\" mean for a computational problem?",
+          "answers": [
+            "The solution is already known.",
+            "It has a clear definition of input, output, constraints, and goal.",
+            "It is easy to understand.",
+            "It involves complex calculations."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-235",
+          "prompt": "What does \"Solvable\" mean for a computational problem?",
+          "answers": [
+            "It has a complex solution.",
+            "There exists at least one algorithm that can produce a correct solution.",
+            "It can only be solved by humans.",
+            "It is computationally expensive."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-236",
+          "prompt": "What does \"Measurable\" mean for a computational problem?",
+          "answers": [
+            "The solution is always a numerical value.",
+            "There is a way to measure the effectiveness of the solution, often in terms of time complexity, space complexity, or accuracy.",
+            "The problem can be visualized.",
+            "The problem is easy to define."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-237",
+          "prompt": "What are \"Routine Problems\" in computing?",
+          "answers": [
+            "Problems that require creative thinking and novel approaches.",
+            "Problems that often involve repetitive or well-defined solutions.",
+            "Problems that are unsolvable.",
+            "Problems that are difficult to define."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-238",
+          "prompt": "What is the first step in solving a \"Routine Problem: Sorting a List of Numbers\"?",
+          "answers": [
+            "Design the solution.",
+            "Identify the Problem Type.",
+            "Implement the solution.",
+            "Test the solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-239",
+          "prompt": "What is \"Step 2: Understand the Requirements\" for the routine problem of sorting a list of numbers?",
+          "answers": [
+            "Input: A list of unsorted numbers.",
+            "Design the solution.",
+            "Test the solution.",
+            "Document the solution."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-240",
+          "prompt": "What is \"Step 3: Choose the Right Tools and Techniques\" for sorting a list of numbers?",
+          "answers": [
+            "Use Python's built-in sorting functions which implement Timsort.",
+            "Implement the solution.",
+            "Design the solution.",
+            "Document the solution."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-241",
+          "prompt": "What is \"Step 4: Design the Solution\" for sorting a list of numbers?",
+          "answers": [
+            "Write clean and readable code.",
+            "Use pseudocode.",
+            "Test the solution.",
+            "Document the solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-242",
+          "prompt": "What is \"Step 5: Implement the Solution\" for sorting a list of numbers?",
+          "answers": [
+            "Write the Python code for the sorting function.",
+            "Design the solution.",
+            "Test the solution.",
+            "Document the solution."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-243",
+          "prompt": "What is \"Step 6: Test the Solution\" for sorting a list of numbers?",
+          "answers": [
+            "Design the solution.",
+            "Implement the solution.",
+            "Write test_sort_list() with various assertions.",
+            "Document the solution."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-244",
+          "prompt": "What is \"Step 7: Document the Solution\" for sorting a list of numbers?",
+          "answers": [
+            "Write clean and readable code.",
+            "Add comments to the function explaining its purpose, parameters, and return values.",
+            "Design the solution.",
+            "Test the solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-245",
+          "prompt": "What are \"Non-Routine Type of Problems\" in computing?",
+          "answers": [
+            "Problems with well-defined solutions.",
+            "Problems that do not have a straightforward or well-defined solution, often requiring creative thinking, novel approaches, and in-depth analysis.",
+            "Problems that can be solved by automation.",
+            "Problems that are easily understood."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-246",
+          "prompt": "What is \"Step 1: Understanding the Problem\" for a Non-Routine Problem?",
+          "answers": [
+            "Collecting only irrelevant data.",
+            "Clearly articulate the problem and gather relevant information, context, and constraints.",
+            "Designing the solution.",
+            "Implementing the solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-247",
+          "prompt": "What is \"Step 2: Explore and Research\" for a Non-Routine Problem?",
+          "answers": [
+            "Implement the solution directly.",
+            "Conduct literature reviews, brainstorm with experts, and generate a variety of potential approaches.",
+            "Focus on a single solution.",
+            "Skip this step if the problem is unfamiliar."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-248",
+          "prompt": "What is \"Step 3: Formulate Hypotheses and Approaches\" for a Non-Routine Problem?",
+          "answers": [
+            "To avoid generating new ideas.",
+            "Develop hypotheses or potential solutions based on understanding and research, and assess the feasibility of each.",
+            "To limit the scope of the problem.",
+            "To implement a pre-existing solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-249",
+          "prompt": "What is \"Step 4: Design and Prototype\" for a Non-Routine Problem?",
+          "answers": [
+            "Developing the final product immediately.",
+            "Create detailed plans or designs for the most promising solutions, and build prototypes to test concepts.",
+            "Skipping the design phase.",
+            "Focusing only on theoretical design."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-250",
+          "prompt": "What is \"Step 5: Test and Validate\" for a Non-Routine Problem?",
+          "answers": [
+            "Avoid experimentation.",
+            "Conduct experiments to test the prototypes and gather data.",
+            "Skip this step if the prototype is successful.",
+            "Rely solely on theoretical analysis."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-251",
+          "prompt": "What is \"Step 6: Implement the Solution\" for a Non-Routine Problem?",
+          "answers": [
+            "Skip the refinement phase.",
+            "Translate the refined prototype into a full-fledged solution.",
+            "Avoid ensuring robustness.",
+            "Implement without testing."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-252",
+          "prompt": "What is \"Step 7: Evaluate and Reflect\" for a Non-Routine Problem?",
+          "answers": [
+            "To avoid reflecting on the process.",
+            "Continuously monitor the system's performance, retrain the model with new data, and ensure it meets accuracy and latency requirements.",
+            "To only document successes.",
+            "To ignore future projects."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-253",
+          "prompt": "What is \"Computational Thinking\"?",
+          "answers": [
+            "A method solely for mathematical problems.",
+            "A problem-solving approach that involves applying concepts from computer science and computational techniques to solve a wide range of problems.",
+            "A way to replace human thinking with computers.",
+            "A specific programming language."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-254",
+          "prompt": "What is \"Problem Decomposition\"?",
+          "answers": [
+            "Combining small problems into larger ones.",
+            "Breaking down a complex problem into smaller, more manageable sub-problems.",
+            "Solving problems without breaking them down.",
+            "Focusing on a single, large problem."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-255",
+          "prompt": "What is \"Pattern Recognition\"?",
+          "answers": [
+            "Ignoring recurring elements.",
+            "Identifying common characteristics, trends, or relationships among data or problems.",
+            "Creating unique solutions for every problem.",
+            "Focusing on irrelevant details."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-256",
+          "prompt": "What is \"Abstraction\"?",
+          "answers": [
+            "Focusing on all details of a problem.",
+            "Simplifying complex systems by focusing on essential information and hiding irrelevant details.",
+            "Creating a more complicated view of a problem.",
+            "Analyzing only specific, isolated parts of a system."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-257",
+          "prompt": "What is \"Algorithms\"?",
+          "answers": [
+            "Informal problem-solving strategies.",
+            "A finite set of well-defined instructions for solving a specific problem or performing a task.",
+            "A method that always guarantees an optimal solution.",
+            "A programming language."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-258",
+          "prompt": "What is the role of \"Abstraction\" in problem-solving?",
+          "answers": [
+            "To make systems more complex.",
+            "To simplify complex systems by focusing on high-level operations and hiding intricate details.",
+            "To prevent modularity.",
+            "To hinder understanding."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-259",
+          "prompt": "What is \"Modularity\" as a benefit of abstraction?",
+          "answers": [
+            "It makes systems harder to maintain.",
+            "It allows for the creation of modular components that can be independently developed, tested, and maintained.",
+            "It increases system complexity.",
+            "It prevents reusability."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-260",
+          "prompt": "What is an \"Analogy\" in problem-solving?",
+          "answers": [
+            "A method that focuses on differences between problems.",
+            "Drawing comparisons between two different things based on their similarities.",
+            "A technique for direct problem-solving.",
+            "A method that only works for familiar problems."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-261",
+          "prompt": "What is the purpose of \"Identifying Attributes and Relationships\" in the Methods of Focal Objects?",
+          "answers": [
+            "To avoid understanding the system.",
+            "To identify the essential attributes and relationships of the focal object and other elements in the system.",
+            "To focus only on external factors.",
+            "To ignore interdependencies."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-262",
+          "prompt": "What does \"Balancing Breadth and Depth of Analysis\" mean in the context of the Methods of Focal Objects?",
+          "answers": [
+            "Focusing only on broad overviews.",
+            "Balancing the need for detailed analysis of the focal object with a broader consideration of the larger system or environment.",
+            "Ignoring the details.",
+            "Analyzing the problem in isolation."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-263",
+          "prompt": "What is the goal of \"Generating Innovative Ideas\" when using Methods of Focal Objects?",
+          "answers": [
+            "To stick to traditional solutions.",
+            "To develop creative and effective modification ideas for the focal object.",
+            "To avoid divergent thinking.",
+            "To implement existing solutions without changes."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-264",
+          "prompt": "What is the importance of \"Securing Buy-in and Commitment\" in applying the Methods of Focal Objects?",
+          "answers": [
+            "To limit stakeholder involvement.",
+            "To ensure successful implementation and sustain change by gaining necessary commitment from stakeholders.",
+            "To avoid collaboration.",
+            "To focus solely on the technical aspects."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-265",
+          "prompt": "What is the definition of \"Heuristics\"?",
+          "answers": [
+            "Strategies that guarantee optimal solutions.",
+            "Shortcut strategies that rely on intuition and experience, often involving trial and error, and do not guarantee a correct or reproducible result.",
+            "Strict sets of rules that must be followed.",
+            "Methods that are computationally expensive."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-266",
+          "prompt": "What is the main difference in \"Solution Guarantee\" between Algorithms and Heuristics?",
+          "answers": [
+            "Algorithms provide approximate solutions, while heuristics guarantee optimal ones.",
+            "Algorithms guarantee the correct solution to a problem if followed correctly, while heuristics provide approximate or near-optimal solutions.",
+            "Both guarantee optimal solutions.",
+            "Neither guarantees any solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-267",
+          "prompt": "How do \"Algorithms\" and \"Heuristics\" differ in terms of \"Time and Effort\"?",
+          "answers": [
+            "Algorithms require less mental effort.",
+            "Algorithms can be time-consuming and require a significant amount of mental effort, while heuristics are designed for quick solutions and require less mental effort.",
+            "Heuristics are always faster than algorithms.",
+            "Both require minimal time and effort."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-268",
+          "prompt": "What is \"Pathfinding in computer games and robotics\" an example of a real-world use case for heuristics?",
+          "answers": [
+            "To find the exact shortest path.",
+            "Algorithms such as the A* search algorithm are used for pathfinding, helping determine the most efficient route from one point to another by using heuristics to estimate the distance or cost between different locations.",
+            "To guarantee optimal movement.",
+            "To avoid any form of estimation."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-269",
+          "prompt": "How are \"Heuristic algorithms\" used in \"Optimization problems in finance\"?",
+          "answers": [
+            "To perfectly predict market trends.",
+            "To optimize portfolio management and risk assessment, identifying patterns and trends in market data, allowing for the optimization of investment portfolios while minimizing risk.",
+            "To replace human financial advisors.",
+            "To create unchangeable financial models."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-270",
+          "prompt": "What is the role of \"Heuristic algorithms\" in \"Transportation route optimization\"?",
+          "answers": [
+            "To always find the absolute shortest route.",
+            "To optimize transportation routes and scheduling by considering factors such as distance, time, and resource efficiency.",
+            "To ignore real-world constraints.",
+            "To only provide theoretical routes."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-271",
+          "prompt": "How are \"Heuristic algorithms\" used in \"Production process optimization in manufacturing\"?",
+          "answers": [
+            "To eliminate all waste.",
+            "To optimize manufacturing processes and inventory management by minimizing waste and maximizing throughput.",
+            "To guarantee zero defects.",
+            "To replace all manual labor."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-272",
+          "prompt": "What is the first key step in applying Morphological Analysis?",
+          "answers": [
+            "Generate Alternatives.",
+            "Define the Problem.",
+            "Construct the Morphological Matrix.",
+            "Explore Combinations."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-273",
+          "prompt": "What is the second key step in applying Morphological Analysis?",
+          "answers": [
+            "Generate Alternatives.",
+            "Identify the Dimensions.",
+            "Construct the Morphological Matrix.",
+            "Explore Combinations."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-274",
+          "prompt": "What is the third key step in applying Morphological Analysis?",
+          "answers": [
+            "Explore Combinations.",
+            "Evaluate and Select.",
+            "Generate Alternatives.",
+            "Construct the Morphological Matrix."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-275",
+          "prompt": "What is the fourth key step in applying Morphological Analysis?",
+          "answers": [
+            "Generate Alternatives.",
+            "Explore Combinations.",
+            "Evaluate and Select.",
+            "Construct the Morphological Matrix."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-276",
+          "prompt": "What is \"Step 5: Explore Combinations\" in Morphological Analysis?",
+          "answers": [
+            "Designing the solution.",
+            "Systematically examining different combinations of the alternatives across the dimensions.",
+            "Testing the solution.",
+            "Documenting the solution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-277",
+          "prompt": "What is \"Step 6: Evaluate and Select\" in Morphological Analysis?",
+          "answers": [
+            "Ignoring potential solutions.",
+            "Evaluating each of the different solution combinations and potential approaches.",
+            "Choosing the first solution.",
+            "Avoiding implementation."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-278",
+          "prompt": "What is \"Step 7: Iterate and Refine\" in Morphological Analysis?",
+          "answers": [
+            "To stop at the first successful combination.",
+            "Continuously refine the ideas generated, seeking to improve and optimize them based on feedback and new information or challenges.",
+            "To avoid revisiting the problem definition.",
+            "To implement without further adjustments."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-279",
+          "prompt": "What is \"Root Cause Analysis (RCA)\"?",
+          "answers": [
+            "A method that focuses on symptoms.",
+            "A systematic process used to identify the underlying causes of a problem or issue, with the goal of preventing recurrence.",
+            "A problem-solving method that deals only with superficial issues.",
+            "A technique used to implement quick fixes."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-280",
+          "prompt": "What is the description of \"Five Whys\" technique in Root Cause Analysis?",
+          "answers": [
+            "A technique that focuses on finding external causes.",
+            "This technique involves asking \"why\" multiple times (usually five) to drill down to the root cause of a problem.",
+            "A method for brainstorming solutions.",
+            "A tool for prioritizing problems."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-281",
+          "prompt": "What is \"Cause Mapping\"?",
+          "answers": [
+            "A tool for visualizing solutions.",
+            "Visual diagrams that map out the causes of a problem to identify the root cause.",
+            "A method for ranking problems by severity.",
+            "A technique for predicting future problems."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-282",
+          "prompt": "What is \"Pareto Analysis\"?",
+          "answers": [
+            "A method to identify all minor factors.",
+            "Using the 80/20 rule to identify the most significant factors contributing to a problem.",
+            "A technique for ignoring major causes.",
+            "A tool for simple problem identification."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-283",
+          "prompt": "What is \"Impact Assessment Matrices\"?",
+          "answers": [
+            "Grids that evaluate the impact of various problems based on different criteria.",
+            "Tools to visualize system dependencies.",
+            "Methods for estimating project timelines.",
+            "Frameworks for designing algorithms."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-284",
+          "prompt": "What are \"Dependency Graphs\" in Root Cause Analysis?",
+          "answers": [
+            "Visual representations of system dependencies to understand the ripple effect of a problem.",
+            "Tools for measuring project progress.",
+            "Diagrams used to show the hierarchy of an organization.",
+            "Charts that track individual performance."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-285",
+          "prompt": "What is the role of \"Automation and Digitalization\" in Root Cause Analysis research?",
+          "answers": [
+            "To make RCA a purely manual process.",
+            "To enhance the efficiency and accuracy of RCA, by using technologies such as AI, machine learning, and advanced analytics.",
+            "To limit the scope of RCA.",
+            "To replace human analysis entirely."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-286",
+          "prompt": "How do \"Intelligent Systems\" contribute to Root Cause Analysis?",
+          "answers": [
+            "They are used to create new problems.",
+            "They are focused on developing intelligent systems that can assist in problem identification and root cause detection.",
+            "They are primarily for data storage.",
+            "They are used to simplify minor issues."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-287",
+          "prompt": "How does \"Industry-Specific Applications\" contribute to Root Cause Analysis research?",
+          "answers": [
+            "To generalize solutions across all industries.",
+            "Research has conducted studies on the application of RCA in various industries, tailoring to domain-specific challenges and requirements.",
+            "To prevent the development of new RCA techniques.",
+            "To focus only on theoretical aspects of RCA."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-288",
+          "prompt": "How do \"Industry-focused efforts\" contribute to Root Cause Analysis research?",
+          "answers": [
+            "To ignore practical applications.",
+            "They have contributed to the development of RCA best practices and guidelines tailored to the unique characteristics and needs of different sectors.",
+            "To make RCA more complex.",
+            "To reduce collaboration between industries."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-289",
+          "prompt": "What is the first step in the \"Explanation on how RCA is typically implemented in a step--step process\"?",
+          "answers": [
+            "Data Collection.",
+            "Problem Identification.",
+            "Problem Analysis.",
+            "Root Cause Identification."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-290",
+          "prompt": "What is the purpose of \"Data Collection\" in the RCA step--step process?",
+          "answers": [
+            "To identify the problem.",
+            "To collect and organize all the data related to the problem, including process data, historical records, and any relevant contextual information.",
+            "To develop corrective actions.",
+            "To implement a plan."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-291",
+          "prompt": "What is \"Problem Analysis\" in the RCA step--step process?",
+          "answers": [
+            "To define the problem.",
+            "Conducting a thorough analysis of the problem using various tools and techniques, such as Fishbone diagrams, 5 Whys, and process mapping.",
+            "To develop an implementation plan.",
+            "To monitor and verify solutions."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-292",
+          "prompt": "What is \"Root Cause Identification\" in the RCA step--step process?",
+          "answers": [
+            "To gather information.",
+            "Determining the primary root causes that are directly linked to the problem by systematically investigating and validating the potential root causes.",
+            "To brainstorm solutions.",
+            "To assess the feasibility of actions."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-293",
+          "prompt": "What is \"Corrective Action Development\" in the RCA step--step process?",
+          "answers": [
+            "Identifying the problem.",
+            "Brainstorming and evaluating potential corrective actions that address the identified root causes.",
+            "Monitoring the system.",
+            "Documenting the process."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-294",
+          "prompt": "What is \"Corrective Action Implementation\" in the RCA step--step process?",
+          "answers": [
+            "Developing an implementation plan that outlines the necessary steps, resources, and timelines required to execute the corrective actions.",
+            "Evaluating the effectiveness of the solution.",
+            "Collecting initial data.",
+            "Analyzing problem symptoms."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-295",
+          "prompt": "What is \"Monitoring and Verification\" in the RCA step--step process?",
+          "answers": [
+            "To identify new problems.",
+            "To establish a system for monitoring the implemented actions to ensure their effectiveness and to verify that the problem has been resolved.",
+            "To skip the evaluation.",
+            "To implement without further checks."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-296",
+          "prompt": "What is \"Documentation and Communication\" in the RCA step--step process?",
+          "answers": [
+            "To keep all information private.",
+            "To document the entire RCA process, including findings, actions taken, and results, and communicate them to relevant stakeholders.",
+            "To avoid sharing lessons learned.",
+            "To only document successes."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-297",
+          "prompt": "What is \"Learning and Improvement\" in the RCA step--step process?",
+          "answers": [
+            "To ignore future preventive measures.",
+            "To use the insights gained from the RCA process to prevent similar problems from occurring in the future and to continuously improve processes.",
+            "To focus only on past mistakes.",
+            "To avoid applying lessons to other areas."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-298",
+          "prompt": "What does \"Understanding the problem\" involve in solving the problem of a \"Declining Number of Users on a Social Media Platform\"?",
+          "answers": [
+            "Immediately suggesting new features.",
+            "The problem is that the social media platform is experiencing a significant decline in its user base.",
+            "Analyzing competitor platforms.",
+            "Developing a marketing strategy."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-299",
+          "prompt": "What is the step after \"Understanding the problem\" in solving the declining user problem?",
+          "answers": [
+            "Implement Corrective Actions.",
+            "Data Collection and Analysis.",
+            "Identify Root Causes.",
+            "Develop Corrective Actions."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-300",
+          "prompt": "What kind of data should be collected for \"Data Collection and Analysis\" when addressing a declining user base?",
+          "answers": [
+            "Only marketing data.",
+            "User engagement metrics, feedback, competitor analysis, industry trends, and internal system logs.",
+            "Financial reports only.",
+            "Employee satisfaction surveys."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-301",
+          "prompt": "What is the process of \"Identifying Root Causes\" when addressing a declining user base?",
+          "answers": [
+            "Suggesting solutions immediately.",
+            "Analyzing data to identify potential root causes, such as poor user experience, lack of new features, or aggressive competition.",
+            "Focusing only on positive feedback.",
+            "Ignoring external factors."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-302",
+          "prompt": "What is \"Developing Corrective Actions\" in the context of a declining user base?",
+          "answers": [
+            "Implementing the first idea that comes to mind.",
+            "Brainstorming and selecting corrective actions, such as redesigning the user interface, adding new features, or launching a targeted marketing campaign.",
+            "Avoiding any changes to the platform.",
+            "Relying solely on automated solutions."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-303",
+          "prompt": "What does \"Implementing Corrective Actions\" involve for a declining user base?",
+          "answers": [
+            "Avoiding a phased rollout.",
+            "Executing the chosen corrective actions, which might include launching a new app version or a marketing campaign.",
+            "Keeping the old features as they are.",
+            "Not informing users about changes."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-304",
+          "prompt": "What is \"Monitoring and Verification\" when addressing a declining user base?",
+          "answers": [
+            "Ignoring user feedback after launch.",
+            "Monitoring user engagement metrics, analyzing user feedback, and conducting A/B tests to ensure the problem has been resolved.",
+            "Only tracking downloads.",
+            "Assuming success without data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-305",
+          "prompt": "What is \"Documentation and Communication\" in the context of a declining user base?",
+          "answers": [
+            "Keeping the findings internal to the development team.",
+            "Documenting the entire process, sharing insights, and communicating changes to the user community.",
+            "Only documenting successful outcomes.",
+            "Avoiding communication with users."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-306",
+          "prompt": "What is the final step, \"Learning and Improvement,\" for addressing a declining user base?",
+          "answers": [
+            "Ignoring lessons learned for future projects.",
+            "Applying insights to future product development, ensuring the platform remains competitive and user-friendly.",
+            "Stopping all development after the problem is solved.",
+            "Focusing only on short-term fixes."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-307",
+          "prompt": "What is the definition of \"Algorithm\"?",
+          "answers": [
+            "A method that always guarantees an optimal solution.",
+            "A finite set of well-defined instructions for solving a specific problem or performing a task.",
+            "A programming language.",
+            "A random approach to problem-solving."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-308",
+          "prompt": "What does \"Flowchart\" represent for algorithms?",
+          "answers": [
+            "A textual description.",
+            "A visual representation of an algorithm's flow using standardized symbols.",
+            "A programming code.",
+            "A mathematical formula."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-309",
+          "prompt": "What is \"Pseudocode\"?",
+          "answers": [
+            "A formal programming language.",
+            "A high-level, informal description of an algorithm's steps, resembling a programming language but not executable.",
+            "A diagrammatic representation.",
+            "A low-level machine code."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-310",
+          "prompt": "What is \"Top-Down Design\" in algorithm development?",
+          "answers": [
+            "Starting with the most detailed components.",
+            "Beginning with the overall problem and breaking it down into smaller, more manageable sub-problems.",
+            "Focusing on individual functions first.",
+            "A method for testing algorithms."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-311",
+          "prompt": "What is \"Stepwise Refinement\" in algorithm design?",
+          "answers": [
+            "Simplifying the problem statement.",
+            "Progressively adding details to an algorithm, moving from a high-level overview to more specific instructions.",
+            "Combining multiple algorithms into one.",
+            "Removing unnecessary steps."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-312",
+          "prompt": "What is \"Modular Design\" in algorithm development?",
+          "answers": [
+            "Creating a single, monolithic piece of code.",
+            "Breaking down an algorithm into independent, reusable modules or functions.",
+            "Designing algorithms without considering reusability.",
+            "A method for optimizing algorithm performance."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-313",
+          "prompt": "What is the process of \"Verification and Validation\" in algorithm design?",
+          "answers": [
+            "Ignoring the algorithm's correctness.",
+            "Ensuring that the algorithm correctly solves the problem and meets all requirements.",
+            "Focusing only on efficiency.",
+            "Skipping the testing phase."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-314",
+          "prompt": "What does \"Code Implementation\" involve in algorithm design?",
+          "answers": [
+            "Writing pseudocode only.",
+            "Translating the algorithm into a specific programming language.",
+            "Avoiding testing during implementation.",
+            "Ignoring best coding practices."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-315",
+          "prompt": "What is the final step, \"Documentation,\" in algorithm design?",
+          "answers": [
+            "To avoid explaining the algorithm.",
+            "Documenting the algorithm's design, functionality, and usage for future reference and maintenance.",
+            "To only document the code.",
+            "To keep the algorithm a secret."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-316",
+          "prompt": "What is the description of \"Step 1: Define the Problem\" for designing an algorithm to find the shortest path in a network?",
+          "answers": [
+            "To immediately choose a path.",
+            "The problem is to find the shortest path between two nodes in a weighted graph.",
+            "To assume all paths are equal.",
+            "To ignore the network structure."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-317",
+          "prompt": "What are the \"Inputs\" for the shortest path algorithm?",
+          "answers": [
+            "A single node.",
+            "A graph (set of nodes and edges), edge weights, a starting node, and a destination node.",
+            "Only the destination node.",
+            "Random numbers."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-318",
+          "prompt": "What is the \"Output\" for the shortest path algorithm?",
+          "answers": [
+            "A random path.",
+            "The shortest path from the starting node to the destination node.",
+            "The longest path.",
+            "The number of nodes in the graph."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-319",
+          "prompt": "What is \"Step 2: Choose the Right Algorithm\" for finding the shortest path in a network?",
+          "answers": [
+            "Ignoring the algorithm's suitability.",
+            "Selecting an appropriate algorithm (e.g., Dijkstra's Algorithm for non-negative edge weights).",
+            "Always choosing the most complex algorithm.",
+            "Using a heuristic method."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-320",
+          "prompt": "What is \"Step 3: Design the Algorithm\" for the shortest path problem using Dijkstra's?",
+          "answers": [
+            "Directly writing the code without a design.",
+            "Using pseudocode and flowcharts to outline the steps of Dijkstra's Algorithm.",
+            "Focusing only on the final output.",
+            "Avoiding any visual aids."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-321",
+          "prompt": "What is \"Step 4: Implement the Algorithm\" for the shortest path problem?",
+          "answers": [
+            "Writing the algorithm in any programming language.",
+            "Writing the Python code for Dijkstra's Algorithm, defining the graph, and executing the algorithm.",
+            "Skipping the implementation details.",
+            "Relying on external libraries for all logic."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-322",
+          "prompt": "What is \"Step 5: Test and Debug\" for the shortest path problem?",
+          "answers": [
+            "Assuming the code is correct.",
+            "Testing the algorithm with various inputs (e.g., disconnected graphs, graphs with different weights) and debugging any issues.",
+            "Avoiding edge cases.",
+            "Only testing with valid inputs."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-323",
+          "prompt": "What is \"Step 6: Analyze Performance\" for the shortest path problem?",
+          "answers": [
+            "Ignoring time and space complexity.",
+            "Evaluating the algorithm's time and space complexity to ensure efficiency for large networks.",
+            "Only considering small inputs.",
+            "Skipping optimization."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-324",
+          "prompt": "What is \"Step 7: Document and Refine\" for the shortest path problem?",
+          "answers": [
+            "Avoiding comments in the code.",
+            "Documenting the algorithm's logic, usage, and any assumptions.",
+            "Refine the algorithm once.",
+            "Keeping the documentation minimal."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-325",
+          "prompt": "What is \"Complexity Analysis\" in algorithm design?",
+          "answers": [
+            "Ignoring the algorithm's performance.",
+            "Analyzing the resources (time and space) an algorithm requires as the input size grows.",
+            "Focusing only on the number of lines of code.",
+            "A method for debugging."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-326",
+          "prompt": "What does \"$O(1)$ - Constant Time\" mean?",
+          "answers": [
+            "The execution time grows linearly with the input size.",
+            "The execution time remains constant, regardless of the input size.",
+            "The execution time grows exponentially.",
+            "The execution time is unknown."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-327",
+          "prompt": "What does \"$O(\\log n)$ - Logarithmic Time\" mean?",
+          "answers": [
+            "The execution time grows linearly.",
+            "The execution time grows slowly as the input size increases, often seen in algorithms that divide the problem into smaller halves, like binary search.",
+            "The execution time is constant.",
+            "The execution time grows quadratically."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-328",
+          "prompt": "What does \"$O(n)$ - Linear Time\" mean?",
+          "answers": [
+            "The execution time remains constant.",
+            "The execution time grows proportionally to the input size.",
+            "The execution time grows logarithmically.",
+            "The execution time grows quadratically."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-329",
+          "prompt": "Whatdoes \"$O(n \\log n)$ - Linear it h mic Time\" mean?",
+          "answers": [
+            "The execution time grows quadratically.",
+            "The execution time grows slightly faster than linear, typical for efficient sorting algorithms like Merge Sort and Quick Sort.",
+            "The execution time is constant.",
+            "The execution time grows exponentially."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-330",
+          "prompt": "What does \"$O(n^2)$ - Quadratic Time\" mean?",
+          "answers": [
+            "The execution time grows linearly with the input size.",
+            "The execution time grows proportionally to the square of the input size, common in algorithms with nested loops, such as Bubble Sort.",
+            "The execution time remains constant.",
+            "The execution time grows logarithmically."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-331",
+          "prompt": "What does \"$O(2^n)$ - Exponential Time\" mean?",
+          "answers": [
+            "The execution time grows very slowly.",
+            "The execution time doubles with each addition to the input size, making it impractical for large inputs, often seen in brute-force algorithms.",
+            "The execution time grows linearly.",
+            "The execution time is constant."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-332",
+          "prompt": "What is the significance of \"Computational Complexity\"?",
+          "answers": [
+            "It only impacts small problems.",
+            "Understanding complexity is crucial for selecting efficient algorithms, especially for large datasets.",
+            "It simplifies algorithm design.",
+            "It makes debugging easier."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-333",
+          "prompt": "What is \"Space Complexity\"?",
+          "answers": [
+            "The time an algorithm takes to run.",
+            "The amount of memory an algorithm requires to run to completion.",
+            "The number of lines of code.",
+            "The number of operations performed."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-334",
+          "prompt": "What is \"Worst-Case Analysis\" in complexity analysis?",
+          "answers": [
+            "Analyzing the best possible performance.",
+            "Analyzing the maximum number of operations an algorithm performs for any input size, providing an upper bound on its running time.",
+            "Analyzing the average performance.",
+            "Ignoring problematic inputs."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-335",
+          "prompt": "What is \"Average-Case Analysis\" in complexity analysis?",
+          "answers": [
+            "Analyzing the best possible performance.",
+            "Analyzing the expected running time of an algorithm given a probabilistic distribution of inputs.",
+            "Analyzing the maximum performance.",
+            "Focusing only on specific inputs."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-336",
+          "prompt": "What is \"Best-Case Analysis\" in complexity analysis?",
+          "answers": [
+            "Analyzing the maximum number of operations.",
+            "Analyzing the minimum number of operations an algorithm performs, providing a lower bound on its running time.",
+            "Analyzing the average performance.",
+            "Ignoring the input size."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-337",
+          "prompt": "What are \"Brute-Force Algorithms\"?",
+          "answers": [
+            "Algorithms that use advanced optimization techniques.",
+            "Algorithms that try every possible solution until the correct one is found, often simple but inefficient for large inputs.",
+            "Algorithms that use heuristics.",
+            "Algorithms that have a constant execution time."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-338",
+          "prompt": "What is \"Divide and Conquer\"?",
+          "answers": [
+            "A method that solves problems directly without breaking them down.",
+            "A paradigm that involves breaking a problem into smaller sub-problems, solving each independently, and combining their solutions.",
+            "A technique for optimizing code execution.",
+            "A type of brute-force approach."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-339",
+          "prompt": "What is \"Dynamic Programming\"?",
+          "answers": [
+            "A method that solves sub-problems multiple times.",
+            "An optimization technique that breaks down a complex problem into simpler subproblems, solving each subproblem only once and storing the results to avoid recomputation.",
+            "A type of random algorithm.",
+            "A technique for managing large datasets."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-340",
+          "prompt": "What is \"Greedy Algorithms\"?",
+          "answers": [
+            "Algorithms that always find the global optimum.",
+            "Algorithms that make locally optimal choices at each step with the hope of finding a global optimum.",
+            "Algorithms that require extensive backtracking.",
+            "Algorithms that are computationally expensive."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-341",
+          "prompt": "What is \"Backtracking Algorithms\"?",
+          "answers": [
+            "Algorithms that always proceed forward.",
+            "Algorithms that incrementally build a solution and abandon current paths if they determine they cannot lead to a valid solution.",
+            "Algorithms that optimize for speed at all costs.",
+            "Algorithms that only work for simple problems."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-342",
+          "prompt": "What is \"Randomized Algorithms\"?",
+          "answers": [
+            "Algorithms that always produce the same output for the same input.",
+            "Algorithms that use randomness as part of their logic to make decisions, often leading to faster average-case performance.",
+            "Algorithms that avoid any form of uncertainty.",
+            "Algorithms that require no input."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-343",
+          "prompt": "What are \"Approximation Algorithms\"?",
+          "answers": [
+            "Algorithms that always find the exact optimal solution.",
+            "Algorithms that find near-optimal solutions for problems where finding the exact optimal solution is computationally infeasible.",
+            "Algorithms that never make mistakes.",
+            "Algorithms that are only used for simple problems."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-344",
+          "prompt": "What are \"Iterative Algorithms\"?",
+          "answers": [
+            "Algorithms that involve recursion.",
+            "Algorithms that repeatedly apply a set of steps until a certain condition is met.",
+            "Algorithms that run only once.",
+            "Algorithms that are not designed for optimization."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-345",
+          "prompt": "What are \"Recursive Algorithms\"?",
+          "answers": [
+            "Algorithms that use loops instead of function calls.",
+            "Algorithms that solve a problem by calling themselves with smaller instances of the same problem until a base case is reached.",
+            "Algorithms that only work for very large inputs.",
+            "Algorithms that cannot be analyzed for complexity."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-346",
+          "prompt": "What is \"Linear Search\"?",
+          "answers": [
+            "A search algorithm that works on sorted data.",
+            "A simple search algorithm that checks each element in a list sequentially until the target element is found or the end of the list is reached.",
+            "An efficient search algorithm for large datasets.",
+            "A search algorithm that uses divide and conquer."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-347",
+          "prompt": "What is \"Binary Search\"?",
+          "answers": [
+            "A search algorithm that works on unsorted data.",
+            "An efficient search algorithm that finds the position of a target value within a sorted array by repeatedly dividing the search interval in half.",
+            "A search algorithm that checks each element sequentially.",
+            "A search algorithm with O(n) time complexity."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-348",
+          "prompt": "What is \"Bubble Sort\"?",
+          "answers": [
+            "A sorting algorithm that uses a divide and conquer approach.",
+            "A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.",
+            "A sorting algorithm with O(n log n) time complexity.",
+            "A sorting algorithm that builds the final sorted array one item at a time."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-349",
+          "prompt": "What is \"Selection Sort\"?",
+          "answers": [
+            "A sorting algorithm that uses recursion.",
+            "A sorting algorithm that repeatedly finds the minimum element from the unsorted part of the list and puts it at the beginning.",
+            "A sorting algorithm with O(n log n) time complexity.",
+            "A sorting algorithm that is efficient for large datasets."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-350",
+          "prompt": "What is \"Insertion Sort\"?",
+          "answers": [
+            "A sorting algorithm that works by repeatedly swapping adjacent elements.",
+            "A simple sorting algorithm that builds the final sorted array (or list) one item at a time. It iterates through the input elements and builds a sorted output list.",
+            "A sorting algorithm that uses a pivot element.",
+            "A sorting algorithm with O(log n) time complexity."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-351",
+          "prompt": "What is the definition of \"Data Structures\"?",
+          "answers": [
+            "Physical storage devices for data.",
+            "Specialized formats for organizing, processing, retrieving, and storing data.",
+            "Programming languages used for data manipulation.",
+            "Algorithms for data encryption."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-352",
+          "prompt": "What is an \"Array\"?",
+          "answers": [
+            "A collection of elements of different data types.",
+            "A collection of items stored at contiguous memory locations, typically of the same data type.",
+            "A dynamic data structure.",
+            "A data structure used for hierarchical data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-353",
+          "prompt": "What is a \"Linked List\"?",
+          "answers": [
+            "A collection of elements stored at contiguous memory locations.",
+            "A linear data structure where elements are stored in non-contiguous memory locations and are linked using pointers.",
+            "A data structure that allows direct access to any element.",
+            "A data structure for sorting data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-354",
+          "prompt": "What is a \"Stack\"?",
+          "answers": [
+            "A data structure that follows the First-In, First-Out (FIFO) principle.",
+            "A linear data structure that follows the Last-In, First-Out (LIFO) principle.",
+            "A data structure used for random access.",
+            "A non-linear data structure."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-355",
+          "prompt": "What is a \"Queue\"?",
+          "answers": [
+            "A data structure that follows the Last-In, First-Out (LIFO) principle.",
+            "A linear data structure that follows the First-In, First-Out (FIFO) principle.",
+            "A data structure for hierarchical data.",
+            "A data structure that allows direct access to elements."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-356",
+          "prompt": "What is a \"Tree\"?",
+          "answers": [
+            "A linear data structure.",
+            "A non-linear, hierarchical data structure consisting of nodes connected by edges, where each node has a value and may have child nodes.",
+            "A data structure that stores elements in contiguous memory.",
+            "A data structure used for sequential access only."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-357",
+          "prompt": "What is a \"Graph\"?",
+          "answers": [
+            "A linear data structure.",
+            "A non-linear data structure consisting of a finite set of vertices (or nodes) and a set of edges connecting pairs of vertices.",
+            "A data structure for sorted data.",
+            "A data structure that only allows one path between nodes."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-358",
+          "prompt": "What is a \"Hash Table (or Hash Map)\"?",
+          "answers": [
+            "A data structure that stores elements in sorted order.",
+            "A data structure that stores key-value pairs, providing fast average-time complexity for insertion, deletion, and retrieval.",
+            "A linear data structure for sequential access.",
+            "A data structure for hierarchical data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-359",
+          "prompt": "What is a \"Heap\"?",
+          "answers": [
+            "A data structure that maintains elements in a completely unsorted order.",
+            "A specialized tree-based data structure that satisfies the heap property, typically used for implementing priority queues.",
+            "A linear data structure.",
+            "A data structure for direct element access."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-360",
+          "prompt": "What is a \"Trie (Prefix Tree)\"?",
+          "answers": [
+            "A data structure for storing unrelated words.",
+            "A tree-like data structure used for efficient retrieval of a key in a dataset of strings, where keys are usually strings.",
+            "A linear data structure that stores elements sequentially.",
+            "A data structure for numerical data only."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-361",
+          "prompt": "What is a \"Matrix (2D Array)\"?",
+          "answers": [
+            "A one-dimensional list of elements.",
+            "A two-dimensional array that stores elements in rows and columns, used to represent grids or tables.",
+            "A dynamic data structure.",
+            "A data structure that relies on pointers for connections."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-362",
+          "prompt": "What is the role of \"Efficiency\" when choosing data structures?",
+          "answers": [
+            "To disregard time and space complexity.",
+            "Choosing the right data structure can significantly impact an algorithm's time and space complexity.",
+            "To always use the simplest data structure.",
+            "To focus only on implementation ease."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-363",
+          "prompt": "What is the role of \"Memory Usage\" when choosing data structures?",
+          "answers": [
+            "To disregard memory efficiency.",
+            "Different data structures have varying memory footprints, which is crucial for resource-constrained environments.",
+            "To always choose the data structure with the largest memory footprint.",
+            "To only consider speed, not memory."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-364",
+          "prompt": "What is \"Complexity\" when choosing data structures?",
+          "answers": [
+            "To always choose the most complex data structure.",
+            "The complexity of implementing and maintaining a data structure should be considered against its benefits.",
+            "To only choose simple data structures.",
+            "To ignore the maintainability of the code."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-365",
+          "prompt": "What are \"Databases\"?",
+          "answers": [
+            "Tools for individual file storage.",
+            "Organized collections of data, typically stored and accessed electronically from a computer system.",
+            "Only used for unstructured data.",
+            "Algorithms for data sorting."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-366",
+          "prompt": "What are \"Files\" in the context of data storage?",
+          "answers": [
+            "Unstructured collections of data.",
+            "Basic units of data storage on a computer system, often used for simple data persistence.",
+            "Only used for temporary data.",
+            "Exclusive to relational databases."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-367",
+          "prompt": "What is \"Cloud Storage\"?",
+          "answers": [
+            "Storing data on local servers only.",
+            "Storing data on remote servers accessible over the internet, providing scalability, accessibility, and durability.",
+            "A physical storage device.",
+            "A method for data encryption."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos102-368",
+          "prompt": "What is \"Blockchain\"?",
+          "answers": [
+            "A centralized database.",
+            "A decentralized, distributed ledger technology that stores data in a secure, unchangeable, and transparent manner.",
+            "A traditional file system.",
+            "A method for temporary data storage."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

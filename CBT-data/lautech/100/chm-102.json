@@ -1,0 +1,3193 @@
+{
+    "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Chemistry",
+  "course": {
+    "code": "CHM 102",
+    "title": "General Chemistry II"
+  },
+    "questions": [
+        {
+          "id": "chm102-001",
+          "prompt": "Ammonia as a ligand is an example of",
+          "answers": [
+            "bidentate",
+            "monodentate",
+            "ambidentate",
+            "bridging"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-002",
+          "prompt": "Which has the lowest PRa value",
+          "answers": [
+            "phenol",
+            "propanol",
+            "ethanol",
+            "methanol"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-003",
+          "prompt": "Which of the following is not a mineral of fluorine",
+          "answers": [
+            "carnalite",
+            "cryolite",
+            "fluorspar",
+            "fluoropalite"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-004",
+          "prompt": "Interatomic combination involves",
+          "answers": [
+            "neutrons in nucleus only",
+            "protons in nucleus only",
+            "electrons in outer shell only",
+            "electrons in all shells"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-005",
+          "prompt": "Primary valency gives rise to the",
+          "answers": [
+            "oxidation number",
+            "valency number",
+            "proton number",
+            "donor number"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-006",
+          "prompt": "What is the boiling point of helium?",
+          "answers": [
+            "7.8k",
+            "0k",
+            "4.2k",
+            "3.7k"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-007",
+          "prompt": "Which of the following has the smallest atomic radius",
+          "answers": [
+            "N",
+            "Li",
+            "Be",
+            "C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-008",
+          "prompt": "Halides react with ___________ to form covalent compounds",
+          "answers": [
+            "non-metals",
+            "alkaline earth metals",
+            "alkali metal"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-009",
+          "prompt": "Which halide has the most basic nature in water",
+          "answers": [
+            "chloride",
+            "iodide",
+            "bromide",
+            "fluoride"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-010",
+          "prompt": "Which ligand has more than one atom attached to it?",
+          "answers": [
+            "polydentate",
+            "monodentate",
+            "bidentate"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-011",
+          "prompt": "The following are monodentate ligands except",
+          "answers": [
+            "fluoro",
+            "hydroxo",
+            "chloro",
+            "2, 2bipyridine"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-012",
+          "prompt": "Which of the following has the strongest hydrogen bond between the molecules",
+          "answers": [
+            "HCl",
+            "HF",
+            "NH3 H2 S"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-013",
+          "prompt": "Which has the lowest % of S?",
+          "answers": [
+            "Sp3",
+            "Sp2",
+            "Sp",
+            "none"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-014",
+          "prompt": "The boiling point of halogens _________",
+          "answers": [
+            "increases down the group",
+            "decreases down the group",
+            "remain constant"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-015",
+          "prompt": "Boron has five electrons, what is the hybridization in BF3",
+          "answers": [
+            "Sp3",
+            "Sp3 tetrahedral",
+            "Splinear",
+            "Sptrigonal"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-016",
+          "prompt": "Which of these has an ionic character?",
+          "answers": [
+            "Ca",
+            "Mg",
+            "Be",
+            "Sr"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-017",
+          "prompt": "The compounds ortho-aminophenol, meta-aminophenol and para-aminophenol are typical examples of _________ isomers",
+          "answers": [
+            "stereo/geometric",
+            "positional",
+            "functional group",
+            "structural"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-018",
+          "prompt": "Which halogen is used in the manufacture of disinfectants",
+          "answers": [
+            "chlorine",
+            "fluorine",
+            "iodine",
+            "bromine"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-019",
+          "prompt": "What is the weakest intermolecular force?",
+          "answers": [
+            "hydrogen bond",
+            "ionic bond",
+            "London force",
+            "dipole – dipole"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-020",
+          "prompt": "Four elements A, B, C and D have 6, 3, 7 and 9 electrons respectively therefore",
+          "answers": [
+            "C will form an electrovalent bond with D",
+            "B will form a covalent bond with D",
+            "A will form an electrovalent bond with C",
+            "B will form an electrovalent bond with D"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-021",
+          "prompt": "Group IIA elements are known as the",
+          "answers": [
+            "alkali metals",
+            "halogens",
+            "alkaline earth metals",
+            "noble metals"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-022",
+          "prompt": "The characteristic colour obtained when Na is burnt in Bunsen flame is",
+          "answers": [
+            "lilac",
+            "blue",
+            "violet",
+            "yellow"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-023",
+          "prompt": "Caesium is __________ on a warm day",
+          "answers": [
+            "water",
+            "gas",
+            "solid",
+            "liquid"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-024",
+          "prompt": "The following are structural isomers of hexane (C6 H14 ) except",
+          "answers": [
+            "2, 2-dimethylpentane",
+            "2, 3-dimethylpentane",
+            "2, 3-dimethylbutane",
+            "2-methylpentane"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-025",
+          "prompt": "What is the mode of formation of multidentate ligand",
+          "answers": [
+            "coordination",
+            "chelation",
+            "bonding",
+            "pairing"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-026",
+          "prompt": "Which of the following halogens forms the most basic solution in water",
+          "answers": [
+            "I",
+            "Cl",
+            "F",
+            "Br"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-027",
+          "prompt": "What is the isomerism between propanal and propanone",
+          "answers": [
+            "functional",
+            "positional",
+            "structural",
+            "stereo"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-028",
+          "prompt": "Helium is not able to form intermolecular bond because ________",
+          "answers": [
+            "its valence shell is completely filled",
+            "the atoms contain only protons",
+            "the number of protons is equal to the number of electrons",
+            "there are no electrons around the nucleus"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-029",
+          "prompt": "Which of the following is not a source of hydrocarbons?",
+          "answers": [
+            "bitumen",
+            "crude oil",
+            "rock",
+            "living organisms"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-030",
+          "prompt": "In the form ns1 , the value of n in Rb is",
+          "answers": [
+            "2",
+            "3",
+            "5",
+            "4"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-031",
+          "prompt": "The number of isomers formed C5 H10 is",
+          "answers": [
+            "4",
+            "5",
+            "3",
+            "1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-032",
+          "prompt": "Butanoic acid and ethylethanoate are isomers",
+          "answers": [
+            "true",
+            "false",
+            "not sure",
+            "none of the above"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-033",
+          "prompt": "Ligand can be defined in the following ways except",
+          "answers": [
+            "on the basis of donor site",
+            "on the basis of their charge",
+            "on the basis of the compounds",
+            "on the basis of bonding"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-034",
+          "prompt": "The functional group in isothiocyano compound is",
+          "answers": [
+            "R − N",
+            "R − S",
+            "N = H"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-035",
+          "prompt": "When lithium forms its ion",
+          "answers": [
+            "it attains electronic configuration of helium",
+            "it loses one proton",
+            "atomic number decreases",
+            "it gains one electron and become negatively charged"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-036",
+          "prompt": "Boiling point of halogen _________ down the group",
+          "answers": [
+            "increases",
+            "decreases",
+            "unchanged"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-037",
+          "prompt": "All the following are an ionic ligands except",
+          "answers": [
+            "thiocyanato",
+            "nitrosyl",
+            "azide",
+            "nitrite"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-038",
+          "prompt": "Be(OH)2 of beryllium hydroxide is",
+          "answers": [
+            "amphoteric oxide",
+            "basic oxide",
+            "none",
+            "acidic oxide"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-039",
+          "prompt": "Na metal is soft because of its",
+          "answers": [
+            "high density",
+            "low pressure",
+            "high pressure",
+            "low density"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-040",
+          "prompt": "Chlorine gas is manufactured industrially the",
+          "answers": [
+            "Ostwald process",
+            "Haber process",
+            "chloro-alkali process",
+            "Deacon process"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-041",
+          "prompt": "Which of the following bonds exist between molecules of ethanoic acids",
+          "answers": [
+            "dative",
+            "covalent",
+            "metallic",
+            "electrovalent"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-042",
+          "prompt": "A coordination compound is consisted of two",
+          "answers": [
+            "metalion (atom) and counter ion",
+            "metal ion (atom) and donor atom(s)",
+            "metal ion (atom) and lewis acid",
+            "metal ion (atom) and ligand(s)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-043",
+          "prompt": "The condensed formula of 3-methylbutan-2-ol is",
+          "answers": [
+            "CH3 CH2 CH2 CH(CH3 )CHO",
+            "CH3 CH2 (CH3 )COCH3",
+            "CH3 CH(CH3 )COCH3",
+            "CH3 CHOHCH2 CH2 CH3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-044",
+          "prompt": "The characteristic colour obtained when K is burnt in bursen flame is",
+          "answers": [
+            "violet",
+            "indigo",
+            "blue",
+            "lilac"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-045",
+          "prompt": "Which correctly describes a property of the compound formed when a halogen X (e.g. Cl, Br) combines with an alkali metal M (e.g. Li, Na, K)",
+          "answers": [
+            "will not conduct heat or electricity when liquid or when dissolved in water",
+            "silvery solid",
+            "the solid is a good conductor",
+            "high melting point"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-046",
+          "prompt": "The following exhibits partial ionic character except",
+          "answers": [
+            "Sr",
+            "Ba",
+            "Mg",
+            "Ca"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-047",
+          "prompt": "Which of the following statements is incorrect about noble gases",
+          "answers": [
+            "they are monoatomic",
+            "they are odourless",
+            "they have an outer electronic configuration of ns 2 np6",
+            "they are colourless"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-048",
+          "prompt": "Chlorine, bromine and iodine react with __________ to form covalent compounds",
+          "answers": [
+            "non-metals",
+            "alkali metals",
+            "alkaline earth metals",
+            "acids"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-049",
+          "prompt": "Water (H2 O) as a liquid is an example of _________",
+          "answers": [
+            "multidentate ligand",
+            "anionic lligand",
+            "neutral ligand",
+            "none of the above"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-050",
+          "prompt": "How many sigma and pi bond is present in a single bond?",
+          "answers": [
+            "0, 1",
+            "1, 0",
+            "0, 0",
+            "1, 1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-051",
+          "prompt": "The volatility of electrovalent liquids is generally lower than that of covalent liquids because the force of attraction between positive and negative ion is ___________",
+          "answers": [
+            "stronger than Vanderwaals forces in covalent liquids",
+            "equals to the Vanderwaals attraction in covalent liquids",
+            "equal to the dative bonds in covalent liquids"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-052",
+          "prompt": "The first element of alkaline earth metals is",
+          "answers": [
+            "Mg",
+            "Be",
+            "Ca",
+            "Sr"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-053",
+          "prompt": "Group 1A elements are characterized one electron on then s orbital in the outermost shell. ForCs, n is _____",
+          "answers": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-054",
+          "prompt": "An unknown organic compound was shows on quantitative analysis containing 40% carbon, 6.7% hydrogen and 53.3% oxygen, with vapour density of 90. Find the molecular formula",
+          "answers": [
+            "CH2 O",
+            "C3 H6 O3",
+            "C6 H2 O",
+            "CHO2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-055",
+          "prompt": "Halogens have high affinity because",
+          "answers": [
+            "they can accommodate only one electron in their valence",
+            "all of the above",
+            "the incomplete can occupy the orbital with strong attraction"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-056",
+          "prompt": "Hardness of group IIA elements is due to",
+          "answers": [
+            "increase down the group",
+            "none",
+            "constant",
+            "decrease down the group"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-057",
+          "prompt": "A molecule of nitrogen contains ________ bond",
+          "answers": [
+            "single",
+            "triple",
+            "double",
+            "none"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-058",
+          "prompt": "Which statement is true about group 7 halogen?",
+          "answers": [
+            "they have low boiling point",
+            "they exist as single atoms at room temperature",
+            "they are good conductors of electricity",
+            "lone the first one is a gas at room temperature and pressure"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-059",
+          "prompt": "What is the atomicity of halogen",
+          "answers": [
+            "diatomic",
+            "monoatomic",
+            "triatomic",
+            "none"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-060",
+          "prompt": "The metal ions (atom) is known as ____________",
+          "answers": [
+            "Lewis acid-base",
+            "Lewis base",
+            "Lewis acid",
+            "ligand"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-061",
+          "prompt": "A tetradentate ligand has ________ donor atom",
+          "answers": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-062",
+          "prompt": "Which one of these is not an intermolecular force?",
+          "answers": [
+            "dipole-dipole",
+            "covalent bond ing",
+            "hydrogen bonding",
+            "London dispersion forces"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-063",
+          "prompt": "The H − C − H bond angle in CH4 is",
+          "answers": [
+            "1200",
+            "1800",
+            "109.50",
+            "900"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-064",
+          "prompt": "The donor ligand that share donor atom is _________",
+          "answers": [
+            "monodentate",
+            "bidentate",
+            "multidentate",
+            "tetradentate"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-065",
+          "prompt": "What type of isomerism is exhibited CH3 COCH3 and CH3 CH2 CHO",
+          "answers": [
+            "metamerism",
+            "functional group",
+            "nuclear",
+            "position"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-066",
+          "prompt": "As you go down the group, how does the boiling point of the halogen elements change",
+          "answers": [
+            "does not change",
+            "decreases",
+            "increases",
+            "none of the above"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-067",
+          "prompt": "The following are neutral ligands except",
+          "answers": [
+            "amine",
+            "nitrosyl",
+            "carbonyl"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-068",
+          "prompt": "How many sigma and pi bonds are present is a triple bond?",
+          "answers": [
+            "0, 3",
+            "3, 0",
+            "2, 1",
+            "1, 2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-069",
+          "prompt": "The forces of attraction between non-polar molecules are",
+          "answers": [
+            "hydrogen bonds",
+            "covalent bonds",
+            "Vanderwaals forces"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-070",
+          "prompt": "Which of the following group IIA elements occurs in small amounts in uranium ores",
+          "answers": [
+            "Mg",
+            "Ca",
+            "Ra",
+            "Be"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-071",
+          "prompt": "The characteristic colour obtained when Li is burnt in Bunsen flame is",
+          "answers": [
+            "crimson",
+            "yellow",
+            "blue",
+            "lilac"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-072",
+          "prompt": "All these are sources of organic compound except",
+          "answers": [
+            "coal",
+            "petroleum",
+            "living organisms",
+            "rock"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-073",
+          "prompt": "If 12 and 9 are the atomic numbers of elements A and B respectively, the interatomic bond between these elements are",
+          "answers": [
+            "covalent",
+            "ionic",
+            "dative",
+            "hydrogen"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-074",
+          "prompt": "Which of the following is not a characteristic property of ionic compound",
+          "answers": [
+            "fast reaction in solution",
+            "conduction of electricity in solution",
+            "solubility in polar solvents",
+            "low melting points"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-075",
+          "prompt": "Which of the following is the hardest",
+          "answers": [
+            "Sr",
+            "Be",
+            "Ra",
+            "Mg"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-076",
+          "prompt": "What is the source of organic compounds",
+          "answers": [
+            "fossil",
+            "rock",
+            "soil",
+            "all of the above"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-077",
+          "prompt": "Isothiocyano is when ligand is",
+          "answers": [
+            "N-bonded",
+            "L-bonded",
+            "S-bonded",
+            "P-bonded"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-078",
+          "prompt": "The interatomic bond formed between an atom of an element with high electron affinity and an atom of another element with low ionization energy is ___________",
+          "answers": [
+            "electropositive",
+            "electronegative",
+            "electrovalent",
+            "electrode"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-079",
+          "prompt": "The first element of the alkaline earth metal is ____________",
+          "answers": [
+            "boron",
+            "argon",
+            "berylium",
+            "fluorine"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-080",
+          "prompt": "The absorption in the UV-visible region electromagnetic spectrum is based on the presence of __________ in an organic compound",
+          "answers": [
+            "all of the above",
+            "isolated system",
+            "conjugation",
+            "commutative"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-081",
+          "prompt": "The association mold of a multidentate ligand is called",
+          "answers": [
+            "coordination",
+            "donation",
+            "ligation",
+            "chelation"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-082",
+          "prompt": "Where F acts as a ligand, its name becomes",
+          "answers": [
+            "fluorine ion",
+            "fluorion",
+            "fluoro",
+            "fluorine"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-083",
+          "prompt": "Two elements X and Y have electronegativity value 0.8 and 3.0 respectively. The interatomic combination of the two elements is expected to produce",
+          "answers": [
+            "ionic",
+            "metallic",
+            "polar covalent",
+            "non-polar covalent"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-084",
+          "prompt": "The forces of attraction resulting from the alignment of polar covalent molecules is ____________",
+          "answers": [
+            "London forces",
+            "induced dipole induced dipole",
+            "dipole dipole",
+            "permanent induced dipole"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-085",
+          "prompt": "What is left after the electrolysis of brine (aqueous sodium chloride solution)",
+          "answers": [
+            "sodium chlorate (I)",
+            "sodium hydroxide",
+            "chlorine",
+            "hydrogen"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-086",
+          "prompt": "Which of these organic compounds will have lowest PKa value?",
+          "answers": [
+            "methanol",
+            "ethanol",
+            "phenol",
+            "propanol"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-087",
+          "prompt": "The following halide displays the most basic nature in water (H2 O)",
+          "answers": [
+            "bromide",
+            "fluoride",
+            "iodide",
+            "chloride"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-088",
+          "prompt": "A ligand with one donor atom is called a __________",
+          "answers": [
+            "donor atom ligand",
+            "monodentate ligand",
+            "undentate ligand",
+            "bidentate ligand"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-089",
+          "prompt": "Sigma bond results from",
+          "answers": [
+            "parallel overlapping of orbital",
+            "when the bond make a pishape",
+            "directly overlapping of orbitals",
+            "none of the above"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-090",
+          "prompt": "Ionic solids are generally stable because of",
+          "answers": [
+            "hydrogen bond",
+            "Vanderwaal forces",
+            "London dispersion",
+            "crystal lattice forces"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-091",
+          "prompt": "Which of the following has the large radius?",
+          "answers": [
+            "Na",
+            "Mg",
+            "Si (dd) Al"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-092",
+          "prompt": "Group 1 elements are characterized ns. Na is _________",
+          "answers": [
+            "5",
+            "4",
+            "2",
+            "3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-093",
+          "prompt": "Infrared spectrometry is used to determine ____________",
+          "answers": [
+            "functional group",
+            "function group",
+            "bonding"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-094",
+          "prompt": "The bond angle in C2 H4 is",
+          "answers": [
+            "1800",
+            "1090",
+            "1200",
+            "900"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-095",
+          "prompt": "Which of the halogens is most reactive",
+          "answers": [
+            "Br",
+            "Cl",
+            "F",
+            "I"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-096",
+          "prompt": "The strongest molecular force is",
+          "answers": [
+            "hydrogen bond",
+            "London force",
+            "dipole dipole",
+            "ionic bond"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-097",
+          "prompt": "Which is the hardest?",
+          "answers": [
+            "Mg",
+            "Sr",
+            "Be",
+            "Ra"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-098",
+          "prompt": "Which of the following is not correct",
+          "answers": [
+            "the shorter the bond length, the greater the Scharacter",
+            "the longer the bond length, the higher the bond energy",
+            "sigma bond is stronger than pi bond"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-099",
+          "prompt": "Which of the elements is silvery white metallic solid at room temperature",
+          "answers": [
+            "Cs",
+            "Na",
+            "Li",
+            "K"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-100",
+          "prompt": "If the electronegativity difference between A and B is small, the interatomic bond between them is",
+          "answers": [
+            "non-polar",
+            "ionic",
+            "coordinate covalent",
+            "polar covalent"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-101",
+          "prompt": "which of the following halogens is radioactive",
+          "answers": [
+            "chlorine",
+            "astatine",
+            "bromine",
+            "fluorine"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-102",
+          "prompt": "the atom in ligand that attaches to a metal is",
+          "answers": [
+            "donor atom",
+            "counter ion",
+            "monodentate ion",
+            "attaching atom"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-103",
+          "prompt": "Group 1A elements contain",
+          "answers": [
+            "6 elements",
+            "3 elements",
+            "5 elements",
+            "4 elements"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-104",
+          "prompt": "Classification of ligands is based on the following",
+          "answers": [
+            "on the basis of charge",
+            "on the basis of the donor site",
+            "on the basis of bonding",
+            "on the basis of compound"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-105",
+          "prompt": "Which of the following holds the crystal layers in graphite together",
+          "answers": [
+            "electrostatic force",
+            "hydrogen bonds",
+            "covalent bond",
+            "Vanderwaal forces"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-106",
+          "prompt": "____________ is an organic compound",
+          "answers": [
+            "cumulative system",
+            "conjugated system",
+            "isolated system",
+            "all of the above"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-107",
+          "prompt": "Which of the following forms the strongest hydrogen bonds between its molecules",
+          "answers": [
+            "HF",
+            "H2 S",
+            "NH3",
+            "HCl"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-108",
+          "prompt": "Ligand acts as electron pair",
+          "answers": [
+            "distributor",
+            "donor",
+            "acceptor",
+            "producer"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-109",
+          "prompt": "The interatomic bonds present in the ammonium ion are",
+          "answers": [
+            "metallic and coordinate covalent",
+            "covalent and electrovalent",
+            "covalent and coordinate covalent",
+            "electrovalent and metallic"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-110",
+          "prompt": "A ligand attached to more than one metal is",
+          "answers": [
+            "bidentate",
+            "polydentate",
+            "bridging",
+            "ambidentate"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-111",
+          "prompt": "When excess chlorine react with methane in the presence of sunlight, what is formed?",
+          "answers": [
+            "carbon tetrachloride",
+            "methylene chloride",
+            "chloroform",
+            "refrigerant"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-112",
+          "prompt": "Atom in a ligand that attached to a metal is known as",
+          "answers": [
+            "central atom",
+            "monodentate",
+            "molecule",
+            "none of the above"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-113",
+          "prompt": "Tetradentate means _________ atom",
+          "answers": [
+            "2",
+            "3",
+            "4",
+            "1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-114",
+          "prompt": "The force of attraction between non-polar molecules is",
+          "answers": [
+            "covalent",
+            "Vanderwaals",
+            "hydrogen bond",
+            "electronegative"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-115",
+          "prompt": "The force of attraction between polar covalent molecules and non-polar covalent molecules when they are brought close to each other is",
+          "answers": [
+            "induced-induced dipole",
+            "hydrogen bond",
+            "dipole-dipole",
+            "permanent dipole"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-116",
+          "prompt": "The interatomic combination of two elements is expected to produce",
+          "answers": [
+            "non-polar",
+            "polar",
+            "metallic",
+            "ionic"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-117",
+          "prompt": "Which displays basic oxide with water",
+          "answers": [
+            "iodine",
+            "bromine",
+            "chlorine"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-118",
+          "prompt": "Drawing structure of ethanoic acid, which of the following is not correct",
+          "answers": [
+            "the functional group is Sp3 hybridized",
+            "the functional group is Sp2 hybridized",
+            "the shape of the hybridization is tetrahedral",
+            "None"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-119",
+          "prompt": "Which is left after the electrolysis of brine (aqueous sodium chloride solution)",
+          "answers": [
+            "hydrogen",
+            "sodium chloride",
+            "chlorine",
+            "sodium hydroxide"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-120",
+          "prompt": "which of the following have two hydrogen atom attach to the carbonyl carbon atom",
+          "answers": [
+            "aldehyde",
+            "ketone",
+            "carboxylic acid",
+            "ether"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-121",
+          "prompt": "the formula that show the arrangement of atoms in a compound is",
+          "answers": [
+            "empirical formula",
+            "M.F",
+            "S.F",
+            "condensed formula"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-122",
+          "prompt": "commercial sources of Alkanes include",
+          "answers": [
+            "Coal",
+            "natural gas",
+            "petroleum",
+            "all of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-123",
+          "prompt": "A mixture of low boiling hydrocarbon is called",
+          "answers": [
+            "coal",
+            "petroleum",
+            "natural gas",
+            "L.P.G"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-124",
+          "prompt": "nature of organic compound is",
+          "answers": [
+            "ionic",
+            "covalent",
+            "amphoteric",
+            "coordinate covalent"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-125",
+          "prompt": "organic compound are",
+          "answers": [
+            "nonvolatile",
+            "volatile",
+            "high melting point",
+            "high boiling point"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-126",
+          "prompt": "the reaction rate of organic compound are often",
+          "answers": [
+            "fast",
+            "normal",
+            "slow",
+            "depending on the Compound"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-127",
+          "prompt": "groups of organism that can occur within an organic molecules are called",
+          "answers": [
+            "cyclic compound",
+            "functional group",
+            "homologous series",
+            "no of atoms"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-128",
+          "prompt": "what is the major starting material for the manufacture if organic chemicals and products such as plastics",
+          "answers": [
+            "acetylene",
+            "ethylene",
+            "methane",
+            "phenol"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-129",
+          "prompt": "the origin of carbon compound is",
+          "answers": [
+            "living things",
+            "non- living things"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-130",
+          "prompt": "the first antiseptic use in operation theater is",
+          "answers": [
+            "alcohol",
+            "Alkane",
+            "acid",
+            "phenol"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-131",
+          "prompt": "which of the following is use in the preparation of polymer pox",
+          "answers": [
+            "acetylene",
+            "ethylene",
+            "alcohol",
+            "phenol"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-132",
+          "prompt": "C3 H4 + H2 O → CH3 COOCH take place in tℎe presence of",
+          "answers": [
+            "H2 SO4 /HgSO4",
+            "H2 SO3 /HgSO3",
+            "HCl/HgSO4",
+            "H2 SO4 /NaOH"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-133",
+          "prompt": "Which of the following has the highest solubility",
+          "answers": [
+            "CH3 OH",
+            "CH3 CH2 CH2 OH",
+            "CH3 CH2 OH",
+            "CH3 CH2 CH2 CH2 OH"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-134",
+          "prompt": "Which of the following has the highest boiling point?",
+          "answers": [
+            "CH3 OH",
+            "CH3 CH2 CH2 OH",
+            "CH3 CH2 OH",
+            "CH3 CH2 CH2 CH2 OH"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-135",
+          "prompt": "For which pair of compounds can the members be distinguished the means of Tollen’s test (the use of a solution Ag(NH3 )2)",
+          "answers": [
+            "CH3 COCH3 and CH3 COCH3",
+            "CH3 COCH3 and C2 H5",
+            "CH3 CHO and CH3 COCH3",
+            "CH3 CO2 H CH3 CO2 CH3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-136",
+          "prompt": "________ and _________ consist of a transition metal ion with its attached ligands.",
+          "answers": [
+            "Coordination Compound",
+            "Coordination Complex",
+            "Coordination Entity",
+            "All of the option (d) None"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-137",
+          "prompt": "_________ is a neutral molecule or ion having a lone pair that can be used to form a bond with a metal ion.",
+          "answers": [
+            "Ligands",
+            "Complexing agent",
+            "Complex",
+            "A and B",
+            "All of the options"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-138",
+          "prompt": "A ligand that can form one bond toa metal ion is called __________",
+          "answers": [
+            "Dentate Ligand",
+            "Mono -dentate ligand",
+            "Unidentate",
+            "B&C",
+            "All of the option."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-139",
+          "prompt": "A ligand that can form two blinds to a metal ions is called __________ ligands",
+          "answers": [
+            "Monodentate",
+            "Bidentate",
+            "Chelate",
+            "Polydentate"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-140",
+          "prompt": "A ligand that can form more than two bonds to a metal ion are called _________",
+          "answers": [
+            "Ambidentate",
+            "Amphidentate",
+            "Polydentate",
+            "None"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-141",
+          "prompt": "Bidentate and Polydentate ligands can be classified under __________ Ligands",
+          "answers": [
+            "Ambidentate",
+            "Polydentate",
+            "Chelate",
+            "All of the option"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-142",
+          "prompt": "Ethylenediammine and ethylenediammine-tetra-acetic acid are __________ ligands",
+          "answers": [
+            "Bidentate",
+            "Polydentate",
+            "Chelate",
+            "Ambidentate"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-143",
+          "prompt": "Oxalate is an example of _________ ligands",
+          "answers": [
+            "Bidentate",
+            "Monodentate",
+            "Polydentate"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-144",
+          "prompt": "Ligands that have more than one atom with a lone pair that can be used to bond to a netal ion is _________ ligands",
+          "answers": [
+            "Ambidentate",
+            "Polydentate",
+            "Bidentate",
+            "Chelate"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-145",
+          "prompt": "Transition metals have _________ type of valencies",
+          "answers": [
+            "2",
+            "3",
+            "4",
+            "1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-146",
+          "prompt": "In the naming of ionic complex, which of these is correct",
+          "answers": [
+            "Cation is named only",
+            "Anion is named only",
+            "Anion is named before cation",
+            "Cation is named before anion"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-147",
+          "prompt": "Central mental are ________",
+          "answers": [
+            "electron pair acceptor",
+            "electron pair donor",
+            "A and B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-148",
+          "prompt": "What is the Coordination number and Oxidation number of Central atom respectively in the compound [Ni(NH3)4]2+",
+          "answers": [
+            "+4 and -2",
+            "+2 and +4",
+            "2 and -4",
+            "4 and +2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-149",
+          "prompt": "[Cu(CN)4]3- is an example of _________ Complex",
+          "answers": [
+            "Homoleptic",
+            "Heteroleptic",
+            "Monoleptic",
+            "Polyleptic"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-150",
+          "prompt": "[K4Fe(CN)6] is an example of ________ complex",
+          "answers": [
+            "Cationic",
+            "Anionic",
+            "Neutral",
+            "None"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-151",
+          "prompt": "[Co(NH3)6]Cl3 is an example of _________ complex",
+          "answers": [
+            "Anionic",
+            "Cationic",
+            "Neutral",
+            "All"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-152",
+          "prompt": "Which of the following is not a neutral ligand",
+          "answers": [
+            "H2O",
+            "NH3",
+            "en",
+            "EDTA"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-153",
+          "prompt": "Which is not among the properties of Transition elements",
+          "answers": [
+            "Variable Oxidation States",
+            "Paramagnetism",
+            "Coloured ions",
+            "Isotopism",
+            "Catalytic activity"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-154",
+          "prompt": "d1s2 and d2s2 can represent the electronic structure of _________ and ________ respectively",
+          "answers": [
+            "Sc α Ti",
+            "Ti α Sc",
+            "V α Cr",
+            "Cr α V"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-155",
+          "prompt": "The formula to calculate the paramagnetism moment of a substance is _________",
+          "answers": [
+            "μs = √4s(s + 2) B. M",
+            "μs = √n(n + 2) B. M",
+            "μs = √n(n + 4) B. M",
+            "μs = √l(l + 2) B. M"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-156",
+          "prompt": "Sc has _________ oxidation states",
+          "answers": [
+            "2",
+            "6",
+            "4",
+            "5"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-157",
+          "prompt": "V has _________ oxidation states",
+          "answers": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-158",
+          "prompt": "Mn has _________ Oxidation states",
+          "answers": [
+            "2",
+            "6",
+            "4",
+            "5"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-159",
+          "prompt": "Fe has _________ oxidation state",
+          "answers": [
+            "2",
+            "4",
+            "6",
+            "5"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-160",
+          "prompt": "The electronic structure of Cr is _________?",
+          "answers": [
+            "d3s2",
+            "d4s2",
+            "d5s1",
+            "d6s0"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-161",
+          "prompt": "The electronic structure of Cn is ________?",
+          "answers": [
+            "d8s2",
+            "d10s1",
+            "d9s2",
+            "d3s5"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-162",
+          "prompt": "Chromium is passivated __________",
+          "answers": [
+            "HNO3",
+            "aquafortis",
+            "Aqua regia",
+            "A and B",
+            "A and C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-163",
+          "prompt": "Which of these is not among the chief oxidation states of chromium?",
+          "answers": [
+            "VI",
+            "III",
+            "II",
+            "I"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-164",
+          "prompt": "The colour of sodium chromate is _________",
+          "answers": [
+            "yellow solid",
+            "orange solid",
+            "deep red",
+            "none"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-165",
+          "prompt": "The formula of chromyl chloride is _________?",
+          "answers": [
+            "Na2CrO4",
+            "Na2Cr2O7",
+            "CrO2Cl2",
+            "None"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-166",
+          "prompt": "Cr(+11) compounds often called __________ compound",
+          "answers": [
+            "chromous",
+            "chromate",
+            "chromic",
+            "chromium"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-167",
+          "prompt": "__________ exhibit the widest range of Oxidation states of any of the first transition metals.",
+          "answers": [
+            "Sc",
+            "Mn",
+            "Fe",
+            "Zn"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-168",
+          "prompt": "The only binary compound of manganese in Mn3+ Oxidation states that are stable at ordinary temperature are _________",
+          "answers": [
+            "trifluoride",
+            "Mn2O3",
+            "MnO2",
+            "A and B",
+            "B and C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-169",
+          "prompt": "The colour of Sodium Manganate (v) Na3MnO4 is _________",
+          "answers": [
+            "Red",
+            "deep Red",
+            "Blue",
+            "Yellow"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-170",
+          "prompt": "Potassium permanganate or manganate (VII) forms _________ crystals",
+          "answers": [
+            "dark purple",
+            "black",
+            "deep red",
+            "orange"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-171",
+          "prompt": "The primary valence of transition metals is called _________",
+          "answers": [
+            "oxidation state",
+            "coordination number",
+            "valence state",
+            "combining state"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-172",
+          "prompt": "The secondary valence of transition metal is __________",
+          "answers": [
+            "Oxidation state",
+            "Coordination number",
+            "Valence state",
+            "Combing state"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-173",
+          "prompt": "The name of positive ligands in IUPAC System naming ends in _________",
+          "answers": [
+            "–ate",
+            "–O",
+            "–ion",
+            "Unchanged",
+            "None"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-174",
+          "prompt": "Zinc, Cadmium and Mercury are not considered transition elements because of their electronic configurations, which corresponds to;",
+          "answers": [
+            "(n-1)d10ns2",
+            "nd8ns2",
+            "(n-1)d8ns2",
+            "nd10ns2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-175",
+          "prompt": "[Ar]3d54s1 is the electronic configuration of ________",
+          "answers": [
+            "Sc",
+            "Ti",
+            "V",
+            "CV"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-176",
+          "prompt": "[Ar]3d54s2 is the electronic configuration of",
+          "answers": [
+            "Fe",
+            "Mn",
+            "Co",
+            "Zn"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-177",
+          "prompt": "[Ar]3d84s2 is the electronic configuration of",
+          "answers": [
+            "Fe",
+            "Co",
+            "Zn",
+            "Ni"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-178",
+          "prompt": "The geometric shape formed the attachment of the ligands to the coordination centre is called _________",
+          "answers": [
+            "Coordination Sphere",
+            "Coordination Polyhedron",
+            "A and B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-179",
+          "prompt": "[Ni(Co)4] is an example of __________ complex",
+          "answers": [
+            "Neutral",
+            "Cationic",
+            "Anionic",
+            "Polynuclear"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-180",
+          "prompt": "Ligands that have the ability to bind to the central atom via the atoms of two different elements are __________ ligand",
+          "answers": [
+            "Homoleptic",
+            "Heteroleptic",
+            "Polynuclear",
+            "Ambidentate"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-181",
+          "prompt": "__________ Isomerism is observed in heteroleptic complexes to different possible geometric arrangements of ligands.",
+          "answers": [
+            "Geometrical",
+            "Structural",
+            "Linkage",
+            "Coordination"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-182",
+          "prompt": "__________ isomerism is exhibited the Coordination compounds having the same chemical formula but a different arrangement of atoms",
+          "answers": [
+            "Geometrical",
+            "Structural",
+            "Linkage",
+            "Coordination"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-183",
+          "prompt": "The Isomerism exhibits ambidentate lignads are __________",
+          "answers": [
+            "Linkage",
+            "Ionisation",
+            "Solvate",
+            "Coordination"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-184",
+          "prompt": "The Isomerism that occurs when the counter ion in a complex salt which is a potential ligand, replaces the ligand is _________",
+          "answers": [
+            "Solvate",
+            "Linkage",
+            "Ligand",
+            "Ionisation"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-185",
+          "prompt": "[Co(NH3)6][Cr(CN)6] and [Cr(NH3)6][Co(CN)6] exhibit _________ Isomerism",
+          "answers": [
+            "Linkage",
+            "Solvate",
+            "Ionisation",
+            "Coordination"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-186",
+          "prompt": "[Co(NH3)5(SO4)]Br and [Co(NH3)5Br]SO4 exhibit __________ Isomerism",
+          "answers": [
+            "Solvate",
+            "Coordination",
+            "Ligand",
+            "Ionisation"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-187",
+          "prompt": "________ Isomers are a special case of ionisation isomerism in which compounds differ depending on the number of the solvent molecule directly bonded to the metal ion",
+          "answers": [
+            "Solvate",
+            "Ligand",
+            "Ionisation",
+            "Coordination."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-188",
+          "prompt": "According to Warner’s Theory, ________ helps in the structure of complex",
+          "answers": [
+            "Primary valency",
+            "Secondary valency",
+            "Tertiary valency"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-189",
+          "prompt": "What is the oxidation number of the metal atom in [Co(H2O)(CN)(en)2]2+",
+          "answers": [
+            "+2",
+            "+3",
+            "-3",
+            "0"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-190",
+          "prompt": "The replacement of transition elements with one another in some compounds without altering the crystal structure is called _________",
+          "answers": [
+            "Isomorphism",
+            "Polymorphism",
+            "Denticity",
+            "Dimorphism"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-191",
+          "prompt": "In the compound [Cr(NH3)2Cl2F2]CN, the Uncoordinated ion is _________",
+          "answers": [
+            "Cr",
+            "Fl",
+            "Cl2",
+            "CN"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-192",
+          "prompt": "The Coordinate Compounds Heamoglobin, Vitamin B, Chlorophyll exist in _________ system",
+          "answers": [
+            "Solar",
+            "Living",
+            "Natural",
+            "None"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-193",
+          "prompt": "The Coordinat covalent bond exists between ________ and ________ in the compound K2[Cu(CN)4]",
+          "answers": [
+            "K+ and Cu2+",
+            "K+ and CN-",
+            "Cu2+ and CN-",
+            "Cu2+"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-194",
+          "prompt": "The Lewis acid in the coordination compound Na2[Pt(CN)4] is _________",
+          "answers": [
+            "Na+",
+            "CN-",
+            "Pt2+",
+            "[Pt(CN)4]279. Name the compound [Cr(SCN)4(NH3)2](a)Tetra thiocynatodiammine chromate (III) ion (b)Tetra thiocynatodiamine chromate (I) ion (c)Tetra thiocynatodiammine chromatum(III) ion (d) None"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-195",
+          "prompt": "The _________ sphere is enclosed in brackets in formulas for complex species and it includes the central metal ion plus the coordinated group",
+          "answers": [
+            "Coordination",
+            "Oxidation",
+            "Ligand",
+            "None"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-196",
+          "prompt": "The Coordination number of [Cr(NH3)2Cl2F2]CN is __________",
+          "answers": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-197",
+          "prompt": "The central ion in Ni(CO4) is __________",
+          "answers": [
+            "Ni",
+            "C",
+            "O",
+            "CO"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-198",
+          "prompt": "The positive ion in Na[Au(CN)2] is _________",
+          "answers": [
+            "Na+",
+            "Au",
+            "CN",
+            "C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-199",
+          "prompt": "Transition metals have ________ type of bond between their atom",
+          "answers": [
+            "metallic",
+            "ionic",
+            "dative",
+            "covalent"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-200",
+          "prompt": "54% carbon and 10.74% oxygen and its molecular mass is 595. The empirical and molecular formula of the compound are ________ and _________ respectively",
+          "answers": [
+            "C10O and C40O4",
+            "C40H52O4 & C10H13O",
+            "C40O4 & C10O",
+            "C10H13O & C40H52O4"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-201",
+          "prompt": "3% oxygen, with vapour density of 90. Find the molecular formula",
+          "answers": [
+            "CH2O",
+            "C3H6O3",
+            "C6H2O",
+            "CHO2"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-202",
+          "prompt": "Which of the following is a structural isomer of alcohol.",
+          "answers": [
+            "alkane",
+            "carbonyl",
+            "ether",
+            "ester"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-203",
+          "prompt": "CH4 is known as",
+          "answers": [
+            "formic gas",
+            "wood gas",
+            "olein",
+            "marsh gas"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-204",
+          "prompt": "Separating techniques are based on the following except",
+          "answers": [
+            "pH",
+            "boiling point",
+            "solubility",
+            "sublimity"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-205",
+          "prompt": "Ash bath is used for evaporation when the temperature required is",
+          "answers": [
+            "above 78°C",
+            "below 100°C",
+            "above 100°C",
+            "above 50°C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-206",
+          "prompt": "Propan-1-ol and methoxyethane exhibit",
+          "answers": [
+            "chain isomerism",
+            "functional isomerism",
+            "stereoisomerism",
+            "position isomerism"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-207",
+          "prompt": "Percentage composition of CO2 in a mixture of gases is",
+          "answers": [
+            "0.01%",
+            "0.08%",
+            "0.04%",
+            "0.65%"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-208",
+          "prompt": "Sigma bonds are formed with which hybridization",
+          "answers": [
+            "SP2",
+            "SP3",
+            "SP2,SP",
+            "SP"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-209",
+          "prompt": "An organic compound has been found to possess the empirical formula CH2O and vapour density of 45. Calculate its molecular formula",
+          "answers": [
+            "C6H12O6",
+            "C4H8O4",
+            "C3H6O3",
+            "C10H20O10"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-210",
+          "prompt": "CH4 + Cl2 ------------uv-----------> CH3Cl + HCl. This is an example of which reaction",
+          "answers": [
+            "displacement",
+            "substitution",
+            "replacement",
+            "elimination"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-211",
+          "prompt": "Molecular formula is based on",
+          "answers": [
+            "percentage composition",
+            "ratio of atoms",
+            "actual number",
+            "molecule present"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-212",
+          "prompt": "C2H5COOH and C2H5OH reaction process is called",
+          "answers": [
+            "neutralization",
+            "etherification",
+            "esterification",
+            "opsonization"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-213",
+          "prompt": "The most common method used in purifying a solid is",
+          "answers": [
+            "chromatography",
+            "sublimation",
+            "crystallization",
+            "filtration"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-214",
+          "prompt": "Alcohol can be prepared through",
+          "answers": [
+            "hydroboration",
+            "hydrogenation",
+            "polymerization",
+            "fermentation"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-215",
+          "prompt": "CH2OHCH2OH is an example of which alcohol",
+          "answers": [
+            "trihydric",
+            "dihydric",
+            "polyhydric",
+            "monohydric"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-216",
+          "prompt": "Terpyridine is a tridentate ligand?",
+          "answers": [
+            "T",
+            "F",
+            "None of the above"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-217",
+          "prompt": "One of the following is a polar covalent bond ?",
+          "answers": [
+            "L iF",
+            "HCl",
+            "MgCl2",
+            "NaCl"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-218",
+          "prompt": "Intermolecular forces are stronger than interatomic forces ?",
+          "answers": [
+            "T",
+            "F",
+            "None of the above"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-219",
+          "prompt": "In hydrogen bonding, the bond of hydrogen to one of these is the strongest ?",
+          "answers": [
+            "Nitrogen",
+            "Oxygen",
+            "Fluorine",
+            "Chlorine"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-220",
+          "prompt": "Classification of proteins based on biological functions include ?",
+          "answers": [
+            "Simple proteins",
+            "Complex proteins",
+            "Globular proteins",
+            "Structural proteins"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-221",
+          "prompt": "[NiCl4]^-2 has the name ?",
+          "answers": [
+            "Tetrachloridonickelate(III) ion",
+            "Tetrachloridonickelate(II) ion",
+            "Tetranickelochloridine(IV) ion",
+            "Nickel chloride (IV) ion"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-222",
+          "prompt": "Why is copper used for ornamental works? It is",
+          "answers": [
+            "a good thermal and electric conductor",
+            "malleable and resistant to corrosion",
+            "a transition metal",
+            "a soft metal"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-223",
+          "prompt": "Cassetrite is the ore of",
+          "answers": [
+            "magnesium",
+            "copper",
+            "tin",
+            "aluminum"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-224",
+          "prompt": "Which of the following Metals react with water in the form of steam to liberate hydrogen gas?",
+          "answers": [
+            "Na",
+            "Fe",
+            "Cu",
+            "Ca"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-225",
+          "prompt": "All the following Metals can displace hydrogen from water or steam except",
+          "answers": [
+            "Na",
+            "Ca",
+            "Fe",
+            "Cu"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-226",
+          "prompt": "An element or metal that react violently with water and steam belong to",
+          "answers": [
+            "group 1",
+            "group 2",
+            "d block metal",
+            "f block metal"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-227",
+          "prompt": "How many element do group1 & group 2 have",
+          "answers": [
+            "6&7 respectively",
+            "6&6 respectively",
+            "8&10 respectively",
+            "7&7 respectively"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-228",
+          "prompt": "Is used in the manufacturer of lead IV tetraethyl, an antiknock additive used in petrol.",
+          "answers": [
+            "Na",
+            "H2",
+            "O2",
+            "Ca"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-229",
+          "prompt": "CaCO3 occurs naturally as the following except",
+          "answers": [
+            "marble",
+            "chalk",
+            "limestone",
+            "anhydride"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-230",
+          "prompt": "All Group III element are conductors of heat and electricity except",
+          "answers": [
+            "Aluminum",
+            "Gallium",
+            "Boron",
+            "indium"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-231",
+          "prompt": "Can be used in the manufacturer of the nozzle of liquid fuelled space craft",
+          "answers": [
+            "Magnesium",
+            "Strontium",
+            "Beryllium",
+            "calcium"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-232",
+          "prompt": "The following are natural resources of alkenes except",
+          "answers": [
+            "crude oil",
+            "coal",
+            "natural gas",
+            "toluene"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-233",
+          "prompt": "Ozonolysis of alkynes will yield...............",
+          "answers": [
+            "aldehyde",
+            "alkanoic acid",
+            "ketone",
+            "ozonide"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-234",
+          "prompt": "CH-CH=CH2 CH3CHBrCH3 + CH2 + Br ----------------> The product of the above reaction is determined ............",
+          "answers": [
+            "wurtz's rule",
+            "anti markornikov's rule",
+            "markornikov's rule",
+            "hydrohalogenation of alkene"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-235",
+          "prompt": "The mechanics of chlorination of methane involves the following steps except............",
+          "answers": [
+            "termination",
+            "hemolytic cleavage",
+            "initiation",
+            "propagation"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-236",
+          "prompt": "The number of isomers formed by C5 H10 is",
+          "answers": [
+            "4",
+            "5",
+            "3",
+            "1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-237",
+          "prompt": "Chlorine gas is manufactured industrially by the",
+          "answers": [
+            "Ostwald process",
+            "Haber process",
+            "chloro-alkali process",
+            "Deacon process"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-238",
+          "prompt": "Group 1A elements are characterized by one electron on then s orbital in the outermost shell. ForCs, n is _____",
+          "answers": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-239",
+          "prompt": "What type of isomerism is exhibited by CH3 COCH3 and CH3 CH2 CHO",
+          "answers": [
+            "metamerism",
+            "functional group",
+            "nuclear",
+            "position"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-240",
+          "prompt": "Group 1 elements are characterized by ns. Na is _________",
+          "answers": [
+            "5",
+            "4",
+            "2",
+            "3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-241",
+          "prompt": "which of the following is use in the preparation of polymer by pox",
+          "answers": [
+            "acetylene",
+            "ethylene",
+            "alcohol",
+            "phenol"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-242",
+          "prompt": "For which pair of compounds can the members be distinguished by the means of Tollen’s test (the use of a solution Ag(NH3 )2)",
+          "answers": [
+            "CH3 COCH3 and CH3 COCH3",
+            "CH3 COCH3 and C2 H5",
+            "CH3 CHO and CH3 COCH3",
+            "CH3 CO2 H CH3 CO2 CH3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-243",
+          "prompt": "Chromium is passivated by __________",
+          "answers": [
+            "HNO3",
+            "aquafortis",
+            "Aqua regia",
+            "A and B",
+            "A and C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-244",
+          "prompt": "The geometric shape formed by the attachment of the ligands to the coordination centre is called _________",
+          "answers": [
+            "Coordination Sphere",
+            "Coordination Polyhedron",
+            "A and B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-245",
+          "prompt": "__________ isomerism is exhibited by the Coordination compounds having the same chemical formula but a different arrangement of atoms",
+          "answers": [
+            "Geometrical",
+            "Structural",
+            "Linkage",
+            "Coordination"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chm102-246",
+          "prompt": "The Isomerism exhibits by ambidentate lignads are __________",
+          "answers": [
+            "Linkage",
+            "Ionisation",
+            "Solvate",
+            "Coordination"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

@@ -4996,6 +4996,364 @@
       "correctIndex": 0,
       "difficulty": "Easy",
       "explanation": "No is correct because it identifies the lettering or typeface concept described."
-    }
+    },
+     {
+          "id": "faa101-001",
+          "prompt": "Two of these are elements of Arts and Design: I. Line II. Graduation III. Hue IV. Texture V. Rhythm",
+          "answers": [
+            "I & II",
+            "I and III",
+            "I and IV",
+            "I and V"
+          ],
+          "correctIndex": 2,
+          "difficulty": "easy",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-002",
+          "prompt": "The following are elements of art and design except",
+          "answers": [
+            "colour",
+            "line",
+            "texture",
+            "tone"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-003",
+          "prompt": "_______ is a path traced between two points",
+          "answers": [
+            "texture",
+            "space",
+            "line",
+            "volume"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-004",
+          "prompt": "Combination of lines is called _____",
+          "answers": [
+            "form",
+            "shape",
+            "volume",
+            "none"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-005",
+          "prompt": "_____________ is regarded as the surface value of an object",
+          "answers": [
+            "tone",
+            "form",
+            "texture",
+            "line"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-006",
+          "prompt": "The following are the principles of art and design except",
+          "answers": [
+            "balance",
+            "proportion",
+            "rhythm",
+            "tone"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-007",
+          "prompt": "Principles design are the following except",
+          "answers": [
+            "variety",
+            "contrast",
+            "emphasis",
+            "dominance",
+            "all of the above"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-008",
+          "prompt": "Harmony and unity _____________",
+          "answers": [
+            "principles of art and design",
+            "elements of art and design",
+            "factors of art and design",
+            "none of the above"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-009",
+          "prompt": "The effectiveness of a design depends on",
+          "answers": [
+            "a good rhythm",
+            "a good balance",
+            "a good proportion",
+            "all of the above"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-010",
+          "prompt": "_____________ refers to the size ratio of one part of an object to another part of that object",
+          "answers": [
+            "balance",
+            "proportion",
+            "rhythm",
+            "none"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-011",
+          "prompt": "The two types of balance are _____________ and _____________",
+          "answers": [
+            "formal/symmetry and informal/asymmetry",
+            "parallel and nonparallel",
+            "simple and complex",
+            "none of the above"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-012",
+          "prompt": "______________ refers to a state of equilibrium in which opposing forces neutralize each other",
+          "answers": [
+            "harmony",
+            "emphasis",
+            "dominance",
+            "balance"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-013",
+          "prompt": "What is needed to give interest and variety",
+          "answers": [
+            "balance",
+            "rhythm",
+            "contrast",
+            "proportion"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-014",
+          "prompt": "18. __________ is regarded as rest or repose",
+          "answers": [
+            "emphasis",
+            "balance",
+            "contrast",
+            "variety"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-015",
+          "prompt": "19. ___________ involves distribution of weight",
+          "answers": [
+            "dominance",
+            "harmony",
+            "balance",
+            "none of the above"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-016",
+          "prompt": "Primary colours are the following except",
+          "answers": [
+            "red",
+            "green",
+            "yellow",
+            "blue"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-017",
+          "prompt": "Red + yellow =",
+          "answers": [
+            "green",
+            "orange",
+            "violet",
+            "none of the above"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-018",
+          "prompt": "______________ is the variation of colour tone in terms of lightness and darkness",
+          "answers": [
+            "hue",
+            "value",
+            "contrast",
+            "none"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-019",
+          "prompt": "Blue + red =",
+          "answers": [
+            "green",
+            "pink",
+            "orange",
+            "violet"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-020",
+          "prompt": "Lettering are used for the following",
+          "answers": [
+            "used to communicate",
+            "used to make a design",
+            "used to illustrate different ideas",
+            "all of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-021",
+          "prompt": "Art is defined all of these except",
+          "answers": [
+            "drawing",
+            "acquisition of skill",
+            "universal language",
+            "creation human endeavours rather than nature",
+            "creation of beautiful and thought provoking works."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-022",
+          "prompt": "Which of these is not an element of art?",
+          "answers": [
+            "form",
+            "line",
+            "shape",
+            "colour",
+            "dominance"
+          ],
+          "correctIndex": 4,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-023",
+          "prompt": "A line can best be defined as _______________",
+          "answers": [
+            "straight mark",
+            "the outline of an area",
+            "distance from one point to another",
+            "movement of objects",
+            "pencil drawing"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-024",
+          "prompt": "If you are to draw the movement of an air plane taking off with a line, which line will best describe the plane’s movement?",
+          "answers": [
+            "horizontal line",
+            "vertical line",
+            "diagonal line",
+            "zigzag line",
+            "curved line"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-025",
+          "prompt": "Texture can be defined as _____________",
+          "answers": [
+            "the way an object looks",
+            "surface quality of an object in terms of roughness and smoothness",
+            "the consistence of a substance",
+            "a type of textile material",
+            "degree of roughness of an object"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-026",
+          "prompt": "Identify the shading technique for the form above",
+          "answers": [
+            "favoritism",
+            "constructivism",
+            "pointillism",
+            "sportish"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "faa101-027",
+          "prompt": "There are two types of textures",
+          "answers": [
+            "smooth and rough texture",
+            "thin and liquid texture",
+            "contour and line",
+            "pineapple and pawpaw",
+            "actual and simulated textures"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        }
   ]
 }

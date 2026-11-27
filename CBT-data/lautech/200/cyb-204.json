@@ -1,0 +1,1285 @@
+{
+"school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "200",
+  "department": "Cyber Security",
+  "course": {
+    "code": "CYB 204",
+    "title": "Introduction to Blockchain Technology"
+  },
+    "questions": [
+        {
+          "id": "cyb204-001",
+          "prompt": "Blockchain is best described as a:",
+          "answers": [
+            "Centralized database",
+            "Decentralized distributed ledger",
+            "Cloud storage",
+            "Operating System"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-002",
+          "prompt": "Who published the Bitcoin whitepaper?",
+          "answers": [
+            "Vitalik Buterin",
+            "Satoshi Nakamoto",
+            "Adam Back",
+            "Charles Hoskinson"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-003",
+          "prompt": "In which year was the Bitcoin network officially launched mining the first block?",
+          "answers": [
+            "2008",
+            "2009",
+            "2010",
+            "2013"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-004",
+          "prompt": "Which phase introduced Smart Contracts and DApps?",
+          "answers": [
+            "Phase 1",
+            "Phase 2",
+            "Phase 3",
+            "Phase 4"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-005",
+          "prompt": "What was the first commercial transaction using Bitcoin?",
+          "answers": [
+            "Buying a car",
+            "Buying two pizzas",
+            "Paying rent",
+            "Buying a domain"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-006",
+          "prompt": "What is the maximum supply limit of Bitcoin?",
+          "answers": [
+            "10 million coins",
+            "21 million coins",
+            "100 million coins",
+            "Unlimited"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-007",
+          "prompt": "Which part of the block contains the timestamp, nonce, and previous block hash?",
+          "answers": [
+            "Block Body",
+            "Block Header",
+            "Merkle Root",
+            "Transaction list"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-008",
+          "prompt": "Which type of blockchain is governed a group of organizations rather than a single entity?",
+          "answers": [
+            "Public",
+            "Private",
+            "Consortium",
+            "Hybrid"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-009",
+          "prompt": "What are the four widely recognized pillars of blockchain?",
+          "answers": [
+            "Speed, Cost, Storage, UI",
+            "Mining, Staking, Trading, Holding",
+            "Decentralization, Transparency, Immutability, Security",
+            "Java, Python, C++, Solidity"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-010",
+          "prompt": "Who proposed Ethereum?",
+          "answers": [
+            "Satoshi Nakamoto",
+            "Vitalik Buterin",
+            "Adam Back",
+            "Charles Hoskinson"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-011",
+          "prompt": "What is the fundamental unit of data in a blockchain?",
+          "answers": [
+            "Transaction",
+            "Block",
+            "Smart Contract",
+            "Node"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-012",
+          "prompt": "Which component of a block includes the timestamp, nonce, and Merkle root?",
+          "answers": [
+            "Block Body",
+            "Block Header",
+            "Transaction List",
+            "Genesis Block"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-013",
+          "prompt": "What acts as a memory pool where broadcasted transactions await validation?",
+          "answers": [
+            "Merkle Tree",
+            "Ledger",
+            "Mempool",
+            "Hash Pointer"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-014",
+          "prompt": "Which consensus mechanism selects validators based on the number of tokens they hold and stake?",
+          "answers": [
+            "Proof of Work",
+            "Delegated Proof of Stake",
+            "Proof of Stake",
+            "Practical Byzantine Fault Tolerance"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-015",
+          "prompt": "Which layer of the blockchain architecture is responsible for wallets and user interfaces?",
+          "answers": [
+            "Application layer",
+            "Smart contract layer",
+            "Network layer",
+            "Data layer"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-016",
+          "prompt": "Which property of a good hash function ensures that a small change in input drastically changes the output?",
+          "answers": [
+            "Deterministic",
+            "Fast computation",
+            "Pre-image resistance",
+            "Avalanche effect"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-017",
+          "prompt": "In a Merkle tree, what do the leaf nodes contain?",
+          "answers": [
+            "Cryptographic hashes of individual transactions",
+            "Merkle Root",
+            "Block headers",
+            "Private keys"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-018",
+          "prompt": "Which type of encryption system uses a pair of keys: a public key and a private key?",
+          "answers": [
+            "Symmetric encryption",
+            "Hash functions",
+            "Asymmetric encryption",
+            "Merkle trees"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-019",
+          "prompt": "What is a primary benefit of using a peer-to-peer network in blockchain?",
+          "answers": [
+            "Centralized control",
+            "Slower transaction speeds",
+            "No single point of failure",
+            "Requirement of intermediaries"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-020",
+          "prompt": "Which feature of a digital signature ensures that the sender cannot deny initiating the transaction?",
+          "answers": [
+            "Authentication",
+            "Non-repudiation",
+            "Data integrity",
+            "Encryption"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-021",
+          "prompt": "What are the three primary components of a block?",
+          "answers": [
+            "Header, body, and hash of previous block",
+            "Timestamp, nonce, and Merkle root",
+            "Transactions, signatures, and keys",
+            "Header, transactions, and timestamp"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-022",
+          "prompt": "What is stored in the block header?",
+          "answers": [
+            "Transaction list",
+            "Timestamp, nonce, previous hash, and Merkle root",
+            "Digital signatures",
+            "Private keys"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-023",
+          "prompt": "What is stored in the block body?",
+          "answers": [
+            "Metadata",
+            "The actual list of transactions",
+            "The previous block hash",
+            "The Merkle root"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-024",
+          "prompt": "What is the memory pool where transactions await validation called?",
+          "answers": [
+            "Block pool",
+            "Mempool",
+            "Hash pool",
+            "Chain pool"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-025",
+          "prompt": "What links one block to the previous block?",
+          "answers": [
+            "The timestamp",
+            "The nonce",
+            "The hash of the previous block",
+            "The Merkle root"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-026",
+          "prompt": "Which cryptographic hash function does Bitcoin use?",
+          "answers": [
+            "MD5",
+            "SHA-256",
+            "AES-128",
+            "RSA"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-027",
+          "prompt": "What are the properties of a good hash function?",
+          "answers": [
+            "Deterministic, fast, pre-image resistant, avalanche effect",
+            "Slow, reversible, predictable",
+            "Variable output, insecure",
+            "Centralized, controlled"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-028",
+          "prompt": "What property of a hash function means a small change in input drastically changes the output?",
+          "answers": [
+            "Deterministic",
+            "Pre-image resistant",
+            "Avalanche effect",
+            "Fast computation"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-029",
+          "prompt": "What property of a hash function means the input cannot be derived from the output?",
+          "answers": [
+            "Deterministic",
+            "Pre-image resistant",
+            "Avalanche effect",
+            "Fast computation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-030",
+          "prompt": "What is a Merkle tree primarily used for in blockchain?",
+          "answers": [
+            "Encrypting transactions",
+            "Efficiently verifying large sets of transactions",
+            "Storing private keys",
+            "Creating new blocks"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-031",
+          "prompt": "Which consensus mechanism uses delegates voted token holders to validate transactions and produce blocks?",
+          "answers": [
+            "Proof of Work",
+            "Proof of Authority",
+            "Delegated Proof of Stake",
+            "Practical Byzantine Fault Tolerance"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-032",
+          "prompt": "In a Delegated Proof of Stake (DPoS) system, how is a token holder's voting power determined?",
+          "answers": [
+            "Proportional to their stake",
+            "By their computing power",
+            "Through identity verification",
+            "One vote per user regardless of stake"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-033",
+          "prompt": "What does a validator risk losing if they act dishonestly in a Proof of Stake network?",
+          "answers": [
+            "Their mining hardware",
+            "Their computing power",
+            "Part or all of their staked tokens through slashing",
+            "Their physical identity"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-034",
+          "prompt": "What type of blockchains most commonly use Practical zantine Fault Tolerance (PBFT)?",
+          "answers": [
+            "Public anonymous blockchains",
+            "Permissioned blockchains with authenticated nodes",
+            "Cryptocurrency exchanges",
+            "Proof of Work blockchains"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-035",
+          "prompt": "Proof of Authority (PoA) relies on what characteristic of its validators rather than computational power or stake?",
+          "answers": [
+            "Their geographic location",
+            "Their internet connection speed",
+            "Their identity and reputation",
+            "Their total number of transactions"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-036",
+          "prompt": "Which of the following is a major disadvantage of the Practical zantine Fault Tolerance (PBFT) consensus mechanism?",
+          "answers": [
+            "High energy consumption",
+            "High communication overhead that limits scalability",
+            "Lack of finality in transactions",
+            "Susceptibility to mining centralization"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-037",
+          "prompt": "What is the 'nothing-at-stake' problem commonly associated with?",
+          "answers": [
+            "Proof of Work",
+            "Proof of Stake",
+            "Practical Byzantine Fault Tolerance",
+            "Proof of Authority"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-038",
+          "prompt": "Which cryptocurrency transitioned from Proof of Work to Proof of Stake in 2022?",
+          "answers": [
+            "Bitcoin",
+            "Litecoin",
+            "Ethereum",
+            "Monero"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-039",
+          "prompt": "Why is Proof of Authority (PoA) particularly attractive for enterprise applications?",
+          "answers": [
+            "It ensures complete decentralization",
+            "It supports anonymous validation",
+            "It uses standard hardware and offers fast transaction processing",
+            "It consumes as much energy as Proof of Work"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-040",
+          "prompt": "What are smart contracts?",
+          "answers": [
+            "Physical paper contracts",
+            "Self-executing digital agreements on blockchain",
+            "Centralized databases",
+            "Mining algorithms"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-041",
+          "prompt": "Who first introduced the concept of smart contracts?",
+          "answers": [
+            "Vitalik Buterin",
+            "Satoshi Nakamoto",
+            "Nick Szabo",
+            "Daniel Larimer"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-042",
+          "prompt": "What is a reentrancy attack?",
+          "answers": [
+            "An attack on the hash function",
+            "An attack where a function is called repeatedly before previous calls complete",
+            "An attack on the network",
+            "A private key theft"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-043",
+          "prompt": "What is Solidity?",
+          "answers": [
+            "A consensus mechanism",
+            "A smart contract language for Ethereum",
+            "A cryptocurrency",
+            "A blockchain platform"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-044",
+          "prompt": "Which language is designed for simplicity and security, omitting features like inheritance?",
+          "answers": [
+            "Solidity",
+            "Vyper",
+            "Rust",
+            "Move"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-045",
+          "prompt": "Which language is used for Solana smart contracts?",
+          "answers": [
+            "Solidity",
+            "Vyper",
+            "Rust",
+            "Move"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-046",
+          "prompt": "Which language emphasizes resource-oriented programming where assets cannot be duplicated?",
+          "answers": [
+            "Solidity",
+            "Vyper",
+            "Rust",
+            "Move"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-047",
+          "prompt": "Which chains use Move?",
+          "answers": [
+            "Ethereum and Bitcoin",
+            "Aptos and Sui",
+            "Solana and NEAR",
+            "Cardano and Polkadot"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-048",
+          "prompt": "What is Yul?",
+          "answers": [
+            "A smart contract language",
+            "An intermediate language for EVM optimization",
+            "A consensus mechanism",
+            "A wallet"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-049",
+          "prompt": "What was the DAO hack?",
+          "answers": [
+            "A mining attack",
+            "A reentrancy vulnerability attack",
+            "A 51 percent attack",
+            "A network shutdown"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-050",
+          "prompt": "What are cryptocurrencies?",
+          "answers": [
+            "Physical currencies issued by banks",
+            "Digital or virtual currencies operating on decentralized blockchain networks",
+            "Paper money",
+            "Gold coins"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-051",
+          "prompt": "Who created Bitcoin?",
+          "answers": [
+            "Vitalik Buterin",
+            "Satoshi Nakamoto",
+            "Nick Szabo",
+            "Daniel Larimer"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-052",
+          "prompt": "In which year was Bitcoin created?",
+          "answers": [
+            "2008",
+            "2009",
+            "2010",
+            "2015"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-053",
+          "prompt": "What is the maximum supply of Bitcoin?",
+          "answers": [
+            "10 million",
+            "21 million",
+            "100 million",
+            "Unlimited"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-054",
+          "prompt": "What consensus mechanism does Bitcoin use?",
+          "answers": [
+            "Proof of Stake",
+            "Proof of Work",
+            "Delegated Proof of Stake",
+            "PBFT"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-055",
+          "prompt": "Bitcoin is often referred to as what?",
+          "answers": [
+            "Digital gold",
+            "Digital silver",
+            "Digital cash",
+            "Digital bond"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-056",
+          "prompt": "Who launched Ethereum?",
+          "answers": [
+            "Satoshi Nakamoto",
+            "Vitalik Buterin",
+            "Nick Szabo",
+            "Charles Hoskinson"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-057",
+          "prompt": "In which year was Ethereum launched?",
+          "answers": [
+            "2009",
+            "2010",
+            "2013",
+            "2015"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-058",
+          "prompt": "What is Ethereum's primary innovation?",
+          "answers": [
+            "Faster transactions",
+            "Smart contracts",
+            "Lower fees",
+            "More coins"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-059",
+          "prompt": "What is the Ethereum Virtual Machine?",
+          "answers": [
+            "A physical computer",
+            "A decentralized runtime environment that executes smart contracts",
+            "A mining device",
+            "A wallet"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-060",
+          "prompt": "Which industry uses blockchain for traceability from origin to consumer?",
+          "answers": [
+            "Healthcare",
+            "Supply Chain Management",
+            "Voting",
+            "Gaming"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-061",
+          "prompt": "What is IBM Food Trust?",
+          "answers": [
+            "A cryptocurrency",
+            "A blockchain solution for food supply chain traceability",
+            "A hospital system",
+            "A voting platform"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-062",
+          "prompt": "What does blockchain provide for healthcare records?",
+          "answers": [
+            "Centralized storage",
+            "Decentralized secure storage and patient control",
+            "Deletion of records",
+            "Public access to all records"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-063",
+          "prompt": "What is self-sovereign identity?",
+          "answers": [
+            "Identity controlled by government",
+            "Individuals controlling their digital identity without centralized authorities",
+            "Identity stored on paper",
+            "Identity controlled by corporations"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-064",
+          "prompt": "Which country has experimented with digital voting using blockchain?",
+          "answers": [
+            "United States",
+            "Estonia",
+            "China",
+            "Japan"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-065",
+          "prompt": "What is Voatz?",
+          "answers": [
+            "A cryptocurrency",
+            "A blockchain-based voting pilot project in the U.S.",
+            "A supply chain platform",
+            "A healthcare system"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-066",
+          "prompt": "What is the main benefit of blockchain in Digital Rights Management?",
+          "answers": [
+            "Lower quality content",
+            "Decentralized verifiable registration and automated royalty payments",
+            "Centralized control",
+            "Higher prices"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-067",
+          "prompt": "What are NFTs used for in DRM?",
+          "answers": [
+            "Mining blocks",
+            "Tokenizing unique digital assets for ownership verification",
+            "Creating new cryptocurrencies",
+            "Storing data"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-068",
+          "prompt": "What is Maersk's TradeLens?",
+          "answers": [
+            "A cryptocurrency",
+            "A blockchain platform for global shipping logistics",
+            "A healthcare system",
+            "A voting platform"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-069",
+          "prompt": "What is the main challenge in healthcare that blockchain addresses?",
+          "answers": [
+            "Data fragmentation and security",
+            "High costs of doctors",
+            "Too many patients",
+            "Lack of hospitals"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-070",
+          "prompt": "What is the core strength of blockchain security?",
+          "answers": [
+            "Centralized servers",
+            "Decentralized structure across multiple nodes",
+            "Single point of control",
+            "No encryption"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-071",
+          "prompt": "What cryptographic hash function is commonly used in blockchain?",
+          "answers": [
+            "MD5",
+            "SHA-256",
+            "AES-128",
+            "RSA"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-072",
+          "prompt": "What is a Merkle Tree used for?",
+          "answers": [
+            "Encrypting transactions",
+            "Efficient verification of large data sets and enabling lightweight clients",
+            "Creating new blocks",
+            "Mining"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-073",
+          "prompt": "What is a Zero-Knowledge Proof?",
+          "answers": [
+            "Proving knowledge without revealing the information itself",
+            "Encrypting all data",
+            "Mining blocks",
+            "Creating tokens"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-074",
+          "prompt": "Which cryptocurrency uses zk-SNARKs for privacy?",
+          "answers": [
+            "Bitcoin",
+            "Zcash",
+            "Ethereum",
+            "Solana"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-075",
+          "prompt": "What is a 51% attack?",
+          "answers": [
+            "Controlling more than 50% of network hash rate or staking power",
+            "A software bug",
+            "A regulatory issue",
+            "A privacy breach"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-076",
+          "prompt": "What is double spending?",
+          "answers": [
+            "Spending the same digital currency more than once",
+            "Creating new coins",
+            "Deleting transactions",
+            "Increasing fees"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-077",
+          "prompt": "Which protocol aims to solve interoperability?",
+          "answers": [
+            "Lightning Network",
+            "Cosmos and Polkadot",
+            "SHA-256",
+            "PoW"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-078",
+          "prompt": "What is sharding?",
+          "answers": [
+            "A consensus mechanism",
+            "A scalability solution dividing the blockchain into smaller parts",
+            "A hashing algorithm",
+            "A smart contract language"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-079",
+          "prompt": "What is the Lightning Network?",
+          "answers": [
+            "A new cryptocurrency",
+            "A Layer-2 protocol for Bitcoin scalability",
+            "A consensus mechanism",
+            "A smart contract language"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-080",
+          "prompt": "What do payment channels allow?",
+          "answers": [
+            "Mining new blocks",
+            "Multiple off-chain transactions without broadcasting each to blockchain",
+            "Creating new tokens",
+            "Storing data"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-081",
+          "prompt": "What is a sidechain?",
+          "answers": [
+            "A type of cryptocurrency",
+            "An independent blockchain running parallel to the main chain",
+            "A consensus mechanism",
+            "A wallet"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-082",
+          "prompt": "What is a DAO?",
+          "answers": [
+            "A type of mining",
+            "An organization governed by smart contracts and community votes",
+            "A centralized company",
+            "A payment system"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-083",
+          "prompt": "How does token-based governance work in DAOs?",
+          "answers": [
+            "All users have equal votes",
+            "Voting power is tied to token ownership",
+            "Only developers vote",
+            "Only miners vote"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-084",
+          "prompt": "What is MakerDAO?",
+          "answers": [
+            "A cryptocurrency",
+            "A DAO that manages the DAI stablecoin",
+            "A mining pool",
+            "A wallet"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-085",
+          "prompt": "What is a blockchain bridge?",
+          "answers": [
+            "A physical bridge",
+            "A protocol connecting two or more blockchains",
+            "A consensus mechanism",
+            "A hashing algorithm"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-086",
+          "prompt": "What is Wrapped Bitcoin?",
+          "answers": [
+            "A new cryptocurrency",
+            "A tokenized version of Bitcoin on Ethereum",
+            "A Bitcoin fork",
+            "A mining device"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-087",
+          "prompt": "What is Polkadot used for?",
+          "answers": [
+            "Mining Bitcoin",
+            "Connecting parachains through the Relay Chain",
+            "Creating NFTs",
+            "Storing data"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-088",
+          "prompt": "What is Ocean Protocol?",
+          "answers": [
+            "A cryptocurrency",
+            "A platform for sharing data for AI training without revealing sensitive content",
+            "A consensus mechanism",
+            "A wallet"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-089",
+          "prompt": "How does blockchain help AI explainability?",
+          "answers": [
+            "By hiding all data",
+            "By logging every data point and decision transparently",
+            "By centralizing decisions",
+            "By eliminating records"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-090",
+          "prompt": "What is SingularityNET?",
+          "answers": [
+            "A mining pool",
+            "A decentralized marketplace for AI services using tokens",
+            "A wallet",
+            "A consensus mechanism"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-091",
+          "prompt": "What is an Optimistic Rollup?",
+          "answers": [
+            "A consensus mechanism",
+            "A Layer-2 solution assuming transactions are valid unless challenged",
+            "A hashing algorithm",
+            "A wallet type"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-092",
+          "prompt": "What is a Zero-Knowledge Rollup?",
+          "answers": [
+            "A Layer-2 solution using cryptographic proofs for verification",
+            "A mining algorithm",
+            "A smart contract language",
+            "A wallet"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-093",
+          "prompt": "What is the main challenge of DAOs?",
+          "answers": [
+            "They are too fast",
+            "Regulatory uncertainty and voter apathy",
+            "They cannot make decisions",
+            "They require central authority"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-094",
+          "prompt": "What is Chainlink CCIP?",
+          "answers": [
+            "A cryptocurrency",
+            "A cross-chain interoperability protocol for secure messaging",
+            "A consensus mechanism",
+            "A wallet"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-095",
+          "prompt": "What is a key benefit of blockchain-AI integration in healthcare?",
+          "answers": [
+            "Lower costs for hospitals",
+            "Secure verifiable medical records for AI diagnostics",
+            "Faster surgery",
+            "More doctors"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-096",
+          "prompt": "What is federated learning on blockchain?",
+          "answers": [
+            "Centralized AI training",
+            "AI models trained across decentralized data sources without data leaving its origin",
+            "No AI training",
+            "Only cloud-based training"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-097",
+          "prompt": "What is Web3?",
+          "answers": [
+            "The first generation of internet",
+            "The third generation of internet built on blockchain for decentralization and user ownership",
+            "A centralized platform",
+            "A gaming console"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cyb204-098",
+          "prompt": "What is the Metaverse?",
+          "answers": [
+            "A physical world",
+            "An immersive virtual world where users socialize, work, trade, and play",
+            "A cryptocurrency",
+            "A consensus mechanism"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

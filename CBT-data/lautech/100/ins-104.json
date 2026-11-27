@@ -1,0 +1,4535 @@
+{
+     "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Industrial and Production Engineering",
+  "course": {
+    "code": "INS 104",
+    "title": "Climate Change and Carbon Footprint"
+  },
+    "questions": [
+        {
+          "id": "ins104-001",
+          "prompt": "What is a fundamental component of climate resilience, according to the text?",
+          "answers": [
+            "Industrialization",
+            "Biodiversity conservation",
+            "Economic growth",
+            "Urbanization"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-002",
+          "prompt": "How does biodiversity conservation contribute to climate resilience?",
+          "answers": [
+            "By promoting monoculture farming",
+            "By preserving diverse ecosystems and species, enhancing adaptive capacity",
+            "By increasing carbon emissions",
+            "By reducing natural habitats"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-003",
+          "prompt": "What do diverse ecosystems and species provide that enhances adaptive capacity and contributes to climate resilience?",
+          "answers": [
+            "Economic instability",
+            "Critical services",
+            "Increased pollution",
+            "Reduced biodiversity"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-004",
+          "prompt": "What is the overall ability of communities and ecosystems strengthened , according to the text, in relation to climate change impacts?",
+          "answers": [
+            "Decreased resilience",
+            "Withstand the impacts of climate change",
+            "Increased vulnerability",
+            "Reduced adaptability"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-005",
+          "prompt": "What is the main focus of \"Enhancing Agricultural Resilience\" as a biodiversity strategy?",
+          "answers": [
+            "Promoting single-crop farming",
+            "Increasing pesticide use",
+            "Including crop diversity and the use of diverse agroecological practices",
+            "Reducing food production"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-006",
+          "prompt": "How can enhancing agricultural resilience contribute to climate action?",
+          "answers": [
+            "By making farming less efficient",
+            "By enhancing the resilience of food production to climate change",
+            "By increasing reliance on external inputs",
+            "By reducing crop yields"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-007",
+          "prompt": "What advantage do diverse crops and farming systems offer in the face of climate change?",
+          "answers": [
+            "They are more susceptible to pests and diseases.",
+            "They are better able to withstand pests, diseases, and extreme weather events.",
+            "They require more water.",
+            "They reduce soil fertility."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-008",
+          "prompt": "What is Biodiversity often integral to, according to the \"Cultural and Socioeconomic Resilience\" section?",
+          "answers": [
+            "Industrial development",
+            "The cultural identity and livelihoods of many communities",
+            "Urban sprawl",
+            "Technological advancements"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-009",
+          "prompt": "How do conservation practices related to cultural identity and livelihoods contribute to community resilience?",
+          "answers": [
+            "By ignoring traditional knowledge",
+            "By preserving traditional knowledge, sustainable resource use practices, and diverse livelihood options",
+            "By promoting unsustainable practices",
+            "By reducing community involvement"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-010",
+          "prompt": "What is the role of forests and other ecosystems with high biodiversity in \"Carbon Sequestration\"?",
+          "answers": [
+            "They release carbon into the atmosphere.",
+            "They contribute significantly to carbon sequestration.",
+            "They have no impact on carbon levels.",
+            "They increase deforestation."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-011",
+          "prompt": "How does conserving high-biodiversity areas contribute to mitigating climate change?",
+          "answers": [
+            "By increasing greenhouse gas emissions",
+            "By enhancing their ability to store carbon",
+            "By reducing carbon absorption",
+            "By promoting unsustainable land use"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-012",
+          "prompt": "What do \"Restoration and Conservation Strategies\" prioritize to contribute to climate resilience?",
+          "answers": [
+            "Industrial expansion",
+            "Biodiversity",
+            "Urban development",
+            "Resource depletion"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-013",
+          "prompt": "What efforts are highlighted under \"Restoration and Conservation Strategies\"?",
+          "answers": [
+            "Deforestation and habitat destruction",
+            "Reforestation, habitat restoration, and the protection of critical ecosystems",
+            "Increased pollution",
+            "Monoculture farming"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-014",
+          "prompt": "What crucial role do these efforts play in building resilience?",
+          "answers": [
+            "At local and global scales",
+            "Only at the local scale",
+            "Only at the global scale",
+            "In isolated regions"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-015",
+          "prompt": "How can biodiversity play a role in regulating diseases, as per \"Regulating Climate-Related Diseases\"?",
+          "answers": [
+            "By increasing the spread of vector-borne diseases",
+            "By promoting unhealthy ecosystems",
+            "By regulating diseases that are influenced by climate, such as vector-borne diseases",
+            "By reducing natural immunity"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-016",
+          "prompt": "What is the contribution of healthy ecosystems in controlling disease vectors?",
+          "answers": [
+            "They increase disease transmission.",
+            "They contribute to human health and community resilience.",
+            "They have no impact on disease control.",
+            "They weaken public health systems."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-017",
+          "prompt": "What is the first step in assessing and addressing community carbon footprint?",
+          "answers": [
+            "Emission Calculations",
+            "Data Collection",
+            "Sectoral Analysis",
+            "Mitigation Strategies"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-018",
+          "prompt": "What kind of information should be gathered during data collection for community carbon footprint?",
+          "answers": [
+            "Personal preferences",
+            "Energy consumption, transportation patterns, and waste generation",
+            "Financial records of individuals",
+            "Social media trends"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-019",
+          "prompt": "What is the purpose of \"Emission Calculations\" in assessing carbon footprint?",
+          "answers": [
+            "To estimate future energy demand",
+            "To use emission factors to convert energy consumption and other activities into equivalent carbon dioxide (CO2) emissions",
+            "To predict climate change impacts",
+            "To assess economic growth"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-020",
+          "prompt": "What types of emissions are considered in \"Emission Calculations\"?",
+          "answers": [
+            "Only direct emissions",
+            "Direct (e.g., fuel combustion) and indirect (e.g., purchased electricity) emissions",
+            "Only indirect emissions",
+            "Emissions from agricultural activities"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-021",
+          "prompt": "What does \"Sectoral Analysis\" involve in carbon footprint assessment?",
+          "answers": [
+            "Breaking down emissions by individual households",
+            "Breaking down emissions by sectors such as residential, commercial, transportation, and waste",
+            "Analyzing global emission trends",
+            "Focusing solely on industrial emissions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-022",
+          "prompt": "What is the aim of \"Sectoral Analysis\"?",
+          "answers": [
+            "To identify key contributors to economic growth",
+            "To identify key contributors to the overall community carbon footprint",
+            "To evaluate social programs",
+            "To determine population density"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-023",
+          "prompt": "Why is \"Community Engagement\" important in assessing and addressing carbon footprint?",
+          "answers": [
+            "To avoid public scrutiny",
+            "To involve community members in the process to raise awareness and gather insights",
+            "To dictate policies to the community",
+            "To limit participation to experts only"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-024",
+          "prompt": "What do \"Mitigation Strategies\" promote regarding energy?",
+          "answers": [
+            "Increased fossil fuel consumption",
+            "Energy efficiency measures in homes and businesses",
+            "Reliance on non-renewable energy sources",
+            "Disregard for energy conservation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-025",
+          "prompt": "What is encouraged in terms of transportation options under mitigation strategies?",
+          "answers": [
+            "Increased reliance on personal vehicles",
+            "Support the use of renewable energy sources and improve public transportation options",
+            "Expansion of road networks",
+            "Reduced public transport"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-026",
+          "prompt": "What practices are promoted for waste management in mitigation strategies?",
+          "answers": [
+            "Increasing landfill use",
+            "Implementing waste reduction and recycling programs",
+            "Discarding waste indiscriminately",
+            "Burning waste"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-027",
+          "prompt": "What is the purpose of \"Monitoring and Reporting\" in carbon footprint management?",
+          "answers": [
+            "To hide information from the public",
+            "To establish a system for regular monitoring of emissions and progress in reducing the community carbon footprint",
+            "To only report successes",
+            "To avoid transparency"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-028",
+          "prompt": "What does effective monitoring and reporting help to maintain?",
+          "answers": [
+            "Secrecy and exclusivity",
+            "Transparency and engagement",
+            "Confusion and misinformation",
+            "Disregard for data"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-029",
+          "prompt": "What is the ultimate goal of understanding and addressing the community carbon footprint?",
+          "answers": [
+            "To increase energy consumption",
+            "To require a collaborative effort involving residents, businesses, local government, and other stakeholders",
+            "To ignore climate change",
+            "To rely solely on government intervention"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-030",
+          "prompt": "What is the final action stated for addressing the carbon footprint?",
+          "answers": [
+            "By avoiding collective actions",
+            "By taking collective actions to reduce emissions",
+            "By increasing emissions",
+            "By ignoring community input"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-031",
+          "prompt": "What is one of the key points regarding \"Disproportionate Impacts\" of climate change?",
+          "answers": [
+            "All communities are equally affected.",
+            "Vulnerable communities, often those with lower socioeconomic status, face disproportionate impacts.",
+            "Only wealthy communities are affected.",
+            "Climate change impacts are negligible."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-032",
+          "prompt": "What are some examples of disproportionate impacts mentioned?",
+          "answers": [
+            "Economic prosperity",
+            "Extreme weather events, sea-level rise, food and water shortages, and health risks",
+            "Increased tourism",
+            "Stable weather patterns"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-033",
+          "prompt": "What do social justice demands efforts to do regarding climate change?",
+          "answers": [
+            "Ignore vulnerable communities",
+            "Address climate change and prioritize the needs of these communities",
+            "Exclude certain groups from climate action",
+            "Focus only on economic gains"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-034",
+          "prompt": "What is the core idea behind \"Historical Responsibility\" in climate justice?",
+          "answers": [
+            "All countries are equally responsible for current emissions.",
+            "Developed countries historically contributed the most to greenhouse gas emissions.",
+            "Developing countries are solely responsible for climate change.",
+            "No country has historical responsibility."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-035",
+          "prompt": "What do social justice principles argue for, based on historical responsibility?",
+          "answers": [
+            "Equal responsibility for all nations",
+            "Calling on those who historically emitted the most to take greater responsibility for mitigation and adaptation efforts",
+            "Blaming developing countries",
+            "Ignoring past emissions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-036",
+          "prompt": "What is \"Climate Injustice\" defined as in the text?",
+          "answers": [
+            "Climate change reducing inequalities",
+            "Climate change exacerbates existing inequalities and injustices",
+            "Climate change having no social impact",
+            "Climate change creating new opportunities for all"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-037",
+          "prompt": "Which populations are particularly vulnerable to climate injustice?",
+          "answers": [
+            "High-income communities",
+            "Indigenous peoples, low-income communities, and people of color",
+            "Urban populations",
+            "Industrial workers"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-038",
+          "prompt": "What do these vulnerable populations often lack?",
+          "answers": [
+            "Access to education",
+            "The resources and infrastructure needed to cope with and recover from climate-related disasters",
+            "Political power",
+            "Social connections"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-039",
+          "prompt": "What is the key role of \"Technocrats\" in addressing climate challenges?",
+          "answers": [
+            "To manage financial investments",
+            "To bring essential technical expertise to the table in shaping and implementing strategies for carbon emission reduction",
+            "To develop social policies",
+            "To lead political campaigns"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-040",
+          "prompt": "How do \"Technocrats\" ensure climate action is grounded in sound scientific principles?",
+          "answers": [
+            "By relying on traditional methods",
+            "By their involvement in shaping and implementing strategies",
+            "By ignoring scientific research",
+            "By focusing solely on economic factors"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-041",
+          "prompt": "What is the role of \"Institutions of Learning\" in the efforts to reduce carbon emissions?",
+          "answers": [
+            "They are passive observers.",
+            "They serve as important stakeholders by contributing through research, education, and the development of innovative solutions.",
+            "They only provide financial support.",
+            "They are primarily focused on unrelated fields."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-042",
+          "prompt": "What is the objective of \"Green Building Practices\"?",
+          "answers": [
+            "To increase energy consumption",
+            "To promote and adopt green building practices, including energy-efficient designs and the use of sustainable materials",
+            "To expand urban sprawl",
+            "To discourage community participation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-043",
+          "prompt": "How do green building practices reduce the carbon footprint of construction projects?",
+          "answers": [
+            "By using more energy",
+            "By lowering energy consumption in buildings",
+            "By increasing waste production",
+            "By relying on traditional materials"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-044",
+          "prompt": "What is encouraged for citizens in \"Waste Reduction and Recycling\"?",
+          "answers": [
+            "Passive observation",
+            "Active participation in waste reduction and recycling programs",
+            "Increased waste generation",
+            "Ignoring waste management"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-045",
+          "prompt": "How does proper waste management contribute to reducing methane emissions?",
+          "answers": [
+            "By increasing landfill waste",
+            "By helping reduce methane emissions from landfills and promote the efficient use of resources",
+            "By burning waste openly",
+            "By ignoring waste sorting"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-046",
+          "prompt": "What does \"Active Participation in Decision-Making Processes\" ensure?",
+          "answers": [
+            "Exclusion of community perspectives",
+            "Community perspectives are considered in decision-making processes related to local development and environmental policies",
+            "Centralized decision-making",
+            "Limited public involvement"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-047",
+          "prompt": "How does community involvement lead to more effective carbon reduction strategies?",
+          "answers": [
+            "By creating resistance",
+            "By making them less socially acceptable",
+            "By leading to more effective and socially acceptable carbon reduction strategies",
+            "By slowing down progress"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-048",
+          "prompt": "What does the involvement of citizens and communities foster?",
+          "answers": [
+            "A sense of apathy",
+            "A sense of shared responsibility and promotes sustainable practices at the grassroots level",
+            "Disagreement and conflict",
+            "Indifference to environmental issues"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-049",
+          "prompt": "What do active participation and shared responsibility contribute to?",
+          "answers": [
+            "Failure of initiatives",
+            "The success and sustainability of broader carbon emission reduction initiatives",
+            "Increased carbon emissions",
+            "Limited environmental impact"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-050",
+          "prompt": "What is the Global Green Growth Institute (GGGI) dedicated to?",
+          "answers": [
+            "Promoting unsustainable development",
+            "Promoting green growth as a way to address climate change and achieve sustainable development",
+            "Promoting fossil fuel use",
+            "Promoting economic decline"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-051",
+          "prompt": "What is a \"Community Carbon Footprint\" defined as?",
+          "answers": [
+            "The amount of waste generated by a community",
+            "The total amount of greenhouse gas (GHG) emissions produced by all the activities within a specific community over a given period",
+            "The amount of energy consumed by industries only",
+            "The total population of a community"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-052",
+          "prompt": "What activities are included in a community carbon footprint?",
+          "answers": [
+            "Only residential activities",
+            "Residential, commercial, and industrial activities, as well as transportation and waste management",
+            "Only transportation activities",
+            "Only industrial and commercial activities"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-053",
+          "prompt": "What do \"Residential Emissions\" primarily comprise?",
+          "answers": [
+            "Emissions from industrial processes",
+            "Energy consumption in households, including electricity, heating, and cooling",
+            "Emissions from commercial buildings",
+            "Emissions from public transportation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-054",
+          "prompt": "What are included in \"Residential Emissions\" besides household energy consumption?",
+          "answers": [
+            "Emissions from commercial vehicles",
+            "Emissions from individual transportation, such as private vehicles",
+            "Emissions from manufacturing",
+            "Emissions from waste treatment"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-055",
+          "prompt": "What do \"Commercial and Industrial Emissions\" refer to?",
+          "answers": [
+            "Emissions from household activities",
+            "Emissions from businesses, manufacturing, and other non-residential activities",
+            "Emissions from agricultural land use",
+            "Emissions from public services only"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-056",
+          "prompt": "What energy use is also considered under \"Commercial and Industrial Emissions\"?",
+          "answers": [
+            "Energy use in residential buildings",
+            "Energy use in commercial buildings and industrial processes",
+            "Energy use in public transportation",
+            "Energy use in private vehicles"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-057",
+          "prompt": "What do \"Transportation\" emissions include?",
+          "answers": [
+            "Only public transportation",
+            "Emissions from commuting, travel, and transportation of goods within the community",
+            "Only industrial transportation",
+            "Only air travel"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-058",
+          "prompt": "What types of transportation are included in the assessment of transportation emissions?",
+          "answers": [
+            "Only private transportation",
+            "Both private and public transportation",
+            "Only commercial transportation",
+            "Only international shipping"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-059",
+          "prompt": "What do \"Waste Management\" emissions consider?",
+          "answers": [
+            "Only recycling efforts",
+            "Emissions from landfill sites, waste incineration, and waste treatment processes",
+            "Only composting",
+            "Emissions from industrial waste only"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-060",
+          "prompt": "What other aspects are considered under waste management besides emissions from disposal?",
+          "answers": [
+            "Water consumption",
+            "Consideration of recycling, incineration, and waste treatment processes, and waste reduction efforts",
+            "Energy production",
+            "Agricultural practices"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-061",
+          "prompt": "What is the purpose of \"Verification\" in carbon footprint assessment?",
+          "answers": [
+            "To complicate the process",
+            "To periodically review and update the carbon footprint analysis to ensure accuracy and relevance",
+            "To disregard external input",
+            "To limit data collection"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-062",
+          "prompt": "What should be considered during the \"Verification\" process?",
+          "answers": [
+            "Only internal reports",
+            "Third-party verification",
+            "Public opinion only",
+            "Outdated data"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-063",
+          "prompt": "What is a \"holistic approach\" to climate change?",
+          "answers": [
+            "Addressing climate change as a purely environmental issue",
+            "Addressing the complex and interconnected challenges posed by global warming comprehensively",
+            "Focusing solely on economic solutions",
+            "Ignoring social dimensions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-064",
+          "prompt": "What dimensions does the holistic approach recognize in the nature of climate change?",
+          "answers": [
+            "Only scientific",
+            "Multidimensional, including environmental, social, and political",
+            "Only economic",
+            "Only technological"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-065",
+          "prompt": "What does mitigation involve in the context of a holistic approach to climate change?",
+          "answers": [
+            "Increasing greenhouse gas emissions",
+            "Reducing greenhouse gas emissions",
+            "Focusing only on adaptation",
+            "Ignoring climate impacts"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-066",
+          "prompt": "What does adaptation focus on in a holistic approach?",
+          "answers": [
+            "Increasing vulnerability to climate change",
+            "Building resilience to changing climatic conditions",
+            "Ignoring extreme weather events",
+            "Promoting unsustainable practices"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-067",
+          "prompt": "What is a key requirement of the holistic approach?",
+          "answers": [
+            "Commitment to economic growth at all costs",
+            "Commitment to social equity and justice",
+            "Ignoring community involvement",
+            "Relying solely on government intervention"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-068",
+          "prompt": "What does social justice in climate change entail?",
+          "answers": [
+            "Ignoring environmental degradation",
+            "Addressing the disproportionate impact of environmental degradation on vulnerable communities",
+            "Promoting unequal distribution of resources",
+            "Limiting access to decision-making processes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-069",
+          "prompt": "What is required for social justice in climate change?",
+          "answers": [
+            "Unequal distribution of resources",
+            "Equitable distribution of resources, opportunities, and decision-making",
+            "Exclusion of marginalized groups",
+            "Centralized control"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-070",
+          "prompt": "What does \"Environmental Racism\" refer to?",
+          "answers": [
+            "Environmental justice not intersecting with climate change",
+            "The disproportionate burden of environmental hazards and climate impacts borne by marginalized racial and ethnic communities",
+            "Fair distribution of environmental benefits",
+            "Universal access to clean energy"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-071",
+          "prompt": "What perspective does \"Global Equity\" require in social justice?",
+          "answers": [
+            "A national perspective",
+            "A global perspective, acknowledging that the impacts of climate change are felt differently around the world",
+            "An economic perspective",
+            "A technological perspective"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-072",
+          "prompt": "What do global equity considerations involve for developing countries?",
+          "answers": [
+            "Repeating high-emission trajectories of industrialized nations",
+            "Adapting to climate change and leapfrogging to sustainable development pathways",
+            "Increasing reliance on fossil fuels",
+            "Ignoring historical emissions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-073",
+          "prompt": "What does \"Climate Migration and Displacement\" refer to?",
+          "answers": [
+            "Voluntary movement of people",
+            "The displacement of communities due to rising sea levels, extreme weather events, and other environmental pressures",
+            "Seasonal migration for work",
+            "Tourism-related travel"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-074",
+          "prompt": "What do social justice principles call for regarding climate migrants?",
+          "answers": [
+            "Indifference",
+            "Fair and humane treatment of climate migrants and displaced populations",
+            "Restrictive policies",
+            "Forced relocation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-075",
+          "prompt": "What does \"Participation and Inclusion\" emphasize in social justice?",
+          "answers": [
+            "Excluding diverse voices",
+            "The importance of including diverse voices in decision-making processes related to climate action",
+            "Limiting involvement to experts",
+            "Ignoring community input"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-076",
+          "prompt": "Who should have a seat at the table to ensure inclusive policies and projects?",
+          "answers": [
+            "Only government officials",
+            "Indigenous communities, local residents, and marginalized groups",
+            "Only wealthy individuals",
+            "Only industry representatives"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-077",
+          "prompt": "What is \"Gender Equality\" essential for in climate policies?",
+          "answers": [
+            "Excluding women from decision-making",
+            "Recognizing that women, especially in developing countries, are often disproportionately affected by climate change and may face increased vulnerability",
+            "Prioritizing men's needs",
+            "Ignoring gender differences"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-078",
+          "prompt": "What does \"Just Transition\" advocate for?",
+          "answers": [
+            "Ignoring the impact of climate action on workers",
+            "Social justice principles for a \"just transition\" for workers in industries that may be phased out due to climate action",
+            "Rapid elimination of all traditional industries",
+            "Limiting job creation in new sectors"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-079",
+          "prompt": "What does a \"Just Transition\" involve?",
+          "answers": [
+            "No support for affected workers",
+            "Providing support, training, and new job opportunities to affected workers",
+            "Maintaining the status quo",
+            "Increasing unemployment"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-080",
+          "prompt": "What is the aim of \"Just Transition\" regarding the shift to a low-carbon economy?",
+          "answers": [
+            "To make it unfair and exclusive",
+            "To ensure that the transition to a low-carbon economy is fair and inclusive",
+            "To create new inequalities",
+            "To benefit only a few individuals"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-081",
+          "prompt": "What is the significant economic implication of climate change according to the Swiss Re Institute?",
+          "answers": [
+            "It will lead to unlimited economic growth.",
+            "It could wipe off up to 18% of GDP worldwide by 2050 if global temperatures rise by 3.2°C.",
+            "It will have no economic impact.",
+            "It will only affect developing countries."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-082",
+          "prompt": "What is a key benefit of biodiversity conservation in terms of \"Ecosystem Services and Climate Regulation\"?",
+          "answers": [
+            "It increases pollution.",
+            "Biodiversity ecosystems provide essential services that contribute to climate regulation.",
+            "It reduces natural resources.",
+            "It causes deforestation."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-083",
+          "prompt": "How do forests, wetlands, and oceans contribute to mitigating climate change?",
+          "answers": [
+            "They release carbon dioxide.",
+            "They absorb and store large amounts of carbon dioxide.",
+            "They increase global temperatures.",
+            "They contribute to sea-level rise."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-084",
+          "prompt": "How does conserving these ecosystems help to mitigate climate change?",
+          "answers": [
+            "By increasing emissions",
+            "By helping to mitigate climate change",
+            "By reducing biodiversity",
+            "By promoting unsustainable practices"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-085",
+          "prompt": "What is \"Adaptive Capacity\" in relation to biodiversity?",
+          "answers": [
+            "Biodiversity ecosystems are less resilient to environmental changes.",
+            "Biodiversity ecosystems are often more resilient to environmental changes, including those brought about by climate change.",
+            "Biodiversity has no impact on environmental changes.",
+            "Biodiversity reduces adaptability."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-086",
+          "prompt": "How does the diversity of species within ecosystems enhance their ability to adapt?",
+          "answers": [
+            "By making them more vulnerable",
+            "By enhancing their ability to adapt to new conditions",
+            "By reducing genetic variation",
+            "By decreasing ecosystem functions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-087",
+          "prompt": "What is \"Genetic Diversity and Adaptation\" about?",
+          "answers": [
+            "Biodiversity at the species level",
+            "Biodiversity at the genetic level within species allowing for adaptation to changing environmental conditions",
+            "Genetic uniformity",
+            "Limited adaptation capabilities"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-088",
+          "prompt": "What does genetic diversity provide?",
+          "answers": [
+            "Limited options for survival",
+            "The raw material for natural selection, enabling species to evolve and adapt to new challenges",
+            "Increased vulnerability",
+            "Reduced adaptability"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-089",
+          "prompt": "How do \"Buffering Against Extreme Events\" work?",
+          "answers": [
+            "Diverse ecosystems act as natural buffers against the impacts of extreme weather events.",
+            "They increase vulnerability to extreme events.",
+            "They have no role in protecting against extreme events.",
+            "They accelerate climate impacts."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-090",
+          "prompt": "What examples are given for ecosystems providing protection against storm surges and flooding?",
+          "answers": [
+            "Deserts and mountains",
+            "Mangroves and coral reefs",
+            "Grasslands and savannas",
+            "Tundra and arctic regions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-091",
+          "prompt": "What is essential for \"Maintaining Ecosystem Functions\"?",
+          "answers": [
+            "Pollution",
+            "Biodiversity",
+            "Deforestation",
+            "Overexploitation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-092",
+          "prompt": "What functions does biodiversity contribute to?",
+          "answers": [
+            "Only pollination",
+            "Pollination, water purification, and nutrient cycling",
+            "Only nutrient depletion",
+            "Only air pollution"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-093",
+          "prompt": "What do these functions contribute to regarding the overall health of ecosystems?",
+          "answers": [
+            "Weakening their resilience",
+            "Contributing to the overall health and resilience of ecosystems, making them more capable of withstanding the impacts of climate change",
+            "Increasing their vulnerability",
+            "Making them less capable of adaptation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-094",
+          "prompt": "What does \"Sustainable Resource Management\" involve?",
+          "answers": [
+            "Overexploitation of natural resources",
+            "Preserving ecosystems and preventing overexploitation of natural resources",
+            "Unsustainable extraction",
+            "Short-term resource gains"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-095",
+          "prompt": "What is a key role of academic institutions in \"Research and Innovation\"?",
+          "answers": [
+            "To avoid climate change research",
+            "To conduct research on climate change, carbon emissions, and related fields",
+            "To only focus on economic research",
+            "To promote outdated technologies"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-096",
+          "prompt": "What do researchers explore to reduce carbon emissions and mitigate climate change impacts?",
+          "answers": [
+            "Old technologies",
+            "New technologies, methodologies, and policies",
+            "Only economic solutions",
+            "Social structures only"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-097",
+          "prompt": "What is the focus of \"Policy Analysis\" academics?",
+          "answers": [
+            "Ignoring existing policies",
+            "Analyzing existing and proposed policies related to carbon emission reduction",
+            "Creating new policies without review",
+            "Implementing policies without assessment"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-098",
+          "prompt": "How do academics contribute to evidence-based decision-making in policy?",
+          "answers": [
+            "By withholding information",
+            "By assessing effectiveness, feasibility, and potential impacts of different policy measures",
+            "By promoting biased opinions",
+            "By solely relying on intuition"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-099",
+          "prompt": "What key role do academic institutions play in \"Education and Training\"?",
+          "answers": [
+            "Educating only scientists",
+            "Educating the next generation of leaders, policymakers, and professionals in fields related to climate change and sustainability",
+            "Focusing only on historical events",
+            "Limiting access to knowledge"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-100",
+          "prompt": "What do academic institutions offer in their education and training programs?",
+          "answers": [
+            "Only business management courses",
+            "Programs and courses that cover topics such as environmental science, renewable energy, sustainable development, and climate policy",
+            "Only engineering degrees",
+            "Courses unrelated to climate change"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-101",
+          "prompt": "What do academic institutions engage in for \"Capacity Building\"?",
+          "answers": [
+            "Reducing funding for climate initiatives",
+            "Capacity-building initiatives by providing training, workshops, and resources to individuals and organizations involved in carbon emission reduction",
+            "Limiting access to information",
+            "Promoting unsustainable practices"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-102",
+          "prompt": "What is the aim of \"Capacity Building\" academia?",
+          "answers": [
+            "To decrease skilled workforce",
+            "To build a skilled workforce capable of implementing and managing sustainable practices",
+            "To create dependency on external consultants",
+            "To limit knowledge transfer"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-103",
+          "prompt": "What does \"Technology Transfer\" from academic research often lead to?",
+          "answers": [
+            "Stagnation in innovation",
+            "The development of new technologies and innovations",
+            "Increased reliance on outdated methods",
+            "Reduced technological advancements"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-104",
+          "prompt": "How do universities and research institutions facilitate technology transfer?",
+          "answers": [
+            "By hoarding knowledge",
+            "By facilitating the transfer of these technologies to industries, governments, and communities",
+            "By imposing restrictions on technology use",
+            "By keeping innovations private"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-105",
+          "prompt": "What do academic institutions support through technology transfer?",
+          "answers": [
+            "The adoption of less sustainable practices",
+            "The adoption of cleaner and more sustainable practices",
+            "Increased environmental degradation",
+            "Reduced industrial efficiency"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-106",
+          "prompt": "What do \"Partnerships and Collaboration\" among academic institutions foster?",
+          "answers": [
+            "Isolated research efforts",
+            "Interdisciplinary approaches to carbon emission reduction",
+            "Competition without collaboration",
+            "Limited stakeholder involvement"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-107",
+          "prompt": "What is the benefit of collaborative research projects?",
+          "answers": [
+            "They limit diverse expertise.",
+            "They bring together diverse expertise to address complex challenges.",
+            "They focus on narrow fields of study.",
+            "They discourage external input."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-108",
+          "prompt": "What do \"Demonstration Projects\" often serve as for academic institutions?",
+          "answers": [
+            "Financial burdens",
+            "Testbeds for the implementation of sustainable practices",
+            "Unrealistic experiments",
+            "Purely theoretical exercises"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-109",
+          "prompt": "What do these demonstration projects aim to demonstrate?",
+          "answers": [
+            "The unfeasibility of sustainable practices",
+            "The feasibility and benefits of carbon reduction measures",
+            "The economic disadvantages of sustainability",
+            "The limitations of renewable energy"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-110",
+          "prompt": "What do academic institutions often conduct under \"Carbon Footprint Assessment\"?",
+          "answers": [
+            "Assessments for other organizations only",
+            "Carbon footprint assessments of their own operations to measure and reduce their environmental impact",
+            "Financial audits",
+            "Social impact assessments only"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-111",
+          "prompt": "What initiatives are included in these carbon footprint assessments?",
+          "answers": [
+            "Only waste reduction",
+            "Initiatives such as energy efficiency upgrades, waste reduction, and sustainable transportation options for students and staff",
+            "Only water conservation",
+            "Only land use planning"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-112",
+          "prompt": "How do academic institutions contribute to \"Advocacy and Public Awareness\"?",
+          "answers": [
+            "By suppressing information",
+            "By contributing to public awareness and advocacy on climate change issues",
+            "By promoting climate denial",
+            "By discouraging public engagement"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-113",
+          "prompt": "What do they use to raise awareness about the importance of carbon emission reduction and sustainable practices?",
+          "answers": [
+            "Commercial advertisements only",
+            "Research findings, educational programs, and public events",
+            "Political rallies",
+            "Social media trends only"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-114",
+          "prompt": "What do \"Interdisciplinary Research Centers\" bring together?",
+          "answers": [
+            "Experts from unrelated fields",
+            "Experts from various disciplines to collaborate on comprehensive solutions for carbon emission reduction",
+            "Only experts from a single discipline",
+            "Government officials only"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-115",
+          "prompt": "What do citizens, locals, and communities serve as in carbon emission reduction efforts?",
+          "answers": [
+            "Passive beneficiaries",
+            "Essential stakeholders",
+            "Opponents of change",
+            "Irrelevant parties"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-116",
+          "prompt": "What is pivotal for the success of climate initiatives at local, national, and global levels?",
+          "answers": [
+            "Economic growth alone",
+            "Their active engagement and participation",
+            "Government regulations only",
+            "Technological advancements alone"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-117",
+          "prompt": "What do \"Behavioral Changes\" individuals contribute to?",
+          "answers": [
+            "Increased energy consumption",
+            "Lowering carbon footprints on an individual and community level",
+            "More waste generation",
+            "Reduced public transportation use"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-118",
+          "prompt": "What do \"Community-Based Renewable Energy Projects\" allow community members to do?",
+          "answers": [
+            "Only observe",
+            "Participate in and benefit from local renewable energy projects, such as community-owned solar or wind farms",
+            "Invest in fossil fuels",
+            "Oppose renewable energy development"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-119",
+          "prompt": "What is a dual benefit of community-based renewable energy initiatives?",
+          "answers": [
+            "Only reducing carbon emissions",
+            "Reducing carbon emissions and creating local jobs and promoting energy independence",
+            "Only promoting energy independence",
+            "Only creating local jobs"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-120",
+          "prompt": "What is the role of citizens and community members in \"Advocacy and Awareness\"?",
+          "answers": [
+            "To remain uninformed",
+            "To engage in advocacy efforts to raise awareness about the impacts of carbon emissions and the importance of sustainable practices",
+            "To spread misinformation",
+            "To discourage public discussion"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-121",
+          "prompt": "What can \"Local Policy Engagement\" involve for citizens and communities?",
+          "answers": [
+            "Avoiding political processes",
+            "Actively participating in local governance and advocating for policies that support carbon emission reduction",
+            "Accepting all policies without question",
+            "Only protesting against policies"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-122",
+          "prompt": "What can \"Local Policy Engagement\" include?",
+          "answers": [
+            "Opposing renewable energy initiatives",
+            "Pushing for renewable energy incentives",
+            "Promoting fossil fuel use",
+            "Discouraging sustainable development"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-123",
+          "prompt": "What is the Global Green Growth Institute (GGGI) dedicated to?",
+          "answers": [
+            "Promoting economic growth at all costs",
+            "Promoting green growth as a way to address climate change and achieve sustainable development",
+            "Promoting unsustainable practices",
+            "Promoting resource depletion"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-124",
+          "prompt": "What does GGGI work with to implement green growth strategies?",
+          "answers": [
+            "Only private sector",
+            "Governments and the private sector",
+            "Only NGOs",
+            "Only international organizations"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-125",
+          "prompt": "What is the primary focus of the World Health Organization (WHO) while promoting climate action?",
+          "answers": [
+            "Economic development",
+            "Health, who recognizes the health impacts of climate change, including those related to air pollution and extreme weather events",
+            "Technological advancement",
+            "Agricultural productivity"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-126",
+          "prompt": "What does WHO advocate for in relation to climate change?",
+          "answers": [
+            "Policies that ignore carbon emissions",
+            "Policies that reduce carbon emissions and promote public health",
+            "Policies that increase air pollution",
+            "Policies that limit access to healthcare"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-127",
+          "prompt": "What does the International Renewable Energy Agency (IRENA) promote?",
+          "answers": [
+            "Adoption of non-renewable energy globally",
+            "Adoption of renewable energy globally",
+            "Increased reliance on fossil fuels",
+            "Reduced energy efficiency"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-128",
+          "prompt": "What does IRENA provide to countries globally?",
+          "answers": [
+            "Financial assistance only",
+            "Technical assistance, capacity building, and investment facilitation",
+            "Political lobbying",
+            "Social welfare programs"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-129",
+          "prompt": "What is the financial mechanism under the UNFCCC that supports developing countries in their efforts to mitigate and adapt to climate change?",
+          "answers": [
+            "World Bank",
+            "Green Climate Fund (GCF)",
+            "International Monetary Fund (IMF)",
+            "Global Environment Facility (GEF)"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-130",
+          "prompt": "What kind of projects does the GCF fund?",
+          "answers": [
+            "Projects that exacerbate climate change",
+            "Projects that address climate change and build climate resilience",
+            "Projects unrelated to climate change",
+            "Projects that increase vulnerability"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-131",
+          "prompt": "What is the purpose of the \"Carbon Disclosure Project (CDP)\"?",
+          "answers": [
+            "To hide information about emissions",
+            "To provide a platform for stakeholders to assess and compare the environmental performance of different entities",
+            "To promote carbon emissions",
+            "To discourage transparency"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-132",
+          "prompt": "What information does the CDP work with?",
+          "answers": [
+            "Only financial data",
+            "Data from companies and cities, including their carbon footprint and environmental performance",
+            "Only social statistics",
+            "Only government policies"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-133",
+          "prompt": "What is the overall goal of \"Donor Agencies\" in carbon emission reduction?",
+          "answers": [
+            "To increase carbon emissions",
+            "To provide financial and technical assistance, and capacity building to countries and projects",
+            "To discourage sustainable development",
+            "To promote unsustainable practices"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-134",
+          "prompt": "What is the primary role of donor agencies in developing nations?",
+          "answers": [
+            "To limit their development",
+            "To support their transition to low-carbon, climate-resilient economies",
+            "To increase their reliance on external aid",
+            "To dictate their policies"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-135",
+          "prompt": "What is Google's commitment regarding renewable energy?",
+          "answers": [
+            "50% renewable energy",
+            "100% renewable energy for all its operations",
+            "No commitment to renewable energy",
+            "Only purchasing renewable energy credits"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-136",
+          "prompt": "How does Google achieve its 100% renewable energy goal?",
+          "answers": [
+            "By reducing energy consumption only",
+            "By including data centers and offices, and investing in renewable energy projects worldwide",
+            "By relying on fossil fuels",
+            "By purchasing energy from the grid only"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-137",
+          "prompt": "What agreement did Google sign in 2007 to become carbon neutral?",
+          "answers": [
+            "The Paris Agreement",
+            "Numerous Power Purchase Agreements (PPAs)",
+            "Kyoto Protocol",
+            "Copenhagen Accord"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-138",
+          "prompt": "What is Google's goal concerning carbon neutrality and operations?",
+          "answers": [
+            "To maintain carbon neutrality and operations without purchasing carbon offsets for emissions that cannot be eliminated",
+            "To achieve carbon neutrality by 2050",
+            "To increase reliance on offsets",
+            "To ignore operational emissions"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-139",
+          "prompt": "How does Google improve energy efficiency in its data centers?",
+          "answers": [
+            "By using outdated technologies",
+            "By implementing energy-efficient technologies and practices, such as machine learning optimizations and advanced cooling systems",
+            "By increasing power consumption",
+            "By reducing data center capacity"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-140",
+          "prompt": "What initiative is Google involved in to promote a circular economy?",
+          "answers": [
+            "Promoting waste generation",
+            "Initiative focusing on the sustainable use of resources",
+            "Discarding hardware without repair",
+            "Increasing landfill use"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-141",
+          "prompt": "What does this circular economy initiative extend to?",
+          "answers": [
+            "Only software development",
+            "The life of its hardware through repair and refurbishment and recycling programs",
+            "Only energy consumption",
+            "Only transportation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-142",
+          "prompt": "What is Tesla's overall approach to reducing its carbon footprint?",
+          "answers": [
+            "Only focusing on manufacturing emissions",
+            "Addressing the carbon footprint not only by producing electric vehicles but also by integrating renewable energy solutions into its product offerings",
+            "Relying solely on carbon credits",
+            "Increasing its reliance on fossil fuels"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-143",
+          "prompt": "What does Tesla's \"Waste Reduction and Recycling\" initiative aim to do?",
+          "answers": [
+            "Increase waste",
+            "Reduce waste and promote recycling",
+            "Eliminate recycling",
+            "Only focus on manufacturing waste"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-144",
+          "prompt": "What is the purpose of \"Carbon Credits and Offsets\" in Tesla's strategy?",
+          "answers": [
+            "To increase their own emissions",
+            "To sell regulatory credits to other automakers, which can help those companies meet emissions standards",
+            "To ignore environmental regulations",
+            "To increase carbon footprint"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-145",
+          "prompt": "How do these carbon credits help companies?",
+          "answers": [
+            "They increase their carbon emissions.",
+            "They provide financial support for the development of electric vehicles.",
+            "They limit innovation.",
+            "They reduce competition."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-146",
+          "prompt": "What does \"Innovation in Sustainable Transportation\" involve for Tesla?",
+          "answers": [
+            "Stagnation in vehicle design",
+            "Continuing to innovate in sustainable transportation, introducing new technologies and features that contribute to energy efficiency and reduced environmental impact",
+            "Focusing solely on internal combustion engines",
+            "Ignoring environmental impact"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-147",
+          "prompt": "What is the primary contribution of transportation to carbon emissions?",
+          "answers": [
+            "Waste generation",
+            "The combustion of fossil fuels in vehicles and other modes of transportation",
+            "Electricity consumption",
+            "Industrial processes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-148",
+          "prompt": "What is the first strategy for reducing emissions in transportation?",
+          "answers": [
+            "Promoting internal combustion engines",
+            "Electrification of Vehicles: Promote the use and adoption of electric cars, buses, and bikes",
+            "Increasing reliance on gasoline",
+            "Disregarding charging infrastructure"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-149",
+          "prompt": "What is encouraged for public transportation?",
+          "answers": [
+            "Decreased investment",
+            "Improve and expand public transportation systems, including buses, trains, subways, and light rail",
+            "Increased reliance on private vehicles",
+            "Reduction of routes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-150",
+          "prompt": "What is encouraged for public transportation to reduce the number of individual vehicles on the road?",
+          "answers": [
+            "Reducing public transport options",
+            "Carpooling and Ridesharing",
+            "Promoting solo driving",
+            "Increasing personal vehicle ownership"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-151",
+          "prompt": "What infrastructure is promoted for sustainable transportation?",
+          "answers": [
+            "Increased road construction for cars",
+            "Investment in walking and biking infrastructure, making it safer and more accessible",
+            "Limiting pedestrian zones",
+            "Developing more parking spaces"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-152",
+          "prompt": "What is suggested for cities to reduce the need for vehicular transportation?",
+          "answers": [
+            "Expanding highways",
+            "Designate areas as pedestrian-only zones",
+            "Promoting individual car use",
+            "Building more car-centric infrastructure"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-153",
+          "prompt": "What are \"Fuel Efficiency Standards\" designed to do?",
+          "answers": [
+            "Increase fuel consumption",
+            "Enforce and enhance fuel efficiency standards for traditional vehicles",
+            "Promote less efficient engines",
+            "Discourage fuel-efficient vehicle sales"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-154",
+          "prompt": "What do these standards contribute to?",
+          "answers": [
+            "Increased carbon footprint",
+            "Reducing the carbon footprint",
+            "Higher emissions",
+            "More air pollution"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-155",
+          "prompt": "What are \"Alternative Fuels\" encouraged for?",
+          "answers": [
+            "Increased reliance on gasoline",
+            "Explore and invest in hydrogen fuel cell technology and biofuels",
+            "Avoiding new fuel sources",
+            "Promoting diesel"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-156",
+          "prompt": "What do \"Transportation Planning and Land Use\" strategies involve?",
+          "answers": [
+            "Promoting long-distance commuting",
+            "Implement urban planning strategies that reduce the need for long-distance commuting and promote mixed-use developments",
+            "Expanding car-dependent suburbs",
+            "Discouraging walking and cycling"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-157",
+          "prompt": "What is the benefit of mixed-use developments?",
+          "answers": [
+            "Increase urban sprawl",
+            "Design communities around transit hubs to encourage public transportation use",
+            "Promote car ownership",
+            "Segregate residential and commercial areas"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-158",
+          "prompt": "What do \"Incentives and Subsidies\" offer to individuals for sustainable transportation?",
+          "answers": [
+            "Penalties for using public transport",
+            "Tax incentives for the purchase of electric vehicles or other low-emission alternatives",
+            "Higher taxes on bicycles",
+            "No financial support"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-159",
+          "prompt": "What pricing mechanisms are suggested to discourage high-traffic areas during peak times?",
+          "answers": [
+            "Flat fees for all roads",
+            "Implement congestion pricing",
+            "Reducing public transport fares",
+            "Subsidizing private vehicle use"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-160",
+          "prompt": "What does \"Fleet Modernization\" encourage for vehicles in fleets?",
+          "answers": [
+            "Keeping old, less efficient vehicles",
+            "Adoption of cleaner and more fuel-efficient vehicles in their fleets",
+            "Increased fossil fuel consumption",
+            "Avoiding electric vehicles"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-161",
+          "prompt": "What kind of vehicles are government-owned entities encouraged to transition to?",
+          "answers": [
+            "Diesel vehicles",
+            "Electric vehicles or other low-emission options",
+            "Gasoline-powered vehicles",
+            "Large SUVs"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-162",
+          "prompt": "What does \"Transportation Demand Management (TDM)\" aim to reduce?",
+          "answers": [
+            "The need for public transportation",
+            "The need for daily commuting",
+            "The number of electric vehicles",
+            "The efficiency of transportation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-163",
+          "prompt": "What practices are part of TDM strategies?",
+          "answers": [
+            "Staggering work hours to ease peak traffic congestion and promoting telecommuting",
+            "Encouraging everyone to commute at the same time",
+            "Reducing telecommuting options",
+            "Discouraging flexible work schedules"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-164",
+          "prompt": "What is the role of \"Vehicle Sharing\" programs?",
+          "answers": [
+            "To increase individual car ownership",
+            "Promote car-sharing services to reduce the overall number of vehicles on the road",
+            "Discourage ride-sharing",
+            "Limit access to vehicles"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-165",
+          "prompt": "What is promoted as an alternative to short-haul flights?",
+          "answers": [
+            "Private jets",
+            "High-speed rail",
+            "Increased car travel",
+            "Short-distance air travel"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-166",
+          "prompt": "What is \"Carbon Capture and Storage (CCS)\"?",
+          "answers": [
+            "A technology that releases carbon dioxide into the atmosphere",
+            "A technology that captures carbon dioxide (CO2) emissions from the use of fossil fuels in electricity generation and industrial processes",
+            "A method to increase fossil fuel consumption",
+            "A process to enhance atmospheric CO2"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-167",
+          "prompt": "Where is the captured CO2 transported and stored?",
+          "answers": [
+            "In the atmosphere",
+            "Securely stored underground to prevent its release into the atmosphere",
+            "In the oceans without control",
+            "Dispersed into urban areas"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-168",
+          "prompt": "What is CCS considered a strategy for?",
+          "answers": [
+            "Increasing greenhouse gas emissions",
+            "Reducing carbon emissions",
+            "Promoting air pollution",
+            "Enhancing fossil fuel dependency"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-169",
+          "prompt": "What is \"Carbon Pricing\" designed to do?",
+          "answers": [
+            "Encourage increased carbon emissions",
+            "Internalize the costs of carbon emissions through mechanisms like carbon taxes or cap-and-trade systems",
+            "Subsidize fossil fuel industries",
+            "Reduce the cost of pollution"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-170",
+          "prompt": "What economic incentives does carbon pricing create?",
+          "answers": [
+            "Disincentives for businesses to reduce emissions",
+            "Economic incentives for businesses to reduce emissions and innovate toward cleaner technologies",
+            "Incentives for increased pollution",
+            "Disincentives for cleaner technologies"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-171",
+          "prompt": "What are the benefits of \"Reduced Health Care Costs\" from climate action?",
+          "answers": [
+            "Increased respiratory diseases",
+            "Improved public health by reducing air pollution and promoting active transportation",
+            "Higher healthcare costs",
+            "More health risks"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-172",
+          "prompt": "What does \"Global Competitiveness\" refer to in the context of climate action?",
+          "answers": [
+            "Countries ignoring climate action",
+            "Countries that take early and ambitious climate action enhancing their global competitiveness",
+            "Countries that rely solely on fossil fuels",
+            "Countries that resist sustainable development"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-173",
+          "prompt": "How can countries enhance their global competitiveness through climate action?",
+          "answers": [
+            "By decreasing sustainable investments",
+            "By being better positioned to meet international standards and attracting investment in sustainable industries",
+            "By increasing their carbon footprint",
+            "By reducing technological advancements"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-174",
+          "prompt": "What are the \"Financial Risks\" associated with failing to address climate change?",
+          "answers": [
+            "Economic stability",
+            "Damage from extreme weather events, transition risks, and impacts on businesses and financial institutions",
+            "Increased investment opportunities",
+            "Reduced market volatility"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-175",
+          "prompt": "How do \"Insurance Costs\" relate to climate change?",
+          "answers": [
+            "They will decrease due to stable climate.",
+            "Climate change increases the frequency and severity of extreme weather events, impacting insurance costs.",
+            "They are unrelated to climate change.",
+            "They will remain constant."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-176",
+          "prompt": "What do \"Fiscal Implications\" mean for governments regarding climate change?",
+          "answers": [
+            "Reduced fiscal pressure",
+            "Governments may face increased fiscal pressure due to costs associated with climate adaptation and disaster response",
+            "Increased tax revenue",
+            "Stable government budgets"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-177",
+          "prompt": "What is the role of \"Local Sustainable Agriculture\" in carbon emission reduction?",
+          "answers": [
+            "Increasing food transportation",
+            "Supporting local, sustainable agriculture practices that reduce the carbon footprint associated with food production and distribution",
+            "Promoting large-scale industrial farming",
+            "Increasing pesticide use"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-178",
+          "prompt": "How do environmentally friendly practices farmers contribute to carbon emission reduction?",
+          "answers": [
+            "By increasing emissions",
+            "By supporting local food production",
+            "By promoting unsustainable methods",
+            "By reducing soil fertility"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-179",
+          "prompt": "What do \"Adaptation and Resilience Initiatives\" involve for communities?",
+          "answers": [
+            "Ignoring climate impacts",
+            "Implementing measures to cope with extreme weather events, such as flood-resistant infrastructure or drought-resistant landscaping",
+            "Increasing vulnerability to disasters",
+            "Relying solely on external aid"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-180",
+          "prompt": "What is the goal of \"Education and Empowerment\" for individuals?",
+          "answers": [
+            "To limit their understanding of environmental issues",
+            "To empower individuals to understand the impact of their choices on the environment",
+            "To promote environmental indifference",
+            "To encourage unsustainable behavior"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-181",
+          "prompt": "How does knowledge from education and empowerment drive decision-making?",
+          "answers": [
+            "By leading to uninformed choices",
+            "By driving informed decision-making and fostering a sense of responsibility for carbon emission reduction",
+            "By creating confusion",
+            "By reducing individual accountability"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-182",
+          "prompt": "What do \"Government and Policy Makers\" play in carbon emission reduction?",
+          "answers": [
+            "A passive role",
+            "A multifaceted role in carbon emission reduction, from setting the legislative framework to providing financial incentives",
+            "A role in increasing emissions",
+            "A role in ignoring climate change"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-183",
+          "prompt": "What do governments and policymakers foster?",
+          "answers": [
+            "Stagnation",
+            "Fostering innovation, and promoting public awareness",
+            "Indifference",
+            "Resistance"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-184",
+          "prompt": "What are \"Regulatory Frameworks\" established governments for?",
+          "answers": [
+            "To increase emissions",
+            "To monitor and control carbon emissions",
+            "To ignore environmental standards",
+            "To promote unregulated industrial growth"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-185",
+          "prompt": "What is the role of governments in \"International Agreements\"?",
+          "answers": [
+            "To reject international cooperation",
+            "Participating in international negotiations and agreements to address climate change on a global scale",
+            "To act unilaterally",
+            "To increase global emissions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-186",
+          "prompt": "What do \"Businesses and Corporations\" play in shaping global emissions?",
+          "answers": [
+            "A minor role",
+            "A pivotal role",
+            "No role",
+            "An insignificant role"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-187",
+          "prompt": "What does \"Carbon Footprint Reduction\" for businesses involve?",
+          "answers": [
+            "Increasing resource use",
+            "Actively working to reduce their own carbon footprint by adopting energy-efficient technologies and optimizing resource use",
+            "Ignoring energy consumption",
+            "Promoting unsustainable practices"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-188",
+          "prompt": "What is the goal of \"Transition to Renewable Energy\" for businesses?",
+          "answers": [
+            "To increase reliance on fossil fuels",
+            "To invest in and transition to renewable energy sources such as solar, wind, and hydropower to power their operations",
+            "To ignore renewable energy",
+            "To promote non-renewable sources"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-189",
+          "prompt": "What is the impact of transitioning to renewable energy for businesses?",
+          "answers": [
+            "Increases greenhouse gas emissions",
+            "Decreases reliance on fossil fuels and reduces direct greenhouse gas emissions",
+            "No impact on emissions",
+            "Increases energy costs"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-190",
+          "prompt": "What do \"Energy Efficiency Initiatives\" for businesses involve?",
+          "answers": [
+            "Implementing energy inefficiency measures",
+            "Implement energy efficiency initiatives in buildings, manufacturing processes, and supply chains to minimize energy consumption and associated carbon emissions",
+            "Increasing energy waste",
+            "Disregarding energy-efficient designs"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-191",
+          "prompt": "What are \"Monitoring and Reporting\" for businesses?",
+          "answers": [
+            "Avoiding transparency",
+            "Establishing systems to track progress toward emission reduction targets",
+            "Hiding data",
+            "Disregarding environmental performance"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-192",
+          "prompt": "How do businesses ensure the effectiveness of policies and making adjustments?",
+          "answers": [
+            "By ignoring data",
+            "By tracking progress based on real-time data and scientific assessments",
+            "By relying on outdated information",
+            "By avoiding accountability"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-193",
+          "prompt": "What does \"Green Building Practices\" encourage for communities?",
+          "answers": [
+            "Using traditional, energy-intensive building materials",
+            "Promoting and adopting green building practices, including energy-efficient designs and the use of sustainable materials",
+            "Increasing the carbon footprint of construction",
+            "Ignoring building codes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-194",
+          "prompt": "What are the benefits of \"Community Gardens and Green Spaces\"?",
+          "answers": [
+            "They increase carbon dioxide.",
+            "They absorb carbon dioxide, promote biodiversity, and provide opportunities for community members to connect with nature",
+            "They contribute to pollution.",
+            "They reduce green areas."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-195",
+          "prompt": "What is the role of \"Carbon Offsetting Programs\"?",
+          "answers": [
+            "To increase individual emissions",
+            "To allow individuals and communities to participate in tree planting initiatives or supporting projects that reduce or capture greenhouse gas emissions",
+            "To promote deforestation",
+            "To discourage carbon capture"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-196",
+          "prompt": "What does \"Ridesharing\" aim to do?",
+          "answers": [
+            "Increase the number of individual vehicles on the road",
+            "Reduce the number of individual vehicles on the road",
+            "Promote solo commuting",
+            "Reduce public transportation use"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-197",
+          "prompt": "What do \"Improved Livestock Management\" practices promote?",
+          "answers": [
+            "Higher methane emissions",
+            "Pasture-based systems for livestock to reduce methane emissions",
+            "Increased feedlot operations",
+            "Reduced animal welfare"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-198",
+          "prompt": "What kind of farming practices are advocated under \"Organic Farming and Chemical-Free Practices\"?",
+          "answers": [
+            "Use of synthetic fertilizers and pesticides",
+            "Adopt organic farming and chemical-free practices to eliminate or minimize the use of synthetic fertilizers and pesticides",
+            "Increased chemical use",
+            "Industrial agriculture"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-199",
+          "prompt": "What is \"Composting\" designed to do regarding emissions?",
+          "answers": [
+            "Waste generation",
+            "Electricity, heating, and cooling",
+            "Personal transportation",
+            "Food choices"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-200",
+          "prompt": "What is one way individuals can reduce their carbon footprint related to home energy use?",
+          "answers": [
+            "Increasing reliance on non-renewable energy sources",
+            "Using energy-efficient appliances",
+            "Keeping doors and windows open during heating/cooling",
+            "Using incandescent bulbs"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-201",
+          "prompt": "What emissions are included in Scope 2 for an individual's carbon footprint?",
+          "answers": [
+            "Direct emissions from personal car use",
+            "Emissions from purchased electricity, heat, or steam",
+            "Emissions from waste decomposition",
+            "Emissions from food production"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-202",
+          "prompt": "What does \"Waste Management\" for individuals aim to minimize?",
+          "answers": [
+            "Only plastic waste",
+            "Methane emissions in landfills",
+            "Industrial waste",
+            "Hazardous waste"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-203",
+          "prompt": "How do plant-based diets generally affect one's carbon footprint?",
+          "answers": [
+            "They increase it due to more land use.",
+            "They have a smaller carbon footprint.",
+            "They have no impact on carbon footprint.",
+            "They only affect water consumption."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-204",
+          "prompt": "What do \"Consumer Choices\" involve for individuals seeking to reduce their carbon footprint?",
+          "answers": [
+            "Prioritizing convenience over environmental impact",
+            "Choosing products with lower carbon footprints",
+            "Ignoring product life cycles",
+            "Increasing consumption of goods and services"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-205",
+          "prompt": "What is the goal of \"Education and Empowerment\" for individuals in carbon emission reduction?",
+          "answers": [
+            "To limit their understanding of environmental issues",
+            "To empower individuals to understand the impact of their choices on the environment",
+            "To promote environmental indifference",
+            "To discourage responsible behavior"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-206",
+          "prompt": "What is the overall goal of \"Fiscal Implications\" in climate action?",
+          "answers": [
+            "To increase government spending without benefit",
+            "To avoid future fiscal burdens from climate change",
+            "To disregard economic impacts of climate change",
+            "To encourage more climate-related disasters"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-207",
+          "prompt": "What is \"Biodiversity Conservation\" considered in the context of climate resilience?",
+          "answers": [
+            "A secondary concern",
+            "A fundamental component",
+            "Irrelevant to climate change",
+            "A short-term solution"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-208",
+          "prompt": "How do healthy ecosystems act as buffers against climate impacts?",
+          "answers": [
+            "By increasing pollution",
+            "By providing essential services like water purification and carbon sequestration",
+            "By accelerating climate change",
+            "By reducing natural habitats"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-209",
+          "prompt": "What is the role of \"Genetic Diversity\" in biodiversity conservation for climate change?",
+          "answers": [
+            "It makes species less adaptable.",
+            "It provides raw material for natural selection, enabling species to evolve and adapt to new challenges.",
+            "It limits the ability of ecosystems to withstand disturbances.",
+            "It is not considered important."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-210",
+          "prompt": "What specific ecosystems buffer against extreme events?",
+          "answers": [
+            "Deserts and rocky terrains",
+            "Mangroves and coral reefs",
+            "Urban areas and industrial zones",
+            "Agricultural fields and pastures"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-211",
+          "prompt": "What is essential for maintaining the overall health and resilience of ecosystems?",
+          "answers": [
+            "Reducing ecosystem functions",
+            "Maintaining key ecosystem functions like pollination and water purification",
+            "Ignoring nutrient cycling",
+            "Promoting ecosystem degradation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-212",
+          "prompt": "What does \"Sustainable Resource Management\" involve?",
+          "answers": [
+            "Overexploitation of natural resources",
+            "Preserving ecosystems and preventing overexploitation of natural resources",
+            "Rapid depletion of resources",
+            "Ignoring resource limits"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-213",
+          "prompt": "How does \"Enhancing Agricultural Resilience\" contribute to climate resilience?",
+          "answers": [
+            "By monocropping",
+            "By increasing crop diversity and using diverse agroecological practices",
+            "By relying on chemical fertilizers",
+            "By reducing soil health"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-214",
+          "prompt": "What is the benefit of diverse crops and farming systems?",
+          "answers": [
+            "They are more vulnerable to pests.",
+            "They are better able to withstand pests, diseases, and extreme weather events.",
+            "They require more water.",
+            "They reduce agricultural productivity."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-215",
+          "prompt": "What is \"Cultural and Socioeconomic Resilience\" often integral to?",
+          "answers": [
+            "Economic development only",
+            "The cultural identity and livelihoods of many communities",
+            "Political stability",
+            "Technological advancement"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-216",
+          "prompt": "How do conservation practices contribute to socioeconomic resilience?",
+          "answers": [
+            "By ignoring traditional knowledge",
+            "By preserving traditional knowledge and sustainable resource use practices",
+            "By promoting unsustainable practices",
+            "By reducing diverse livelihood options"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-217",
+          "prompt": "What is the role of \"Carbon Sequestration\" forests and other ecosystems?",
+          "answers": [
+            "They release carbon.",
+            "They absorb carbon and mitigate climate change.",
+            "They have no impact on carbon.",
+            "They only regulate water cycles."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-218",
+          "prompt": "What is a key focus of \"Restoration and Conservation Strategies\"?",
+          "answers": [
+            "Only urban development",
+            "Reforestation, habitat restoration, and protection of critical ecosystems",
+            "Industrial expansion",
+            "Agricultural intensification"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-219",
+          "prompt": "How does \"Regulating Climate-Related Diseases\" relate to biodiversity?",
+          "answers": [
+            "Biodiversity increases disease vectors.",
+            "Biodiversity can help control the populations of disease vectors.",
+            "Biodiversity has no effect on disease.",
+            "Biodiversity reduces human health."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-220",
+          "prompt": "What is a \"Holistic Approach to Climate Change\"?",
+          "answers": [
+            "Addressing only environmental aspects",
+            "Addressing the complex and interconnected challenges posed by global warming comprehensively",
+            "Focusing solely on economic factors",
+            "Ignoring social dimensions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-221",
+          "prompt": "What does \"Social Justice in Climate Change\" entail?",
+          "answers": [
+            "Disregarding vulnerable communities",
+            "Addressing the disproportionate impact of environmental degradation on vulnerable communities",
+            "Promoting unequal distribution of resources",
+            "Ignoring historical injustices"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-222",
+          "prompt": "What does \"Mitigation\" in climate action involve?",
+          "answers": [
+            "Building climate resilience",
+            "Reducing greenhouse gas emissions",
+            "Adapting to climate conditions",
+            "Increasing emissions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-223",
+          "prompt": "What does \"Adaptation\" in climate action focus on?",
+          "answers": [
+            "Reducing greenhouse gas emissions",
+            "Building resilience to changing climatic conditions",
+            "Ignoring environmental impacts",
+            "Promoting unsustainable practices"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-224",
+          "prompt": "What is \"Circular Economy\" a part of in the holistic approach?",
+          "answers": [
+            "Limiting resource use",
+            "Sustainable Consumption and Production",
+            "Waste generation",
+            "Linear economy"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-225",
+          "prompt": "What is \"Global Equity\" in social justice and climate change?",
+          "answers": [
+            "Ignoring historical responsibilities",
+            "Acknowledging disproportionate impacts on developing countries and supporting their leapfrogging to sustainable development",
+            "Promoting high-emission trajectories",
+            "Limiting access to resources"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-226",
+          "prompt": "What does \"Climate Migration and Displacement\" contribute to?",
+          "answers": [
+            "Increased urban development",
+            "The displacement of communities due to rising sea levels and extreme weather events",
+            "Reduced environmental pressures",
+            "Stable populations"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-227",
+          "prompt": "What does \"Participation and Inclusion\" emphasize?",
+          "answers": [
+            "Limiting decision-making to a few experts",
+            "The importance of including diverse voices in decision-making processes related to climate action",
+            "Excluding marginalized groups from discussions",
+            "Promoting top-down approaches"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-228",
+          "prompt": "What is \"Gender Equality\" essential for in climate policies?",
+          "answers": [
+            "Ignoring gender issues",
+            "Ensuring fair and inclusive climate action",
+            "Increasing women's vulnerability",
+            "Excluding women from decision-making"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-229",
+          "prompt": "What is the role of \"Education and Training\" for Technocrats?",
+          "answers": [
+            "To limit their technical knowledge",
+            "To provide training and education in science, technology, engineering, and mathematics (STEM) fields",
+            "To discourage innovation",
+            "To promote outdated methods"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-230",
+          "prompt": "What is \"Climate Modeling and Prediction\" for Technocrats?",
+          "answers": [
+            "Ignoring future climate scenarios",
+            "Specializing in climate modeling and prediction efforts",
+            "Promoting uncertainty in climate science",
+            "Limiting data analysis"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-231",
+          "prompt": "What is the role of Technocrats in \"Policy Formulation\"?",
+          "answers": [
+            "To disregard scientific input",
+            "To contribute to the development of evidence-based policies that promote carbon emission reduction",
+            "To promote unscientific approaches",
+            "To hinder policy development"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-232",
+          "prompt": "What are \"Financial Incentives\" provided governments for?",
+          "answers": [
+            "To discourage sustainable practices",
+            "To offer tax credits and subsidies for sustainable technologies",
+            "To increase the cost of clean energy",
+            "To promote fossil fuel investments"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-233",
+          "prompt": "What does \"Infrastructure Investment\" governments support?",
+          "answers": [
+            "Reliance on fossil fuels",
+            "Public transportation, renewable energy projects, and energy-efficient buildings",
+            "Increased private vehicle use",
+            "Outdated energy systems"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-234",
+          "prompt": "What is the purpose of \"Public Awareness and Education\" campaigns governments?",
+          "answers": [
+            "To hide information about climate change",
+            "To educate the public about the importance of carbon emission reduction",
+            "To promote climate denial",
+            "To discourage individual action"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-235",
+          "prompt": "What is \"Political Leadership and Advocacy\" for governments?",
+          "answers": [
+            "To promote inaction on climate change",
+            "To demonstrate commitment and advocate for ambitious climate goals",
+            "To oppose international agreements",
+            "To limit public engagement"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-236",
+          "prompt": "What is the primary focus of \"Sustainable Agriculture\"?",
+          "answers": [
+            "Increasing greenhouse gas emissions from farming",
+            "Reducing greenhouse gas emissions and a sector vulnerable to climate change impacts",
+            "Promoting unsustainable agricultural practices",
+            "Ignoring soil health"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-237",
+          "prompt": "What does \"Agroforestry and Afforestation\" involve in agriculture?",
+          "answers": [
+            "Decreasing tree cover",
+            "Integrating trees into agricultural landscapes to sequester carbon",
+            "Promoting monoculture",
+            "Increasing soil erosion"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-238",
+          "prompt": "What is the benefit of \"Cover Cropping\" in agriculture?",
+          "answers": [
+            "Reduces soil health",
+            "Improves soil health, prevents erosion, and sequesters carbon",
+            "Increases water runoff",
+            "Requires more synthetic fertilizers"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-239",
+          "prompt": "What is the aim of \"Conservation Tillage\"?",
+          "answers": [
+            "To increase soil disturbance",
+            "To minimize soil disturbance and reduce reliance on chemical inputs",
+            "To promote soil erosion",
+            "To increase greenhouse gas emissions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-240",
+          "prompt": "What does \"Precision Agriculture\" utilize?",
+          "answers": [
+            "Outdated technology",
+            "Technology and data to optimize resource use, reducing input waste and emissions",
+            "Increased use of pesticides",
+            "Ignoring data for decision-making"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-241",
+          "prompt": "What does \"Agroecology\" aim to do?",
+          "answers": [
+            "Increase the need for synthetic pesticides",
+            "Implement natural methods for pest control, reducing the need for synthetic pesticides",
+            "Reduce biodiversity",
+            "Promote chemical-intensive farming"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-242",
+          "prompt": "What is \"Polyculture\" in agriculture?",
+          "answers": [
+            "Planting single crops",
+            "Planting multiple crops in the same area to mimic natural ecosystems",
+            "Reducing crop diversity",
+            "Focusing on monoculture"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-243",
+          "prompt": "What is the purpose of \"Anaerobic Digestion\" in manure management?",
+          "answers": [
+            "To increase methane emissions",
+            "To convert manure into biogas, capturing methane emissions",
+            "To promote direct release of methane",
+            "To create more waste"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-244",
+          "prompt": "What is \"Enteric Fermentation\" primarily associated with in agriculture?",
+          "answers": [
+            "Crop rotation",
+            "Ruminant animals like cows",
+            "Soil management",
+            "Energy use in agriculture"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-245",
+          "prompt": "What gas is mainly produced during enteric fermentation?",
+          "answers": [
+            "Carbon dioxide",
+            "Methane",
+            "Nitrous oxide",
+            "Water vapor"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-246",
+          "prompt": "What is the significant source of greenhouse gas emissions in rice cultivation?",
+          "answers": [
+            "Tillage practices",
+            "Flooded rice paddies",
+            "Dryland farming",
+            "Use of synthetic fertilizers"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-247",
+          "prompt": "What gas is associated with the application of nitrogen-containing fertilizers?",
+          "answers": [
+            "Methane",
+            "Carbon dioxide",
+            "Nitrous oxide",
+            "Sulfur dioxide"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-248",
+          "prompt": "What contribute to carbon emissions in the \"Energy Use in Agriculture\" category?",
+          "answers": [
+            "Only fertilizer production",
+            "Production, transportation, and application of fertilizers, pesticides, and other agricultural inputs",
+            "Only farm machinery",
+            "Only irrigation systems"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-249",
+          "prompt": "What is \"Carbon Capture and Storage (CCS)\"?",
+          "answers": [
+            "A method to increase carbon emissions",
+            "A technology that captures carbon dioxide (CO2​) from fossil fuels and industrial processes",
+            "A natural carbon sequestration process",
+            "A way to release more greenhouse gases"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-250",
+          "prompt": "Where is captured carbon dioxide (CO2​) stored in CCS?",
+          "answers": [
+            "In the atmosphere",
+            "Securely stored underground",
+            "Released into water bodies",
+            "Used as a fuel source"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-251",
+          "prompt": "What is the goal of CCS regarding the release of CO2​ into the atmosphere?",
+          "answers": [
+            "To increase its release",
+            "To prevent its release",
+            "To monitor its release",
+            "To accelerate its release"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-252",
+          "prompt": "What are the three main ways carbon capture is done?",
+          "answers": [
+            "Pre-combustion, Post-combustion, Oxyfuel combustion",
+            "Direct air capture, bioenergy with CCS, carbon mineralization",
+            "Flue gas separation, industrial process capture, direct capture",
+            "Carbon farming, geological storage, ocean fertilization"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-253",
+          "prompt": "What does \"Post-Combustion\" capture involve?",
+          "answers": [
+            "Capturing CO2​ from the fuel before burning",
+            "Capturing CO2​ from the flue gases after combustion",
+            "Burning fuel in an oxygen-rich environment",
+            "Capturing CO2​ directly from the air"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-254",
+          "prompt": "What happens in \"Oxyfuel Combustion\"?",
+          "answers": [
+            "Burning fuel in normal air",
+            "Burning fuel in a gas mixture of pure oxygen and recirculated flue gas",
+            "Burning fuel without oxygen",
+            "Burning fuel with high water vapor content"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-255",
+          "prompt": "How is captured CO2​ typically transported for storage?",
+          "answers": [
+            "By air cargo",
+            "Via pipelines or ships",
+            "By rail",
+            "By road"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-256",
+          "prompt": "What is \"Geological Storage\" of CO2​?",
+          "answers": [
+            "Storing CO2​ in surface tanks",
+            "Injecting CO2​ into deep geological formations",
+            "Releasing CO2​ into the upper atmosphere",
+            "Storing CO2​ in shallow pits"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-257",
+          "prompt": "What are \"Fiscal Implications\" for governments related to climate change?",
+          "answers": [
+            "Increased revenue from climate tourism",
+            "Fiscal pressure due to adaptation and disaster response costs",
+            "Reduced government spending on public services",
+            "Stable economic conditions regardless of climate change"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-258",
+          "prompt": "What is \"Carbon Pricing\" designed to do?",
+          "answers": [
+            "Increase carbon emissions",
+            "Impose a tax on carbon emissions or establish market-based systems",
+            "Encourage fossil fuel use",
+            "Subsidize high-emission industries"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-259",
+          "prompt": "How do \"Carbon Taxes\" internalize the costs of carbon emissions?",
+          "answers": [
+            "By providing free carbon allowances",
+            "By adding a cost to emissions",
+            "By removing financial incentives",
+            "By promoting carbon-intensive activities"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-260",
+          "prompt": "What is a \"Cap-and-Trade System\"?",
+          "answers": [
+            "A system that sets a fixed carbon price",
+            "A market-based approach where businesses buy and sell emission allowances",
+            "A system that encourages unlimited emissions",
+            "A system that only applies to government entities"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-261",
+          "prompt": "What are \"Renewable Energy Standards (RPS)\"?",
+          "answers": [
+            "Standards that limit renewable energy production",
+            "Mandates a certain percentage of energy production to come from renewable sources",
+            "Guidelines for fossil fuel use",
+            "Standards for energy inefficiency"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-262",
+          "prompt": "What do \"Feed-in Tariffs\" provide?",
+          "answers": [
+            "Incentives for fossil fuel power plants",
+            "Financial incentives to renewable energy generators",
+            "Subsidies for energy-inefficient appliances",
+            "Tax breaks for high-emission industries"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-263",
+          "prompt": "What do \"Building Codes\" regulate?",
+          "answers": [
+            "Only the aesthetics of buildings",
+            "Energy-efficient construction and renovations",
+            "Building materials for aesthetic purposes",
+            "Building size limitations"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-264",
+          "prompt": "What do \"Appliance Standards\" promote?",
+          "answers": [
+            "The use of energy-inefficient appliances",
+            "Energy-efficient appliances and equipment",
+            "Only the design of appliances",
+            "The increased energy consumption of appliances"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-265",
+          "prompt": "What are \"Incentives for Clean Technologies\"?",
+          "answers": [
+            "Tax penalties for adopting clean technologies",
+            "Tax credits and subsidies for businesses and individuals investing in clean technologies",
+            "Restrictions on the development of clean technologies",
+            "Grants for fossil fuel research"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-266",
+          "prompt": "What do \"Public Transportation Incentives\" aim to do?",
+          "answers": [
+            "Discourage public transport use",
+            "Make public transportation more accessible and affordable",
+            "Increase personal vehicle use",
+            "Limit access to transportation options"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-267",
+          "prompt": "What do \"Electric Vehicle (EV) Incentives\" support?",
+          "answers": [
+            "The purchase of gasoline cars",
+            "The purchase of electric vehicles",
+            "The use of internal combustion engines",
+            "The development of fossil fuels"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-268",
+          "prompt": "What does \"Infrastructure Support\" for EVs include?",
+          "answers": [
+            "Investing in more gas stations",
+            "Investing in EV charging infrastructure",
+            "Reducing public transportation options",
+            "Building more roads for individual cars"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-269",
+          "prompt": "What does \"Regulation of Emissions\" involve?",
+          "answers": [
+            "Ignoring emissions from industries",
+            "Setting and enforcing emission standards for industries, vehicles, and power plants",
+            "Promoting increased emissions",
+            "Removing all emission regulations"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-270",
+          "prompt": "What is the role of \"Governments and Policymakers\" in carbon emission reduction?",
+          "answers": [
+            "To limit public participation",
+            "To play a multifaceted role in providing financial incentives, fostering innovation, and promoting public awareness",
+            "To increase reliance on fossil fuels",
+            "To disregard scientific advancements"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-271",
+          "prompt": "What does \"Policy Development\" governments involve?",
+          "answers": [
+            "Formulating and implementing policies that aim to reduce carbon emissions",
+            "Promoting high-emission industries",
+            "Hindering renewable energy development",
+            "Ignoring climate change impacts"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-272",
+          "prompt": "What do \"Regulatory Frameworks\" from governments establish?",
+          "answers": [
+            "Limits on sustainable practices",
+            "Regulatory frameworks to monitor and control carbon emissions",
+            "Exemptions for high-emission industries",
+            "Barriers to clean energy technologies"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-273",
+          "prompt": "What is the purpose of \"International Agreements\" for governments?",
+          "answers": [
+            "To promote isolationist policies",
+            "To address climate change on a global scale through negotiations and agreements",
+            "To increase global carbon emissions",
+            "To restrict international trade"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-274",
+          "prompt": "What is the goal of \"Research and Development Funding\" governments?",
+          "answers": [
+            "To limit innovation in clean energy",
+            "To allocate funding for research and development in clean energy technologies",
+            "To increase the cost of renewable energy",
+            "To prevent technological advancements"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-275",
+          "prompt": "What does \"Infrastructure Investment\" from governments support?",
+          "answers": [
+            "Increased use of personal vehicles",
+            "Public transportation, renewable energy projects, and energy-efficient buildings",
+            "The development of fossil fuel infrastructure",
+            "Outdated energy systems"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-276",
+          "prompt": "What does \"Public Awareness and Education\" from governments involve?",
+          "answers": [
+            "Promoting climate denial",
+            "Educating the public about the importance of carbon emission reduction",
+            "Discouraging individual action",
+            "Hiding information about climate change"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-277",
+          "prompt": "What is the overall role of \"Political Leadership and Advocacy\" for governments?",
+          "answers": [
+            "To promote inaction on climate change",
+            "To demonstrate commitment and advocate for ambitious climate goals",
+            "To oppose international climate agreements",
+            "To limit public engagement in climate action"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-278",
+          "prompt": "What is a key focus of \"Businesses and Corporations\" in carbon footprint reduction?",
+          "answers": [
+            "Increasing greenhouse gas emissions",
+            "Actively working to reduce their own carbon footprint by adopting energy-efficient technologies",
+            "Ignoring environmental responsibilities",
+            "Promoting unsustainable practices"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-279",
+          "prompt": "What does \"Transition to Renewable Energy\" for businesses involve?",
+          "answers": [
+            "Increasing reliance on fossil fuels",
+            "Investing in and transitioning to renewable energy sources like solar, wind, and hydropower",
+            "Maintaining current energy sources",
+            "Reducing investment in clean energy"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-280",
+          "prompt": "What is the aim of \"Energy Efficiency Initiatives\" for businesses?",
+          "answers": [
+            "To increase energy consumption",
+            "To implement energy efficiency in buildings, manufacturing processes, and supply chains",
+            "To disregard energy-saving opportunities",
+            "To promote energy waste"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-281",
+          "prompt": "What is the purpose of \"Monitoring and Reporting\" for businesses?",
+          "answers": [
+            "To hide their environmental impact",
+            "To track progress toward emission reduction targets and demonstrate commitment to stakeholders",
+            "To avoid accountability for emissions",
+            "To increase emissions without public knowledge"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-282",
+          "prompt": "What is \"Sustainable Supply Chain Management\" for businesses?",
+          "answers": [
+            "Only focusing on local suppliers",
+            "Engaging with suppliers to promote sustainable practices and reduce emissions across the value chain",
+            "Ignoring supply chain emissions",
+            "Prioritizing cost over sustainability"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-283",
+          "prompt": "What does \"Innovation and Investment\" for businesses support?",
+          "answers": [
+            "Outdated technologies",
+            "The development and adoption of clean technologies and sustainable solutions",
+            "Increased reliance on traditional methods",
+            "Limited research into new solutions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-284",
+          "prompt": "What is the role of \"Employee Engagement\" in businesses?",
+          "answers": [
+            "To discourage employee participation",
+            "To encourage employees to adopt energy-efficient behaviors and participate in sustainability initiatives",
+            "To limit employee involvement in environmental efforts",
+            "To focus solely on company-level initiatives"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-285",
+          "prompt": "What is \"Carbon Offsetting\" for businesses?",
+          "answers": [
+            "Increasing direct emissions",
+            "Investing in projects that reduce or capture greenhouse gas emissions elsewhere",
+            "Ignoring emissions altogether",
+            "Focusing only on internal reductions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-286",
+          "prompt": "What does \"Circular Economy Initiatives\" involve for businesses?",
+          "answers": [
+            "Promoting a linear model of production",
+            "Minimizing waste, maximizing resource efficiency, and extending product lifecycles",
+            "Increasing waste generation",
+            "Disregarding resource limits"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-287",
+          "prompt": "What does \"Stakeholder Engagement\" for businesses involve?",
+          "answers": [
+            "Only communicating with shareholders",
+            "Engaging with suppliers, customers, employees, and investors on sustainability",
+            "Ignoring external opinions",
+            "Limiting transparency"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-288",
+          "prompt": "What are \"Green Building Practices\" for communities?",
+          "answers": [
+            "Promoting energy-inefficient designs",
+            "Promoting energy-efficient designs and the use of sustainable materials in buildings",
+            "Increasing construction waste",
+            "Focusing only on traditional building methods"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-289",
+          "prompt": "What is the purpose of \"Waste Reduction and Recycling\" in communities?",
+          "answers": [
+            "To increase waste going to landfills",
+            "To reduce methane emissions from landfills and promote efficient resource use",
+            "To discourage recycling",
+            "To increase incineration"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-290",
+          "prompt": "What does \"Active Participation in Decision-Making Processes\" emphasize for citizens?",
+          "answers": [
+            "Limiting citizen input",
+            "Engaging citizens in decision-making processes related to local development and environmental policies",
+            "Promoting top-down approaches",
+            "Excluding community perspectives"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-291",
+          "prompt": "How do \"Community Gardens and Green Spaces\" contribute to carbon emission reduction?",
+          "answers": [
+            "By increasing urban heat islands",
+            "By absorbing carbon dioxide, promoting biodiversity, and providing opportunities for community members to connect with nature",
+            "By increasing concrete surfaces",
+            "By reducing green infrastructure"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-292",
+          "prompt": "What is the benefit of \"Local Sustainable Agriculture\" for carbon footprint reduction?",
+          "answers": [
+            "It increases food transportation distances",
+            "It reduces the carbon footprint associated with food production and distribution",
+            "It promotes chemical-intensive farming",
+            "It reduces food diversity"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-293",
+          "prompt": "What do \"Adaptation and Resilience Initiatives\" involve for communities?",
+          "answers": [
+            "Ignoring extreme weather events",
+            "Implementing measures to cope with extreme weather, such as flood-resistant infrastructure",
+            "Increasing vulnerability to climate impacts",
+            "Focusing only on mitigation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-294",
+          "prompt": "What is the aim of \"Education and Empowerment\" for individuals in communities?",
+          "answers": [
+            "To limit their understanding of environmental issues",
+            "To empower individuals to understand the impact of their choices on the environment",
+            "To discourage responsible behavior",
+            "To promote environmental indifference"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-295",
+          "prompt": "What is the role of \"Behavioral Changes\" for citizens in carbon emission reduction?",
+          "answers": [
+            "To maintain current energy consumption habits",
+            "To adopt sustainable practices in daily lives, like reducing energy consumption and using public transportation",
+            "To increase personal vehicle use",
+            "To disregard environmental impact"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-296",
+          "prompt": "What do \"Community-Based Renewable Energy Projects\" allow citizens to do?",
+          "answers": [
+            "To only consume energy from traditional sources",
+            "To participate in and benefit from local renewable energy projects like solar or wind farms",
+            "To increase reliance on fossil fuels",
+            "To prevent local energy independence"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-297",
+          "prompt": "What does \"Advocacy and Awareness\" from citizens involve?",
+          "answers": [
+            "Ignoring climate change impacts",
+            "Raising awareness about climate change and advocating for sustainable practices",
+            "Promoting climate denial",
+            "Limiting public discussions on environmental issues"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-298",
+          "prompt": "What is the purpose of \"Local Policy Engagement\" communities?",
+          "answers": [
+            "To oppose local climate initiatives",
+            "To actively participate in local governance and advocate for policies that support carbon emission reduction",
+            "To promote top-down policy decisions",
+            "To limit community involvement in policy"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-299",
+          "prompt": "What does \"Decommissioning of High-emission Assets\" refer to?",
+          "answers": [
+            "Expanding high-emission facilities",
+            "Encouraging the retirement or conversion of high-emission facilities",
+            "Maintaining old infrastructure",
+            "Ignoring environmental impact of assets"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-300",
+          "prompt": "What does \"R&D Funding\" support in climate action?",
+          "answers": [
+            "Research into fossil fuel technologies",
+            "Scientific research and development of new technologies to reduce carbon emissions",
+            "Outdated technologies",
+            "Technologies that increase emissions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-301",
+          "prompt": "What is the purpose of \"Land Use and Forestry Policies\"?",
+          "answers": [
+            "To encourage deforestation",
+            "Afforestation initiatives, providing incentives for planting trees and preserving forests",
+            "Conversion of forests to agriculture",
+            "Reducing conservation efforts"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-302",
+          "prompt": "What does \"Adaptation and Resilience Funding\" allocate funds for?",
+          "answers": [
+            "Increasing vulnerability to climate change",
+            "Adapting to climate impacts and building resilient infrastructure",
+            "Funding new fossil fuel projects",
+            "Promoting climate-related disasters"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-303",
+          "prompt": "What does \"Circular Economy Policies\" encourage?",
+          "answers": [
+            "Increased waste and pollution",
+            "Policies to reduce waste and promote recycling and circular economy practices",
+            "A linear economy model",
+            "Over-consumption of resources"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-304",
+          "prompt": "What is \"Behavioral Change\" considered in carbon emission reduction?",
+          "answers": [
+            "Irrelevant",
+            "A very important and often underestimated strategy",
+            "A short-term solution",
+            "A solely technological approach"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-305",
+          "prompt": "How does \"Education and Awareness\" support behavioral change?",
+          "answers": [
+            "By limiting public knowledge",
+            "By developing public awareness campaigns and integrating environmental education into school curricula",
+            "By promoting climate denial",
+            "By discouraging individual action"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-306",
+          "prompt": "What do \"Community-Based Initiatives\" encourage?",
+          "answers": [
+            "Individualism in environmental action",
+            "Local communities to organize and participate in sustainability projects",
+            "Top-down environmental mandates",
+            "Passive engagement in climate action"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-307",
+          "prompt": "What is the definition of \"Weather\"?",
+          "answers": [
+            "The average atmospheric conditions over a long period",
+            "The way the atmosphere behaves minute-to-minute, hour-to-hour, and day-to-day",
+            "Long-term climate trends",
+            "Changes in global temperature"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-308",
+          "prompt": "What is \"Climate\"?",
+          "answers": [
+            "The weather on a specific day",
+            "The weather in a specific area over a long period of time, usually 30 years or more",
+            "Short-term atmospheric phenomena",
+            "Daily temperature fluctuations"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-309",
+          "prompt": "What is the difference between weather and climate?",
+          "answers": [
+            "Weather is long-term, climate is short-term",
+            "Weather is short-term conditions, climate is long-term average conditions",
+            "They are the same thing",
+            "Weather refers to global patterns, climate to local ones"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-310",
+          "prompt": "What is \"Global Warming or Climate Change\"?",
+          "answers": [
+            "A natural phenomenon with no human influence",
+            "A phenomenon characterized by a general increase in average temperatures of the Earth",
+            "A localized weather event",
+            "A decrease in global temperatures"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-311",
+          "prompt": "What is the \"Greenhouse Effect\"?",
+          "answers": [
+            "The cooling of the Earth's atmosphere",
+            "The heating of the Earth's surface due to the absorption of outgoing infrared or thermal radiation by atmospheric greenhouse gases",
+            "A process that reduces atmospheric gases",
+            "The reflection of sunlight away from Earth"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-312",
+          "prompt": "What makes Earth habitable?",
+          "answers": [
+            "The absence of greenhouse gases",
+            "The natural greenhouse effect",
+            "Extreme cold temperatures",
+            "High atmospheric pressure"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-313",
+          "prompt": "What is the \"Enhanced Greenhouse Effect\"?",
+          "answers": [
+            "A natural phenomenon",
+            "An increase in the heating of the Earth's atmosphere due to human activities",
+            "A decrease in global temperatures",
+            "A localized weather phenomenon"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-314",
+          "prompt": "What is the current global average temperature increase above pre-industrial levels?",
+          "answers": [
+            "0.8° Celsius",
+            "1.1° Celsius",
+            "1.5° Celsius",
+            "3.2° Celsius"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-315",
+          "prompt": "What is the estimated increase in average temperature 2100 if no action is taken?",
+          "answers": [
+            "1.5°C to 3.4°C",
+            "34.7°F to 41.5°F",
+            "Both a and b are correct",
+            "Less than 1.0°C"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-316",
+          "prompt": "What are \"Fossil Fuels\"?",
+          "answers": [
+            "Renewable energy sources",
+            "Carbon-intensive fuels that release CO2​ and other greenhouse gases when burned",
+            "Fuels that produce no emissions",
+            "Only natural gas"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-317",
+          "prompt": "What is considered one of the largest sources of CO2​ emissions globally?",
+          "answers": [
+            "Oil",
+            "Natural Gas",
+            "Coal combustion",
+            "Hydroelectric power"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-318",
+          "prompt": "What is a major source of oil-related carbon emissions?",
+          "answers": [
+            "Residential heating",
+            "Transportation (cars, trucks, airplanes, ships)",
+            "Electricity generation",
+            "Industrial processes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-319",
+          "prompt": "Is natural gas considered a cleaner-burning fossil fuel compared to coal and oil?",
+          "answers": [
+            "No, it releases more pollutants",
+            "Yes, it generally produces fewer carbon emissions per unit of energy",
+            "It has no environmental impact",
+            "It only releases methane"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-320",
+          "prompt": "What is \"Carbon Literacy\"?",
+          "answers": [
+            "Understanding only the economic impacts of carbon",
+            "Understanding the carbon footprint associated with human activities and the ability to make informed choices to reduce that footprint",
+            "Knowledge about fossil fuels",
+            "Technical skills for carbon capture"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-321",
+          "prompt": "Why is Carbon Literacy crucial for mitigating climate change?",
+          "answers": [
+            "It discourages individual action",
+            "It empowers individuals to make informed decisions and contribute to sustainable practices",
+            "It promotes environmental indifference",
+            "It limits access to information"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-322",
+          "prompt": "What does Carbon Literacy foster?",
+          "answers": [
+            "Disregard for environmental issues",
+            "Environmental awareness",
+            "Increased carbon emissions",
+            "Apathy towards sustainability"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-323",
+          "prompt": "What is the role of Technocrats in climate action?",
+          "answers": [
+            "To ignore scientific principles",
+            "To provide scientific input and technical analysis to help policymakers",
+            "To promote unscientific solutions",
+            "To hinder technological advancements"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-324",
+          "prompt": "What does \"Technology Development and Innovation\" for Technocrats involve?",
+          "answers": [
+            "Discouraging new technologies",
+            "Developing and advancing technologies that contribute to carbon emission reduction",
+            "Focusing solely on traditional methods",
+            "Limiting research efforts"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-325",
+          "prompt": "What is \"Monitoring and Assessment\" for Technocrats?",
+          "answers": [
+            "Ignoring environmental impacts",
+            "Monitoring and assessing the environmental impact of various projects and policies",
+            "Promoting inaccurate data",
+            "Limiting the use of scientific methods"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-326",
+          "prompt": "What is the contribution of \"Climate Finance Mechanisms\" Donor Agencies?",
+          "answers": [
+            "To increase fossil fuel investments",
+            "To support climate change mitigation and adaptation projects, especially in developing countries",
+            "To limit financial assistance to developing nations",
+            "To discourage renewable energy projects"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-327",
+          "prompt": "What is the role of the \"Green Climate Fund (GCF)\"?",
+          "answers": [
+            "To promote unsustainable development",
+            "A financial mechanism under the UNFCCC that supports developing countries in their efforts to mitigate and adapt to climate change",
+            "To fund fossil fuel exploration",
+            "To limit technology transfer"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-328",
+          "prompt": "What does \"Carbon Disclosure Project (CDP)\" do?",
+          "answers": [
+            "Encourages companies to hide their environmental impact",
+            "Works with companies and cities to disclose their environmental impact and compare their performance",
+            "Promotes increased carbon emissions",
+            "Focuses solely on financial reporting"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-329",
+          "prompt": "What is the role of \"Global Green Growth Institute (GGGI)\"?",
+          "answers": [
+            "To promote unsustainable economic growth",
+            "To support governments and the private sector in developing and implementing green growth strategies",
+            "To limit international cooperation",
+            "To focus solely on traditional development models"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-330",
+          "prompt": "What does the \"International Renewable Energy Agency (IRENA)\" promote?",
+          "answers": [
+            "The adoption of non-renewable energy globally",
+            "The adoption of renewable energy globally",
+            "The reduction of energy efficiency",
+            "The increased reliance on fossil fuels"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-331",
+          "prompt": "What does \"Policy Analysis\" for Academics involve?",
+          "answers": [
+            "Ignoring existing climate policies",
+            "Analyzing existing and proposed policies related to carbon emission reduction",
+            "Promoting policies that increase emissions",
+            "Limiting scientific input in policy-making"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-332",
+          "prompt": "What is the role of \"Education and Training\" for Academic Institutions?",
+          "answers": [
+            "To limit knowledge dissemination",
+            "To educate the next generation of leaders and professionals in climate change and sustainability",
+            "To discourage research in environmental science",
+            "To promote outdated practices"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-333",
+          "prompt": "What is \"Capacity Building\" in Academia?",
+          "answers": [
+            "Reducing skills and knowledge",
+            "Engaging in initiatives to enhance the skills and knowledge of individuals involved in carbon emission reduction",
+            "Promoting dependence on external experts",
+            "Limiting practical experience"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-334",
+          "prompt": "What does \"Technology Transfer\" from Academia facilitate?",
+          "answers": [
+            "The suppression of new technologies",
+            "The transfer of new technologies to industries, governments, and communities",
+            "The promotion of outdated technologies",
+            "The limiting of technological advancement"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-335",
+          "prompt": "What does \"Partnerships and Collaboration\" for Academic Institutions foster?",
+          "answers": [
+            "Isolation in research",
+            "Interdisciplinary approaches to carbon emission reduction through collaborations",
+            "Competition without collaboration",
+            "Limited stakeholder involvement"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-336",
+          "prompt": "What are \"Demonstration Projects\" in Academia used for?",
+          "answers": [
+            "To showcase failed sustainable practices",
+            "To serve as testbeds for implementing sustainable practices and demonstrating benefits",
+            "To discourage renewable energy technologies",
+            "To promote energy-inefficient building designs"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-337",
+          "prompt": "What do \"Carbon Footprint Assessments\" from Academia involve?",
+          "answers": [
+            "Ignoring environmental impact",
+            "Measuring and reducing environmental impact through various initiatives",
+            "Increasing carbon emissions",
+            "Focusing only on economic aspects"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-338",
+          "prompt": "What is the role of \"Advocacy and Public Awareness\" from Academic Institutions?",
+          "answers": [
+            "To promote climate denial",
+            "To contribute to public awareness and advocacy on climate change issues",
+            "To limit public engagement",
+            "To discourage environmental research"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-339",
+          "prompt": "What are \"Interdisciplinary Research Centers\" in Academia?",
+          "answers": [
+            "Centers that focus on single disciplines",
+            "Centers focused on sustainability and climate change, bringing together experts from various disciplines",
+            "Centers that promote isolated research efforts",
+            "Centers that discourage collaboration"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-340",
+          "prompt": "What is \"Net Zero\" in the context of emissions?",
+          "answers": [
+            "Releasing more emissions than are removed",
+            "Achieving a balance where any emissions released are offset by removals",
+            "Ignoring emissions altogether",
+            "Focusing only on reducing emissions, not removals"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-341",
+          "prompt": "What are the \"Three Scopes of Emissions\" for an organizational carbon footprint?",
+          "answers": [
+            "Direct, Indirect from purchased energy, Other indirect",
+            "Only direct emissions",
+            "Only indirect emissions",
+            "Emissions from personal transportation"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-342",
+          "prompt": "What do \"Scope 1 Emissions\" include?",
+          "answers": [
+            "Emissions from purchased electricity",
+            "Direct fuel combustion from company-owned or controlled sources",
+            "Emissions from employee commuting",
+            "Emissions from product use"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-343",
+          "prompt": "What do \"Scope 2 Emissions\" include?",
+          "answers": [
+            "Emissions from personal vehicles",
+            "Emissions from purchased electricity, heat, or steam",
+            "Emissions from industrial processes",
+            "Emissions from waste generation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-344",
+          "prompt": "What do \"Scope 3 Emissions\" cover?",
+          "answers": [
+            "Direct emissions from company operations",
+            "All other indirect emissions in the value chain, like from suppliers, transportation, and product use",
+            "Emissions from onsite renewable energy",
+            "Emissions from energy efficiency"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-345",
+          "prompt": "What is the first step in \"Data Collection\" for an organizational carbon footprint?",
+          "answers": [
+            "Estimating emissions without data",
+            "Gathering data on energy consumption, transportation, waste generation, and other relevant activities",
+            "Ignoring past data",
+            "Focusing only on financial data"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-346",
+          "prompt": "What do \"Emission Factors\" help to do in carbon footprint calculations?",
+          "answers": [
+            "Increase data complexity",
+            "Assign emission factors to each activity based on the amount of greenhouse gases generated",
+            "Reduce the accuracy of calculations",
+            "Ignore the type of energy source"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-347",
+          "prompt": "How are \"Calculations\" performed for an organizational carbon footprint?",
+          "answers": [
+            "By only considering Scope 1 emissions",
+            "By multiplying activity data by corresponding emission factors for each scope and summing them up",
+            "By using estimations only",
+            "By excluding Scope 3 emissions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins104-348",
+          "prompt": "What is \"Normalization\" in carbon footprint reporting?",
+          "answers": [
+            "Presenting raw data without context",
+            "Expressing emissions per unit of production, revenue, or other relevant metrics",
+            "Making data more complex",
+            "Hiding negative trends in emissions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

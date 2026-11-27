@@ -1,0 +1,5265 @@
+{
+    "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Mathematics",
+  "course": {
+    "code": "MTH 102",
+    "title": "Calculus and Trigonometry"
+  },
+    "questions": [
+        {
+          "id": "mth102-001",
+          "prompt": "Who proved the equation eIθ = Cos θ + Isin θ",
+          "answers": [
+            "John Euler",
+            "Leonard Euler",
+            "Algebra",
+            "None"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-002",
+          "prompt": "Convert 30.5220 to DMS",
+          "answers": [
+            "3003112011",
+            "3003213311",
+            "300520211",
+            "3003111911"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-003",
+          "prompt": "Convert 200151811 to degree",
+          "answers": [
+            "20.2520",
+            "25.200",
+            "20.520"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-004",
+          "prompt": "Convert -20.2250 to DMS",
+          "answers": [
+            "2001313011",
+            "2003113011",
+            "2001313011",
+            "-2003011311 2π"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-005",
+          "prompt": "Convert rad to degree 3",
+          "answers": [
+            "600",
+            "1200",
+            "1800",
+            "450"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-006",
+          "prompt": "Which of the following is not among the trigonometry Identity?",
+          "answers": [
+            "Sin2 θ + Cos 2 θ = 1",
+            "1 + Cot 2 θ = Sin2 θ",
+            "1 + tan2 θ = Sec 2 θ",
+            "1 + Cot 2 θ = Cosc 2 θ 3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-007",
+          "prompt": "√ 1+tan2 θ equals",
+          "answers": [
+            "Cot θ",
+            "Tan θ",
+            "Sin θ",
+            "Sec θ 1+tanx"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-008",
+          "prompt": "equals 1+tanx",
+          "answers": [
+            "tan x",
+            "s in x",
+            "cos x",
+            "sec x 1+tan2 θ"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-009",
+          "prompt": "√ 1+cot 2 θ equals",
+          "answers": [
+            "tanθ",
+            "cotθ",
+            "sinθ",
+            "secθ"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-010",
+          "prompt": "cos2α Equals one of the following except?",
+          "answers": [
+            "cos 2 α + sin2 α",
+            "cos 2 α − sin2 α",
+            "1 − 2sin2 α",
+            "2cos 2 α − 1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-011",
+          "prompt": "Cos(-θ) equals",
+          "answers": [
+            "cosθ",
+            "– cosθ",
+            "sinθ",
+            "−sinθ"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-012",
+          "prompt": "Simplify tanθ if tanθ+tan30 1−tanθtan30 = −1",
+          "answers": [
+            "2-√3",
+            "-2-√3",
+            "6-√3",
+            "6+√3 a (a) 30.960 (b) 350 (c) 600 (d) 750"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-013",
+          "prompt": "Sin−1 equals? a a",
+          "answers": [
+            "14.48c",
+            "0.253c",
+            "-1.25c"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-014",
+          "prompt": "tan−1 (−3) equals?",
+          "answers": [
+            "-71.57c",
+            "71.57c",
+            "-1.249c"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-015",
+          "prompt": "Find the (R) in the equation 2sinx + 2cosx = √3",
+          "answers": [
+            "√2",
+            "2",
+            "√8",
+            "8 a"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-016",
+          "prompt": "Use table to find the values of θ between 00 and 3600 which satisfy Sinθ = −0.9336",
+          "answers": [
+            "1170 and 2430",
+            "49.620 and 229.620",
+            "2490 and 2910",
+            "1170 and 2490"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-017",
+          "prompt": "Find the value of θ between 00 and 3600 which satisfy the equation 4cos 2 θ − 3=0",
+          "answers": [
+            "00, 300, 2100 and 3300",
+            "300, 1500, 2100 and 3300",
+            "300, 2100, 160.530 and 3300",
+            "300, 1600, 2100 and 1200 1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-018",
+          "prompt": "If sinθ= , 00<θ<4500. Find the possible 2 values of θ.",
+          "answers": [
+            "00, 300, 1500",
+            "300, 1500, 4500",
+            "300, 1500, 3500",
+            "600, 1450, 2500"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-019",
+          "prompt": "Find the values of θ, 00≤ θ ≤ 3600 which satisfy the equation 8sin2 θ + 6cosθ − 9 = 0",
+          "answers": [
+            "300, 600, 750, 3000",
+            "300, 2800, 3000, 3300",
+            "600, 75.520, 284.80, 3000",
+            "600, 750, 2850, 3000"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-020",
+          "prompt": "Find all values of θ between 00 and 3600 which satisfy the equation 4sinθcosθ + 2cosθ − 2√3sinθ − √3 = 0",
+          "answers": [
+            "00, 2100 and 3600",
+            "300, 2100 and 3000",
+            "300, 2100 and 3300",
+            "300, 1850, 3300 3π"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-021",
+          "prompt": "If cos3x + √3sin3x = √3, 0 ≤ x ≤ 1800 . Find the value of ’x’ π π",
+          "answers": [
+            "(1 + 4n)",
+            "(1 − 4n)",
+            "π 16 6 16 π (1 + 4n)",
+            "(1 + 4n) 3 2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-022",
+          "prompt": "If tanθ = . Find cos2θ",
+          "answers": [
+            "7 25",
+            "4 25 7 3 5 5 3",
+            "(d)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-023",
+          "prompt": "If asinθ + bcosθ = √p and acosθ − bsinθ = √q. Evaluate √(p + q)",
+          "answers": [
+            "√ab",
+            "√(a2 + b2 )",
+            "ab",
+            "a2 + b2 π"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-024",
+          "prompt": "If α and β are acute angles and 8 3 cosα = and tanβ = . Find 17 value of x.",
+          "answers": [
+            "1",
+            "-1",
+            "2",
+            "-2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-025",
+          "prompt": "If tan(A + B) = , tanA = . Find tan B",
+          "answers": [
+            "−2 11",
+            "2",
+            "11 1 4 11"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-026",
+          "prompt": "If t = tan θ; sinθ equals c+a 2",
+          "answers": [
+            "2t 1−t 2 1+t 2",
+            "1−t 2",
+            "2t 1+t 2",
+            "1−t 2 1+t 2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-027",
+          "prompt": "If tanθ = where θ is acute angle. Evaluate",
+          "answers": [
+            "240 119 15 sin2θ ? cosθ−sin 119 240",
+            "240",
+            "289",
+            "7 17"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-028",
+          "prompt": "Cos4A equals?",
+          "answers": [
+            "8cos 2 A − 8cos 2 A + 1",
+            "8cos 3 A − 8cos 2 A + 1",
+            "8cos 4 A + 8cos 2 A + 1",
+            "8cos 4 A − 8cos 2 A + 1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-029",
+          "prompt": "Given that θ + ∅ = 450 . (1 + tanθ)(1 + tan∅) equals",
+          "answers": [
+            "1",
+            "2",
+            "3",
+            "4 Write each of the following as sum of two trigonometric ratios:"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-030",
+          "prompt": "Sin19xCos13x 1 1",
+          "answers": [
+            "(cos32x + 6x)",
+            "(sin32x + 2 2 1 6x)",
+            "(−sin32x + 16x)",
+            "1 2 2 (sin32x − 16x)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-031",
+          "prompt": "Cos17xSin5x 1 1",
+          "answers": [
+            "(32x + Sin2x)",
+            "(32x − 2 3 1 Sin2x)",
+            "(32x − Sin2x) 1 2 2 1 (cos24x − cosx) (c) (cos24x + cosx) 2 = b−c b+c A−C 2 2 = a+c c−a A C−A 2 2 c cot (b) tan A−B cot 2 c = a−b a+b = cot",
+            "2 2 Write each of the following as products of trigonometric ratios:"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-032",
+          "prompt": "sin16x + sin14x",
+          "answers": [
+            "2sin15xcosx",
+            "sin15xcos2x",
+            "2cos15xsinx"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-033",
+          "prompt": "sin14x − sin12x",
+          "answers": [
+            "2cos13xcosx",
+            "2cos13xsinx",
+            "2sin13xsinx"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-034",
+          "prompt": "cos14x + cos12x",
+          "answers": [
+            "2cos3xcosx",
+            "2sin13xsinx",
+            "2cos13xcosx"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-035",
+          "prompt": "cos18x − cos12x",
+          "answers": [
+            "−2sin15xcos3x",
+            "−3sin15xsin2x",
+            "−2sin15xsin3x"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-036",
+          "prompt": "Find the value of α for 00 ≤ α ≤ 3600 in the equation cosecαtanα = α 1, using the substitution tan = t 2",
+          "answers": [
+            "900",
+            "1800",
+            "450",
+            "3600"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-037",
+          "prompt": "Find ’a’ and ’b’ respectively",
+          "answers": [
+            "2, 3",
+            "1, √3",
+            "√3, 1",
+            "3, 2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-038",
+          "prompt": "Find ’R’",
+          "answers": [
+            "3",
+            "√3",
+            "2",
+            "√2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-039",
+          "prompt": "Find the value of ’x’ π π",
+          "answers": [
+            "(1 + 4n)",
+            "(1 + 12n)",
+            "π 2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-040",
+          "prompt": "sin2θ+cosθ 2sin2 θ+cosθ equals",
+          "answers": [
+            "tanθ",
+            "cotθ",
+            "secθ",
+            "0 3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-041",
+          "prompt": "If sinA = 6 10 and cosB = 8 . Find 10 sin(A+B) and cos(A-B) respectively.",
+          "answers": [
+            "1, 24 25",
+            "24 25 , -1",
+            "24 25 , 1",
+            "25 24 ,1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-042",
+          "prompt": "Express 1 + 8sin2 θ in terms of cosθ?",
+          "answers": [
+            "9 − 8cos 2 θ",
+            "8 − 9cos 2 θ",
+            "9 + 8cos 2 θ",
+            "8 + 9cos 2 θ"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-043",
+          "prompt": "If tanA = √2 + 1, find sec 2 A – 2",
+          "answers": [
+            "2 + 2√2",
+            "2 - 2√2",
+            "4 + 2√2",
+            "4 - 2√2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-044",
+          "prompt": "In a triangle ABC, <A=530, sides b and c are 4.2cm and 3.5cm respectively. Find the area of ABC",
+          "answers": [
+            "5.87",
+            "6.87",
+            "10.78",
+            "0"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-045",
+          "prompt": "In triangle ABC, a=7m, b=4m, c=5m, A=250, find C and the areas.",
+          "answers": [
+            "C=17.570 Area=4.23m2",
+            "C=20.570 Area=4.23m2",
+            "C=15.570 Area= - 4.23m2",
+            "C= - 17.570 Area=4.23m2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-046",
+          "prompt": "In a triangle ABC, a=10, b=6, c=12. Find the angles and area?",
+          "answers": [
+            "A=56.250 B=29.930 C=93.820 Area=29.93m2",
+            "A=56.300 B=20.930 C=98.820 Area=39.93m2",
+            "A=56.250 B=29.930 C=700 Area=29.93m2",
+            "A=45.990 B=29.930 C=93.820 Area=29.93m2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-047",
+          "prompt": "Simplify cos 4 θ − sin4 θ",
+          "answers": [
+            "sin2 θ",
+            "cos2 θ",
+            "tan2 θ",
+            "cot2 θ"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-048",
+          "prompt": "If a+b+c a+b−c A B 2 2 = cot cot and a + b=18mm, A=720, B=460. Find angle C and the sides of the triangle.",
+          "answers": [
+            "C=700, a=10.24mm, b=7.75mm, c=9.51mm",
+            "C=620, a=10.24mm, b=7.75mm, c=9.51mm",
+            "C=620, a=10.24mm, b=7.75mm, c=2mm",
+            "C=620, a=4.00mm, b=7.75mm, c=9.51mm"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-049",
+          "prompt": "Given that in triangle ABC, a=5, b=3, c=6. Find angle A and the area of triangle ABC.",
+          "answers": [
+            "A=60.000, 7.4833 Sq Unit",
+            "A=56.500, 6.988 Sq Unit",
+            "A=56.250,"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-050",
+          "prompt": "In a triangle ABC, a=7, b=6, c=5. Find angle B and the area of ABC.",
+          "answers": [
+            "B=57.120, Area=14.7cm2",
+            "B=60.120, Area=14.7cm2",
+            "B=52.120, Area=14.7cm2",
+            "B=57.120, Area=12.7cm2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-051",
+          "prompt": "Simplify tan62−tan17 1+tan62tan17",
+          "answers": [
+            "1",
+            "2",
+            "3",
+            "4 π"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-052",
+          "prompt": "In first quadrant tanθ is _______?",
+          "answers": [
+            "positive",
+            "negative",
+            "∞",
+            "0"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-053",
+          "prompt": "Which is correct cos −1 x",
+          "answers": [
+            "±cos −1 x + 2nπ",
+            "±cos −1 x + nπ",
+            "±cos −1 x + 4nπ",
+            "cos −1 x + 2nπ"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-054",
+          "prompt": "Which of these is true about cos ( A B 2 A+B 2 A+B A B 2 2 2 )",
+          "answers": [
+            "cos + cos",
+            "sin + sin",
+            "sin ( 2 )",
+            "s inc 2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-055",
+          "prompt": "If cosθ > 0 and sinθ < 0, then",
+          "answers": [
+            "00 < θ < 900",
+            "1800 < θ < 2700",
+            "900 < θ < 1800",
+            "2700 < θ < 3600"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-056",
+          "prompt": "1 + sec 2 60 is",
+          "answers": [
+            "2",
+            "4",
+            "none",
+            "0"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-057",
+          "prompt": "2 tanθ−secθ is equal to _________? tanθsecθ",
+          "answers": [
+            "cosθ − cotθ",
+            "tanθ − cotθ",
+            "cosθ − tanθ",
+            "secθ − tanθ m"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-058",
+          "prompt": "If tanθ = y. Find cos2θ in terms of y",
+          "answers": [
+            "1−y 2 1+y 2 y2 1+y 1−y 1+y",
+            "2",
+            "2",
+            "2 1 2 0 y2 −√3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-059",
+          "prompt": "If sinθ = and cosθ = 0 1+y 2 2 . θ is? 0",
+          "answers": [
+            "30",
+            "60",
+            "150",
+            "1200 1 1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-060",
+          "prompt": "1 If sinθ = and 00 < θ < 900 . cos 2 θ tan(900 −θ) 2 is",
+          "answers": [
+            "4√3",
+            "4 √3",
+            "√3 4",
+            "√3 2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-061",
+          "prompt": "cos(π + x) is equivalent to _________ in radian",
+          "answers": [
+            "cos x",
+            "–cos x",
+            "s in x",
+            "–s in x"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-062",
+          "prompt": "Find the value of sin 2α if tanβ = 12 and sin α = 5",
+          "answers": [
+            "25",
+            "65",
+            "65",
+            "35 dy x2 y2 a2 x −a 2 x −b2 x b2 x"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-063",
+          "prompt": "Find dx,if a2 + b2 = 1",
+          "answers": [
+            "b2 y",
+            "−a2 x",
+            "a2 y",
+            "a2 y"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-064",
+          "prompt": "Find the value of cos 22.5 in surd form?",
+          "answers": [
+            "√(√2−1) 2",
+            "√(2+√2)",
+            "2 √(2−√2) 2 3−√3 3+√3 −3−√3 3−√3 √ √ √ √ (√2−2) 2",
+            "√"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-065",
+          "prompt": "Find the value of 195° in surd form",
+          "answers": [
+            "−3+ 3",
+            "3− 3",
+            "3+ 3",
+            "3+ 3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-066",
+          "prompt": "Find the value of sin 22.5° in surd form",
+          "answers": [
+            "π 4 √2+√2 2",
+            "√√2−1 √2−√2 −√√2−2",
+            "2",
+            "2 2 1 6 −1 1 −1 (c) ,1 (d)1, 6 6 6"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-067",
+          "prompt": "If cos3x + √3sin3x = √3, 0 ≤ x ≤ 180° find the value of x",
+          "answers": [
+            "16 (1 + 4n)",
+            "2 (1 + 4n)",
+            "3 + 6 + π π 2nx",
+            "- 3 − 6 + 2nπ"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-068",
+          "prompt": "∫ 3 dx",
+          "answers": [
+            "ln(10x 3 + 3) + C",
+            "ln(10x 3 + 3) + C",
+            "ln(10x 3 + 3) + C",
+            "ln(10x 3 + 10x +3 6 3 2 3x) + C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-069",
+          "prompt": "∫ 6x−4 dx",
+          "answers": [
+            "3x − 4 + C",
+            "3 ln3x − 4",
+            "3 ln6x − 4",
+            "2ln6x − 4 1+cosθ"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-070",
+          "prompt": "if cosθ = b , tℎen tan2 θ is",
+          "answers": [
+            "a2",
+            "a2",
+            "b2",
+            "a2 +c 2 sinA+cosA 1 1 1 1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-071",
+          "prompt": "Simplify cos4 A−sin4 A",
+          "answers": [
+            "sinAcosA",
+            "cosA−sinA",
+            "sinA+cosA",
+            "sinA"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-072",
+          "prompt": "Given y = x 3 − 6x 2 + 2x Find the inflection point",
+          "answers": [
+            "(-2,-12)",
+            "(2,12)",
+            "(-12,-10)",
+            "(2,-12)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-073",
+          "prompt": "∫ 5x 2 10x 3 +3 dx",
+          "answers": [
+            "ln(10x 3 + 3) + C 1",
+            "ln(10x 3 + 3) + C 6 5",
+            "ln(10x 3 + 3) + C 3 1",
+            "ln(10x 3 + 3x) + C 2"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-074",
+          "prompt": "Evaluate lim(x 2 − 1) x→1",
+          "answers": [
+            "1",
+            "-1",
+            "2",
+            "-2 tanx"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-075",
+          "prompt": "The limits of a constant is ________?",
+          "answers": [
+            "1",
+            "0",
+            "∞",
+            "the constant Evaluate lim(6x 3 − 3x 2 + 5x + 7) x→0 (a) 7 (b) -7 (c) 10 (d) 0"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-076",
+          "prompt": "x 2 −x−6 Evaluate lim [ x−3 ] x→3",
+          "answers": [
+            "3",
+            "-3",
+            "5",
+            "-5"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-077",
+          "prompt": "sin x Evaluate lim [ x ] x→0",
+          "answers": [
+            "0",
+            "1",
+            "∞",
+            "10"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-078",
+          "prompt": "log x e Evaluate lim ( x−1 ) x→1",
+          "answers": [
+            "1",
+            "-1",
+            "2",
+            "-2 sin ℎx"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-079",
+          "prompt": "Evaluate lim ( x x→0 ) 1",
+          "answers": [
+            "1",
+            "-1",
+            "∞",
+            "2 x"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-080",
+          "prompt": "Evaluate lim √x 2 x→0",
+          "answers": [
+            "0",
+            "1",
+            "-1",
+            "2 1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-081",
+          "prompt": "Evaluate lim x ∙ (sin x) x→0",
+          "answers": [
+            "0",
+            "1",
+            "-1",
+            "-2 2x 2 +4x−3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-082",
+          "prompt": "Evaluate lim 5x 2 −6x+1 1 x→∞ 5 2",
+          "answers": [
+            "2",
+            "2",
+            "2",
+            "5 x+sinx"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-083",
+          "prompt": "Evaluate lim 2x−sinx x→0",
+          "answers": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-084",
+          "prompt": "Evaluate lim x 2 sinx x→π π",
+          "answers": [
+            "π",
+            "–π",
+            "2",
+            "0 x 2 −4"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-085",
+          "prompt": "Evaluate lim x 2 +5x+6 x→2",
+          "answers": [
+            "0",
+            "4",
+            "-4",
+            "none x 2 +2x+1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-086",
+          "prompt": "Evaluate lim x 2 +3x+2 x→−1",
+          "answers": [
+            "0",
+            "1",
+            "-1",
+            "2 1 ] ℎ) (a) 0 (b) -1 (c) -6 (d) 6"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-087",
+          "prompt": "Determine whether or not the function f(x) =4x 3 + 3x 2 + 5x − 2 is continuous",
+          "answers": [
+            "It is continuous",
+            "It is not continuous",
+            "It can’t be determined x 2 −4"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-088",
+          "prompt": "Discuss the continuity of the function x 2 −x−2",
+          "answers": [
+            "Continuous",
+            "discontinuous",
+            "removable continuous"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-089",
+          "prompt": "Evaluate lim ( x→0 x→∞ t2 1 5 x 3 +5x 2 +3x+2 √t 2 +9−3",
+          "answers": [
+            "0",
+            "-2",
+            "2",
+            "6 −13 Evaluate lim x−3 Evaluate lim [ x→π (a) 0 (b) π (c) – π (d) π 2 t→0 (a) 0 (b) 6 (c) 3 (d) None"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-090",
+          "prompt": "Discuss the continuity of f(x) = x−1 at x=1",
+          "answers": [
+            "continuous",
+            "discontinuous",
+            "removable continuous",
+            "removable discontinuous"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-091",
+          "prompt": "Find the points of the discontinuity of the x−3 function; f(x) = x 2 +x−6",
+          "answers": [
+            "1, 0",
+            "-2, -3",
+            "3, 1",
+            "2, -3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-092",
+          "prompt": "Find the derivative of y = 5√x",
+          "answers": [
+            "5 √x 5 5 25 √ √ √",
+            "2 x",
+            "3 x",
+            "2 x"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-093",
+          "prompt": "Find the derivative of y = 3 √x 2",
+          "answers": [
+            "−8 2 3 √x 5 dy",
+            "−8",
+            "3 3 √x 2 2 3 −8 3 3 √x 5 2",
+            "−5 3 −5 3 √x 5 (a) 2x 2 + 12x − 7 (b) 2x 2 + 12x − 8 (c) 3x 2 + 12x − 7 (d) x 2 + 12x − 7"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-094",
+          "prompt": "Differentiate 2cosx+5sinx",
+          "answers": [
+            "cosx-2sinx",
+            "2cosx-5sinx",
+            "5cosx2sinx",
+            "cosx - sinx"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-095",
+          "prompt": "Differentiate e3x",
+          "answers": [
+            "3ex",
+            "3e2x",
+            "3e3x",
+            "none"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-096",
+          "prompt": "Differentiate y=x2+3 from the first principle",
+          "answers": [
+            "2x",
+            "2",
+            "0",
+            "2x+3x 3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-097",
+          "prompt": "Differentiate y = 18 x with respect to x. 5 5 3 6 5",
+          "answers": [
+            "x 2",
+            "x 2",
+            "x 2 6"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-098",
+          "prompt": "Find the derivative of y = 5 x 2 −3x+1 x2 with respect to x 2 3",
+          "answers": [
+            "x 2 − x 3",
+            "x 2 − x 3",
+            "3x −2 + 2x 2",
+            "2x 2 − 3x 3 dy"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-099",
+          "prompt": "If y = (px + q)n , find dx",
+          "answers": [
+            "np(px + q)n−1",
+            "n(px + q)n−1",
+            "n(px − q)n−1",
+            "np(px − q)n−1 dy"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-100",
+          "prompt": "Find dx ; If y = x 3 cosx 2 2",
+          "answers": [
+            "3x sinx − x cos x",
+            "3x cosx − x 3 sin x",
+            "3x 2 cotx − x 3 tan x 1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-101",
+          "prompt": "If y = √3+x 2, find y1",
+          "answers": [
+            "3 (3+x 3 )2 x",
+            "3",
+            "(3+x 2 )2 4sinx 3 (3+x 2 )2 sinx 4sinx (a) cosx (b) 4cosx (c) 3−cosx",
+            "4cosx"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-102",
+          "prompt": "dy x+2 Find dx |x = 5 if y = x−2 4 −4 9 −9",
+          "answers": [
+            "9",
+            "9",
+            "4",
+            "4 dy"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-103",
+          "prompt": "Find dx if y=cos6x",
+          "answers": [
+            "-6sin6x",
+            "-6sin2x",
+            "-6cos6x",
+            "-6sin2x dy"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-104",
+          "prompt": "Find dx If y = (3x 2 + 4)(1 + x) 4 4",
+          "answers": [
+            "3 + 6x − x",
+            "3 + 6x − x 2 (b) 3 + 6x − 4 4",
+            "3 + 6x + x 2 parabola are x = pt 2 , y = 2pt. dx =? 1 (a) t (b) t (c) 1",
+            "2 2at 2 2a dy"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-105",
+          "prompt": "If y = 1+t 2 , x = 1+t 2. Find dx ?",
+          "answers": [
+            "1",
+            "-1",
+            "0",
+            "None"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-106",
+          "prompt": "If y = sin3 (4x + 10).what is y1?",
+          "answers": [
+            "2(sin(4x + 10))2 cos(4x + 10)",
+            "(2(sin 12x + 10))2 cos(4x + 10)",
+            "2(sin(4x − 10))2 cos(4x-10)",
+            "2cos(4x10) dy"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-107",
+          "prompt": "If x = 1+t , y = 1+t . Find dx ? 1 1 −1 −1",
+          "answers": [
+            "5",
+            "5 t",
+            "5",
+            "5 t 2−3t −x"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-108",
+          "prompt": "Differentiate y=cos(5x - 4)",
+          "answers": [
+            "5sin(4x-4)",
+            "5sin(5x-4x)",
+            "-5sin(5x-4)",
+            "-4sin(5x+5)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-109",
+          "prompt": "Evaluate y = ln(3 − 4cosx) 4sinx 16(6x 2 −12x+2)",
+          "answers": [
+            "4Sint",
+            "-4Sint",
+            "4Cost",
+            "-4Cost 3 −x −16(6x 2 +12x−2) dy 6 (a) 18(3x-5) (b) 18(3x+5) (c) 18(3x-5) (d) 18(3x+5)5 2 −16(6x 2 −12x+2) (a) (2x 3 −6x 2 +2x+1)5 (b) (2x 3 +6x 2 −2x+1)5 (c)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-110",
+          "prompt": "Find the derivative of y = e 5x−1 with respect to x",
+          "answers": [
+            "5e 5x−1",
+            "5e 5x+1",
+            "6e 6x−1",
+            "6e 6x+1 4"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-111",
+          "prompt": "Evaluate y = (2x 3 −6x 2 +2x+1)5 x3 9 6 −5",
+          "answers": [
+            "−3x(x 2 + 1) 2",
+            "3x(x 2 − 1) 2",
+            "−6"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-112",
+          "prompt": "If x = 1+t and y= 1+t . Find dx ? 1 −1",
+          "answers": [
+            "5",
+            "5",
+            "5",
+            "-5 dy"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-113",
+          "prompt": "If x = at 2 and y = 2at. Find dx ? 1 1",
+          "answers": [
+            "t",
+            "t",
+            "a",
+            "a dy"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-114",
+          "prompt": "If x 2 + y 2 + 2bxy = 0, find dx ? by−x x+by",
+          "answers": [
+            "− [bx−y]",
+            "− [bx−y]",
+            "−by+x by−x",
+            "by+x − [bx+y]"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-115",
+          "prompt": "Differentiate x 4 + 4x 2 y 2 − 9 = 0 implicitly with respect to x −(x 2 +2y 2 )",
+          "answers": [
+            "x 2 +2y 2",
+            "2xy −x 2 +2y 2",
+            "2xy 2xy",
+            "x2 −b 2 x 2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-116",
+          "prompt": "If a = t + t and y = t + t. What is da? 2t−1 −2t+1 (3xcos3x)+(3cos3x)−sin3x",
+          "answers": [
+            "3t 2 −2t",
+            "3t 2 +2t",
+            "3t 2 +2t",
+            "3t 2 +2t (b)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-117",
+          "prompt": "Find the derivative of tan2x2?",
+          "answers": [
+            "tanx 2 sec 2 x",
+            "4xtan2 x 2 secx",
+            "4xtanx 2 sec 2 x 2",
+            "4xsinx 2 cotx 2 (c) −1 4 1 1 1 −4sin4x"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-118",
+          "prompt": "Differentiate Sin4x?",
+          "answers": [
+            "4cos3xsinx",
+            "4cosxsin2x",
+            "4sin3xcosx 3 3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-119",
+          "prompt": "Find dx , If x + y = 3xy? x 2 −y y−x 2 y+x 2",
+          "answers": [
+            "a2x+1logea",
+            "2a2x+1logea",
+            "2x+1logea",
+            "None dy"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-120",
+          "prompt": "If y = x 5 + 2x 4 − 4x 3 − 5x 2 + 8x − 3. Find y1 when x = - 1?",
+          "answers": [
+            "1",
+            "2",
+            "3",
+            "4 dy"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-121",
+          "prompt": "If y = xsinx − sin2 x. Find dx when x = π2",
+          "answers": [
+            "1",
+            "π",
+            "-1",
+            "- π"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-122",
+          "prompt": "If y = x sinx . Find y1?",
+          "answers": [
+            "x sinx [ sin2x + loge xcosx] x sinx sinx",
+            "x [ x + loge xcosx] cos2x",
+            "x sinx [ x + loge xcosx]",
+            "x sinx [ sin2x x + loge xsinx] dy 5"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-123",
+          "prompt": "Find dx , if y= √x? dy",
+          "answers": [
+            "4x3",
+            "4y3",
+            "4x-1",
+            "None"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-124",
+          "prompt": "Differentiate loge sinx with respect to x",
+          "answers": [
+            "Cotx",
+            "Tanx",
+            "Secx",
+            "Cosecx"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-125",
+          "prompt": "Differentiate ln(3 + x 4 ) with respect to x 4x 3 4x 3 4x 3 x3",
+          "answers": [
+            "3+x 2",
+            "3+x 4",
+            "3−x 4",
+            "3+x 4 ex"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-126",
+          "prompt": "Find the derivatives of Sec 3 x?",
+          "answers": [
+            "–(6x-2)sin(3x2-2x)",
+            "(6x-2)sin(3x2-2x)",
+            "–(6x-2)sin(3x2+2x)",
+            "(6x+2)sin(3x2-2x) 4 dy (a) (x+1)2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-127",
+          "prompt": "Differentiate with respect to x; x 2 loge x",
+          "answers": [
+            "x − 2xloge x",
+            "x + 2xloge x",
+            "x + 3xloge x",
+            "2x + 2xloge x"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-128",
+          "prompt": "Differentiate with respect to x; (log10 x)2 2",
+          "answers": [
+            "x log10 e(log10 x) 3",
+            "x log10 e(log10 x) 2",
+            "x log10 e(log10 2x) 2",
+            "− x log10 e(log10 x)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-129",
+          "prompt": "Differentiate with respect to x; e4x",
+          "answers": [
+            "4ex",
+            "e4x",
+            "4e4x",
+            "4e3x 3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-130",
+          "prompt": "Find the fifth derivative of 25x 7 + 30x 5 + 15x 2",
+          "answers": [
+            "63000x 2 + 3600",
+            "630x 2 + 3600",
+            "63000x 2 + 360",
+            "63000x 2 + 300 = y."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-131",
+          "prompt": "Differentiate with respect to x; x 2 ex",
+          "answers": [
+            "x 2 e x + 2xe x",
+            "x 2 ex",
+            "x 2 e x − 2e x x dy"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-132",
+          "prompt": "Find the derivative of e 2x ln 5x 1",
+          "answers": [
+            "−e 2x (x + 2 ln 5x)",
+            "e x (x + 2 ln 5x) 1",
+            "e 2x (x + 2 ln 5x)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-133",
+          "prompt": "Differentiate x15 with respect to x 5",
+          "answers": [
+            "x15",
+            "x 3",
+            "3x 5",
+            "3x10"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-134",
+          "prompt": "Differentiate ex with respect to ln x",
+          "answers": [
+            "ex",
+            "ln x",
+            "ex ln x",
+            "x ex"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-135",
+          "prompt": "DifferentiateS in x with respect to Cos x",
+          "answers": [
+            "Sinx",
+            "–Sinx",
+            "Cotx",
+            "–Cotx"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-136",
+          "prompt": "Find the second derivative of Cos4x3",
+          "answers": [
+            "−12x 2 Sin4x 3",
+            "−24xSin4x 3 − 144x 4 Cos4x 3",
+            "−24xSin4x 3 + 144x 4 Cos4x 3 ) 2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-137",
+          "prompt": "Find the third derivatives of ex 2 2 2",
+          "answers": [
+            "4xe x + 8xe x + 8x 3 e x 2 2",
+            "12xe x − 8x 3 e x 2 2",
+            "12xe x + 8x 3 e x"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-138",
+          "prompt": "Find the equation of tangent at x=1 to the curve y = 3x 2 + 2x − 1",
+          "answers": [
+            "y = 8x − 4",
+            "y = 8x + 4",
+            "y = 6x − 4",
+            "y = 6x + 4"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-139",
+          "prompt": "Find the equation of normal to y = 3x 2 + 2x − 1 at x=1",
+          "answers": [
+            "8y = 30 – x",
+            "8y = 33 – x",
+            "8y = 33 + x",
+            "8y = 30 + x"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-140",
+          "prompt": "Find the equation of the normal to the curve y = x 3 − 2x 2 + 3x − 1 at the point (2,5) 37 37 37 37",
+          "answers": [
+            "−3 + 7",
+            "−3 − 7",
+            "3 + 7",
+            "3 − 7"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-141",
+          "prompt": "Find the slope of the function y = f(x) = 5t 2 − 5t + 30, when t1=1, αt2 = 5",
+          "answers": [
+            "5 & 45",
+            "5 & 40",
+            "5 & 35",
+            "5 & 30"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-142",
+          "prompt": "The volume of sphere is increasing at the rate of 50cm3/sec. at what rate is the radius of the sphere increasing when the radius of the 4 sphere is 5cm (Hint: Volume V=3 πr 3 )",
+          "answers": [
+            "0.159cm",
+            "2.159cm",
+            "159cm"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-143",
+          "prompt": "If y = 4x 3 + 15x 2 − 18x + 7. Find the minimum point and maximum point respectively. 1 9 1 9",
+          "answers": [
+            "(2 , 4), (-3, 88)",
+            "(2 , 4), (3, -88)",
+            "1 −9 1 9 2 2 4 ( , 4 ), (-3, 88)",
+            "( , ), (3, 88)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-144",
+          "prompt": "If y = x 3 + 3x 2 , determine the maximum points of the function",
+          "answers": [
+            "(-2,4), (0,0)",
+            "(-2,-4), (0,0)",
+            "(-2,4), (0,1)",
+            "(-2,4), (0,-1)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-145",
+          "prompt": "For what value of x will the function y = 2x 3 − 3x 2 − 36x + 6 is maximum",
+          "answers": [
+            "50",
+            "100",
+            "150",
+            "-50"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-146",
+          "prompt": "For what value of x will the function y = 2x 3 − 3x 2 − 36x + 6 is minimum",
+          "answers": [
+            "2",
+            "3",
+            "-2",
+            "6"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-147",
+          "prompt": "Find the inflection point of the function y = x 3 − 6x 2 + 2x",
+          "answers": [
+            "2, 12",
+            "2, -12",
+            "3, 12",
+            "-3, 12 x2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-148",
+          "prompt": "Find the y-intercept and xintercept respectively.",
+          "answers": [
+            "0,0",
+            "1,0",
+            "2,2",
+            "1,2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-149",
+          "prompt": "If y = x 2 −1 find the horizontal asymptotes",
+          "answers": [
+            "±1",
+            "±2",
+            "0 x+1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-150",
+          "prompt": "If y = x 2 −1 find the vertical asymptotes",
+          "answers": [
+            "±1",
+            "±2",
+            "0"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-151",
+          "prompt": "Find the average rate of charge given that s(t) = 2t 2 − 2t + 30 at t1=3 and t2=5",
+          "answers": [
+            "10 and 18",
+            "11 and 18",
+            "12 and 18"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-152",
+          "prompt": "Given that m = 2 + √5, find the value of m − 1 m",
+          "answers": [
+            "4",
+            "2√5",
+            "4√5",
+            "2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-153",
+          "prompt": "Find the value of sin 1950 in surd form",
+          "answers": [
+            "1",
+            "1",
+            "1 1 (√6 + √2) (b) (√6 − √2) (c) 4 4 1 − (√6 + √2)",
+            "− (√6 − √2) 4 4"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-154",
+          "prompt": "Given that y = (5x − 2)2 . Find dy dx",
+          "answers": [
+            "10(5x − 2)2",
+            "10(5x − 2)",
+            "10(5x +"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-155",
+          "prompt": "Find the intercept of the equation of a line (−1, −2) whose slope is 2",
+          "answers": [
+            "−2",
+            "0",
+            "4",
+            "3"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-156",
+          "prompt": "The semi major 4x 2 + 9y 2 = 36",
+          "answers": [
+            "(9, 4)",
+            "(2, 3)",
+            "(4, 9)",
+            "3, 2"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-157",
+          "prompt": "Find dy dx if y = log e (4x − 1)2",
+          "answers": [
+            "8 4x−1",
+            "8 4x−3",
+            "8 2x−1",
+            "8 4x+1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-158",
+          "prompt": "Find the area enclosed between y = x 2 and y = 6x",
+          "answers": [
+            "36 sq. unit",
+            "32 sq. unit",
+            "44 sq. unit",
+            "22 sq. unit"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-159",
+          "prompt": "Evaluate ∫(sin x − 3x 2 ) dx",
+          "answers": [
+            "cos x 2 + 6 + c",
+            "x 3 − cos x + c",
+            "cos x + 6x + c",
+            "− cos x − 3x 2 + c"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-160",
+          "prompt": "Find the acute angle between 6x + 5y − 1 = 0 and 3y − 2x + 4 = 0",
+          "answers": [
+            "83",
+            "84",
+            "84",
+            "82"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-161",
+          "prompt": "Find the length of the tangent of the circle x 2 + y 2 + 5x + 6y − 10 = 0 from (2, 2)",
+          "answers": [
+            "5√4",
+            "√20",
+            "5√5",
+            "4√5"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-162",
+          "prompt": "y − 3x − 6 = 0. Find the gradient",
+          "answers": [
+            "3",
+            "2",
+            "−3",
+            "6"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-163",
+          "prompt": "Given sin x = −0.9063 where 00 ≤ x ≤ 2700 , find x",
+          "answers": [
+            "1450",
+            "1160",
+            "2450",
+            "650"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-164",
+          "prompt": "If a sin θ + b cos θ = √p, a cos θ − b sin θ = √q. Evaluate √(p + q)",
+          "answers": [
+            "√2ab",
+            "√ab",
+            "2ab",
+            "√a2 + b2"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-165",
+          "prompt": "Find the distance between (2, −4) and (3, 7)",
+          "answers": [
+            "11.05",
+            "10.5",
+            "11.30"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-166",
+          "prompt": "Find the distance between point A(−1, 4) and B(−2, −3)",
+          "answers": [
+            "5√2",
+            "50",
+            "√68"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-167",
+          "prompt": "Find x and y intercept if y = 4x 2 −1 2x 2 −5x+6",
+          "answers": [
+            "(−1, 0) and (0,2)",
+            "(−1, 0) and (0, 4) 1 1 2 6",
+            "(−1, 2) and (0, 4)",
+            "(± , 0) and (0, − )"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-168",
+          "prompt": "Find the length of the tangent to the circle x 2 + y 2 − 2x − 4y − 4 = 0 from the point (8, 10)",
+          "answers": [
+            "√56",
+            "√103",
+            "√104",
+            "√113"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-169",
+          "prompt": "Find the semi axis of the equation of 9x 2 − 4y 2 = 36",
+          "answers": [
+            "2, 3",
+            "−3, 2",
+            "2, 2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-170",
+          "prompt": "y = x2 x 2 −1 sin θ+sin 3θ cos θ+cos 3θ",
+          "answers": [
+            "none",
+            "tan 2θ",
+            "tan θ",
+            "tan 4θ"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-171",
+          "prompt": "∫−2(x 2 − x )(2x − 1)",
+          "answers": [
+            "−18",
+            "16",
+            "−16",
+            "18 1 1 4 7 3 11"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-172",
+          "prompt": "Find the gradient of line y = 2x + 6",
+          "answers": [
+            "2",
+            "6",
+            "−2",
+            "−6"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-173",
+          "prompt": "g2 + f 2 ≥ c of a circle",
+          "answers": [
+            "imaginary",
+            "complex",
+            "real",
+            "parabolic"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-174",
+          "prompt": "Which is not equation of a circle",
+          "answers": [
+            "x 2 − y 2 + 4x = 0",
+            "x 2 − y 2 + 12y = 9",
+            "x 2 + y 2 + 2x − y − 3 = 0",
+            "x 2 + y 2 + x + y − 7 = 0"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-175",
+          "prompt": "Find the value of cos(600 − θ), if tan θ = − where 00 < θ < 1800",
+          "answers": [
+            "+ 2",
+            "− 5 3 2 3 2 3 √3",
+            "− 4 − 10 √3",
+            "− 5 + 10 √3 10"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-176",
+          "prompt": "Find the value of θ if sin 3θ = cos 60",
+          "answers": [
+            "60",
+            "10",
+            "30",
+            "90"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-177",
+          "prompt": "Simplify sin 2A 1+cos 2A",
+          "answers": [
+            "cot A",
+            "tan A",
+            "sec A",
+            "cosec A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-178",
+          "prompt": "Find the derivative of the function y = (x 2 − 3)4 with respect to x",
+          "answers": [
+            "x(x 3 + 3)3",
+            "3x (x 3 − 3)",
+            "8x (x 3 − 3)",
+            "8x(x 2 − 3)3"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-179",
+          "prompt": "The radius of a circular disc is increasing at the rate of 0.5cm/sec. At what rate is the area of the disc increasing when its radius is 6cm",
+          "answers": [
+            "7.67cm2",
+            "6πcm2",
+            "8πcm2",
+            "7.80cm2"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-180",
+          "prompt": "Given that y − 3x − 6 = 0, find the slope",
+          "answers": [
+            "3",
+            "6",
+            "−6",
+            "−3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-181",
+          "prompt": "and N(x, y) is P(3, −4). Find the coordinates of points N",
+          "answers": [
+            "(−2, 7)",
+            "(2, 7)",
+            "(−2, −7)",
+            "(2, −7)"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-182",
+          "prompt": "Calculate the angle between lines 3x + 2y − 8 = 0 and x + 7y + 8 = 0 to the nearest degree",
+          "answers": [
+            "80.20",
+            "81.020",
+            "48.20",
+            "800"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-183",
+          "prompt": "and (5, 7)",
+          "answers": [
+            "y = 4x + 5",
+            "y = 2x + 5",
+            "y = 4x − 5",
+            "y − 2x + 3 = 0"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-184",
+          "prompt": "Find the length of a straight line joining points (3, 2) and (5, 5)",
+          "answers": [
+            "2.92",
+            "6.3",
+            "3.0",
+            "3.61"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-185",
+          "prompt": "Find the equation of the tangent to the circle x 2 + y 2 − 2x + 4y = 15 at the point (−1, 2)",
+          "answers": [
+            "2y − x + 5 = 0",
+            "2y − x − 5 = 0",
+            "2y + x + 5 = 0",
+            "2y +"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-186",
+          "prompt": "Find the equation of the line whose slope is 2 through the point (−1, −2)",
+          "answers": [
+            "none",
+            "y − 3x = 2",
+            "y + 2x = 0",
+            "2x + 2 = y"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-187",
+          "prompt": "∫ cos 4x dx",
+          "answers": [
+            "− sin 4x + c",
+            "sin 4x + c",
+            "− sin 4x + c",
+            "sin 4x + c"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-188",
+          "prompt": "Find the area enclosed between the curves y = x 3 − 2x 2 and y = 2x − x 2",
+          "answers": [
+            "none",
+            "sq. unit",
+            "8 27 3 12"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-189",
+          "prompt": "Find the length of the tangent from a point (0, 0) to the circle x 2 + y 2 + 4x − 6y + 10",
+          "answers": [
+            "10",
+            "0",
+            "√5",
+            "√10"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-190",
+          "prompt": "Find the gradient and intercept of the equation y + 4x − 5 = 0",
+          "answers": [
+            "4, 0",
+            "4, 5",
+            "4, −5",
+            "−4, 5"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-191",
+          "prompt": "Find the equation of the normal to the curve y = (1 − x)(3 + x) at the point x = 2",
+          "answers": [
+            "6y − x − 32 = 0",
+            "6y − x + 32 = 0",
+            "6y − x − 30",
+            "6y − x − 30"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-192",
+          "prompt": "Evaluate ∫1 √1 + 3x dx",
+          "answers": [
+            "26",
+            "18",
+            "12",
+            "32"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-193",
+          "prompt": "Find the value of a fixed angle in the trigonometry equation given 2√3 sin θ + 2 cos θ = 2",
+          "answers": [
+            "90",
+            "0",
+            "60",
+            "30"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-194",
+          "prompt": "If x = a cot θ and y = b cosec θ, evaluate ( 2 − 2 )",
+          "answers": [
+            "sec θ",
+            "cosec θ",
+            "1 b",
+            "tan θ"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-195",
+          "prompt": "Let y = x2 . Find the vertical and horizontal asymptotes",
+          "answers": [
+            "x = +1, y = ±1 x 2 −1",
+            "x = ±2, y = ±2",
+            "x = ±1, y = 1",
+            "x ± 2, y = +1"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-196",
+          "prompt": "If the distance between (2, L) and (−2, 0) is 5. Find L",
+          "answers": [
+            "±3",
+            "3",
+            "5",
+            "3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-197",
+          "prompt": "Express sin 2A cos 4A as a sum of difference of trigonometric function.",
+          "answers": [
+            "1 2 1 1 1 2 2 2 (cos 6A − sin 2A)",
+            "(sin 6A + sin 2A)",
+            "(cos 6A + cos 2A)",
+            "(sin 6A −"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-198",
+          "prompt": "Find the center and radius of the circle x 2 + y 2 − 6x − 8y + 5 = 0",
+          "answers": [
+            "(3, 4)5√2",
+            "(3, 4) 2√5",
+            "(4, 3) 2√5",
+            "(4, 3) 5√2"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-199",
+          "prompt": "Which of the following trigonometric formulae is not correct?",
+          "answers": [
+            "tan 2A = 2 tan A A A 2 2",
+            "sin A = 2 sin cos 1−tan2 A A+B cos A + cos B = 2 cos ( 2",
+            "cos(A − B) = cos A cos B + sin A sin B",
+            "A−B ) sin ( 2"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-200",
+          "prompt": "The eccentricity of the equation of the ellipse is?",
+          "answers": [
+            "e > 1",
+            "e ≠ 0",
+            "e < 1",
+            "e = 0"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-201",
+          "prompt": "Find the semi major axis of the equation x 2 + 4y 2 = 16",
+          "answers": [
+            "4",
+            "6",
+            "3",
+            "16"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-202",
+          "prompt": "Evaluate ∫(4x − 6e 2x − 5)dx",
+          "answers": [
+            "2x 2 − 12e 2x − 3x + c",
+            "2x 2 + 12e 2x + c",
+            "2e 2 − 3e 2x + c",
+            "2x 2 − 3e 2x − 5x + c"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-203",
+          "prompt": "Differentiate",
+          "answers": [
+            "y = tan3 (4x )",
+            "12cosec 2 (4x) tan2 (4x ) 12 cosec 2 (4x) cot 2 (4x )",
+            "12 sec 2 (4x ) cot 2 (4x )",
+            "12 sec 2 (4x ) tan2 (4x )"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-204",
+          "prompt": "What is 2π 3 in degree?",
+          "answers": [
+            "1200",
+            "600",
+            "2100",
+            "2700"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-205",
+          "prompt": "The study or solution of triangles in relation to their sides and angle is referred to as",
+          "answers": [
+            "line geometry",
+            "circle geometry",
+            "none",
+            "poly geometry"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-206",
+          "prompt": "Find the value of ’a’ such that the area of triangle ABC is 3, angle C = 900 and a + b = 12, where a, b, c represents the sides of a triangle.",
+          "answers": [
+            "11.48",
+            "16.25",
+            "6.5",
+            "9.25"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-207",
+          "prompt": "Find the area enclosed between curves y = x 2 and y = 6x",
+          "answers": [
+            "44 sq. unit",
+            "36 sq. unit",
+            "32 sq. unit",
+            "22 sq. unit 2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-208",
+          "prompt": "Find the centre of the circle x 2 + y 2 − 8x + 6y + 16 = 0",
+          "answers": [
+            "(−4, −3)",
+            "(−4, 3)",
+            "(4, 3)",
+            "(4, −3)"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-209",
+          "prompt": "Find the area enclosed between the curved y = x 3 − 2x 2 and y = 2x − x 2",
+          "answers": [
+            "27 12 8 37 3 12 sq. unit",
+            "sq. unit",
+            "sq. unit",
+            "none"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-210",
+          "prompt": "Determine the intercept of the equation y = 28x − 4",
+          "answers": [
+            "28",
+            "4",
+            "none",
+            "7"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-211",
+          "prompt": "Equation of the form 3x 2 + 6y 2 = 12 is called?",
+          "answers": [
+            "circle",
+            "hyperbola",
+            "ellipse",
+            "parabola"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-212",
+          "prompt": "Find the radius of the circle 5x 2 + 5y 2 + 10x + 20y + 15 = 0",
+          "answers": [
+            "2",
+            "√3",
+            "√2",
+            "3"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-213",
+          "prompt": "∫0 (x 3 + x )4 (3x 2 + 1) dx",
+          "answers": [
+            "32",
+            "4",
+            "8",
+            "32"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-214",
+          "prompt": "Evaluate ∫ sec 2 x dx",
+          "answers": [
+            "sec x tan x + c",
+            "cos x + c",
+            "sec x + c",
+            "tan x + c"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-215",
+          "prompt": "Simplify cos x + cos(x + 30) + sin(x + 60)",
+          "answers": [
+            "(1 + √3) cos x",
+            "(√3 − 1) sin x",
+            "(1 + √3) sin x",
+            "(1 − 3) cos x"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-216",
+          "prompt": "Find the value of K, if sin 500 + sin 400 = K cos 50",
+          "answers": [
+            "2",
+            "√2",
+            "√3",
+            "3"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-217",
+          "prompt": "Differentiate y = log e √(1 + x )",
+          "answers": [
+            "1 2(1+x 2 )",
+            "1 2(1+x)",
+            "1 2(1−x 2 )",
+            "1 2(1−x)"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-218",
+          "prompt": "Find the equation of the line passing through (1, 2) and parallel to the line x + y + 3 = 0",
+          "answers": [
+            "x + y − 2 = 0",
+            "x + y − 3 = 0",
+            "−x − y − 3 = 0",
+            "x − y +"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-219",
+          "prompt": "In a triangle ABC, a = 6, c = 4, A = 300 , Find the value of B",
+          "answers": [
+            "0.30",
+            "19.50",
+            "1500",
+            "130.50"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-220",
+          "prompt": "Obtain the equation of the straight line with slope 4 and intercept of −2",
+          "answers": [
+            "y − 4x + 2 = 0",
+            "y − 4x + 2",
+            "y + 4x − 2 = 0",
+            "y − 4x − 2 = 0"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-221",
+          "prompt": "Given t = tan , transforming dx into integral of rational function of t gives",
+          "answers": [
+            "2 t2 1+t 2 dt",
+            "2 1+t 2 dt",
+            "2t 1+t 2 dt",
+            "t 1+t 2 dt"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-222",
+          "prompt": "Find the value of α if cosecα tan α = 1 using the half substitution method, α tan = t",
+          "answers": [
+            "30",
+            "1",
+            "180",
+            "0 2"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-223",
+          "prompt": "Find tan A, if tan(A − 450 ) =",
+          "answers": [
+            "2",
+            "4",
+            "6",
+            "8 5"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-224",
+          "prompt": "If y = (x )(x − 2)(x + 3) at point x = −1, find the equation of the circle",
+          "answers": [
+            "5y − 2x − 31 = 0",
+            "5y − x − 30 = 0",
+            "y − x − 31 = 0",
+            "5y − x − 31 = 0"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-225",
+          "prompt": "Find ∫2 (3x + 4)",
+          "answers": [
+            "−64",
+            "32",
+            "−32",
+            "64"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-226",
+          "prompt": "If w = ∫a f(x )dx, which is true?",
+          "answers": [
+            "w = definite integral, f(x ) = integrand",
+            "w = indefinite integral, f(x ) = integrand",
+            "w = finite integral, a = lower unit, f(x ) = differential",
+            "w = definite integral, b = lower limit and f (x ) = integral"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-227",
+          "prompt": "sin x = −0.9063, where x is 00 ≤ x ≤ 2700 . Find x",
+          "answers": [
+            "2450",
+            "1150",
+            "650",
+            "1450"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-228",
+          "prompt": "If f(x ) = 3x + 2 with x1 = 0 and x2 = 3, find the rate of change",
+          "answers": [
+            "3",
+            "15",
+            "10",
+            "13"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-229",
+          "prompt": "If g2 + t 2 ≥ c in the equation of a circle, the circle is ____________?",
+          "answers": [
+            "real",
+            "complex",
+            "imaginary",
+            "complete"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-230",
+          "prompt": "Find the intercept of a line given y = ax + b",
+          "answers": [
+            "0",
+            "a",
+            "b",
+            "x"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-231",
+          "prompt": "Which of the following is a basic identity",
+          "answers": [
+            "1 + tan2 θ = sec 2 θ",
+            "cot 2 θ − cosec 2 θ = 1",
+            "sin2 θ + 1 = cos 2 θ",
+            "none"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-232",
+          "prompt": "Which represents the line perpendicular to a curve?",
+          "answers": [
+            "−m1 m2 = 1",
+            "m1 m2 = 0",
+            "m2 = 0",
+            "none"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-233",
+          "prompt": "The formula for distance between two points is given as",
+          "answers": [
+            "d2 = [(x2 − x1 )2 + 1 2 2 (y2 − y1 )2 ]2",
+            "d = [(x1 (x2 − x1 )) + (y1 (y2 − y1 ))",
+            "d2 = √(x2 )2 + (y2 )2",
+            "none of the above π sin θ 3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-234",
+          "prompt": "Find the slope of the function y(t) = 2t 2 − 5t + 30. Take t1 = 3 and t2 = 5",
+          "answers": [
+            "11",
+            "23",
+            "10",
+            "21"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-235",
+          "prompt": "Find the volume obtained rotating area under the curve y = x 2 from x = 0 to x = 1",
+          "answers": [
+            "16π 5",
+            "2π 5",
+            "3π 5",
+            "π"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-236",
+          "prompt": "Evaluate ∫ e x dx",
+          "answers": [
+            "e x + 2 + c",
+            "2e x + c",
+            "e 2x + c",
+            "e x + c"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-237",
+          "prompt": "∫−2 2(x + 2)dx = 16 where t > 0, find t",
+          "answers": [
+            "2",
+            "1",
+            "0",
+            "−2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-238",
+          "prompt": "∫0 x 3 dx = 4. Find K",
+          "answers": [
+            "4",
+            "2"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-239",
+          "prompt": "The relationship between a, b & e in ellipse is given",
+          "answers": [
+            "b2 = a2 (1 − e)",
+            "b 2 = a2 (1 − e 2 )",
+            "a2 = b2 (1 − e 2 )",
+            "b2 = a2 (1 + e 2 )"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-240",
+          "prompt": "Consider the function y = f (x ) = 3x + 2 with x1 = 0, x2 = 3, what is the rate of change?",
+          "answers": [
+            "3",
+            "13",
+            "15",
+            "10"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-241",
+          "prompt": "Find the equation of the ellipse with centre (1, 2) and semi axis 4 and 2",
+          "answers": [
+            "(x−1)2 16 (y−2)2 2 + (y−2)2 =1 4 = 1",
+            "(x−1)2 4 + (y−2)2 16 = 1",
+            "(x−1)2 16 + (y−2)2 4 = 1",
+            "(x−1)2 4 +"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-242",
+          "prompt": "A straight line which is perpendicular to the tangent at p is called ____________",
+          "answers": [
+            "Tangent",
+            "normal",
+            "diagonal",
+            "linear"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-243",
+          "prompt": "Find the area of ∆ABC if A = 400 , B = 700 and a = 3.5",
+          "answers": [
+            "3.64",
+            "9.86",
+            "4.93",
+            "8.42"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-244",
+          "prompt": "Integrate 3 √x 3 with respect to x",
+          "answers": [
+            "7 12 7 x 4 + c",
+            "12 7 4 x 7 + c",
+            "12 7 4 x7 + c 7",
+            "12x 4 7"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-245",
+          "prompt": "Find the derivative of the function y = √(7 − 2x )4 with respect to x",
+          "answers": [
+            "6x − 5",
+            "8x + 28",
+            "6x + 8",
+            "8x − 28"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-246",
+          "prompt": "A straight line which is perpendicular to a tangent at the curve y = f (x ) is called",
+          "answers": [
+            "asymptote",
+            "intercept",
+            "normal",
+            "none"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-247",
+          "prompt": "Which of the following trigonometric substitutions is correct about a a a ∫ √a + β 2 t 2 dt",
+          "answers": [
+            "t = √β tan θ",
+            "t = √β sec θ",
+            "none",
+            "t = √β sin θ √a tan θ is in the option, pick it. β But if t="
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-248",
+          "prompt": "Two lines y1 = m1 x1 + c1 and y2 = m2 x + c2 are said to be perpendicular if",
+          "answers": [
+            "1 = −m1 m2",
+            "m1 − m2 = 1",
+            "m1 m2 − 1 = 0",
+            "m1 = m2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-249",
+          "prompt": "Find the semi minor of an ellipse 5x 2 + 10y 2 = 150",
+          "answers": [
+            "√30",
+            "15",
+            "√15",
+            "30"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-250",
+          "prompt": "The angle between the line 3x + 3y − 7 = 0 and 4x − 3y + 8 = 0",
+          "answers": [
+            "arc tan(1) −7 1 8 7",
+            "arc tan(7)",
+            "arc tan",
+            "arc tan"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-251",
+          "prompt": "Which of the following values of θ satisfies 8 sin2 θ + 6 cos θ − 9 = 0",
+          "answers": [
+            "300",
+            "3000",
+            "3300",
+            "600"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-252",
+          "prompt": "Find the eccentricity of an ellipse 4x 2 + 9y 2 = 36",
+          "answers": [
+            "1.74",
+            "0.174",
+            "0.074"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-253",
+          "prompt": "Find the area of triangle ABC if A=400 , B=700, a=3.5",
+          "answers": [
+            "3.5",
+            "5.11",
+            "8.42"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-254",
+          "prompt": "Find the equation of the tangent to the curve y=2x2 – 5 at x=2",
+          "answers": [
+            "y=8x - 13",
+            "y=3x +2",
+            "y=4x-5",
+            "y=3x-2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-255",
+          "prompt": "If ∫0 (3x k − 1) = 0, find the value of k.",
+          "answers": [
+            "5",
+            "3",
+            "4",
+            "2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-256",
+          "prompt": "Find the semi minor axis of an ellipse 5x2 +10y2 = 150",
+          "answers": [
+            "√30",
+            "15",
+            "√15",
+            "30"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-257",
+          "prompt": "The angle between the line 3x + 3y – 7 =0 and 4x – 3y + 8 =0",
+          "answers": [
+            "tan-1 1",
+            "tan-1 7",
+            "tan-1 −7 8",
+            "tan-1 1"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-258",
+          "prompt": "Given that sin θ=0.5 and tan θ=2, what is the value of cos θ",
+          "answers": [
+            "1",
+            "4",
+            "75.5",
+            "0.25"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-259",
+          "prompt": "Find the equation of the normal to the curve y= x(x – 2)(x + 3) at the point x= -1.",
+          "answers": [
+            "5y – x – 38 =0",
+            "5y – 2x – 31 = 0",
+            "5y – x – 31 =0",
+            "y – x – 31 =0"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-260",
+          "prompt": "Evaluate ∫0 sec 2 θ",
+          "answers": [
+            "2",
+            "3",
+            "4",
+            "1"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-261",
+          "prompt": "Find the equation of the line passing through (1, 2) and parallel to the line x + y + 3=0",
+          "answers": [
+            "y + x + 5 = 0",
+            "y + x – 3 = 0",
+            "y + x + 3 = 0",
+            "x 2 +"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-262",
+          "prompt": "Find the value of k if sin50 0 + sin40 0 = kcos5",
+          "answers": [
+            "2",
+            "√2",
+            "√3",
+            "3"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-263",
+          "prompt": "If y = 2x 2 , find the approximate increase in y when x increases from3 to 3.02",
+          "answers": [
+            "0.42",
+            "0.24",
+            "0.52",
+            "0.63"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-264",
+          "prompt": "Given that sin x =",
+          "answers": [
+            "45",
+            "1",
+            "90",
+            "0 √3 √3 for 900 < x < 1800. Calculate sin 2x. (a) 1 (b)- (c)-2(d) 2 2 2"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-265",
+          "prompt": "Find the radius of the circle x 2 + y 2 − 2x − 6y = 15",
+          "answers": [
+            "16",
+            "4",
+            "25",
+            "5"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-266",
+          "prompt": "What is the value of x if cos 2x = sin66",
+          "answers": [
+            "6",
+            "8",
+            "10",
+            "12"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-267",
+          "prompt": "Given sin x = −0.9063, find the equivalent of x in third quadrant",
+          "answers": [
+            "640",
+            "1200",
+            "1150",
+            "1850"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-268",
+          "prompt": "Find the equation of a line which is parallel to 2y + x = 3, passes through the mid-point (-2, 3) and (5, 4).",
+          "answers": [
+            "4y + 2x − 17 = 0",
+            "2y + 4x + 17 = 0",
+            "y + 2x + 17 = 0",
+            "none dy"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-269",
+          "prompt": "Solve the equation 2cos 2 θ − cosθ = 0 wℎere 00 < θ < 900",
+          "answers": [
+            "900",
+            "600",
+            "300",
+            "750"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-270",
+          "prompt": "Find the value of θ if sin3θ = cos60",
+          "answers": [
+            "10",
+            "30",
+            "90",
+            "60"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-271",
+          "prompt": "Find dy dx if y = a1+tanx",
+          "answers": [
+            "a1+tanx sec 2 x logea",
+            "a1+tanx cot 2 xlogea",
+            "2 a1+tan x sin2 xlogea",
+            "none"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-272",
+          "prompt": "Find the value of a fixed angle in the trigonometric equation 2√3sinθ + 2cosθ = 2",
+          "answers": [
+            "300",
+            "600",
+            "900",
+            "1200"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-273",
+          "prompt": "Find dy dx if y = loge (3x + 2)",
+          "answers": [
+            "3x 3x+2",
+            "3 3x+2",
+            "2 3x+2",
+            "3 (3x+2)2"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-274",
+          "prompt": "Find dy dx",
+          "answers": [
+            "y = 2at1 +2x",
+            "y = 2x",
+            "y=2at22 + t1",
+            "none"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-275",
+          "prompt": "Evaluate 1−x 1 1+cos450 )",
+          "answers": [
+            "2 1−x 2",
+            "1+x (1−x)2",
+            "x 1−x",
+            "none"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-276",
+          "prompt": "If the area of a triangle WXY is 1, where the side w=2 and y=1, what is the value of X",
+          "answers": [
+            "90",
+            "30",
+            "0",
+            "1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-277",
+          "prompt": "A straight line passes through (1, 2) and makes an angle 450 with x axis, find its equation",
+          "answers": [
+            "2y = x + 5",
+            "y = x + 3",
+            "y = −x + 3",
+            "25 = x + 5"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-278",
+          "prompt": "If asin θ + b cos θ = √p and acos θ − b sin θ = √q, evaluate √(p + q)",
+          "answers": [
+            "√ab",
+            "√2ab",
+            "√a2 + b2",
+            "√a2 − b2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-279",
+          "prompt": "Simplify 1 sec θ−1 + 1 sec θ+1",
+          "answers": [
+            "2 tan θ",
+            "2 cot θ",
+            "2 sec θ",
+            "2 cot θcosecθ D"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-280",
+          "prompt": "If y = tan 3x − 2 sin 3x + 2x 2 , find the derivative of y with respect to x",
+          "answers": [
+            "3 sec 2 3x − 6 cos 3x + 4x",
+            "3 tan 3x + 6 cos 6x + 4x",
+            "3 sin2 x + 6 cos 3x + 4x",
+            "3 tan 3x − 6 cos 3x + 5 A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-281",
+          "prompt": "If tan A = √2 + 1, find sec 2 A − 2",
+          "answers": [
+            "4 + 2√2",
+            "2 − 2√2",
+            "2 + 2√2",
+            "2√2 C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-282",
+          "prompt": "If y = x 3 + 3x 2 , find the maximum and minimum points",
+          "answers": [
+            "(0, 0) and (−2, 3)",
+            "(0, 0) and (−2, 4)",
+            "(0, 0) and (2, 3)",
+            "(0, 0) and (−2, 5) π −1 4 6"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-283",
+          "prompt": "If tan−1 3x + tan−1 2x = , find the value of x",
+          "answers": [
+            "−1, B 1 −1 6 6",
+            ", −1",
+            "1, 1",
+            ", 1 6 D"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-284",
+          "prompt": "If x = asin θ and y = b cos θ, evaluate √4(b2 x 2 + a2 y 2 )",
+          "answers": [
+            "√ab",
+            "ab",
+            "2a2 b2",
+            "2ab D"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-285",
+          "prompt": "If P = 2S 3 − S 2 − 28S, find the value of S which makes 7 1 1",
+          "answers": [
+            "− , −",
+            "− , dp ds −5 7 = 0 (a) and −1 (b) 3 B 3 x x x x 2 2 2 2 (a) tan (b) − cot",
+            "− cosec",
+            "− sec B Continue to share the good news of s around and mobilize the fresher’s to the . s …making the complex simple… 21"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-286",
+          "prompt": "Determine ∫ ( sec2 x+sec x tan x sec x+tan x ) dx",
+          "answers": [
+            "ln(sec x + tan x ) + C",
+            "ln(cosec x − cos x) + C",
+            "ln(sec x − sin x ) + C",
+            "ln(cot x + sec 2 x ) + C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-287",
+          "prompt": "Integrate y 2 −1 √y 5 5 1 5 2 A 1 2 2 5 5 with respect to y",
+          "answers": [
+            "y 2 − y 2 + C",
+            "y 2 − y 2 + C",
+            "y 2 − 2 5 1 2 2y + C",
+            "All of the above C x sin 2x 2 4"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-288",
+          "prompt": "Find the equation of tangent to the curve y = 3x 2 + 2x − 1 at x = 1",
+          "answers": [
+            "y = 8x + 2",
+            "y = 8x − 4",
+            "y = 6x − 4",
+            "y = 8x + 4 B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-289",
+          "prompt": "Find the value of θ in range 1800 ≤ θ ≤ 3600 which satisfies 1+cos θ 2−cos θ = 1",
+          "answers": [
+            "3000",
+            "2100",
+            "3300",
+            "600 A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-290",
+          "prompt": "Consider the function y = f(x ) = 3x + 2 with x1 = 0, x2 = 3. What is the average rate of the change",
+          "answers": [
+            "3",
+            "10",
+            "13",
+            "15"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-291",
+          "prompt": "∫ 3 x ln x A 3 x2 2 2 dx",
+          "answers": [
+            "3x ln x + C",
+            "3 ln(ln x ) + C",
+            "(x 2 ln x − ) + C",
+            "3(ln x )2 + B C 8"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-292",
+          "prompt": "Find the area between the curve y = x 63 − 2x 2 and y = 2x − x 2",
+          "answers": [
+            "sq. unit 3",
+            "27 12 sq. unit",
+            "37 12 sq. unit",
+            "none of the above"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-293",
+          "prompt": "∫ 6x dx",
+          "answers": [
+            "6 + C",
+            "3x 2 + C",
+            "6x ln x + C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-294",
+          "prompt": "Find ∫ 1 3 2 1 1 1 6 3 3 dx",
+          "answers": [
+            "ln(3x − 2) + C",
+            "ln(2x − 3) + C",
+            "ln(3x + 5) + C",
+            "6x−4 D ln(3x − 2) + C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-295",
+          "prompt": "Simplify (sec θ − tan θ)(sec θ + tan θ ) + (cosec θ − cot θ)(cosec θ + cot θ )",
+          "answers": [
+            "−2",
+            "−1",
+            "1",
+            "2 D 1 1 4 (c) (d) 3 −2 7 3 11 7 11 (c) 33 16"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-296",
+          "prompt": "In a triangle ABC, < A = 53.10 , sides b and c are 4.2cm and 3.5cm respectively, find the area of the triangle",
+          "answers": [
+            "8.70cm2",
+            "5.87cm2",
+            "4.87cm2",
+            "16.24cm2 B 1 x 2 −1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-297",
+          "prompt": "∫−1 dx",
+          "answers": [
+            "0",
+            "−1",
+            "−2",
+            "2 x+1 5 1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-298",
+          "prompt": "∫ ( + 4x) dx",
+          "answers": [
+            "3 1 6 1 C ( + 4x) + C",
+            "24 3 1 1 6 ( + 4x) + C",
+            "12 3 1 5 1 ( + 4x) + C",
+            "24 3 3 1 1 A ( + 4x) + C 8 3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-299",
+          "prompt": "Simplify cos 4 θ − sin4 θ",
+          "answers": [
+            "tan 2θ",
+            "sin 2θ",
+            "cos 2θ",
+            "cosec 2θ + C (c) C C Continue to share the good news of s around and mobilize the fresher’s to the . s …making the complex simple… 23"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-300",
+          "prompt": "Find the derivative of the function y = tan(2x + 45)",
+          "answers": [
+            "2 sin(2x + 45)",
+            "2 cos(2x + 45)",
+            "2cosec (2x + 45)",
+            "2 sec 2 (2x + 45)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-301",
+          "prompt": "Given that y = x2 D , find x and y intercepts",
+          "answers": [
+            "(2, 0)",
+            "(0, 2)",
+            "(0, 0)",
+            "x 2 −1 C (−2, −1)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-302",
+          "prompt": "A straight line perpendicular to the curve is",
+          "answers": [
+            "tangent",
+            "chord",
+            "normal",
+            "gradient C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-303",
+          "prompt": "If y = x 2 sin 2x, find the derivative of y in terms of x",
+          "answers": [
+            "x cos 2x + sin 2x",
+            "2x sin x + x cos 2x",
+            "2x[x cos x + sin x ]",
+            "none C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-304",
+          "prompt": "Find the derivative of y = e 2x+3 with respect to x",
+          "answers": [
+            "2e 2x+3",
+            "2e 2x−3",
+            "3e 2x+3",
+            "e 2x+3 A K C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-305",
+          "prompt": "If an integral ∫0 x 3 dx = 4, find the value of K",
+          "answers": [
+            "0",
+            "1",
+            "2",
+            "3 2 x 2 +x−2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-306",
+          "prompt": "Find the volume generated revolving about the x-axis along the curve xy = 2 1 3 2 2 which lies between x = 2 and x = 8",
+          "answers": [
+            "π cubic unit",
+            "π cubic unit",
+            "5 2 7 π cubic unit",
+            "π cubic unit B 2 3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-307",
+          "prompt": "If ∫−2(Kt − 1)dt = 0, find the value of K",
+          "answers": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-308",
+          "prompt": "If y = 4x 2 −1 , find the vertical and horizontal asymptotes",
+          "answers": [
+            "(1, 2) and 3",
+            "x 2 −5x+6 (3, 2) and 3",
+            "(3, 4) and 3",
+            "(3, 2) and 4"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-309",
+          "prompt": "Find ∫ 5x 2 10x 3 +3 D 1 1 1 6 6 3 dx",
+          "answers": [
+            "ln(10x 3 + 3)2 + C",
+            "ln(10x 3 + 3) + C",
+            "ln(10x 3 + 1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-310",
+          "prompt": "Given that w = ∫a f(x )dx, which of the following statements is true?",
+          "answers": [
+            "wis indefinite integral and f(x) is in te grand",
+            "wis definite integral, b is lower limit and f(x) is in te grand",
+            "wis definite integral, a is lower limit and f(x) is differential",
+            "wis definite integral, and f(x) is in te grand D"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-311",
+          "prompt": "The volume generated when the area enclosed a curve y = f(x ) and line x = a a, x = b is rotated about x-axis through 2π radian is given",
+          "answers": [
+            "Vx = ∫b πy 2 dx b b",
+            "Vx = ∫a πy 2 dx",
+            "Vx = ∫a 2πyx dx",
+            "none"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-312",
+          "prompt": "Evaluate cos 22.5 in surd form",
+          "answers": [
+            "0 √(√2−1) 2",
+            "B √(2−√2) 2",
+            "√2+√2 2",
+            "√(√2−2) 2 C cos x+sin x"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-313",
+          "prompt": "∫ ( 1 2 sin 2x ) dx",
+          "answers": [
+            "1 2 1 ln sec x + ln cosec x + C 2",
+            "1 2 [ln|sec x + tan x | + 1 1 2 2 ln|cosec x − cot x |] + C",
+            "[ln|sec x − tan x | + ln cosec x ] + C",
+            "sin2 x + B C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-314",
+          "prompt": "A radius of a circular disc is increasing at the rate of 0.5cm/s, at what rate is the area of the disc increasing when radius is 6cm",
+          "answers": [
+            "2πcm2 /s",
+            "6πcm2 /s",
+            "6cm2 /s",
+            "2cm2 /s"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-315",
+          "prompt": "Simplify √ 1−cos 2x 1+cos 2x",
+          "answers": [
+            "s in x",
+            "tan x",
+            "sec x",
+            "cot x"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-316",
+          "prompt": "Find the value of tan 22 10 2 B in surd form",
+          "answers": [
+            "1 − √2",
+            "−1 + √2",
+            "1 − √3",
+            "B 1 + √3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-317",
+          "prompt": "Simplify tan 62−tan 17 1+tan 62 tan 17 1+sin θ 1−sin θ",
+          "answers": [
+            "0",
+            "1",
+            "2",
+            "3 B (a) (cos θ − sin θ)2 (b) (sec θ + tan θ)2 (c) sec θ + tan θ (d) none B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-318",
+          "prompt": "Simplify 1−cos θ 1+cos θ",
+          "answers": [
+            "(sin θ − tan θ)2",
+            "(cos θ − sin θ)2",
+            "(cosec θ − cot θ)2",
+            "none"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-319",
+          "prompt": "Simplify C 1+sin x+cos x 1+sin x−cos x x x x x 2 2 2 3",
+          "answers": [
+            "tan",
+            "cot",
+            "cosec",
+            "cot"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-320",
+          "prompt": "Find the value of A if cot x + tan x = A sin 2x",
+          "answers": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-321",
+          "prompt": "Express cos 14A + cos 12A as a product of trigonometric function",
+          "answers": [
+            "2 cos 13A cos A",
+            "2 sin 13A cos A",
+            "cos 12A sin A",
+            "2 sin 15A cos 3A A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-322",
+          "prompt": "Express sin 4A cos 2A − sin 6A cos 6A as a sum of difference of sine",
+          "answers": [
+            "1 2 [sin 6A + sin 2A − sin 12A]",
+            "1 1 2 [sin 4A + sin A − sin 10A]",
+            "sin 5A − sin 20A]",
+            "[sin 15A + sin 2A + sin 2A] 2 1 2 [sin 2A + A Continue to share the good news of s around and mobilize the fresher’s to the . s …making the complex simple… 26"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-323",
+          "prompt": "Given that (sin α − cos α )2 + (sin α + cos α )2 = x, find the value of x",
+          "answers": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-324",
+          "prompt": "If C sin α+cos α cos4 α−sin4 α = m , find m?",
+          "answers": [
+            "0",
+            "1",
+            "2",
+            "3 B = cot mθ, find m (a) 2 (b) 5 (c) 7 (d) 9 B cos α−sin α cos 2θ+cos 8θ+cos 5θ sin 2θ+sin 8θ+sin 5θ"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-325",
+          "prompt": "Find the value of x if tan−1 3x + tan−1 2x = 3π 4",
+          "answers": [
+            "0",
+            "1",
+            "2",
+            "3 B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-326",
+          "prompt": "Given that tan θ = x, find the value of sin 2θ where θ ranges from 00 to 900",
+          "answers": [
+            "x x 2 +3 2x",
+            "2 x +1",
+            "3x 1+x",
+            "none B 4 12 21 5 13 65"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-327",
+          "prompt": "Evaluate in degrees",
+          "answers": [
+            "600",
+            "900",
+            "1200",
+            "1500 C tan 69+tan 66 C 1−tan 69 tan 66 (a) 0 (b) 1 (c) −1 (d) −2 2 5 5 11"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-328",
+          "prompt": "Given that tan x = 1, find the value of cos 2x",
+          "answers": [
+            "0",
+            "1",
+            "2",
+            "3 1 1−cos θ + 1 1+cos θ π π 3 3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-329",
+          "prompt": "Simplify 15",
+          "answers": [
+            "2 sin2 θ",
+            "2cosec 2 θ",
+            "2 cot 2 θ",
+            "2 sec 2 θ B (a) 1 2 [sin 2π 3 ] (b) 1 2 π 1 7 2 [sin + sin 2π](c) π 2π 3 5 [cos + cos ] (d) A sin 2π"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-330",
+          "prompt": "Simplify cot θ + A sin θ 1+cos θ",
+          "answers": [
+            "sec θ",
+            "cosec θ",
+            "cot θ",
+            "tan θ B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-331",
+          "prompt": "If cos 3x + √3 sin 3x is expressed in the form R cos(3x − α ), find the value of R π 2π 3 9 and α",
+          "answers": [
+            "2 and 900",
+            "2 and",
+            "3 and",
+            "4 and π 7 B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-332",
+          "prompt": "Express sin x − 2 cos x in the form of R sin(x − α ) where α is an acute angle and R is a positive real number",
+          "answers": [
+            "√7 sin(x − 63.430 )",
+            "√5 sin(x − 63.430 )",
+            "√3 sin(x − 450 )",
+            "none B Continue to share the good news of s around and mobilize the fresher’s to the. s …making the complex simple… 27"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-333",
+          "prompt": "Given that 3 cos θ − 4 sin θ = R cos(θ + α ), find R and α",
+          "answers": [
+            "5 and 53.130",
+            "2 and 450",
+            "3 and 600",
+            "4 and 280 A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-334",
+          "prompt": "Express sin 10A sin 8A − sin 18A sin 18A as a sum or difference of cosine",
+          "answers": [
+            "1 2 [cos 2A − cos 18A − cos 0 + cos 36A] 1",
+            "2 [cos 15A − cos 12A + cos A + 1 cos 5A]",
+            "[cos A − cos 3A + cos 5A + cos 27A]",
+            "all of the above A 2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-335",
+          "prompt": "If 4(1+cot2 θ) 1+tan2 θ A B 2 2 = y cot θ, find the value of y",
+          "answers": [
+            "0",
+            "1",
+            "2",
+            "3 C = cot cot and a + b = 18.5mm, A = 72.30 , B = 45.70 , find C and side a+b−c c (a) 620 , 6.2mm (b) 620 , 9.7907mm (c) 620 , 3.2mm (d) 450 , 5.31mm"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-336",
+          "prompt": "Evaluate ∫ e sin θ cos θ dθ",
+          "answers": [
+            "e cosec θ + C",
+            "e sin θ + C",
+            "e cos θ + C",
+            "e tan θ + B C x+1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-337",
+          "prompt": "∫ 2 x +2x 1 3 1 1 1 2 2 x dx",
+          "answers": [
+            "(x 2 + 2x ) + C",
+            "ln(x 2 + 2x ) + C",
+            "3x 2 + 5x + + C",
+            "B ln(x 2 + 2x ) + C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-338",
+          "prompt": "Find the acute angle between the lines 5x + 4y = 3 and y − 3x = 2",
+          "answers": [
+            "260",
+            "350",
+            "57.090",
+            "95.250 C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-339",
+          "prompt": "M is the mid-point of JK. If the coordinate of J is (−5, 4) and m is (−2, 1), find the coordinate of K?",
+          "answers": [
+            "(2, −1)",
+            "(1, −2)",
+            "(2, −3)",
+            "(1, 4) B Continue to share the good news of s around and mobilize the fresher’s to the. s …making the complex simple… 28"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-340",
+          "prompt": "is (−K, K), find K?",
+          "answers": [
+            "−1",
+            "−2",
+            "−3",
+            "−4 C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-341",
+          "prompt": "Find the mid-point of A(−3, 1), B(7, 3)",
+          "answers": [
+            "(2, 2)",
+            "(1, 2)",
+            "(2, 3)",
+            "(3, 5) A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-342",
+          "prompt": "A straight line touching a curve at a specific point without crossing the curve is",
+          "answers": [
+            "normal",
+            "tangent",
+            "chord",
+            "diameter B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-343",
+          "prompt": "A straight line which is perpendicular to the tangent is known as ________",
+          "answers": [
+            "chord",
+            "diameter",
+            "tangent",
+            "normal D"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-344",
+          "prompt": "The equation of the tangent at point (x, y) is given as",
+          "answers": [
+            "y − x1 = m(x − y1 )",
+            "y − y1 = m(x − x1 )",
+            "x − x1 = y(m − y1 )",
+            "x − x1 = m(y − y1 ) B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-345",
+          "prompt": "Find the equation of the tangent to the curve y = 3x 2 + 2x − 1 at x = 1",
+          "answers": [
+            "y = 2x − 4",
+            "y = 8x − 4",
+            "y − 16x − 7",
+            "y − 8x + 4 B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-346",
+          "prompt": "Find the equation of the normal to the curve y = 3x 2 + 2x − 1 at x = 1",
+          "answers": [
+            "8y = 33 − x",
+            "8y = 22 − 4x",
+            "8y = x + 11",
+            "none A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-347",
+          "prompt": "When two lines are perpendicular",
+          "answers": [
+            "m1 = m2",
+            "m12 = 1 + m2",
+            "m1 m2 = −1",
+            "m1 ≠ m2 C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-348",
+          "prompt": "The radius of a circular disc is increasing at the rate of 0.5cm/sec. At what rate is the area of the disc increasing when its radius is 6cm (A = πr 2 )",
+          "answers": [
+            "6πcm2 /sec",
+            "12πcm2 /sec",
+            "24πcm2 /sec",
+            "48πcm2 /sec"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-349",
+          "prompt": "At the maximum point",
+          "answers": [
+            "> 0",
+            "dy dx = 0",
+            "dy dx A < 0",
+            "dy dx d2 y d2 y d2 y d2 y dx dx dx dx 2 2 < 0 (b) 2 > 0 (c) 2 = 0 (d) d2 y d2 y d2 y d2 y dx dx dx dx 2 2 < 0 (b) 2 = 0 (c) B ≠0 2 > 0 (d) = −1 B = −2 A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-350",
+          "prompt": "Differentiate y = cos(Ax + B) with respect to x at x = 0",
+          "answers": [
+            "−A sin B",
+            "A cos B",
+            "0",
+            "− sin B A Continue to share the good news of s around and mobilize the fresher’s to the . s …making the complex simple… 29"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-351",
+          "prompt": "If y = x cos x − sin x, find dy dx",
+          "answers": [
+            "−x cos x",
+            "x cos x − sin x",
+            "−x sin x",
+            "Cxcosxsinx"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-352",
+          "prompt": "Find dy dx at x = 0, when y = sin(Ax + B)",
+          "answers": [
+            "cos B",
+            "− cos B",
+            "A cos B",
+            "C −A sin B cos B x 99"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-353",
+          "prompt": "Find the approximate increase in θ when r increases from 1 to 1.05 using a relation θ = r 3 − r",
+          "answers": [
+            "0.15",
+            "0.1",
+            "0.108",
+            "1.01 C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-354",
+          "prompt": "Find the radius r of a circular disc which increases at the rate of 0.25cm/sec given that its area A = πr 2 increases at the rate of 8πcm2 /sec",
+          "answers": [
+            "2cm",
+            "4cm",
+            "8cm",
+            "16cm D"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-355",
+          "prompt": "If y = 2x 2, find the approximate increase in y when x increases from 2 to 2.002",
+          "answers": [
+            "0.16",
+            "0.004",
+            "0.016",
+            "0.04 C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-356",
+          "prompt": "The radius r of a circular disc is increasing at the rate of 0.5cm/sec. At what rate is the area of the disc increasing when its radius is 4cm, given that A = πr 2 ?",
+          "answers": [
+            "4πcm2 /sec",
+            "8πcm2 /sec",
+            "2πcm2 /sec",
+            "16πcm2 /sec A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-357",
+          "prompt": "Find the area enclosed between the curves y = x 2 & y = 6x",
+          "answers": [
+            "9 square unit",
+            "18 square unit",
+            "36 square unit",
+            "72 square unit C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-358",
+          "prompt": "The volume obtained if the axis of revolution is the x – axis is obtained",
+          "answers": [
+            "b Vx = ∫a πx 2 dx",
+            "b Vx = ∫a πy 2 dx",
+            "b Vx = ∫a π(y 2 − x 2 )dx",
+            "b Vx = B ∫a π 2 y 2 x 2 dx b"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-359",
+          "prompt": "The volume obtained if the axis of revolution is the y – axis is",
+          "answers": [
+            "Vy = ∫a πy 2 dx b",
+            "Vy = ∫a 2πxy dx",
+            "Vy = ∫ πx 2 y 2 dx",
+            "Vy = ∫ 3x 2 y 2 dy B Continue to share the good news of s around and mobilize the fresher’s to the . s …making the complex simple… 30"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-360",
+          "prompt": "Find the volume obtained rotating the area under the curve y = x 2 from x = π π 2 3 0 to x = 1 through 3600 about the x – axis",
+          "answers": [
+            "cubic unit",
+            "cubic unit",
+            "π 5 π cubic unit",
+            "cubic unit C 7"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-361",
+          "prompt": "Find the area between the curve y = cos x and its x – axis from x = 0 to x = π",
+          "answers": [
+            "0",
+            "1",
+            "2",
+            "3 A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-362",
+          "prompt": "Find the area between the curve y = 6x 2 − 6x − 12 and the x – axis from x = −3 to x = 3",
+          "answers": [
+            "36square unit",
+            "52square unit",
+            "75square unit",
+            "A 27square unit"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-363",
+          "prompt": "Find the area enclosed the curves y = 2x − 7 and y = x 2 − 6x",
+          "answers": [
+            "36",
+            "54",
+            "72",
+            "85 A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-364",
+          "prompt": "The x – coordinate is called the ________",
+          "answers": [
+            "ordinate",
+            "singleton",
+            "abscissa",
+            "ortified C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-365",
+          "prompt": "The y – coordinate is called the ________",
+          "answers": [
+            "abscissa",
+            "ordinate",
+            "singleton",
+            "ortified B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-366",
+          "prompt": "Find the length of the line joining A(1, 3) and B (4, 7)",
+          "answers": [
+            "2units",
+            "3units",
+            "4units",
+            "5units D"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-367",
+          "prompt": "Find the equation of the line of gradient 3, which passes through the point (0, 2)",
+          "answers": [
+            "y = 2x + 3",
+            "y = 3x + 2",
+            "y = 5x + 3",
+            "y = 4x + 7 B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-368",
+          "prompt": "Find the acute angle between the lines 2x + 5y = 12 and 2y − 3x = −7",
+          "answers": [
+            "17 22 19 16 15 7 16 5 tan−1",
+            "tan−1",
+            "tan−1",
+            "tan−1 C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-369",
+          "prompt": "which is parallel to y = 3x + 1",
+          "answers": [
+            "y − x = −10",
+            "y − 2x = −10",
+            "y − 3x = −10",
+            "y − 4x = −10 C Continue to share the good news of s around and mobilize the fresher’s to the . s …making the complex simple… 31"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-370",
+          "prompt": "and radius 5",
+          "answers": [
+            "x 2 + y 2 − 3x + 2y = 15",
+            "x 2 + y 2 − 4x + 2y = 20",
+            "x 2 − y 2 + 3x + 4y = 20",
+            "x 2 + B y 2 − 5x + 6y = 20"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-371",
+          "prompt": "Find the equation of the circle with centre (2, 3) which passes through the point (1, 1)",
+          "answers": [
+            "x 2 + y 2 − 4x − 6y + 8 = 0",
+            "x 2 + y 2 + 4x + 6y − 8 = 0",
+            "x 2 + y 2 + 2x + 4y = 0",
+            "x 2 + y 2 + 4x + 6y + 9 = 0 A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-372",
+          "prompt": "Find the equation of the circle which passes through the points (2, 1), (0, −3) and (4, 3)",
+          "answers": [
+            "x 2 + y 2 − 20x + 6y + 27 = 0",
+            "x 2 + y 2 − 11x + 5y + 8 = 0",
+            "x 2 + y 2 − 22x + 12y + 27 = 0",
+            "x 2 + y 2 + 3x + 4y + 7 = 0 C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-373",
+          "prompt": "Find the equation of the tangent to the circle x 2 + y 2 − 2x + 4y − 15 = 0 at the x 5 x 5 x 5 x 5 3 2 4 3 7 3 2 2 point (−1, 2)",
+          "answers": [
+            "y = +",
+            "y = +",
+            "y = +",
+            "y = + D"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-374",
+          "prompt": "Which of the following represents the equation of an ellipse?",
+          "answers": [
+            "2 − 2 = 1",
+            "x2 y2 x2 y2 x2 y2 a b b a b a 2 + 2 = 1",
+            "2 − 2 = 1",
+            "2 + 2 = 1 B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-375",
+          "prompt": "Find the semi-major and semi-minor axes of the ellipse 4x 2 + 9y 2 = 36",
+          "answers": [
+            "2, 3",
+            "3, 2",
+            "1, 2",
+            "3, 4 B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-376",
+          "prompt": "Find the eccentricity of the ellipse 4x 2 + 9y 2 = 36",
+          "answers": [
+            "0.2",
+            "0.57",
+            "0.74"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-377",
+          "prompt": "Find the equation of the circle with centre (−1, 2) and radius 3",
+          "answers": [
+            "x 2 + y 2 + 3x − 2y + 6 = 0",
+            "x 2 + y 2 + 2x − 4y − 4 = 0",
+            "x 2 + y 2 + 4x − 6y + 9 = 0",
+            "x 2 + y 2 + 4x − 8y + 20 = 0 B Continue to share the good news of s around and mobilize the fresher’s to the . s …making the complex simple… 32"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-378",
+          "prompt": "Find the equation of a circle centered at the origin with radius √3",
+          "answers": [
+            "x 2 + y 2 = 3",
+            "x 2 + 2y 2 = √3",
+            "x 2 + y 2 = 6",
+            "x 2 + y 2 + 6x + 4y = 0 A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-379",
+          "prompt": "Find the equation of the circle with centre (−2, 3) which passes through the point (1, 2)",
+          "answers": [
+            "x 2 + y 2 − 2x + 4y + 15 = 0",
+            "x 2 + y 2 + 4x − 6y + 3 = 0",
+            "x 2 + y 2 + 9x + 6y = 0",
+            "x 2 + y 2 + 2x + 6y + 1 = 0 B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-380",
+          "prompt": "Find the radius and the coordinate of the centre of a circle x 2 + y 2 − 4x + 2y − 3 = 0",
+          "answers": [
+            "(1, −2), √8",
+            "(2, 1), √2",
+            "(2, −1), √8",
+            "none"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-381",
+          "prompt": "Find the equation of a circle which passes C through the point (2, 1), (0, −3) & (4, 3)",
+          "answers": [
+            "x 2 + y 2 − 22x + 12y + 27 = 0",
+            "x 2 + y 2 + 11x + 22y + 21 = 0",
+            "x 2 + y 2 + 3x + 4y + 19 = 0",
+            "none A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-382",
+          "prompt": "Find the equation of tangent to the circle x 2 + y 2 + 4x − 10y = 12 at the point (3, 1)",
+          "answers": [
+            "3x − 4y − 11 = 0",
+            "5x − 4y − 11 = 0",
+            "5x − 2y − 11 = 0",
+            "3x − 2y + 11 = 0 B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-383",
+          "prompt": "Verify that x 2 + y 2 − 4x − 6y + 9 = 0 represents a circle finding its radius",
+          "answers": [
+            "4",
+            "2√2",
+            "−2",
+            "2 D"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-384",
+          "prompt": "Obtain the equation of the circle through the three points A(1, 3), B(2, −3) and C (−1, 1)",
+          "answers": [
+            "x 2 + y 2 − 11x + 9y = 12",
+            "5x 2 + 5y 2 − 11x − 9y = 12",
+            "3x 2 + 3y 2 + 9x − 11y = 24",
+            "5x 2 + 5y 2 = 12 B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-385",
+          "prompt": "Obtain the equation of circle with centre (1, 2) and radius 5",
+          "answers": [
+            "x 2 + y 2 − 2x − 4y = 20",
+            "x 2 + y 2 − 4x − 2y = 20",
+            "2x 2 + 2y 2 + x + 2y = 10",
+            "2x 2 + 2y 2 − 4x − 4y = 40 A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-386",
+          "prompt": "Which of these represents a circle with centre 0 and radius r",
+          "answers": [
+            "r 2 = (x − a)2 + (y − b)2",
+            "r 2 = (x + a)2 + (y − b)2",
+            "r 2 = x 2 + y 2",
+            "r 2 = (y + b)2 C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-387",
+          "prompt": "Find the length of a tangent from point (−3, 2) to the circle x 2 + y 2 − 6x − 4y + 9 = 0",
+          "answers": [
+            "2√2",
+            "4√2",
+            "√2",
+            "2√4 B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-388",
+          "prompt": "Given just three letters A, B and C, how many permutations of size 3 can we get?",
+          "answers": [
+            "3",
+            "6",
+            "9",
+            "12 B Continue to share the good news of s around and mobilize the fresher’s to the. s …making the complex simple…"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-389",
+          "prompt": "If cos2A = 2cos 2 A − 1. Cos4A equals?",
+          "answers": [
+            "8cos 2 A − 8cos 2 A + 1",
+            "8cos 3 A − 8cos 2 A + 1",
+            "8cos 4 A + 8cos 2 A + 1",
+            "8cos 4 A − 8cos 2 A + 1"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-390",
+          "prompt": "Find the value of α for 00 ≤ α ≤ 3600 in the equation cosecαtanα = α 1, by using the substitution tan = t 2",
+          "answers": [
+            "900",
+            "1800",
+            "450",
+            "3600"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-391",
+          "prompt": "If y = x 2 −1. Find the y-intercept and xintercept respectively.",
+          "answers": [
+            "0,0",
+            "1,0",
+            "2,2",
+            "1,2"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-392",
+          "prompt": "The midpoint of the points M(4, −1) and N(x, y) is P(3, −4). Find the coordinates of points N",
+          "answers": [
+            "(−2, 7)",
+            "(2, 7)",
+            "(−2, −7)",
+            "(2, −7)"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-393",
+          "prompt": "Find the equation of the line passing through (1, −1) and (5, 7)",
+          "answers": [
+            "y = 4x + 5",
+            "y = 2x + 5",
+            "y = 4x − 5",
+            "y − 2x + 3 = 0"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-394",
+          "prompt": "Find the value of a fixed angle in the trigonometry equation given by 2√3 sin θ + 2 cos θ = 2",
+          "answers": [
+            "90",
+            "0",
+            "60",
+            "30"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-395",
+          "prompt": "Find the value of α if cosecα tan α = 1 by using the half substitution method, α tan = t",
+          "answers": [
+            "30",
+            "1",
+            "180",
+            "0 2"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-396",
+          "prompt": "Find the intercept of a line given by y = ax + b",
+          "answers": [
+            "0",
+            "a",
+            "b",
+            "x"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-397",
+          "prompt": "Find the volume obtained by rotating area under the curve y = x 2 from x = 0 to x = 1",
+          "answers": [
+            "16π 5",
+            "2π 5",
+            "3π 5",
+            "π"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-398",
+          "prompt": "The relationship between a, b & e in ellipse is given by",
+          "answers": [
+            "b2 = a2 (1 − e)",
+            "b 2 = a2 (1 − e 2 )",
+            "a2 = b2 (1 − e 2 )",
+            "b2 = a2 (1 + e 2 )"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-399",
+          "prompt": "Find the volume generated by revolving about the x-axis along the curve xy = 2 1 3 2 2 which lies between x = 2 and x = 8",
+          "answers": [
+            "π cubic unit",
+            "π cubic unit",
+            "5 2 7 π cubic unit",
+            "π cubic unit B 2 3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-400",
+          "prompt": "The volume generated when the area enclosed by a curve y = f(x ) and line x = a a, x = b is rotated about x-axis through 2π radian is given by",
+          "answers": [
+            "Vx = ∫b πy 2 dx b b",
+            "Vx = ∫a πy 2 dx",
+            "Vx = ∫a 2πyx dx",
+            "none"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-401",
+          "prompt": "If the mid-point of the line joining (1 − K, −4) and (2, K + 1) is (−K, K), find K?",
+          "answers": [
+            "−1",
+            "−2",
+            "−3",
+            "−4 C"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-402",
+          "prompt": "The volume obtained if the axis of revolution is the x – axis is obtained by",
+          "answers": [
+            "b Vx = ∫a πx 2 dx",
+            "b Vx = ∫a πy 2 dx",
+            "b Vx = ∫a π(y 2 − x 2 )dx",
+            "b Vx = B ∫a π 2 y 2 x 2 dx b"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-403",
+          "prompt": "Find the volume obtained by rotating the area under the curve y = x 2 from x = π π 2 3 0 to x = 1 through 3600 about the x – axis",
+          "answers": [
+            "cubic unit",
+            "cubic unit",
+            "π 5 π cubic unit",
+            "cubic unit C 7"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-404",
+          "prompt": "Find the area enclosed by the curves y = 2x − 7 and y = x 2 − 6x",
+          "answers": [
+            "36",
+            "54",
+            "72",
+            "85 A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-405",
+          "prompt": "Find the equation of the line through the point (3, −1) which is parallel to y = 3x + 1",
+          "answers": [
+            "y − x = −10",
+            "y − 2x = −10",
+            "y − 3x = −10",
+            "y − 4x = −10 C Continue to share the good news of s around and mobilize the fresher’s to the . s …making the complex simple… Best wishes 31"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-406",
+          "prompt": "Find the equation of the circle with centre (2, −1) and radius 5",
+          "answers": [
+            "x 2 + y 2 − 3x + 2y = 15",
+            "x 2 + y 2 − 4x + 2y = 20",
+            "x 2 − y 2 + 3x + 4y = 20",
+            "x 2 + B y 2 − 5x + 6y = 20"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "mth102-407",
+          "prompt": "Verify that x 2 + y 2 − 4x − 6y + 9 = 0 represents a circle by finding its radius",
+          "answers": [
+            "4",
+            "2√2",
+            "−2",
+            "2 D"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

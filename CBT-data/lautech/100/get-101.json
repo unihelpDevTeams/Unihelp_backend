@@ -1,0 +1,4652 @@
+{
+    "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "General Engineering",
+  "course": {
+    "code": "GET 101",
+    "title": "Introduction to Engineering and Technology"
+  },
+    "questions": [
+        {
+          "id": "get101-001",
+          "prompt": "What is the primary focus of technology?",
+          "answers": [
+            "Studying abstract scientific theories",
+            "Transforming ideas into practical applications",
+            "Limiting industrial production",
+            "Reducing the use of raw materials"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-002",
+          "prompt": "Which of the following best defines engineering according to the Encyclopaedia Britannica?",
+          "answers": [
+            "The art of designing buildings and bridges",
+            "The professional art of applying science to optimize resource conversion for mankind",
+            "The study of natural sciences and their principles",
+            "The process of manufacturing products for industries"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-003",
+          "prompt": "According to Igbeka (2002), engineering involves which of the following?",
+          "answers": [
+            "Organizing and directing human activities in material usage",
+            "Restricting the application of natural forces",
+            "Avoiding technological advancements",
+            "Preventing industrial development"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-004",
+          "prompt": "What is one major goal of engineering?",
+          "answers": [
+            "Reducing the use of power",
+            "Optimizing material use, power utilization, and labor direction",
+            "Eliminating technological advancements",
+            "Preventing automation in industries"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-005",
+          "prompt": "Why is technology sometimes considered a double-edged weapon?",
+          "answers": [
+            "It creates industries and employment opportunities",
+            "It leads to pollution and other problems despite advancements",
+            "It only benefits scientists and mathematicians",
+            "It eliminates all human labor MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-006",
+          "prompt": "The word \"engineer\" originates from a Latin word meaning what?",
+          "answers": [
+            "To build",
+            "To create",
+            "To destroy",
+            "To observe"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-007",
+          "prompt": "Which of the following best describes an engineer?",
+          "answers": [
+            "Someone who studies ancient mathematics",
+            "Someone who applies science and mathematics to develop solutions for mankind",
+            "A person who constructs buildings and bridges only",
+            "A scientist who only conducts research"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-008",
+          "prompt": "What distinguishes an engineer from a scientist?",
+          "answers": [
+            "Engineers focus on solving practical problems, while scientists develop theories",
+            "Scientists only work with machines, while engineers study nature",
+            "Engineers do not use mathematics in their work",
+            "Scientists work in industries, while engineers work in universities"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-009",
+          "prompt": "How does engineering contribute to industrial efficiency?",
+          "answers": [
+            "By minimizing automation in industries",
+            "By introducing new control and management techniques",
+            "By eliminating mass production processes",
+            "By avoiding the use of raw materials"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-010",
+          "prompt": "What is the relationship between engineering and mankind?",
+          "answers": [
+            "Engineering is focused solely on scientific discoveries",
+            "Engineering aims to develop solutions that benefit mankind",
+            "Engineers only work on military projects MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Engineering is unrelated to human progress"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-011",
+          "prompt": "Which of the following qualities should an engineer possess?",
+          "answers": [
+            "Creativity and analytical thinking",
+            "Emotional instability and impulsiveness",
+            "Preference for working alone",
+            "Avoidance of abstract reasoning"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-012",
+          "prompt": "Why should an engineer be able to think in abstract terms?",
+          "answers": [
+            "To rely only on imagination without practical application",
+            "To analyze and connect unrelated events creatively",
+            "To avoid real-world problem-solving",
+            "To limit his work to theoretical speculations"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-013",
+          "prompt": "According to Herbert Hoover, how is an engineer different from a doctor?",
+          "answers": [
+            "An engineer works with the weak",
+            "An engineer’s purpose is destruction",
+            "An engineer does not focus on healing the weak",
+            "An engineer’s main task is resolving legal disputes"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-014",
+          "prompt": "What does Herbert Hoover suggest about an engineer's role in society?",
+          "answers": [
+            "Engineers create hope by applying science to real-world problems",
+            "Engineers focus mainly on military applications",
+            "Engineers engage in frequent legal battles",
+            "Engineers only work in laboratories and avoid practical applications"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-015",
+          "prompt": "Who is legally allowed to undertake professional engineering services?",
+          "answers": [
+            "Any technically skilled worker",
+            "Only a person trained in physics MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Only a certified engineer",
+            "Anyone with basic mathematical knowledge"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-016",
+          "prompt": "Which of the following is NOT a responsibility of an engineer?",
+          "answers": [
+            "Teaching in recognized engineering institutions",
+            "Supervising construction projects",
+            "Performing surgeries on patients",
+            "Conducting research and consultation"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-017",
+          "prompt": "In which field is an engineer expected to apply their special knowledge?",
+          "answers": [
+            "Mathematics, physics, and engineering",
+            "Literature and poetry",
+            "Political science and law",
+            "Music and arts"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-018",
+          "prompt": "What are some of the roles engineers play in construction projects?",
+          "answers": [
+            "Specifying, designing, constructing, and inspecting",
+            "Only planning and walking away from the project",
+            "Managing finances without technical input",
+            "Avoiding direct involvement in technical processes"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-019",
+          "prompt": "Which of the following is part of an engineer’s professional duties?",
+          "answers": [
+            "Operating and maintaining engineering systems",
+            "Only inventing new concepts without practical work",
+            "Engaging in daily legal disputes",
+            "Avoiding collaboration with other professionals"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-020",
+          "prompt": "Why is a broad intellectual perspective important for an engineer?",
+          "answers": [
+            "To succeed in today's multidisciplinary environment MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "To limit knowledge to only one specialization",
+            "To avoid learning about new technologies",
+            "To work in isolation without external influences"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-021",
+          "prompt": "Why is it important for an engineer to have a strong foundation in mathematics and physical sciences?",
+          "answers": [
+            "It helps in writing research papers effectively.",
+            "It forms the basis for solving engineering problems.",
+            "It ensures an engineer can work in any industry.",
+            "It replaces the need for practical skills."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-022",
+          "prompt": "How does an engineer’s understanding of manufacturing processes contribute to problem-solving?",
+          "answers": [
+            "It allows them to work only in factories.",
+            "It helps in applying theoretical knowledge to real-world applications.",
+            "It eliminates the need for teamwork.",
+            "It ensures engineers do not require further training."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-023",
+          "prompt": "Why is it necessary for an engineer to have knowledge beyond technical fields, such as economics and history?",
+          "answers": [
+            "To impress clients with broad knowledge.",
+            "To understand the societal and economic impact of engineering solutions.",
+            "To qualify for non-engineering jobs.",
+            "To replace technical expertise with general knowledge."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-024",
+          "prompt": "What skill allows an engineer to interpret two-dimensional drawings into real-world three-dimensional structures?",
+          "answers": [
+            "Logical reasoning",
+            "Visualization ability",
+            "Mathematical computation",
+            "Verbal communication"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-025",
+          "prompt": "(MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS 25. Why is intellectual curiosity an important trait for an engineer?",
+          "answers": [
+            "It helps them adapt to new technologies and problem-solving techniques.",
+            "It makes them question everything, even proven scientific facts.",
+            "It allows them to avoid teamwork and work independently.",
+            "It eliminates the need for practical training."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-026",
+          "prompt": "What is a simple definition of technology?",
+          "answers": [
+            "The study of ancient engineering techniques",
+            "The use of scientific knowledge for practical applications",
+            "The elimination of all natural resources",
+            "The rejection of modern industrial processes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-027",
+          "prompt": "Why is technology considered a two-edged weapon?",
+          "answers": [
+            "It improves industries but can also cause pollution and worker dissatisfaction",
+            "It only benefits large corporations",
+            "It focuses solely on automation and ignores human involvement",
+            "It eliminates the need for scientific research"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-028",
+          "prompt": "Which of the following is an essential factor in technological advancement?",
+          "answers": [
+            "The right materials",
+            "The rejection of scientific principles",
+            "The avoidance of industrial growth",
+            "The reliance on outdated methods"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-029",
+          "prompt": "What is a major goal of technology in society?",
+          "answers": [
+            "To transform scientific ideas into real-world solutions",
+            "To increase dependency on outdated methods",
+            "To prevent scientific development",
+            "To replace all human labor with robots MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-030",
+          "prompt": "How do industries adapt to technological advancements?",
+          "answers": [
+            "By improving management and control techniques",
+            "By rejecting modern manufacturing methods",
+            "By eliminating the need for automation",
+            "By avoiding the use of raw materials"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-031",
+          "prompt": "How were ancient civilizations classified in terms of technology?",
+          "answers": [
+            "By their population size",
+            "By the materials they used",
+            "By the languages they spoke",
+            "By their religious beliefs"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-032",
+          "prompt": "What was a major technological advancement of the Neolithic Age?",
+          "answers": [
+            "The discovery of bronze tools",
+            "The use of hunting as the primary food source",
+            "The shift to farming and tool-making",
+            "The invention of nuclear energy"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-033",
+          "prompt": "What marked the beginning of agricultural engineering?",
+          "answers": [
+            "The development of irrigation systems",
+            "The use of iron tools for farming",
+            "The breeding of livestock for trade",
+            "The replacement of farming with hunting"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-034",
+          "prompt": "How did the Neolithic man improve his farming methods?",
+          "answers": [
+            "By switching entirely to hunting",
+            "By relying only on natural rainfall",
+            "By working with blacksmiths to create farming tools MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "By avoiding the use of iron tools"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-035",
+          "prompt": "What led to the beginning of mechanical engineering?",
+          "answers": [
+            "The development of iron tools for farming",
+            "The use of wooden weapons in hunting",
+            "The rejection of industrial processes",
+            "The avoidance of blacksmithing"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-036",
+          "prompt": "How did the Neolithic man protect his harvested grains?",
+          "answers": [
+            "By consuming them immediately",
+            "By burying them underground",
+            "By constructing grain storage structures",
+            "By leaving them exposed to the weather"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-037",
+          "prompt": "What materials were first used to build houses?",
+          "answers": [
+            "Concrete and metal",
+            "Wood and leaves",
+            "Steel and glass",
+            "Plastic and rubber"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-038",
+          "prompt": "What technological advancement led to the formation of villages?",
+          "answers": [
+            "The ability to store food and build permanent homes",
+            "The increased efficiency in hunting",
+            "The discovery of fossil fuels",
+            "The decline of agriculture"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-039",
+          "prompt": "What was an early use of clay in the Neolithic Age?",
+          "answers": [
+            "Making glass",
+            "Creating pottery for cooking and storing water MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Constructing roads",
+            "Manufacturing weapons"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-040",
+          "prompt": "How did division of labor emerge in early civilizations?",
+          "answers": [
+            "People specialized in different trades such as farming and blacksmithing",
+            "Everyone focused only on hunting",
+            "The society discouraged skill specialization",
+            "People avoided working in groups"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-041",
+          "prompt": "How many years ago did the Neolithic man begin tilling the ground and sowing grains?",
+          "answers": [
+            "5,000 years ago",
+            "9,000 years ago",
+            "12,000 years ago",
+            "15,000 years ago"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-042",
+          "prompt": "What material was first used the Neolithic man to make pots for cooking?",
+          "answers": [
+            "Iron",
+            "Clay",
+            "Bronze",
+            "Stone"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-043",
+          "prompt": "What was one of the earliest weaving materials used the Neolithic man?",
+          "answers": [
+            "Plastic fibers",
+            "Steel wires",
+            "Bark of trees",
+            "Aluminum sheets"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-044",
+          "prompt": "What discovery led to the beginning of metallurgy and mechanical engineering?",
+          "answers": [
+            "The use of cutlasses and hoes made by blacksmiths MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "The invention of wooden farming tools",
+            "The development of glass tools",
+            "The reliance on stone tools for all activities"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-045",
+          "prompt": "What was the major reason for the transition from wooden houses to brick and stone houses?",
+          "answers": [
+            "To improve durability and protection",
+            "To reduce the cost of materials",
+            "To keep houses lightweight",
+            "To make buildings smaller"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-046",
+          "prompt": "The oldest house was built _____ years ago",
+          "answers": [
+            "2000",
+            "3000",
+            "2700",
+            "8000"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-047",
+          "prompt": "What event in the fourteenth century led to the invention of advanced implements and the beginning of machines?",
+          "answers": [
+            "The Renaissance",
+            "The Black Death",
+            "The Industrial Revolution",
+            "The Great Depression"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-048",
+          "prompt": "Why did the survivors of the Black Death develop advanced tools?",
+          "answers": [
+            "They had fewer workers available",
+            "They wanted to slow down technological progress",
+            "They needed weapons for another war",
+            "They had an oversupply of iron"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-049",
+          "prompt": "(MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS 49. Which group in Germany provided financial support for the development of machines?",
+          "answers": [
+            "The Roman Empire",
+            "The Fugers",
+            "The French monarchy",
+            "The British Parliament"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-050",
+          "prompt": "What key development marked the Industrial Revolution?",
+          "answers": [
+            "The use of firewood for melting iron",
+            "The discovery of steam power",
+            "The use of coke instead of charcoal for melting iron",
+            "The banning of technical colleges"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-051",
+          "prompt": "What was one of the earliest engineering disciplines?",
+          "answers": [
+            "Electrical engineering",
+            "Civil and military engineering",
+            "Aerospace engineering",
+            "Computer engineering"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-052",
+          "prompt": "How did early man defend himself using engineering skills?",
+          "answers": [
+            "By designing advanced digital systems",
+            "By employing simple tools like rocks and sticks",
+            "By creating iron weapons immediately",
+            "By using steam engines for warfare"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-053",
+          "prompt": "Which of the following was an early use of engineering?",
+          "answers": [
+            "Manufacturing electronic circuits",
+            "Developing artificial intelligence",
+            "Making tools for self-defense and survival",
+            "Writing complex scientific theories MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-054",
+          "prompt": "Why were technical colleges established in Germany?",
+          "answers": [
+            "To train people in machine invention and construction",
+            "To teach philosophy and literature",
+            "To prevent technological advancements",
+            "To limit the spread of engineering knowledge"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-055",
+          "prompt": "How did engineering contribute to civilization?",
+          "answers": [
+            "By keeping people in caves permanently",
+            "By enabling early man to create tools and build communities",
+            "By preventing the spread of knowledge",
+            "By discouraging technological progress"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-056",
+          "prompt": "which century were technical colleges in Germany well advanced?",
+          "answers": [
+            "14th century",
+            "16th century",
+            "19th century",
+            "21st century"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-057",
+          "prompt": "What is the primary role of an engineer?",
+          "answers": [
+            "To develop scientific theories only",
+            "To convert scientific knowledge into practical applications",
+            "To focus solely on theoretical physics",
+            "To prevent technological advancements"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-058",
+          "prompt": "What has remained unchanged about the role of engineers over time?",
+          "answers": [
+            "Their tools and methods",
+            "Their objectives",
+            "Their responsibility to serve people's needs MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Their avoidance of material improvements"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-059",
+          "prompt": "Which of the following is NOT one of the four essential technological advancement factors?",
+          "answers": [
+            "The right ideas",
+            "The right movement in time",
+            "The availability of wrong materials",
+            "The right methods of putting ideas into effect"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-060",
+          "prompt": "How are ancient civilizations often classified?",
+          "answers": [
+            "By their population density",
+            "By their political systems",
+            "By the characteristics of the materials they used",
+            "By their artistic achievements"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-061",
+          "prompt": "Why was the Neolithic Age more advanced than the Old Stone Age?",
+          "answers": [
+            "People used bronze tools instead of stone",
+            "People became less inventive over time",
+            "Neolithic humans made better tools and were more inventive",
+            "The Old Stone Age had superior engineering techniques"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-062",
+          "prompt": "When and where did engineering likely begin?",
+          "answers": [
+            "About 3,000 years ago in Europe",
+            "About 9,000 years ago in Asia Minor or Africa",
+            "About 1,000 years ago in North America",
+            "About 12,000 years ago in South America"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-063",
+          "prompt": "What was the primary occupation of early humans before engineering emerged?",
+          "answers": [
+            "Farming and metallurgy",
+            "Trading and construction MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Hunting and gathering fruits",
+            "Manufacturing and transportation"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-064",
+          "prompt": "What significant factor led to technological classification of ancient times?",
+          "answers": [
+            "Political leadership",
+            "Religious beliefs",
+            "The materials used in tools and weapons",
+            "The number of wars fought"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-065",
+          "prompt": "Which of the following best describes the transition from the Old Stone Age to the Neolithic Age?",
+          "answers": [
+            "People stopped using tools altogether",
+            "People developed advanced stone tools and became more inventive",
+            "People abandoned agriculture and returned to hunting",
+            "Engineering knowledge disappeared completely"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-066",
+          "prompt": "Around what year did engineering practices likely begin?",
+          "answers": [
+            "1000 BC",
+            "2000 AD",
+            "6000 BC – 3000 BC",
+            "500 AD"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-067",
+          "prompt": "What event marked the beginning of Agricultural Engineering?",
+          "answers": [
+            "The invention of irrigation systems",
+            "The use of iron tools for tilling land",
+            "The domestication of animals",
+            "The discovery of fertilizers"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-068",
+          "prompt": "Which engineering field began with the blacksmith making hoes and cutlasses?",
+          "answers": [
+            "Civil Engineering MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Electrical Engineering",
+            "Mechanical Engineering",
+            "Chemical Engineering"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-069",
+          "prompt": "What was one of the earliest materials used Neolithic man to build houses?",
+          "answers": [
+            "Glass",
+            "Bricks and stones",
+            "Concrete",
+            "Steel"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-070",
+          "prompt": "What necessity led to early engineering works such as irrigation and crop growing?",
+          "answers": [
+            "The need for food production in growing communities",
+            "The discovery of electricity",
+            "The establishment of technical universities",
+            "The invention of advanced machinery"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-071",
+          "prompt": "Which of the following was one of the notable achievements during the early engineering period?",
+          "answers": [
+            "Production of fire at will",
+            "Discovery of steam power",
+            "Creation of electricity",
+            "Invention of wheel and axle"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-072",
+          "prompt": "What factor contributed to the rise of a class society of supervisors, foremen, and workers? (MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS",
+          "answers": [
+            "The invention of money",
+            "The discovery of bronze tools",
+            "The need for organized labor in large-scale construction projects",
+            "The introduction of iron tools"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-073",
+          "prompt": "Which civilization contributed to early engineering recording city plans and irrigation systems?",
+          "answers": [
+            "The Romans",
+            "The Egyptians",
+            "The Chinese",
+            "The Mesopotamians"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-074",
+          "prompt": "The first known use of the wheel and axle was for:",
+          "answers": [
+            "Pottery making",
+            "Water transportation",
+            "War chariots",
+            "Two-wheeled horse-drawn carts"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-075",
+          "prompt": "What mathematical system did the Mesopotamians contribute to?",
+          "answers": [
+            "Binary system",
+            "Decimal system",
+            "Algebraic equations",
+            "Sexagesimal system"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-076",
+          "prompt": "What was one of the major contributions of Mesopotamians to time measurement?",
+          "answers": [
+            "The 24-hour day system",
+            "The 12-hour clock system",
+            "The binary numbering system",
+            "The division of the circle into 360 degrees"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-077",
+          "prompt": "(MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS 78. In the Nile Valley, what material was commonly used for writing?",
+          "answers": [
+            "Clay tablets",
+            "Stone slabs",
+            "Papyrus",
+            "Parchments"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-078",
+          "prompt": "What was the primary source of energy before mechanical power was developed?",
+          "answers": [
+            "Animal labor",
+            "Water power",
+            "Enslavement and manpower",
+            "Wind energy"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-079",
+          "prompt": "Which ancient civilization is known for having engineers familiar with basic arithmetic and algebra?",
+          "answers": [
+            "Egyptians",
+            "Babylonians",
+            "Romans",
+            "Chinese"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-080",
+          "prompt": "What numbering system did Balonian engineers use?",
+          "answers": [
+            "Decimal system",
+            "Binary system",
+            "Sexagesimal system",
+            "Octal system"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-081",
+          "prompt": "What material was used in Mesopotamian road construction and resurfaced again in the 19th century?",
+          "answers": [
+            "Concrete",
+            "Asphalt",
+            "Brick",
+            "Stone piers MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-082",
+          "prompt": "Which civilization is credited with performing the world’s most remarkable engineering during the Pyramid Age?",
+          "answers": [
+            "Romans",
+            "Greeks",
+            "Egyptians",
+            "Babylonians"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-083",
+          "prompt": "What basic tools did Egyptian engineers primarily use in their construction efforts?",
+          "answers": [
+            "Pulley, wedge, wheel, and screw",
+            "Lever, inclined plane, wedge, and wheel",
+            "Axe, hammer, chisel, and saw",
+            "Rope, pulley, lever, and screw"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-084",
+          "prompt": "What was the estimated error in the base measurement of the Great Pyramid?",
+          "answers": [
+            "1 foot",
+            "5 inches",
+            "1 inch",
+            "10 inches"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-085",
+          "prompt": "Why did Egypt fail to maintain its leadership in engineering?",
+          "answers": [
+            "Engineers moved to Greece",
+            "Their tools were outdated",
+            "There was little pressure to continue development",
+            "Natural disasters destroyed their advancements"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-086",
+          "prompt": "What ancient Egyptian engineering contract was recently discovered?",
+          "answers": [
+            "A pyramid blueprint",
+            "A 5-mile-long system of dykes MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "A plan for the Sphinx",
+            "A temple construction plan"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-087",
+          "prompt": "Where did the history of Greek engineering originate?",
+          "answers": [
+            "Rome and Persia",
+            "Egypt and the East",
+            "Mesopotamia and India",
+            "Carthage and China"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-088",
+          "prompt": "Which ancient Greek city inherited scientific discoveries from Mycenaean engineers?",
+          "answers": [
+            "Thebes",
+            "Athens",
+            "Sparta",
+            "Crete"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-089",
+          "prompt": "What was one major limitation that slowed down Greek scientific progress?",
+          "answers": [
+            "Lack of resources",
+            "Dependence on slave labor",
+            "Frequent wars with Persia",
+            "Harsh environmental conditions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-090",
+          "prompt": "The Greek water system was modeled after which civilization?",
+          "answers": [
+            "Roman",
+            "Persian",
+            "Egyptian",
+            "Indian"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-091",
+          "prompt": "Who were the most famous Greek philosophers known for their contributions to knowledge?",
+          "answers": [
+            "Socrates, Archimedes, and Herodotus MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Plato, Aristotle, and Archimedes",
+            "Pythagoras, Hippocrates, and Euclid",
+            "Thales, Heraclitus, and Anaximander"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-092",
+          "prompt": "What was the greatest contribution of the Greeks to science?",
+          "answers": [
+            "The invention of advanced machinery",
+            "The development of hydraulic systems",
+            "The discovery of natural laws that can be described in words",
+            "The construction of advanced roads and aqueducts"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-093",
+          "prompt": "When did the center of learning shift from Egypt to Crete?",
+          "answers": [
+            "2000 BC",
+            "1800 BC",
+            "1400 BC",
+            "1000 BC"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-094",
+          "prompt": "What did the Romans at in antiquity?",
+          "answers": [
+            "Philosophy and abstract reasoning",
+            "Naval exploration and astronomy",
+            "Engineering and construction",
+            "Mathematics and medicine"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-095",
+          "prompt": "Which civilization had the best engineers of antiquity?",
+          "answers": [
+            "Greeks",
+            "Romans",
+            "Egyptians",
+            "Babylonians"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-096",
+          "prompt": "What did Roman engineers at? (MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS",
+          "answers": [
+            "Philosophy and abstract thought",
+            "Scientific discoveries and inventions",
+            "Application of engineering techniques",
+            "Writing and literature"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-097",
+          "prompt": "Which of the following was one of the major Roman engineering achievements?",
+          "answers": [
+            "Discovery of the wheel",
+            "Construction of aqueducts and bridges",
+            "Development of the steam engine",
+            "Introduction of gunpowder"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-098",
+          "prompt": "What helped the Roman Empire stay united?",
+          "answers": [
+            "A strong military presence",
+            "The maintenance of a communication system and roads",
+            "The widespread use of the Latin language",
+            "The invention of iron tools"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-099",
+          "prompt": "The Roman road system extended from Euphrates Valley to where?",
+          "answers": [
+            "China",
+            "Great Britain",
+            "North Africa",
+            "India"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-100",
+          "prompt": "What was the primary purpose of iron refining in Rome?",
+          "answers": [
+            "Making agricultural tools",
+            "Creating scientific equipment",
+            "Fabricating small tools and weapons",
+            "Manufacturing jewelry"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-101",
+          "prompt": "(MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS 102. Which field did the Romans also in apart from engineering?",
+          "answers": [
+            "Medicine",
+            "Law and civil organization",
+            "Astronomy",
+            "Mathematics"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-102",
+          "prompt": "What was a major limitation of Roman engineers?",
+          "answers": [
+            "Lack of scientific knowledge",
+            "Limited application of engineering techniques",
+            "Lack of creative thought and scientific processes",
+            "Poor infrastructure planning"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-103",
+          "prompt": "During which period was the term \"ENGINEER\" first used?",
+          "answers": [
+            "Ancient Greece",
+            "Middle Ages (5th–16th century)",
+            "Renaissance",
+            "Industrial Revolution"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-104",
+          "prompt": "Who preserved scientific knowledge after the fall of Rome?",
+          "answers": [
+            "The military",
+            "Religious leaders",
+            "Greek philosophers",
+            "Egyptian scholars"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-105",
+          "prompt": "Which civilization experienced a technological awakening in the Middle Ages?",
+          "answers": [
+            "Romans",
+            "Greeks",
+            "Arabs",
+            "Chinese MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-106",
+          "prompt": "What was INGENIUM in historical writing around AD 200?",
+          "answers": [
+            "A type of bridge",
+            "A war device like a battering ram",
+            "A Roman road system",
+            "A water wheel"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-107",
+          "prompt": "What did the term \"engineer\" originally mean?",
+          "answers": [
+            "A military commander",
+            "A person who was clever in overcoming nature's difficulties",
+            "A worker who built roads",
+            "A religious scholar"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-108",
+          "prompt": "What technical advance helped in the efficient smelting of iron?",
+          "answers": [
+            "The use of charcoal and air blast",
+            "The invention of the steam engine",
+            "The development of cement",
+            "The creation of iron bridges"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-109",
+          "prompt": "How did the Arabs contribute to technological advancement through trade with China?",
+          "answers": [
+            "They introduced silk weaving",
+            "They established paper mills and communication of ideas",
+            "They developed windmills",
+            "They built stone castles"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-110",
+          "prompt": "What scientific advancements were made in Arabia?",
+          "answers": [
+            "Aerodynamics and aviation",
+            "Chemistry and optics, including sugar refining and soap making",
+            "Thermodynamics and heat engines MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Electromagnetism and battery technology"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-111",
+          "prompt": "Which civilization influenced the production of gunpowder in the 14th century?",
+          "answers": [
+            "Romans",
+            "Greeks",
+            "Chinese",
+            "Egyptians"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-112",
+          "prompt": "What technological development helped navigators explore faraway places?",
+          "answers": [
+            "The discovery of America",
+            "The improvement of the compass",
+            "The use of steam-powered ships",
+            "The construction of lighthouses"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-113",
+          "prompt": "What effect did the growth of Christianity have on labor?",
+          "answers": [
+            "It led to the increased use of slaves",
+            "It resulted in the development of windmills and water wheels",
+            "It caused the decline of agriculture",
+            "It discouraged scientific advancements"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-114",
+          "prompt": "Who invented the movable type printing device around 1454?",
+          "answers": [
+            "Leonardo da Vinci",
+            "Johannes Gutenberg",
+            "Isaac Newton",
+            "Galileo Galilei"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-115",
+          "prompt": "How did the invention of the printing press impact the spread of knowledge?",
+          "answers": [
+            "It made books more expensive",
+            "It limited access to information MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "It helped spread knowledge to scholars worldwide",
+            "It restricted discoveries to religious leaders"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-116",
+          "prompt": "What was one major challenge faced new scientific discoveries during the 17th and 18th centuries?",
+          "answers": [
+            "Lack of experimentation",
+            "Opposition and hostility",
+            "Excessive government funding",
+            "Rapid acceptance without question"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-117",
+          "prompt": "Who formulated laws relating to pressure and gas volume?",
+          "answers": [
+            "Isaac Newton",
+            "Robert Boyle",
+            "Galileo Galilei",
+            "Leonardo da Vinci"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-118",
+          "prompt": "What scientific concept did Huygens investigate?",
+          "answers": [
+            "Elasticity of gases",
+            "Gravitational pull",
+            "Steam power",
+            "Atomic theory"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-119",
+          "prompt": "Which scientist experimented with the elastic properties of materials?",
+          "answers": [
+            "Robert Hooke",
+            "Archimedes",
+            "Michael Faraday",
+            "James Watt"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-120",
+          "prompt": "Which Renaissance figure designed a steam engine, a camera, and a helicopter model?",
+          "answers": [
+            "Galileo Galilei MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Johannes Kepler",
+            "Leonardo da Vinci",
+            "Nicolaus Copernicus"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-121",
+          "prompt": "Which civilization greatly influenced early Greek engineering?",
+          "answers": [
+            "Romans",
+            "Chinese",
+            "Egyptians",
+            "Persians"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-122",
+          "prompt": "What was one of the major contributions of Roman engineers?",
+          "answers": [
+            "Discovery of general laws of nature",
+            "Development of abstract philosophy",
+            "Creation of advanced mathematical theories",
+            "Construction of roads, aqueducts, and bridges"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-123",
+          "prompt": "During the Middle Ages, which group played a role in preserving scientific knowledge?",
+          "answers": [
+            "The Romans",
+            "The Greeks",
+            "Religious leaders",
+            "The Mongols"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-124",
+          "prompt": "What major invention did Johannes Gutenberg develop around 1454?",
+          "answers": [
+            "Steam engine",
+            "Telescope",
+            "Water wheel",
+            "Movable type printing press"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-125",
+          "prompt": "Who formulated the laws relating to pressure and volume of gases? (MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS",
+          "answers": [
+            "Galileo Galilei",
+            "Isaac Newton",
+            "Leonardo da Vinci",
+            "Robert Boyle"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-126",
+          "prompt": "What was James Watt known for?",
+          "answers": [
+            "Developing the steam engine",
+            "Refining iron production",
+            "Discovering the laws of motion",
+            "Inventing the first mechanical clock"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-127",
+          "prompt": "What unit of measurement is linked to the historical use of horses as power sources?",
+          "answers": [
+            "Newton",
+            "Pascal",
+            "Joule",
+            "Horsepower"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-128",
+          "prompt": "What major revolution is associated with the 20th century?",
+          "answers": [
+            "The Printing Revolution",
+            "The Industrial Revolution",
+            "The Computer Revolution",
+            "The Agricultural Revolution"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-129",
+          "prompt": "Which of the following was a significant scientific development in the 20th century?",
+          "answers": [
+            "Steam engines",
+            "Nuclear power and weapons",
+            "The telegraph",
+            "Water mills"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-130",
+          "prompt": "(MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS 126. What major invention allowed advanced calculations and automation in the 20th century?",
+          "answers": [
+            "The spinning jenny",
+            "The steam turbine",
+            "The electronic digital computer",
+            "The printing press"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-131",
+          "prompt": "What technology made interplanetary space navigation possible?",
+          "answers": [
+            "Hot air balloons",
+            "Vehicles for interplanetary space navigation/exploration",
+            "Submarines",
+            "Steam-powered rockets"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-132",
+          "prompt": "What communication technology was significantly advanced in the 20th century?",
+          "answers": [
+            "Smoke signals",
+            "Satellite communication",
+            "Morse code",
+            "Handwritten letters"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-133",
+          "prompt": "What innovation improved urban living conditions in the 20th century?",
+          "answers": [
+            "Water wheels",
+            "Gas lamps",
+            "Advanced community housing systems",
+            "Coal-powered heating"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-134",
+          "prompt": "Which of these technologies played a crucial role in modern warfare development?",
+          "answers": [
+            "Steam locomotives",
+            "Nuclear power and weapons",
+            "Wooden ships",
+            "Mechanical looms MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-135",
+          "prompt": "What invention significantly changed the transportation system in the 20th century?",
+          "answers": [
+            "Horse-drawn carriages",
+            "Automobiles",
+            "Sailing ships",
+            "Steam locomotives"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-136",
+          "prompt": "What global event accelerated the development of aircraft technology?",
+          "answers": [
+            "The Great Depression",
+            "World War I",
+            "The Renaissance",
+            "The Industrial Revolution"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-137",
+          "prompt": "The history of technological development in Nigeria is synonymous with that of which continent?",
+          "answers": [
+            "Europe",
+            "Asia",
+            "Africa",
+            "America"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-138",
+          "prompt": "According to the passage, technology in Nigeria was often _____.",
+          "answers": [
+            "Original and self-developed",
+            "Isolated from other influences",
+            "Adapted, copied, stolen, or borrowed MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Completely independent"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-139",
+          "prompt": "The North-Eastern part of Nigeria is known for its indigenous development in _____.",
+          "answers": [
+            "Weaving and textile production",
+            "Leather technology and metal works",
+            "Agriculture and irrigation systems",
+            "Medicine and herbal treatments"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-140",
+          "prompt": "The Ife Bronze art earned Nigeria _____.",
+          "answers": [
+            "Economic wealth",
+            "A world acclaim",
+            "Technological superiority",
+            "Independence from colonial rule"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-141",
+          "prompt": "The Benin brass stands serve as evidence of _____.",
+          "answers": [
+            "Political strength",
+            "High-level technological development",
+            "Colonial influence",
+            "Trade monopoly"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-142",
+          "prompt": "The Fulani were famous for their skills in _____.",
+          "answers": [
+            "Fishing",
+            "Architecture",
+            "Surgical operations",
+            "Farming"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-143",
+          "prompt": "The Yoruba people were known for their lence in _____.",
+          "answers": [
+            "Wood carving",
+            "Leatherwork MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Bronze art",
+            "Pottery"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-144",
+          "prompt": "The products of Kano indigenes attracted which group of people to Northern Nigeria?",
+          "answers": [
+            "Portuguese traders",
+            "Chinese merchants",
+            "Arab travellers",
+            "British colonizers"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-145",
+          "prompt": "Which period greatly influenced Nigeria’s technological growth?",
+          "answers": [
+            "The Stone Age",
+            "The Renaissance",
+            "The Middle Ages",
+            "The Iron Age"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-146",
+          "prompt": "One of the major applications of Stone Age technology in Nigeria was _____.",
+          "answers": [
+            "Gun manufacturing",
+            "Advanced farming techniques",
+            "Pepper grinding stones",
+            "Iron smelting"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-147",
+          "prompt": "The use of iron tools in Nigeria led to _____.",
+          "answers": [
+            "A decline in agriculture",
+            "The creation of weaker weapons",
+            "Improved agriculture and migration",
+            "Increased dependence on stone tools"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-148",
+          "prompt": "What was one of the reasons iron tools replaced stone tools?",
+          "answers": [
+            "They were easier to make MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "They were weaker but easier to use",
+            "They were sharper and more effective",
+            "They were cheaper to produce"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-149",
+          "prompt": "The need for clothing materials in ancient Nigeria was met using _____.",
+          "answers": [
+            "Cotton fabrics",
+            "Animal skins",
+            "Woven silk",
+            "Imported textiles"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-150",
+          "prompt": "The development of dual clothing leather technology was aided _____.",
+          "answers": [
+            "Colonial influence",
+            "Trade with Europe",
+            "The availability of wild animals",
+            "The use of animal skins"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-151",
+          "prompt": "What role did blacksmiths play in early Nigerian technology?",
+          "answers": [
+            "Fabrication of weapons and tools",
+            "Writing books on metalwork",
+            "Importing iron from other regions",
+            "Mining gold"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-152",
+          "prompt": "In ancient Nigeria, military weapons were mainly produced _____.",
+          "answers": [
+            "Government factories",
+            "Imported machinery",
+            "Village craftsmen",
+            "Local smithmen"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-153",
+          "prompt": "(MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS 150. Which of the following metals was commonly used smiths to make ornaments and utensils in early Nigeria?",
+          "answers": [
+            "Silver",
+            "Aluminum",
+            "Tin",
+            "Copper"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-154",
+          "prompt": "What was a key benefit of the Trans-Sahara trade route in Nigeria?",
+          "answers": [
+            "It discouraged technological advancements",
+            "It led to the development of ceramics technology",
+            "It eliminated the need for manufactured goods",
+            "It reduced trade interactions with foreign nations"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-155",
+          "prompt": "The crude form of ceramics technology in Nigeria was primarily used for:",
+          "answers": [
+            "Making weapons",
+            "Constructing houses",
+            "Storing cold water",
+            "Writing and record-keeping"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-156",
+          "prompt": "What skill did indigenous people develop due to the Trans-Sahara trade?",
+          "answers": [
+            "Astronomy",
+            "Navigation",
+            "Counting and record-keeping",
+            "Farming"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-157",
+          "prompt": "Indigenous shelter technology was environmentally sustainable because:",
+          "answers": [
+            "It used plastic materials",
+            "It relied on mud houses with thatched grass roofs",
+            "It utilized asbestos sheets MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "It depended on imported construction materials"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-158",
+          "prompt": "The arrangement of thatched grass sheets on wooden rafters is comparable to:",
+          "answers": [
+            "Brick-laying techniques",
+            "The use of asbestos and iron roofing sheets",
+            "Modern skyscraper construction",
+            "The design of underground tunnels"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-159",
+          "prompt": "Communication between indigenous leaders often involved:",
+          "answers": [
+            "Letters written on paper",
+            "Digital messaging systems",
+            "Materials or tools with coded symbols",
+            "Engraved metal plates"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-160",
+          "prompt": "The era of colonization led to:",
+          "answers": [
+            "The complete elimination of indigenous technology",
+            "The beginning of imposed foreign technology in Nigeria",
+            "The isolation of Nigeria from European markets",
+            "A decrease in engineering advancements"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-161",
+          "prompt": "Before 1870, European countries were at war, leading to:",
+          "answers": [
+            "The collapse of Nigerian trade routes",
+            "An increased need for new markets outside Europe",
+            "A decline in demand for Nigerian products",
+            "The abolition of trade in Nigeria"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-162",
+          "prompt": "Engineering equipment brought colonial masters was mainly for ____",
+          "answers": [
+            "governance and development of their colony",
+            "The empowerment of local engineers MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Encouraging traditional construction methods",
+            "Exporting resources back to Europe"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-163",
+          "prompt": "The introduction of foreign technology in Nigeria resulted in:",
+          "answers": [
+            "The strengthening of indigenous technology",
+            "Increased reliance on local tools",
+            "The de-emphasis of indigenous engineering skills",
+            "The complete rejection of modern machinery"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-164",
+          "prompt": "What was the purpose of sending Nigerians to Europe during colonization?",
+          "answers": [
+            "To improve trade relations",
+            "To train them in foreign political systems and technology",
+            "To spread Nigerian culture abroad",
+            "To establish Nigerian-led governments in Europe"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-165",
+          "prompt": "The Yaba Higher College, which offered engineering courses, was established in:",
+          "answers": [
+            "1920",
+            "1932",
+            "1945",
+            "1950"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-166",
+          "prompt": "The first University College in Nigeria was established at Ibadan in:",
+          "answers": [
+            "1910",
+            "1932",
+            "1948",
+            "1960"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-167",
+          "prompt": "The Ash Commission on education recommended the training of how many technicians annually?",
+          "answers": [
+            "500 MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "1,000",
+            "2,500",
+            "5,000"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-168",
+          "prompt": "Engineering courses in Nigerian polytechnics and colleges during colonization were:",
+          "answers": [
+            "Designed to meet the needs of Nigerian society",
+            "Mainly theoretical and not tailored to local needs",
+            "Focused on advancing indigenous knowledge",
+            "Free for all Nigerian students"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-169",
+          "prompt": "In 1944, foreign influence in Nigerian industry led to the establishment of:",
+          "answers": [
+            "The first Nigerian automobile plant",
+            "A plywood factory in Sapele",
+            "The first hydroelectric dam",
+            "Nigeria’s first space research facility"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-170",
+          "prompt": "Which of the following industries emerged in Nigeria due to foreign technology?",
+          "answers": [
+            "Oil refineries only",
+            "Textiles, cigarette, and furniture industries",
+            "Coal mining only",
+            "Local ironworking shops"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-171",
+          "prompt": "Cement-making industries were established in Nigeria at:",
+          "answers": [
+            "Ibadan and Enugu",
+            "Kano and Kaduna",
+            "Ewekoro in the West and Nkalagu in the East",
+            "Sokoto and Maiduguri"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-172",
+          "prompt": "The discovery of petroleum in Nigeria in 1965 led to: (MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS",
+          "answers": [
+            "Nigeria’s self-sufficiency in energy production",
+            "The decline of other industries",
+            "Increased industrialization and energy demands",
+            "A reduction in international trade"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-173",
+          "prompt": "The Kainji Dam was constructed primarily to:",
+          "answers": [
+            "Prevent flooding",
+            "Store drinking water",
+            "Boost Nigeria’s electrical energy supply",
+            "Support large-scale farming"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-174",
+          "prompt": "The establishment of the Trans-Sahara trade route contributed to the growth of what in Nigeria?",
+          "answers": [
+            "Agriculture",
+            "Transportation",
+            "Technology",
+            "Medicine"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-175",
+          "prompt": "What material was initially used before ceramics technology improved in Nigeria?",
+          "answers": [
+            "Wood",
+            "Calabashes",
+            "Clay",
+            "Iron"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-176",
+          "prompt": "How did indigenes begin to develop mathematical skills during the Trans-Sahara trade era?",
+          "answers": [
+            "Use of symbols",
+            "Counting and record of figures",
+            "Barter system",
+            "Weighing scales"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-177",
+          "prompt": "(MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS 174. The indigenous shelter technology in Nigeria involved the use of what roofing material?",
+          "answers": [
+            "Palm leaves",
+            "Bamboo",
+            "Thatched grass sheets",
+            "Metal sheets"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-178",
+          "prompt": "The arrangement of thatched grass sheets on wooden rafters can be compared to modern-day what?",
+          "answers": [
+            "Corrugated roofing sheets",
+            "Concrete slabs",
+            "Iron or asbestos roofing sheets",
+            "Solar panels"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-179",
+          "prompt": "What year marked the establishment of a plywood factory at Sapele?",
+          "answers": [
+            "1930",
+            "1944",
+            "1952",
+            "1960"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-180",
+          "prompt": "The discovery of petroleum in Nigeria led to an increased need for what?",
+          "answers": [
+            "Agricultural expansion",
+            "More labor",
+            "Electrical energy",
+            "Textile industries"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-181",
+          "prompt": "The history of modern Nigerian technology is linked to the advancement of what sector?",
+          "answers": [
+            "Economy",
+            "Sports",
+            "Entertainment",
+            "Religion"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-182",
+          "prompt": "The use of metal in Nigeria started as early as what year?",
+          "answers": [
+            "200 AD",
+            "300 AD",
+            "500 AD",
+            "1000 AD"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-183",
+          "prompt": "What was the main reason for Nigeria's high demand for iron and steel?",
+          "answers": [
+            "Domestic use",
+            "Industrial and infrastructural development",
+            "Export trade",
+            "Jewelry making"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-184",
+          "prompt": "Which steel complex was commissioned in 1982 but failed to meet national demand?",
+          "answers": [
+            "Emene Steel Mill",
+            "Ajaokuta Steel Complex",
+            "Oshogbo Steel Plant",
+            "Kaduna Iron Works"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-185",
+          "prompt": "Nigeria is richly endowed with large deposits of which mineral?",
+          "answers": [
+            "Gold",
+            "Copper",
+            "Crude petroleum MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Diamond"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-186",
+          "prompt": "What was the major reason for the rapid growth of Nigeria’s petroleum industry?",
+          "answers": [
+            "Local consumption",
+            "Mass export of crude oil",
+            "Government subsidies",
+            "Technological advancements"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-187",
+          "prompt": "Which technological sector has seen an increase in Nigeria over the years?",
+          "answers": [
+            "Shipbuilding",
+            "Manufacturing",
+            "Space exploration",
+            "Aeronautics"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-188",
+          "prompt": "Which crops were grown as part of agricultural development as far back as 1400 AD?",
+          "answers": [
+            "Maize and wheat",
+            "Cocoa and rubber",
+            "Cotton and indigo",
+            "Cassava and yam"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-189",
+          "prompt": "What was a major product of local textile production in Nigeria?",
+          "answers": [
+            "Knitting",
+            "Spinning and weaving",
+            "Paper making",
+            "Embroidery"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-190",
+          "prompt": "The mechanization of farming in Nigeria marked the transition from what?",
+          "answers": [
+            "Traditional medicine",
+            "Manual labor MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Small-scale processing",
+            "Animal husbandry"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-191",
+          "prompt": "What is Nigeria’s current electrical power output as mentioned in the text?",
+          "answers": [
+            "2000MW",
+            "3000MW",
+            "4000MW",
+            "5000MW"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-192",
+          "prompt": "What is a major challenge in Nigeria’s electrical power technology?",
+          "answers": [
+            "Lack of electricity demand",
+            "Overdependence on foreign technology",
+            "Excess power supply",
+            "Lack of power plants"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-193",
+          "prompt": "Which telecommunications service was introduced in Nigeria in early 2002?",
+          "answers": [
+            "4G Network",
+            "GSM",
+            "Satellite Communication",
+            "Broadband Fiber Optics"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-194",
+          "prompt": "What remains uncertain in Nigeria’s GSM operation?",
+          "answers": [
+            "Service providers' licensing",
+            "Public awareness",
+            "Maintenance and expansion",
+            "Lack of subscribers"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-195",
+          "prompt": "What has improved in Nigeria due to advancements in communication technology?",
+          "answers": [
+            "Agricultural output MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Literacy rate",
+            "Gross Domestic Product",
+            "Road infrastructure"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-196",
+          "prompt": "What is a major achievement in Nigeria’s electronic mass media?",
+          "answers": [
+            "Establishment of radio and TV stations",
+            "Elimination of foreign media influence",
+            "Complete local production of media components",
+            "Reduction of media consumption"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-197",
+          "prompt": "One of the major challenges in Nigeria’s technological development is:",
+          "answers": [
+            "Excess skilled labor force",
+            "Low gross domestic productivity",
+            "Surplus field-oriented education",
+            "Overproduction of research materials"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-198",
+          "prompt": "What is a key factor in advancing Nigeria’s technological development?",
+          "answers": [
+            "Reduction of research programs",
+            "Promotion of professionalism",
+            "Importation of foreign products",
+            "Limiting industrial expansion"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-199",
+          "prompt": "What is one of the research approaches needed for Nigeria’s industrial development?",
+          "answers": [
+            "Research that focuses on entertainment",
+            "Research addressing immediate technological needs",
+            "Research that eliminates all foreign influence",
+            "Research on reducing industrialization"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-200",
+          "prompt": "What remains a major issue in Nigeria’s field-oriented educational system? (MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS",
+          "answers": [
+            "Excessive funding",
+            "Overpopulation of skilled workers",
+            "Lack of sufficient creativity and productivity training",
+            "Decline in student enrollment"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-201",
+          "prompt": "According to Nwoko, what can help tackle Nigeria’s technology transfer issues?",
+          "answers": [
+            "Increased reliance on foreign expertise",
+            "Government control over all research",
+            "Action-research programs",
+            "Importation of completed technologies"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-202",
+          "prompt": "How many branches does the Nigerian Society of Engineers (NSE) currently have across Nigeria?",
+          "answers": [
+            "75",
+            "86",
+            "92",
+            "100"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-203",
+          "prompt": "Which NSE branch was the first to be approved in Nigeria?",
+          "answers": [
+            "Lagos",
+            "Abuja",
+            "Ibadan",
+            "Enugu"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-204",
+          "prompt": "Who was the first president of the Nigerian Society of Engineers (NSE)?",
+          "answers": [
+            "Engr. Margaret Aina Oguntala",
+            "Engr. Chief G. O. Aiwerioba",
+            "Engr. Babatunde Fashola",
+            "Engr. Felix Ohiwerei"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-205",
+          "prompt": "(MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS 223. Who was the NSE president in 2024?",
+          "answers": [
+            "Engr. Babagana Zulum",
+            "Engr. Olusegun Obasanjo",
+            "Engr. Margaret Aina Oguntala",
+            "Engr. Chukwuma Soludo"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-206",
+          "prompt": "How many types of membership exist in the Nigerian Society of Engineers (NSE)?",
+          "answers": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-207",
+          "prompt": "Which of the following is NOT a membership category in NSE?",
+          "answers": [
+            "Student Membership",
+            "Professional Membership",
+            "Fellow Membership",
+            "Corporate Firm Membership"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-208",
+          "prompt": "Which type of NSE membership is open to students of engineering in higher institutions?",
+          "answers": [
+            "Associate Membership",
+            "Graduate Membership",
+            "Student Membership",
+            "Fellow Membership"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-209",
+          "prompt": "A graduate of an unaccredited engineering program may be classified under which NSE membership?",
+          "answers": [
+            "Associate Membership",
+            "Graduate Membership",
+            "Corporate Membership",
+            "Student Membership MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-210",
+          "prompt": "What is the primary purpose of admitting a student as a Student Member in NSE?",
+          "answers": [
+            "To allow them to practice engineering",
+            "To prepare them for graduateship examination",
+            "To grant them automatic COREN registration",
+            "To provide immediate corporate membership"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-211",
+          "prompt": "A student member of NSE must be undertaking which type of course?",
+          "answers": [
+            "Any science-related course",
+            "Any university diploma course",
+            "An approved engineering course leading to a degree or diploma",
+            "A technical apprenticeship program"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-212",
+          "prompt": "Graduate membership in NSE is open to graduates of which institutions?",
+          "answers": [
+            "Accredited universities",
+            "Any tertiary institution",
+            "Technical colleges",
+            "Vocational schools"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-213",
+          "prompt": "What is NOT a requirement for NSE Graduate Membership?",
+          "answers": [
+            "Academic qualification acceptable to NSE Council",
+            "Registration under COREN provisions",
+            "Postgraduate practical experience",
+            "Degree from an accredited university"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-214",
+          "prompt": "Which NSE membership category is for those aspiring to become registered engineers with COREN?",
+          "answers": [
+            "Student Membership",
+            "Graduate Membership",
+            "Corporate Membership MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Fellow Membership"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-215",
+          "prompt": "What must a candidate pass to become a Corporate Member of NSE?",
+          "answers": [
+            "COREN licensing test only",
+            "Professional membership interview and examination",
+            "Final year university exams",
+            "Postgraduate engineering thesis defense"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-216",
+          "prompt": "What is a requirement for Category A1 Corporate Membership in NSE?",
+          "answers": [
+            "Bachelor's degree in Engineering from COREN-accredited institutions",
+            "National Diploma (ND) in Engineering",
+            "Secondary school technical certification",
+            "An honorary doctorate degree"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-217",
+          "prompt": "What distinguishes a Corporate Member from a Graduate Member in NSE?",
+          "answers": [
+            "Graduate Members are already registered with COREN",
+            "Corporate Members must pass professional membership exams",
+            "Corporate Members do not need an engineering degree",
+            "Graduate Members have more professional responsibilities"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-218",
+          "prompt": "The Engineering Registration Decree No. 55 of 1970 was amended which decree?",
+          "answers": [
+            "Decree 10 of 1985",
+            "Decree 27 of 1992",
+            "Decree 45 of 2001",
+            "Decree 17 of 1980"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-219",
+          "prompt": "Which category of NSE Corporate Membership includes candidates who are already licensed as Professional Chartered or Registered Engineers?",
+          "answers": [
+            "A1 MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "A2",
+            "B1",
+            "B3"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-220",
+          "prompt": "Candidates in category B1 must have obtained a Bachelor’s degree in Engineering from?",
+          "answers": [
+            "Any university worldwide",
+            "COREN-accredited or recognized overseas institutions",
+            "Technical colleges",
+            "Polytechnic institutions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-221",
+          "prompt": "What is the minimum post-qualification experience required for candidates in category B1?",
+          "answers": [
+            "2 years",
+            "3 years",
+            "4 years",
+            "6 years"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-222",
+          "prompt": "Candidates in category B2 must have acquired how many years of post-graduation experience?",
+          "answers": [
+            "2 years",
+            "4 years",
+            "5 years",
+            "6 years"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-223",
+          "prompt": "A candidate in category B2 must have graduated from an unaccredited Nigerian University no later than?",
+          "answers": [
+            "1985",
+            "1991",
+            "1995",
+            "2000"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-224",
+          "prompt": "(MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT",
+          "answers": [
+            "CADEMIC TUTORIALS AND SUCCESS 242. Which of these candidates falls under category",
+            "3 for NSE",
+            "orporate Membership?",
+            "A fresh university graduate with no experience"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-225",
+          "prompt": "What is the minimum post-HND experience required for candidates in category B3?",
+          "answers": [
+            "2 years",
+            "3 years",
+            "4 years",
+            "6 years"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-226",
+          "prompt": "In category B3, a candidate with a bridging qualification from an accredited Nigerian university must have a minimum of how many years of post-qualification experience?",
+          "answers": [
+            "2 years",
+            "3 years",
+            "4 years",
+            "6 years"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-227",
+          "prompt": "must have how many years of post-qualification experience?",
+          "answers": [
+            "2 years",
+            "4 years",
+            "6 years",
+            "8 years"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-228",
+          "prompt": "What is the role of the Membership Committee in assessing category B3 candidates?",
+          "answers": [
+            "To determine whether their Master's or Post-HND program has corrected deficiencies",
+            "To approve COREN licensing automatically",
+            "To provide scholarships for further studies MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "To assess engineering job applications"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-229",
+          "prompt": "Candidates in category C1 must have a minimum of how many years of post-qualification experience?",
+          "answers": [
+            "10 years",
+            "12 years",
+            "15 years",
+            "20 years"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-230",
+          "prompt": "What is the minimum age requirement for candidates in category C2?",
+          "answers": [
+            "35 years",
+            "40 years",
+            "45 years",
+            "50 years"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-231",
+          "prompt": "Which of the following candidates is eligible for category C3?",
+          "answers": [
+            "A candidate with an HND obtained in 1985",
+            "A candidate with an HND obtained before December 31, 1978",
+            "A fresh university graduate",
+            "A corporate member of NSE"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-232",
+          "prompt": "What is a key requirement for candidates in category C3 apart from age and qualification?",
+          "answers": [
+            "They must pass a written and oral COREN exam",
+            "They must write and present technical reports",
+            "They must complete a postgraduate degree",
+            "They must attend an NSE workshop"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-233",
+          "prompt": "How can a person be elected as a Fellow Member of NSE?",
+          "answers": [
+            "By direct application or invitation from the Executive Council",
+            "By completing a postgraduate degree in engineering",
+            "By working in an NSE-affiliated company",
+            "By attending all NSE conferences for five years"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-234",
+          "prompt": "Who determines if a submitted report qualifies as a \"worthwhile contribution to engineering knowledge\" for Fellowship Direct Application?",
+          "answers": [
+            "COREN Registration Board",
+            "Nigerian Ministry of Science and Technology",
+            "NSE Council",
+            "Federal Polytechnic Board"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-235",
+          "prompt": "Who can be elected as an Honorary Fellow of the Nigerian Society of Engineers (NSE)? (MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS",
+          "answers": [
+            "Only professional engineers",
+            "Any Nigerian citizen",
+            "Distinguished persons who have notably assisted engineering practice",
+            "Only NSE past presidents"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-236",
+          "prompt": "What is a mandatory requirement for candidates applying for Corporate Membership of NSE?",
+          "answers": [
+            "A PhD in Engineering",
+            "At least 20 years of engineering practice",
+            "Oral and written examinations (except Category C)",
+            "Membership in another professional body"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-237",
+          "prompt": "One of the key objectives of NSE is to:",
+          "answers": [
+            "Promote foreign engineering firms over local engineers",
+            "Provide a central organization for engineers in Nigeria",
+            "Exclude non-engineers from engineering-related discussions",
+            "Focus only on mechanical and electrical engineering fields"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-238",
+          "prompt": "Why does NSE present its views to the Nigerian Government?",
+          "answers": [
+            "To encourage strict regulation of foreign engineers",
+            "To gain financial support from the government",
+            "To express concerns or provide advice on relevant engineering matters",
+            "To promote only its members for political positions"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-239",
+          "prompt": "Which of the following is NOT an objective of the Nigerian Society of Engineers (NSE)?",
+          "answers": [
+            "Promoting and pursuing research in engineering science",
+            "Conducting visits to places of engineering interest",
+            "Supporting only foreign engineers in Nigeria",
+            "Providing training and continuous professional development for members"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-240",
+          "prompt": "One of the ways NSE contributes to engineering development in Nigeria is :",
+          "answers": [
+            "Resolving professional problems faced by its members",
+            "Restricting access to engineering education",
+            "Sponsoring only international engineers",
+            "Avoiding collaboration with the government"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-241",
+          "prompt": "The Nigerian Society of Engineers (NSE) assists deceased members' families :",
+          "answers": [
+            "Offering scholarships to foreign students",
+            "Supporting the widows or widowers of members",
+            "Funding only engineering startups",
+            "Restricting financial assistance to corporate members"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-242",
+          "prompt": "One of the financial activities NSE is permitted to engage in is:",
+          "answers": [
+            "Investing society funds in any manner",
+            "Avoiding the purchase of properties",
+            "Banning loans for engineering projects",
+            "Prohibiting members from contributing funds"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-243",
+          "prompt": "Which of the following is NOT among NSE’s objectives?",
+          "answers": [
+            "Applying for legislation to promote engineering",
+            "Borrowing money to further its objectives",
+            "Operating as a trade union for engineers",
+            "Enhancing the status of engineers in Nigeria"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-244",
+          "prompt": "The Nigerian Society of Engineers (NSE) collaborates with which of the following to advance its objectives?",
+          "answers": [
+            "Only government agencies",
+            "Industry, commerce, and academia",
+            "Trade unions and non-engineering bodies MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Private individuals with no engineering background"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-245",
+          "prompt": "One of the key ethical expectations for NSE members is to:",
+          "answers": [
+            "Prioritize personal gain over public interest",
+            "Uphold and enhance the dignity of the engineering profession",
+            "Engage in multiple projects without clients' knowledge",
+            "Keep professional knowledge and experience private"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-246",
+          "prompt": "An NSE member can practice in both consultancy and contracting roles for the same project only if:",
+          "answers": [
+            "The employer insists",
+            "The client gives prior written consent",
+            "The project is government-funded",
+            "It is a private residential project"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-247",
+          "prompt": "The NSE promotes and enforces which of the following among its members?",
+          "answers": [
+            "Avoidance of industry collaborations",
+            "A high standard of professional ethics",
+            "Restriction of international relationships",
+            "Engaging in projects without contracts"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-248",
+          "prompt": "According to the NSE Code of Conduct, an engineer reviewing the work of another engineer for the same client must:",
+          "answers": [
+            "Inform the original engineer unless their engagement has been terminated",
+            "Seek government approval before proceeding",
+            "Ensure the project is at least 50% complete before reviewing",
+            "Take over the project without notifying the original engineer"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-249",
+          "prompt": "Which of the following actions is considered unprofessional and inconsistent with the honourable conduct expected of NSE members?",
+          "answers": [
+            "Accepting fair payment from an employer for services rendered MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Offering advice to clients regarding project efficiency",
+            "Attempting to supplant another engineer after negotiations have begun",
+            "Seeking permission before reviewing another engineer’s work"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-250",
+          "prompt": "An NSE member is not allowed to be the medium for payments made on behalf of a client unless:",
+          "answers": [
+            "The payment is below a specific threshold",
+            "The client verbally authorizes it during a meeting",
+            "The project owner is unavailable",
+            "The client provides written authorization"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-251",
+          "prompt": "The system of engineering education in Nigeria is primarily modeled after which of the following?",
+          "answers": [
+            "Traditional apprenticeship programs",
+            "Religious-based learning methods",
+            "The patterns in advanced countries with modifications",
+            "A purely theoretical approach without practical training"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-252",
+          "prompt": "In the REGULAR SCHEME of engineering education, students typically undergo:",
+          "answers": [
+            "Practical training before obtaining a degree",
+            "A mix of formal theoretical study followed by industry training",
+            "Only hands-on industry training without a degree",
+            "A short course in engineering fundamentals before certification"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-253",
+          "prompt": "Why can't developing countries afford to experiment with engineering education systems over long periods?",
+          "answers": [
+            "They lack access to engineering knowledge",
+            "Rapid technological advancements require fast adaptation",
+            "Universities in these countries do not support engineering programs",
+            "Engineering is not a necessary field for development"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-254",
+          "prompt": "(MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS 275. Engineering practice is considered remote from formal academic instruction because:",
+          "answers": [
+            "Engineering education is purely theoretical",
+            "Industry training is essential to apply theoretical knowledge",
+            "Engineers do not need university education",
+            "Practical skills can only be learned through self-study"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-255",
+          "prompt": "Who is responsible for ensuring that post-qualification professional training in Nigeria meets required standards?",
+          "answers": [
+            "The Ministry of Education",
+            "The Council for the Regulation of Engineering in Nigeria (COREN)",
+            "The Nigerian Bar Association (NBA)",
+            "The Association of Nigerian Technicians"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-256",
+          "prompt": "What is a key characteristic of engineering education in advanced countries?",
+          "answers": [
+            "A short training period with minimal theoretical background",
+            "A structured theoretical program followed by practical training",
+            "No formal university education, only apprenticeships",
+            "Direct job placement without examinations"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-257",
+          "prompt": "How has Nigeria modified its engineering education system compared to advanced countries?",
+          "answers": [
+            "By eliminating practical training to speed up graduation",
+            "By combining theoretical study with supervised industry training",
+            "By allowing engineers to practice without formal certification",
+            "By reducing the duration of engineering programs to two years"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-258",
+          "prompt": "What is the role of the Supervised Industrial Training Scheme in Engineering (SITSIE) in Nigeria?",
+          "answers": [
+            "To replace university-based theoretical education",
+            "To regulate engineering practice in Nigeria",
+            "To provide industrial training under COREN’s supervision MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "To eliminate the need for post-graduation experience"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-259",
+          "prompt": "How does the \"Co-operative Engineering Education\" system function?",
+          "answers": [
+            "Students complete all theoretical coursework before industry training",
+            "Students alternate between academic study and industry work",
+            "Students work in industries without formal university education",
+            "Students only engage in internships after graduation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-260",
+          "prompt": "Which of the following is an advantage of the \"Co-operative Engineering Education\" system?",
+          "answers": [
+            "It shortens the time needed to complete an engineering degree",
+            "It eliminates the need for industry training after graduation",
+            "It enhances students' ability to handle responsibilities early",
+            "It focuses solely on technical skills, ignoring human relations"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-261",
+          "prompt": "Why is \"Co-operative Engineering Education\" considered beneficial in developing countries?",
+          "answers": [
+            "It allows students to start working without completing their degrees",
+            "It integrates real-world engineering problems with academic study",
+            "It reduces the cost of engineering education by removing classroom learning",
+            "It prevents students from working in industries before graduation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-262",
+          "prompt": "One key advantage of \"Co-operative Engineering Education\" is that it:",
+          "answers": [
+            "Separates work experience from academic learning",
+            "Helps students develop skills in human relations and management",
+            "Focuses only on technical skills without practical exposure",
+            "Reduces student motivation by making coursework more difficult"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-263",
+          "prompt": "What is one major benefit of the \"Co-operative Engineering Education\" system?",
+          "answers": [
+            "It helps institutions maintain close ties with industries.",
+            "It reduces the need for theoretical studies. MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "It eliminates the need for industrial training.",
+            "It focuses only on theoretical knowledge."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-264",
+          "prompt": "Why is the \"Co-operative Engineering Education\" system challenging to implement in developing countries?",
+          "answers": [
+            "There are inadequate industrial facilities for training.",
+            "Students prefer full-time university studies.",
+            "It does not align with modern engineering practices.",
+            "It requires less supervision from universities."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-265",
+          "prompt": "In Nigeria, what is the structure of university engineering education?",
+          "answers": [
+            "It involves four years of academic study with SIWES training.",
+            "It requires students to work in industries full-time.",
+            "It consists of two years of coursework and two years of practice.",
+            "It excludes any form of industrial training."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-266",
+          "prompt": "What does SIWES stand for in the Nigerian engineering education system?",
+          "answers": [
+            "Supervised Industrial Work Experience Scheme.",
+            "Structured Industrial Work and Engineering Studies.",
+            "Standardized Industrial Work Evaluation System.",
+            "Student Internship for Work Experience and Skills."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-267",
+          "prompt": "What is a key challenge of implementing \"Co-operative Engineering Education\" in Nigeria?",
+          "answers": [
+            "Limited number of industries for practical training.",
+            "Lack of interest from students.",
+            "High cost of tuition fees.",
+            "Shorter academic duration compared to other courses."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-268",
+          "prompt": "How does \"Co-operative Engineering Education\" benefit universities? (MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS",
+          "answers": [
+            "It allows institutions to enroll more students with fewer facilities.",
+            "It eliminates the need for engineering lecturers.",
+            "It increases students' classroom hours.",
+            "It reduces the need for research in engineering fields."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-269",
+          "prompt": "What is the final qualification awarded in Nigeria’s university engineering system?",
+          "answers": [
+            "Bachelor of Engineering (B.Eng).",
+            "Higher National Diploma (HND).",
+            "National Diploma (ND).",
+            "Diploma in Industrial Engineering."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-270",
+          "prompt": "Which of the following is true about the current engineering education structure in Nigeria?",
+          "answers": [
+            "It consists of four academic years and one industrial training year.",
+            "It is purely theoretical without practical applications.",
+            "It focuses only on post-graduate education.",
+            "It requires five years of full-time classroom study without industrial work."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-271",
+          "prompt": "What is the main difference between engineering education in polytechnics and universities in Nigeria?",
+          "answers": [
+            "Universities do not provide industrial training.",
+            "Polytechnics focus on middle-level manpower training.",
+            "Polytechnics award Bachelor of Engineering degrees.",
+            "Polytechnics offer only theoretical engineering education."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-272",
+          "prompt": "What certificate is awarded after completing the first two years in a polytechnic engineering program?",
+          "answers": [
+            "Bachelor of Engineering (B.Eng).",
+            "National Diploma (ND).",
+            "Master of Science in Engineering.",
+            "Higher National Diploma (HND)."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-273",
+          "prompt": "(MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS 294. What is the significance of Table 4.2 in Nigerian engineering education?",
+          "answers": [
+            "It eliminates the need for industrial training.",
+            "It represents the training structure for middle-level engineers.",
+            "It focuses only on practical skills without theoretical knowledge.",
+            "It prepares students exclusively for academic research."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-274",
+          "prompt": "How can polytechnic graduates advance in the engineering profession?",
+          "answers": [
+            "By switching to non-engineering disciplines.",
+            "By obtaining post-HND Diplomas or professional certifications.",
+            "By starting work without further studies.",
+            "By repeating their HND program at a university."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-275",
+          "prompt": "What is a recent development for polytechnic graduates in Nigeria?",
+          "answers": [
+            "Some universities now offer Post-Graduate Diploma programs for HND holders.",
+            "The National Diploma (ND) is now equivalent to a Bachelor's degree.",
+            "HND graduates must take extra university courses to work as engineers.",
+            "Polytechnics no longer offer engineering programs."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-276",
+          "prompt": "Why should engineering education not be closely aligned to a specific state of the art?",
+          "answers": [
+            "Because technology evolves rapidly, requiring continuous learning.",
+            "Because engineers should only focus on theoretical knowledge.",
+            "Because specific knowledge is unnecessary for engineering practice.",
+            "Because specialization limits career opportunities."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-277",
+          "prompt": "What is one key objective of a desirable engineering education program?",
+          "answers": [
+            "To focus only on memorization of existing knowledge.",
+            "To emphasize problem-solving through understanding fundamental laws.",
+            "To eliminate the need for continuous learning after graduation.",
+            "To reduce the importance of scientific discoveries. MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-278",
+          "prompt": "What is a key requirement for achieving Engineer Status through a university degree program?",
+          "answers": [
+            "Skipping industrial training and focusing solely on theoretical work.",
+            "Obtaining an HND without further examinations.",
+            "Avoiding professional engineering examinations.",
+            "Completing an accredited four-year academic program with training."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-279",
+          "prompt": "What is the average number of years required for a Polytechnic graduate to attain professional engineer status?",
+          "answers": [
+            "2 years",
+            "5 years",
+            "6-8 years",
+            "7-10 years"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-280",
+          "prompt": "What is one of the required steps for a Polytechnic graduate to achieve Engineer Status?",
+          "answers": [
+            "Skipping professional examinations.",
+            "Completing only an OND program.",
+            "Avoiding supervised industrial training.",
+            "Passing NSE Graduateship Examinations (Part I and II)."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-281",
+          "prompt": "Which of the following is a quality an engineering student should possess?",
+          "answers": [
+            "Mastery of business law.",
+            "Ability to memorize facts without analysis.",
+            "Reluctance to accept scientific principles.",
+            "Ability to think with imagination and insight."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-282",
+          "prompt": "What is one of the essential abilities an engineering student should have?",
+          "answers": [
+            "Memorizing theories without practical application.",
+            "Avoiding experimental investigations. MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Ability to conceive, organize, and complete experiments.",
+            "Relying solely on textbooks for learning."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-283",
+          "prompt": "According to the Kolb Learning Cycle, what follows after \"Concrete Experience\"?",
+          "answers": [
+            "Skipping reflection and moving directly to practice.",
+            "Abstract Conceptualization.",
+            "Reflective Observation.",
+            "Passive learning without experimentation."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-284",
+          "prompt": "What is the primary concept behind engineering education?",
+          "answers": [
+            "Engineering students should focus solely on theoretical knowledge.",
+            "Engineering students are taught to think logically.",
+            "Engineering students should memorize formulas without understanding them.",
+            "Engineering students should avoid experimentation."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-285",
+          "prompt": "According to Galileo, what is the role of a teacher in education?",
+          "answers": [
+            "To impose knowledge on students.",
+            "To teach students everything they need to know.",
+            "To help students learn and develop knowledge themselves.",
+            "To limit students' learning to structured classroom activities."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-286",
+          "prompt": "What is the best way for engineering students to enhance their knowledge?",
+          "answers": [
+            "Ignoring real-world applications and focusing only on textbooks.",
+            "Developing good learning habits and practical experience.",
+            "Depending entirely on lecturers for knowledge.",
+            "Avoiding self-directed learning."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-287",
+          "prompt": "Why is it difficult to establish teaching factories like teaching hospitals for engineering students?",
+          "answers": [
+            "Engineering does not require practical training.",
+            "Teaching factories are not practicable due to their complexity.",
+            "Medical education is more important than engineering education.",
+            "Engineering students do not need industrial experience."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-288",
+          "prompt": "What challenge do Industrial establishments pose to engineering training in Nigeria?",
+          "answers": [
+            "They always provide full training capacity for students.",
+            "Some establishments do not accept students for training to their full capacity.",
+            "They provide excessive training, leading to overcrowding.",
+            "Engineering students refuse to go for industrial training."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-289",
+          "prompt": "What is the consequence of some engineering students not being placed in industries for training?",
+          "answers": [
+            "They receive better training elsewhere.",
+            "They may complete their academic programs without exposure to industrial systems.",
+            "They automatically receive industrial training certificates.",
+            "They are exempted from industrial work."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-290",
+          "prompt": "Why is professional training necessary after obtaining an engineering degree or diploma?",
+          "answers": [
+            "It is required for obtaining a job in any field.",
+            "It provides a foundation for building an engineering career through practice and study.",
+            "It replaces the need for formal education.",
+            "It is only necessary for engineers who want to work abroad."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-291",
+          "prompt": "Where does professional training in engineering practice primarily take place? (MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS",
+          "answers": [
+            "In the university lecture hall.",
+            "In polytechnic classrooms.",
+            "In the industrial workplace, known as the \"open classroom.\"",
+            "In engineering research laboratories only."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-292",
+          "prompt": "What is a key difference between professional training and formal engineering education?",
+          "answers": [
+            "Formal education focuses only on practical skills.",
+            "Professional training is concerned with both problem definition and solution.",
+            "Professional training is entirely theoretical.",
+            "Formal education is not necessary if one undergoes professional training."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-293",
+          "prompt": "What determines whether an engineering graduate will become a successful practitioner?",
+          "answers": [
+            "The ability to memorize engineering theories.",
+            "Recognizing and utilizing industry training while taking responsibility for problem-solving.",
+            "Avoiding industrial training and focusing only on theoretical knowledge.",
+            "Completing a university degree without practical experience."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-294",
+          "prompt": "Why do professional engineering registration procedures require four years of experience?",
+          "answers": [
+            "To test engineers on their ability to solve exam questions.",
+            "To ensure graduates gain sufficient practical experience before becoming fully registered engineers.",
+            "To limit the number of engineers in the industry.",
+            "To allow engineers to work without supervision."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-295",
+          "prompt": "Why is professional training in industry important for engineering graduates?",
+          "answers": [
+            "It guarantees immediate promotion to senior positions.",
+            "It eliminates the need for university education.",
+            "It helps engineers memorize theoretical concepts.",
+            "It enables engineers to handle both technical and non-technical challenges in their careers."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-296",
+          "prompt": "(MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS 318. What is one of the key non-technical skills engineers must develop during professional training?",
+          "answers": [
+            "The ability to rely solely on theoretical knowledge.",
+            "The ability to avoid workplace communication.",
+            "The ability to work without supervision.",
+            "The ability to sell engineering ideas to skeptical customers."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-297",
+          "prompt": "How does the \"culture shock\" of new engineering graduates get eased out in the workplace?",
+          "answers": [
+            "By progressively learning professional, technical, and non-technical skills on the job.",
+            "By strictly following university teachings without learning new skills.",
+            "By avoiding industrial training altogether.",
+            "By switching to another profession after graduation."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-298",
+          "prompt": "Why should the government insist that foreign engineering firms employ a significant number of Nigerian engineers?",
+          "answers": [
+            "To reduce the cost of engineering projects.",
+            "To ensure Nigerian engineers gain valuable experience and expertise.",
+            "To prevent foreign firms from bringing advanced technology.",
+            "To discourage international partnerships in engineering."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-299",
+          "prompt": "What is one reason why government projects should prioritize using local consulting firms and laboratories?",
+          "answers": [
+            "To reduce the quality of engineering analysis.",
+            "To ensure foreign companies control the entire project.",
+            "To build local expertise and strengthen the nation’s engineering capabilities.",
+            "To make the project completion slower and more expensive."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-300",
+          "prompt": "What should the government do when securing loans for national engineering projects?",
+          "answers": [
+            "Accept any conditions set by foreign lenders to speed up project approval.",
+            "Ensure that national engineers participate in the project for skill development.",
+            "Prohibit the involvement of foreign engineers completely. MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Outsource all engineering tasks to international firms for efficiency."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-301",
+          "prompt": "How can industries contribute to the professional development of young engineers?",
+          "answers": [
+            "By limiting training opportunities to experienced engineers only.",
+            "By collaborating with universities and providing structured training programs.",
+            "By prioritizing profit over employee development.",
+            "By discouraging graduate engineers from participating in industrial projects."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-302",
+          "prompt": "Why is continuous professional development essential for engineers?",
+          "answers": [
+            "Engineering knowledge becomes outdated quickly due to rapid technological advancements.",
+            "Engineers only need additional training when they change jobs.",
+            "A degree is sufficient for an engineer’s entire career.",
+            "Companies discourage engineers from pursuing further education."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-303",
+          "prompt": "Why is it important for engineering teachers to have professional experience?",
+          "answers": [
+            "It helps them focus only on theoretical concepts.",
+            "It allows them to integrate practical engineering applications into their teaching.",
+            "Professional experience is only necessary for industry engineers, not teachers.",
+            "Young teachers with little experience are more effective educators."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-304",
+          "prompt": "How does research contribute to engineering education?",
+          "answers": [
+            "It distracts from the main goal of teaching students.",
+            "It ensures that universities focus only on theory.",
+            "It stimulates learning, skill development, and technological advancements.",
+            "Research is only useful for government agencies, not universities."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-305",
+          "prompt": "What is one of the key qualities of a successful engineer?",
+          "answers": [
+            "The ability to explain complex ideas using simple terms.",
+            "The ability to memorize formulas without application.",
+            "Avoiding leadership roles in the profession.",
+            "A focus only on technical skills without considering communication."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-306",
+          "prompt": "Why is it important for engineers to be sensitive to societal problems?",
+          "answers": [
+            "So they can focus only on theoretical knowledge.",
+            "To ensure they avoid new challenges in their field.",
+            "To contribute technical expertise toward creating a better future.",
+            "To limit their involvement in technological advancements."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-307",
+          "prompt": "What must engineers be prepared for when solving society’s future problems?",
+          "answers": [
+            "The certainty that old methods will always be effective.",
+            "The belief that change will always be welcomed without resistance.",
+            "The challenge of change and resistance from society.",
+            "The idea that engineering solutions do not affect the community."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-308",
+          "prompt": "What is the primary role of engineers in solving societal problems?",
+          "answers": [
+            "Bringing specialized expertise to address technical challenges.",
+            "Taking full responsibility for all social and economic issues.",
+            "Avoiding collaboration with scientists and other professionals.",
+            "Limiting their role to small-scale projects only."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-309",
+          "prompt": "Why might society resist changes introduced engineers?",
+          "answers": [
+            "Because engineers rarely develop innovative solutions. MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Because new engineering solutions are always flawed.",
+            "Because engineering does not influence societal progress.",
+            "Because people may feel threatened by unfamiliar advancements."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-310",
+          "prompt": "According to Charles F. Kettering, why is innovation essential to society?",
+          "answers": [
+            "Because inventions prevent loss of freedom for future generations.",
+            "Because new ideas are only beneficial for scientists.",
+            "Because technological advancements are always harmful.",
+            "Because creativity has no impact on human progress."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-311",
+          "prompt": "How has technology contributed to the population explosion?",
+          "answers": [
+            "By limiting the availability of food and clothing.",
+            "By reducing birth rates through engineering solutions.",
+            "By improving food supply and living conditions, leading to rapid population growth.",
+            "By discouraging advancements in health and agriculture."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-312",
+          "prompt": "What is the engineer’s responsibility in addressing population explosion?",
+          "answers": [
+            "Ignoring the problem since it is not a technical issue.",
+            "Developing technological solutions to restore ecological balance.",
+            "Encouraging overpopulation as a sign of technological success.",
+            "Reducing the supply of food and resources to control growth."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-313",
+          "prompt": "Why is environmental pollution a concern for engineers?",
+          "answers": [
+            "Engineers are responsible for controlling all natural processes.",
+            "Pollution has no effect on technology and engineering systems.",
+            "Pollutants interact with the environment, causing toxicity and ecological damage.",
+            "Engineers do not influence environmental changes."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-314",
+          "prompt": "Why is water pollution considered a major issue in modern society? (MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS",
+          "answers": [
+            "Because water is no longer essential for human survival.",
+            "Because engineers are unable to create solutions for water treatment.",
+            "Because population growth increases the demand for clean water.",
+            "Because modern technology has eliminated water pollution problems."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-315",
+          "prompt": "What is the engineer’s responsibility regarding pollution control?",
+          "answers": [
+            "Ignoring environmental concerns and focusing on profit.",
+            "Ensuring their designs incorporate safeguards against pollution.",
+            "Encouraging industries to release pollutants without restrictions.",
+            "Eliminating the use of technological advancements to reduce pollution."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-316",
+          "prompt": "How does waste disposal relate to population growth?",
+          "answers": [
+            "Increased population leads to higher waste production and limited dumping space.",
+            "Waste disposal issues decrease as populations increase.",
+            "The growing population generates less waste due to efficient recycling.",
+            "Engineers are not responsible for managing waste disposal systems."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-317",
+          "prompt": "What is the main reason Nigeria is becoming a \"dumping ground\"?",
+          "answers": [
+            "Because the country imports a large number of second-hand articles.",
+            "Because Nigeria has strict policies against waste disposal.",
+            "Because the population prefers only brand-new products.",
+            "Because the country produces very little waste on its own."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-318",
+          "prompt": "Why is it important for engineers to consider waste disposal in their designs?",
+          "answers": [
+            "Because all engineered products will eventually be discarded.",
+            "Because waste accumulation is solely a consumer responsibility.",
+            "Because engineers should focus only on product efficiency, not disposal.",
+            "Because waste management does not require engineering solutions."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-319",
+          "prompt": "(MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS 342. How can engineers help mitigate the impact of noise pollution?",
+          "answers": [
+            "By ignoring noise concerns in their designs.",
+            "By ensuring that their designs do not produce excessive unwanted sound.",
+            "By promoting noise as an essential part of technological advancement.",
+            "By designing systems that increase sound intensity for entertainment purposes."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-320",
+          "prompt": "Why is it important for engineers to develop pollution-free energy sources?",
+          "answers": [
+            "To increase energy consumption.",
+            "To prevent environmental degradation.",
+            "To promote the depletion of natural resources.",
+            "To eliminate the need for energy conservation."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-321",
+          "prompt": "What is the primary goal of a research engineer?",
+          "answers": [
+            "To apply existing knowledge without modification.",
+            "To discover new scientific principles and find practical applications for them.",
+            "To focus solely on theoretical studies.",
+            "To ignore practical engineering challenges."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-322",
+          "prompt": "Which of the following is NOT a major societal challenge engineers are expected to address?",
+          "answers": [
+            "Food production and transportation.",
+            "Space exploration and weather control.",
+            "Literature and poetry development.",
+            "Depletion of natural resources and increasing crime rates."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-323",
+          "prompt": "Why is it important for engineers to develop pollution-free energy sources?",
+          "answers": [
+            "To increase energy consumption.",
+            "To prevent environmental degradation.",
+            "To promote the depletion of natural resources.",
+            "To eliminate the need for energy conservation. MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-324",
+          "prompt": "What is the primary role of a development engineer?",
+          "answers": [
+            "To focus solely on theoretical discoveries.",
+            "To convert research discoveries into practical applications.",
+            "To manufacture finished products.",
+            "To handle only the aesthetic aspects of a product."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-325",
+          "prompt": "At what stage does the design engineer become involved in the production process?",
+          "answers": [
+            "Before the research phase.",
+            "After the manufacturing process begins.",
+            "Just before the manufacturing process begins.",
+            "After the product has been sold to consumers."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-326",
+          "prompt": "What is a key responsibility of a project engineer in production and construction?",
+          "answers": [
+            "Designing the final product from scratch.",
+            "Supervising the overall project, including materials, labor, and finances.",
+            "Only handling tool employment without managing personnel. MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "Performing the exact tasks of a technician."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-327",
+          "prompt": "Why might a project engineer suggest modifications to a design?",
+          "answers": [
+            "To increase the cost of production.",
+            "To make fabrication or construction more efficient.",
+            "To replace the work of design engineers.",
+            "To reduce the number of laborers required."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-328",
+          "prompt": "What is one of the primary responsibilities of a plant engineer in a utility plant?",
+          "answers": [
+            "Designing new engineering products for customers.",
+            "Ensuring turbines, generators, and boilers operate efficiently.",
+            "Selling plant equipment to industries.",
+            "Supervising only the construction phase of a project."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-329",
+          "prompt": "Why is it important for a sales engineer to understand the customer's plant operations?",
+          "answers": [
+            "To replace the plant engineer in decision-making.",
+            "To redesign the entire production process for the client.",
+            "To demonstrate how their product fits into the customer’s operations.",
+            "To determine how to operate the plant's machinery."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-330",
+          "prompt": "How does a sales engineer contribute to product development?",
+          "answers": [
+            "By providing market research feedback for new application areas.",
+            "By constructing the machinery for the customer’s plant.",
+            "By only focusing on increasing the price of products.",
+            "By ensuring all plant machinery operates at peak efficiency."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-331",
+          "prompt": "What personal attributes should a sales engineer possess?",
+          "answers": [
+            "A deep understanding of only the financial aspects of a company.",
+            "An aggressive attitude towards customers.",
+            "A friendly personality and confidence in engineering ability.",
+            "A reluctance to interact with customers directly."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-332",
+          "prompt": "How does an engineer in management contribute to company operations?",
+          "answers": [
+            "By focusing only on designing new machines.",
+            "By ensuring technical decisions align with financial and labor considerations.",
+            "By avoiding direct involvement in company policies.",
+            "By prioritizing short-term profits over long-term strategy."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-333",
+          "prompt": "What is a key prerequisite for an engineer to transition into management?",
+          "answers": [
+            "Avoiding interactions with employees and subordinates.",
+            "Ability to sell ideas, influence others, and manage large resources.",
+            "Specializing only in technical aspects of engineering.",
+            "Focusing only on financial management."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-334",
+          "prompt": "Why is national economic planning crucial for development?",
+          "answers": [
+            "It eliminates the need for engineers in national projects.",
+            "It provides a structured approach to development and prevents unguided technological growth.",
+            "It ensures that only scientists and technologists make policies.",
+            "It focuses solely on economic strategies without technological input."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-335",
+          "prompt": "How can engineers contribute effectively to national planning?",
+          "answers": [
+            "By working in isolation from policymakers. MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "By ensuring their ideas replace those of economic planners.",
+            "By coordinating with industrial engineers, research engineers, and sales engineers.",
+            "By ignoring economic policies and focusing only on technical projects."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-336",
+          "prompt": "What is a crucial factor for effective national planning and industrial development?",
+          "answers": [
+            "Collaboration between universities and industries.",
+            "Engineers working in isolation.",
+            "The government handling all technological advancements alone.",
+            "Excluding engineers from economic planning."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-337",
+          "prompt": "How can engineers contribute to economic growth in developing nations?",
+          "answers": [
+            "By actively participating in industrialization and agricultural modernization.",
+            "By avoiding involvement in national planning discussions.",
+            "By focusing only on existing engineering practices without innovation.",
+            "By rejecting collaboration with policymakers and economists."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-338",
+          "prompt": "What is a major challenge in executing national plans successfully?",
+          "answers": [
+            "Lack of adequately trained manpower.",
+            "Excessive government involvement in engineering projects.",
+            "Having too many industrial engineers in decision-making.",
+            "Engineers working without input from economists."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-339",
+          "prompt": "What is one of the major contributions of COREN to engineering in Nigeria?",
+          "answers": [
+            "The introduction of the Supervised Industrial Training Scheme in Engineering (SITSIE).",
+            "The complete privatization of engineering education.",
+            "The exclusion of engineering graduates from industrial training.",
+            "The elimination of engineering professional bodies."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-340",
+          "prompt": "What is the primary role of professional engineering bodies in Nigeria? (MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS",
+          "answers": [
+            "Reviewing and enhancing engineering education, research, and practice.",
+            "Restricting the growth of technology in Nigeria.",
+            "Preventing engineers from undergoing industrial training.",
+            "Limiting collaboration between engineers and policymakers."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-341",
+          "prompt": "How does COREN's SITSIE program benefit engineering graduates?",
+          "answers": [
+            "By providing structured industrial training similar to medical internship programs.",
+            "By allowing graduates to avoid practical training.",
+            "By removing the need for engineering licenses.",
+            "By focusing solely on theoretical education."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-342",
+          "prompt": "What is one of COREN’s responsibilities regarding engineering education?",
+          "answers": [
+            "Supervision of instruction and examinations leading to approved qualifications.",
+            "Prevention of private institutions from offering engineering programs.",
+            "Deregulation of engineering education in Nigeria.",
+            "Exclusion of universities from COREN's oversight."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-343",
+          "prompt": "Why does COREN provide multiple pathways for engineering personnel progression?",
+          "answers": [
+            "To ensure late developers have the opportunity to reach the highest professional status.",
+            "To limit the number of engineers attaining professional status.",
+            "To restrict the growth of engineers in Nigeria.",
+            "To prevent self-development and career advancement."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-344",
+          "prompt": "What is a major function of COREN’s disciplinary tribunal?",
+          "answers": [
+            "Investigating and penalizing unprofessional conduct.",
+            "Granting automatic promotions to engineers.",
+            "Preventing engineering graduates from practicing.",
+            "Issuing licenses without assessment."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-345",
+          "prompt": "(MFCT- ) GET 101 CONTACT - FOR YOUR SECOND SEMESTER SWIFT ACADEMIC S AND SUCCESS 368. Which of the following is NOT a responsibility of COREN?",
+          "answers": [
+            "Registering engineers of all cadres.",
+            "Certifying experience for engineering professionals.",
+            "Limiting engineers' career progression.",
+            "Approving engineering courses and institutions."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-346",
+          "prompt": "How does COREN maintain the integrity of engineering registration?",
+          "answers": [
+            "By preparing and publishing a register of qualified engineers.",
+            "By restricting access to engineering education.",
+            "By discouraging industrial training for engineers.",
+            "By preventing engineers from attaining professional status."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-347",
+          "prompt": "Which of the following is NOT a category for engineering registration under COREN?",
+          "answers": [
+            "Engineering Craftsmen",
+            "Engineering Analysts",
+            "Engineering Technologists",
+            "Registered Engineers"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-348",
+          "prompt": "What is the purpose of COREN’s \"Engineers Code of Conduct\"?",
+          "answers": [
+            "To restrict engineering practice in Nigeria",
+            "To regulate the activities of engineers in Nigeria",
+            "To ensure fair treatment of engineering technicians only",
+            "To prevent engineers from working internationally"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-349",
+          "prompt": "What is one of the responsibilities of a registered engineer according to COREN?",
+          "answers": [
+            "Maintaining professional integrity and adhering to engineering standards",
+            "Prioritizing personal financial gain over professional ethics",
+            "Disregarding contracts and focusing on private projects",
+            "Avoiding responsibilities as an employer"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-350",
+          "prompt": "What is one of the primary objectives of the Nigeria Society of Engineers (NSE)?",
+          "answers": [
+            "To replace COREN as the regulatory body for engineers",
+            "To focus solely on industrial engineering development",
+            "To provide a central organization for engineers in Nigeria and maintain professional ethics",
+            "To restrict foreign engineers from working in Nigeria"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-351",
+          "prompt": "How does the NSE contribute to the advancement of engineering in Nigeria?",
+          "answers": [
+            "It drafts engineering laws without government approval",
+            "It ensures all engineers work for the government",
+            "It represents the views of engineers on legislative matters concerning the profession",
+            "It restricts engineers from engaging in public policy discussions"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-352",
+          "prompt": "Which of the following is NOT an objective of the Nigeria Society of Engineers (NSE)?",
+          "answers": [
+            "To promote and protect high standards of engineering study and practice",
+            "To provide scholarships and bursaries for engineering students",
+            "To regulate and register all engineers in Nigeria",
+            "To pursue research in engineering science with reference to local conditions"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-353",
+          "prompt": "How does the NSE contribute to the professional development of engineers?",
+          "answers": [
+            "By preventing engineers from working in private industries",
+            "By organizing training, examinations, and research programs tailored to local engineering challenges",
+            "By restricting members from sharing technical knowledge",
+            "By discouraging collaboration with the government and private sectors"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-354",
+          "prompt": "Which of the following is NOT a function of the Nigeria Society of Engineers (NSE)?",
+          "answers": [
+            "To provide financial assistance to necessitous members and their dependents",
+            "To borrow money when necessary to protect its objectives",
+            "To regulate and license engineers in Nigeria",
+            "To apply for legislation that aligns with its objectives"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-355",
+          "prompt": "How does the NSE support its members financially?",
+          "answers": [
+            "By providing salaries to all registered engineers",
+            "By assisting needy members, their dependents, and widows of deceased members through benevolent funds",
+            "By forcing all members to contribute to a mandatory pension scheme",
+            "By giving loans to engineers for personal projects"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-356",
+          "prompt": "What is one of the key roles of engineering societies in Nigeria?",
+          "answers": [
+            "To regulate all engineering institutions in the country MAXFAX FIRST CLASS TUTORIALS (MFCT- 08137619824) GET 101 PDF FOR EXAM CONTACT MAXFAX-08137619824 FOR YOUR SECOND SEMESTER SWIFT ACADEMIC TUTORIALS AND SUCCESS",
+            "To promote the highest standards and provide a forum for technical exchange",
+            "To act as a labor union for engineers",
+            "To oversee government contracts in engineering projects"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get101-357",
+          "prompt": "How do engineering societies contribute to national development?",
+          "answers": [
+            "By organizing protests against government policies",
+            "By promoting teamwork, career expansion, and collaboration with educational institutions",
+            "By restricting the number of engineering graduates each year",
+            "By focusing solely on the interests of registered engineers"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

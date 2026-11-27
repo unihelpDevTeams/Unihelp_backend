@@ -1,0 +1,2871 @@
+{
+     "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Computer Science",
+  "course": {
+    "code": "INS 106",
+    "title": "Introduction to Information Technology"
+  },
+    "questions": [
+        {
+          "id": "ins106-001",
+          "prompt": "Which of the following is NOT one of the three Vs of big data identified Doug Lany?",
+          "answers": [
+            "Velocity",
+            "Variety",
+            "Volume",
+            "Veracity"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-002",
+          "prompt": "When did Doug Lany first identify the three Vs of big data?",
+          "answers": [
+            "2005",
+            "2001",
+            "When he was an analyst at Meta Group Inc.",
+            "After Gartner popularized them"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-003",
+          "prompt": "According to the text, what is the most cited characteristic of big data?",
+          "answers": [
+            "Velocity",
+            "Variety",
+            "Volume",
+            "Veracity"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-004",
+          "prompt": "Big data deployments often involve data points created and collected over time in which units?",
+          "answers": [
+            "Terabytes, petabytes, and exabytes",
+            "Megabytes, gigabytes, and terabytes",
+            "Kilobytes, megabytes, and gigabytes",
+            "Bytes, kilobytes, and megabytes"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-005",
+          "prompt": "Which of the following are mentioned as sources that typically produce massive volumes of data on an ongoing basis?",
+          "answers": [
+            "Spreadsheets and databases",
+            "Clickstreams, system logs, and stream processing systems",
+            "Word documents and image files",
+            "Email and social media posts"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-006",
+          "prompt": "Veracity in Big Data refers to:",
+          "answers": [
+            "The speed at which data is generated.",
+            "The variety of data sources.",
+            "The degree of accuracy in data sets and how trustworthy they are.",
+            "The volume of data collected."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-007",
+          "prompt": "Which of the following is a key challenge when dealing with \"Veracity\" in Big Data?",
+          "answers": [
+            "Processing data quickly enough.",
+            "Integrating data from various sources.",
+            "Identifying clean data that can determine the true value of business initiatives.",
+            "Storing massive amounts of data efficiently."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-008",
+          "prompt": "\"Value\" in Big Data primarily relates to:",
+          "answers": [
+            "The cost of storing the data.",
+            "The number of data sources used.",
+            "The real business value or benefits that can be extracted from the collected data.",
+            "The speed of data processing."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-009",
+          "prompt": "What is a crucial step to ensure \"Value\" from Big Data according to the text?",
+          "answers": [
+            "Collecting as much data as possible.",
+            "Ensuring data management and analytics teams have enough accurate data available.",
+            "Focusing only on structured data.",
+            "Outsourcing all data analysis."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-010",
+          "prompt": "\"Variability\" in Big Data refers to the fact that:",
+          "answers": [
+            "Data is always accurate and reliable.",
+            "Data arrives at a consistent speed.",
+            "Data often applies to sets of big data, which might have multiple meanings or be formatted differently in separate data sources.",
+            "Data is always in a structured format."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-011",
+          "prompt": "Data Security and Privacy are critical in Big Data because:",
+          "answers": [
+            "It makes data processing faster.",
+            "Big data often contains sensitive information that requires protection against unauthorized access.",
+            "It helps in data visualization.",
+            "It reduces the volume of data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-012",
+          "prompt": "What is a key requirement for Data Storage and Management in Big Data?",
+          "answers": [
+            "Only storing structured data.",
+            "Utilizing scalable infrastructure and efficient storage solutions.",
+            "Limiting the amount of data stored.",
+            "Ignoring data variety."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-013",
+          "prompt": "\"Data Integration\" in Big Data can be challenging due to:",
+          "answers": [
+            "The small volume of data.",
+            "Differences in formats, structures, and semantics from various data sources.",
+            "The lack of analytical tools.",
+            "The absence of sensitive information."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-014",
+          "prompt": "\"Scalability\" in Big Data refers to the ability of systems to:",
+          "answers": [
+            "Process only small amounts of data.",
+            "Store data indefinitely.",
+            "Scale effectively to handle growing demands as the volume of incoming data increases.",
+            "Reduce data complexity."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-015",
+          "prompt": "\"Analytical Complexity\" in Big Data arises from the need to:",
+          "answers": [
+            "Process small, static datasets.",
+            "Process large volumes of data in real-time or near real-time, requiring sophisticated analytical tools and algorithms.",
+            "Limit data interpretation.",
+            "Avoid using machine learning technologies."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-016",
+          "prompt": "\"Regulatory Compliance\" in Big Data refers to:",
+          "answers": [
+            "The need for organizations to develop new algorithms.",
+            "Adhering to various regulations regarding privacy and industry-specific compliance requirements.",
+            "The ability to collect vast amounts of data.",
+            "The process of analyzing customer behavior."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-017",
+          "prompt": "What adds complexity to Big Data analytics concerning Regulatory Compliance?",
+          "answers": [
+            "The ease of data integration.",
+            "Legal considerations when using customer information or other sensitive datasets.",
+            "The speed of data processing.",
+            "The volume of available data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-018",
+          "prompt": "Big Data is described as having a wide range of applications across various industries. These applications are primarily aimed at:",
+          "answers": [
+            "Reducing data storage costs.",
+            "Driving innovation and efficiency improvements.",
+            "Limiting data accessibility.",
+            "Simplifying data collection."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-019",
+          "prompt": "\"Business Analytics\" as an application of Big Data includes:",
+          "answers": [
+            "Limiting data access for customers.",
+            "Analyzing customer behavior, market trends, and operational efficiencies to enable data-driven decisions.",
+            "Reducing the need for data interpretation.",
+            "Focusing solely on structured data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-020",
+          "prompt": "In the context of \"Healthcare,\" Big Data is leveraged for:",
+          "answers": [
+            "Reducing the number of medical records.",
+            "Clinical research, patient monitoring, personalized medicine, and disease surveillance.",
+            "Limiting access to patient information.",
+            "Decreasing the overall data volume."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-021",
+          "prompt": "In \"Financial Services,\" Big Data is utilized for:",
+          "answers": [
+            "Only improving marketing campaigns.",
+            "Fraud detection, risk assessment, algorithmic trading, customer segmentation, and personalized banking services.",
+            "Reducing operational costs in manufacturing.",
+            "Optimizing telecommunications networks."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-022",
+          "prompt": "\"Smart Cities\" use Big Data for urban planning analyzing:",
+          "answers": [
+            "Financial transactions and stock market data.",
+            "Traffic patterns, energy consumption trends, waste management, and public safety.",
+            "Customer shopping preferences.",
+            "Manufacturing plant efficiency."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-023",
+          "prompt": "Big data in \"Manufacturing & Supply Chain Management\" supports predictive maintenance of equipment and also optimizes:",
+          "answers": [
+            "Healthcare outcomes.",
+            "Customer behavior analysis.",
+            "Supply chain operations by improving inventory management and demand forecasting.",
+            "Network optimization."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-024",
+          "prompt": "In \"Retail & E-commerce,\" Big Data assists with customer segmentation for targeted marketing campaigns and enhances:",
+          "answers": [
+            "Public safety.",
+            "Personalized shopping experiences through recommendation engines.",
+            "Algorithmic trading.",
+            "Urban traffic management."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-025",
+          "prompt": "\"Telecommunications\" companies use Big Data to forecast usage patterns and manage capacity effectively, as well as to:",
+          "answers": [
+            "Detect financial fraud.",
+            "Optimize manufacturing supply chains.",
+            "Optimize their network.",
+            "Improve healthcare surveillance."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-026",
+          "prompt": "What is Big Data primarily a combination of?",
+          "answers": [
+            "Only structured data from internal systems.",
+            "Structured, semi-structured, and unstructured data.",
+            "Solely transactional processing systems.",
+            "Only images and video files."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-027",
+          "prompt": "What is the main purpose of organizations collecting, analyzing, and mining Big Data?",
+          "answers": [
+            "To reduce storage costs.",
+            "To generate more data.",
+            "To gain information and insights.",
+            "To limit access to data."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-028",
+          "prompt": "Systems that process and store Big Data have become a common component of:",
+          "answers": [
+            "Traditional database management systems.",
+            "Data management architectures in organizations.",
+            "Standalone analytical tools.",
+            "Predictive modeling projects only."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-029",
+          "prompt": "The \"Three Vs\" that often characterize Big Data are:",
+          "answers": [
+            "Value, Visualization, and Verification.",
+            "Volume, Velocity, and Variety.",
+            "Validity, Virtuality, and Vision.",
+            "Versatility, Visibility, and Vibrancy."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-030",
+          "prompt": "Which of the following are examples of Big Data sources mentioned in the text?",
+          "answers": [
+            "Only customer databases and email.",
+            "Transaction processing systems, customer databases, documents, emails, medical records, internet clickstream logs, mobile apps, social networks, machine-generated data, and sensor data.",
+            "Solely industrial equipment and internet of things devices.",
+            "Only weather and traffic conditions."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-031",
+          "prompt": "In terms of \"Variety,\" Big Data encompasses which of the following data types?",
+          "answers": [
+            "Only structured data like transactions.",
+            "Structured, unstructured, and semi-structured data.",
+            "Only streaming data from sensors.",
+            "Exclusively text documents and financial records."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-032",
+          "prompt": "Which of these is an example of \"unstructured data\" in Big Data?",
+          "answers": [
+            "Financial records.",
+            "Transactions.",
+            "Text, documents, and multimedia files.",
+            "Sensor data streams."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-033",
+          "prompt": "\"Semi-structured data\" in Big Data includes types such as:",
+          "answers": [
+            "Transactions.",
+            "Web server logs and streaming data from sensors.",
+            "Text documents.",
+            "Financial records."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-034",
+          "prompt": "What is a key characteristic of \"Velocity\" in Big Data?",
+          "answers": [
+            "Data is always static and unchanging.",
+            "Data is typically processed in batches daily or weekly.",
+            "Data is generated and must be processed and analyzed at high speed, often in real-time or near-real-time.",
+            "Data volume is constantly decreasing."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-035",
+          "prompt": "The expansion of Big Data analysis to include machine learning and artificial intelligence (AI) helps to:",
+          "answers": [
+            "Slow down data processing.",
+            "Automatically find patterns in data and generate insights.",
+            "Reduce the variety of data types.",
+            "Primarily focus on historical data only."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-036",
+          "prompt": "\"Structured Data\" is characterized being:",
+          "answers": [
+            "Unorganized and difficult to search.",
+            "Highly organized and easily searchable information stored in relational databases.",
+            "Data without a predefined structure or format.",
+            "Data that includes images and audio files."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-037",
+          "prompt": "Examples of \"Structured Data\" include data in the form of tables with rows and columns, such as:",
+          "answers": [
+            "Text documents and social media posts.",
+            "Sensor data and videos.",
+            "Transactional data, financial records, and customer information.",
+            "JSON and XML documents."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-038",
+          "prompt": "\"Unstructured Data\" does not have a predefined structure or format and includes examples like:",
+          "answers": [
+            "Relational database tables.",
+            "Transactional data.",
+            "Text documents, social media posts, images, videos, audio files, and sensor data.",
+            "Financial records."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-039",
+          "prompt": "To extract valuable insights from \"Unstructured Data,\" what techniques are often required?",
+          "answers": [
+            "Simple relational database queries.",
+            "Advanced techniques like natural language processing (NLP) and machine learning.",
+            "Basic spreadsheet functions.",
+            "Direct data visualization without prior processing."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-040",
+          "prompt": "\"Semi-Structured Data\" falls somewhere between structured and unstructured formats. What are common examples of this type of data?",
+          "answers": [
+            "Financial records and customer information.",
+            "Text documents and social media posts.",
+            "JSON documents used in web applications or XML files used for exchanging information.",
+            "Sensor data streams from industrial equipment."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-041",
+          "prompt": "\"Better customer and market insights\" from Big Data help organizations :",
+          "answers": [
+            "Reducing operational costs.",
+            "Covering market trends and consumer habits to meet development decisions.",
+            "Improving employee satisfaction.",
+            "Automating data collection."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-042",
+          "prompt": "How can \"Cost Savings\" be achieved with Big Data according to the text?",
+          "answers": [
+            "By avoiding data analysis altogether.",
+            "By pinpointing ways businesses can enhance operational efficiency.",
+            "By only storing small datasets.",
+            "By hiring more data entry clerks."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-043",
+          "prompt": "What is an example of \"Positive Social Impact\" with Big Data?",
+          "answers": [
+            "Increasing advertising revenue.",
+            "Identifying solvable problems such as improving healthcare or tackling poverty.",
+            "Reducing data storage requirements.",
+            "Automating marketing emails."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-044",
+          "prompt": "What is the primary challenge related to \"Data Quality\" in Big Data?",
+          "answers": [
+            "Ensuring data is always structured.",
+            "The ability to collect vast amounts of data.",
+            "Ensuring the accuracy, completeness, and consistency of data, especially with large volumes from diverse sources.",
+            "Limiting the types of data collected."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-045",
+          "prompt": "Why does \"Data Quality\" become complex in Big Data environments?",
+          "answers": [
+            "Because of the low volume of data.",
+            "Because data is always perfectly consistent.",
+            "Due to large volumes of diverse data sources.",
+            "Because there are no analytical tools available."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-046",
+          "prompt": "\"Environmental Monitoring\" with Big Data primarily helps in:",
+          "answers": [
+            "Financial market prediction.",
+            "Climate modeling or tracking wildlife populations using sensor networks.",
+            "Optimizing supply chains.",
+            "Personalizing customer experiences."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-047",
+          "prompt": "In \"AI and machine learning analysis,\" Big Data sets are getting larger, and insights are less efficiently analyzed human eyes. What is becoming key to performing large-scale analyses?",
+          "answers": [
+            "Manual data entry.",
+            "Traditional statistical methods.",
+            "AI and machine learning algorithms.",
+            "Small data samples."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-048",
+          "prompt": "Automated machine learning tools are likely to be helpful in which areas of Big Data analysis?",
+          "answers": [
+            "Only data collection.",
+            "Data set cleansing and preprocessing.",
+            "Solely data visualization.",
+            "Only data storage."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-049",
+          "prompt": "Regarding \"Increased storage capacity,\" what are becoming attractive options for storing Big Data?",
+          "answers": [
+            "Only on-premises data centers.",
+            "External hard drives.",
+            "Data lakes and warehouses, both on-premises and in the cloud.",
+            "USB flash drives."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-050",
+          "prompt": "\"Emphasis on governance\" in the future of Big Data implies that data governance and regulations will become:",
+          "answers": [
+            "Less important.",
+            "More comprehensive and stringent.",
+            "Limited to specific industries.",
+            "Simpler and less strict."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-051",
+          "prompt": "As the amount of data in use becomes more commonplace, what is increasingly required?",
+          "answers": [
+            "Less effort to safeguard and regulate it.",
+            "More effort to safeguard and regulate it.",
+            "No regulation at all.",
+            "Simplification of data structures."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-052",
+          "prompt": "What is a key capability of \"Quantum computing\" in relation to Big Data?",
+          "answers": [
+            "It makes data less secure.",
+            "It can only process small datasets.",
+            "It can expedite Big Data analyses with improved processing power.",
+            "It reduces the need for data analysis."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-053",
+          "prompt": "At its current stage, quantum computing for Big Data is primarily:",
+          "answers": [
+            "Widely available to all enterprises.",
+            "Still in its early stages of development and only available to large enterprises with access to extensive resources.",
+            "Primarily used for basic data storage.",
+            "Irrelevant for large-scale data analysis."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-054",
+          "prompt": "The term \"safeguard and regulate\" in the context of increasing data usage refers to:",
+          "answers": [
+            "Speeding up data processing.",
+            "Ensuring data security, privacy, and compliance.",
+            "Reducing the variety of data sources.",
+            "Minimizing data storage requirements."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-055",
+          "prompt": "The overall trend described in the text about data usage becoming \"commonplace\" suggests:",
+          "answers": [
+            "A decrease in the importance of data.",
+            "A growing need for sophisticated methods to manage and control data.",
+            "A shift away from Big Data technologies.",
+            "That data will become easier to handle without specialized tools."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-056",
+          "prompt": "Cloud computing is defined as the delivery of services over the Internet, specifically related to:",
+          "answers": [
+            "Only software applications.",
+            "Only hardware provision.",
+            "Both hardware and system software in the data centers that provide those services.",
+            "Local network infrastructure."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-057",
+          "prompt": "An example of a kind of virtual server provided Amazon's EC2 instance is mentioned as:",
+          "answers": [
+            "A physical server located on-premises.",
+            "An application platform.",
+            "A service that just happens to be from Amazon and Google.",
+            "A cloud application."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-058",
+          "prompt": "What is listed as an \"Obstacle\" to the growth of Cloud Computing?",
+          "answers": [
+            "Scalable Storage.",
+            "Data Lock-In.",
+            "Use Multiple Cloud Providers.",
+            "APIs."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-059",
+          "prompt": "The \"Opportunity\" to overcome \"Data Lock-In\" in Cloud Computing is to:",
+          "answers": [
+            "Standardize software to enable surge or hybrid cloud computing.",
+            "Invent scalable storage.",
+            "Deploy Encryption, VLANs, Firewalls.",
+            "Use Multiple Cloud Providers."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-060",
+          "prompt": "\"Data Confidentiality and Auditability\" is listed as an \"Obstacle\" in Cloud Computing. What is the associated \"Opportunity\" to address this?",
+          "answers": [
+            "Improved Virtual Machine (VM), Flash Memory, Gang Schedule VMs.",
+            "Deploy Encryption, VLANs, Firewalls.",
+            "Invent scalable storage.",
+            "Higher Bandwidth Switches."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-061",
+          "prompt": "What is an \"Opportunity\" for overcoming \"Large Distributed Systems\" in cloud computing?",
+          "answers": [
+            "Reputation Rate Sharing.",
+            "Invent Debugger that relies on Distributed VMs.",
+            "Offer Pay-for-use licenses.",
+            "Invent Auto-Scaler that relies on Machine Learning."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-062",
+          "prompt": "What is an \"Obstacle\" related to \"Software Licensing\" in cloud computing?",
+          "answers": [
+            "Debugger reliance.",
+            "Reputation Rate Sharing.",
+            "Snapshots.",
+            "Auto-Scaler."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-063",
+          "prompt": "What is the \"Opportunity\" presented for \"Software Licensing\"?",
+          "answers": [
+            "Invent Debugger.",
+            "Offer reputation-guarding services like those for email.",
+            "Offer Pay-for-use licenses.",
+            "Invent Auto-Scaler."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-064",
+          "prompt": "According to NIST, what level of control do consumers have over components in an IaaS model?",
+          "answers": [
+            "Complete control over all components.",
+            "No control at all.",
+            "Relatively flexible rather than a clear boundary.",
+            "Only control over physical hardware."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-065",
+          "prompt": "What does IaaS (Infrastructure as a Service) utilize to provide services on demand?",
+          "answers": [
+            "Only pre-installed applications.",
+            "Virtual machines or infrastructure on demand.",
+            "Only software licenses.",
+            "Only network elements and firewalls."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-066",
+          "prompt": "In the context of \"Platform as a Service (PaaS),\" what is the service provider's primary responsibility?",
+          "answers": [
+            "Only developing new applications.",
+            "Installing and maintaining operating systems, system software, and database management systems.",
+            "Managing all customer data.",
+            "Providing physical hardware only."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-067",
+          "prompt": "What is a key advantage for consumers using PaaS?",
+          "answers": [
+            "They have full control over the underlying infrastructure.",
+            "They can focus solely on their data, applications, and some necessary configuration settings.",
+            "They are responsible for all system software updates.",
+            "They need to purchase all hardware."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-068",
+          "prompt": "What is a challenge for consumers when upgrading the service promptly in PaaS, especially when response time is critical?",
+          "answers": [
+            "The service provider's hardware configuration increases.",
+            "They need to reinstall all necessary software by their own team.",
+            "The application becomes slower.",
+            "The database management systems become outdated."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-069",
+          "prompt": "In \"Software as a Service (SaaS),\" who is responsible for all the controls of the services, and who uses the services provided SaaS?",
+          "answers": [
+            "Consumers are responsible for controls; service providers use the services.",
+            "Service providers are responsible for controls; consumers use the services.",
+            "Both consumers and service providers share equal responsibility for controls.",
+            "Neither consumers nor service providers have control."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-070",
+          "prompt": "A key benefit of the SaaS model mentioned is that it provides global accessibility and easier collaboration, leading to:",
+          "answers": [
+            "Increased hardware maintenance.",
+            "Manual updating and upgrading.",
+            "Easier administration and automatic updating/upgrading.",
+            "Reduced availability of cloud services."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-071",
+          "prompt": "Access to a list of cloud services requires:",
+          "answers": [
+            "Only a stable internet connection.",
+            "Identification of each of these services and the cost of an organization to manage client identities.",
+            "Minimal security concerns.",
+            "Direct contact with cloud service providers."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-072",
+          "prompt": "What is a potential security concern related to client identities when accessing cloud services?",
+          "answers": [
+            "The client's identities may not be properly managed.",
+            "The cost of managing client identities is too high.",
+            "The list of cloud services is too long.",
+            "The cloud services are not accessible."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-073",
+          "prompt": "According to NIST, how many types of cloud deployment models are defined?",
+          "answers": [
+            "Two.",
+            "Three.",
+            "Four.",
+            "Five."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-074",
+          "prompt": "\"Public Cloud\" is defined as an infrastructure that provides services open for:",
+          "answers": [
+            "Only specific organizations.",
+            "Only the owner of the cloud.",
+            "Public users.",
+            "A combination of private and public users."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-075",
+          "prompt": "What is a key characteristic of Public Cloud in terms of cost and reliability?",
+          "answers": [
+            "It is generally more expensive and less reliable.",
+            "It is usually cost-effective and more reliable because it is run and maintained by IT giants.",
+            "It requires significant upfront investment.",
+            "It only supports a limited number of users."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-076",
+          "prompt": "What is a persistent concern with public clouds, which is not as customizable as private clouds?",
+          "answers": [
+            "Cost-effectiveness.",
+            "Scalability.",
+            "Privacy.",
+            "Performance."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-077",
+          "prompt": "\"Private Cloud\" infrastructure is provisioned for users within:",
+          "answers": [
+            "The general public.",
+            "A specific organization.",
+            "Third-party companies.",
+            "Various business units from different organizations."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-078",
+          "prompt": "Who typically owns, manages, or is a combination of these, for a \"Private Cloud\"?",
+          "answers": [
+            "The cloud service provider.",
+            "The organization, a third party, or a combination of them.",
+            "Individual users.",
+            "Government agencies."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-079",
+          "prompt": "What are the benefits of \"Private Cloud\" in terms of security and control compared to public cloud services?",
+          "answers": [
+            "Lower security and less control.",
+            "Relatively higher security and privacy, more control, more cost, and energy efficiency.",
+            "Similar security and control levels.",
+            "No security benefits."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-080",
+          "prompt": "\"Community (Cooperative) Cloud\" infrastructure is suitable for a group of organizations that have:",
+          "answers": [
+            "Diverse and unrelated business goals.",
+            "Shared missions, security requirements, policies, and compliance considerations.",
+            "No need for data sharing.",
+            "Limited budget for IT infrastructure."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-081",
+          "prompt": "Community cloud has the same advantages as private cloud, such as more cost effective with cost shared the community members, more security and privacy protection, and:",
+          "answers": [
+            "Less secure data sharing.",
+            "Easy for information sharing among the community.",
+            "Increased data duplication.",
+            "Limited access to information."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-082",
+          "prompt": "What is a specific benefit of information sharing within a community cloud, as exemplified a government cooperative cloud?",
+          "answers": [
+            "Information is stored less effectively.",
+            "Information can be shared more effectively even if it's stored in different clouds.",
+            "Data consistency is reduced.",
+            "Data duplication increases."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-083",
+          "prompt": "What is a potential concern with Community Cloud regarding data?",
+          "answers": [
+            "Data consistency is always guaranteed.",
+            "Some part of data may be unnecessarily shared among other organizations.",
+            "Data is never duplicated.",
+            "Information is always up-to-date."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-084",
+          "prompt": "\"Hybrid Cloud\" infrastructure is composed :",
+          "answers": [
+            "Only a public cloud.",
+            "Only a private cloud.",
+            "Two or more afore mentioned cloud infrastructure (public, private, or community clouds).",
+            "Only a community cloud."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-085",
+          "prompt": "What binds together the different cloud infrastructures in a Hybrid Cloud setup?",
+          "answers": [
+            "Manual data transfer.",
+            "Standardized or proprietary technology that enables data and application portability.",
+            "Unique software for each cloud.",
+            "Separate governance for each cloud."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-086",
+          "prompt": "What type of cloud may take advantages of public cloud features such as scalability and flexibility?",
+          "answers": [
+            "A closed-source, proprietary system.",
+            "An open-source, distributed processing framework suitable for large volumes of data.",
+            "A real-time messaging system.",
+            "A NoSQL database for structured data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-087",
+          "prompt": "What components does Hadoop include for storage and MapReduce for processing?",
+          "answers": [
+            "Only Apache Spark.",
+            "HDFS (Hadoop Distributed File System).",
+            "Kafka.",
+            "MongoDB."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-088",
+          "prompt": "Apache Spark is described as a fast and general-purpose distributed computing system that can handle:",
+          "answers": [
+            "Only batch data processing.",
+            "Only real-time data processing.",
+            "Both batch and real-time data processing.",
+            "Only interactive querying."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-089",
+          "prompt": "What unique capability does Spark offer that makes it well-suited for iterative algorithms and interactive querying?",
+          "answers": [
+            "Fault-tolerant messaging.",
+            "In-memory computation.",
+            "Storing large volumes of data.",
+            "Handling high-throughput streaming data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-090",
+          "prompt": "Apache Kafka is primarily a distributed streaming platform used for:",
+          "answers": [
+            "Storing large volumes of unstructured data.",
+            "Building real-time data pipelines and streaming applications.",
+            "Performing in-memory computation.",
+            "Interactive querying."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-091",
+          "prompt": "What is the primary benefit of using SQL-on-Hadoop Engines?",
+          "answers": [
+            "They eliminate the need for SQL.",
+            "They allow users familiar with SQL syntax to analyze structured data.",
+            "They convert all data into unstructured formats.",
+            "They are only for real-time data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-092",
+          "prompt": "Data Warehousing Technologies like Amazon Redshift and Google BigQuery provide:",
+          "answers": [
+            "Limited storage capacity for data.",
+            "Scalable infrastructure for storing and analyzing structured data at a massive scale with high performance.",
+            "Tools for unstructured data only.",
+            "Software for data visualization."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-093",
+          "prompt": "Visualization Tools (e.g., Tableau, PowerBI) are software applications designed to:",
+          "answers": [
+            "Store massive datasets.",
+            "Extract insights from complex data.",
+            "Visualize large volumes of complex datasets to help users understand trends, patterns, and insights.",
+            "Perform machine learning tasks."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-094",
+          "prompt": "What do Big Data architectures enable organizations to do efficiently?",
+          "answers": [
+            "Store small amounts of data.",
+            "Store vast amounts of information and process it effectively during analysis or application development.",
+            "Eliminate the need for data analysis.",
+            "Only manage structured data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-095",
+          "prompt": "When was Hadoop first released, and whom was it created?",
+          "answers": [
+            "In 2000 by Google.",
+            "In 2006 by Doug Cutting and Mike Cafarella.",
+            "In 2010 by Apache Spark.",
+            "In 2004 by IBM."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-096",
+          "prompt": "What is Hadoop's primary function in processing large amounts of data?",
+          "answers": [
+            "It uses a single centralized server.",
+            "It uses its namesake file system and MapReduce, a programming model and processing engine.",
+            "It focuses only on real-time data.",
+            "It is designed for small data sets."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-097",
+          "prompt": "How does Hadoop provide a way to efficiently break up large data processing problems?",
+          "answers": [
+            "By using a single powerful computer.",
+            "By distributing computations locally and then combining the results.",
+            "By relying solely on human intervention.",
+            "By storing all data in a single database."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-098",
+          "prompt": "HDFS, initially modeled on a file system developed Google, manages the process of:",
+          "answers": [
+            "Only storing structured data.",
+            "Only accessing unstructured data.",
+            "Distributing, storing, and accessing data across many separate servers.",
+            "Processing data in-memory only."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-099",
+          "prompt": "YARN, which stands for Yet Another Resource Negotiator, is Hadoop's cluster resource manager responsible for:",
+          "answers": [
+            "Only storing data.",
+            "Executing cluster distributed workloads.",
+            "Only processing small datasets.",
+            "Managing network security."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-100",
+          "prompt": "YARN schedules processing jobs and allocates compute resources such as CPU and memory to applications. When was YARN introduced as part of Hadoop 2.0?",
+          "answers": [
+            "In 2010.",
+            "In 2013.",
+            "In 2006.",
+            "In 2015."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-101",
+          "prompt": "Hadoop MapReduce, while its role was reduced YARN, is still the built-in processing engine used for:",
+          "answers": [
+            "Real-time streaming data.",
+            "Large-scale batch applications in many Hadoop clusters.",
+            "Interactive querying.",
+            "Small data analysis."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-102",
+          "prompt": "What is the function of Hadoop MapReduce in orchestrating data processing?",
+          "answers": [
+            "It prevents computations from being distributed.",
+            "It splits large computations into smaller ones that can be spread out across different cluster nodes and then runs the various processing jobs.",
+            "It only processes data on a single node.",
+            "It handles only real-time data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-103",
+          "prompt": "\"Hadoop Common\" is described as:",
+          "answers": [
+            "A specific Hadoop application.",
+            "A set of underlying utilities and libraries used by Hadoop's other components.",
+            "A processing engine for real-time data.",
+            "A tool for data visualization."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-104",
+          "prompt": "What makes Hadoop a cost-effective solution for storing and processing large datasets?",
+          "answers": [
+            "It runs on expensive, proprietary hardware.",
+            "It runs on commodity hardware.",
+            "It requires minimal storage.",
+            "It only processes small datasets."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-105",
+          "prompt": "\"Fault Tolerance\" in Hadoop is achieved because HDFS:",
+          "answers": [
+            "Stores data on a single node.",
+            "Replicates data across multiple nodes in a cluster.",
+            "Uses a centralized processing system.",
+            "Avoids data replication."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-106",
+          "prompt": "What is a benefit of Hadoop's \"Flexibility\" in processing data?",
+          "answers": [
+            "It can only process structured data.",
+            "It is suitable for a wide variety of use cases, including log processing and social media analysis.",
+            "It requires data to be in a single, specific format.",
+            "It cannot handle unstructured data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-107",
+          "prompt": "\"Parallel Processing\" with Hadoop's MapReduce framework enables:",
+          "answers": [
+            "Sequential processing of data on a single node.",
+            "Parallel processing of data across multiple nodes in a cluster, leading to faster computation times.",
+            "Manual data processing.",
+            "Limited data analysis capabilities."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-108",
+          "prompt": "\"Data Locality\" in Hadoop optimizes performance :",
+          "answers": [
+            "Moving computation away from where the actual data resides.",
+            "Bringing computation closer to where the actual data resides in the cluster nodes.",
+            "Minimizing network traffic by centralizing data.",
+            "Increasing network traffic."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-109",
+          "prompt": "\"Ecosystem Support\" for Hadoop includes various tools and frameworks such as:",
+          "answers": [
+            "Only traditional relational databases.",
+            "Apache Spark for in-memory processing and Apache Hive for SQL-like querying.",
+            "Standalone data visualization tools.",
+            "Proprietary data storage solutions."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-110",
+          "prompt": "What does the \"Veracity\" aspect of Big Data refer to?",
+          "answers": [
+            "The speed at which data is generated.",
+            "The degree of accuracy in data sets and how trustworthy they are.",
+            "The variety of data sources.",
+            "The volume of data collected."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-111",
+          "prompt": "Ifbaddataisn't fixed through data cleansing processes, it can lead to:",
+          "answers": [
+            "Improved business analytics.",
+            "Analysis errors that hinder valid results.",
+            "Faster data processing.",
+            "Increased data volume."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-112",
+          "prompt": "\"Value\" in Big Data refers to:",
+          "answers": [
+            "The cost of data storage.",
+            "The real business value or benefits that can be extracted from the collected data.",
+            "The variety of data formats.",
+            "The technical complexity of data analysis."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-113",
+          "prompt": "What do data scientists and consultants need to confirm regarding data for it to add value to business initiatives?",
+          "answers": [
+            "That it is stored in a single location.",
+            "That it relates to relevant business issues and has enough accurate data available.",
+            "That it is only structured data.",
+            "That it can be processed manually."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-114",
+          "prompt": "\"Data Security\" in a distributed environment like Hadoop requires:",
+          "answers": [
+            "Minimal planning and no encryption.",
+            "Careful planning and implementation of robust access controls and encryption mechanisms.",
+            "Only basic password protection.",
+            "Relying solely on the default security settings."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-115",
+          "prompt": "\"Learning Curve\" when adopting Hadoop implies that:",
+          "answers": [
+            "It is very easy to learn for everyone.",
+            "It requires minimal training staff.",
+            "It requires training staff in new technologies and methodologies, which may result in a steep learning curve for some organizations.",
+            "It has no impact on existing skill sets."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-116",
+          "prompt": "\"Ecosystem Fragmentation\" is a challenge in Big Data due to:",
+          "answers": [
+            "A simple and unified ecosystem.",
+            "A rapidly evolving ecosystem consisting of various tools and frameworks, making integration complex due to compatibility issues.",
+            "A lack of available tools.",
+            "The absence of different components."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-117",
+          "prompt": "When was Spark initially developed, and whom?",
+          "answers": [
+            "In 2013 by Apache.",
+            "In 2009 by Matei Zaharia at the University of California, Berkeley.",
+            "In 2006 by Doug Cutting.",
+            "In 2010 by Google."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-118",
+          "prompt": "Spark's main innovation lies in its ability to improve how data is organized to scale more efficiently, specifically through:",
+          "answers": [
+            "Disk-based processing.",
+            "In-memory processing across distributed cluster nodes.",
+            "Single-node computation.",
+            "Manual data management."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-119",
+          "prompt": "Spark SQL, a module of Apache Spark, enables users to:",
+          "answers": [
+            "Process unstructured data only.",
+            "Optimize processing of structured data by directly running SQL queries.",
+            "Manage distributed file systems.",
+            "Perform real-time data streaming."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-120",
+          "prompt": "Spark Streaming adds stream processing capabilities to Apache Spark :",
+          "answers": [
+            "Only handling batch data.",
+            "Taking data from different streaming sources and dividing it into micro-batches.",
+            "Relying solely on traditional database queries.",
+            "Avoiding integration with HDFS or Kafka."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-121",
+          "prompt": "Structured Streaming is described as a newer approach built on Spark SQL that's designed to:",
+          "answers": [
+            "Increase data latency.",
+            "Reduce latency and simplify programming.",
+            "Only process unstructured data.",
+            "Eliminate the need for SQL."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-122",
+          "prompt": "MLlib, a component of Apache Spark, is a built-in:",
+          "answers": [
+            "Data visualization library.",
+            "Machine learning library.",
+            "Database management system.",
+            "Network optimization tool."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-123",
+          "prompt": "MLlib includes a set of tools for:",
+          "answers": [
+            "Managing data storage.",
+            "Feature selection and building machine learning pipelines.",
+            "Converting unstructured data to structured data.",
+            "Performing traditional SQL queries."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-124",
+          "prompt": "One of the key benefits of Apache Spark, according to the text, is its ability to provide:",
+          "answers": [
+            "Only batch processing.",
+            "In-memory processing capability, making tasks faster than traditional disk-based systems.",
+            "Limited programming language support.",
+            "Offline data analysis only."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-125",
+          "prompt": "Spark's \"Versatility\" is highlighted its support for:",
+          "answers": [
+            "A single programming language.",
+            "Various programming languages such as Java, Scala, Python, and R.",
+            "Only object-oriented languages.",
+            "Only scripting languages."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-126",
+          "prompt": "The \"Unified Analytics Engine\" of Spark provides a unified platform for:",
+          "answers": [
+            "Only data storage.",
+            "Batch processing, real-time streaming, interactive queries, machine learning, and graph processing.",
+            "Only data visualization.",
+            "Only traditional database management."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-127",
+          "prompt": "Spark is built-in fault tolerance ensures that in case of node failure or any other issue during computation:",
+          "answers": [
+            "The lost work must be re-processed manually.",
+            "The lost work is automatically recovered without manual intervention.",
+            "The entire process needs to be restarted.",
+            "Data is permanently lost."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-128",
+          "prompt": "\"Scalability\" in Spark means it can easily scale from a single machine to:",
+          "answers": [
+            "A maximum of 10 machines.",
+            "Thousands of machines without significant changes to the application code or architecture.",
+            "Only a small cluster of servers.",
+            "It is not designed for scalability."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-129",
+          "prompt": "One of the \"Disadvantages of Apache Spark\" is its \"Complexity,\" which requires understanding of:",
+          "answers": [
+            "Only basic programming concepts.",
+            "Cluster management, fault tolerance, and data partitioning.",
+            "Simple data storage mechanisms.",
+            "Only sequential data processing."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-130",
+          "prompt": "\"Memory Requirements\" pose a disadvantage for Spark because:",
+          "answers": [
+            "In-memory processing requires minimal memory.",
+            "It can require a significant amount of memory, and inefficient memory usage can lead to performance issues.",
+            "It only uses disk space.",
+            "It is not affected by memory size."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-131",
+          "prompt": "The \"Learning Curve\" for developers and data engineers working with Spark and APIs is significant, especially if:",
+          "answers": [
+            "They are already proficient in Spark.",
+            "They are new to distributed computing models.",
+            "They only work with small datasets.",
+            "They use only traditional programming languages."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-132",
+          "prompt": "\"Cost\" is a disadvantage for setting up and maintaining a Spark cluster because:",
+          "answers": [
+            "It requires inexpensive commodity hardware.",
+            "It can be expensive due to the need for powerful hardware resources like RAM and processors.",
+            "It only requires cloud-based services.",
+            "It has no associated costs."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-133",
+          "prompt": "\"Integration with Existing Systems\" may require additional effort due to:",
+          "answers": [
+            "The simplicity of Spark APIs.",
+            "Compatibility issues or the need for custom connectors.",
+            "The universal data formats supported by Spark.",
+            "The lack of any need for integration."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-134",
+          "prompt": "What is the primary benefit of \"Enhanced decision-making\" with Big Data?",
+          "answers": [
+            "Reducing the amount of data collected.",
+            "Gleaning important insights, risks, patterns, or trends from large data sets.",
+            "Eliminating the need for human analysis.",
+            "Simplifying data storage."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-135",
+          "prompt": "The increasing availability of \"Advanced analytics\" tools allows organizations to:",
+          "answers": [
+            "Only store data more efficiently.",
+            "Perform complex statistical analysis, data mining, and predictive modeling on Big Data.",
+            "Reduce the variety of data types.",
+            "Avoid integrating different data sources."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-136",
+          "prompt": "\"Competitive Advantage\" through Big Data allows organizations to:",
+          "answers": [
+            "Match their competitors' strategies.",
+            "Differentiate their products and services and create new business models.",
+            "Reduce their market share.",
+            "Rely solely on traditional business practices."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-137",
+          "prompt": "One of the \"Big Data Challenges\" highlighted is \"Data Quality,\" which involves ensuring the accuracy, completeness, and consistency of data, especially with:",
+          "answers": [
+            "Small volumes of homogeneous data.",
+            "Large volumes from diverse sources.",
+            "Data from a single, trusted source.",
+            "Only structured data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-138",
+          "prompt": "\"Skill Shortage\" is a challenge in Big Data because there is a shortage of:",
+          "answers": [
+            "Basic computer users.",
+            "Skilled professionals with expertise in handling Big Data technologies such as Hadoop, Spark, or machine learning.",
+            "Traditional IT staff.",
+            "Data entry clerks."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-139",
+          "prompt": "What is a significant challenge when dealing with \"Analytical Complexity\" in Big Data?",
+          "answers": [
+            "Processing only small, structured datasets.",
+            "Processing large volumes of data in real-time or near real-time, requiring sophisticated analytical tools and algorithms.",
+            "Limiting data interpretation to simple reports.",
+            "Avoiding the use of any advanced technologies."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-140",
+          "prompt": "\"Data Security and Privacy\" are critical concerns in Big Data because:",
+          "answers": [
+            "Data is not sensitive.",
+            "Big Data often contains sensitive information that requires robust security measures to protect against unauthorized access and breaches.",
+            "Security measures are not needed for Big Data.",
+            "Data is always publicly available."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-141",
+          "prompt": "\"Data Storage and Management\" in Big Data requires:",
+          "answers": [
+            "Only traditional, non-scalable storage solutions.",
+            "Managing and storing vast amounts of data using scalable infrastructure and efficient storage solutions.",
+            "Limiting the volume of data collected.",
+            "Storing data in a single, centralized location."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-142",
+          "prompt": "\"Data Integration\" is challenging due to:",
+          "answers": [
+            "The uniform format of all data sources.",
+            "Integrating various types of structured and unstructured data from different sources into a cohesive system for analysis.",
+            "The lack of any data sources.",
+            "The simplicity of data structures."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-143",
+          "prompt": "Spark has an advantage over MapReduce in delivering timely analytics insights because it's designed to:",
+          "answers": [
+            "Process data mostly on disk.",
+            "Process data mostly in memory.",
+            "Only handle small datasets.",
+            "Avoid complex data types."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-144",
+          "prompt": "Hadoop came first and revolutionized the way people thought about scaling data workloads. It made Big Data environments feasible in organizations supporting:",
+          "answers": [
+            "Only limited data volumes.",
+            "Large volumes and varying types of data.",
+            "Single-server architecture.",
+            "Only highly structured data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-145",
+          "prompt": "Hadoop is often adopted as a platform for data lakes because it can commonly store:",
+          "answers": [
+            "Only processed data.",
+            "Both raw data and prepared data sets for analytics uses.",
+            "Only highly summarized data.",
+            "Data in a proprietary format."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-146",
+          "prompt": "While Hadoop is primarily suited for more than batch processing, Spark was designed from the ground up to optimize:",
+          "answers": [
+            "Disk storage.",
+            "High-throughput data processing jobs.",
+            "Manual data entry.",
+            "Small data analysis."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-147",
+          "prompt": "Spark can be used as a staging tier on top of a Hadoop cluster for:",
+          "answers": [
+            "Only data storage.",
+            "ETL and exploratory data analysis.",
+            "Only data archiving.",
+            "Only data security."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-148",
+          "prompt": "Spark's lack of a built-in file system like HDFS means it needs to be paired with:",
+          "answers": [
+            "Only traditional databases.",
+            "Hadoop or other platforms for long-term data storage and management.",
+            "Local storage solutions.",
+            "Only in-memory databases."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-149",
+          "prompt": "In Hadoop 1.0, what was the centralized service for allocating MapReduce tasks across nodes?",
+          "answers": [
+            "ResourceManager.",
+            "NodeManager.",
+            "JobTracker.",
+            "TaskTracker."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-150",
+          "prompt": "In Hadoop 1.0, a \"local TaskTracker\" service managed:",
+          "answers": [
+            "Global job scheduling.",
+            "Job execution by individual nodes.",
+            "Resource allocation for the entire cluster.",
+            "Network monitoring."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-151",
+          "prompt": "What components replaced JobTracker and TaskTracker starting in Hadoop 2.0?",
+          "answers": [
+            "ResourceManager and NodeManager.",
+            "HDFS and MapReduce.",
+            "Spark and Kafka.",
+            "Hive and Presto."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-152",
+          "prompt": "What is the function of a \"ResourceManager\" in Hadoop 2.0?",
+          "answers": [
+            "Monitoring resource usage on individual nodes.",
+            "A global job scheduler and resource arbitrator.",
+            "Executing local tasks.",
+            "Storing data across the cluster."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-153",
+          "prompt": "An \"ApplicationMaster\" in Spark is a daemon created for each application that:",
+          "answers": [
+            "Manages only data storage.",
+            "Negotiates required resources from ResourceManager and works with NodeManagers to execute processing tasks.",
+            "Only performs data visualization.",
+            "Only monitors network traffic."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-154",
+          "prompt": "Resource containers in Spark hold:",
+          "answers": [
+            "Only raw data.",
+            "Physical servers.",
+            "An abstract way the system resources are assigned to different nodes and applications.",
+            "Only input data."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-155",
+          "prompt": "In Spark, data is accessed from external storage repositories, which could be HDFS, a cloud object storage like Amazon Simple Storage Service, or:",
+          "answers": [
+            "Local machine hard drives only.",
+            "Various databases.",
+            "Only in-memory storage.",
+            "USB drives."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-156",
+          "prompt": "What happens when data sets are too large to fit into the available memory in Spark?",
+          "answers": [
+            "The processing stops.",
+            "The platform can also \"spill\" data to disk storage and process it there.",
+            "The data is automatically deleted.",
+            "The application crashes."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-157",
+          "prompt": "Spark can run on clusters managed YARN, Mesos, and:",
+          "answers": [
+            "Hadoop Distributed File System (HDFS).",
+            "Kubernetes.",
+            "MapReduce.",
+            "Apache Hive."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-158",
+          "prompt": "Like RDDs, Datasets are distributed collections of data, but they include richer optimizations through:",
+          "answers": [
+            "Manual coding.",
+            "Spark SQL.",
+            "Traditional file systems.",
+            "Only basic Python scripts."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-159",
+          "prompt": "The updated architecture of Spark SQL also includes DataFrames, which are datasets with:",
+          "answers": [
+            "No defined columns.",
+            "Named columns, making them similar to relational database tables.",
+            "Only unstructured data.",
+            "Only streaming data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-160",
+          "prompt": "DataFrames are similar in concept to data frames in R and Python, making them useful for:",
+          "answers": [
+            "Data storage only.",
+            "Machine learning applications.",
+            "Data visualization only.",
+            "Data processing and analysis in those languages."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-161",
+          "prompt": "Both Structured Streaming and MLlib in Spark utilize which approach for data management?",
+          "answers": [
+            "RDDs.",
+            "DataSets/DataFrame approach.",
+            "Traditional SQL tables.",
+            "External file systems only."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-162",
+          "prompt": "When was the RDD API replaced as the recommended programming interface the Dataset API?",
+          "answers": [
+            "In 2010.",
+            "In 2013.",
+            "In 2016.",
+            "In 2018."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-163",
+          "prompt": "Data ingestion is the process of:",
+          "answers": [
+            "Only analyzing existing data.",
+            "Obtaining and importing data for immediate use or storage in a database.",
+            "Deleting old data.",
+            "Visualizing data only."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-164",
+          "prompt": "Data can be ingested into a system in real-time or in:",
+          "answers": [
+            "Daily batches.",
+            "Weekly batches.",
+            "Batches.",
+            "Monthly batches."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-165",
+          "prompt": "When data is ingested in batches, data items are imported in:",
+          "answers": [
+            "Continuous streams.",
+            "Discrete chunks at periodic intervals.",
+            "Random order.",
+            "Only when a user requests it."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-166",
+          "prompt": "The first step in an effective data ingestion process is to:",
+          "answers": [
+            "Prioritize data storage.",
+            "Prioritize the data sources.",
+            "Prioritize data analysis.",
+            "Prioritize data visualization."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-167",
+          "prompt": "When numerous Big Data sources exist in diverse formats, it is challenging to ingest data at a reasonable speed and process it efficiently. In this situation, vendors offer software to:",
+          "answers": [
+            "Manually process all data.",
+            "Automate the process and tailor it to specific computing environments and applications.",
+            "Store data without processing.",
+            "Visualize data immediately."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-168",
+          "prompt": "When data ingestion is automated, the software used may include data preparation capabilities. These features:",
+          "answers": [
+            "Complicate data analysis.",
+            "Include data preparation capabilities to structure and organize data.",
+            "Reduce the accuracy of data.",
+            "Limit the types of data that can be ingested."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-169",
+          "prompt": "Data ingestion is an integral part of the analytics programs, enabling organizations to:",
+          "answers": [
+            "Store raw data indefinitely.",
+            "Analyze data and later use business intelligence (BI) to generate insights.",
+            "Skip data validation.",
+            "Avoid data processing."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-170",
+          "prompt": "What are the two main ways to ingest data?",
+          "answers": [
+            "Only real-time processing.",
+            "Batch processing and real-time processing.",
+            "Only micro-batching.",
+            "Manual and automated ingestion."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-171",
+          "prompt": "\"Batch processing\" in data ingestion is characterized :",
+          "answers": [
+            "Data being streamed in real-time.",
+            "Data being grouped based on a schedule or certain conditions.",
+            "Data being processed immediately upon arrival.",
+            "Data being ingested in a continuous stream."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-172",
+          "prompt": "The batch processing approach is good for applications that:",
+          "answers": [
+            "Require real-time data.",
+            "Don't require real-time data and can tolerate some latency.",
+            "Involve high-throughput streaming.",
+            "Need immediate results."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-173",
+          "prompt": "\"Real-time processing\" of data ingestion typically involves:",
+          "answers": [
+            "Data being grouped in batches.",
+            "Data being generated and needing processing at high speed, often in real-time or near-real-time.",
+            "Data being stored for later analysis.",
+            "Data processed only once a day."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-174",
+          "prompt": "Applications that require real-time data should use which approach for data ingestion?",
+          "answers": [
+            "Batch processing.",
+            "Micro batching.",
+            "Real-time processing.",
+            "Manual data entry."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-175",
+          "prompt": "\"Micro batching\" is a type of batch processing that uses:",
+          "answers": [
+            "Real-time streaming systems.",
+            "Traditional relational databases.",
+            "Small, discrete chunks of data for processing.",
+            "Continuous data streams."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-176",
+          "prompt": "In micro batching, instead of being grouped in any way in real-time processing, each piece of data is loaded as soon as:",
+          "answers": [
+            "The entire batch is complete.",
+            "It is recognized by the ingestion layer.",
+            "The data is manually approved.",
+            "The end of the day."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-177",
+          "prompt": "Micro batching divides data into groups, but ingests them in smaller increments, making it more suitable for applications that require:",
+          "answers": [
+            "Static data analysis.",
+            "Historical reporting.",
+            "Streaming data.",
+            "Batch processing."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-178",
+          "prompt": "The components of an organization's data strategy and its business requirements determine the data ingestion method it uses. Organizations choose their model and data ingestion tools in part based on:",
+          "answers": [
+            "Their existing hardware infrastructure.",
+            "The data sources they use and how quickly they will need access to the data for analysis.",
+            "The number of employees in the IT department.",
+            "The availability of public cloud services."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-179",
+          "prompt": "Data Ingestion tools and features include \"Extraction,\" which refers to tools that:",
+          "answers": [
+            "Analyze data after it's stored.",
+            "Collect data from a variety of sources, including applications, databases and internet of things devices.",
+            "Visualize data trends.",
+            "Transform data into new formats."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-180",
+          "prompt": "\"Processing\" in data ingestion involves tools that:",
+          "answers": [
+            "Store data for long-term archiving.",
+            "Process the data so it's ready for the applications that need it right away or for storage for later use.",
+            "Only extract data from sources.",
+            "Focus on data visualization."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-181",
+          "prompt": "A data ingestion tool may process data in:",
+          "answers": [
+            "Only real-time.",
+            "Only scheduled batches.",
+            "Real-time or in scheduled batches.",
+            "Only when manually initiated."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-182",
+          "prompt": "\"Data types\" handled many data ingestion tools include:",
+          "answers": [
+            "Only structured data.",
+            "Structured, semi-structured, and unstructured data.",
+            "Only unstructured data.",
+            "Only real-time streaming data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-183",
+          "prompt": "\"Data flow tracking and visualization\" features of data ingestion tools provide users with a way to:",
+          "answers": [
+            "Store more data.",
+            "Analyze data trends.",
+            "Visualize the flow of data through a system.",
+            "Perform complex calculations."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-184",
+          "prompt": "What are the key \"Benefits of Data Ingestion Technology\" as described in the text?",
+          "answers": [
+            "Increased complexity and higher costs.",
+            "Improved flexibility, simplicity, analytics, application quality, and availability.",
+            "Reduced security and limited data volume.",
+            "Restricted access to data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-185",
+          "prompt": "\"Flexibility\" in data ingestion tools refers to their capability of:",
+          "answers": [
+            "Processing a limited range of data formats.",
+            "Processing a range of data formats and a substantial amount of unstructured data.",
+            "Only handling structured data.",
+            "Ignoring data format differences."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-186",
+          "prompt": "\"Simplicity\" in data ingestion is achieved when combined with ETL processes, which:",
+          "answers": [
+            "Increase the complexity of data.",
+            "Restructure enterprise data to predefined formats and make it easier to use.",
+            "Eliminate the need for data transformation.",
+            "Only extract data."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-187",
+          "prompt": "\"Analytics\" benefit from data ingestion because once data is ingested:",
+          "answers": [
+            "It cannot be used for business intelligence.",
+            "Businesses can use analytical tools to draw valuable BI insights from a variety of data source systems.",
+            "It is only used for archival purposes.",
+            "It makes data less accessible."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-188",
+          "prompt": "\"Application quality\" from data ingestion allows businesses to:",
+          "answers": [
+            "Only store data.",
+            "Improve applications and provide a better user experience.",
+            "Reduce system performance.",
+            "Limit data access."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-189",
+          "prompt": "\"Availability\" through efficient data ingestion helps businesses to:",
+          "answers": [
+            "Slow down data processing.",
+            "Provide data and data analytics faster to authorized users.",
+            "Restrict data availability.",
+            "Eliminate the need for data analysis."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-190",
+          "prompt": "\"Decision-making\" for businesses can be improved using analytics from ingested data to:",
+          "answers": [
+            "Make less informed decisions.",
+            "Make better tactical decisions and reach business goals more successfully.",
+            "Rely on intuition only.",
+            "Increase operational costs."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-191",
+          "prompt": "A challenge related to \"Scale\" in data ingestion is that on a large scale, it can be difficult to ensure:",
+          "answers": [
+            "Data volume reduction.",
+            "Data quality and to ensure the data conforms to the format and structure the destination application requires.",
+            "Only manual data processing.",
+            "Data is always easily accessible."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-192",
+          "prompt": "Large-scale data ingestion can also suffer from:",
+          "answers": [
+            "Improved data quality.",
+            "Performance challenges.",
+            "Reduced storage needs.",
+            "Simplified data management."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-193",
+          "prompt": "\"Security\" is a challenge for large-scale data ingestion because data is typically:",
+          "answers": [
+            "Encrypted at every point.",
+            "Staged at multiple points in the data ingestion pipeline, increasing its exposure and making it vulnerable to security breaches.",
+            "Only processed on secure, isolated networks.",
+            "Not accessible to external systems."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-194",
+          "prompt": "\"Fragmentation and data integration\" is a challenge in Big Data because different business units ingesting data from the same sources may:",
+          "answers": [
+            "Always have perfectly consistent data.",
+            "End up duplicating one another's efforts.",
+            "Automatically integrate data without issue.",
+            "Reduce overall data volume."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-195",
+          "prompt": "It can be difficult to integrate data from many different third-party sources into:",
+          "answers": [
+            "Separate, isolated systems.",
+            "The same data pipeline.",
+            "Only unstructured data formats.",
+            "Data visualization tools."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-196",
+          "prompt": "\"Data quality\" in data ingestion refers to maintaining data:",
+          "answers": [
+            "Volume and velocity.",
+            "Quality and completeness.",
+            "Variety and value.",
+            "Security and privacy."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-197",
+          "prompt": "Checking data quality must be part of the ingestion process to enable:",
+          "answers": [
+            "Faster processing only.",
+            "Accurate and useful analytics.",
+            "Reduced storage needs.",
+            "Simplified data collection."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-198",
+          "prompt": "What is a key benefit of data visualization regarding insights?",
+          "answers": [
+            "It limits insights to a narrow spectrum of understanding.",
+            "It allows organizations to ignore visuals presented in business intelligence dashboards.",
+            "It enables a broad spectrum of actionable insights, helping personnel understand visuals and figure out next steps faster.",
+            "It makes it harder for users to absorb information quickly."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-199",
+          "prompt": "How do visualization platforms help with complex relationships?",
+          "answers": [
+            "They hide complex relationships among data points and metrics.",
+            "They only display simple relationships, not complex ones.",
+            "They can display complex relationships, allowing for faster data-based decisions.",
+            "They make it more difficult for organizations to make data-based decisions."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-200",
+          "prompt": "What is the benefit of \"Compelling storytelling\" in data visualization?",
+          "answers": [
+            "It makes data dashboards boring and difficult to understand.",
+            "It uses visuals that are not compelling, causing the audience to lose interest.",
+            "It creates visually compelling data dashboards that maintain the audience's interest with understandable information.",
+            "It requires the audience to have advanced technical knowledge to understand the information."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-201",
+          "prompt": "What does \"Accessibility\" mean in the context of data visualization benefits?",
+          "answers": [
+            "Data visualization tools make data less accessible and harder to understand for laypersons.",
+            "Data visualization tools make data more accessible and understandable, even for laypersons.",
+            "Only experts can access and understand data presented through visualization tools.",
+            "Accessibility refers to the cost of the visualization tools, not their ease of use."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-202",
+          "prompt": "Which of the following is NOT listed as a benefit of data visualization in the provided text?",
+          "answers": [
+            "Actionable insights",
+            "Exploration of complex relationships",
+            "Reduced need for data analysis",
+            "Compelling storytelling"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-203",
+          "prompt": "What is a key functionality of interactive dashboards in data visualization?",
+          "answers": [
+            "They only allow static displays of data.",
+            "They let users click on various aspects of data displays for more information.",
+            "They restrict users from exploring data in detail.",
+            "They are primarily for users with extensive subject area expertise."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-204",
+          "prompt": "What is one disadvantage of data visualization related to \"Complexity\"?",
+          "answers": [
+            "Highly complicated visualizations are always easy to interpret.",
+            "Complexity makes it easier to glean valuable insights.",
+            "A highly complicated visualization can appear cluttered and make it difficult to glean valuable insights.",
+            "Complexity means users don't need training on the tools."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-205",
+          "prompt": "What risk is associated with increased complexity in data visualization?",
+          "answers": [
+            "Users will automatically create the correct visual type.",
+            "Users need less training on the tools being used.",
+            "Users might create the wrong visual type for the data being used.",
+            "It guarantees easier interpretation for all users."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-206",
+          "prompt": "What is the \"Potential for misinterpretation\" in data visualization?",
+          "answers": [
+            "Users always draw correct conclusions from detailed visualizations.",
+            "Users with good intentions will never misinterpret data.",
+            "Users might draw incorrect conclusions from detailed visualizations even with good intentions.",
+            "Misinterpretation is only a concern for simple visualizations."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-207",
+          "prompt": "What is a crucial consideration regarding \"Data privacy and security\" in data visualization?",
+          "answers": [
+            "Data privacy and security are not concerns when visualizing data.",
+            "Users do not need to consider the security and privacy of the data being visualized.",
+            "A visualization platform might be susceptible to security risks.",
+            "Data privacy is only relevant for static data displays."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-208",
+          "prompt": "Why should visualizations and their underlying data be scrutinized for bias?",
+          "answers": [
+            "To intentionally introduce bias into analyses.",
+            "To ensure they aren't intentionally or unintentionally biased.",
+            "Bias has no effect on the credibility of analyses.",
+            "To make the analyses more complex."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-209",
+          "prompt": "What can happen if a data set leaves out key demographics within a population?",
+          "answers": [
+            "It will lead to a more accurate visualization.",
+            "It will result in an unbiased visualization.",
+            "It could lead to a biased visualization of that data.",
+            "It has no impact on the visualization's accuracy."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-210",
+          "prompt": "According to the text, why is data visualization more important than ever with the increased popularity of big data?",
+          "answers": [
+            "Big data is always easy to sort and comprehend without visualization.",
+            "It helps slow down the process of understanding massive amounts of data.",
+            "It offers a way to speed up the process and present information to stakeholders in understandable ways.",
+            "Companies are decreasingly using machine learning for data."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-211",
+          "prompt": "How does big data visualization often differ from normal visualization techniques?",
+          "answers": [
+            "Because the tools are fully automated and require no human input.",
+            "Because visualization specialists can identify the best data sets and visualization styles.",
+            "Because hiring a specialist makes the process more complicated.",
+            "Because only basic computer skills are needed."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-212",
+          "prompt": "What kind of resources are required for the visualization of big data?",
+          "answers": [
+            "Minimal computer hardware and basic storage systems.",
+            "Powerful computer hardware, efficient storage systems, and potentially cloud migration.",
+            "Only software, with no need for hardware upgrades.",
+            "No specific IT resources are mentioned as necessary."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-213",
+          "prompt": "What does the need for powerful computer hardware and efficient storage systems for big data visualization imply for IT?",
+          "answers": [
+            "Less IT involvement is required.",
+            "IT involvement remains the same.",
+            "More IT involvement is necessary.",
+            "IT resources become irrelevant."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-214",
+          "prompt": "What determines the accuracy of insights provided big data visualization?",
+          "answers": [
+            "The complexity of the visualization software.",
+            "The accuracy of the information being processed.",
+            "The number of people involved in the project.",
+            "The speed of data processing."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-215",
+          "prompt": "What is crucial for ensuring data integrity and security with large volumes of data in big data visualization?",
+          "answers": [
+            "Relying solely on automated processes.",
+            "Having people and processes in place to govern and control data quality and metadata.",
+            "Using untrusted data sources to speed up the process.",
+            "Ignoring the security of the data after visualization."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-216",
+          "prompt": "What was one of the most common visualization techniques when computers were first applied to data visualization?",
+          "answers": [
+            "Bubble cloud",
+            "Heat maps",
+            "Microsoft Excel spreadsheet to transform information into tables, bar charts, or pie charts",
+            "Time series charts"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-217",
+          "prompt": "Which of the following is NOT listed as a more intricate visualization technique available today?",
+          "answers": [
+            "Infographics",
+            "Bubble clouds",
+            "Simple tables",
+            "Fever charts"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-218",
+          "prompt": "What do line charts primarily display?",
+          "answers": [
+            "Hierarchical data in a nested format.",
+            "How variables can change over time.",
+            "Proportions of a whole.",
+            "Relationships between multiple categories at a single point in time."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-219",
+          "prompt": "What is an Area chart described as in the text?",
+          "answers": [
+            "A method to show static data points.",
+            "A variation of a line chart that displays multiple values in a time series.",
+            "A chart used only for comparing different parts of a whole.",
+            "A visualization that represents individual data points without any time context."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins106-220",
+          "prompt": "When are Treemaps best used?",
+          "answers": [
+            "When displaying how variables change over time.",
+            "When showing a sequence of data collected at consecutive points in time.",
+            "When multiple categories are present, and the goal is to compare different parts of a whole.",
+            "When only a single variable needs to be visualized."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

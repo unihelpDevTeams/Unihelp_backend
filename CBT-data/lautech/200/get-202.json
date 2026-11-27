@@ -1,0 +1,1176 @@
+{
+"school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "200",
+  "department": "Engineering Faculty",
+  "course": {
+    "code": "GET 202",
+    "title": "Engineering Materials"
+  },
+    "questions": [
+        {
+          "id": "get202-001",
+          "prompt": "Which ceramic material is primarily used for dental applications?",
+          "answers": [
+            "Zirconia",
+            "Silica",
+            "Alumina",
+            "Porcelain"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-002",
+          "prompt": "What is the main advantage of using advanced ceramics?",
+          "answers": [
+            "Low cost",
+            "tigh strengthtoweight ratio",
+            "High thermal expansion",
+            "Flexibility"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-003",
+          "prompt": "Which of the following is o method for producing fine ceramics?",
+          "answers": [
+            "slip casting",
+            "Blow molding",
+            "Compression molding",
+            "Sand casting"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-004",
+          "prompt": "What is the main use of silicon nitride in ceramics?",
+          "answers": [
+            ") Electrical insulation",
+            "Hightemperature applications",
+            "Cutting tools",
+            "Decorative tiles"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-005",
+          "prompt": "Which of the following composites is primarily used for ballistic protection?",
+          "answers": [
+            "Carbon fiber reinforced polymer",
+            "Glass fiber reinforced polymer",
+            "Aramid fiber reinforced composite",
+            "All of the above"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-006",
+          "prompt": "Which testing method is commonly used to evaluate the mechanical properties of composites?",
+          "answers": [
+            "Tensile testing",
+            "Hardness testing",
+            "Impact testing",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-007",
+          "prompt": "What type of corrosion is characterized localized attack on a material's surface?",
+          "answers": [
+            "Uniform corrosion",
+            "Pitting corrosion",
+            "Galvanic corrosion",
+            "Intergranular corrosion"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-008",
+          "prompt": "Which factor does NOT significantly influence the rate of corrosion?",
+          "answers": [
+            "Temperature",
+            "pH level",
+            "Color of the material D) Presence of electrolytes"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-009",
+          "prompt": "Which type of environment is most favorable for corrosion ?",
+          "answers": [
+            "Pry and low humidity",
+            "Wet and acidic",
+            "Neutral and dry",
+            "High temperature and low humidity"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-010",
+          "prompt": "Which of the following is o method for detecting corrosion?",
+          "answers": [
+            "Ultrasonic testing",
+            "Visual inspection",
+            "Electrochemical methods",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-011",
+          "prompt": "What is the main characteristic of o composite material 2",
+          "answers": [
+            "Uniform material properties",
+            "Combination of two or more materials",
+            "High electrical conductivity D) Low thermal resistance"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-012",
+          "prompt": "What is o disadvantage of metal matrix composites (MMCs) 2",
+          "answers": [
+            "High cost",
+            "Low strength",
+            "High weight",
+            "Poor thermal stability"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-013",
+          "prompt": "Which of the following is a common form of corrosion in pipelines?",
+          "answers": [
+            "Uniform corrosion",
+            "Crevice corrosion",
+            "Galvanic corrosion",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-014",
+          "prompt": "What is the typical process for forming glass ceramics 2",
+          "answers": [
+            "Sintering",
+            "Melting and casting",
+            "feat treatment",
+            "Injection molding"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-015",
+          "prompt": "Which of the followingis a characteristic of thermosetting polymers?",
+          "answers": [
+            "They melt when heated",
+            "They can be reshaped multiple times",
+            "They harden permanently after curing",
+            "They are less durable"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-016",
+          "prompt": "Which of the following is a common method for preventing galvanic corrosion?%",
+          "answers": [
+            "Using similar metals",
+            "Increasing temperature",
+            "Decreasing humidity",
+            "Coating with paint"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-017",
+          "prompt": "Which type of ceramic is often used for cutting tools?",
+          "answers": [
+            "Porcelain",
+            "Silicon carbide",
+            "Alumina",
+            "Glass"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-018",
+          "prompt": "What is a common application for high performance ceramics?",
+          "answers": [
+            "Household items",
+            "Aerospace components",
+            "Jewelry D) Decorative tiles [ANSWER] f3) Aerospace components 3¢, Which process involves shaping ceramic powders into desired forms? [OPT_A] Sintering [OPT_B] Pressing [OPT_C] Casting"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-019",
+          "prompt": "What is the primary use of bioceramics?",
+          "answers": [
+            "Cooking utensils",
+            "Medical implants",
+            "Decorative items",
+            "Electrical insulators"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-020",
+          "prompt": "Which of the following is a characteristic of thermoplastics?",
+          "answers": [
+            "Permanent shape",
+            "Reusable after heating",
+            "Low impact resistance",
+            "High glass transition temperature"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-021",
+          "prompt": "What is o common additive used to enhance the properties of polymers?",
+          "answers": [
+            "Plasticizers",
+            "Fillers",
+            "Stabilizers",
+            "All of the cbove"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-022",
+          "prompt": "What is the primary disadvantage of using PVC?",
+          "answers": [
+            "High cost",
+            "Enwironmental concerns during production",
+            "Low strength",
+            "Poor thermal stability"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-023",
+          "prompt": "Which polymer is often used in the production of films and bags?",
+          "answers": [
+            "Polystyrene",
+            "Polyethylene",
+            "Polyvinyl chloride",
+            "Nylon"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-024",
+          "prompt": "What is the main disadvantage of using natural fibers as reinforcement in composites?",
+          "answers": [
+            "Low cost",
+            "Variability in properties",
+            "High strength",
+            "Environmental impact"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-025",
+          "prompt": "What is the main advantage of using fiber reinforced composites?",
+          "answers": [
+            "Low tensile strength",
+            "Increased stiffness and strength",
+            "High thermal expansion",
+            "Increased weight"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-026",
+          "prompt": "Which of the following metals is commonly used as o sacrificial anode?",
+          "answers": [
+            "2inc",
+            "Copper",
+            "Aluminum",
+            "Lead"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-027",
+          "prompt": "Which type of corrosion is accelerated the presence of chlorides?",
+          "answers": [
+            "Stress corrosion cracking",
+            "Uniform corrosion",
+            "Galvanic corrosion",
+            "Intergranular corrosion"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-028",
+          "prompt": "What is a common treatment for preventing corrosion in metals?",
+          "answers": [
+            "Alloying",
+            "Anodizing",
+            "Painting",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-029",
+          "prompt": "Which ceramic material is used for spark plugs?",
+          "answers": [
+            "Zirconia",
+            "Silicon nitride",
+            "Alumina",
+            "Porcelain"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-030",
+          "prompt": "Which polymer is commonly used in packaging due to its low density?",
+          "answers": [
+            "Polyethylene",
+            "Polyvinyl chloride",
+            "Polystyrene",
+            "Nylon"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-031",
+          "prompt": "What is & common feature of composite materials?",
+          "answers": [
+            "They are always isotropic",
+            "They have improved mechanical properties",
+            "They cannot be recycled",
+            "They are always heavier than metals"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-032",
+          "prompt": "What is the main property of hightemperature superconductors?",
+          "answers": [
+            "High thermal conductivity",
+            "2ero electrical resistance",
+            "High density",
+            "Low strength"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-033",
+          "prompt": "Which ceramic is of ten used for electrical insulators in power lines?",
+          "answers": [
+            "Porcelain",
+            "Silicon carbide",
+            "Alumina",
+            "2irconia"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-034",
+          "prompt": "Which type of composite is used in automotive body panels?",
+          "answers": [
+            "Metal matrix composites",
+            "Polymer matrix composites",
+            "Ceramic matrix composites",
+            "All of the above"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-035",
+          "prompt": "Which method is effective for measuring the corrosion rate of metals?",
+          "answers": [
+            "Electrochemical polarization",
+            "Xray diffraction",
+            "Optical microscopy",
+            "Thermal analysis"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-036",
+          "prompt": "What is the primary component of a glass ceramic?",
+          "answers": [
+            "Silica",
+            "Alumina",
+            "Zirconia",
+            "Calcium oxide"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-037",
+          "prompt": "Which of the following is & common cause of corrosion in buried pipelines?",
+          "answers": [
+            "Low moisture",
+            "tigh soil acidity",
+            "High temperature",
+            "Low temperature"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-038",
+          "prompt": "Which composite material is known for its lightweight and high strength?",
+          "answers": [
+            "Glass fiber reinforced polymer",
+            "Steel",
+            "Aluminum",
+            "Concrete"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-039",
+          "prompt": "What is the primary benefit of using aluminum alloys in construction?",
+          "answers": [
+            "Low strength",
+            "Corrosion resistance",
+            "High cost",
+            "Heavy weight"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-040",
+          "prompt": "Which metal is often used for its lent corrosion resistance in marine environments 2",
+          "answers": [
+            "Steel",
+            "Copper",
+            "Stainless steel",
+            "Iron"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-041",
+          "prompt": "What is the primary purpose of using composite materials in aeronautics?%",
+          "answers": [
+            "To reduce weight",
+            "To increase cost",
+            "To decrease strength",
+            "To improve thermal expansion"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-042",
+          "prompt": "What is the main component of o polymer blend?",
+          "answers": [
+            "Single type of polymer",
+            "Multiple types of polymers",
+            "Metals",
+            "Ceramics"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-043",
+          "prompt": "Which property is NOT typical of ceramics?",
+          "answers": [
+            "figh hardness",
+            "Htigh brittleness",
+            "figh electrical conductivity",
+            "Low thermal expansion"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-044",
+          "prompt": "What is the main application of polystyrene?",
+          "answers": [
+            "Packaging materials",
+            "Electrical insulation",
+            "Automotive parts",
+            "Medical devices"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-045",
+          "prompt": "Which type of corrosion is characterized the formation of small pits on o metal surface?",
+          "answers": [
+            "Uniform corrosion",
+            "Galvanic corrosion",
+            "Pitting corrosion",
+            "Intergranular corrosion"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-046",
+          "prompt": "What is the main factor that influences the rate of electrochemical corrosion?%",
+          "answers": [
+            "Temperature",
+            "ptt of the environment",
+            "Presence of oxygen",
+            "All of the cbove"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-047",
+          "prompt": "What is the purpose of using corrosionresistant alloys?",
+          "answers": [
+            "To reduce costs",
+            "To prevent wear",
+            "To enhance corrosion resistance",
+            "To increase weight"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-048",
+          "prompt": "What type of polymerization involves the formation of a polymer the successive addition of monomers 2",
+          "answers": [
+            "Condensation",
+            "Addition",
+            "Crosslinking",
+            "Copolymerization"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-049",
+          "prompt": "What is the main disadvantage of thermosetting polymers?",
+          "answers": [
+            "They are less durable",
+            "They cannot be reshaped after curing",
+            "They are more expensive",
+            "They are less heat resistant"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-050",
+          "prompt": "What Is the primary component in a composite material?",
+          "answers": [
+            "Matrix",
+            "Reinforcement",
+            "Binder",
+            "Filler"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-051",
+          "prompt": "Which of the following is & common reinforcing material in composites?",
+          "answers": [
+            "Glass fibers",
+            "Carbon fibers",
+            "Kevlar",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-052",
+          "prompt": "What property do composites typically exhibit compared to their individual components?",
+          "answers": [
+            "Lower strength",
+            "Increased weight",
+            "Improved stiffness",
+            "Reduced cost"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-053",
+          "prompt": "Which type of composite is made from o polymer matrix?",
+          "answers": [
+            "Metal matrix composite",
+            "Ceramic matrix composite",
+            "Polymer matrix composite",
+            "All of the above"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-054",
+          "prompt": "What Is corrosion?",
+          "answers": [
+            "A process of material strengthening",
+            "The deterioration of materials due to chemical reactions",
+            "A method of material synthesis",
+            "A type of thermal treatment"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-055",
+          "prompt": "Which metal is most susceptible to corrosion in a moist environment ?",
+          "answers": [
+            "Aluminum",
+            "Copper",
+            "Iron",
+            "Titanium"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-056",
+          "prompt": "What type of corrosion occurs when two dissimilar metals are In contact?",
+          "answers": [
+            "Pitting corrosion",
+            "Galvanic corrosion",
+            "Crevice corrosion",
+            "Intergranular corrosion"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-057",
+          "prompt": "Which of the following is & common corrosion inhibitor ?",
+          "answers": [
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Chromates",
+            "Iron oxide"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-058",
+          "prompt": "What is the primary characteristic of ceramics?",
+          "answers": [
+            "High thermal conductivity",
+            "[3rittle nature",
+            "High ductility",
+            "Low melting point"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-059",
+          "prompt": "Which type of ceramic is known for its electrical insulating properties?",
+          "answers": [
+            "Oxide ceramics",
+            "Nonoxide ceramics",
+            "Composite ceramics",
+            "Glass ceramics"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-060",
+          "prompt": "What is the main component of porcelain?",
+          "answers": [
+            "Feldspar",
+            "Silica",
+            "Kaolin",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-061",
+          "prompt": "Which method is commonly used for shaping ceramics?",
+          "answers": [
+            "Injection molding",
+            "Sintering",
+            "Casting",
+            "Extrusion"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-062",
+          "prompt": "Which of the following is a thermoplastic?",
+          "answers": [
+            "Epoxy",
+            "Polyethylene",
+            "Phenolic",
+            "Polyurethane"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-063",
+          "prompt": "Which polymer is known for its lent resistance to UV light?",
+          "answers": [
+            "Polyvinyl chloride (PVC)",
+            "Polystyrene",
+            "Polycarbonate",
+            "Polypropylene"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-064",
+          "prompt": "The primary use of alumina in ceramics is for:",
+          "answers": [
+            "Electrical insulation",
+            "Structural components",
+            "Hightemperature applications",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-065",
+          "prompt": "Which ceramic material is commonly used in dental applications?",
+          "answers": [
+            "Zirconia",
+            "Silica",
+            "Alumina",
+            "Porcelain"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-066",
+          "prompt": "Which of the following is o thermoplastic?",
+          "answers": [
+            "Epoxy",
+            "Polyethylene",
+            "Phenolic",
+            "Polyurethane"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-067",
+          "prompt": "Which of the following is « common use for polyethylene?",
+          "answers": [
+            "Electrical insulation",
+            "Food packaging",
+            "Automotive parts",
+            "Medical devices"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-068",
+          "prompt": "What is a common additive used to enhance the properties of polymers?",
+          "answers": [
+            "Plasticizers",
+            "Fillers",
+            "Stabilizers",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-069",
+          "prompt": "What is the primary disadvantage of using PVC?",
+          "answers": [
+            "High cost",
+            "Environmental concerns during production",
+            "Low strength",
+            "Poor thermal stability"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-070",
+          "prompt": "What is the primary role of the matrixin a composite?",
+          "answers": [
+            "To provide structural support",
+            "To enhance electrical conductivity",
+            "To improve thermal resistance",
+            "To increase weight"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-071",
+          "prompt": "Which composite is often used in wind turbine blodes?",
+          "answers": [
+            "Glass fiber reinforced polymer",
+            "Metal matrix composite",
+            "Ceramic matrix composite",
+            "Wood polymer composite"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-072",
+          "prompt": "What is the main disadvantage of using natural fibers as reinforcement in composites?",
+          "answers": [
+            "Low cost",
+            "Variability in properties",
+            "High strength",
+            "Enwironmental impact"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-073",
+          "prompt": "Which of the following is & common method for manufacturing composite materials?",
+          "answers": [
+            "Layup process",
+            "Injection molding",
+            "Extrusion",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-074",
+          "prompt": "What type of corrosion is characterized localized attack ono material's surface?",
+          "answers": [
+            "Uniform corrosion",
+            "Pitting corrosion",
+            "Galvanic corrosion",
+            "Intergranular corrosion"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-075",
+          "prompt": "What is the primary method of preventing rust on iron?",
+          "answers": [
+            "Galvanization",
+            "Painting",
+            "Coating with oil",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-076",
+          "prompt": "Which metal is commonly used as & sacrificial anode?",
+          "answers": [
+            "2inc",
+            "Copper",
+            "Aluminum",
+            "Lead"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-077",
+          "prompt": "What type of environment is most favorable for corrosion ?",
+          "answers": [
+            "Dry and low humidity",
+            "Wet and acidic",
+            "Neutral and dry",
+            "High temperature and low humidity"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-078",
+          "prompt": "What is o common application of epoxy resins?",
+          "answers": [
+            "Adhesives",
+            "Coatings",
+            "Composites",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-079",
+          "prompt": "What is o common application for high performance ceramics?",
+          "answers": [
+            "Household items",
+            "Aerospace components",
+            "Jewelry D) Decorative tiles"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-080",
+          "prompt": "Which material is typically used for high temperature applications?",
+          "answers": [
+            "Metals",
+            "Ceramics",
+            "Polymers",
+            "Composites"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-081",
+          "prompt": "Which of the following is & common method for detecting corrosion?",
+          "answers": [
+            "Ultrasonic testing",
+            "Visual inspection",
+            "Electrochemical methods",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-082",
+          "prompt": "Which ceramic material is often used for cutting tools?",
+          "answers": [
+            "Porcelain",
+            "Silicon carbide",
+            "Alumina",
+            "Glass"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-083",
+          "prompt": "6¢4. Which polymer is commonly used in packaging due to its low density 2%",
+          "answers": [
+            "Polyethylene",
+            "Polyvinyl chloride",
+            "Polystyrene",
+            "Nylon"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-084",
+          "prompt": "What is the main property of thermosetting polymers?",
+          "answers": [
+            "They can be reshaped multiple times",
+            "They melt when heated",
+            "They harden permanently after curing D) They are less durable"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-085",
+          "prompt": "Which type of corrosion is characterized a general attack on the surface of o metal?",
+          "answers": [
+            "Pitting corrosion",
+            "Uniform corrosion",
+            "Galvanic corrosion",
+            "Intergranular corrosion"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-086",
+          "prompt": "What is the primary reason for using ceramics in biomedical applications?",
+          "answers": [
+            "High cost",
+            "Biocompatibility",
+            "Electrical conductivity",
+            "Flexibility"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-087",
+          "prompt": "What is the primary function of a matrixin a composite material?",
+          "answers": [
+            "To provide reinforcement",
+            "To bind the fibers together",
+            "To improve electrical conductivity",
+            "To increase weight"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-088",
+          "prompt": "Which type of composite is used for ballistic protection? %%",
+          "answers": [
+            "Carbon fiber reinforced polymer",
+            "Glass fiber reinforced polymer",
+            "Aramid fiber reinforced composite",
+            "All of the above"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-089",
+          "prompt": "What is a common method for preventing corrosion in metals?",
+          "answers": [
+            "Alloying",
+            "Anodizing",
+            "Painting",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "get202-090",
+          "prompt": "Which property is NOT typical of ceramics?",
+          "answers": [
+            "High hardness",
+            "High brittleness",
+            "High electrical conductivity",
+            "Low thermal expansion"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

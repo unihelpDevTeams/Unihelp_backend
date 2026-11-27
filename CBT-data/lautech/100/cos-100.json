@@ -1,0 +1,1257 @@
+{
+     "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Computer Science",
+  "course": {
+    "code": "COS 100",
+    "title": "Introduction to Computer Science"
+  },
+    "questions": [
+        {
+          "id": "cos100-001",
+          "prompt": "A sequence of actions leading to a solution is ________",
+          "answers": [
+            "Loop",
+            "Cycle A",
+            "Path",
+            "Tree"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-002",
+          "prompt": "D I 2. Adjacent vertices are those that ________",
+          "answers": [
+            "Have no connection E",
+            "Are identical M",
+            "Are final nodes",
+            "Share an edge B Y U"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-003",
+          "prompt": "Machine Learning involves ________ M",
+          "answers": [
+            "Data cabling",
+            "Decision tree learning",
+            "Circuit wiring",
+            "Keyboard mapping"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-004",
+          "prompt": "AI search is used in ________ systems",
+          "answers": [
+            "Navigation",
+            "Screensavers",
+            "Typing tools",
+            "Paint apps"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-005",
+          "prompt": "Which of the following is an example of AI in transportation?",
+          "answers": [
+            "Autonomous Vehicles",
+            "Manual Ticket Writing",
+            "Stapler Machines",
+            "Chalkboard Displays"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-006",
+          "prompt": "Which of the following best explains supervised learning? I A",
+          "answers": [
+            "Learning from labeled training data",
+            "Learning without examples E D",
+            "Learning through random guessing",
+            "Manual calculation methods M Y"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-007",
+          "prompt": "B 7. AI systems can improve productivity because they: U",
+          "answers": [
+            "Perform tasks efficiently without fatigue M",
+            "Depend on emotions",
+            "Forget instructions quickly",
+            "Avoid repetitive operations"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-008",
+          "prompt": "Which AI technology is used in handwriting recognition systems?",
+          "answers": [
+            "Optical Character Recognition",
+            "File Allocation",
+            "Disk Scheduling",
+            "Multiprocessing"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-009",
+          "prompt": "Which AI application enables computers to convert speech into text?",
+          "answers": [
+            "Speech Recognition",
+            "Data Compression",
+            "File Allocation",
+            "Multiprocessing"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-010",
+          "prompt": "Data collection involves",
+          "answers": [
+            "Multiple sources I A",
+            "Only sensors",
+            "Only databases E D",
+            "Only users"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-011",
+          "prompt": "AI improves ________",
+          "answers": [
+            "Sleep B Y",
+            "Laziness U M",
+            "Productivity",
+            "Hunger"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-012",
+          "prompt": "AI simulates ________",
+          "answers": [
+            "Animal behavior",
+            "Human intelligence",
+            "Plant growth",
+            "Weather"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-013",
+          "prompt": "GPT models are developed",
+          "answers": [
+            "Microsoft",
+            "Apple",
+            "Google",
+            "OpenAI"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-014",
+          "prompt": "Breadth First Search (BFS) is a search technique that explores nodes",
+          "answers": [
+            "Randomly",
+            "Level by level I A",
+            "Deepest firstj",
+            "Backwards E D"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-015",
+          "prompt": "M 15. Which component of an expert system contains facts and rules?",
+          "answers": [
+            "Knowledge Base",
+            "Compiler B Y",
+            "Database U M",
+            "Operating System"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-016",
+          "prompt": "ML models are trained using ________ data",
+          "answers": [
+            "Random",
+            "Training",
+            "Structured",
+            "Testing"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-017",
+          "prompt": "Sensors collect data from ________",
+          "answers": [
+            "Keyboard",
+            "Screen",
+            "Printer",
+            "Environment"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-018",
+          "prompt": "The desired outcome in AI problem solving is called the ________",
+          "answers": [
+            "Goal State",
+            "Action State",
+            "Path Cost I A",
+            "Initial State"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-019",
+          "prompt": "E D M 19. Which professional traditionally interprets medical images?",
+          "answers": [
+            "Radiologist",
+            "Lawyer",
+            "Architect B Y",
+            "Economist U M"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-020",
+          "prompt": "Intelligent systems can ________ from experience",
+          "answers": [
+            "Sleep",
+            "Hide",
+            "Disconnect",
+            "Learn"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-021",
+          "prompt": "AI simulates ________",
+          "answers": [
+            "Human Intelligence",
+            "Animal Behaviour",
+            "Weather",
+            "Plant Growth"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-022",
+          "prompt": "Intelligent systems can reason and adapt to new ________",
+          "answers": [
+            "Situations",
+            "Wires",
+            "Routers",
+            "Browsers I A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-023",
+          "prompt": "Identify the core component of Computer Vision. E D",
+          "answers": [
+            "Keyboard Layouts",
+            "Touchscreens M",
+            "Hearing Aids B Y",
+            "Interpreting Visual Data from the World U"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-024",
+          "prompt": "M 24. Which approach to AI focuses on machines behaving like humans?",
+          "answers": [
+            "Thinking Mathematically",
+            "Acting Like Humans",
+            "Thinking Rationally",
+            "Acting Rationally"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-025",
+          "prompt": "An AI system designed only for a specific task is known as:",
+          "answers": [
+            "General AI",
+            "Strong AI",
+            "Weak AI",
+            "Super AI"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-026",
+          "prompt": "Machine Learning is fundamentally data-hungry.",
+          "answers": [
+            "True",
+            "False"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-027",
+          "prompt": "A leaf node depicts ________",
+          "answers": [
+            "Node with no data I A",
+            "Node with no children",
+            "Node with no edge E D",
+            "Node with root"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-028",
+          "prompt": "Y 28. What is the full meaning of TPU? B",
+          "answers": [
+            "Transmission Processing Unit U",
+            "Transfer Processing Unit M",
+            "Tensor Processing Unit",
+            "Terminal Processing Unit"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-029",
+          "prompt": "State space represents all possible ________",
+          "answers": [
+            "Programs",
+            "States",
+            "Actions",
+            "Nodes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-030",
+          "prompt": "Which of the following is an example of an informed search algorithm?",
+          "answers": [
+            "Breadth-First Search",
+            "Depth-First Search",
+            "Greedy Best-First Search",
+            "Uniform Cost Search"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-031",
+          "prompt": "A rational agent is one that ________",
+          "answers": [
+            "Always behaves randomly",
+            "Ignores its environment I A",
+            "Acts to maximize its performance measure",
+            "Only follows fixed rules E D M"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-032",
+          "prompt": "Intelligent systems can make ________",
+          "answers": [
+            "Decisions",
+            "Wires B Y",
+            "Furniture U M",
+            "Noise"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-033",
+          "prompt": "Intelligent systems can store and retrieve information from ________",
+          "answers": [
+            "Keyboard",
+            "Browser",
+            "Memory",
+            "Mouse"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-034",
+          "prompt": "In state space representation, nodes represent ________",
+          "answers": [
+            "Actions",
+            "Files",
+            "Errors",
+            "States"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-035",
+          "prompt": "BFS guarantees finding the ________ solution first.",
+          "answers": [
+            "Deepest",
+            "Most Complex",
+            "Shallowest I A",
+            "Random"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-036",
+          "prompt": "E D M 36. Neural Networks are inspired the human ________",
+          "answers": [
+            "Leg",
+            "Eye",
+            "Brain B Y",
+            "Mouth U M"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-037",
+          "prompt": "Depth of a root node starts from ________",
+          "answers": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-038",
+          "prompt": "State space includes all possible ________",
+          "answers": [
+            "Outputs",
+            "Programs",
+            "States",
+            "Errors"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-039",
+          "prompt": "Edges in state space represent ________",
+          "answers": [
+            "Actions",
+            "Files",
+            "Errors",
+            "Programs I A"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-040",
+          "prompt": "John McCarthy ________ E D",
+          "answers": [
+            "Founded Microsoft",
+            "Wrote the First Browser M",
+            "Coined the Term AI",
+            "Invented the Mouse B Y U"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-041",
+          "prompt": "M 41. Expert Systems were popular in ________",
+          "answers": [
+            "1800s",
+            "2010s",
+            "1960s–1980s",
+            "1700s"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-042",
+          "prompt": "AI uses ________",
+          "answers": [
+            "Water",
+            "Food",
+            "Air",
+            "Algorithms"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-043",
+          "prompt": "The Turing Test was proposed in ________",
+          "answers": [
+            "1940",
+            "1950",
+            "1960",
+            "1980"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-044",
+          "prompt": "I A D 44. Fraud detection commonly uses ________ structures.",
+          "answers": [
+            "Tree-Based E",
+            "Random",
+            "Linear M",
+            "Circular B"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-045",
+          "prompt": "Y U 45. Reactive machines ________ M",
+          "answers": [
+            "Remember the Past",
+            "Learn from Experience",
+            "Do Not Remember the Past",
+            "Adapt Automatically"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-046",
+          "prompt": "K-Means is used for ________",
+          "answers": [
+            "Searching",
+            "Sorting",
+            "Printing",
+            "Clustering"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-047",
+          "prompt": "Deep Blue's famous victory occurred in ________",
+          "answers": [
+            "2015",
+            "2005",
+            "1997",
+            "1980"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-048",
+          "prompt": "Recommendation systems are used in ________ I A",
+          "answers": [
+            "E-Commerce",
+            "OS Development E D",
+            "Agriculture Only",
+            "Hardware Design M"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-049",
+          "prompt": "B Y 49. Learning agents improve performance over ________",
+          "answers": [
+            "Paper U M",
+            "Paint",
+            "Water",
+            "Time"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-050",
+          "prompt": "The starting point of a problem is called the ________",
+          "answers": [
+            "Initial State",
+            "Goal State",
+            "Terminal State",
+            "Path Cost"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-051",
+          "prompt": "Expert systems are examples of ________",
+          "answers": [
+            "Gaming Software",
+            "Browser",
+            "Decision Support Software",
+            "Antivirus Software"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-052",
+          "prompt": "I 52. Which AI field focuses on communication between humans and machines using language? A",
+          "answers": [
+            "Natural Language Processing",
+            "Multiprocessing E D",
+            "Networking",
+            "File Management M Y"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-053",
+          "prompt": "B 53. AI-powered chatbots are mainly used for ________ U",
+          "answers": [
+            "Customer Interaction and Support M",
+            "Manual Accounting",
+            "Chalk Production",
+            "Hardware Installation Only"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-054",
+          "prompt": "Graphs are made up of ________",
+          "answers": [
+            "Inputs Only",
+            "Nodes and Edges",
+            "Outputs Only",
+            "Files"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-055",
+          "prompt": "Computer Vision systems rely on image processing because image processing ________",
+          "answers": [
+            "Removes Classification Algorithms",
+            "Prevents Feature Extraction",
+            "Enhances Images for Further Analysis",
+            "Eliminates Captured Images"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-056",
+          "prompt": "Which field combines AI, sensors, and robotics for industrial I A production?",
+          "answers": [
+            "WebHosting",
+            "Sound Engineering E D",
+            "Smart Manufacturing M",
+            "Social Networking B Y"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-057",
+          "prompt": "U 57. Machine Learning allows robots to ________",
+          "answers": [
+            "Replace Programming Languages M",
+            "Eliminate Data Storage",
+            "Analyze Past Actions and Improve Performance",
+            "Remove All Software Bugs"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-058",
+          "prompt": "Machine Learning in healthcare is described as ________",
+          "answers": [
+            "Complementary to Doctors",
+            "Useless in Clinical Settings",
+            "Only for Research",
+            "A Replacement for Doctors"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-059",
+          "prompt": "ImageNet breakthrough occurred in ________",
+          "answers": [
+            "2020",
+            "2015",
+            "2000",
+            "2012"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-060",
+          "prompt": "Robotics relies heavily on ________",
+          "answers": [
+            "Manual Code Only I A",
+            "Printing",
+            "Search Techniques E D",
+            "Static Files"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-061",
+          "prompt": "Y 61. Informed search uses ________ knowledge.",
+          "answers": [
+            "No B",
+            "Random U M",
+            "Hidden",
+            "Domain"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-062",
+          "prompt": "In Machine Learning, rules are learned from ________",
+          "answers": [
+            "Hardware",
+            "Memory",
+            "Code",
+            "Data"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-063",
+          "prompt": "Which of the following best describes an agent environment?",
+          "answers": [
+            "The Programming Language",
+            "Only the Hardware User",
+            "Agent Memory",
+            "Everything Outside the Agent That It Interacts With"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-064",
+          "prompt": "In accessibility research, tactile machine prototype tools respond to ________",
+          "answers": [
+            "Neural Implants I A",
+            "Fingerprint Scans",
+            "Only Mouse Clicks E D",
+            "Voice Commands"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-065",
+          "prompt": "M Y 65. Teachable Machine relies on transfer learning from which base models?",
+          "answers": [
+            "ResNet and AlexNet B U",
+            "YOLO and R-CNN M",
+            "MobileNet and PoseNet",
+            "BERT and GPT"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-066",
+          "prompt": "Artificial Intelligence can also be defined as ________",
+          "answers": [
+            "The AI Revolution",
+            "Computing Machinery and Intelligence",
+            "Cybernetics and Logic",
+            "Machine Mind"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-067",
+          "prompt": "What are the three essential pillars supporting modern AI?",
+          "answers": [
+            "Storage, RAM, Display",
+            "Algorithms, Data, Compute",
+            "Code, Internet, Users",
+            "Math, Science, Art"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-068",
+          "prompt": "I 69. Who is universally regarded as the Father of Artificial Intelligence?A",
+          "answers": [
+            "Charles Babbage",
+            "John McCarthy E D",
+            "Robert Hooke",
+            "Alan Turing M"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-069",
+          "prompt": "B Y 70. In which year was Artificial Intelligence officially introduced?",
+          "answers": [
+            "1965 U M",
+            "1956",
+            "1963",
+            "1805"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-070",
+          "prompt": "At which institution was Artificial Intelligence first formally introduced?",
+          "answers": [
+            "Harvard University",
+            "Dartmouth College",
+            "Babcock University",
+            "Stanford University"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-071",
+          "prompt": "Random Forest is a ________ method.",
+          "answers": [
+            "Linear",
+            "Ensemble",
+            "Static",
+            "Single Model"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-072",
+          "prompt": "Artificial Narrow Intelligence is also known as ________",
+          "answers": [
+            "Strong AI I A",
+            "Weak AI",
+            "AI E D",
+            "Super Intelligent AI"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-073",
+          "prompt": "Y 74. Intelligent systems are systems that ________",
+          "answers": [
+            "Paint B U",
+            "Perceive Their Environment M",
+            "None of the Above",
+            "Make Decisions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-074",
+          "prompt": "A cycle is a path that ________",
+          "answers": [
+            "Connects Two Nodes",
+            "Starts and Ends at the Same Vertex",
+            "Is Connected by Edges",
+            "Is Formed by a Node and Its Descendants"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-075",
+          "prompt": "Principles of AI include the following except ________",
+          "answers": [
+            "Equity",
+            "Fairness",
+            "Transparency",
+            "Security"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-076",
+          "prompt": "A heuristic function in AI is used to ________",
+          "answers": [
+            "Store Data",
+            "Estimate How Close a State is to the Goal I A",
+            "Execute Programs",
+            "Compile Code E D M"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-077",
+          "prompt": "Depth First Search uses which data structure?",
+          "answers": [
+            "Queue",
+            "Stack B Y",
+            "Array U M",
+            "Tree"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-078",
+          "prompt": "Spatial Intelligence includes the following except ________",
+          "answers": [
+            "Map Readers",
+            "Astronauts",
+            "Physicists",
+            "None of the Above"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-079",
+          "prompt": "There are three main types of AI: Weak AI, Strong AI and ________",
+          "answers": [
+            "Strong AI",
+            "Weak AI",
+            "AI",
+            "Super Intelligent AI"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-080",
+          "prompt": "What is the purpose of a search engine?",
+          "answers": [
+            "To host websites",
+            "To locate information on the Internet",
+            "To send emails",
+            "To design webpages I A"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-081",
+          "prompt": "Which search engine is owned Microsoft?",
+          "answers": [
+            "Yahoo",
+            "Bing E D",
+            "DuckDuckGo",
+            "Baidu M Y"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-082",
+          "prompt": "Which of the following is a benefit of cloud computing?",
+          "answers": [
+            "Access to files from multiple devices",
+            "Reduced storage capacity",
+            "Slower communication",
+            "No Internet access required"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-083",
+          "prompt": "Which term refers to software hosted online and accessed via a browser?",
+          "answers": [
+            "SaaS",
+            "CPU",
+            "RAM",
+            "LAN"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-084",
+          "prompt": "What does SaaS stand for?",
+          "answers": [
+            "Software as a Service",
+            "System as a Source",
+            "Service and Software",
+            "Software and Storage"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-085",
+          "prompt": "Which of the following is an example of SaaS?",
+          "answers": [
+            "Google Docs",
+            "Keyboard",
+            "Router",
+            "Scanner"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-086",
+          "prompt": "What is the purpose of web accessibility? I A D",
+          "answers": [
+            "To make websites accessible to all users, including those with disabilities",
+            "To reduce Internet speed",
+            "To increase hardware costs",
+            "To prevent website updates E"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-087",
+          "prompt": "M 89. Which organization promotes web accessibility standards?",
+          "answers": [
+            "WAI",
+            "WHO",
+            "FIFA",
+            "OPEC B Y"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-088",
+          "prompt": "U M90. What is an intranet?",
+          "answers": [
+            "A private network within an organization",
+            "A public website",
+            "A search engine",
+            "A social media platform"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-089",
+          "prompt": "What is an extranet?",
+          "answers": [
+            "A network accessible only to the public",
+            "An extension of an intranet accessible to authorized external users",
+            "A programming language",
+            "A database system"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-090",
+          "prompt": "Which of the following is used for real-time online communication?",
+          "answers": [
+            "Video conferencing",
+            "Printed letter",
+            "Newspaper",
+            "Billboard"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-091",
+          "prompt": "Zoom is an example of:",
+          "answers": [
+            "Video conferencing software",
+            "Search engine",
+            "Programming language",
+            "Operating system"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-092",
+          "prompt": "What is netiquette?",
+          "answers": [
+            "Rules for manufacturing computers",
+            "Guidelines for proper online behavior I A",
+            "Internet hardware design",
+            "Website programming"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-093",
+          "prompt": "E D M 95. Which of the following is an example of unethical online behavior?",
+          "answers": [
+            "Respecting privacy",
+            "Cyberbullying Y",
+            "Proper citation of sources",
+            "Secure password usage"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-094",
+          "prompt": "Which of the following helps evaluate website credibility?",
+          "answers": [
+            "Author’s credentials",
+            "Website design alone",
+            "Font size only",
+            "Page color only"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-095",
+          "prompt": "Which of the following is a characteristic of reliable online information?",
+          "answers": [
+            "Verified sources",
+            "Anonymous claims only",
+            "No references",
+            "Unverified rumors"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos100-096",
+          "prompt": "What is the primary goal of the World Wide Web Consortium (W3C)?",
+          "answers": [
+            "To create computer hardware",
+            "To develop and maintain web standards",
+            "To sell domain names",
+            "To manufacture routers"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

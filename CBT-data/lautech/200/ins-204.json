@@ -1,0 +1,1428 @@
+{
+"school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "200",
+  "department": "Information Systems",
+  "course": {
+    "code": "INS 204",
+    "title": "Systems Analysis and Design"
+  },
+    "questions": [
+        {
+          "id": "ins204-001",
+          "prompt": "What is a system?",
+          "answers": [
+            "A single component that works alone",
+            "An organized collection of components that work together to achieve a specific goal",
+            "A random set of unrelated parts",
+            "A type of computer software only"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-002",
+          "prompt": "What are inputs?",
+          "answers": [
+            "The results produced after processing",
+            "The resources, data, or materials put into a system to be processed",
+            "The mechanisms that monitor system operation",
+            "The limits that define the system"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-003",
+          "prompt": "What is feedback?",
+          "answers": [
+            "The final product of the system",
+            "Information about output used to make adjustments to inputs or processes",
+            "The physical devices used in the system",
+            "The external factors that influence the system"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-004",
+          "prompt": "An information system is specifically designed to:",
+          "answers": [
+            "Store only hardware components",
+            "Manage and process data to provide useful information for decision-making",
+            "Replace all human workers",
+            "Create random outputs"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-005",
+          "prompt": "What are the four fundamental phases of the SDLC?",
+          "answers": [
+            "Input, process, output, feedback",
+            "Planning, analysis, design, implementation",
+            "Hardware, software, data, people",
+            "Requirements, coding, testing, deployment"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-006",
+          "prompt": "What does a feasibility analysis examine?",
+          "answers": [
+            "Only the cost of the project",
+            "Technical feasibility, economic feasibility, and organizational feasibility",
+            "Only the schedule",
+            "Only the user interface"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-007",
+          "prompt": "When are projects typically identified in an organization?",
+          "answers": [
+            "When a random idea is suggested by external stakeholders",
+            "When someone in the organization identifies a business need to build a system",
+            "When the organization wants to test new computer hardware",
+            "When the development team finishes all their current tasks"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-008",
+          "prompt": "Which of the following is considered a business need that might trigger a project?",
+          "answers": [
+            "Routine maintenance of existing software applications",
+            "Responding to pain points like a drop in market share or poor customer service",
+            "Scheduling the annual company retreat",
+            "Hiring new administrative staff"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-009",
+          "prompt": "What is the definition of emerging technology?",
+          "answers": [
+            "Technology that is universally accepted and used in all modern businesses",
+            "Technology that is still being developed and not yet viable for widespread business use",
+            "Technology that has become obsolete and needs replacement",
+            "Standard computer hardware components used for data entry"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-010",
+          "prompt": "Which of the following examples are given as emerging technologies?",
+          "answers": [
+            "Local Area Networks and desktop computers",
+            "Cloud computing, RFID, and Web 2.0",
+            "Standard operating systems and enterprise applications",
+            "Customer records and sales transactions databases"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-011",
+          "prompt": "How is a project typically identified?",
+          "answers": [
+            "The systems analyst chooses any project they desire",
+            "Someone in the organization identifies a business need to build a system",
+            "The IT department randomly selects a project",
+            "An external consultant always initiates the project"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-012",
+          "prompt": "Which of the following is an example of a business need?",
+          "answers": [
+            "Buying new office furniture",
+            "Supporting a new marketing campaign",
+            "Hiring more security guards",
+            "Renovating the building"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-013",
+          "prompt": "What is emerging technology?",
+          "answers": [
+            "Technology that is obsolete",
+            "Technology that is still being developed and not yet viable for widespread business use",
+            "Technology that every company already uses",
+            "Technology that only governments can access"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-014",
+          "prompt": "What does BPM stand for?",
+          "answers": [
+            "Business Process Management",
+            "Basic Program Memory",
+            "Business Performance Metric",
+            "Backup Power Module"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-015",
+          "prompt": "What is Business Process Management (BPM)?",
+          "answers": [
+            "A methodology to eliminate all business processes",
+            "A methodology used to continuously improve end-to-end business processes",
+            "A software installation technique",
+            "A hardware configuration standard"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-016",
+          "prompt": "Which feasibility analysis asks the question \"will it work when deployed\"?",
+          "answers": [
+            "Technical Feasibility",
+            "Economic Feasibility",
+            "Operational Feasibility",
+            "Organizational Feasibility"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-017",
+          "prompt": "Which development methodology uses a sequential approach where each phase completes before the next begins?",
+          "answers": [
+            "Parallel development",
+            "Waterfall development",
+            "V-model",
+            "Rapid Application Development"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-018",
+          "prompt": "Who evaluates projects in the context of a portfolio balancing risks and returns?",
+          "answers": [
+            "The Project Sponsor",
+            "The IT Department",
+            "The Approval Committee",
+            "The Systems Analyst"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-019",
+          "prompt": "Which element of a system request document describes the constraints relevant to implementation?",
+          "answers": [
+            "Business Value",
+            "Special Issues",
+            "Business Need",
+            "Business Requirements"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-020",
+          "prompt": "Which of the following is NOT typically a factor that influences methodology selection?",
+          "answers": [
+            "System complexity",
+            "Reliability needs",
+            "Technology familiarity",
+            "Employee salary levels"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-021",
+          "prompt": "What does the term analysis mean in systems analysis?",
+          "answers": [
+            "Building a system from scratch",
+            "Breaking a whole into its parts to understand their nature, function, and interrelationships",
+            "Testing a system after it is built",
+            "Installing hardware components"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-022",
+          "prompt": "What are the three steps of the basic process of analysis?",
+          "answers": [
+            "Coding, testing, deployment",
+            "Understand as-is system, identify improvements, define requirements for to-be system",
+            "Planning, design, implementation",
+            "Hardware, software, network selection"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-023",
+          "prompt": "What is a requirement?",
+          "answers": [
+            "A type of hardware",
+            "A statement of what the system must do or what characteristics it needs to have",
+            "A network protocol",
+            "A programming language"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-024",
+          "prompt": "Which type of requirement describes what the software should do?",
+          "answers": [
+            "Business requirements",
+            "User requirements",
+            "Functional requirements",
+            "Nonfunctional requirements"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-025",
+          "prompt": "What is requirements elicitation?",
+          "answers": [
+            "Writing code",
+            "Testing the system",
+            "Researching and discovering requirements from users, customers, and stakeholders",
+            "Installing software"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-026",
+          "prompt": "What is the primary reason the as-is step might be skipped during analysis?",
+          "answers": [
+            "When using the waterfall methodology",
+            "When there is no current system or it is irrelevant",
+            "When the users are unavailable",
+            "When the project is over budget"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-027",
+          "prompt": "Which type of requirement defines the characteristics the system should have?",
+          "answers": [
+            "Functional requirements",
+            "User requirements",
+            "Nonfunctional requirements",
+            "Business requirements"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-028",
+          "prompt": "What type of requirement focuses on what the business needs?",
+          "answers": [
+            "Functional requirements",
+            "User requirements",
+            "Nonfunctional requirements",
+            "Business requirements"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-029",
+          "prompt": "Which type of interview seeks a broad and roughly defined set of information?",
+          "answers": [
+            "Unstructured interview",
+            "Structured interview",
+            "Probing interview",
+            "Closed-ended interview"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-030",
+          "prompt": "Which requirements analysis strategy involves examining the time taken for processes?",
+          "answers": [
+            "Root cause analysis",
+            "Duration analysis",
+            "Activity-based costing",
+            "Technology analysis"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-031",
+          "prompt": "What is a use case?",
+          "answers": [
+            "A type of hardware",
+            "A representation of how a system interacts with its environment",
+            "A programming language",
+            "A network protocol"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-032",
+          "prompt": "What is the goal of creating use cases?",
+          "answers": [
+            "To replace all documentation",
+            "To describe all tasks users need to perform",
+            "To eliminate user interaction",
+            "To design the database"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-033",
+          "prompt": "What is an actor in use case analysis?",
+          "answers": [
+            "Only a human user",
+            "Any entity that interacts with the system",
+            "Only external systems",
+            "Only the system itself"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-034",
+          "prompt": "What is a process model?",
+          "answers": [
+            "A graphical way of representing how a business system operates",
+            "A type of hardware",
+            "A programming language",
+            "A network protocol"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-035",
+          "prompt": "What does DFD stand for?",
+          "answers": [
+            "Data Flow Diagram",
+            "Digital Function Display",
+            "Data Format Document",
+            "Dynamic Flow Description"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-036",
+          "prompt": "What is the purpose of balancing in Data Flow Diagrams (DFDs)?",
+          "answers": [
+            "To ensure external entities are connected properly",
+            "To guarantee all processes have at least two outputs",
+            "To ensure consistency between levels, so data flows and data stores at boundaries match",
+            "To create a visual representation of logic within processes"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-037",
+          "prompt": "Which DFD level shows the major high-level processes, data stores, and external entities?",
+          "answers": [
+            "Context diagram",
+            "Level 0 diagram",
+            "Level 1 diagram",
+            "Level 2 diagram"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-038",
+          "prompt": "Which modeling technique is best used when process logic is complex and relies on rules linking conditions with actions?",
+          "answers": [
+            "Data Flow Diagram",
+            "Structured English",
+            "Decision Trees",
+            "Decision Tables"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-039",
+          "prompt": "According to basic DFD rules, which of the following is correct regarding data stores?",
+          "answers": [
+            "They must be connected to external entities.",
+            "They can be connected to other data stores directly.",
+            "They must receive at least two input data flows.",
+            "They should be connected to at least one process."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-040",
+          "prompt": "Does a Data Flow Diagram (DFD) show the internal logic inside processes?",
+          "answers": [
+            "Yes, it is the primary purpose of a DFD.",
+            "Yes, but only in Level 2 diagrams.",
+            "No, DFDs do not show logic inside processes.",
+            "No, unless decision trees are explicitly drawn inside them."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-041",
+          "prompt": "How many context diagrams does a process model have?",
+          "answers": [
+            "Zero",
+            "One",
+            "Two",
+            "Many"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-042",
+          "prompt": "What is a Level 0 DFD?",
+          "answers": [
+            "Context diagram",
+            "A diagram that shows all internal processes at the first level of numbering",
+            "A diagram that decomposes a single process",
+            "A diagram with no data stores"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-043",
+          "prompt": "What does it mean for DFDs to be balanced?",
+          "answers": [
+            "They all have the same number of processes",
+            "The Level 0 and Level 1 DFDs show the same data stores and data flows at the boundaries",
+            "They all look the same",
+            "They all have the same number of symbols"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-044",
+          "prompt": "What is Structured English used for?",
+          "answers": [
+            "To design databases",
+            "To describe the work that a process performs using short sentences",
+            "To select hardware",
+            "To configure networks"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-045",
+          "prompt": "Which of the following are correct about DFDs? i. A DFD must have at least one process ii. A process must have only inputs and no outputs iii. A process must have at least one input and one output data flow iv. Data stores must be connected to at least one process v. External entities must be connected to each other directly",
+          "answers": [
+            "i, ii and iii",
+            "i, iii and iv",
+            "ii, iv and v",
+            "i, iii and v"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-046",
+          "prompt": "What is a data model?",
+          "answers": [
+            "A formal way of representing data used and created by a business system",
+            "A type of hardware",
+            "A programming language",
+            "A network protocol"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-047",
+          "prompt": "What are the three basic elements of an ERD?",
+          "answers": [
+            "Hardware, software, networks",
+            "Entities, attributes, relationships",
+            "Inputs, processes, outputs",
+            "Planning, analysis, design"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-048",
+          "prompt": "What is an identifier?",
+          "answers": [
+            "An attribute that cannot be unique",
+            "The attribute that can uniquely identify one instance of an entity",
+            "A relationship between entities",
+            "A type of hardware"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-049",
+          "prompt": "What does 1:1 cardinality mean?",
+          "answers": [
+            "One parent associated with many children",
+            "One parent associated with one child",
+            "Many parents associated with many children",
+            "No association"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-050",
+          "prompt": "What is normalization?",
+          "answers": [
+            "A technique to make models more complex",
+            "A technique applying rules to validate a model and eliminate redundancy",
+            "A programming language",
+            "A hardware configuration"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-051",
+          "prompt": "Which of the following are correct about cardinality? i. 1:1 means one entity associated with one other ii. 1:N means one entity associated with many others iii. M:N means many entities associated with many others iv. 1:1 is the most common cardinality v. 1:N is the most common cardinality",
+          "answers": [
+            "i, ii and iii",
+            "i, ii and v",
+            "ii, iii and iv",
+            "i, iii and v"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-052",
+          "prompt": "Which of the following are correct about modality? i. Modality indicates optional or mandatory ii. Null means optional iii. Not null means mandatory iv. Modality is shown with zero or bar v. Modality is the same as cardinality",
+          "answers": [
+            "i, ii and iii",
+            "i, ii and iv",
+            "i, ii, iii and iv",
+            "i, iii and v"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-053",
+          "prompt": "Which of the following are correct about relationships? i. Relationships are associations between entities ii. Relationships are shown lines iii. Relationships have cardinality iv. Relationships have modality v. Relationships are rectangles",
+          "answers": [
+            "i, ii and iii",
+            "i, ii and iv",
+            "i, ii, iii and iv",
+            "ii, iii and v"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-054",
+          "prompt": "Which of the following are correct about data models? i. Logical model shows logical organization ii. Logical model shows implementation details iii. Physical model shows how data will be stored iv. Logical models drawn during analysis v. Physical models drawn during analysis",
+          "answers": [
+            "i, ii and iii",
+            "i, iii and iv",
+            "iii, iv and v",
+            "i, iv and v"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-055",
+          "prompt": "Which of the following are correct about normalization? i. Normalization eliminates redundant data ii. Normalization prevents update anomalies iii. Normalization makes data models unstable iv. Normalization uses a series of rules v. Normalization is optional",
+          "answers": [
+            "i, ii and iv",
+            "i, iii and v",
+            "ii, iv and v",
+            "iii, iv and v"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-056",
+          "prompt": "What is the primary difference between a logical data model and a physical data model?",
+          "answers": [
+            "A logical data model shows storage details, while a physical model is used only during analysis",
+            "A logical data model shows logical organization during analysis, while a physical model shows storage details during design",
+            "A logical data model eliminates redundancy, while a physical model focuses on cardinality",
+            "A logical data model represents relationships, while a physical model represents entities"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-057",
+          "prompt": "What is the primary purpose of a data dictionary in systems analysis?",
+          "answers": [
+            "To physically store the application's user data securely",
+            "To define or look up metadata about entities, attributes, and relationships",
+            "To provide a graphic representation of hardware components",
+            "To act as middleware between client and server architectures"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-058",
+          "prompt": "In an Entity Relationship Diagram (ERD), how are the basic elements typically represented?",
+          "answers": [
+            "Entities as circles, Attributes as lines, Relationships as squares",
+            "Entities as rectangles, Attributes as information about entities, Relationships as lines",
+            "Entities as lines, Attributes as rectangles, Relationships as circles",
+            "Entities as triangles, Attributes as data points, Relationships as arrows"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-059",
+          "prompt": "Which system acquisition strategy involves using an Application Service Provider (ASP) or Software as a Service (SaaS)?",
+          "answers": [
+            "Custom development",
+            "Packaged software",
+            "Outsourcing",
+            "Middleware integration"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-060",
+          "prompt": "Which of the following best describes the goal of normalization in data modeling?",
+          "answers": [
+            "To balance processing loads between clients and servers",
+            "To translate between different vendors' software",
+            "To ensure that all relationships are mandatory",
+            "To validate data models, eliminate redundancy, and prevent update anomalies"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-061",
+          "prompt": "What is interface design?",
+          "answers": [
+            "Writing code",
+            "Defining how the system interacts with external entities",
+            "Testing the system",
+            "Installing hardware"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-062",
+          "prompt": "How many principles guide user interface design?",
+          "answers": [
+            "Four",
+            "Five",
+            "Six",
+            "Seven"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-063",
+          "prompt": "What is arguably the most important interface design principle?",
+          "answers": [
+            "Color",
+            "Consistency",
+            "Speed",
+            "Cost"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-064",
+          "prompt": "What is the first step in the user interface design process?",
+          "answers": [
+            "Create prototypes",
+            "Develop use scenarios",
+            "Draw ISD",
+            "Design standards"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-065",
+          "prompt": "What is an Interface Structure Diagram (ISD)?",
+          "answers": [
+            "Hardware diagram",
+            "Diagram showing all interfaces and connections",
+            "Database schema",
+            "Network topology"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-066",
+          "prompt": "In a client-server architecture, what defines a 'Thick Client'?",
+          "answers": [
+            "A client that performs only presentation logic",
+            "A client where a small portion of application logic resides",
+            "A client where most of the application logic resides",
+            "A client that exclusively handles data storage"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-067",
+          "prompt": "What is the primary function of middleware in a system architecture?",
+          "answers": [
+            "To translate between products from different vendors",
+            "To replace the need for client-server architectures",
+            "To handle presentation logic for the user interface",
+            "To store master and transaction files permanently"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-068",
+          "prompt": "Which of the following is considered a nonfunctional requirement regarding performance?",
+          "answers": [
+            "Data Access Logic",
+            "Response time and update latency",
+            "Encryption standards",
+            "Application Logic processing"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-069",
+          "prompt": "According to the summary, which database type is predominantly used for data warehousing with pre-aggregated measures?",
+          "answers": [
+            "Relational",
+            "Object",
+            "Network",
+            "Multidimensional"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-070",
+          "prompt": "Which type of file contains past transactions for reference rather than for active processing?",
+          "answers": [
+            "Master file",
+            "Audit file",
+            "History file",
+            "Transaction file"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-071",
+          "prompt": "What is the implementation phase?",
+          "answers": [
+            "Gathering requirements",
+            "Coding, testing, and deploying the system",
+            "Designing the system",
+            "Analyzing feasibility"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-072",
+          "prompt": "What is a test plan?",
+          "answers": [
+            "A random document",
+            "A document specifying test objectives, test cases, and expected results",
+            "A hardware manual",
+            "A user guide"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-073",
+          "prompt": "What is user acceptance testing (UAT)?",
+          "answers": [
+            "Testing done by developers",
+            "Testing done by end users to verify the system meets their needs",
+            "Testing done by hardware vendors",
+            "Testing done by external consultants"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-074",
+          "prompt": "What is direct conversion?",
+          "answers": [
+            "Running old and new systems simultaneously",
+            "Instant cutover where the old system is stopped and new system started",
+            "Converting one location at a time",
+            "Converting one module at a time"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-075",
+          "prompt": "What is the three-step model of organizational change?",
+          "answers": [
+            "Plan, design, implement",
+            "Unfreeze, change, refreeze",
+            "Analysis, design, testing",
+            "Requirements, coding, deployment"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-076",
+          "prompt": "What do object-oriented systems view an information system as?",
+          "answers": [
+            "A single large program",
+            "A collection of self-contained objects",
+            "A collection of unrelated files",
+            "A hardware device"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-077",
+          "prompt": "What is a class in OO concepts?",
+          "answers": [
+            "A specific instance",
+            "A template defining shared attributes and methods",
+            "A type of database",
+            "A network protocol"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-078",
+          "prompt": "What OO development principle states that an object exposes only its interface while keeping its internal implementation private?",
+          "answers": [
+            "Inheritance",
+            "Encapsulation",
+            "Information hiding",
+            "Use-case driven development"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-079",
+          "prompt": "Which UML diagram is a static model showing classes, attributes, operations, and relationships?",
+          "answers": [
+            "Sequence diagram",
+            "Class diagram",
+            "Behavioral State Machine diagram",
+            "Data flow diagram"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-080",
+          "prompt": "Which of the following allows subclasses to inherit attributes and methods from superclasses?",
+          "answers": [
+            "Encapsulation",
+            "Message passing",
+            "Inheritance",
+            "Iterative development"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-081",
+          "prompt": "What is an object in OO concepts?",
+          "answers": [
+            "A template",
+            "A specific instance of a class",
+            "A type of hardware",
+            "A programming language"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-082",
+          "prompt": "What is a method in OO concepts?",
+          "answers": [
+            "An attribute",
+            "An action an object can perform",
+            "A database",
+            "A network connection"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-083",
+          "prompt": "What is encapsulation?",
+          "answers": [
+            "Separating data from processes",
+            "Combining data and processes into a single entity",
+            "Deleting all data",
+            "Ignoring processes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-084",
+          "prompt": "What is information hiding?",
+          "answers": [
+            "Allowing other objects to see internal implementation",
+            "Other objects see only the interface, not internal implementation",
+            "Making all data public",
+            "Sharing all internal details"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-085",
+          "prompt": "What is inheritance?",
+          "answers": [
+            "Subclasses have no relation to superclass",
+            "Subclasses inherit all attributes and methods from superclass",
+            "Classes cannot share attributes",
+            "Each class redefines all attributes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-086",
+          "prompt": "Which conversion strategy involves running the old and new systems simultaneously?",
+          "answers": [
+            "Direct conversion",
+            "Parallel conversion",
+            "Pilot conversion",
+            "Phased conversion"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-087",
+          "prompt": "What is the primary purpose of a post-implementation review?",
+          "answers": [
+            "To plan the initial budget for the project",
+            "To evaluate the system's success by comparing actual performance against expected benefits",
+            "To design the user interface of the new system",
+            "To gather requirements from the stakeholders"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-088",
+          "prompt": "Which conversion location strategy involves rolling out the new system gradually location?",
+          "answers": [
+            "Simultaneous conversion",
+            "Direct conversion",
+            "Phased conversion",
+            "Modular conversion"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-089",
+          "prompt": "In the context of system migration, what does a modular conversion entail?",
+          "answers": [
+            "Converting the entire system at once",
+            "Converting the system one module at a time",
+            "Running the old and new systems in parallel",
+            "Testing the system at a single location before a full rollout"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-090",
+          "prompt": "What does capacity planning in the maintenance phase primarily address?",
+          "answers": [
+            "Fixing critical software bugs",
+            "Planning for future growth and system resources",
+            "Managing different versions of software",
+            "Training users on new features"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-091",
+          "prompt": "What is an advantage of direct conversion?",
+          "answers": [
+            "Low risk",
+            "Fast and cheap",
+            "Users do work twice",
+            "Takes many months"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-092",
+          "prompt": "What is a disadvantage of direct conversion?",
+          "answers": [
+            "Expensive",
+            "Any undiscovered bug immediately disrupts operations",
+            "Takes too long",
+            "Users not involved"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-093",
+          "prompt": "What is parallel conversion?",
+          "answers": [
+            "Instant cutover",
+            "Running old and new systems simultaneously, comparing outputs",
+            "One location at a time",
+            "One module at a time"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-094",
+          "prompt": "What is an advantage of parallel conversion?",
+          "answers": [
+            "Cheap",
+            "Low risk (old system available if problems occur)",
+            "No training needed",
+            "Fast"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-095",
+          "prompt": "Why did the object-oriented approach to system development evolve?",
+          "answers": [
+            "Because hardware costs increased significantly",
+            "Because developer time now dominates costs, and OO emphasizes reuse and modularity",
+            "Because users demanded faster processing speeds",
+            "Because procedural languages were deprecated"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-096",
+          "prompt": "What is the primary analysis and communication tool in OO development?",
+          "answers": [
+            "Hardware diagrams",
+            "State machine models",
+            "Use cases",
+            "Data flow diagrams"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-097",
+          "prompt": "What is the purpose of the 'Unfreeze' step in the three-step model of organizational change?",
+          "answers": [
+            "To solidify the new system",
+            "To implement the new system",
+            "To stop all business operations immediately",
+            "To loosen attachment to the old system"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-098",
+          "prompt": "What is the function of a 'Migration Plan' in system implementation?",
+          "answers": [
+            "To plan for transitioning from the old system to the new system",
+            "To physically move servers to a new location",
+            "To upgrade employee software skills without changing systems",
+            "To document system hardware specifications"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-099",
+          "prompt": "Which of the following is true about polymorphism based on the glossary?",
+          "answers": [
+            "It means the same interface is used for different types",
+            "It completely hides all class methods",
+            "It forces subclasses to delete superclass attributes",
+            "It requires sequential conversion"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-100",
+          "prompt": "What are the core Object-Oriented Principles according to the text?",
+          "answers": [
+            "Use-case driven, Architecture-centric, Iterative and incremental",
+            "Data-driven, Design-centric, Waterfall",
+            "Procedure-driven, Component-centric, Agile",
+            "Logic-driven, Interface-centric, Sequential"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-101",
+          "prompt": "Which of the following best defines a 'Class' in Object-Oriented programming?",
+          "answers": [
+            "An instance of an object",
+            "A template for objects",
+            "An action an object performs",
+            "A combination of data and processes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-102",
+          "prompt": "What does an 'Object' represent in the context of Object-Oriented programming?",
+          "answers": [
+            "A template for a class",
+            "An instance of a class",
+            "A superclass definition",
+            "An interface specification"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-103",
+          "prompt": "How is a 'Method' defined in Object-Oriented terminology?",
+          "answers": [
+            "A template for creating objects",
+            "Data and processes combined together",
+            "An action that an object performs",
+            "The visible interface of a class"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-104",
+          "prompt": "Which term describes the concept of keeping data and processes together?",
+          "answers": [
+            "Inheritance",
+            "Information Hiding",
+            "Encapsulation",
+            "Iteration"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-105",
+          "prompt": "What happens in the process of Inheritance?",
+          "answers": [
+            "An object performs a specific action",
+            "A subclass inherits from a superclass",
+            "Data and processes are hidden from the user",
+            "Only the interface is made visible"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-106",
+          "prompt": "What does Information Hiding refer to in Object-Oriented design?",
+          "answers": [
+            "Only the interface is visible",
+            "Data and processes are grouped together",
+            "A subclass inherits from a superclass",
+            "Templates for objects are kept secret"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-107",
+          "prompt": "According to the provided text, which of the following is NOT one of the main OO Principles?",
+          "answers": [
+            "Use-case driven",
+            "Architecture-centric",
+            "Iterative and incremental",
+            "Database-centric"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-108",
+          "prompt": "If you are working with a specific instance of a class, what are you working with?",
+          "answers": [
+            "An object",
+            "A method",
+            "A subclass",
+            "An interface"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "ins204-109",
+          "prompt": "When only the interface is visible and the underlying implementation is concealed, this demonstrates:",
+          "answers": [
+            "Inheritance",
+            "Information Hiding",
+            "Use-case driven architecture",
+            "Class templating"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

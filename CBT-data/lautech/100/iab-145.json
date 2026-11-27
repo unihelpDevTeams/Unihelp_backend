@@ -1,0 +1,48 @@
+{
+    "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Industrial and Production Engineering",
+  "course": {
+    "code": "IAB 145",
+    "title": "Data Handling and Statistics"
+  },
+    "questions": [
+        {
+          "id": "iab145-001",
+          "prompt": "9 4.4 4.5 4.7 4.4 4.5 4.9 4.7 4.5 4.6",
+          "answers": [
+            "Arrange the data in 8 equal classes between 4.2 and 4.9 mm.",
+            "Determine the frequency distribution.",
+            "Draw the frequency histogram. 2 The diameters of 75 rollers gave the following frequency distribution: Diameterx (mm) Frequency f Diameter x (mm) Frequencyf"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "iab145-002",
+          "prompt": "17–9.21 15 10 5 2 Data handling and statistics 1073",
+          "answers": [
+            "For each class, calculate (i) the central value, (ii) the relative frequency.",
+            "Draw the relative frequency histogram.",
+            "State (i) the lower boundary of the third class, (ii) the upper boundary of the sixth class, (iii) the class interval. 3 The thicknesses of 40 samples of steel plate were measured: Thickness x (mm)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "iab145-003",
+          "prompt": "6 Frequency f 2 8 14 10 4 2 Calculate",
+          "answers": [
+            "the mean,",
+            "the standard deviation,",
+            "the mode and",
+            "the median of the set of results. 6 The time taken by employees to complete an operation was recorded on 80 occasions: Time (min)"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

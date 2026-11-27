@@ -1,0 +1,35 @@
+{
+    "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Computer Science",
+  "course": {
+    "code": "CSC 100",
+    "title": "Introduction to Computer Science",
+  },
+    "questions": [
+        {
+          "id": "csc100-001",
+          "prompt": "_are used to represent modules in algorithm",
+          "answers": [
+            "ellipse",
+            "triangle",
+            "rectangle D)circle"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "csc100-002",
+          "prompt": "The following are types of RAM except",
+          "answers": [
+            "DRAM",
+            "CRAM",
+            "SRAM"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

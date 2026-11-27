@@ -1,0 +1,1532 @@
+{
+ "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "200",
+  "department": "Computer Science",
+  "course": {
+    "code": "COS 202",
+    "title": "Object Oriented Programming"
+  },
+    "questions": [
+        {
+          "id": "cos202-001",
+          "prompt": "What is the primary purpose of Object Oriented Programming?",
+          "answers": [
+            "To execute code faster than procedural programming",
+            "To model real-world entities and their interactions within a digital environment",
+            "To eliminate the need for functions in code",
+            "To replace all data structures with objects"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-002",
+          "prompt": "In Python, what keyword is used to create a class?",
+          "answers": [
+            "object",
+            "define",
+            "class",
+            "struct"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-003",
+          "prompt": "Which of the following best describes an object in Python?",
+          "answers": [
+            "A blueprint for creating classes",
+            "A specific instance of a class with its own data",
+            "A function inside a module",
+            "A built-in data type like list or dict"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-004",
+          "prompt": "What three components does an object consist of?",
+          "answers": [
+            "Name, type, value",
+            "State, behavior, identity",
+            "Class, method, attribute",
+            "Input, process, output"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-005",
+          "prompt": "What does the init method do in a Python class?",
+          "answers": [
+            "Deletes an object from memory",
+            "Initializes a new object's attributes when created",
+            "Converts an object to a string",
+            "Compares two objects for equality"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-006",
+          "prompt": "In the Dog class example, what is species = \"Canine\" considered?",
+          "answers": [
+            "An instance attribute",
+            "A local variable",
+            "A class attribute",
+            "A private method"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-007",
+          "prompt": "What is inheritance in Python?",
+          "answers": [
+            "Deleting a parent class from memory",
+            "A child class inheriting attributes and methods from a parent class",
+            "Hiding data from other classes",
+            "Creating multiple instances of the same class"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-008",
+          "prompt": "Which type of inheritance involves a child class inheriting from two or more parent classes?",
+          "answers": [
+            "Single inheritance",
+            "Multilevel inheritance",
+            "Multiple inheritance",
+            "Hierarchical inheritance"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-009",
+          "prompt": "In the code class Labrador(Dog):, what is Labrador?",
+          "answers": [
+            "The parent class",
+            "The child class",
+            "An instance of Dog",
+            "A method of Dog"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-010",
+          "prompt": "What is polymorphism in Python?",
+          "answers": [
+            "Having only one method per class",
+            "Methods with the same name behaving differently based on the object",
+            "Preventing methods from being overridden",
+            "Storing multiple data types in a single variable"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-011",
+          "prompt": "Which type of polymorphism is determined during program execution (run-time)?",
+          "answers": [
+            "Compile-time polymorphism",
+            "Method overloading",
+            "Operator overloading",
+            "Run-time polymorphism"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-012",
+          "prompt": "What is encapsulation?",
+          "answers": [
+            "Splitting code into multiple files",
+            "Bundling data and methods within a class and restricting access to some components",
+            "Allowing any function to modify any variable",
+            "Converting a class into a module"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-013",
+          "prompt": "In Python, how is a protected member typically denoted?",
+          "answers": [
+            "With two underscores prefix (e.g., _____ age)",
+            "With one underscore prefix (e.g., _breed)",
+            "With no special notation",
+            "With a dollar sign prefix"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-014",
+          "prompt": "How is a private member denoted in Python classes?",
+          "answers": [
+            "With one underscore prefix",
+            "With two underscores prefix (e.g., _____ age)",
+            "With the keyword private",
+            "With the keyword protected"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-015",
+          "prompt": "What is abstraction in OOP?",
+          "answers": [
+            "Making all attributes public",
+            "Hiding internal implementation details while exposing only necessary functionality",
+            "Creating as many classes as possible",
+            "Removing all methods from a class"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-016",
+          "prompt": "What is an abstract class?",
+          "answers": [
+            "A class that can be instantiated directly",
+            "A class that contains only concrete methods",
+            "A class that cannot be instantiated directly and is meant to be extended by subclasses",
+            "A class with no methods"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-017",
+          "prompt": "What decorator is used to mark a method as abstract in Python?",
+          "answers": [
+            "@virtual",
+            "@abstract",
+            "@abstractmethod",
+            "@interface"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-018",
+          "prompt": "What happens if you try to instantiate an abstract class directly?",
+          "answers": [
+            "The class is created with empty methods",
+            "Python returns None",
+            "A TypeError is raised",
+            "The abstract methods are automatically implemented"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-019",
+          "prompt": "What is a concrete method in an abstract class?",
+          "answers": [
+            "A method that must be overridden by subclasses",
+            "A method with a full implementation that subclasses can inherit and use directly",
+            "A method that raises an error if called",
+            "A method that cannot be inherited"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-020",
+          "prompt": "What is the scope of a variable defined at the top level of a module?",
+          "answers": [
+            "Local scope only",
+            "Enclosing scope only",
+            "Global scope",
+            "Built-in scope"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-021",
+          "prompt": "What is an iterator in Python?",
+          "answers": [
+            "A function that creates lists",
+            "An object that allows sequential access to elements in a collection",
+            "A type of variable that stores multiple values",
+            "A built-in module for mathematics"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-022",
+          "prompt": "Which two methods are the primary methods of Python iterators?",
+          "answers": [
+            "start() and stop()",
+            "begin() and end()",
+            "iter() and next()",
+            "open() and close()"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-023",
+          "prompt": "What does the iter function do?",
+          "answers": [
+            "It stops an iteration",
+            "It creates an iterator object from an iterable",
+            "It deletes an iterator",
+            "It counts the number of items in a collection"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-024",
+          "prompt": "What does the next function do?",
+          "answers": [
+            "It restarts the iterator from the beginning",
+            "It returns the next item from an iterator",
+            "It deletes the current item",
+            "It jumps to the last item"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-025",
+          "prompt": "What exception is raised when next is called on an iterator with no more items?",
+          "answers": [
+            "IndexError",
+            "KeyError",
+            "StopIteration",
+            "ValueError"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-026",
+          "prompt": "What is an iterable in Python?",
+          "answers": [
+            "An object that can be looped over, like a list or tuple",
+            "A function that performs iteration",
+            "A type of loop statement",
+            "A module for iteration"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-027",
+          "prompt": "What is the difference between an iterator and an iterable?",
+          "answers": [
+            "There is no difference",
+            "An iterable can be looped over; an iterator does the looping and keeps state",
+            "An iterator can be looped over; an iterable cannot",
+            "An iterable uses more memory than an iterator"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-028",
+          "prompt": "What does the enumerate function do?",
+          "answers": [
+            "It counts the number of items in a list",
+            "It returns pairs of index and value while looping",
+            "It sorts a list in ascending order",
+            "It reverses a list"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-029",
+          "prompt": "What is the output of list(enumerate([\"a\", \"b\", \"c\"]))?",
+          "answers": [
+            "[(0, 'a'), (1, 'b'), (2, 'c')]",
+            "[('a', 0), ('b', 1), ('c', 2)]",
+            "[0, 1, 2]",
+            "['a', 'b', 'c']"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-030",
+          "prompt": "How can you change the starting index of enumerate?",
+          "answers": [
+            "You cannot change it",
+            "Use the index parameter",
+            "Use the start parameter",
+            "Use the begin parameter"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-031",
+          "prompt": "What is a stack in data structures?",
+          "answers": [
+            "First In First Out (FIFO)",
+            "Last In First Out (LIFO)",
+            "Random access structure",
+            "A type of loop"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-032",
+          "prompt": "Which method adds an item to the top of a stack implemented with a list?",
+          "answers": [
+            "insert()",
+            "add()",
+            "append()",
+            "push()"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-033",
+          "prompt": "Which method removes an item from the top of a stack implemented with a list?",
+          "answers": [
+            "remove()",
+            "delete()",
+            "pop()",
+            "popleft()"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-034",
+          "prompt": "What does LIFO stand for?",
+          "answers": [
+            "Last In First Out",
+            "First In Last Out",
+            "Last In Last Out",
+            "First In First Out"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-035",
+          "prompt": "Which of the following describes a key difference between SOAP and REST?",
+          "answers": [
+            "SOAP is an architectural style, while REST is a strict protocol",
+            "SOAP only allows JSON, while REST supports multiple formats",
+            "SOAP only allows XML, while REST supports multiple formats",
+            "SOAP is used for local APIs, while REST is for web APIs"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-036",
+          "prompt": "Which queue operation is used to get the front item without removing it?",
+          "answers": [
+            "enqueue",
+            "dequeue",
+            "front",
+            "rear"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-037",
+          "prompt": "How many architectural constraints does REST have for building applications that work over HTTP?",
+          "answers": [
+            "Four",
+            "Five",
+            "Six",
+            "Seven"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-038",
+          "prompt": "Why is the enumerate function commonly used in Python loops?",
+          "answers": [
+            "To load the entire collection into memory at once",
+            "To replace the need for manually using a counter variable",
+            "To implement a thread-safe stack",
+            "To automatically install missing modules"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-039",
+          "prompt": "Which of the following methods is typically used for API authentication?",
+          "answers": [
+            "Only using HTTP POST requests",
+            "Using API keys or OAuth tokens",
+            "Using SOAP protocol exclusively",
+            "Disabling the requests library"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-040",
+          "prompt": "What is rate limiting in API usage?",
+          "answers": [
+            "Making the API run faster",
+            "Limiting the number of requests a client can make in a given time period",
+            "Increasing the response size",
+            "Deleting the API"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-041",
+          "prompt": "How can you handle API errors gracefully in Python?",
+          "answers": [
+            "Ignore all errors",
+            "Use try-except blocks to catch exceptions",
+            "Stop the program",
+            "Print nothing"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-042",
+          "prompt": "What is the purpose of the API documentation?",
+          "answers": [
+            "To hide API features",
+            "To explain how to use the API, including endpoints, parameters, and authentication",
+            "To delete the API",
+            "To compile the API code"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-043",
+          "prompt": "Which status code indicates that authentication is required and has failed or not been provided?",
+          "answers": [
+            "200",
+            "404",
+            "401",
+            "500"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-044",
+          "prompt": "What is the base URL of an API?",
+          "answers": [
+            "The error message",
+            "The common prefix for all API endpoints",
+            "The response data",
+            "The authentication token"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-045",
+          "prompt": "What does the following code do? try: response = requests.get(url, timeout=5) except requests.exceptions.Timeout: print(\"Request timed out\")",
+          "answers": [
+            "It ignores timeouts",
+            "It sends a request and catches a timeout exception if the request takes longer than 5 seconds",
+            "It always prints Request timed out",
+            "It deletes the request"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-046",
+          "prompt": "What is the purpose of the params parameter in requests.get?",
+          "answers": [
+            "To send data in the request body",
+            "To add query parameters to the URL",
+            "To set request headers",
+            "To authenticate the request"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-047",
+          "prompt": "What is an SDK in relation to APIs?",
+          "answers": [
+            "A type of API",
+            "A Software Development Kit that provides tools and libraries to work with an API",
+            "A database system",
+            "A programming language"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-048",
+          "prompt": "What is searching in computer science?",
+          "answers": [
+            "Sorting data in a specific order",
+            "Locating a target element within a collection of data",
+            "Deleting elements from a list",
+            "Adding elements to an array"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-049",
+          "prompt": "Which membership operator returns True if an element is present in a sequence?",
+          "answers": [
+            "not in",
+            "in",
+            "is",
+            "is not"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-050",
+          "prompt": "What does the not in operator do?",
+          "answers": [
+            "Returns True if an element is present",
+            "Returns True if an element is not present in the sequence",
+            "Always returns False",
+            "Always returns True"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-051",
+          "prompt": "What is the output of print('apple' in ['orange', 'apple', 'grape'])?",
+          "answers": [
+            "False",
+            "True",
+            "None",
+            "Error"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-052",
+          "prompt": "What is the main limitation of membership operators for searching?",
+          "answers": [
+            "They are too slow",
+            "They only return True or False, not the position of the element",
+            "They only work with numbers",
+            "They cannot be used with strings"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-053",
+          "prompt": "What is linear search?",
+          "answers": [
+            "A search algorithm that repeatedly divides the search interval in half",
+            "A search algorithm that checks each element sequentially until the target is found",
+            "A search algorithm that jumps ahead by fixed steps",
+            "A search algorithm that uses a formula to guess the position"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-054",
+          "prompt": "What is the time complexity of linear search in the worst case?",
+          "answers": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n^2)"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-055",
+          "prompt": "What are the two critical components of recursion in Python?",
+          "answers": [
+            "Base Case and Recursive Case",
+            "Iterative Case and Function Case",
+            "Loop Case and Base Case",
+            "Variable Case and Constant Case"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-056",
+          "prompt": "What is the time complexity of Merge sort in all cases?",
+          "answers": [
+            "O(n^2)",
+            "O(n log n)",
+            "O(n)",
+            "O(log n)"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-057",
+          "prompt": "Which sorting algorithm picks an element as a pivot and partitions the array around it?",
+          "answers": [
+            "Bubble sort",
+            "Selection sort",
+            "Quick sort",
+            "Insertion sort"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-058",
+          "prompt": "How does Selection sort work?",
+          "answers": [
+            "By continuously dividing the array into two halves",
+            "By picking a pivot element and partitioning the array",
+            "By comparing adjacent elements and swapping them",
+            "By repeatedly selecting the smallest element from the unsorted portion and swapping it with the first unsorted element"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-059",
+          "prompt": "In Insertion sort, which element does the algorithm typically start with, assuming the preceding elements are already sorted?",
+          "answers": [
+            "The first element",
+            "The second element",
+            "The middle element",
+            "The last element"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-060",
+          "prompt": "What is merge sort?",
+          "answers": [
+            "A sorting algorithm that uses adjacent comparisons",
+            "A divide and conquer algorithm that divides the array into halves, sorts them, and merges",
+            "A sorting algorithm that selects a pivot",
+            "An algorithm that only works on small arrays"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-061",
+          "prompt": "What is quick sort?",
+          "answers": [
+            "A divide and conquer algorithm that picks a pivot and partitions the array around it",
+            "A sorting algorithm that uses adjacent comparisons",
+            "An algorithm that only works on strings",
+            "A stable sorting algorithm"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-062",
+          "prompt": "What are the three main steps in quick sort?",
+          "answers": [
+            "Compare, swap, repeat",
+            "Choose a pivot, partition the array, recursively call on sub-arrays",
+            "Split, sort, merge",
+            "Insert, delete, sort"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-063",
+          "prompt": "What is the base case for recursion in quick sort?",
+          "answers": [
+            "When the array has one element or is empty",
+            "When the array has 10 elements",
+            "When the pivot is the largest element",
+            "When all elements are equal"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-064",
+          "prompt": "What is a recursive function?",
+          "answers": [
+            "A function that calls itself",
+            "A function that calls another function",
+            "A function that never returns",
+            "A function that only runs once"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-065",
+          "prompt": "What are the two critical components of recursion?",
+          "answers": [
+            "Loop and condition",
+            "Base case and recursive case",
+            "Start and end",
+            "Input and output"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-066",
+          "prompt": "What is the base case in a recursive function?",
+          "answers": [
+            "The condition that causes infinite recursion",
+            "The condition that terminates the recursion",
+            "The first function call",
+            "The last function call"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-067",
+          "prompt": "What happens if a recursive function has no base case?",
+          "answers": [
+            "It runs once and stops",
+            "It returns None",
+            "It calls itself forever, causing a RecursionError",
+            "It automatically adds a base case"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-068",
+          "prompt": "What is the output of factorial(5) using the recursive factorial function?",
+          "answers": [
+            "15",
+            "120",
+            "60",
+            "25"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-069",
+          "prompt": "What is the base case in the recursive factorial function?",
+          "answers": [
+            "num == 0",
+            "num == 1",
+            "num == 2",
+            "num == num"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-070",
+          "prompt": "What is the Fibonacci sequence?",
+          "answers": [
+            "1, 3, 5, 7, 9",
+            "2, 4, 6, 8, 10",
+            "0, 1, 1, 2, 3, 5, 8, 13",
+            "1, 4, 9, 16, 25"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-071",
+          "prompt": "What is the recursive formula for Fibonacci numbers?",
+          "answers": [
+            "F(n) = F(n-1) * F(n-2)",
+            "F(n) = F(n-1) + F(n-2)",
+            "F(n) = F(n-1) - F(n-2)",
+            "F(n) = F(n-1) / F(n-2)"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-072",
+          "prompt": "What is one disadvantage of recursion?",
+          "answers": [
+            "It always runs faster than iteration",
+            "It uses less memory than iteration",
+            "Each recursive call adds a new layer to the stack, causing memory overhead",
+            "It cannot solve complex problems"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-073",
+          "prompt": "What is an advantage of recursion?",
+          "answers": [
+            "It always uses less memory",
+            "It can reduce code length for problems naturally recursive like tree traversals",
+            "It is always faster than iteration",
+            "It never causes errors"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-074",
+          "prompt": "What is the difference between recursion and iteration?",
+          "answers": [
+            "Recursion uses loops; iteration uses function calls",
+            "Recursion uses function calls; iteration uses loops",
+            "They are exactly the same",
+            "Recursion is always better"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-075",
+          "prompt": "What is the merge function in merge sort responsible for?",
+          "answers": [
+            "Splitting the array into halves",
+            "Merging two sorted sub-arrays into one sorted array",
+            "Choosing a pivot",
+            "Swapping adjacent elements"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-076",
+          "prompt": "What is the partition function in quick sort responsible for?",
+          "answers": [
+            "Merging sorted arrays",
+            "Rearranging elements around the pivot and returning the pivot's final position",
+            "Inserting elements into sorted position",
+            "Swapping adjacent elements"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-077",
+          "prompt": "What is the time complexity of bubble sort in the worst case?",
+          "answers": [
+            "O(n)",
+            "O(n log n)",
+            "O(n^2)",
+            "O(log n)"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-078",
+          "prompt": "What is the output of the following code? try: print(\"try\") except: print(\"except\") else: print(\"else\")",
+          "answers": [
+            "try",
+            "try except",
+            "try else",
+            "try except else"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-079",
+          "prompt": "What is the output of the following code? try: x=1/0 except ZeroDivisionError: print(\"caught\") else: print(\"no error\")",
+          "answers": [
+            "caught",
+            "no error",
+            "caught no error",
+            "Error"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-080",
+          "prompt": "What does the raise statement do?",
+          "answers": [
+            "It catches an exception",
+            "It manually raises an exception",
+            "It ignores an exception",
+            "It prints an error message"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-081",
+          "prompt": "What is the syntax for raising an exception?",
+          "answers": [
+            "catch Exception",
+            "throw Exception",
+            "raise Exception",
+            "error Exception"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-082",
+          "prompt": "Can you create your own custom exceptions in Python?",
+          "answers": [
+            "No, only built-in exceptions are allowed",
+            "Yes, by creating a class that inherits from the built-in Exception class",
+            "Yes, but only using the except keyword",
+            "No, Python does not support user-defined exceptions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-083",
+          "prompt": "What is BaseException in Python?",
+          "answers": [
+            "A specific error for division by zero",
+            "The base class for all built-in exceptions",
+            "A function that catches errors",
+            "A module for handling files"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-084",
+          "prompt": "What is ArithmeticError?",
+          "answers": [
+            "An error that occurs when a file is not found",
+            "The base class for arithmetic errors like ZeroDivisionError and OverflowError",
+            "An error for invalid syntax",
+            "An error for type mismatches"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-085",
+          "prompt": "When is AssertionError raised?",
+          "answers": [
+            "When a file is not found",
+            "When an assert statement fails",
+            "When dividing by zero",
+            "When a variable is not defined"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-086",
+          "prompt": "When is AttributeError raised?",
+          "answers": [
+            "When a file is not found",
+            "When an attribute reference or assignment fails",
+            "When a variable is not defined",
+            "When a list index is out of range"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-087",
+          "prompt": "When is EOFError raised?",
+          "answers": [
+            "When a file is not found",
+            "When the input() function hits an end-of-file condition without reading any data",
+            "When a variable is not defined",
+            "When a list is empty"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-088",
+          "prompt": "When is ImportError raised?",
+          "answers": [
+            "When a variable is not defined",
+            "When an import statement fails to load a module",
+            "When a file is not found",
+            "When a function is called with wrong arguments"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-089",
+          "prompt": "What is LookupError?",
+          "answers": [
+            "A specific error for missing files",
+            "A base class for errors that occur when a collection lookup fails",
+            "An error for invalid syntax",
+            "An error for type mismatches"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-090",
+          "prompt": "When is MemoryError raised?",
+          "answers": [
+            "When a file is too large",
+            "When the program runs out of memory",
+            "When a list is empty",
+            "When a function is called recursively"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-091",
+          "prompt": "When is NameError raised?",
+          "answers": [
+            "When a file is not found",
+            "When a local or global name is not found",
+            "When a list index is out of range",
+            "When a function argument is invalid"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-092",
+          "prompt": "When is OSError raised?",
+          "answers": [
+            "When a system-level problem occurs, like failing to find a file or running out of disk space",
+            "When a variable is not defined",
+            "When a list index is out of range",
+            "When dividing by zero"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-093",
+          "prompt": "When is RuntimeError raised?",
+          "answers": [
+            "When an error does not fit into any other specific category",
+            "When a file is not found",
+            "When a variable is not defined",
+            "When a function is called correctly"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-094",
+          "prompt": "What is StopIteration used for?",
+          "answers": [
+            "To stop the entire Python program",
+            "To signal that an iterator has no more items to return",
+            "To pause a function temporarily",
+            "To raise a syntax error"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-095",
+          "prompt": "When is SyntaxError raised?",
+          "answers": [
+            "When the code has improper syntax",
+            "When a file is not found",
+            "When a variable is not defined",
+            "When a list index is out of range"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-096",
+          "prompt": "When is TypeError raised?",
+          "answers": [
+            "When an operation is performed on an object of the wrong type",
+            "When a file is not found",
+            "When a variable is not defined",
+            "When a list index is out of range"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-097",
+          "prompt": "When is ValueError raised?",
+          "answers": [
+            "When a function receives an argument of the correct type but with an invalid value",
+            "When a file is not found",
+            "When a variable is not defined",
+            "When a list index is out of range"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-098",
+          "prompt": "What does GUI stand for?",
+          "answers": [
+            "Graphical User Interface",
+            "General User Integration",
+            "Graphic Utility Interface",
+            "Guided User Interaction"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-099",
+          "prompt": "What is a GUI?",
+          "answers": [
+            "A text-based interface for typing commands",
+            "An interface that uses visual indications and graphical elements like buttons and checkboxes",
+            "A type of programming language",
+            "A database management system"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-100",
+          "prompt": "What was used for computer interaction before GUIs?",
+          "answers": [
+            "Voice commands",
+            "Touch screens",
+            "Text-based commands typed into a command-line interface",
+            "Mouse only"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-101",
+          "prompt": "Which GUI toolkit comes built-in with Python?",
+          "answers": [
+            "PyQt",
+            "wxPython",
+            "tkinter",
+            "Kivy"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-102",
+          "prompt": "What is the first step in creating a GUI using tkinter?",
+          "answers": [
+            "Create a button",
+            "Import the tkinter module",
+            "Set the window title",
+            "Start the event loop"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-103",
+          "prompt": "What does the Tk constructor do in tkinter?",
+          "answers": [
+            "Creates a button widget",
+            "Creates the main window of the GUI",
+            "Closes the window",
+            "Sets the window title"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-104",
+          "prompt": "What does the mainloop method do in tkinter?",
+          "answers": [
+            "Creates a new window",
+            "Destroys all widgets",
+            "Keeps the window open and running, waiting for user events",
+            "Closes the application"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-105",
+          "prompt": "What is a widget in tkinter?",
+          "answers": [
+            "A type of loop",
+            "A graphical user interface control like a button or label",
+            "A file handling function",
+            "An exception handler"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-106",
+          "prompt": "Which widget is used to display a single line of text or an image?",
+          "answers": [
+            "Button",
+            "Entry",
+            "Label",
+            "Text"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-107",
+          "prompt": "Which widget is used to accept a single line of text input from the user?",
+          "answers": [
+            "Label",
+            "Entry",
+            "Text",
+            "Button"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-108",
+          "prompt": "Which widget is used for multi-line text input?",
+          "answers": [
+            "Entry",
+            "Label",
+            "Text",
+            "Button"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-109",
+          "prompt": "Which widget is clicked to trigger an action?",
+          "answers": [
+            "Label",
+            "Entry",
+            "Button",
+            "Text"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-110",
+          "prompt": "What is the syntax for creating a Label widget?",
+          "answers": [
+            "Label = label(root, text=\"Hello\")",
+            "label = Label(root, text=\"Hello\")",
+            "label = Label(text=\"Hello\")",
+            "label = Label(root, \"Hello\")"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-111",
+          "prompt": "What is the pack method used for?",
+          "answers": [
+            "To destroy a widget",
+            "To arrange widgets in rows or columns to optimize the parent area",
+            "To change the color of a widget",
+            "To bind an event to a widget"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-112",
+          "prompt": "What is the grid method used for?",
+          "answers": [
+            "To pack widgets in rows or columns",
+            "To arrange widgets in a 2-dimensional tabular structure with rows and columns",
+            "To place widgets at absolute positions",
+            "To delete all widgets"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-113",
+          "prompt": "What is the place method used for?",
+          "answers": [
+            "To pack widgets in rows",
+            "To arrange widgets in a grid",
+            "To explicitly set the position and size of a widget using absolute or relative coordinates",
+            "To delete a widget"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-114",
+          "prompt": "Which geometry manager must be used exclusively and cannot be mixed with others in the same master window?",
+          "answers": [
+            "Only pack and grid can be mixed",
+            "All three can be mixed freely",
+            "Each master window can only use one geometry manager; they cannot be mixed",
+            "Only place can be mixed with others"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-115",
+          "prompt": "What does the Checkbutton widget do?",
+          "answers": [
+            "Displays a single line of text",
+            "Displays a toggle button that can be checked or unchecked, allowing multiple selections",
+            "Displays a button that triggers an action",
+            "Displays a text entry field"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-116",
+          "prompt": "What does the Radiobutton widget do?",
+          "answers": [
+            "Allows multiple selections like Checkbutton",
+            "Displays a toggle button where only one option can be selected from a group",
+            "Displays a text entry field",
+            "Displays a single line of text"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "cos202-117",
+          "prompt": "What is the difference between Checkbutton and Radiobutton?",
+          "answers": [
+            "Checkbutton allows only one selection; Radiobutton allows multiple",
+            "Checkbutton allows multiple selections; Radiobutton allows only one selection per group",
+            "They are identical",
+            "Checkbutton is for text; Radiobutton is for images"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

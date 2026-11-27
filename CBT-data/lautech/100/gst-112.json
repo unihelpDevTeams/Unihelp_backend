@@ -1,0 +1,4443 @@
+{
+    "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "General Studies",
+  "course": {
+    "code": "GST 112",
+    "title": "Introduction to Nigerian Peoples and Culture"
+  },
+    "questions": [
+        {
+          "id": "gst112-001",
+          "prompt": "COMPI LEDGST112QUESTI ONSFOREXAM ANONYMOUSCREW : 1.Anat ionst atehasaper manent_ ___ _",
+          "answers": [
+            "Territory",
+            "Popul ati on",
+            "Government"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-002",
+          "prompt": "When did Nigeria become democratic",
+          "answers": [
+            "1999",
+            "1989",
+            "2009",
+            "2019"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-003",
+          "prompt": "6. _____ refers to conflict involving two or more communities engaging themselves in disagreement",
+          "answers": [
+            "Communal conf li ct",
+            "Cultural conflict",
+            "national conflict"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-004",
+          "prompt": "_____ accountability is a process where leaders render account of their stewardship",
+          "answers": [
+            "Leadership",
+            "Governance",
+            "Citizen"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-005",
+          "prompt": "_ ___hasbeenr avagi ngcommuni ti es",
+          "answers": [
+            "Er osi on",
+            "Cor rupt ion",
+            "Religious conflict"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-006",
+          "prompt": "Which of the following is not used in nation building",
+          "answers": [
+            "Dialogue",
+            "Reconciliation",
+            "Conf li ct"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-007",
+          "prompt": "Which one is a subgroup of Niger -Congo",
+          "answers": [
+            "WestAdamawa",
+            "Ber berbr anch",
+            "Handzabr anch",
+            "Nilotic branch"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-008",
+          "prompt": "According to Greenberg,Nigeria languages have been categorized into",
+          "answers": [
+            "4",
+            "3",
+            "5"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-009",
+          "prompt": "Disparities exist among members of various geo- political zones",
+          "answers": [
+            "Houses",
+            "Gross",
+            "sky",
+            "Water"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-010",
+          "prompt": "Ful lmeani ngofI POB",
+          "answers": [
+            "I ndependentpeopl eofBi afr a",
+            "International people of Biafra",
+            "Indigenous People of Biafra",
+            "Indigenous person of Biafra"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-011",
+          "prompt": "Nation state is characterized?",
+          "answers": [
+            "Political and cultural boundaries",
+            "Soci alboundar y",
+            "Political boundary",
+            "Cultural boundary"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-012",
+          "prompt": "Governance and Civil responsibility are under _____",
+          "answers": [
+            "Pol i tical",
+            "Cultural",
+            "Soci al",
+            "Economic"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-013",
+          "prompt": "Which of the following is not involved in conducting free and fair election",
+          "answers": [
+            "Thesociety",
+            "Thet ri bunal",
+            "I NEC",
+            "Thejudiciary"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-014",
+          "prompt": "22._favor the distribution of tangible and intangible resources",
+          "answers": [
+            "University",
+            "Children",
+            "Nor th",
+            "None"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-015",
+          "prompt": "Kanohas _____ local government Area",
+          "answers": [
+            "23",
+            "44",
+            "5",
+            "34"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-016",
+          "prompt": "Kwai sunderwhi chgr oup_ ___ _?",
+          "answers": [
+            "Afro- Asiatic",
+            "Niger -Congo",
+            "Ni l oSahar a",
+            "Yoruba"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-017",
+          "prompt": "Another name for Nilo-Saharanis _____",
+          "answers": [
+            "Sahar an",
+            "Semi ti c",
+            "Sudanic",
+            "Khoisan"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-018",
+          "prompt": "Subgroup under Click family is _____",
+          "answers": [
+            "Handz a",
+            "Arabic",
+            "Chadic",
+            "Kwa"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-019",
+          "prompt": "Jussol ii sther ightofci ti zenshi p. .. .. .. .",
+          "answers": [
+            "Blood",
+            "Birth",
+            "Family",
+            "None"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-020",
+          "prompt": "How many classifications of linguistics do we have?",
+          "answers": [
+            "1",
+            "2",
+            "3",
+            "4 e)5"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-021",
+          "prompt": "Anat ionst atehasaper manent_ ___ __",
+          "answers": [
+            "Popul ati on",
+            "Country",
+            "Territory",
+            "Countries"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-022",
+          "prompt": "What has been the major challenge of Nigeria state since21st century",
+          "answers": [
+            ", nat ionst ate",
+            ", nation building",
+            ", national identity"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-023",
+          "prompt": "the afro Asiatic group consists of",
+          "answers": [
+            ", yorubas",
+            ", kwa subgroup",
+            ", Hausa",
+            ", Igbos"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-024",
+          "prompt": "Dr Goodluck Jonathan was the _____ of Nigeria",
+          "answers": [
+            "mi nist er",
+            "governor",
+            "president",
+            "chai rman"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-025",
+          "prompt": "Kadunahashowmanyl ocal gov ernment",
+          "answers": [
+            "33",
+            "44",
+            "32",
+            "30"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-026",
+          "prompt": "_____ occurs in most places in Nigeria",
+          "answers": [
+            "Erosi on",
+            "cor rupt ion",
+            "hi ghr ainf all"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-027",
+          "prompt": "_____ belongs to the Asiatic Family",
+          "answers": [
+            "Araabi cbr anch",
+            "Nilotic branch",
+            "Chadi cbr anch"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-028",
+          "prompt": "Nigeriaisa _____ society /country",
+          "answers": [
+            "Multiethnic",
+            "Polyethnic",
+            "Mono- ethni c"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-029",
+          "prompt": "Thecur rentcent uryofNi ger iahasbeenf acedwi th",
+          "answers": [
+            "Crisis",
+            "Ethnic militia",
+            "Protests",
+            "Riots"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-030",
+          "prompt": "Language barrier can foster economic development",
+          "answers": [
+            "True",
+            "False"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-031",
+          "prompt": "Joseph Greenberg(1963)is notable for the coinage of",
+          "answers": [
+            "maj orcompar ison",
+            "masscompar ison",
+            "major linguistic group",
+            "mastcompar ison"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-032",
+          "prompt": "Nigeria restored democratic rule in year _____",
+          "answers": [
+            "2009",
+            "1999",
+            "2019",
+            "1989"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-033",
+          "prompt": "Western ideologies include- -- -- -- -- -- -- -- -",
+          "answers": [
+            "Capitalism",
+            "Fuel",
+            "Sky",
+            "Airline"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-034",
+          "prompt": "Recognition of gender issues have a lot to do with the..",
+          "answers": [
+            "Legal inst it uti on",
+            "Social institution",
+            "I nst it uti onofhumanr ight s ( PG29)"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-035",
+          "prompt": "TheKwasubgr oupi sunderwhi chcl assofl anguage",
+          "answers": [
+            "Nil oSahar an",
+            "Khoisan",
+            "Afro-Asiatic",
+            "Nigeria- CongoFamily"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-036",
+          "prompt": "Pick the odd one",
+          "answers": [
+            "LackofHomeTr aini ng",
+            "Grandcor rupt ion",
+            "Pet tycor rupt ion",
+            "Political corruption"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-037",
+          "prompt": "-8 61.A nation state has clearly defined geographical borders referred to as",
+          "answers": [
+            "border",
+            "territory",
+            "boundary"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-038",
+          "prompt": "Nigeriaisa _____ type of country",
+          "answers": [
+            "mul ti li ngual",
+            "bi l ingual",
+            "monol i ngual"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-039",
+          "prompt": ":study of language 68 is not a cultural attribute of a nation",
+          "answers": [
+            "Rel i gion",
+            "Custom",
+            "Language",
+            "Age"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-040",
+          "prompt": "Disparities also exist among the geopolitical zones in Nigeria",
+          "answers": [
+            "People",
+            "Soci alcul tur al",
+            "Sky",
+            "Water"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-041",
+          "prompt": ":page18oft hemanual 75. : Reasonsf ornat ionbui l ding",
+          "answers": [
+            "national unity",
+            "Ethnic Diversity",
+            "strong economy"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-042",
+          "prompt": "Linguistics is-- -",
+          "answers": [
+            "St udyofl anguage",
+            "Scientific study of language",
+            "Sci enceofl anguage",
+            ".."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-043",
+          "prompt": "Greenberg group Nigeria languages into _____.",
+          "answers": [
+            "5",
+            "8",
+            "4",
+            "2"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-044",
+          "prompt": "82. There have been several kinds of states apart from _____",
+          "answers": [
+            "Rivers",
+            "Hi stor y",
+            "Nat ionst ate"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-045",
+          "prompt": ":8 85. Linguistics is _____",
+          "answers": [
+            "St udyofl anguages",
+            "Sci enceofl anguages",
+            "Scientific study of languages",
+            "Ican' tremember"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-046",
+          "prompt": "Which of the following belongs to the Niger congo family",
+          "answers": [
+            "Kordofanian",
+            "WestAt lant ic",
+            "Ber berbr anch",
+            "Handzabr anch"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-047",
+          "prompt": "E SERT IF I CATION 93. The recent Nigeria has continued to witness rising and persistent cases of",
+          "answers": [
+            "Ethnic militia",
+            "Riots",
+            "Cr ises"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-048",
+          "prompt": "Has been raving among state in Nigeria",
+          "answers": [
+            "erosi on",
+            "development",
+            "pol i tics",
+            "educat ion"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-049",
+          "prompt": "The following are characteristics of nation state except",
+          "answers": [
+            "Conf li ct",
+            "Territory",
+            "popul ati on",
+            "National identity"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-050",
+          "prompt": "Kanohas_Local government areas",
+          "answers": [
+            "50",
+            "44",
+            "20",
+            "13"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-051",
+          "prompt": "_____ is part of the Afro Asian tic family",
+          "answers": [
+            "The Kwa subgroup",
+            "TheHausa",
+            "TheIgbo",
+            "TheYoruba"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-052",
+          "prompt": "Nigeria was considered a political unit in",
+          "answers": [
+            "1913",
+            "1908",
+            "1909",
+            "1904"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-053",
+          "prompt": "NOQUESTI ON",
+          "answers": [
+            "erosi on",
+            "development",
+            "pol i tics",
+            "educat ion"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-054",
+          "prompt": "Responsive leadership is a _____ contract between the leader and the Led",
+          "answers": [
+            "Busi ness",
+            "Tender",
+            "Soci al",
+            "Massive"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-055",
+          "prompt": "Anat ionst atehasaper manent_ ___ __",
+          "answers": [
+            "Popul ati on",
+            "Country",
+            "Territory",
+            "Counties"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-056",
+          "prompt": "Sout hEasthast he_ ___ ___st ate",
+          "answers": [
+            "none",
+            "many",
+            "few",
+            "least"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-057",
+          "prompt": ":Whatt ypeofcor rupt ioni sfakedr ugpr oduct ion",
+          "answers": [
+            "Economi ccor rupt ion",
+            "Mor alcor rupt ion",
+            "medical corruption",
+            "Fraud"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-058",
+          "prompt": "_ Noquest ion",
+          "answers": [
+            "Religious perspective",
+            "Philosophical perspective",
+            "TheBible/ Quran",
+            "Sociological perspective"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-059",
+          "prompt": "Noquest ion. ..",
+          "answers": [
+            "Endemi ccor rupt ion",
+            "Pet tycor rupt ion",
+            "Gr andcor rupt ion",
+            "Political Corruption"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-060",
+          "prompt": "How many local governments are in Kano state _____?",
+          "answers": [
+            "44",
+            "20",
+            "18",
+            "50"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-061",
+          "prompt": "B 122_Languages are extinct in nigeria",
+          "answers": [
+            "2",
+            "4",
+            "8",
+            "10"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-062",
+          "prompt": "hatar enotpar tofnat ionar egov ernedempi resand_",
+          "answers": [
+            "Kingdoms",
+            "Rulers",
+            "Leaders",
+            "Mini ster"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-063",
+          "prompt": "_cannot be considered as factor that hinder a citizen of a country",
+          "answers": [
+            "Custom",
+            "Language",
+            "Descent",
+            "Age"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-064",
+          "prompt": "The.Recent Nigeria is experiencing what",
+          "answers": [
+            "Conf li ct",
+            "*Riot",
+            "*Protest",
+            "*Ethnic militia"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-065",
+          "prompt": "Soci etyandcommuni tygat her ing 142:",
+          "answers": [
+            "nation state has a permanent _____ A.Population",
+            "Country",
+            "Territory",
+            "Counties"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-066",
+          "prompt": "___ arecl aimedt obel i vingl anguage",
+          "answers": [
+            "505",
+            "515",
+            "525",
+            "508"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-067",
+          "prompt": "147 _____ governor will help to build good nation",
+          "answers": [
+            "Bad",
+            "Good",
+            "Corrupt"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-068",
+          "prompt": "149. Characteristics of State identification are……except",
+          "answers": [
+            "Culture",
+            "Hostility",
+            "Morals",
+            "Humility"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-069",
+          "prompt": "_____ has been ravaging many states in Nigeria",
+          "answers": [
+            "Pol i tics",
+            "Development",
+            "Er osi on",
+            "Educat ion"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-070",
+          "prompt": "Nigerian democratic rule is in the _____ republic",
+          "answers": [
+            "4",
+            "10",
+            "64",
+            "5"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-071",
+          "prompt": "se 153. western ideologies lead to",
+          "answers": [
+            "Nation building",
+            "Nat ionst ate",
+            "National population",
+            "Ni gerDel ta"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-072",
+          "prompt": "154NOQUESTI ON",
+          "answers": [
+            "Biologically bound",
+            "Scientifically bound",
+            "Culturally bound",
+            "Psychologically bound"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-073",
+          "prompt": "Corruption occurs in both public and _____ lives of the people",
+          "answers": [
+            "Sect ional",
+            "Private",
+            "Regi onal",
+            "Communi ti es"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-074",
+          "prompt": "Citizenship can be gained through all but one of the following",
+          "answers": [
+            "Birth",
+            "Death",
+            "Naturalization",
+            "Descent"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-075",
+          "prompt": "Ethnicity leads to",
+          "answers": [
+            "Mediocrity",
+            "Productivity",
+            "Cor rupt ion",
+            "Conf li ct"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-076",
+          "prompt": "TheAdamawabr anchi sundert he",
+          "answers": [
+            "Niger congo family",
+            "Afro- Asiatic family",
+            "Nilo-saharan family",
+            "Clickfamily"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-077",
+          "prompt": "TheSout hEasthas_ ___ _numberofst ates",
+          "answers": [
+            "Hi ghest",
+            "Least",
+            "Middle",
+            "Zero"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-078",
+          "prompt": "Nigeria was considered a political unit in",
+          "answers": [
+            "1913",
+            "1908",
+            "1900",
+            "1904"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-079",
+          "prompt": "Nigeria is known to be a _____",
+          "answers": [
+            "Multi ethnic society",
+            "Di ethnic society",
+            "Polytechnic society",
+            "Bilingual society"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-080",
+          "prompt": "What protectorate did the British start local government",
+          "answers": [
+            "Southern protectorate",
+            "Northern protectorate",
+            "Sout hWest ernpr otect orat e",
+            "East ernpr otect orat e"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-081",
+          "prompt": "Nigeria became a political entity in the year",
+          "answers": [
+            "1914",
+            "1900",
+            "2002",
+            "2004"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-082",
+          "prompt": "JusSol imeans_ ___",
+          "answers": [
+            "Rightbyblood",
+            "Rightofsoil",
+            "Right by identity",
+            "Ri ghtofl i fe"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-083",
+          "prompt": "How many languages are in existence in Nigeria",
+          "answers": [
+            "8",
+            "505",
+            "200",
+            "56"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-084",
+          "prompt": "Asamemberofanat iony ouar ea_ ___ _",
+          "answers": [
+            "Citizen",
+            "Followers",
+            "Member",
+            "I ndi gene"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-085",
+          "prompt": "Nigeria was separated into northern,southern and _____ protectorate",
+          "answers": [
+            "Western",
+            "EastAt lant ic"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-086",
+          "prompt": "Goodluck Jonathan was a _____ of Nigeria",
+          "answers": [
+            "President",
+            "King",
+            "Governor",
+            "Ruler"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-087",
+          "prompt": "Nigeriaisa _____ type of country",
+          "answers": [
+            "Mul ti li ngual",
+            "Bi l ingual",
+            "Monol i ngual",
+            "Het erol i ngual"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-088",
+          "prompt": "A nation state has clearly defined geographical borders know as",
+          "answers": [
+            "Borders",
+            "Boundaries",
+            "Territory",
+            "Popul ati on"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-089",
+          "prompt": "Badgov ernmenthas_ ___ _Ni ger ianeconomy",
+          "answers": [
+            "Established",
+            "Hi nder ed",
+            "I ncr eased",
+            "Promoted"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-090",
+          "prompt": "The recent Nigeria has contributed to witness rising and persistent cases of _____",
+          "answers": [
+            "Cr ises",
+            "Riots",
+            "Ethnic militia"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-091",
+          "prompt": "_____ has remained a major challenge to the Nigerian state up till the21st century",
+          "answers": [
+            "Nat ionst ate",
+            "Nation building",
+            "Citizenship",
+            "National identity"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-092",
+          "prompt": "Nigeria democratic rule is in the _____ republic",
+          "answers": [
+            "Tenth",
+            "Si xthf our th",
+            "Fifth",
+            "Four th"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-093",
+          "prompt": ".. 185._ ___i stheest imat eper cent agei nfav ourofwomendur ingt heBei j ingconf erence",
+          "answers": [
+            "35%",
+            "15%",
+            "25%",
+            "10%"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-094",
+          "prompt": "African languages are classified into _____",
+          "answers": [
+            "Sudanic,Afro- Asiatic,Nilo-saharan",
+            "Kordofanian,",
+            "lick, Nilotic,ChadicC.Niger -congo, Afro-Asiatic,Nilo-saharan",
+            "Kwa, Berber,Voltaic, Sundawe"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-095",
+          "prompt": "Khoi sani ssubgr oupi nto_ ___ _",
+          "answers": [
+            "Mande",
+            "Amharic",
+            "Songhaic",
+            "Handza"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-096",
+          "prompt": "The number of language that are claimed to be living is",
+          "answers": [
+            "515",
+            "508",
+            "505",
+            "520"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-097",
+          "prompt": "Joseph Greenberg classified Africa into4based on _____",
+          "answers": [
+            "Major com paris m",
+            "Minor com paris m",
+            "Mass com paris m"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-098",
+          "prompt": "The western ideology include",
+          "answers": [
+            "Oil",
+            "Fuel",
+            "Capi tal i sat ion",
+            "Sky"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-099",
+          "prompt": "Out of the classification of the language made Joseph Greenberg.How many major language do we have in Nigeria",
+          "answers": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-100",
+          "prompt": "A problem that has been a setback in Nigeria is",
+          "answers": [
+            "Ethnic militia",
+            "Riot",
+            "Chaos",
+            "Protest"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-101",
+          "prompt": "The relationship between the leaders and the led is",
+          "answers": [
+            "Soci al",
+            "Economic",
+            "Pol i tical"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-102",
+          "prompt": "_____ accountability is a process where leaders renders account to their stewardship",
+          "answers": [
+            "Leadership",
+            "Governance",
+            "Government",
+            "President"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-103",
+          "prompt": "Nation correlates with _____",
+          "answers": [
+            "Social and cultural boundaries",
+            "Legal and political entity"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-104",
+          "prompt": "Linguistics is _____",
+          "answers": [
+            "St udyofl anguage",
+            "Scientific study of language",
+            "Sci enceofl anguage"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-105",
+          "prompt": "Manufacturing of fake drugs is an example of",
+          "answers": [
+            "fraud",
+            "mor alcor rupt ion",
+            "Economi ccor rupt ion",
+            "soci alcor rupt ion"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-106",
+          "prompt": "Gender inequalities are",
+          "answers": [
+            "Natural biologically defined",
+            "Socio-culturally defined",
+            "Politically defined",
+            "Economically defined"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-107",
+          "prompt": "What does IMF stand for",
+          "answers": [
+            "International Money Fund",
+            "international Monetary Forum",
+            "International Monetary Fund",
+            "International Money Forum"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-108",
+          "prompt": "Political and socio-economic disparities is not a problem in Nigeria",
+          "answers": [
+            "True",
+            "False",
+            "None of the above",
+            "All of the above"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-109",
+          "prompt": "A nation state focus on ____________-",
+          "answers": [
+            "Cultural and social bonds",
+            "Legal and political entity",
+            "Territorial and common identity",
+            "Spartial and geographical settings"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-110",
+          "prompt": "____________ refers to a felt struggle between two or more independent individuals",
+          "answers": [
+            "Education",
+            "Marriage",
+            "Conflict",
+            "Family"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-111",
+          "prompt": "South-East geopolitical zone has the ___________ states",
+          "answers": [
+            "middle",
+            "least",
+            "none",
+            "highest"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-112",
+          "prompt": "____________ governance leads to strong nation building",
+          "answers": [
+            "Responsive",
+            "Weak",
+            "Elderly",
+            "Bad"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-113",
+          "prompt": "For most parts of Nigeria’s existence as a nation-state, ___________ has been identified as a major challenge?",
+          "answers": [
+            "Protests",
+            "Disturbances",
+            "Riots",
+            "Corruption"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-114",
+          "prompt": "One of the following belongs to the Sudanic family.",
+          "answers": [
+            "the Handza branch",
+            "the Berber branch",
+            "the Nilotic branch",
+            "the kwa subgroup"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-115",
+          "prompt": "Economic development in nation-building focuses on:",
+          "answers": [
+            "Limiting job creation",
+            "Stabilizing and growing the economy",
+            "Decreasing foreign investment",
+            "Promoting only agriculture"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-116",
+          "prompt": "Political _________ in resolving sectarian uprising",
+          "answers": [
+            "approach",
+            "college",
+            "houses",
+            "people"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-117",
+          "prompt": "Another name for nation building is _________",
+          "answers": [
+            "City building",
+            "National formulation",
+            "National peace",
+            "Nation growth"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-118",
+          "prompt": "__________ affirmative declaration in favour of women during the Beijing conference in 1995",
+          "answers": [
+            "20%",
+            "30%",
+            "35%",
+            "25%"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-119",
+          "prompt": "Which of the following is a feature of African economy",
+          "answers": [
+            "Low productivity",
+            "High productivity",
+            "Business",
+            "Water",
+            ". Sanitation"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-120",
+          "prompt": "Which of the following belongs to the NigerCongo family",
+          "answers": [
+            "The Berber branch",
+            "The Nilotic branch",
+            "The West Atlantic branch",
+            "The Handza branch or Saharan branch"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-121",
+          "prompt": "One of the following belong to the sudanic family",
+          "answers": [
+            "the Berber branch",
+            "the Saharan branch",
+            "the Kwa subgroup",
+            "the Handza branch"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-122",
+          "prompt": "Kwa subgroup is a branch of _______",
+          "answers": [
+            "NiloSaharan",
+            "AfroAsiatic group",
+            "NigerCongo group",
+            "Handza group"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-123",
+          "prompt": "All the following is means of identifying a nation except",
+          "answers": [
+            "Treason",
+            "National anthem",
+            "National pledge",
+            "Emblem"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-124",
+          "prompt": "Which of the following is not a national symbol",
+          "answers": [
+            "National flag",
+            "Emblem",
+            "Anthem",
+            "Treason"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-125",
+          "prompt": "The year female was given equal rights to participate in politics",
+          "answers": [
+            "1995",
+            "2005",
+            "2015",
+            "2010"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-126",
+          "prompt": "All Nigeria citizens have the right to all these except",
+          "answers": [
+            "Vote",
+            "Work",
+            "Live",
+            "Crime"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-127",
+          "prompt": "Goodluck Jonathan was the _________ of Nigeria",
+          "answers": [
+            "Governor",
+            "Senator",
+            "President",
+            "Senator"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-128",
+          "prompt": "Production of fake drug is what type of corruption",
+          "answers": [
+            "Moral corruption",
+            "Economic corruption",
+            "Political corruption",
+            "Ethical corruption"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-129",
+          "prompt": "Manufacturing of fake drugs in the country is an example of __________",
+          "answers": [
+            "Medical corruption",
+            "Economic corruption",
+            "Moral corruption",
+            "Fraud"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-130",
+          "prompt": "_________ sees corruption as an abuse of office or trust for private benefits",
+          "answers": [
+            "IMF",
+            "African Development",
+            "Central Bank"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-131",
+          "prompt": "_________ is a social conflict that relates to a group or group of society",
+          "answers": [
+            "Group of society",
+            "Social",
+            "Communal",
+            "Political"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-132",
+          "prompt": "________ refers to conflict involving two or more communities engaging themselves in disagreement or act of violence over issues",
+          "answers": [
+            "Communal conflict",
+            "Social conflict",
+            "Political conflict"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-133",
+          "prompt": "Multi-linguistic group and multi-ethnic group are not the same",
+          "answers": [
+            "True",
+            "False"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-134",
+          "prompt": "__________ has remained a major challenge to the Nigeria state up till the 21st century",
+          "answers": [
+            "Nation-state",
+            "Nation building",
+            "Citizenship",
+            "National identity"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-135",
+          "prompt": "Regional imbalance is part of the challenges facing Nigeria",
+          "answers": [
+            "True",
+            "False",
+            "Undecided",
+            "Unknown"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-136",
+          "prompt": "The English language, like every other language is a tonal language",
+          "answers": [
+            "True",
+            "False"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-137",
+          "prompt": "Nigeria was considered a political unit in what year",
+          "answers": [
+            "1913",
+            "1908",
+            "1900",
+            "1904"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-138",
+          "prompt": "Arewa youth came up to champion the interest of ________ region in Nigeria",
+          "answers": [
+            "Southern Nigeria",
+            "Northern Nigeria",
+            "Western Nigeria",
+            "South western Nigeria"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-139",
+          "prompt": "A person who legally belongs to a particular country is called",
+          "answers": [
+            "Native",
+            "Aborigine",
+            "Indigene",
+            "Citizen"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-140",
+          "prompt": "What type of conflict was the Ife and Modakeke conflict?",
+          "answers": [
+            "Economic conflict",
+            "Election violence",
+            "Religious conflict",
+            "Class conflict"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-141",
+          "prompt": "For most parts of Nigeria’s existence as a country, which of the following has been a continous political problem",
+          "answers": [
+            "Corruption",
+            "Violence",
+            "Protest"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-142",
+          "prompt": "__________ comprises of the afro-asiatic group",
+          "answers": [
+            "Hausa",
+            "Igbo",
+            "Yoruba",
+            "Nigeria"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-143",
+          "prompt": "The Afro-Asiatic group consist of",
+          "answers": [
+            "Yoruba",
+            "Kwa-subgroup",
+            "Hausa",
+            "Igbo"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-144",
+          "prompt": "How many languages was in indigenous language in Nigeria",
+          "answers": [
+            "10",
+            "8",
+            "2",
+            "4"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-145",
+          "prompt": "Which of the following state was non-existent in history",
+          "answers": [
+            "Political unit",
+            "Rivers state",
+            "Nation state",
+            "Government state"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-146",
+          "prompt": "Language barrier might be a problem in economical activities",
+          "answers": [
+            "True",
+            "False"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-147",
+          "prompt": "Nigeria is classified as __________",
+          "answers": [
+            "Multiethnic groups",
+            "Polyethnic groups",
+            "Monoethnic groups",
+            "Biethnic groups"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-148",
+          "prompt": "Nigeria is a _______ type of Nation",
+          "answers": [
+            "Multiethnic",
+            "Uniethnic",
+            "Monoethnic",
+            "Polyethnic"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-149",
+          "prompt": "Nigeria can be said to be ________",
+          "answers": [
+            "Bilingual society",
+            "Multilingual society",
+            "Monolingual society",
+            "Multidynamic society"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-150",
+          "prompt": "ACCORDING PAGE 68 AND 69) 64. Greenberg in 1963 classified African language into _______",
+          "answers": [
+            "4",
+            "5",
+            "2",
+            "3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-151",
+          "prompt": "According to the Beihringer principle, how many major linguistic groups do wehave",
+          "answers": [
+            "5",
+            "4",
+            "3",
+            "2"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-152",
+          "prompt": "Nigeria became a political entity in the year _______",
+          "answers": [
+            "1914",
+            "1900",
+            "2002",
+            "2003"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-153",
+          "prompt": "Jus soil is a right of citizenship ________",
+          "answers": [
+            "Marriage",
+            "Adoption",
+            "Blood",
+            "Death"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-154",
+          "prompt": "Linguistics means study of _________",
+          "answers": [
+            "Science languages",
+            "Science language",
+            "Many languages"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-155",
+          "prompt": "Youth unemployment leads to _________",
+          "answers": [
+            "Chronic poverty",
+            "Education",
+            "Development",
+            "Academic"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-156",
+          "prompt": "Nigeria democratic role is in the ________republic",
+          "answers": [
+            "Sixty-fourth",
+            "Tenth",
+            "Fourth",
+            "Fifth"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-157",
+          "prompt": "The following are examples of sectarian and ethnic militia groups except ________",
+          "answers": [
+            "Boko Haram Sect",
+            "Movement for the Emancipation of the Niger Delta (MEND)",
+            "Student Union Government",
+            "Niger Delta Avengers (NDA)"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-158",
+          "prompt": "The statement “Nigeria has consistently appeared on the top most position on one of the most corrupt countries in the world on the corruption perception index” was released _________",
+          "answers": [
+            "World Health Organization",
+            "United Nations",
+            "Transparency International",
+            "Economic Financial and Crime Commission"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-159",
+          "prompt": "Creation of national _____________ is to enhance sound nation building",
+          "answers": [
+            "State",
+            "Consciousness",
+            "Map",
+            "Roads"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-160",
+          "prompt": "In history, there have been several kinds of states apart from the ___________",
+          "answers": [
+            "Rivers",
+            "Political unit",
+            "Boundaries",
+            "Nation-State"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-161",
+          "prompt": "The original Hausa states are known as __________",
+          "answers": [
+            "Bayajidda",
+            "Daura",
+            "Banza bakwai",
+            "Hausa bakwai"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-162",
+          "prompt": "Regional imbalance is part of the challenges facing Nigeria",
+          "answers": [
+            "Undecided",
+            "False",
+            "True",
+            "Unknown"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-163",
+          "prompt": "Which social issues can undermine nation building?",
+          "answers": [
+            "Social inequality",
+            "Community engagement",
+            "Equal rights",
+            "National pride"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-164",
+          "prompt": "__________ has constituted a major threat to youth survival in Nigeria",
+          "answers": [
+            "Cities",
+            "Air",
+            "Youth unemployment",
+            "Towns"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-165",
+          "prompt": "Which of the following is a key component of nation building",
+          "answers": [
+            "Reducing taxes",
+            "Building skyscraper",
+            "Political integration",
+            "Exporting goods"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-166",
+          "prompt": "Strategies of _________ is part of solution to challenges of nation building",
+          "answers": [
+            "Sailing",
+            "Car assembling",
+            "marriage",
+            "Development"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-167",
+          "prompt": "Political violence has constituted a bane in the Nigerian _________",
+          "answers": [
+            "Domestic consolidation",
+            "All of the above",
+            "Governance",
+            "Electoral process"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-168",
+          "prompt": "A nation state has a government that exercises _______",
+          "answers": [
+            "Directives",
+            "Authority",
+            "Power",
+            "Force"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-169",
+          "prompt": "Joseph Greenberg(1963) is notable for the coinage of ___________",
+          "answers": [
+            "Mass comparison",
+            "Major linguistic groups",
+            "Major comparison",
+            "Mast comparison"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-170",
+          "prompt": "Joseph Greenberg (1963) was known for his work on ______",
+          "answers": [
+            "Mast comparison",
+            "Mass comparison",
+            "Major linguistic groups",
+            "Major comparison"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-171",
+          "prompt": "The incremental positive change in the construction of a single national identity is ________",
+          "answers": [
+            "Nation-building",
+            "Nation-state",
+            "State building",
+            "National identity"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-172",
+          "prompt": "Nation-building aims at the development of the following except",
+          "answers": [
+            "Institute",
+            "Structure",
+            "Infrastructure",
+            "Animosity"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-173",
+          "prompt": "Ethnicity contribute to ______________",
+          "answers": [
+            "Production",
+            "Distribution",
+            "Conflict"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-174",
+          "prompt": "Ethnicity promotes",
+          "answers": [
+            "Mediocrity",
+            "Business",
+            "Productivity",
+            "Electricity"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-175",
+          "prompt": "The Afro-asiatic community is under",
+          "answers": [
+            "Yoruba",
+            "Igbo",
+            "Hausa",
+            "Kwasubgroup"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-176",
+          "prompt": "There should be an enabling _________ and level playing ground for citizen",
+          "answers": [
+            "Environment",
+            "Road",
+            "Home",
+            "School"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-177",
+          "prompt": "A nation state has a permanent _________",
+          "answers": [
+            "Population",
+            "Country",
+            "Territory",
+            "Countries"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-178",
+          "prompt": "A nation state has permanent ________",
+          "answers": [
+            "Territory",
+            "Sovereignty",
+            "Population",
+            "Government"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-179",
+          "prompt": "How many languages has gone into extinction",
+          "answers": [
+            "4",
+            "8",
+            "3",
+            "7"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-180",
+          "prompt": "Manufacturing of fake drug is an example of",
+          "answers": [
+            "Fraud",
+            "Moral corruption",
+            "Economic corruption",
+            "Social corruption"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-181",
+          "prompt": "Registration underage voting is an example of _________ corruption",
+          "answers": [
+            "Electoral corruption",
+            "Moral corruption",
+            "Political corruption"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-182",
+          "prompt": "Nation building often requires the creation of __________",
+          "answers": [
+            "Private armies",
+            "Cultural divides",
+            "Isolationist trade policies",
+            "National policies and laws"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-183",
+          "prompt": "The three national administration are national authority, national court system and ___________",
+          "answers": [
+            "National treasury",
+            "National law",
+            "National value",
+            "National system"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-184",
+          "prompt": "What year did Nigeria gain democratic rule",
+          "answers": [
+            "2001",
+            "1989",
+            "2016",
+            "1999"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-185",
+          "prompt": "Nigeria restored democratic rule in what year",
+          "answers": [
+            "2009",
+            "1999",
+            "2019",
+            "1989"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-186",
+          "prompt": "_______ accountability is a process where leaders have to render account of their stewardship to the electorate",
+          "answers": [
+            "Leadership",
+            "Governance",
+            "People",
+            "Socio economic"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-187",
+          "prompt": "___________ has been ravaging many states in Nigeria",
+          "answers": [
+            "Erosion",
+            "Education",
+            "Development",
+            "Politics"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-188",
+          "prompt": "Which of the following is not used in nation building",
+          "answers": [
+            "Dialogue",
+            "Reconciliation",
+            "Conflict"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-189",
+          "prompt": "Conflict has not been a major problem in Nigeria’s existence",
+          "answers": [
+            "True",
+            "False"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-190",
+          "prompt": "Which one is a sub-group of Niger-congo",
+          "answers": [
+            "West Adamawa",
+            "Berber branch",
+            "Handza branch",
+            "Nilotic branch"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-191",
+          "prompt": "According to Greenberg, Nigeria languages have been categorized into ________",
+          "answers": [
+            "4",
+            "3",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-192",
+          "prompt": "Merit has been compromised on the alter of",
+          "answers": [
+            "Kings",
+            "Rulers",
+            "Welfare",
+            "Expediency"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-193",
+          "prompt": "Recognition of gender issues have a lot to do with the ________",
+          "answers": [
+            "Legal institution",
+            "Social institution",
+            "Institution of human rights",
+            "Gender institution"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-194",
+          "prompt": "____________has been ravaging among states in Nigeria",
+          "answers": [
+            "erosion",
+            "Development",
+            "Politics",
+            "Education"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-195",
+          "prompt": "The recent Nigeria has continued to witness rising and persistent cases of _________",
+          "answers": [
+            "Ethnic militia",
+            "Riots",
+            "Crises",
+            "Protests"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-196",
+          "prompt": "One of the following is a branch of the click family",
+          "answers": [
+            "the Handza branch",
+            "the Berber branch",
+            "the Nilotic branch",
+            "the Kwa subgroup"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-197",
+          "prompt": "People who did not see themselves as united or sharing any sort of identity were ruled empires and __________",
+          "answers": [
+            "Lords",
+            "Kingdoms",
+            "Citizens",
+            "Rulers"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-198",
+          "prompt": "When people are not coming together, they are ruled empires and ______",
+          "answers": [
+            "Kingdom",
+            "Ruler",
+            "Leader",
+            "States"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-199",
+          "prompt": "____________ is shaped various factors such as shared history, culture, language and values",
+          "answers": [
+            "Boundaries",
+            "Authority",
+            "Sovereignty",
+            "National identity"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-200",
+          "prompt": "There have been several kinds of states apart from ________",
+          "answers": [
+            "Rivers",
+            "History",
+            "Nation state"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-201",
+          "prompt": "A nation-state is characterized _________ and ____________ boundaries",
+          "answers": [
+            "Social and geographical",
+            "Historical and social",
+            "Political and cultural",
+            "Regional and local"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-202",
+          "prompt": "Linguistic is",
+          "answers": [
+            "Study of languages",
+            "Modern study of languages",
+            "Scientific study of languages",
+            "Traditional study of languages"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-203",
+          "prompt": "Which of the following belongs to the Nigercongo family",
+          "answers": [
+            "Kordofanian",
+            "West Atlabntic branch",
+            "Berber Branch",
+            "Handza Branch"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-204",
+          "prompt": "The Niger congo have the following branch",
+          "answers": [
+            "West Atlantic branch",
+            "Saharan branch",
+            "Berber branch",
+            "Nilotic branch"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-205",
+          "prompt": "__________ is not a cultural attribute of a nation",
+          "answers": [
+            "Religion",
+            "Custom",
+            "Languages",
+            "Age"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-206",
+          "prompt": "__________ disparities also exist among the geopolitical zones in Nigeria",
+          "answers": [
+            "People",
+            "Socio-economic",
+            "Houses",
+            "Water"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-207",
+          "prompt": "South East geo-political zone has _________ state",
+          "answers": [
+            "Least",
+            "Middle",
+            "Highest",
+            "None"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-208",
+          "prompt": "Full meaning of IPOB is",
+          "answers": [
+            "Independent people of Bafria",
+            "Independent People of Baia",
+            "Indigenous People of Biafra"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-209",
+          "prompt": "Why is political instability a challenge in Nation building",
+          "answers": [
+            "It disrupts development",
+            "Increases nation unity",
+            "Increases foreign investment"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-210",
+          "prompt": "NiloSaharan group is also known as",
+          "answers": [
+            "Kordofany family",
+            "Kordofanian family",
+            "Sudanic family",
+            "Swahili family"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-211",
+          "prompt": "Nilosaharan group is represented in Nigeria principally",
+          "answers": [
+            "Swahili family",
+            "Kwasubgroup",
+            "Kanuri",
+            "NigerCongo group"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-212",
+          "prompt": "Nilosharan is specifically found in",
+          "answers": [
+            "Kanuri",
+            "Swahili family",
+            "River"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-213",
+          "prompt": "Popular beijing coference where declaration that favored women for political position was made in what year",
+          "answers": [
+            "2015",
+            "1995",
+            "2005",
+            "1985"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-214",
+          "prompt": "The affirmative deceleration was made in favour of woman during Beijing conference in what year",
+          "answers": [
+            "1985",
+            "1995",
+            "2009",
+            "2015"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-215",
+          "prompt": "The Afro-Asiatic have the following sub-group",
+          "answers": [
+            "Atlantic subgroup",
+            "Kwasubgroup",
+            "Nilo-Saharan",
+            "None"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-216",
+          "prompt": "Which of the following is not a national symbol",
+          "answers": [
+            "National flag",
+            "Anthem",
+            "Treason",
+            "Emblem"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-217",
+          "prompt": "All of the following is a means of identifying a nation except",
+          "answers": [
+            "Treason",
+            "National anthem",
+            "National pledge",
+            "Emblem"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-218",
+          "prompt": "How many living languages are in Nigeria",
+          "answers": [
+            "505",
+            "515",
+            "502",
+            "508"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-219",
+          "prompt": "There are ______ living languages in Nigeria",
+          "answers": [
+            "515",
+            "505",
+            "502",
+            "512"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-220",
+          "prompt": "Underemployment can cause _________",
+          "answers": [
+            "Sanitation",
+            "Food",
+            "Desperation",
+            "Progress"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-221",
+          "prompt": "Kano group is a branch of ________",
+          "answers": [
+            "Afro-Asiatic group",
+            "Nilo-Saharan",
+            "Hausa group",
+            "Niger congo group"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-222",
+          "prompt": "Kano state has ______ local government area",
+          "answers": [
+            "56",
+            "44",
+            "104",
+            "59"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-223",
+          "prompt": "Between Kano and Lagos, what affects them most",
+          "answers": [
+            "Erosion",
+            "Flood",
+            "Corruption"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-224",
+          "prompt": "When did Nigeria become a political unit",
+          "answers": [
+            "1902",
+            "1914",
+            "1802",
+            "1960"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-225",
+          "prompt": "Nigeria became a social political state in",
+          "answers": [
+            "1930",
+            "1900",
+            "1914",
+            "1960"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-226",
+          "prompt": "Language barrier is a conflict of the society",
+          "answers": [
+            "True",
+            "False"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-227",
+          "prompt": "Linguistic is",
+          "answers": [
+            "Scientific study of languages",
+            "Science of study",
+            "Morphology of languages",
+            "Study of languages"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-228",
+          "prompt": "Western ideologies includes __________",
+          "answers": [
+            "Fuel",
+            "Sky",
+            "Capatalism",
+            "Airline"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-229",
+          "prompt": "Adjustment to existing western ideologies in Nigeria will enhance ___________",
+          "answers": [
+            "Nation building",
+            "Houses",
+            "Babies",
+            "Roads"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-230",
+          "prompt": "How many ethnic groups are in Nigeria",
+          "answers": [
+            "250",
+            "350",
+            "400",
+            "200"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-231",
+          "prompt": "Nigeria is classified a multi-ethnic society with over _______ ethnic groups",
+          "answers": [
+            "250",
+            "350",
+            "450",
+            "150"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-232",
+          "prompt": "Citizenship can be acquired through the following except",
+          "answers": [
+            "Birth",
+            "Death",
+            "Descent",
+            "Socialization"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-233",
+          "prompt": "Citizenship can be acquired through the following except",
+          "answers": [
+            "Neutralization",
+            "Death",
+            "Birth",
+            "Descent"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-234",
+          "prompt": "The nation state has a permanent _",
+          "answers": [
+            "Population",
+            "Territory",
+            "Boundary"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-235",
+          "prompt": "The English language alongside other indigenous language is a tonal language",
+          "answers": [
+            "True",
+            "False"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-236",
+          "prompt": "Yoruba belongs to __________ language",
+          "answers": [
+            "Afro-Asiatic",
+            "Niger congo",
+            "Hausa/fulani",
+            "Swalli family"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-237",
+          "prompt": "Responsive leadership is a _________ contract between the leader and the led",
+          "answers": [
+            "Business",
+            "Tender",
+            "Social",
+            "Massive"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-238",
+          "prompt": "_______ governance leads to strong nation building",
+          "answers": [
+            "Bad",
+            "Responsive",
+            "Good",
+            "Corrupt"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-239",
+          "prompt": "Language barrier can foster economic diversity",
+          "answers": [
+            "True",
+            "False"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-240",
+          "prompt": "Nigeria identity can lead to _______ and ______ if used to distinguished separate groups",
+          "answers": [
+            "Unity and pride",
+            "Exclusion and conflict",
+            "Social cohesion and harmony",
+            "Peace and progress"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-241",
+          "prompt": "The responsibilities of a citizen include the following except",
+          "answers": [
+            "Patriotism",
+            "Disloyalty",
+            "Pay taxes",
+            "Obey laws"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-242",
+          "prompt": "Which of the following is property of a good citizen",
+          "answers": [
+            "Paying taxes",
+            "Disloyalty",
+            "Disobedience",
+            "None of the above"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-243",
+          "prompt": "What led to the conflict between Agulanta and Umulanta",
+          "answers": [
+            "Political diversity",
+            "Land ownership disputes",
+            "Religion difference",
+            "Economic conflict"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-244",
+          "prompt": "What led to the conflict between Aguleri and Umuleri communities",
+          "answers": [
+            "Religious differences",
+            "Land ownership disputes",
+            "Political rivalry",
+            "Economic competition"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-245",
+          "prompt": "Nation building aim at the development of the following except _____________",
+          "answers": [
+            "Infrastructure",
+            "Animosity",
+            "Structure",
+            "Institution"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-246",
+          "prompt": "National identity is shaped the following except",
+          "answers": [
+            "History",
+            "Culture",
+            "Language",
+            "Hostility"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-247",
+          "prompt": "The amalgamation of the northern and southern protectorate came up in ___________",
+          "answers": [
+            "1900",
+            "1914",
+            "1902",
+            "1906"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-248",
+          "prompt": "Merit has been compromised on the altar of ________",
+          "answers": [
+            "King",
+            "Welfare",
+            "Expediency",
+            "Rulers"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-249",
+          "prompt": "_______ was the presidential election annulled Babangida’s regime",
+          "answers": [
+            "October 1, 1960",
+            "September 11, 2003",
+            "June 12, 1993",
+            "January 15, 1973."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-250",
+          "prompt": "A state is a ________",
+          "answers": [
+            "Political and legal entity",
+            "Religious and cultural practice",
+            "Geographical and spatial setting",
+            "Social and community gathering"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-251",
+          "prompt": "The incremental positive change in the construction of a single national identity is _____",
+          "answers": [
+            "Nation-building",
+            "State",
+            "Nation",
+            "Citizenship"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-252",
+          "prompt": "The recent Nigeria has continued to witness rising and persistent cases of _____",
+          "answers": [
+            "Riots",
+            "Crisis",
+            "Ethnic militia",
+            "Protests"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-253",
+          "prompt": "The following are example of sectarian and ethnic militia groups except",
+          "answers": [
+            "Emacipation of the Niger Delta",
+            "Boko haram sec",
+            "Niger Delta Avengers",
+            "Student Union Government"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-254",
+          "prompt": "The popular Beijing conference where declaration that favored women for political positions was made in what year",
+          "answers": [
+            "1995",
+            "2005",
+            "2015",
+            "1998"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-255",
+          "prompt": "The following are responsibilities of a citizen except",
+          "answers": [
+            "Patriotism",
+            "Disloyalty",
+            "Obedience",
+            "Pay taxes"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-256",
+          "prompt": "________ has punctured nation building efforts in Nigeria",
+          "answers": [
+            "Inter-ethnic antagonism",
+            "University",
+            "Lagos",
+            "Business"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-257",
+          "prompt": "Nigerians need to contribute their _______ to the national development",
+          "answers": [
+            "quota",
+            "Homes",
+            "People",
+            "Families"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-258",
+          "prompt": "The process of colonialism in Nigeria consequently affected our collective _______",
+          "answers": [
+            "Retrogression",
+            "Atmosphere",
+            "Resolution",
+            "Culture"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-259",
+          "prompt": "What year was Nigeria colonized",
+          "answers": [
+            "1914",
+            "1884",
+            "1960",
+            "1784"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-260",
+          "prompt": "Ethnicity is described as a social phenomenon associated with _______",
+          "answers": [
+            "Citizenship",
+            "Identity of members of the largest",
+            "National identification number",
+            "Voter’s registration"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-261",
+          "prompt": "Language does not help to bring about economic and social integration",
+          "answers": [
+            "True",
+            "False"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-262",
+          "prompt": "Nigeria is separated three groups namely, northern personate, Southern personate and _____",
+          "answers": [
+            "Mid western personate",
+            "Western personate",
+            "Eastern personate"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-263",
+          "prompt": "What is the primary goal of nation-building",
+          "answers": [
+            "Military",
+            "Cultural diversity",
+            "National unity",
+            "Economic growth"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-264",
+          "prompt": "Challenges of nation building in Nigeria include",
+          "answers": [
+            "Economic stability",
+            "Sectarian uprising and ethnic militia group",
+            "High level of literacy",
+            "Cultural unity"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-265",
+          "prompt": "How can political instability affect state building",
+          "answers": [
+            "It ensures ethnic unity",
+            "It increases progress",
+            "It disrupts national development",
+            "It helps in foreign exchange"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-266",
+          "prompt": "___________ is common especially among the youth which is alarming",
+          "answers": [
+            "House",
+            "People",
+            "Government",
+            "Youth unemployment"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-267",
+          "prompt": "__________ in Nigeria especially among youth has remained alarming",
+          "answers": [
+            "House",
+            "Globalization",
+            "Youth unemployment",
+            "People"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-268",
+          "prompt": "Which of the following symbol of the Nigeria assembly?",
+          "answers": [
+            "National flag",
+            "Culture",
+            "Terrain",
+            "National anthem"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-269",
+          "prompt": "In 1900, Nigeria was divided into three separate territories, namely, the Niger coast/Southern protectorate, the Northern protectorate and _______",
+          "answers": [
+            "Mid-western protectorate",
+            "Eastern protectorate",
+            "Western protectorate",
+            "Colony"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-270",
+          "prompt": "The unemployment rate among Nigerian youth according to 2015 NBS figure is",
+          "answers": [
+            "16 million",
+            "80 million",
+            "64 million",
+            "32 million"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-271",
+          "prompt": "Native administration is a kind of Local Government administration introduced in British to govern each community in",
+          "answers": [
+            "Southern protectorate",
+            "Nigeria protectorate",
+            "Northern protectorate",
+            "Lagos protectorate"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-272",
+          "prompt": "The Introduction of Sharia law in 2000 occurred in",
+          "answers": [
+            "Southern Nigeria",
+            "Eastern Nigeria",
+            "Northern Nigeria",
+            "Western Nigeria"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-273",
+          "prompt": "The Transition tonation-states in Europe was",
+          "answers": [
+            "18th century",
+            "19th Century",
+            "20th Century",
+            "21st Century"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-274",
+          "prompt": "Citizenship regimes in nation states are ______",
+          "answers": [
+            "Arbitary and random",
+            "Institutionalized standards for naturalization",
+            "Not important",
+            "Defined by temporary rules"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-275",
+          "prompt": "The Egbesu Boys are militant youth wing of the ______ region in Nigeria",
+          "answers": [
+            "South-Southern",
+            "South-Western",
+            "North-Eastern",
+            "North-Western"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-276",
+          "prompt": "Corruption has continued to manifest both in public and ______ lives of Nigeria people",
+          "answers": [
+            "Private",
+            "Regional",
+            "Community",
+            "Sector"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-277",
+          "prompt": "A nation-state has ________ meaning has the ultimate authority within its borders and is not subject to any external power",
+          "answers": [
+            "Population",
+            "Territory",
+            "Sovereignty",
+            "Government"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-278",
+          "prompt": "Creation of national __________ is to enhance sound nation building",
+          "answers": [
+            "Roads",
+            "State",
+            "Consciousness",
+            "Map"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-279",
+          "prompt": "The following are ways a nation can be built except",
+          "answers": [
+            "Conflict",
+            "Good leaderdship",
+            "Patrotism"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-280",
+          "prompt": "A nation state has _______ with clearly defined geographical borders",
+          "answers": [
+            "population",
+            "Territory",
+            "State environment"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-281",
+          "prompt": "Ethnicity is based on",
+          "answers": [
+            "Voter card",
+            "Citizenship",
+            "Individual"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-282",
+          "prompt": "The type of conflict between two communities over a dispute is",
+          "answers": [
+            "Communal",
+            "Social",
+            "Political"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-283",
+          "prompt": "The idea of male and female selection can be described with the term",
+          "answers": [
+            "Gender equality",
+            "Gender inequality",
+            "Gender discrimination"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-284",
+          "prompt": "Who led the Biafra group",
+          "answers": [
+            "Nnamdi Azikwe",
+            "Nnamdi Kanu",
+            "Peter Okopi",
+            "Nnamkwo Kanu"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-285",
+          "prompt": "One of the following belongs to the NigerCongo family",
+          "answers": [
+            "the Berber branch",
+            "the Nilotic branch",
+            "the Handza branch",
+            "the West Atlantic branch"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-286",
+          "prompt": "The following are to specifically ensure the conduct of free and fair elections in Nigeria",
+          "answers": [
+            "The Tribunals",
+            "The society",
+            "The Judiciary",
+            "The Independent National Electoral Commission (INEC)"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-287",
+          "prompt": "The shared beliefs about governance and civic responsibilities is called",
+          "answers": [
+            "Social ideal",
+            "Cultural ideal",
+            "Religious ideal",
+            "Political ideal"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-288",
+          "prompt": "The following are concepts of national identity except",
+          "answers": [
+            "Political ideas",
+            "Culture",
+            "Dishonesty",
+            "Language"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-289",
+          "prompt": "Which of the following is not a method of nation-building",
+          "answers": [
+            "National education system",
+            "Social programmers",
+            "Cultural integration",
+            "Political fragmentation"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-290",
+          "prompt": "How can economic disparity affect nation-building?",
+          "answers": [
+            "It enhances educational access",
+            "It strengthens social cohesion",
+            "It creates divisions and unrest",
+            "It promotes equal opportunities"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-291",
+          "prompt": "Which of the following options has the major linguistic groups in Nigeria",
+          "answers": [
+            "Hausa, Igbo and Yoruba",
+            "AfroAsiatic, NiloSaharan and CongoNiger",
+            "AfroAsiatic, NiloSaharan and NigerCongo",
+            "Kordofanian, Rodovital and NiloSaharan"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-292",
+          "prompt": "______ often times result to loss of lives and properties",
+          "answers": [
+            "Education",
+            "Communal conflict",
+            "Development",
+            "Industry"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-293",
+          "prompt": "Language classification is essential has the following except ________",
+          "answers": [
+            "Conflict development",
+            "Language documentation or Language development",
+            "Language preservation",
+            "Educational development"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-294",
+          "prompt": "_____ refers to conflict involving two or more communities engaging themselves in disagreement or act of violence over issues",
+          "answers": [
+            "Development",
+            "People",
+            "Education",
+            "Communal conflict"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-295",
+          "prompt": "________ the wide gap between the rich and the poor will enhance strong nation building in Nigeria",
+          "answers": [
+            "Supporting",
+            "Increasing",
+            "Bridging",
+            "Enlarging"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-296",
+          "prompt": "Ife and modekeke conflict was more of _________ violence",
+          "answers": [
+            "Religious",
+            "Electoral",
+            "Children",
+            "Church"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-297",
+          "prompt": "________ is used to describe the gap of discrepancies or imbalances between male and female",
+          "answers": [
+            "Gender balance",
+            "Gender equity",
+            "Gender quality",
+            "Gender inequality"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-298",
+          "prompt": "_______ is the status of belonging to a nation",
+          "answers": [
+            "Fellowship",
+            "Membership",
+            "Citizenship",
+            "Friendship"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-299",
+          "prompt": "Which of this is advantageous in the distribution of tangible and intangible resources",
+          "answers": [
+            "Children",
+            "Youth",
+            "North"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-300",
+          "prompt": "In what year was the UN’s fourth world conference on women held in Beijing China",
+          "answers": [
+            "1985",
+            "2005",
+            "2015",
+            "1995"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-301",
+          "prompt": "Which of the following is a much larger linguistic group",
+          "answers": [
+            "AfroAsiatic",
+            "Niger-Congo-Kordofanian",
+            "Nilo-Saharan",
+            "Khoisan"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-302",
+          "prompt": "Federal government was accused for the following except ________ the Niger Delta",
+          "answers": [
+            "Undue Exploitation",
+            "Lack of Government presence",
+            "Long period of Neglect",
+            "Presidential position"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-303",
+          "prompt": "___________ leadership contribute to a strong nation",
+          "answers": [
+            "Weak",
+            "Tender",
+            "Responsive",
+            "Bad"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-304",
+          "prompt": "Communal conflict occurs at either ______ or ______ level",
+          "answers": [
+            "Inter or Intra",
+            "Intra or Endeavor",
+            "People or Culture",
+            "Inter or indigenous",
+            "Enterprise and extravaneous"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-305",
+          "prompt": "Underemployment among youths in Nigeria has promote",
+          "answers": [
+            "Progress",
+            "Food",
+            "Desperation"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-306",
+          "prompt": "Why is political stability major in nation building",
+          "answers": [
+            "Encourages social unrest",
+            "Limits international relations",
+            "Fosters economic inequality",
+            "Promotes consistent governance"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-307",
+          "prompt": "A nation state has clearly defined geographical borders referred to as ______",
+          "answers": [
+            "Edges",
+            "Borders",
+            "Frontiers",
+            "Territory"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-308",
+          "prompt": "The following characteristics of nation state except",
+          "answers": [
+            "Conflict",
+            "Territory",
+            "Population",
+            "National identity"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-309",
+          "prompt": "Lagos and Maiduguri are affected ______",
+          "answers": [
+            "Flood",
+            "Desertification",
+            "Land"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-310",
+          "prompt": "________ remained unabated in places like lagos and Maiduguri",
+          "answers": [
+            "Desertification",
+            "Flood",
+            "Land"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-311",
+          "prompt": "_______ is common with African economies",
+          "answers": [
+            "Water",
+            "Low productivity",
+            "Road",
+            "High productivity"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-312",
+          "prompt": "________ is the major alarming problem among Nigerian youths today",
+          "answers": [
+            "Youth unemployment",
+            "Language",
+            "Diversity",
+            "Ethnic groups"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-313",
+          "prompt": "_______ is a major need in Nigeria from the time past",
+          "answers": [
+            "Nation building",
+            "Instability",
+            "Nation state",
+            "Ethnic groups"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-314",
+          "prompt": "Status of being membership of a country is known as",
+          "answers": [
+            "Citizenship",
+            "Membership",
+            "Fellowship",
+            "Friendship"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-315",
+          "prompt": "What is common challenges in nature building",
+          "answers": [
+            "Overabundance of resources",
+            "Excessive unity",
+            "Ethnic tensions",
+            "Rapid industrialization"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-316",
+          "prompt": "The following are characteristics of culture except",
+          "answers": [
+            "Learned",
+            "Shared",
+            "Integration",
+            "None"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-317",
+          "prompt": "What roles does language play in culture",
+          "answers": [
+            "It is irrelevant",
+            "It only affect written culture",
+            "It serves as a primary means of communication and cultural expression",
+            "It is only important in formal education"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-318",
+          "prompt": "Kanuri belongs to which family",
+          "answers": [
+            "Sudanic",
+            "Click",
+            "Kordofan"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-319",
+          "prompt": "During the precolonial, Nigeria was divided into Southern protectorate, Northern protectorate and ________",
+          "answers": [
+            "Eastern protectorate",
+            "Westeren protectorate"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-320",
+          "prompt": "Restoration of democratic rule was in the year",
+          "answers": [
+            "1999",
+            "1998",
+            "2002"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-321",
+          "prompt": "Which militant group emerged from the South East to demand succession?",
+          "answers": [
+            "Boko Haram",
+            "Movement for the Emancipation of Niger Delta (MEND)",
+            "Indigenous People of Biafra (IPOB)",
+            "Arewa Youths"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-322",
+          "prompt": "Grand corruption is characterized ?",
+          "answers": [
+            "Low-level officials’ misconduct",
+            "High-level acts distorting polity for personal gain",
+            "Minor administrative practices",
+            "Legal financial practices"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-323",
+          "prompt": "The Yoruba people are known for their",
+          "answers": [
+            "Rich oral traditions",
+            "Nomadic lifestyle",
+            "Fishing practices",
+            "Agricultural techniques"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-324",
+          "prompt": "The year female was given equal rights to participate in politics",
+          "answers": [
+            "1995",
+            "2005",
+            "2015"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-325",
+          "prompt": "________ refers to conflict involving two or more communities engaging themselves in disagreement",
+          "answers": [
+            "Communal conflict",
+            "Social conflict",
+            "Political conflict"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-326",
+          "prompt": "__________ remained a major challenge to the Nigeria state up till the 21st century",
+          "answers": [
+            "Nation state",
+            "Nation building",
+            "Citizen",
+            "National identity"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-327",
+          "prompt": "English language, like every other language is a tonal language",
+          "answers": [
+            "True",
+            "False"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-328",
+          "prompt": "Greenberg in 1963 classified African language into _______",
+          "answers": [
+            "4",
+            "5",
+            "2",
+            "3"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-329",
+          "prompt": "The following are examples of sectarian and ethnic groups except ________",
+          "answers": [
+            "Boko Haram Sect",
+            "Movement for the Emancipation of the Niger Delta (MEND)",
+            "Student Union Government",
+            "Niger Delta Avengers (NDA)"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-330",
+          "prompt": "Strategies of _________ is part of solution to challenges of nation building",
+          "answers": [
+            "Sailing",
+            "Car assembling",
+            "marriage",
+            "Development"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-331",
+          "prompt": "A nation state has a government that exercise _______",
+          "answers": [
+            "Directives",
+            "Authority",
+            "Power",
+            "Force"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-332",
+          "prompt": "Nation building often require the creation of __________",
+          "answers": [
+            "Private armies",
+            "Cultural divides",
+            "Isolationist trade policies",
+            "National policies"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-333",
+          "prompt": "According to Greenberg, Nigeria languages have been categorized into ________",
+          "answers": [
+            "4",
+            "3",
+            "5",
+            "6"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-334",
+          "prompt": "The recent Nigeria has contributed to witness rising and persistent cases of _________",
+          "answers": [
+            "Ethnic militia",
+            "Riots",
+            "Crises",
+            "Peace"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-335",
+          "prompt": "Which of the following belongs to the Nigercongo family",
+          "answers": [
+            "Kordofanian",
+            "West Atlantic branch",
+            "Berber Branch",
+            "Handza Branch"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-336",
+          "prompt": "How many living languages are in Nigeria",
+          "answers": [
+            "505",
+            "515",
+            "502",
+            "510"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-337",
+          "prompt": "Language barrier is a conflict of the society",
+          "answers": [
+            "True",
+            "False"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-338",
+          "prompt": "Nigeria is a multi-ethnic country with over _______ ethnic groups",
+          "answers": [
+            "250",
+            "350",
+            "450",
+            "150"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-339",
+          "prompt": "The English language along side other indigenous language is a tonal language",
+          "answers": [
+            "True",
+            "False"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-340",
+          "prompt": "_______ government leads to strong nation building",
+          "answers": [
+            "Bad",
+            "Responsive",
+            "Good",
+            "Corrupt"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-341",
+          "prompt": "The amalgamation of the northern and southern protectorate came up in the year",
+          "answers": [
+            "1902",
+            "1914",
+            "1990",
+            "1916"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-342",
+          "prompt": "The incremental positive change in the construction of a single national identity is _____",
+          "answers": [
+            "Nation-building",
+            "State building",
+            "Nation state",
+            "National identity"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-343",
+          "prompt": "________ has punctured nation building efforts in Nigeria",
+          "answers": [
+            "Inter-ethnic antagonism",
+            "University",
+            "Lagos"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-344",
+          "prompt": "Language doesn’t help to bring about social economic and integration",
+          "answers": [
+            "True",
+            "False"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-345",
+          "prompt": "In 1900, Nigeria was divided into three separate territories, The Niger coastal/Southern protectorate, the Northern protectorate and _______",
+          "answers": [
+            "Mid-western protectorate",
+            "Eastern protectorate",
+            "Western protectorate",
+            "Colony"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-346",
+          "prompt": "Federal government are accused for ________ the niger delta expert",
+          "answers": [
+            "Undue exploitation",
+            "Lack of government",
+            "Lack of neglect of government",
+            "Government position"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "gst112-347",
+          "prompt": "Grand corruption is characterized ?",
+          "answers": [
+            "Low-level officals’ misconduct",
+            "High-level acts distorting polity for personal gain",
+            "Minor administrative practices",
+            "Legal financial practices"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

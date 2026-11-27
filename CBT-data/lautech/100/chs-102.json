@@ -1,0 +1,2715 @@
+{
+     "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Consumer and Home Economics Science",
+  "course": {
+    "code": "CHS 102",
+    "title": "Introduction to Consumer and Home Economics Science"
+  },
+    "questions": [
+        {
+          "id": "chs102-001",
+          "prompt": "Multiple Choice Questions with",
+          "answers": [
+            "nswers Module: CHS102 - Introduction to Consumer and Home Economics Science Topic:",
+            "asic Principles of Financial Management Which faculty offers the",
+            "HS102 course?",
+            "Social Sciences"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-002",
+          "prompt": "What is the course code for \"Introduction to Consumer and Home Economics Science\"?",
+          "answers": [
+            "CHE102",
+            "FCS102",
+            "CHS102",
+            "ICO102"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-003",
+          "prompt": "How many credit units does CHS102 carry?",
+          "answers": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-004",
+          "prompt": "Who is the lecturer for CHS102?",
+          "answers": [
+            "Ade, F. B.",
+            "Fatima, S. K.",
+            "Oluwagbemileke, F. B.",
+            "No lecturer specified"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-005",
+          "prompt": "What is the main difference between Ade and Fatima in the modular introduction?",
+          "answers": [
+            "Ade earns more than Fatima.",
+            "Fatima spends more than Ade.",
+            "Fatima practices financial management while Ade struggles.",
+            "Ade saves more money than Fatima."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-006",
+          "prompt": "The analogy of a skilled farmer tending crops is used to describe the importance of:",
+          "answers": [
+            "Agricultural management",
+            "Bountiful harvests",
+            "Financial management",
+            "Future planning"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-007",
+          "prompt": "What is the ultimate goal of applying basic principles of financial management?",
+          "answers": [
+            "To earn a high salary",
+            "To live paycheck to paycheck",
+            "To cultivate a secure and prosperous future",
+            "To accumulate debt"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-008",
+          "prompt": "Personal financial management involves making informed decisions about all of the following EXCEPT:",
+          "answers": [
+            "Earning",
+            "Spending",
+            "Borrowing from friends",
+            "Investing"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-009",
+          "prompt": "Which of the following is NOT explicitly mentioned as part of the scope of personal financial management?",
+          "answers": [
+            "Budgeting",
+            "Managing debt",
+            "Planning for retirement",
+            "Starting a business"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-010",
+          "prompt": "What does \"sound financial management\" primarily aim to reduce?",
+          "answers": [
+            "Income",
+            "Stress and anxiety related to money",
+            "Financial goals",
+            "Investment risks"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-011",
+          "prompt": "Achieving financial goals, whether short-term or long-term, is a benefit of:",
+          "answers": [
+            "Ignoring financial advice",
+            "Sound financial management",
+            "Spontaneous spending",
+            "Accumulating liabilities"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-012",
+          "prompt": "What does effective financial management help create for unexpected events?",
+          "answers": [
+            "More debt",
+            "A financial safety net",
+            "Reduced income",
+            "Uninformed decisions"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-013",
+          "prompt": "Which of the following is a direct outcome of improved decision-making in financial management?",
+          "answers": [
+            "Increased stress",
+            "Reduced financial security",
+            "Better spending and investment choices",
+            "Higher liabilities"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-014",
+          "prompt": "What is defined as the money you receive from various sources?",
+          "answers": [
+            "Expenses",
+            "Assets",
+            "Income",
+            "Liabilities"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-015",
+          "prompt": "Which of these is an example of investment income?",
+          "answers": [
+            "Salary from employment",
+            "Profits from a business",
+            "Dividends from stocks",
+            "Government benefits"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-016",
+          "prompt": "Costs incurred in day-to-day living or for specific purposes are called:",
+          "answers": [
+            "Income",
+            "Assets",
+            "Expenses",
+            "Savings"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-017",
+          "prompt": "What type of expenses remain relatively constant over time?",
+          "answers": [
+            "Variable expenses",
+            "Fixed expenses",
+            "Unexpected expenses",
+            "Investment expenses"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-018",
+          "prompt": "Rent and loan payments are examples of what type of expenses?",
+          "answers": [
+            "Variable",
+            "Discretionary",
+            "Fixed",
+            "Seasonal"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-019",
+          "prompt": "Food and transportation costs are examples of what type of expenses?",
+          "answers": [
+            "Fixed",
+            "Consistent",
+            "Variable",
+            "Permanent"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-020",
+          "prompt": "What are things you own that have economic value called?",
+          "answers": [
+            "Liabilities",
+            "Debts",
+            "Expenses",
+            "Assets"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-021",
+          "prompt": "What kind of assets can be easily and quickly converted into cash without significant loss of value?",
+          "answers": [
+            "Illiquid Assets",
+            "Fixed Assets",
+            "Liquid Assets",
+            "Tangible Assets"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-022",
+          "prompt": "Cash on hand and money in savings accounts are examples of:",
+          "answers": [
+            "Illiquid assets",
+            "Long-term investments",
+            "Liquid assets",
+            "Liabilities"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-023",
+          "prompt": "What type of assets are not easily converted into cash or may take time to sell?",
+          "answers": [
+            "Liquid Assets",
+            "Current Assets",
+            "Illiquid Assets",
+            "Short-term Assets"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-024",
+          "prompt": "Property (land and buildings) and long-term investments like stocks are examples of:",
+          "answers": [
+            "Liquid assets",
+            "Illiquid assets",
+            "Current liabilities",
+            "Short-term assets"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-025",
+          "prompt": "What are your financial obligations or debts owed to others called?",
+          "answers": [
+            "Assets",
+            "Income",
+            "Liabilities",
+            "Equity"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-026",
+          "prompt": "Debts that are typically due within a year are classified as:",
+          "answers": [
+            "Long-Term Liabilities",
+            "Short-Term Liabilities",
+            "Fixed Liabilities",
+            "Investment Liabilities"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-027",
+          "prompt": "Credit card debt and short-term personal loans are examples of:",
+          "answers": [
+            "Long-term liabilities",
+            "Assets",
+            "Short-term liabilities",
+            "Equity"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-028",
+          "prompt": "Debts payable over a period longer than a year are called:",
+          "answers": [
+            "Short-Term Liabilities",
+            "Current Liabilities",
+            "Long-Term Liabilities",
+            "Immediate Debts"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-029",
+          "prompt": "Mortgages for property and loans for education are examples of:",
+          "answers": [
+            "Short-term liabilities",
+            "Liquid assets",
+            "Long-term liabilities",
+            "Fixed expenses"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-030",
+          "prompt": "How is Net Worth calculated?",
+          "answers": [
+            "Income + Expenses",
+            "Assets + Liabilities",
+            "Assets - Liabilities",
+            "Income - Taxes"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-031",
+          "prompt": "A positive net worth indicates that:",
+          "answers": [
+            "You owe more than you own.",
+            "Your liabilities exceed your assets.",
+            "Your assets exceed your liabilities.",
+            "You have no debts."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-032",
+          "prompt": "What generally happens to your financial health when your net worth increases?",
+          "answers": [
+            "It declines.",
+            "It remains stagnant.",
+            "It improves.",
+            "It becomes negative."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-033",
+          "prompt": "What represents the cost of borrowing money or the return on an investment?",
+          "answers": [
+            "Net Worth",
+            "Inflation",
+            "Interest Rates",
+            "Compounding"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-034",
+          "prompt": "The process which interest earned on an initial investment also earns interest over time is called:",
+          "answers": [
+            "Simple interest",
+            "Compounding",
+            "Depreciation",
+            "Inflation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-035",
+          "prompt": "In the compounding example, why did the interest earned in Year 2 (₦52.50) exceed Year 1 (₦50)?",
+          "answers": [
+            "The initial investment increased.",
+            "Interest was earned only on the principal.",
+            "Interest was earned on the principal plus prior interest.",
+            "The interest rate changed."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-036",
+          "prompt": "Over longer periods, the effect of compounding:",
+          "answers": [
+            "Becomes less significant",
+            "Remains constant",
+            "Becomes even more significant",
+            "Decreases the value of investments"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-037",
+          "prompt": "What concept states that \"A naira today is worth more than a naira tomorrow\"?",
+          "answers": [
+            "Inflation",
+            "Compounding",
+            "Time Value of Money",
+            "Net Worth"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-038",
+          "prompt": "What is the current value of a future sum of money given a specified rate of return?",
+          "answers": [
+            "Future Value",
+            "Present Value",
+            "Net Worth",
+            "Interest Rate"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-039",
+          "prompt": "Which concept helps in determining how much a future amount is worth in today's Naira?",
+          "answers": [
+            "Future Value",
+            "Saving",
+            "Present Value",
+            "Investing"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-040",
+          "prompt": "What is the value of an asset or investment at a specified date in the future?",
+          "answers": [
+            "Present Value",
+            "Market Value",
+            "Future Value",
+            "Book Value"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-041",
+          "prompt": "Setting aside a portion of your current income for future use is known as:",
+          "answers": [
+            "Investing",
+            "Spending",
+            "Saving",
+            "Budgeting"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-042",
+          "prompt": "Which type of account typically pays a small amount of interest and allows for easy access to money?",
+          "answers": [
+            "Fixed Deposit Accounts",
+            "Money Market Accounts",
+            "Savings Accounts",
+            "Checking Accounts"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-043",
+          "prompt": "Which savings account type usually offers higher interest rates but has restrictions on withdrawals before maturity?",
+          "answers": [
+            "Savings Accounts",
+            "Fixed Deposit Accounts",
+            "Money Market Accounts",
+            "Checking Accounts"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-044",
+          "prompt": "Money Market Accounts typically offer higher interest rates than regular savings accounts and may have features like:",
+          "answers": [
+            "Unlimited withdrawals",
+            "Limited check-writing abilities",
+            "No minimum balance",
+            "Instant cash access"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-045",
+          "prompt": "What is a recommended way to ensure consistent saving without conscious effort?",
+          "answers": [
+            "Withdraw cash frequently",
+            "Set up automatic transfers to savings",
+            "Spend all income first",
+            "Avoid tracking expenses"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-046",
+          "prompt": "Allocating money with the expectation of generating future income or profit is:",
+          "answers": [
+            "Saving",
+            "Spending",
+            "Budgeting",
+            "Investing"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-047",
+          "prompt": "Investing is particularly important for achieving:",
+          "answers": [
+            "Short-term financial goals",
+            "Immediate gratification",
+            "Long-term financial goals",
+            "Daily expenses"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-048",
+          "prompt": "What represents ownership shares in a publicly traded company?",
+          "answers": [
+            "Bonds",
+            "Mutual Funds",
+            "Stocks",
+            "Real Estate"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-049",
+          "prompt": "What represents loans made an investor to a borrower, usually paying a fixed interest rate?",
+          "answers": [
+            "Stocks",
+            "Bonds",
+            "Mutual Funds",
+            "Certificates of Deposit"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-050",
+          "prompt": "What investment option pools money from many investors to invest in a diversified portfolio managed a professional?",
+          "answers": [
+            "Individual Stocks",
+            "Savings Accounts",
+            "Mutual Funds",
+            "Real Estate"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-051",
+          "prompt": "What is the relationship between risk and return in investing?",
+          "answers": [
+            "Higher potential returns often come with higher levels of risk.",
+            "Higher potential returns always mean lower risk.",
+            "Risk and return are unrelated.",
+            "Lower risk always leads to higher returns."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-052",
+          "prompt": "What is an obligation to repay money borrowed from a lender?",
+          "answers": [
+            "Asset",
+            "Income",
+            "Debt",
+            "Equity"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-053",
+          "prompt": "Which type of debt is often used to acquire assets that may appreciate in value?",
+          "answers": [
+            "Bad debt",
+            "High-interest debt",
+            "Good debt",
+            "Consumable debt"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-054",
+          "prompt": "A mortgage for a home is typically considered:",
+          "answers": [
+            "Bad debt",
+            "Good debt",
+            "Short-term debt",
+            "Consumable debt"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-055",
+          "prompt": "Which type of debt is typically used to finance consumable goods or services that do not appreciate and can accrue high interest?",
+          "answers": [
+            "Good debt",
+            "Investment debt",
+            "Bad debt",
+            "Education loan"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-056",
+          "prompt": "High-interest credit card debt is an example of:",
+          "answers": [
+            "Good debt",
+            "Investment",
+            "Bad debt",
+            "An asset"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-057",
+          "prompt": "Financial goals intended to be achieved within one year are classified as:",
+          "answers": [
+            "Long-Term Goals",
+            "Medium-Term Goals",
+            "Short-Term Goals",
+            "Immediate Goals"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-058",
+          "prompt": "Saving for a holiday or buying a small appliance are examples of:",
+          "answers": [
+            "Long-term goals",
+            "Medium-term goals",
+            "Short-term goals",
+            "Life goals"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-059",
+          "prompt": "Financial goals planned to be accomplished within one to five years are:",
+          "answers": [
+            "Short-Term Goals",
+            "Medium-Term Goals",
+            "Long-Term Goals",
+            "Very Short-Term Goals"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-060",
+          "prompt": "Saving for a down payment on a car or funding further education are examples of:",
+          "answers": [
+            "Short-term goals",
+            "Medium-term goals",
+            "Long-term goals",
+            "Immediate goals"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-061",
+          "prompt": "Financial goals aimed to be achieved over a period of five years or more are:",
+          "answers": [
+            "Short-Term Goals",
+            "Medium-Term Goals",
+            "Long-Term Goals",
+            "Annual Goals"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-062",
+          "prompt": "Buying a house or saving for retirement are examples of:",
+          "answers": [
+            "Short-term goals",
+            "Medium-term goals",
+            "Long-term goals",
+            "Daily goals"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-063",
+          "prompt": "When a goal is \"Specific,\" it means you should:",
+          "answers": [
+            "Make it easy to achieve.",
+            "Clearly define what you want to achieve.",
+            "Set a deadline.",
+            "Ensure it is realistic."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-064",
+          "prompt": "In the example \"I will save ₦50,000 August 13, 2025, to purchase a new Binatone BLG-406 blender...\", what makes it \"Specific\"?",
+          "answers": [
+            "It has a deadline.",
+            "The amount and purpose are clearly defined.",
+            "It is realistic to save that amount.",
+            "It is relevant to financial objectives."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-065",
+          "prompt": "How is the goal \"I will save ₦50,000 August 13, 2025, to purchase a new Binatone BLG-406 blender...\" \"Measurable\"?",
+          "answers": [
+            "It aligns with financial objectives.",
+            "Progress can be tracked by the amount saved per paycheck and total.",
+            "It is easy to achieve.",
+            "It has a clear deadline."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-066",
+          "prompt": "What makes the goal \"I will save ₦50,000 August 13, 2025, to purchase a new Binatone BLG-406 blender...\" \"Achievable\"?",
+          "answers": [
+            "It has a clear deadline.",
+            "It involves purchasing an appliance.",
+            "It is presented with a realistic plan for how it will be achieved.",
+            "The amount is fixed."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-067",
+          "prompt": "\" May 15, 2037, I will accumulate ₦10,000,000 in a diversified investment portfolio to contribute towards my retirement, investing ₦69,444 monthly with an anticipated average annual return of 7%.\" This goal is an example of which type of financial goal?",
+          "answers": [
+            "Short-term",
+            "Medium-term",
+            "Long-term",
+            "Immediate"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-068",
+          "prompt": "In the goal \"I will save ₦80,000 to purchase a specific high-efficiency refrigerator (e.g., LG GN B372PQGB) using my next four monthly salaries,\" what makes it \"Specific\"?",
+          "answers": [
+            "The number of salaries.",
+            "The specific refrigerator model and amount.",
+            "It's a saving goal.",
+            "It has a deadline."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-069",
+          "prompt": "\" May 31, 2028, I will have saved ₦300,000 for a professional development course in data analytics allocating ₦8,333 monthly to a dedicated savings account.\" This goal is a good example of:",
+          "answers": [
+            "A non-SMART goal",
+            "A short-term goal",
+            "A medium-term goal",
+            "A long-term goal"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-070",
+          "prompt": "\"I will pay off my ₦45,000 credit card debt making extra payments of ₦7,500 per month above the minimum due. This will take me six months.\" This goal is an lent example of:",
+          "answers": [
+            "An unachievable goal",
+            "A SMART financial goal",
+            "A long-term investment",
+            "A variable expense"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-071",
+          "prompt": "\"I will fully fund my children's education with ₦8,000,000 in a dedicated education savings plan contributing ₦44,444 per month, assuming an average annual growth rate of 5%.\" This goal is likely:",
+          "answers": [
+            "A short-term goal",
+            "A medium-term goal",
+            "A long-term goal",
+            "A vague goal"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-072",
+          "prompt": "What is fundamental to understanding where your money is coming from and going?",
+          "answers": [
+            "Ignoring expenses",
+            "Tracking income and expenses",
+            "Only tracking income",
+            "Only tracking expenses"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-073",
+          "prompt": "Awareness of income and expenses is essential for all of the following EXCEPT:",
+          "answers": [
+            "Budgeting",
+            "Identifying areas to save",
+            "Making uninformed financial decisions",
+            "Making informed financial decisions"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-074",
+          "prompt": "Which of these is a manual method for record-keeping?",
+          "answers": [
+            "Budgeting apps",
+            "Personal finance software",
+            "Notebooks",
+            "Notes applications on your phone"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-075",
+          "prompt": "Which of these is a digital tool for tracking finances?",
+          "answers": [
+            "Ledgers",
+            "Spreadsheets (manual use)",
+            "Budgeting apps",
+            "Notebooks"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-076",
+          "prompt": "The modular summary states that basic principles of financial management are crucial for:",
+          "answers": [
+            "Accumulating debt",
+            "Building a strong financial future",
+            "Living paycheck to paycheck",
+            "Ignoring financial risks"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-077",
+          "prompt": "What is the fundamental principle of the time value of money according to the NB section?",
+          "answers": [
+            "A Naira received in the future is worth more than a Naira today.",
+            "A Naira today is worth more than a Naira received in the future.",
+            "The value of a Naira never changes.",
+            "Inflation increases the purchasing power of money."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-078",
+          "prompt": "Why is a Naira received today worth more than a Naira received in the future?",
+          "answers": [
+            "Because of deflation.",
+            "Money received today can be invested and potentially grow.",
+            "Future money is always uncertain.",
+            "Interest rates are always negative."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-079",
+          "prompt": "What contributes to the concept of time value of money eroding the purchasing power of money?",
+          "answers": [
+            "Compounding",
+            "Interest",
+            "Deflation",
+            "Inflation"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-080",
+          "prompt": "What term describes the money earned from employment or business activities?",
+          "answers": [
+            "Assets",
+            "Expenses",
+            "Income",
+            "Liabilities"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-081",
+          "prompt": "Which of the following is NOT typically considered a fixed expense?",
+          "answers": [
+            "Rent",
+            "Insurance premiums",
+            "Entertainment",
+            "Loan payments"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-082",
+          "prompt": "What is the primary characteristic of liquid assets?",
+          "answers": [
+            "They are difficult to sell quickly.",
+            "They offer very high returns.",
+            "They can be easily converted to cash without significant loss.",
+            "They are long-term investments only."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-083",
+          "prompt": "Which of these is an example of a short-term liability?",
+          "answers": [
+            "A 30-year mortgage",
+            "A car loan spanning 5 years",
+            "Credit card debt due next month",
+            "A student loan repaid over 10 years"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-084",
+          "prompt": "If your net worth is negative, what does that signify?",
+          "answers": [
+            "Your assets are greater than your liabilities.",
+            "You have no income.",
+            "You owe more than you own.",
+            "You are financially secure."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-085",
+          "prompt": "The \"interest on interest\" effect is a key characteristic of:",
+          "answers": [
+            "Simple interest",
+            "Fixed expenses",
+            "Compounding",
+            "Depreciation"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-086",
+          "prompt": "What does \"Present Value\" help you understand?",
+          "answers": [
+            "How much an investment will be worth in the future.",
+            "The current worth of a future sum of money.",
+            "The total interest earned on a savings account.",
+            "Your current monthly income."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-087",
+          "prompt": "Setting aside money for emergencies is a primary purpose of:",
+          "answers": [
+            "Investing",
+            "Incurring bad debt",
+            "Saving",
+            "Speculating in stocks"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-088",
+          "prompt": "Which investment option allows for professional management of a diversified portfolio?",
+          "answers": [
+            "Individual stocks",
+            "Bonds (purchased individually)",
+            "Mutual Funds",
+            "Savings accounts"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-089",
+          "prompt": "What is the primary benefit of good debt?",
+          "answers": [
+            "It finances consumable goods.",
+            "It always has very low interest rates.",
+            "It is used to acquire assets that may appreciate or generate income.",
+            "It reduces your net worth."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-090",
+          "prompt": "Saving for a child's university education starting when they are young would typically fall under which goal category?",
+          "answers": [
+            "Short-term",
+            "Medium-term",
+            "Long-term",
+            "Immediate"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-091",
+          "prompt": "When making a financial goal \"Achievable,\" you should consider:",
+          "answers": [
+            "Only the desired outcome.",
+            "Your resources and capabilities.",
+            "The exact date it will be completed.",
+            "How vague the goal is."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-092",
+          "prompt": "What is the overarching purpose of record-keeping in financial management?",
+          "answers": [
+            "To avoid paying taxes.",
+            "To understand where money comes from and goes.",
+            "To complicate financial decisions.",
+            "To make budgeting unnecessary."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-093",
+          "prompt": "Aspect: Communication and Conflict Resolution in Families; Impact of Family Dynamics on Individual Health and Wellbeing What is the primary purpose of communication in the context of families?",
+          "answers": [
+            "To avoid discussions",
+            "To share and exchange information, feelings, thoughts, and meanings",
+            "To control family members",
+            "To limit emotional expression"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-094",
+          "prompt": "Which of the following is NOT encompassed family communication?",
+          "answers": [
+            "Verbal interactions",
+            "Non-verbal interactions",
+            "Shaping family relationships",
+            "External political debates"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-095",
+          "prompt": "A group composed of two individuals who share some traits and are connected in some way is known as a:",
+          "answers": [
+            "Triad",
+            "Dyad",
+            "Group",
+            "Community"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-096",
+          "prompt": "Which of these is an example of a dyad as described in the text?",
+          "answers": [
+            "A team of five colleagues",
+            "A parent and child",
+            "A large family gathering",
+            "A classroom of students"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-097",
+          "prompt": "Dyadic communication primarily involves:",
+          "answers": [
+            "Large group discussions",
+            "Direct face-to-face interaction between two people",
+            "Written correspondence",
+            "Public speaking"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-098",
+          "prompt": "In dyadic communication, what do people who communicate this way often share?",
+          "answers": [
+            "Conflicting goals",
+            "Limited common interests",
+            "Similar thoughts, behaviors, or a common goal",
+            "Strictly opposing views"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-099",
+          "prompt": "Which communication style aims to dominate or control the other person, often involving attacking or blaming?",
+          "answers": [
+            "Passive communication",
+            "Assertive communication",
+            "Aggressive communication",
+            "Manipulative communication"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-100",
+          "prompt": "Suppressing your needs and feelings, and avoiding conflict, is characteristic of which communication style?",
+          "answers": [
+            "Assertive communication",
+            "Passive communication",
+            "Passive-aggressive communication",
+            "Aggressive communication"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-101",
+          "prompt": "Expressing hostility or aggression indirectly, such as through sarcasm or backhanded compliments, defines which communication style?",
+          "answers": [
+            "Assertive communication",
+            "Manipulative communication",
+            "Passive-aggressive communication",
+            "Aggressive communication"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-102",
+          "prompt": "Which communication style involves using tactics to control or influence others using guilt, fear, or emotional appeals?",
+          "answers": [
+            "Assertive communication",
+            "Aggressive communication",
+            "Manipulative communication",
+            "Passive communication"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-103",
+          "prompt": "Which communication style involves expressing your needs, feelings, and opinions clearly, directly, and respectfully?",
+          "answers": [
+            "Aggressive communication",
+            "Passive communication",
+            "Assertive communication",
+            "Passive-aggressive communication"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-104",
+          "prompt": "Assertive communication focuses on finding a balance between being:",
+          "answers": [
+            "Rude and polite",
+            "Passive and aggressive",
+            "Dominating and submissive",
+            "Silent and loud"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-105",
+          "prompt": "According to the text, assertive communication comes from a place of:",
+          "answers": [
+            "Fear",
+            "Confusion",
+            "Confidence",
+            "Manipulation"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-106",
+          "prompt": "What is a key piece of assertive communication, as exemplified in the text?",
+          "answers": [
+            "Blaming statements",
+            "\"You\" statements",
+            "\"I\" statements",
+            "Threatening language"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-107",
+          "prompt": "What communication skill involves fully focusing, understanding, responding, and remembering what is being said?",
+          "answers": [
+            "Passive communication",
+            "Active listening",
+            "Aggressive questioning",
+            "Selective hearing"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-108",
+          "prompt": "In the sibling conflict example, \"When you interrupt me while I’m speaking, I feel disrespected. I’d like you to let me finish before you respond,\" what makes it assertive?",
+          "answers": [
+            "It blames the other person.",
+            "It avoids the conflict.",
+            "It states the behavior, feeling, and a respectful request.",
+            "It uses a sarcastic tone."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-109",
+          "prompt": "What makes the statement \"We keep arguing over chores. Let’s sit down and come up with a fair schedule together\" assertive?",
+          "answers": [
+            "It avoids the issue.",
+            "It blames one sibling.",
+            "It offers a collaborative solution.",
+            "It dictates the solution."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-110",
+          "prompt": "The assertive example \"I'm worried about your cooking skills; maybe I should take over or you need more lessons\" is a miscategorization in the text. Which style does it actually represent?",
+          "answers": [
+            "Passive",
+            "Aggressive",
+            "Manipulative",
+            "Assertive"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-111",
+          "prompt": "Which of the following is a benefit of assertive communication in marriage?",
+          "answers": [
+            "It increases conflict.",
+            "It leads to suppressed emotions.",
+            "It strengthens communication skills and fosters open exchange.",
+            "It creates an unequal dynamic."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-112",
+          "prompt": "Assertive communication contributes to a stronger sense of connection and intimacy building:",
+          "answers": [
+            "Distance and detachment",
+            "Fear and anxiety",
+            "Respect and trust",
+            "Indifference and apathy"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-113",
+          "prompt": "How does assertive communication help couples address conflicts?",
+          "answers": [
+            "By avoiding them completely.",
+            "By addressing them destructively.",
+            "By addressing them constructively.",
+            "By allowing one partner to dominate."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-114",
+          "prompt": "Expressing needs and opinions assertively can boost an individual's:",
+          "answers": [
+            "Low self-esteem",
+            "Anxiety levels",
+            "Self-esteem and confidence",
+            "Need for external validation"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-115",
+          "prompt": "What is one stated reason for passive communication?",
+          "answers": [
+            "Desire for control",
+            "Fear of conflict",
+            "High self-esteem",
+            "Excellent communication skills"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-116",
+          "prompt": "Avoiding emotional confrontation is a reason for which communication style?",
+          "answers": [
+            "Assertive",
+            "Aggressive",
+            "Passive",
+            "Manipulative"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-117",
+          "prompt": "What can happen when family members are not assertive in expressing their needs, wants, and feelings?",
+          "answers": [
+            "Immediate conflict resolution",
+            "Resentment can build",
+            "Increased understanding",
+            "Stronger family bonds"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-118",
+          "prompt": "When conflicts are constantly avoided, what negative emotions can build up in a relationship?",
+          "answers": [
+            "Joy and happiness",
+            "Resentment and anger",
+            "Peace and harmony",
+            "Mutual respect"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-119",
+          "prompt": "A lack of assertiveness in family relationships might lead family members, especially children, to experience:",
+          "answers": [
+            "High self-esteem",
+            "Strong individual identities",
+            "Low self-esteem",
+            "Enhanced confidence"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-120",
+          "prompt": "When children witness parents who are not assertive, they might learn to:",
+          "answers": [
+            "Express their needs healthily",
+            "Suppress or over-express their own needs and feelings",
+            "Resolve conflicts effectively",
+            "Engage in active listening"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-121",
+          "prompt": "What is a key characteristic of a healthy family relationship related to valuing opinions and needs?",
+          "answers": [
+            "Unresolved conflicts",
+            "Mutual Respect",
+            "Poor communication",
+            "Individual isolation"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-122",
+          "prompt": "In a healthy family relationship, members should feel safe to express thoughts and feelings without fear of:",
+          "answers": [
+            "Agreement",
+            "Openness",
+            "Judgment or repercussions",
+            "Collaboration"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-123",
+          "prompt": "What does a healthy relationship involve, where everyone works together to find solutions?",
+          "answers": [
+            "Domination",
+            "Avoidance",
+            "Collaboration and Compromise",
+            "Passive acceptance"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-124",
+          "prompt": "Conflict occurs in families when all of the following are present EXCEPT:",
+          "answers": [
+            "Constant arguing and inability to resolve disagreement",
+            "Physical or emotional violence",
+            "Strong mutual respect and open communication",
+            "Intense sibling rivalry"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-125",
+          "prompt": "Which conflict resolution technique involves neither party getting what they want, often distracting themselves from the issue?",
+          "answers": [
+            "Accommodating",
+            "Compromising",
+            "Avoiding",
+            "Collaborating"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-126",
+          "prompt": "Avoiding as a conflict resolution technique is considered unproductive among family members because:",
+          "answers": [
+            "It leads to quick resolution.",
+            "It makes the conflict worse.",
+            "It ensures everyone gets what they want.",
+            "It fosters open communication."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-127",
+          "prompt": "Which conflict resolution technique is used when one sees that the issue causing disagreement is more important to the other person?",
+          "answers": [
+            "Dominating",
+            "Avoiding",
+            "Accommodating or giving in",
+            "Compromising"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-128",
+          "prompt": "In which conflict resolution technique is there control over the other person to act in a desired manner, often seen as bullying in a family?",
+          "answers": [
+            "Avoiding",
+            "Accommodating",
+            "Dominating/competing",
+            "Compromising"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-129",
+          "prompt": "When using \"Compromising\" as a conflict resolution technique, what is the outcome?",
+          "answers": [
+            "One party gets everything they want.",
+            "Neither party gets anything they want.",
+            "Both parties get some of what they want, but also leave some on the table.",
+            "A win-win situation is always achieved."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-130",
+          "prompt": "Which conflict resolution technique is described as the \"way to go\" for resolving conflicts, though it takes time and patience?",
+          "answers": [
+            "Avoiding",
+            "Dominating",
+            "Compromising",
+            "Collaboration"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-131",
+          "prompt": "What grows when collaboration is used as a conflict resolution technique?",
+          "answers": [
+            "Resentment",
+            "Distrust",
+            "Trust and understanding",
+            "Unresolved issues"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-132",
+          "prompt": "What are \"Family Dynamics\" described as?",
+          "answers": [
+            "Static rules within a household",
+            "Forms of interactions, relationships, roles, and hierarchy in families",
+            "Only financial interactions",
+            "Individual behaviors separate from the family"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-133",
+          "prompt": "Which of these can influence family dynamics?",
+          "answers": [
+            "Only positive events",
+            "Family members taking on caregiving roles for aging parents",
+            "Only financial stability",
+            "External political situations solely"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-134",
+          "prompt": "A \"functional family\" is also known as a:",
+          "answers": [
+            "Dysfunctional family",
+            "Fragmented family",
+            "Healthy family",
+            "Unsupportive family"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-135",
+          "prompt": "A functional family is characterized all of the following EXCEPT:",
+          "answers": [
+            "Effective communication",
+            "Mutual respect",
+            "Poor communication",
+            "Supportive relationships"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-136",
+          "prompt": "Which feature of a functional family involves members communicating openly, honestly, and respectfully without fear of judgment?",
+          "answers": [
+            "Lack of Boundaries",
+            "Open Communication",
+            "Role Confusion",
+            "Emotional Neglect"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-137",
+          "prompt": "The feature of \"Healthy Boundaries\" in a functional family allows individuals to have:",
+          "answers": [
+            "Complete enmeshment",
+            "Personal space, autonomy, and individual identities",
+            "Unclear roles",
+            "Constant conflict"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-138",
+          "prompt": "What is a key feature of a functional family in coping with adversity?",
+          "answers": [
+            "Blame and guilt",
+            "Secret-keeping",
+            "Resilience in Adversity",
+            "Chronic conflict"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-139",
+          "prompt": "A dysfunctional family is defined as one that is unable to meet basic needs, provide emotional support, or:",
+          "answers": [
+            "Function well as a unit",
+            "Celebrate achievements",
+            "Maintain open communication",
+            "Promote individual growth"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-140",
+          "prompt": "Aspect: Importance of Housing in Family Well-being; Basic Principles of Interior Design and Space Management; Selecting and Maintaining Household Equipment; Understanding Family Structures and Functions Beyond providing shelter, housing is considered a key determinant of family well-being because it influences all of the following EXCEPT:",
+          "answers": [
+            "Physical health",
+            "Mental stability",
+            "Economic inflation rates",
+            "Social relationships"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-141",
+          "prompt": "Poor housing conditions, such as mold or lead paint, can cause which of these health issues, especially in children?",
+          "answers": [
+            "Improved vision",
+            "Asthma, allergies, and poisoning",
+            "Enhanced immunity",
+            "Better academic performance"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-142",
+          "prompt": "What does a stable home environment primarily foster?",
+          "answers": [
+            "Increased financial debt",
+            "Mental health and emotional security",
+            "Social isolation",
+            "Frequent relocations"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-143",
+          "prompt": "According to the text, families in overcrowded homes experience higher levels of:",
+          "answers": [
+            "Privacy and comfort",
+            "Stress and conflict",
+            "Social cohesion",
+            "Economic stability"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-144",
+          "prompt": "What does living near job markets help reduce for families?",
+          "answers": [
+            "Employment opportunities",
+            "Commuting stress",
+            "Wealth building",
+            "Cost burden on housing"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-145",
+          "prompt": "Which of the following is a consequence of high rent or mortgage payments (cost burden) on families?",
+          "answers": [
+            "Increased spending on education",
+            "Limited spending on food, education, and healthcare",
+            "Wealth building opportunities",
+            "Reduced anxiety"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-146",
+          "prompt": "Child developmental delays are listed as an effect of which housing challenge?",
+          "answers": [
+            "Affordable Housing Programs",
+            "Home Maintenance",
+            "Homelessness and Inadequate Housing",
+            "Universal Design"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-147",
+          "prompt": "Subsidies and low-income housing projects are examples of strategies under:",
+          "answers": [
+            "Family-Level Solutions",
+            "Government and Policy Interventions",
+            "Sustainable and Inclusive Housing Designs",
+            "Home Maintenance"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-148",
+          "prompt": "What is a recommended family-level solution for improving housing well-being?",
+          "answers": [
+            "Waiting for government subsidies",
+            "Prioritizing affordable, safe living spaces through budgeting",
+            "Ignoring rent hikes",
+            "Avoiding community involvement"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-149",
+          "prompt": "What type of housing design is adaptable for children, the elderly, and persons with disabilities?",
+          "answers": [
+            "Eco-friendly Homes",
+            "Traditional Design",
+            "Universal Design",
+            "Minimalist Design"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-150",
+          "prompt": "What is the primary benefit of effective interior design and space management?",
+          "answers": [
+            "To complicate living environments",
+            "To maximize clutter",
+            "To enhance the quality of life by optimizing space utilization",
+            "To reduce comfort"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-151",
+          "prompt": "Mirroring elements on either side of a central axis to create formal harmony is an example of which design principle?",
+          "answers": [
+            "Asymmetrical Balance",
+            "Rhythm",
+            "Symmetrical Balance",
+            "Contrast"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-152",
+          "prompt": "What principle involves the strategic use of opposing elements (e.g., light/dark, smooth/textured) to add interest?",
+          "answers": [
+            "Repetition",
+            "Transition",
+            "Contrast",
+            "Proportion"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-153",
+          "prompt": "What serves as a natural focal point in a room's design?",
+          "answers": [
+            "A plain wall",
+            "A fireplace or large window",
+            "A small table",
+            "An empty space"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-154",
+          "prompt": "What effect do warm colors like reds and oranges have on spaces?",
+          "answers": [
+            "Promote calmness",
+            "Can make spaces appear cold",
+            "Energize spaces",
+            "Provide flexibility"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-155",
+          "prompt": "Dividing spaces into zones using furniture or visual cues is a strategy for:",
+          "answers": [
+            "Furniture Selection",
+            "Vertical Space Utilization",
+            "Functional Zoning",
+            "Decluttering"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-156",
+          "prompt": "For effective traffic flow, what minimum pathway width is recommended for easy movement?",
+          "answers": [
+            "1 foot",
+            "2 feet",
+            "3 feet",
+            "4 feet"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-157",
+          "prompt": "Beds with storage and extendable tables are examples of:",
+          "answers": [
+            "Single-purpose furniture",
+            "Overpriced items",
+            "Multi-purpose furniture",
+            "Fixed furniture"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-158",
+          "prompt": "What is a technique for optimizing small spaces?",
+          "answers": [
+            "Using large, heavy furniture",
+            "Painting walls dark colors",
+            "Using mirrors to create an illusion of depth",
+            "Overcrowding the room with decor"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-159",
+          "prompt": "For family-centric design, what type of materials are recommended for high-traffic areas?",
+          "answers": [
+            "Delicate, easily stained materials",
+            "Soft, easily damaged materials",
+            "Durable, stain-resistant materials",
+            "Rough, abrasive materials"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-160",
+          "prompt": "Aspect: Budgeting and Financial Planning for Individuals and Families In the modular introduction, a skilled sailor charting a course is an analogy for the need for what in financial lives?",
+          "answers": [
+            "Aimless drifting",
+            "A roadmap to guide us towards our goals",
+            "Relying on chance",
+            "Avoiding any planning"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-161",
+          "prompt": "Budgeting is defined as the process of creating a detailed plan for how you will spend your money over a:",
+          "answers": [
+            "Lifetime",
+            "Specific short period",
+            "Decade",
+            "Unspecified future"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-162",
+          "prompt": "What does a budget act as, helping you track spending and ensure money aligns with priorities?",
+          "answers": [
+            "A burden",
+            "A limitation",
+            "A guide",
+            "An unnecessary document"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-163",
+          "prompt": "Which of the following is NOT an aspect of financial planning mentioned in the text?",
+          "answers": [
+            "Saving",
+            "Investing",
+            "Daily social media use",
+            "Retirement planning"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-164",
+          "prompt": "What is a key benefit of budgeting that helps prevent overspending and ensures you are living within your means?",
+          "answers": [
+            "Avoiding awareness of spending",
+            "Controlling Spending",
+            "Increasing debt",
+            "Ignoring financial limits"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-165",
+          "prompt": "Building an emergency fund, which acts as a safety net for unexpected expenses, is part of:",
+          "answers": [
+            "Ignoring financial risks",
+            "Managing Financial Emergencies",
+            "Increasing discretionary spending",
+            "Relying solely on credit"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-166",
+          "prompt": "What is the first step in creating a budget?",
+          "answers": [
+            "Tracking current expenses",
+            "Identifying Income Sources",
+            "Setting financial goals",
+            "Allocating funds"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-167",
+          "prompt": "What does \"net income\" refer to in the context of identifying income sources?",
+          "answers": [
+            "Gross salary before deductions",
+            "Income after all deductions",
+            "Investment income only",
+            "Business profits only"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-168",
+          "prompt": "Which of these is a manual method for tracking current expenses?",
+          "answers": [
+            "Tracking apps",
+            "Linking to bank accounts",
+            "Expense diaries",
+            "Personal finance software"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-169",
+          "prompt": "After having a clear picture of income and current spending, what is the next step in creating a budget?",
+          "answers": [
+            "Monitoring the budget",
+            "Adjusting expenses",
+            "Setting Financial Goals",
+            "Identifying spending leaks"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-170",
+          "prompt": "When allocating funds, it is crucial to prioritize:",
+          "answers": [
+            "Wants",
+            "Luxury items",
+            "Needs (essential expenses)",
+            "Entertainment"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-171",
+          "prompt": "A budget is described as not being a static document; therefore, it needs to be:",
+          "answers": [
+            "Ignored once created",
+            "Monitored regularly and adjusted",
+            "Reviewed annually only",
+            "Kept secret from family members"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-172",
+          "prompt": "Small, often unnoticed expenses that can add up overtime (e.g., daily snacks) are referred to as:",
+          "answers": [
+            "Major investments",
+            "Income sources",
+            "Spending Leaks",
+            "Fixed expenses"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-173",
+          "prompt": "An emergency fund is a readily accessible savings account containing enough money to cover how many months of essential living expenses?",
+          "answers": [
+            "One month",
+            "Three to six months",
+            "Twelve months",
+            "Unlimited"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-174",
+          "prompt": "Which budgeting method involves allocating every Naira of your income to a specific category so that income minus expenses equals zero?",
+          "answers": [
+            "50/30/20 Rule",
+            "Envelope System",
+            "Zero-Based Budgeting",
+            "Budgeting Apps and Software"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-175",
+          "prompt": "Aspect: Basic Principles of Financial Management Which budgeting method uses cash in labeled envelopes for different spending categories?",
+          "answers": [
+            "Zero-Based Budgeting",
+            "50/30/20 Rule",
+            "Envelope System",
+            "Budgeting Apps and Software"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-176",
+          "prompt": "What is a key feature offered budgeting apps and software?",
+          "answers": [
+            "Manual recording of every expenditure",
+            "Restrictions on withdrawals before maturity",
+            "Automatic transaction import and visual charts",
+            "Fixed interest rates only"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-177",
+          "prompt": "In Kwame's scenario, what is his net monthly salary?",
+          "answers": [
+            "₦70,000",
+            "₦54,000",
+            "₦250,000",
+            "₦374,000"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-178",
+          "prompt": "Kwame's guardian in the UK sends him £30 monthly. What is the Naira equivalent used in his budget?",
+          "answers": [
+            "₦30,000",
+            "₦54,000",
+            "₦70,000",
+            "₦250,000"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-179",
+          "prompt": "What is Kwame's total monthly income after identifying all sources?",
+          "answers": [
+            "₦250,000",
+            "₦70,000",
+            "₦374,000",
+            "₦54,000"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-180",
+          "prompt": "What is Kwame's average monthly expense for rent?",
+          "answers": [
+            "₦70,000",
+            "₦80,000",
+            "₦40,000",
+            "₦25,000"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-181",
+          "prompt": "Kwame's short-term goal is to save ₦150,000 for a laptop in 5 months. How much does he need to save approximately per month for this goal?",
+          "answers": [
+            "₦20,833",
+            "₦30,000",
+            "₦12,500",
+            "₦15,000"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-182",
+          "prompt": "Kwame's medium-term goal is to save ₦500,000 for a car down payment in 2 years. Approximately how much should he save per month for this?",
+          "answers": [
+            "₦21,000",
+            "₦33,000",
+            "₦20,833",
+            "₦26,000"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-183",
+          "prompt": "In Kwame's allocated budget, what percentage of his income is allocated to \"Needs\"?",
+          "answers": [
+            "20%",
+            "30%",
+            "50%",
+            "Not specified"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-184",
+          "prompt": "What percentage of Kwame's income is allocated to \"Savings\" in his new budget plan?",
+          "answers": [
+            "20%",
+            "30%",
+            "50%",
+            "Not specified"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-185",
+          "prompt": "What percentage of Kwame's income is allocated to \"Wants\" in his new budget plan?",
+          "answers": [
+            "20%",
+            "30%",
+            "50%",
+            "Not specified"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-186",
+          "prompt": "After allocating funds in his budget, what are Kwame's total estimated expenses?",
+          "answers": [
+            "₦374,000",
+            "₦370,000",
+            "₦300,000",
+            "₦250,000"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-187",
+          "prompt": "How often does Kwame decide to monitor his spending using his tracking app?",
+          "answers": [
+            "Monthly",
+            "Annually",
+            "Weekly",
+            "Bi-annually"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-188",
+          "prompt": "When Kwame spent ₦30,000 on eating out instead of the allocated amount, what did he do to stay within his overall budget?",
+          "answers": [
+            "Increased his total income",
+            "Reduced his \"Entertainment\" budget to compensate",
+            "Ignored the overspending",
+            "Increased his \"Eating Out\" budget further"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-189",
+          "prompt": "What did Kwame do with the small bonus he received from work?",
+          "answers": [
+            "Spent it all on \"Wants\"",
+            "Allocated half to his emergency fund and split the other half between laptop and car savings",
+            "Saved it all for the house purchase",
+            "Used it to pay off credit card debt"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-190",
+          "prompt": "The modular summary emphasizes that mastering budgeting and financial planning skills is essential for:",
+          "answers": [
+            "Accumulating debt",
+            "Living paycheck to paycheck",
+            "Taking control of your financial future and achieving aspirations",
+            "Relying on others for financial stability"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-191",
+          "prompt": "The fundamental principle of the time value of money states that a Naira received today is worth more than a Naira received in the future because:",
+          "answers": [
+            "It is subject to deflation.",
+            "Money received today can be invested and potentially grow.",
+            "Future money is guaranteed.",
+            "Inflation increases its purchasing power."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-192",
+          "prompt": "What concept contributes to the time value of money eroding the purchasing power of money over time?",
+          "answers": [
+            "Compounding",
+            "Present Value",
+            "Inflation",
+            "Future Value"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-193",
+          "prompt": "\"Identifying Income Sources\" and \"Tracking Current Expenses\" are the first two steps in:",
+          "answers": [
+            "Setting financial goals",
+            "Creating a budget",
+            "Investing in stocks",
+            "Managing liabilities"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-194",
+          "prompt": "If a financial goal is \"Achievable,\" it means it is:",
+          "answers": [
+            "Easy to complete without effort.",
+            "Realistic given your resources and capabilities.",
+            "Not specific or measurable.",
+            "Only for short-term aspirations."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-195",
+          "prompt": "Which type of asset can be easily and quickly converted into cash without significant loss of value?",
+          "answers": [
+            "Illiquid Assets",
+            "Fixed Assets",
+            "Liquid Assets",
+            "Intangible Assets"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-196",
+          "prompt": "A mortgage for a home is typically categorized as what type of liability?",
+          "answers": [
+            "Short-Term Liability",
+            "Current Liability",
+            "Long-Term Liability",
+            "Investment Liability"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-197",
+          "prompt": "What is the calculation for Net Worth?",
+          "answers": [
+            "Income + Expenses",
+            "Assets + Liabilities",
+            "Assets - Liabilities",
+            "Income - Taxes"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-198",
+          "prompt": "If you deposit ₦1,000 at a 5% annual interest rate, compounded annually, in Year 2 you earn more interest than Year 1 due to:",
+          "answers": [
+            "Simple interest",
+            "Depreciation",
+            "Compounding",
+            "Inflation"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-199",
+          "prompt": "What is the value of an asset or investment at a specified date in the future, based on an assumed rate of growth?",
+          "answers": [
+            "Present Value",
+            "Market Value",
+            "Future Value",
+            "Book Value"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-200",
+          "prompt": "Which type of savings account usually offers higher interest rates but has restrictions on withdrawals before maturity?",
+          "answers": [
+            "Savings Accounts",
+            "Checking Accounts",
+            "Fixed Deposit Accounts",
+            "Money Market Accounts"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-201",
+          "prompt": "What investment option represents ownership shares in a publicly traded company?",
+          "answers": [
+            "Bonds",
+            "Mutual Funds",
+            "Stocks",
+            "Real Estate"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-202",
+          "prompt": "The relationship between risk and return in investing generally states that:",
+          "answers": [
+            "Higher potential returns always mean lower risk.",
+            "Higher potential returns often come with higher levels of risk.",
+            "Risk and return are unrelated.",
+            "Lower risk always leads to higher returns."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-203",
+          "prompt": "Debt used to acquire assets that may appreciate in value or generate future income is considered:",
+          "answers": [
+            "Bad debt",
+            "High-interest debt",
+            "Good debt",
+            "Consumable debt"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-204",
+          "prompt": "Saving for a holiday or buying a small appliance are examples of what type of financial goal?",
+          "answers": [
+            "Long-Term Goals",
+            "Medium-Term Goals",
+            "Short-Term Goals",
+            "Immediate Goals"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-205",
+          "prompt": "\" May 15, 2037, I will accumulate ₦10,000,000 in a diversified investment portfolio to contribute towards my retirement...\" This is an example of what type of financial goal?",
+          "answers": [
+            "Short-term",
+            "Medium-term",
+            "Long-term",
+            "Immediate"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-206",
+          "prompt": "The example goal \"I will save ₦50,000 August 13, 2025, to purchase a new Binatone BLG-406 blender...\" is considered \"Measurable\" because:",
+          "answers": [
+            "It has a clear deadline.",
+            "The amount and purpose are clearly defined.",
+            "Progress can be tracked by the amount saved and per paycheck.",
+            "It aligns with current needs."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-207",
+          "prompt": "Which of these is a digital tool for record-keeping in financial management?",
+          "answers": [
+            "Notebooks",
+            "Ledgers",
+            "Budgeting apps",
+            "Spreadsheets (manual use)"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "chs102-208",
+          "prompt": "Tracking your income and expenses is fundamental for all of the following EXCEPT:",
+          "answers": [
+            "Budgeting",
+            "Identifying areas to save",
+            "Making uninformed financial decisions",
+            "Making informed financial decisions"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}

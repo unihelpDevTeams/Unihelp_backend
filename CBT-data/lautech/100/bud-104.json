@@ -1,0 +1,2131 @@
+{
+    "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Building Technology",
+  "course": {
+    "code": "BUD 104",
+    "title": "Building Graphics Lettering and Modelling"
+  },
+
+    "questions": [
+        {
+          "id": "bud104-001",
+          "prompt": "What is the primary purpose of architectural drawings as stated in the text?",
+          "answers": [
+            "To showcase the architect's artistic skills",
+            "To serve as a means of communication between various parties involved in a construction project",
+            "To secure funding for the project",
+            "To determine the cost of materials"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-002",
+          "prompt": "According to the document, which of the following is NOT a characteristic of how drawings should be made?",
+          "answers": [
+            "Easily understandable",
+            "Unnecessarily complex",
+            "Clearly arranged",
+            "Standardized"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-003",
+          "prompt": "The course \"BUD 104\" focuses on:",
+          "answers": [
+            "Advanced structural analysis",
+            "Building Graphics Lettering and Modelling",
+            "Financial management in construction",
+            "Historical architecture"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-004",
+          "prompt": "Which of these factors should architectural drawings show, concerning the type of building or structure?",
+          "answers": [
+            "The personal preferences of the client",
+            "The availability of building materials",
+            "The financial possibilities of the client",
+            "All of the above"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-005",
+          "prompt": "What is the main function of \"Sketch Drawings\" as described in the text?",
+          "answers": [
+            "To provide detailed structural calculations",
+            "To show the solution of the job with approximate measurements of rooms and the arrangement of buildings on the site",
+            "To present the final aesthetic design",
+            "To outline the project's legal regulations"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-006",
+          "prompt": "What is the primary purpose of \"Working Drawings\"?",
+          "answers": [
+            "To obtain a Building Permit",
+            "To have all necessary specifications and measurements for the project",
+            "To give particulars about special constructions",
+            "To indicate necessary particulars and information about an existing building"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-007",
+          "prompt": "Which type of drawing is described as needing to \"complete the Working Drawings for specific parts of the buildings in a bigger scale\"?",
+          "answers": [
+            "Sketch Drawings",
+            "Working Drawings",
+            "Detail Drawings",
+            "Special Drawings"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-008",
+          "prompt": "\"Special Drawings\" are specifically designed to give particulars about:",
+          "answers": [
+            "Financial accounts for the building",
+            "The overall layout of the site",
+            "Reinforced concrete work, steel, timber work, sanitary or electrical systems",
+            "The approximate measurements of rooms"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-009",
+          "prompt": "What is the common scale mentioned for \"Design Drawings\"?",
+          "answers": [
+            "1:500",
+            "1:200",
+            "1:100 (1:200)",
+            "1:50"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-010",
+          "prompt": "According to the text, what is the ideal length for a pencil after sharpening?",
+          "answers": [
+            "About 10 mm long",
+            "About 175 mm long",
+            "Half its length",
+            "Between 10-15 mm"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-011",
+          "prompt": "What is the characteristic of a pencil if it is slowly revolved as lines are drawn?",
+          "answers": [
+            "It will become blunt quickly",
+            "It will wear away evenly and remain sharp for some time",
+            "It will leave smudges on the paper",
+            "It will break easily"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-012",
+          "prompt": "What is the primary advantage of a clutch pencil mentioned in the text?",
+          "answers": [
+            "It is lighter than a wooden pencil",
+            "It can hold leads of various degrees or colours",
+            "It is a cheaper alternative",
+            "It never needs sharpening"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-013",
+          "prompt": "The hardest grade of drawing pencil mentioned in the text is:",
+          "answers": [
+            "2B",
+            "H",
+            "6B",
+            "9H"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-014",
+          "prompt": "What is a common error beginners make when setting out lines and fine work?",
+          "answers": [
+            "Using pencils harder than H",
+            "Using pencils softer than 6B",
+            "Using a penknife for sharpening",
+            "Revolving the pencil too slowly"
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-015",
+          "prompt": "What is the recommended method for sharpening an ordinary pencil?",
+          "answers": [
+            "Using a razor blade",
+            "Using a pencil sharpener",
+            "By means of a penknife",
+            "Rubbing it on a rough surface"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-016",
+          "prompt": "What is an advantage of mechanical pencil sharpeners?",
+          "answers": [
+            "They are portable and can be used anywhere.",
+            "They are efficient and save labour, producing a neat point.",
+            "They can sharpen leads of various degrees of hardness.",
+            "They eliminate the need for waste disposal."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-017",
+          "prompt": "Why should pencils receive frequent sharpening when in continuous use?",
+          "answers": [
+            "To avoid lead dust accumulation.",
+            "To prevent them from wearing out quickly.",
+            "To maintain a good stock of pencils.",
+            "To ensure consistent line quality."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-018",
+          "prompt": "What is the traditional method for filling an old type of Ruling pen?",
+          "answers": [
+            "By dipping it into an ink bottle.",
+            "By using a special ink cartridge.",
+            "By pouring ink directly into the pen's reservoir.",
+            "By using a dropper and transferring ink to the blades."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-019",
+          "prompt": "What is a key feature of Graphos and Rapidograph pens compared to Ruling pens?",
+          "answers": [
+            "They are less expensive.",
+            "They can be used for long periods without refilling.",
+            "They are only suitable for freehand drawing.",
+            "They produce thicker lines."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-020",
+          "prompt": "What is the function of the \"needle point\" on compasses?",
+          "answers": [
+            "It holds the lead in place.",
+            "It allows for drawing various line widths.",
+            "It is a terminal that is placed on the drawing paper.",
+            "It is used to mark measurements."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-021",
+          "prompt": "What is the standard length for the lead pencil to extend from the pencil for drawing purposes?",
+          "answers": [
+            "5 mm",
+            "10 mm",
+            "12 mm",
+            "15 mm"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-022",
+          "prompt": "What is the approximate size of a convenient Dividers instrument?",
+          "answers": [
+            "100 mm long",
+            "120 mm long",
+            "140 mm long",
+            "160 mm long"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-023",
+          "prompt": "Which type of drawing board is described as being best for office use, usually made from spruce, and having beech battens secured screws in elongated washers?",
+          "answers": [
+            "Type A",
+            "Type B",
+            "Type C",
+            "Type D"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-024",
+          "prompt": "What is the primary purpose of small drawing boards with smooth plastic surface?",
+          "answers": [
+            "For professional architectural drawings",
+            "For precise work and acceptable light and easily transportable",
+            "For large-scale building plans",
+            "For use with heavy drawing instruments"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-025",
+          "prompt": "In which hand should the head of the T-square be held when drawing horizontal lines?",
+          "answers": [
+            "The right-hand side",
+            "The left-hand side",
+            "Either hand",
+            "It does not matter"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-026",
+          "prompt": "Why should drawing boards not be left lying about in bridge positions or leaning against walls?",
+          "answers": [
+            "It causes them to become dusty.",
+            "It can make them heavy to move.",
+            "It renders them liable to fracture.",
+            "It makes them difficult to clean."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-027",
+          "prompt": "How can the underside of the blade and clean, and straight edge of a T-square be best maintained?",
+          "answers": [
+            "By scrubbing with a wire brush.",
+            "By wiping it periodically with a soft cloth with a few drops of petrol or similar spirit.",
+            "By washing it under running water.",
+            "By polishing it with abrasive materials."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-028",
+          "prompt": "What is the approximate thickness of Set Squares?",
+          "answers": [
+            "About 1 mm thick",
+            "About 2 mm thick",
+            "About 3 mm thick",
+            "About 4 mm thick"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-029",
+          "prompt": "What is the main purpose of a Protractor?",
+          "answers": [
+            "For drawing circles and arcs.",
+            "For measuring or setting out angles.",
+            "For scaling existing drawings.",
+            "For drawing irregular curves."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-030",
+          "prompt": "What is the common length for the longest side of Set Squares?",
+          "answers": [
+            "About 150-200 mm",
+            "About 200-250 mm",
+            "About 250-300 mm",
+            "About 300-350 mm"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-031",
+          "prompt": "What is the definition of \"Drawing Without Drafting Tools\"?",
+          "answers": [
+            "A form of visual art using only digital software.",
+            "A form of visual art in which a person uses various sketching instruments to precisely mark paper.",
+            "A form of drawing, usually preliminary drawing, made prior to producing a final work of art or a final technical document.",
+            "A form of painting that uses no instruments."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-032",
+          "prompt": "What is the main objective of a freehand sketch?",
+          "answers": [
+            "To produce a perfectly scaled drawing.",
+            "To illustrate the proportions of an object in relation to its overall shape and size while expressing the general concept.",
+            "To create a detailed technical drawing for construction.",
+            "To generate a photorealistic image."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-033",
+          "prompt": "What is the purpose of Task 1 in freehand sketching procedures?",
+          "answers": [
+            "To add final details to the drawing.",
+            "To create a representation of an object or an idea quickly and in a manner that displays and represents the important relationships and elements of the object.",
+            "To apply precise measurements.",
+            "To finalize the drawing for presentation."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-034",
+          "prompt": "What is the characteristic of \"Parallel lines\" in sketching?",
+          "answers": [
+            "They are two lines that intersect at a single point.",
+            "They are two lines that are always the same distance apart and never touch.",
+            "They are lines that are perpendicular to each other.",
+            "They are lines that only appear in technical drawings."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-035",
+          "prompt": "What is \"Tracing paper\" used for in sketching?",
+          "answers": [
+            "As a final drawing surface.",
+            "As a transparent sheet used to copy an existing image, drawing, sketch, or design.",
+            "For measuring angles and dimensions.",
+            "To create textured backgrounds."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-036",
+          "prompt": "Which type of line is used for \"outlines\"?",
+          "answers": [
+            "Thin short dashes",
+            "Thick lines",
+            "Thin long chain",
+            "Thick wavy line"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-037",
+          "prompt": "What is the purpose of \"Thin short dashes\" in drawing?",
+          "answers": [
+            "For outlines",
+            "For dimension lines",
+            "For hidden details",
+            "For centre lines"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-038",
+          "prompt": "What is the advantage of using \"Templates\" in drawing?",
+          "answers": [
+            "They are easier to store than freehand drawings.",
+            "They can be more easily drawn with the help of plastic templates for various metric and imperial sizes.",
+            "They replace the need for any other drawing tools.",
+            "They are primarily used for artistic sketches."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-039",
+          "prompt": "What is vellum described as in the text?",
+          "answers": [
+            "A type of erasing tool",
+            "A high-quality tracing paper similar to parchment",
+            "A drawing board material",
+            "A type of ink used for outlines"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-040",
+          "prompt": "What is the fourth task in freehand sketching procedures (Task 4)?",
+          "answers": [
+            "To add final shading and details.",
+            "To select a drawing type or form, and convey the message or concept.",
+            "To choose the appropriate drawing medium.",
+            "To clean the drawing surface."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-041",
+          "prompt": "Which of the following is NOT listed as a typical sketching/drawing type?",
+          "answers": [
+            "Multi-views or perspective drawings",
+            "3D sketches (such as perspectives)",
+            "Architectural blueprints",
+            "Plans, elevations, or sections of the object"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-042",
+          "prompt": "What type of pencil is generally used beginners for sketching due to its ease of erasing?",
+          "answers": [
+            "Hard lead pencils",
+            "Mechanical pencils",
+            "Medium or lightweight pencils",
+            "Clutch pencils"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-043",
+          "prompt": "What is the advantage of graph or grid paper for beginners in sketching?",
+          "answers": [
+            "It provides a textured surface for shading.",
+            "It allows them to work with relatively proportioned, evenly spaced grids.",
+            "It eliminates the need for pencils.",
+            "It is suitable for final presentation drawings."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-044",
+          "prompt": "What is the main goal of freehand sketching for drawing and design tasks?",
+          "answers": [
+            "To create photorealistic images.",
+            "To convey the main design features, elements, and proportions of the subject matter.",
+            "To produce exact measurements for construction.",
+            "To eliminate the need for drafting tools."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-045",
+          "prompt": "What is a key expectation of freehand sketching techniques regarding accuracy?",
+          "answers": [
+            "It should always be perfectly scaled.",
+            "It should focus on artistic expression over accuracy.",
+            "It should develop accurate drawings that are in proportion.",
+            "It should only be used for rough drafts."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-046",
+          "prompt": "When drawing straight lines in a freehand sketch, what common tendency does the wrist exhibit?",
+          "answers": [
+            "To move in a perfectly straight motion.",
+            "To create arched lines rather than straight lines.",
+            "To become stiff and rigid.",
+            "To follow the elbow's movement."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-047",
+          "prompt": "According to Tip 1 for drawing straight lines, which part of the arm should move?",
+          "answers": [
+            "Only the wrist.",
+            "Only the fingers.",
+            "The whole arm and hand in a straight direction.",
+            "The elbow only."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-048",
+          "prompt": "What is the purpose of Tip 4, which suggests using a reference when drawing straight lines?",
+          "answers": [
+            "To make the line appear more artistic.",
+            "To help guide the drawing hand along a straight path.",
+            "To add texture to the line.",
+            "To practice drawing without any guides."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-049",
+          "prompt": "Why can producing parallel lines in freehand sketching be difficult?",
+          "answers": [
+            "The pen or pencil often runs out of ink.",
+            "A person typically moves or twists their wrist, resulting in curved lines.",
+            "The paper is too thin.",
+            "The drawing board is not stable."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-050",
+          "prompt": "What is recommended in Tip 1 for drawing parallel lines?",
+          "answers": [
+            "To use a ruler for perfect accuracy.",
+            "To create points as guides, at the beginning and end-points of a line.",
+            "To draw only short, disconnected segments.",
+            "To apply more pressure to the pencil."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-051",
+          "prompt": "What is an \"Ellipse\" described as in the context of this text?",
+          "answers": [
+            "A perfect circle drawn freehand.",
+            "A geometric shape that results from viewing a circular shape in perspective, or from a different vantage point.",
+            "A straight line with varying thickness.",
+            "A complex architectural detail."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-052",
+          "prompt": "What is Tip 1 for drawing circles, arcs, and ellipses?",
+          "answers": [
+            "To use a compass for precise circles.",
+            "To use the box method to freehand sketch a circle.",
+            "To draw arcs first, then connect them.",
+            "To always draw from the center outwards."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-053",
+          "prompt": "How should the arm be used when drawing a curved line using the \"hand-as-compass\" method?",
+          "answers": [
+            "The arm should remain stationary at all times.",
+            "The arm should move freely from the shoulder.",
+            "The arm can be used as a compass to draw a curved line by turning or rotating the arm while keeping the elbow joint in one position.",
+            "The arm should be lifted entirely off the paper."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-054",
+          "prompt": "Which of the following statements accurately describes freehand sketching?",
+          "answers": [
+            "It necessitates the use of drafting equipment to achieve precise representations.",
+            "It primarily focuses on rendering highly detailed architectural blueprints.",
+            "It involves creating a representation of an object by hand, without the aid of drafting instruments.",
+            "It is a technique exclusively used for artistic expression, not for idea communication."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-055",
+          "prompt": "For a beginner learning to sketch, which type of paper is recommended?",
+          "answers": [
+            "Vellum paper",
+            "Tracing paper or grid paper",
+            "Bristol board",
+            "Watercolor paper"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-056",
+          "prompt": "What is the primary purpose of lettering in technical drawing?",
+          "answers": [
+            "To add decorative elements to a drawing.",
+            "To express or illustrate details of objects or items on drawings using written information.",
+            "To create a visual hierarchy among different parts of a drawing.",
+            "To replace the need for precise measurements in a drawing."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-057",
+          "prompt": "Which principle of lettering dictates that the character should be expressive of the quality or use of the drawing?",
+          "answers": [
+            "Legibility",
+            "Suitability",
+            "Character",
+            "Proportions"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-058",
+          "prompt": "What does the term \"legibility\" refer to in the context of lettering?",
+          "answers": [
+            "The decorative quality of the letters and general composition.",
+            "The spacing between individual letters and the arrangement of words.",
+            "The ability to produce uniform strokes and consistent line weight.",
+            "The suitability of the lettering style for the material used."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-059",
+          "prompt": "Which of the following is considered a broad or common class of lettering in technical drawing?",
+          "answers": [
+            "Illustrative lettering",
+            "Expressive lettering",
+            "Computer-aided design (CADD) lettering",
+            "Artistic lettering"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-060",
+          "prompt": "What distinguishes freehand lettering from mechanical lettering?",
+          "answers": [
+            "Freehand lettering requires specialized drafting tools, while mechanical lettering does not.",
+            "Freehand lettering is executed by hand, whereas mechanical lettering involves instruments.",
+            "Freehand lettering is primarily for artistic purposes, and mechanical lettering is for technical drawings.",
+            "Freehand lettering produces more than 12 types of lettering, unlike mechanical lettering."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-061",
+          "prompt": "Which type of pencil is frequently used to construct guide lines for lettering due to its light and thin lines?",
+          "answers": [
+            "2B",
+            "HB",
+            "4H, 5H, or 6H",
+            "B"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-062",
+          "prompt": "What is the primary function of lettering guides in technical drawing?",
+          "answers": [
+            "To prevent smudging of the drawing surface.",
+            "To facilitate the convenient setting out of text dimensions and orientations.",
+            "To ensure the aesthetic appeal of the overall drawing.",
+            "To indicate the scale of the drawing."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-063",
+          "prompt": "How are individual letters typically drawn in relation to guide lines?",
+          "answers": [
+            "They are drawn without any reference to guide lines.",
+            "They are drawn tangential to the exterior of the guide lines.",
+            "They are drawn within these guide lines.",
+            "They are drawn on a separate layer from the guide lines."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-064",
+          "prompt": "What major change occurred in text styles for technical drawing with the invention of printing?",
+          "answers": [
+            "Text styles became less standardized.",
+            "Text styles became more personalized.",
+            "Text styles became more standardized.",
+            "Text styles were no longer used in technical drawings."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-065",
+          "prompt": "Which of the following is NOT a type of mechanical lettering guide mentioned in the text?",
+          "answers": [
+            "Lettering template",
+            "Press-on type",
+            "Lettering machine",
+            "Freehand stencil"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-066",
+          "prompt": "What is a significant advantage of CADD lettering and tools over traditional lettering?",
+          "answers": [
+            "They eliminate the need for any human intervention.",
+            "They are primarily used for artistic drawings.",
+            "They offer remarkable speed and allow text to be modified easily.",
+            "They restrict the user to a single font style."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-067",
+          "prompt": "How is the size of a CADD text type defined?",
+          "answers": [
+            "By its width",
+            "By its height",
+            "By its line weight",
+            "By its boldness"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-068",
+          "prompt": "If a CADD text is 36-point type, what is its approximate height in inches?",
+          "answers": [
+            "1/4 inch",
+            "1/2 inch",
+            "1 inch",
+            "1.5 inches"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-069",
+          "prompt": "What are the three major classes of CADD lettering?",
+          "answers": [
+            "Alphabets/letters, Numerals, Symbols",
+            "Alphabets/letters, Numbers and fractions, Decimals",
+            "Upper case, Lower case, Special characters",
+            "Bold, Italic, Regular"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-070",
+          "prompt": "How many types of CADD lettering are there for alphabets/letters?",
+          "answers": [
+            "8 types",
+            "10 types",
+            "12 types",
+            "15 types"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-071",
+          "prompt": "What characteristic defines a sans serif typeface?",
+          "answers": [
+            "It has sharply pointed projections at the ends of strokes.",
+            "It features thick and thin lineweights.",
+            "It does not have serifs or spurs at the ends of the strokes.",
+            "It is always slanted for emphasis."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-072",
+          "prompt": "Which term is also used to refer to sans serif letters used in technical drawings?",
+          "answers": [
+            "Roman text",
+            "Gothic text",
+            "Italic text",
+            "Script text"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-073",
+          "prompt": "What is a \"serif\" in typography?",
+          "answers": [
+            "A slanted angle applied to a letter.",
+            "A main vertical stroke of a character.",
+            "A spur, small finishing stroke, or sharply pointed projection at right angles to the main character stroke.",
+            "A decorative element that has no functional purpose."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-074",
+          "prompt": "What is the characteristic appearance of serif letters?",
+          "answers": [
+            "They have a uniform lineweight throughout.",
+            "They are always italicized.",
+            "They have serifs and are accented by thick and thin lineweights.",
+            "They lack any projections at the end of their strokes."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-075",
+          "prompt": "Historically, what did \"Roman lettering\" refer to?",
+          "answers": [
+            "Letters without any serifs.",
+            "The upright form of letters, but it was used to mean letters with serifs.",
+            "Letters specifically designed for architectural drawings.",
+            "Any letter written by hand."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-076",
+          "prompt": "What is the defining characteristic of italic letters?",
+          "answers": [
+            "They are always bold.",
+            "They are slanted, whether serif or sans serif.",
+            "They have exaggerated serifs.",
+            "They are only used for headings."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-077",
+          "prompt": "Which of the following is NOT listed as one of the seven different lettering types using CADD?",
+          "answers": [
+            "Arial",
+            "Calibri",
+            "Playbill",
+            "Roman Simplex"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-078",
+          "prompt": "When indicating a fraction on a technical drawing, how should the height of the number in the fraction compare to other numbers on the drawing?",
+          "answers": [
+            "It should be half the size of any other number.",
+            "It should be the same size as any other number.",
+            "It should be double the size of any other number.",
+            "It should be about three-fourths the size of any other number."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-079",
+          "prompt": "What should be the height of the numerator and denominator in a fraction relative to the corresponding whole numbers?",
+          "answers": [
+            "The same height.",
+            "Half the height.",
+            "Double the height.",
+            "About three-fourths as high."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-080",
+          "prompt": "Why is it important to have sufficient space between the numerator and the denominator of a fraction?",
+          "answers": [
+            "To save drawing space.",
+            "To allow the fraction bar to be placed diagonally.",
+            "To ensure clarity and legibility.",
+            "To align with aesthetic standards."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-081",
+          "prompt": "What is the AutoCAD Txt Font categorized as?",
+          "answers": [
+            "A Roman lettering style.",
+            "A CADD lettering type.",
+            "A mechanical lettering guide.",
+            "A freehand sketching technique."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-082",
+          "prompt": "In CADD lettering, what defines the style and size of the text?",
+          "answers": [
+            "The user's preference and the availability of drafting tools.",
+            "The font and its height in points.",
+            "The material of the drawing surface and the pencil hardness.",
+            "The artistic intention of the draftsman."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-083",
+          "prompt": "Which of the following CADD lettering types is described as being an upright form of letters, but refers to letters with serifs?",
+          "answers": [
+            "Sans Serif",
+            "Italic",
+            "Roman",
+            "Gothic"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-084",
+          "prompt": "When lettering any dimension value that has a decimal point, what characteristic should the decimal point possess?",
+          "answers": [
+            "It should be small and barely visible.",
+            "It should be bold and italicized.",
+            "It should be uniform, dense, and large enough for viewers to see.",
+            "It should be placed above the dimension line."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-085",
+          "prompt": "Where should the decimal point be placed relative to the bottom edge of the text?",
+          "answers": [
+            "At the top edge.",
+            "In the middle.",
+            "In line with the bottom edge.",
+            "Below the bottom edge."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-086",
+          "prompt": "For any metric or millimetre dimension less than 1, where should a zero be placed?",
+          "answers": [
+            "After the decimal point.",
+            "Before the decimal point.",
+            "It should not be placed at all.",
+            "Above the dimension line."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-087",
+          "prompt": "For any inch dimension less than 1, where should a zero be placed?",
+          "answers": [
+            "Before the decimal point.",
+            "After the decimal point.",
+            "It should not be placed at all.",
+            "It depends on the specific drawing standard."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-088",
+          "prompt": "When a metric dimension consists of only whole numbers, what should be indicated regarding a decimal point or a zero?",
+          "answers": [
+            "A decimal point and a zero should always be indicated.",
+            "Neither a decimal point nor a zero should be indicated.",
+            "Only a decimal point should be indicated.",
+            "Only a zero should be indicated."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-089",
+          "prompt": "What is a \"development\" in the context of a 3-D object?",
+          "answers": [
+            "A process of adding details to a 3-D object.",
+            "The unfold or unroll flat plane figure of a 3-D object.",
+            "A method for creating a 3-D model from a 2-D drawing.",
+            "The artistic rendering of a 3-D object's surface."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-090",
+          "prompt": "What is the primary purpose of developing the surface of an object?",
+          "answers": [
+            "To determine its material composition.",
+            "To draw the shape of all its surfaces laid out flat in one plane.",
+            "To calculate its volume accurately.",
+            "To identify the object's center of gravity."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-091",
+          "prompt": "When does a development form the shape of objects?",
+          "answers": [
+            "When the object is folded along its edges.",
+            "When the pattern is cut and rolled back into the original object.",
+            "When certain lines are bent along.",
+            "When the object is viewed from multiple angles."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-092",
+          "prompt": "Which method of development uses parallel lines to construct the expanded pattern of a three-dimensional shape?",
+          "answers": [
+            "Radial line development",
+            "Triangulation development",
+            "Parallel line development",
+            "Approximate development"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-093",
+          "prompt": "Which of the following objects is an example of a shape whose development is typically done using the parallel line development method?",
+          "answers": [
+            "Cone",
+            "Pyramid",
+            "Sphere",
+            "Cylinder"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-094",
+          "prompt": "Which type of development is used for objects like a Cone?",
+          "answers": [
+            "Parallel line development",
+            "Triangulation development",
+            "Radial line development",
+            "Approximate development"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-095",
+          "prompt": "Triangulation developments are made from which types of surfaces?",
+          "answers": [
+            "Only single curved surfaces.",
+            "Only wrapped surfaces.",
+            "Polyhedrons, single curved surfaces, and wrapped surfaces.",
+            "Only polyhedrons."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-096",
+          "prompt": "What is an example of an object whose development is typically done using the triangulation method?",
+          "answers": [
+            "Cylinder",
+            "Cone",
+            "Tetrahedron",
+            "Prism"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-097",
+          "prompt": "In approximate development, what happens to the shape after joining?",
+          "answers": [
+            "It perfectly matches the original object.",
+            "It is stretched or distorted to obtain the final shape.",
+            "It becomes larger than the original object.",
+            "It is an exact true size development."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-098",
+          "prompt": "Which object is given as an example for approximate development?",
+          "answers": [
+            "Prism",
+            "Cylinder",
+            "Cone",
+            "Sphere"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-099",
+          "prompt": "What defines a \"true development\"?",
+          "answers": [
+            "It involves stretching or distortion of the surfaces.",
+            "The shape obtained is only approximate.",
+            "No stretching or distortion of the surfaces occurs, and every surface of the development is the same size and shape as the corresponding surface on the 3-D object.",
+            "It is primarily used for artistic representations."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-100",
+          "prompt": "According to the steps to draw the development of a Square Prism, what is the first step?",
+          "answers": [
+            "Mark units from the plan.",
+            "Add top and bottom.",
+            "Project lines from the elevation to obtain the height of the sides.",
+            "Divide the circumference."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-101",
+          "prompt": "For drawing the development of a Truncated Prism, what is the initial step?",
+          "answers": [
+            "Mark units on the plan.",
+            "Project lines from the elevation to obtain the heights of the sides.",
+            "Add the top and bottom.",
+            "Draw an arc from an apex."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-102",
+          "prompt": "In drawing the development of a Hexagonal Prism, what is the second step after projecting lines from the elevation?",
+          "answers": [
+            "Divide the circumference.",
+            "Mark units from the plan (1-2, 2-3, 3-4, 4-5, 5-6, 6-1).",
+            "Add the top and bottom.",
+            "Draw lines from units to the apex."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-103",
+          "prompt": "When drawing the development of a Cylinder, what is the first step regarding the plan?",
+          "answers": [
+            "Project lines from the elevation.",
+            "Divide the circumference of the plan into a number of equal parts.",
+            "Mark units from the circumference.",
+            "Add the top and bottom."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-104",
+          "prompt": "What is the third step in drawing the development of a Cylinder?",
+          "answers": [
+            "Project lines from the elevation.",
+            "Divide the circumference.",
+            "Mark units 1-12 from the plan (the circumference).",
+            "Add the top and bottom."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-105",
+          "prompt": "For drawing the development of the Frustum of a Cylinder, what is done after dividing the circumference of the plan into equal parts?",
+          "answers": [
+            "Add the top and bottom.",
+            "Project these points to the section.",
+            "Mark units 1-12 on the development.",
+            "Draw lines to intersect projection lines."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-106",
+          "prompt": "In drawing the development of the Frustum of a Pyramid, what is the first step involving the apex?",
+          "answers": [
+            "Draw an arc with the apex as a center and radius of the slant height AB.",
+            "Step off chords 1-2, 2-3, etc.",
+            "Join chords to the apex.",
+            "Project lines from the elevation."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-107",
+          "prompt": "What is the second step after drawing the arc in the development of a Frustum of a Pyramid?",
+          "answers": [
+            "Join the chords to the apex.",
+            "Project lines from the elevation.",
+            "Step off the chords 1-2, 2-3, 3-4, 4-5, 5-6, 6-1.",
+            "Add the top and bottom."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-108",
+          "prompt": "The first step to draw the Development of a Cone is similar to which other development's initial step?",
+          "answers": [
+            "Development of a Cylinder",
+            "Development of a Square Prism",
+            "Development of the Frustum of a Pyramid",
+            "Development of a Hexagonal Prism"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-109",
+          "prompt": "What is the definition of a \"point\" in technical drawing?",
+          "answers": [
+            "A small circle used for marking centers.",
+            "A theoretical location that has neither width, height, nor depth.",
+            "A line segment of approximately 3 mm long.",
+            "The intersection of two curved lines."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-110",
+          "prompt": "How is a point typically represented in technical drawing?",
+          "answers": [
+            "As a large dot.",
+            "As a small cross made of dashes approximately 3 mm long.",
+            "As a solid black square.",
+            "As a light, thin line."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-111",
+          "prompt": "What is a \"line\" defined as in geometry?",
+          "answers": [
+            "A finite segment with two endpoints.",
+            "A geometric figure that has length and direction, but no thickness.",
+            "A curved path with a defined radius.",
+            "A shape formed by two intersecting rays."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-112",
+          "prompt": "A straight line that extends to infinity from a specified point is called a:",
+          "answers": [
+            "Line segment",
+            "Ray",
+            "Arc",
+            "Locus"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-113",
+          "prompt": "What is an \"angle\" formed ?",
+          "answers": [
+            "Two intersecting lines that do not share a common endpoint.",
+            "A curved line and a straight line.",
+            "Two rays meeting at a common endpoint.",
+            "Three or more lines forming an enclosed shape."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-114",
+          "prompt": "An angle that is greater than 0∘ but less than 90∘ is classified as an:",
+          "answers": [
+            "Obtuse angle",
+            "Acute angle",
+            "Reflex angle",
+            "Straight angle"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-115",
+          "prompt": "How are angles measured?",
+          "answers": [
+            "In millimeters.",
+            "In inches.",
+            "In degrees.",
+            "In units of length."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-116",
+          "prompt": "What tool is used to measure or construct angles?",
+          "answers": [
+            "Compass",
+            "Ruler",
+            "Protractor",
+            "Set square"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-117",
+          "prompt": "Which condition describes two lines that will never intersect, maintaining a constant distance from each other?",
+          "answers": [
+            "Intersecting lines",
+            "Tangent condition",
+            "Parallel line condition",
+            "Perpendicular line condition"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-118",
+          "prompt": "When a line touches an arc or curve at only one point, it is called a:",
+          "answers": [
+            "Perpendicular line",
+            "Intersecting line",
+            "Tangent line",
+            "Parallel line"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-119",
+          "prompt": "What is the result of bisecting a line?",
+          "answers": [
+            "Two unequal segments.",
+            "Two equal segments with a perpendicular line at the midpoint.",
+            "A curve that intersects the line.",
+            "A single point at one end of the line."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-120",
+          "prompt": "What is a \"locus\"?",
+          "answers": [
+            "A geometric shape with defined width and height.",
+            "A theoretical point in space.",
+            "A clearly defined path, either straight line or curve, by a point moving according to a rule.",
+            "A method for dividing a line into equal parts."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-121",
+          "prompt": "What is the plural form of \"locus\"?",
+          "answers": [
+            "Locuses",
+            "Loci",
+            "Loca",
+            "Locum"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-122",
+          "prompt": "What is the second step in drawing the locus of a point whose distance from two circles is equal?",
+          "answers": [
+            "Draw the two circles and join their centers.",
+            "Mark equal units each side of C.",
+            "Bisect the space between the circles to give point C.",
+            "Draw intersecting arcs."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-123",
+          "prompt": "What is \"geometry\" defined as in relation to geometrical figures?",
+          "answers": [
+            "A branch of mathematics that deals with the properties, measurements, and relationships of shapes and spaces.",
+            "The artistic representation of 3D objects.",
+            "The process of developing surfaces of objects.",
+            "The technique of freehand sketching."
+          ],
+          "correctIndex": 0,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-124",
+          "prompt": "What is the preferred angle when drawing a line MQ from point M for dividing a line into equal parts?",
+          "answers": [
+            "An obtuse angle",
+            "A right angle",
+            "An acute angle",
+            "A straight angle"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-125",
+          "prompt": "In the process of dividing a line into equal parts, what is cut off from M and along MQ using a divider?",
+          "answers": [
+            "A random length",
+            "An equal division (say three) of any convenient length",
+            "The exact length of the line to be divided",
+            "Only one segment"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-126",
+          "prompt": "What happens when two geometric figures/forms meet at two points and do not intersect?",
+          "answers": [
+            "It is called a tangent.",
+            "It is called a plane tangent.",
+            "It is called an intersection.",
+            "It is called a point of contact."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-127",
+          "prompt": "What is a \"circle\" defined as?",
+          "answers": [
+            "A set of points at varying distances from a center point.",
+            "A plane figure bounded by a straight line that forms a closed loop.",
+            "A set of points at equal distance from a center point.",
+            "A three-dimensional sphere."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-128",
+          "prompt": "What is another way a circle can be described?",
+          "answers": [
+            "A plane figure bounded by a straight line that forms a closed loop.",
+            "A plane figure bounded by a curved line called the circumference, which is always equidistant from the center.",
+            "A curved line that intersects itself at the center.",
+            "A geometric shape with an indefinite number of sides."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-129",
+          "prompt": "What is a straight line drawn through the center of a circle, meeting the circumference at both ends, called?",
+          "answers": [
+            "Radius",
+            "Arc",
+            "Diameter",
+            "Chord"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-130",
+          "prompt": "Which term describes any straight line drawn across a circle that meets the circumference at both ends?",
+          "answers": [
+            "Radius",
+            "Diameter",
+            "Chord",
+            "Tangent"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-131",
+          "prompt": "What is the relationship between a tangent line and the radius at the point where the tangent touches the circumference?",
+          "answers": [
+            "The tangent is parallel to the radius.",
+            "The tangent is at an acute angle to the radius.",
+            "The tangent is at a 45∘ angle to the radius.",
+            "The tangent is always at a right angle to the radius."
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-132",
+          "prompt": "What is a \"segment\" of a circle?",
+          "answers": [
+            "A part of a circle bounded by two radii.",
+            "A part of a circle bounded by an arc and a chord.",
+            "A straight line drawn through the center.",
+            "Any part of the circumference."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-133",
+          "prompt": "What defines a \"triangle\"?",
+          "answers": [
+            "A three-dimensional figure with three faces.",
+            "A plane rectilinear figure with three sides and three angles.",
+            "A curved figure with three points.",
+            "A quadrilateral with three equal sides."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-134",
+          "prompt": "How many lines of symmetry does an ellipse always possess?",
+          "answers": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-135",
+          "prompt": "What are the two lines of symmetry in an ellipse called?",
+          "answers": [
+            "Vertical axis and Horizontal axis",
+            "Major axis and Minor axis",
+            "Center line and Circumference line",
+            "Focal axis and Central axis"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-136",
+          "prompt": "How many focal points does an ellipse have?",
+          "answers": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-137",
+          "prompt": "Which of the following is NOT listed as a method to draw an ellipse?",
+          "answers": [
+            "Rectangle method",
+            "Auxiliary circle method",
+            "Freehand sketching method",
+            "Foci method"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-138",
+          "prompt": "According to the Auxiliary Circle Method for drawing an ellipse, what is the first step?",
+          "answers": [
+            "Draw two intersecting lines at any angle.",
+            "Draw two concentric circles equal in diameter to the major axes.",
+            "Locate the two focal points.",
+            "Construct a rectangle around the desired ellipse."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-139",
+          "prompt": "In a right-angled triangle, what is the side opposite the right angle called?",
+          "answers": [
+            "Adjacent side",
+            "Opposite side",
+            "Hypotenuse",
+            "Perpendicular"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-140",
+          "prompt": "Which type of triangle has three equal sides and three equal angles?",
+          "answers": [
+            "Right-angled Triangle",
+            "Isosceles Triangle",
+            "Equilateral Triangle",
+            "Scalene Triangle"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-141",
+          "prompt": "A triangle with two (2) equal sides and angles is known as a:",
+          "answers": [
+            "Equilateral Triangle",
+            "Scalene Triangle",
+            "Isosceles Triangle",
+            "Right-angled Triangle"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-142",
+          "prompt": "Which of the following is defined as a quadrilateral with all four (4) sides equal and all angles at 90∘?",
+          "answers": [
+            "Rectangle",
+            "Square",
+            "Trapezoid",
+            "Rhombus"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-143",
+          "prompt": "What defines a Three-Dimensional (3D) Figure?",
+          "answers": [
+            "Figures that lie on a flat plane and have length and width.",
+            "Figures that have length, width, and height (or depth).",
+            "Figures that are only visible from a single viewpoint.",
+            "Figures that can be unfolded into a flat pattern."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-144",
+          "prompt": "In the Auxiliary Circle Method for drawing an ellipse, after drawing two concentric circles, what is the next step?",
+          "answers": [
+            "Draw horizontal lines from the intersections.",
+            "Divide the circles into a number of equal parts.",
+            "Locate the focal points.",
+            "Sketch the ellipse freehand."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-145",
+          "prompt": "What is the recommended number of equal parts to divide the circles into for the Auxiliary Circle Method?",
+          "answers": [
+            "6 parts",
+            "8 part",
+            "10 parts",
+            "12 parts"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-146",
+          "prompt": "What tool is typically used to divide the circles into equal parts in the Auxiliary Circle Method?",
+          "answers": [
+            "A protractor",
+            "A ruler",
+            "30-60-90 squares",
+            "A compass"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-147",
+          "prompt": "After dividing the circles into equal parts, what is the third step in the Auxiliary Circle Method for drawing an ellipse?",
+          "answers": [
+            "Draw horizontal lines from the smaller circle.",
+            "Draw vertical lines from every intersection on the larger circle.",
+            "Connect the points on the circumference directly.",
+            "Measure the radius of the circles."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-148",
+          "prompt": "The image shows two concentric circles with which radii?",
+          "answers": [
+            "R20 and R40",
+            "R30 and R50",
+            "R40 and R60",
+            "R50 and R70"
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-149",
+          "prompt": "After drawing vertical lines from the larger circle's intersections, what is the next step in drawing an ellipse using the Auxiliary Circle Method?",
+          "answers": [
+            "Connect all the dots with a curved line.",
+            "Draw horizontal lines from every intersection on the smaller circle.",
+            "Erase the circles and guidelines.",
+            "Find the center point again."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-150",
+          "prompt": "In the process of drawing an ellipse, what type of lines are drawn from the smaller circle's intersections?",
+          "answers": [
+            "Diagonal lines",
+            "Vertical lines",
+            "Curved lines",
+            "Horizontal lines"
+          ],
+          "correctIndex": 3,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-151",
+          "prompt": "After drawing both vertical and horizontal lines, what is the final plotting step to create the ellipse?",
+          "answers": [
+            "Plot only the points on the circles.",
+            "Plot the points where the vertical and horizontal lines cross.",
+            "Plot the points of intersection along with the four points on the MAJOR and MINOR axis.",
+            "Plot only the points on the major axis."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-152",
+          "prompt": "How many specific points, in addition to the intersections of the horizontal and vertical lines, are important for plotting the ellipse?",
+          "answers": [
+            "Two points",
+            "Three points",
+            "Four points",
+            "Five points"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-153",
+          "prompt": "Where are these additional important points located for plotting the ellipse?",
+          "answers": [
+            "On the circumference of the larger circle.",
+            "On the circumference of the smaller circle.",
+            "On the MAJOR and MINOR axis.",
+            "At the exact center of the circles."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-154",
+          "prompt": "After plotting all the necessary points for an ellipse, what is the final step in the Auxiliary Circle Method?",
+          "answers": [
+            "Draw straight lines between the points.",
+            "Draw a freehand curve that passes through all 12 plotted points.",
+            "Erase all the construction lines.",
+            "Connect the points with a compass."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-155",
+          "prompt": "How many points are typically used to draw the freehand curve for the ellipse in this method?",
+          "answers": [
+            "4 points",
+            "8 points",
+            "12 points",
+            "16 points"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-156",
+          "prompt": "When drawing an ellipse using the Rectangle Method, what is the very first step?",
+          "answers": [
+            "Draw a freehand curve.",
+            "Divide a line into equal units.",
+            "Draw a rectangle equal to the major and minor axes.",
+            "Radiate lines from a central point."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-157",
+          "prompt": "In the Rectangle Method for drawing an ellipse, what are the axes that should be drawn in the first step?",
+          "answers": [
+            "Vertical and horizontal lines only.",
+            "The major and minor axes, labeled AB and CD.",
+            "Diagonal lines across the rectangle.",
+            "Tangent lines to the rectangle."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-158",
+          "prompt": "What is the second step in the Rectangle Method for drawing an ellipse?",
+          "answers": [
+            "Draw a smooth curve.",
+            "Radiate lines from points C and D.",
+            "Divide lines EA and AF into four equal units.",
+            "Connect the corners of the rectangle."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-159",
+          "prompt": "In the Rectangle Method for drawing an ellipse, after dividing lines EA and AF, what is Step 3?",
+          "answers": [
+            "Radiate lines from D through points 1, 2, and 3.",
+            "Radiate lines from C to points 1, 2, and 3 on AF.",
+            "Connect the corners of the rectangle.",
+            "Draw a freehand curve."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-160",
+          "prompt": "What is the fourth step in the Rectangle Method for drawing an ellipse?",
+          "answers": [
+            "Connect the points with a ruler.",
+            "Draw vertical lines from the major axis.",
+            "Radiate lines from D through points 1, 2, and 3 on AE to intersect lines 1, 2, and 3 from C.",
+            "Erase the rectangle."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-161",
+          "prompt": "What is the first step when drawing an ellipse using the Trammel Method?",
+          "answers": [
+            "Draw two circles.",
+            "Make a strip of paper for marking.",
+            "Draw the two axes AB and CD.",
+            "Place pins at focal points."
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-162",
+          "prompt": "What is involved in the second step of the Trammel Method for drawing an ellipse?",
+          "answers": [
+            "Using a compass to draw arcs.",
+            "Making a strip of paper and marking half the major and minor axes on it.",
+            "Drawing a rectangle around the ellipse.",
+            "Drawing lines from the center to the edge."
+          ],
+          "correctIndex": 1,
+          "difficulty": "",
+          "explanation": ""
+        },
+        {
+          "id": "bud104-163",
+          "prompt": "In the Trammel Method, if the trammel (paper strip) is moved so that point C travels along the major axis and point A along the minor axis, what does point O trace?",
+          "answers": [
+            "A straight line",
+            "A circle",
+            "An ellipse",
+            "A hyperbola"
+          ],
+          "correctIndex": 2,
+          "difficulty": "",
+          "explanation": ""
+        }
+      ]
+}
