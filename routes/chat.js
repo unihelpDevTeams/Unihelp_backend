@@ -8,6 +8,8 @@ import { getMediaRetentionConfig } from "../services/mediaRetention.js";
 
 const router = express.Router();
 const DEFAULT_MESSAGE_PAGE_SIZE = 20;
+const MESSAGE_EDIT_WINDOW_MS = 60 * 60 * 1000;
+const MAX_MESSAGE_TEXT_LENGTH = 4000;
 
 const parsePositiveInt = (value, fallback) => {
   const next = Number(value ?? fallback);
@@ -59,6 +61,49 @@ const normalizeMessageAttachments = (attachments = [], conversationId = "") => {
   if (!Array.isArray(attachments)) return [];
   const normalized = attachments.map((attachment, index) => normalizeMessageAttachment(attachment, index, conversationId)).filter(Boolean);
   return normalized;
+};
+
+const messageCreatedAtMillis = (value) => {
+  if (!value) return 0;
+  if (typeof value.toMillis === "function") return value.toMillis();
+  if (typeof value.toDate === "function") return value.toDate().getTime();
+  if (value.seconds) return value.seconds * 1000;
+  return new Date(value).getTime() || 0;
+};
+
+const getOwnedEditableMessage = async (conversationId, messageId, uid) => {
+  const conversation = await db.collection("conversations").doc(conversationId).get();
+  if (!conversation.exists || !conversation.data()?.memberIds?.includes(uid)) {
+    const error = new Error("You are not a member of this conversation.");
+    error.status = 403;
+    throw error;
+  }
+
+  const messageRef = db.collection("conversations").doc(conversationId).collection("messages").doc(messageId);
+  const snapshot = await messageRef.get();
+  if (!snapshot.exists) {
+    const error = new Error("This message no longer exists.");
+    error.status = 404;
+    throw error;
+  }
+
+  const message = snapshot.data();
+  if (message.senderId !== uid) {
+    const error = new Error("You can only change your own messages.");
+    error.status = 403;
+    throw error;
+  }
+  if (message.deleted) {
+    const error = new Error("This message has already been deleted.");
+    error.status = 409;
+    throw error;
+  }
+  if (Date.now() - messageCreatedAtMillis(message.createdAt) > MESSAGE_EDIT_WINDOW_MS) {
+    const error = new Error("Messages can only be edited or deleted within one hour.");
+    error.status = 400;
+    throw error;
+  }
+  return { messageRef, message };
 };
 
 router.post("/:conversationId/messages", authenticateFirebaseUser, async (req, res) => {
@@ -175,6 +220,41 @@ router.post("/:conversationId/messages", authenticateFirebaseUser, async (req, r
   } catch (error) {
     console.error("Chat post error:", error);
     res.status(500).json({ success: false, error: error.message });
+  }
+});
+
+router.patch("/:conversationId/messages/:messageId", authenticateFirebaseUser, async (req, res) => {
+  try {
+    const text = String(req.body?.text || "").trim();
+    if (!text) return res.status(400).json({ success: false, error: "Message text is required." });
+    if (text.length > MAX_MESSAGE_TEXT_LENGTH) {
+      return res.status(400).json({ success: false, error: `Messages cannot exceed ${MAX_MESSAGE_TEXT_LENGTH} characters.` });
+    }
+
+    const { messageRef, message } = await getOwnedEditableMessage(req.params.conversationId, req.params.messageId, req.user.uid);
+    if ((message.type || "text") !== "text") {
+      return res.status(400).json({ success: false, error: "Only text messages can be edited." });
+    }
+
+    await messageRef.update({ text, edited: true, editedAt: FieldValue.serverTimestamp() });
+    return res.json({ success: true, message: { id: req.params.messageId, text, edited: true } });
+  } catch (error) {
+    return res.status(error.status || 500).json({ success: false, error: error.message || "Unable to edit message." });
+  }
+});
+
+router.delete("/:conversationId/messages/:messageId", authenticateFirebaseUser, async (req, res) => {
+  try {
+    const { messageRef } = await getOwnedEditableMessage(req.params.conversationId, req.params.messageId, req.user.uid);
+    await messageRef.update({
+      deleted: true,
+      text: "",
+      attachments: [],
+      deletedAt: FieldValue.serverTimestamp(),
+    });
+    return res.json({ success: true });
+  } catch (error) {
+    return res.status(error.status || 500).json({ success: false, error: error.message || "Unable to delete message." });
   }
 });
 

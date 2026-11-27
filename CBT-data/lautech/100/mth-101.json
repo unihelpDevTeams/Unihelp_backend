@@ -1,0 +1,5666 @@
+{
+  "school": "Ladoke Akintola University of Technology (LAUTECH)",
+  "level": "100",
+  "department": "Mathematics",
+  "course": {
+    "code": "MTH 101",
+    "title": "General Mathematics I"
+  },
+  "questions": [
+    {
+      "id": "lautech-100-mth101-001",
+      "prompt": "If X and Y are two subsets of a set of positive integers Z = {z: 2 < z < 11} such that X = {4, 3, 2, 1} and Y = {10, 7, 3, 1}, find Y ∩ Xᶜ.",
+      "answers": [
+        "{4, 2}",
+        "{7}",
+        "{ }",
+        "{7, 10}"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Y elements not in X are 7 and 10, so Y ∩ Xᶜ = {7, 10}."
+    },
+    {
+      "id": "lautech-100-mth101-002",
+      "prompt": "Simplify log₂ ∛(16⁵).",
+      "answers": [
+        "12/3",
+        "20/3",
+        "17/5",
+        "4"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "∛(16⁵) = 2^(20/3), so log₂ = 20/3."
+    },
+    {
+      "id": "lautech-100-mth101-003",
+      "prompt": "Solve for x in 3²ˣ − 4(3ˣ⁺¹) + 27 = 0.",
+      "answers": [
+        "x = −1, x = 2",
+        "x = 1, x = −2",
+        "x = 1, x = 2",
+        "x = −1, x = −2"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Let y = 3ˣ: y² − 12y + 27 = 0, so y = 3 or 9, giving x = 1 or 2."
+    },
+    {
+      "id": "lautech-100-mth101-004",
+      "prompt": "Solve for x in log₈(x² − 8x + 18) = 1/3.",
+      "answers": [
+        "x = 4, x = 0",
+        "x = 0, x = −4",
+        "x = 4, x = −4",
+        "x = 4 twice"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "x² − 8x + 18 = 8^(1/3) = 2, so (x − 4)² = 0 and x = 4 twice."
+    },
+    {
+      "id": "lautech-100-mth101-005",
+      "prompt": "Determine the coefficient of x² in the expansion of (a + 3x)⁶.",
+      "answers": [
+        "1215a²",
+        "45a⁴",
+        "18a²",
+        "135a⁴"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "6C2 · a⁴ · 3² = 15 × 9 a⁴ = 135a⁴."
+    },
+    {
+      "id": "lautech-100-mth101-006",
+      "prompt": "The term x²y³ in the expansion of (x + 2y)⁵ is",
+      "answers": [
+        "10x²y³",
+        "2x²y³",
+        "None of the options",
+        "4x²y²"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "The term is 5C3 · x² · (2y)³ = 80x²y³, which is not among the options."
+    },
+    {
+      "id": "lautech-100-mth101-007",
+      "prompt": "Given that Tᵣ = [(−1)ʳ (m+r−1)! / ((m−1)! r!)] bʳ, find Tᵣ when r = 3, m = 3, b = (5/7)x.",
+      "answers": [
+        "(73/49)x³",
+        "(125/196)x³",
+        "−(1250/343)x³",
+        "(750/343)x³"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Coefficient = −5!/(2!·3!) = −10; b³ = 125x³/343, so Tᵣ = −1250x³/343."
+    },
+    {
+      "id": "lautech-100-mth101-008",
+      "prompt": "The first three terms of an A.P. are y, (3y + 1) and (7y − 4). Find the value of y.",
+      "answers": [
+        "6",
+        "3",
+        "4",
+        "2"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Equal differences: (3y + 1) − y = (7y − 4) − (3y + 1), so y = 3."
+    },
+    {
+      "id": "lautech-100-mth101-009",
+      "prompt": "Given that 4, X, Y, 324, 972, … is a G.P., the sum of X and Y is",
+      "answers": [
+        "144",
+        "441",
+        "1444",
+        "444"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Source answer: with ratio 3 (972 ÷ 324), Y = 108 and X = 36, so X + Y = 144. (The leading 4 does not fit this ratio, so the question is slightly inconsistent.)"
+    },
+    {
+      "id": "lautech-100-mth101-010",
+      "prompt": "The roots of the equation 2x² − 7x + 4 = 0 are α and β. Find the value of α + β.",
+      "answers": [
+        "−7/2",
+        "7/2",
+        "−2",
+        "2"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Sum of roots = −b/a = 7/2."
+    },
+    {
+      "id": "lautech-100-mth101-011",
+      "prompt": "Given that f(x) = 3x³ − 6x² − 5x − K. If f(−2) = 1, find the value of K.",
+      "answers": [
+        "−37",
+        "66",
+        "37",
+        "−39"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "f(−2) = −24 − 24 + 10 − K = −38 − K = 1, so K = −39."
+    },
+    {
+      "id": "lautech-100-mth101-012",
+      "prompt": "The discriminant which determines the nature of a quadratic equation whose roots are real and different is",
+      "answers": [
+        "b² − 4ac = 0",
+        "b² − 4ac ≥ 0",
+        "b² − 4ac > 0",
+        "b² − 4ac < 0"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Real and distinct roots need b² − 4ac > 0."
+    },
+    {
+      "id": "lautech-100-mth101-013",
+      "prompt": "Which of the following defines a set?",
+      "answers": [
+        "A disjoint of all identifiable objects",
+        "None of the options",
+        "A collection of all identifiable objects",
+        "A difference of all identifiable objects"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "A set is a collection of well-defined (identifiable) objects."
+    },
+    {
+      "id": "lautech-100-mth101-014",
+      "prompt": "In a group of 40 teachers, 21 teach mathematics, 10 teach physics while 14 teach neither mathematics nor physics. How many teachers will teach physics alone?",
+      "answers": [
+        "10",
+        "11",
+        "None of the options",
+        "5"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Union = 26, so both = 21 + 10 − 26 = 5; physics alone = 10 − 5 = 5."
+    },
+    {
+      "id": "lautech-100-mth101-015",
+      "prompt": "A G.P. is defined by (√2 − 1), (3 − 2√2), … Find the common ratio.",
+      "answers": [
+        "3√2 − 1",
+        "√2 − 7",
+        "5√2 − 7",
+        "√2 − 1"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "r = (3 − 2√2)/(√2 − 1) = (√2 − 1)²/(√2 − 1) = √2 − 1."
+    },
+    {
+      "id": "lautech-100-mth101-016",
+      "prompt": "A polynomial is defined by f(x + 1) = x³ + 3x² − 4x + 2. Find f(2).",
+      "answers": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Put x = 1: f(2) = 1 + 3 − 4 + 2 = 2."
+    },
+    {
+      "id": "lautech-100-mth101-017",
+      "prompt": "If the 3rd term of a G.P. is 20 and the 6th term is 160, find r.",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "r³ = 160/20 = 8, so r = 2."
+    },
+    {
+      "id": "lautech-100-mth101-018",
+      "prompt": "Simplify √5(√5 + (2/3)√5).",
+      "answers": [
+        "6 1/8",
+        "6 1/2",
+        "12",
+        "8 1/3"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "5(1 + 2/3) = 25/3 = 8 1/3."
+    },
+    {
+      "id": "lautech-100-mth101-019",
+      "prompt": "In a G.P. x, x + 1, x + 4, …, what is the value of x?",
+      "answers": [
+        "1/2",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "(x + 1)² = x(x + 4) gives 2x + 1 = 4x, so x = 1/2."
+    },
+    {
+      "id": "lautech-100-mth101-020",
+      "prompt": "If α and β are the roots of the equation x² + 3x − 2 = 0, find α³ × β³.",
+      "answers": [
+        "−8",
+        "2",
+        "−45",
+        "−39"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Correction: the source key says C (−45), but that is α³ + β³. For the product as printed, (αβ)³ = (−2)³ = −8. (If the question meant α³ + β³, the answer would be −45.)"
+    },
+    {
+      "id": "lautech-100-mth101-021",
+      "prompt": "In a class of 40 students, 10 study mathematics, 21 study physics, 14 study neither mathematics nor physics. Calculate the number of students that studied both.",
+      "answers": [
+        "None",
+        "31",
+        "6",
+        "19"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Union = 26, so both = 10 + 21 − 26 = 5, which is not listed; the source answer is 'None' (of the options)."
+    },
+    {
+      "id": "lautech-100-mth101-022",
+      "prompt": "Find the coefficient of y² in (1 + y)ⁿ.",
+      "answers": [
+        "n",
+        "3n",
+        "ⁿC₂",
+        "ⁿC₄"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The coefficient of y² is ⁿC₂."
+    },
+    {
+      "id": "lautech-100-mth101-023",
+      "prompt": "Find the number of elements in the power set of A = {a, b, c, d}.",
+      "answers": [
+        "None",
+        "4",
+        "3",
+        "1"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The power set has 2⁴ = 16 elements, which is not listed, so the source answer is 'None'."
+    },
+    {
+      "id": "lautech-100-mth101-024",
+      "prompt": "A set Z = {x: x ∈ ℤ, 2 < x < 11}, Y = {1, 2, 3, 4}, P = {1, 3, 7, 10}. Find Yᶜ ∩ P.",
+      "answers": [
+        "{7}",
+        "{7, 10}",
+        "{0, 1, 2}",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Yᶜ (in Z) = {5, …, 10}; its intersection with P is {7, 10}."
+    },
+    {
+      "id": "lautech-100-mth101-025",
+      "prompt": "Simplify ⁸C₂ + ⁵C₃.",
+      "answers": [
+        "10",
+        "38",
+        "28",
+        "20"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "28 + 10 = 38."
+    },
+    {
+      "id": "lautech-100-mth101-026",
+      "prompt": "Find the roots of the equation bx³ − (2b + 2)x² − 2(5b − 3)x + 20 = 0.",
+      "answers": [
+        "x = −2 or −5 or −2/b",
+        "x = −2 or 5 or −2/b",
+        "x = −2, x = −5 or 2/b",
+        "x = −2 or 5 or 2/b"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Source answer: x = −2, 5 or 2/b (product of roots −20/b matches). The x² coefficient appears mis-printed in the source."
+    },
+    {
+      "id": "lautech-100-mth101-027",
+      "prompt": "Simplify 4√7 − 2√28 + 4√63.",
+      "answers": [
+        "12√7",
+        "3√7",
+        "15√7",
+        "4√7"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "4√7 − 4√7 + 12√7 = 12√7."
+    },
+    {
+      "id": "lautech-100-mth101-028",
+      "prompt": "Simplify log₉3 + log₉243 − 2 log₉3.",
+      "answers": [
+        "−3",
+        "2",
+        "5",
+        "3"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "log₉(3 × 243 / 9) = log₉81 = 2."
+    },
+    {
+      "id": "lautech-100-mth101-029",
+      "prompt": "In (a + b)ⁿ, the sum of indices of a and b is equal to",
+      "answers": [
+        "a + b",
+        "Coefficient of the term",
+        "nth term",
+        "The power of the binomial"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "In every term the indices add up to n, the power of the binomial."
+    },
+    {
+      "id": "lautech-100-mth101-030",
+      "prompt": "If f(x) = 3x³ + 8x² + 6x − K and f(2) = 1, find the value of K.",
+      "answers": [
+        "67",
+        "68",
+        "−68",
+        "−67"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "f(2) = 24 + 32 + 12 − K = 68 − K = 1, so K = 67."
+    },
+    {
+      "id": "lautech-100-mth101-031",
+      "prompt": "What is the nth term of the linear sequence 12, 5, −2, …?",
+      "answers": [
+        "7n − 19",
+        "7n + 19",
+        "19 − 7n",
+        "19 + 7n"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Tₙ = 12 − 7(n − 1) = 19 − 7n."
+    },
+    {
+      "id": "lautech-100-mth101-032",
+      "prompt": "If ⁿPᵣ/ⁿCᵣ − 1 = 5, find r.",
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "ⁿPᵣ/ⁿCᵣ = r!, so r! = 6 and r = 3."
+    },
+    {
+      "id": "lautech-100-mth101-033",
+      "prompt": "Find the sum of the first 20 terms of 2 + 5 + 8 + …",
+      "answers": [
+        "610",
+        "660",
+        "650",
+        "630"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "S₂₀ = 10[4 + 19(3)] = 610."
+    },
+    {
+      "id": "lautech-100-mth101-034",
+      "prompt": "Find the set X = {x: x ∈ N, x is odd, x < 3}, where N is the set of natural numbers.",
+      "answers": [
+        "{0, 1, 2}",
+        "{1, 3}",
+        "{1}",
+        "{0, 1}"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The only odd natural number below 3 is 1."
+    },
+    {
+      "id": "lautech-100-mth101-035",
+      "prompt": "Find the value of x in the equations log_x y = 3 and xy = 16.",
+      "answers": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "y = x³, so x⁴ = 16 and x = 2."
+    },
+    {
+      "id": "lautech-100-mth101-036",
+      "prompt": "If m and n are positive real numbers such that 3 log₄ m = 4 log₈ n, find a relation between m and n which does not involve logarithm.",
+      "answers": [
+        "m⁷ = n³",
+        "m⁹ = n⁸",
+        "m⁴ = n³",
+        "m³ = n²"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "(3/2) log m = (4/3) log n, so 9 log m = 8 log n and m⁹ = n⁸."
+    },
+    {
+      "id": "lautech-100-mth101-037",
+      "prompt": "Find the solution set of 4x + 1/3 ≥ (2/3)x − 2.",
+      "answers": [
+        "x ≥ 7/10",
+        "x ≤ −7/10",
+        "x ≥ −7/10",
+        "x ≤ 7/10"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "(10/3)x ≥ −7/3, so x ≥ −7/10."
+    },
+    {
+      "id": "lautech-100-mth101-038",
+      "prompt": "In how many ways can 3 prefects be chosen out of 8 prefects?",
+      "answers": [
+        "6",
+        "336",
+        "24",
+        "56"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "⁸C₃ = 56."
+    },
+    {
+      "id": "lautech-100-mth101-039",
+      "prompt": "If α and β are the roots of the equation ax² + bx + c = 0, then the sum of the roots (α + β) is",
+      "answers": [
+        "−b/a",
+        "c/a",
+        "ca",
+        "−ab"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Sum of roots = −b/a."
+    },
+    {
+      "id": "lautech-100-mth101-040",
+      "prompt": "Simplify the expression ⁿCᵣ (2x)¹²⁻ʳ (3y)ʳ when x = 1, y = 3, r = 0.",
+      "answers": [
+        "2¹²",
+        "12(2¹²)",
+        "(2x)¹²",
+        "144"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "With n = 12 and r = 0: 1 × (2)¹² × 1 = 2¹²."
+    },
+    {
+      "id": "lautech-100-mth101-041",
+      "prompt": "Find the common ratio in the progression log 3, log 9, log 81, …",
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The terms are log 3, 2 log 3, 4 log 3, so r = 2."
+    },
+    {
+      "id": "lautech-100-mth101-042",
+      "prompt": "What is the common ratio of the exponential sequence (√10 + √5), (√10 + 2√5), …?",
+      "answers": [
+        "3",
+        "5",
+        "√2",
+        "√5"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "r = (√2 + 2)/(√2 + 1) = (√2 + 2)(√2 − 1) = √2."
+    },
+    {
+      "id": "lautech-100-mth101-043",
+      "prompt": "The 3rd and 9th terms of a linear sequence are 4p − 2q and 10p − 8q respectively. Find the common difference.",
+      "answers": [
+        "7",
+        "p − q",
+        "p + 2q",
+        "7p + 4q"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "6d = (10p − 8q) − (4p − 2q) = 6p − 6q, so d = p − q."
+    },
+    {
+      "id": "lautech-100-mth101-044",
+      "prompt": "If y = 3x² − 2x + 1 is written in the form y = a(x − h)² + K, find the value of a + h + k.",
+      "answers": [
+        "3",
+        "−3",
+        "4",
+        "−4"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "y = 3(x − 1/3)² + 2/3, so a + h + k = 3 + 1/3 + 2/3 = 4."
+    },
+    {
+      "id": "lautech-100-mth101-045",
+      "prompt": "If α + β = 5 and αβ = 2, calculate the value of α⁻¹ + β⁻¹.",
+      "answers": [
+        "2",
+        "5",
+        "2.5",
+        "3"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "(α + β)/(αβ) = 5/2 = 2.5."
+    },
+    {
+      "id": "lautech-100-mth101-046",
+      "prompt": "Find (A − B)ᶜ ∩ (A − C)ᶜ if A = {−1, 0, 10}, B = {0, 5, 6, 8} and C = {−1, 9, 10} are subsets of Z = {z: −2 < z ≤ 10}.",
+      "answers": [
+        "μ",
+        "{z: 1 ≤ z ≤ 9}",
+        "Misplace",
+        "{0}"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "A − B = {−1, 10} and A − C = {0}; the intersection of the complements excludes {−1, 0, 10}, leaving {1, …, 9}."
+    },
+    {
+      "id": "lautech-100-mth101-047",
+      "prompt": "Given the universal set μ = {1, 2, 3, …, 8, 9} and the subsets X = {1, 2, 3, 4}, Y = {2, 4, 6, 8}, Z = {3, 4, 5, 6}, compute (X ∪ Y) ∩ Z.",
+      "answers": [
+        "{3, 4, 5, 6}",
+        "{3, 4, 6}",
+        "{1, 2, 3, 4, 6, 8}",
+        "{5}"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "X ∪ Y = {1, 2, 3, 4, 6, 8}; intersect with Z gives {3, 4, 6}."
+    },
+    {
+      "id": "lautech-100-mth101-048",
+      "prompt": "Find XΔY if X = {2, 3, a, m} and Y = {−2, −3, a, k}.",
+      "answers": [
+        "{2, 3, m}",
+        "{ }",
+        "{−2, −3, k}",
+        "{−3, −2, 2, 3, k, m}"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "The symmetric difference removes the common element a: {2, 3, m, −2, −3, k}."
+    },
+    {
+      "id": "lautech-100-mth101-049",
+      "prompt": "If m = 2 + √5, find the value of m − 1/m.",
+      "answers": [
+        "4√5",
+        "2",
+        "4",
+        "2√5"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "1/m = √5 − 2, so m − 1/m = (2 + √5) − (√5 − 2) = 4."
+    },
+    {
+      "id": "lautech-100-mth101-050",
+      "prompt": "If √(x − 1) + 5√(x − 9) = 4√(x − 6), find x.",
+      "answers": [
+        "x = 5.9",
+        "x = 9.5",
+        "x = 10",
+        "x = −10"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "At x = 10: 3 + 5(1) = 8 and 4(2) = 8, so x = 10."
+    },
+    {
+      "id": "lautech-100-mth101-051",
+      "prompt": "Solve for x if √(2x − 2) − √(x − 2) = √x.",
+      "answers": [
+        "x = 2 or 1",
+        "x = 0 or 2",
+        "x = 0 or 4",
+        "x = 1 or 2"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Squaring gives x² − 2x = 0, so x = 0 or 2 (x = 0 is extraneous for real roots, but this is the listed answer)."
+    },
+    {
+      "id": "lautech-100-mth101-052",
+      "prompt": "Find the coefficient of x³ in the expansion of (1 + x/4)⁶.",
+      "answers": [
+        "5/16",
+        "2/3",
+        "15/16",
+        "15/256"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "6C3 (1/4)³ = 20/64 = 5/16."
+    },
+    {
+      "id": "lautech-100-mth101-053",
+      "prompt": "Simplify 2 log_a x − 3 log_a 2x + log_a x².",
+      "answers": [
+        "log_a x²",
+        "log_a (x/8)",
+        "log_a (x²/4)",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "log_a [x² · x² / (8x³)] = log_a (x/8)."
+    },
+    {
+      "id": "lautech-100-mth101-054",
+      "prompt": "If (7x + 19)/((x + 1)(x + 5)) = A/(x + 1) + B/(x + 5), find the value of A.",
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "A = (−7 + 19)/(−1 + 5) = 3."
+    },
+    {
+      "id": "lautech-100-mth101-055",
+      "prompt": "Find the equivalent of the expression (1.0025)⁶.",
+      "answers": [
+        "(1 + 1/40)⁶",
+        "(1 + 25/1000)⁶",
+        "(1 + 1/400)⁶",
+        "(1 + 25/10000)⁶"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "1.0025 = 1 + 25/10000."
+    },
+    {
+      "id": "lautech-100-mth101-056",
+      "prompt": "For an A.P. a, a + d, a + 2d, a + 3d, …, find the common difference.",
+      "answers": [
+        "2d",
+        "d",
+        "4d",
+        "d/2"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Consecutive terms differ by d."
+    },
+    {
+      "id": "lautech-100-mth101-057",
+      "prompt": "What value of k will make m² − 8m + k a perfect square?",
+      "answers": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "k = (8/2)² = 16."
+    },
+    {
+      "id": "lautech-100-mth101-058",
+      "prompt": "The nth term of a sequence is given by (−1)ⁿ⁻² × 2ⁿ⁻¹. Find the sum of the 2nd and 3rd terms.",
+      "answers": [
+        "2",
+        "−2",
+        "4",
+        "−4"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "T₂ = 2 and T₃ = −4, so the sum is −2."
+    },
+    {
+      "id": "lautech-100-mth101-059",
+      "prompt": "In how many ways can the word MATHEMATICS be arranged?",
+      "answers": [
+        "3257128",
+        "4635285",
+        "4989600",
+        "None"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "11!/(2! 2! 2!) = 39,916,800/8 = 4,989,600."
+    },
+    {
+      "id": "lautech-100-mth101-060",
+      "prompt": "If α and β are the roots of the equation x² + x − 2 = 0, find the product of the roots.",
+      "answers": [
+        "1/2",
+        "−2",
+        "−3/2",
+        "−1"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Product = c/a = −2."
+    },
+    {
+      "id": "lautech-100-mth101-061",
+      "prompt": "If x² − 12x + K = 0 has equal roots, find K.",
+      "answers": [
+        "9",
+        "16",
+        "36",
+        "72"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "(12)² = 4K gives K = 36."
+    },
+    {
+      "id": "lautech-100-mth101-062",
+      "prompt": "An arithmetic progression has the general formula n² − 6n − 4. Find the sum of the 3rd and 4th terms.",
+      "answers": [
+        "−10",
+        "−15",
+        "−20",
+        "−25"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "T₃ = −13 and T₄ = −12, so the sum is −25."
+    },
+    {
+      "id": "lautech-100-mth101-063",
+      "prompt": "If μₙ = n(n² + 1), evaluate μ₅ − μ₄.",
+      "answers": [
+        "60",
+        "62",
+        "65",
+        "45"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "μ₅ = 130 and μ₄ = 68, so the difference is 62."
+    },
+    {
+      "id": "lautech-100-mth101-064",
+      "prompt": "If log_a x = p and log_a y = q, find log_a xy.",
+      "answers": [
+        "p/q",
+        "pq",
+        "p + q",
+        "p − q"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "log_a(xy) = log_a x + log_a y = p + q."
+    },
+    {
+      "id": "lautech-100-mth101-065",
+      "prompt": "If X = {2, 4, 5} and μ = {x: x ∈ N, 0 < x ≤ 10}, find Xᶜ ∩ μ.",
+      "answers": [
+        "X",
+        "Xᶜ",
+        "μ",
+        "φ"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Xᶜ is a subset of μ, so Xᶜ ∩ μ = Xᶜ."
+    },
+    {
+      "id": "lautech-100-mth101-066",
+      "prompt": "What is B = {x: x ∈ ℤ⁺, x is even, x ≤ 10}?",
+      "answers": [
+        "{2, 4, 6, 8, 10}",
+        "{1, 3, 5, 7, 9}",
+        "{2, 4, 6, 8}",
+        "{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "The positive even integers up to 10."
+    },
+    {
+      "id": "lautech-100-mth101-067",
+      "prompt": "If A = {−1, 0, 10}, B = {0, 5, 6, 8} and C = {−1, 9, 10} are subsets of Z = {z: −1 ≤ z ≤ 11}, find ((A − C) ∪ (A − B))ᶜ.",
+      "answers": [
+        "None of the options",
+        "φ",
+        "{1, 2, 3, 4, 5, 6, 7, 8, 9, 11}",
+        "All"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "(A − C) ∪ (A − B) = {0} ∪ {−1, 10} = {−1, 0, 10}; its complement in Z is {1, …, 9, 11}."
+    },
+    {
+      "id": "lautech-100-mth101-068",
+      "prompt": "Find the value of P such that the equation Px² + (P + 1)x + P = 0 has equal roots.",
+      "answers": [
+        "P = −1 or −3",
+        "P = 1 or 3",
+        "P = −1 or 1/3",
+        "P = 1 or −1/3"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "(P + 1)² = 4P² gives (1 − P)(3P + 1) = 0, so P = 1 or −1/3."
+    },
+    {
+      "id": "lautech-100-mth101-069",
+      "prompt": "If α and β are the roots of the equation 2x² + 3x + 7 = 0, find the value of α³ + β³.",
+      "answers": [
+        "99/8",
+        "5/2",
+        "10",
+        "22/4"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "(α + β)³ − 3αβ(α + β) = −27/8 + 63/4 = 99/8."
+    },
+    {
+      "id": "lautech-100-mth101-070",
+      "prompt": "If Tₙ = 9 − 2n, what term of the sequence is −39?",
+      "answers": [
+        "24",
+        "48",
+        "148",
+        "14"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "9 − 2n = −39 gives n = 24."
+    },
+    {
+      "id": "lautech-100-mth101-071",
+      "prompt": "The third term of an exponential sequence is 360 and the 6th term is 1215. Find the first term of the sequence.",
+      "answers": [
+        "160",
+        "120",
+        "300",
+        "1.5"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "r³ = 27/8, r = 3/2; a = 360 ÷ (9/4) = 160."
+    },
+    {
+      "id": "lautech-100-mth101-072",
+      "prompt": "What are the values of b and c in the arithmetic progression 8, b, c, 20?",
+      "answers": [
+        "12, 14",
+        "13, 17",
+        "10, 12",
+        "12, 16"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "d = (20 − 8)/3 = 4, so b = 12 and c = 16."
+    },
+    {
+      "id": "lautech-100-mth101-073",
+      "prompt": "Find the coefficient of x² in the expansion of (2x + 3)⁴.",
+      "answers": [
+        "16x²",
+        "96x²",
+        "81x²",
+        "216x²"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "4C2 · 2² · 3² = 6 × 36 = 216."
+    },
+    {
+      "id": "lautech-100-mth101-074",
+      "prompt": "If a and b are positive numbers such that (a + b)(1/a² + 1/b²)(a⁴/b² + b⁴/a²) ≥ K√(ab), find the value of K.",
+      "answers": [
+        "16",
+        "8",
+        "4",
+        "10"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "By AM–GM the three factors are ≥ 2√(ab), 2/(ab) and 2ab, so the product is ≥ 8√(ab)."
+    },
+    {
+      "id": "lautech-100-mth101-075",
+      "prompt": "Find the square root of 12 + 2√3.",
+      "answers": [
+        "d = 6 ± i√33",
+        "d = −6 ± i√33",
+        "d = −6 ± √33",
+        "d = 6 ± √33"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Source answer: writing √(12 + 2√3) = √u + √v needs u + v = 12 and uv = 3, so u, v = 6 ± √33."
+    },
+    {
+      "id": "lautech-100-mth101-076",
+      "prompt": "Given that log₅(x + 2) + log₅(x − 2) = 1, find x.",
+      "answers": [
+        "4",
+        "3",
+        "6",
+        "5"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "x² − 4 = 5, so x = 3."
+    },
+    {
+      "id": "lautech-100-mth101-077",
+      "prompt": "Sets X − Y = Y − X if and only if",
+      "answers": [
+        "Y ⊂ X",
+        "X ⊂ Y",
+        "X = Y",
+        "X ∩ Y = φ"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Both differences are equal (both empty) exactly when X = Y."
+    },
+    {
+      "id": "lautech-100-mth101-078",
+      "prompt": "Let X = {3, 5, 6}, Y = {1, 3, 4} and Z = {1, 2, 7} be subsets of N = {1, 2, 3, 4, 5, 6, 7}. Find (X ∪ Y) Δ (Y ∪ Z).",
+      "answers": [
+        "None",
+        "φ",
+        "{5, 6}",
+        "{2, 5, 6, 7}"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "X ∪ Y = {1, 3, 4, 5, 6}, Y ∪ Z = {1, 2, 3, 4, 7}; the symmetric difference is {2, 5, 6, 7}."
+    },
+    {
+      "id": "lautech-100-mth101-079",
+      "prompt": "If √72 + √32 − 3√18 = x√8, find the value of x.",
+      "answers": [
+        "1",
+        "1/2",
+        "3/4",
+        "1/4"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "6√2 + 4√2 − 9√2 = √2 = x(2√2), so x = 1/2."
+    },
+    {
+      "id": "lautech-100-mth101-080",
+      "prompt": "Find the roots of the equation x⁴ + 4x³ + 11x² + 14x − 30 = 0.",
+      "answers": [
+        "x = 1 or −3 or 1 ± 3i",
+        "x = −1 or −3 or −1 + 3i",
+        "x = −1 or −3 or −1 ± 3i",
+        "x = 1 or −3 or −1 ± 3i"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "(x − 1)(x + 3)(x² + 2x + 10) = 0, so x = 1, −3, −1 ± 3i."
+    },
+    {
+      "id": "lautech-100-mth101-081",
+      "prompt": "Given that ⁿC₄/ⁿP₂ = 1/2, find the value of n.",
+      "answers": [
+        "7",
+        "5",
+        "6",
+        "8"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "(n − 2)(n − 3)/24 = 1/2 gives (n − 2)(n − 3) = 12, so n = 6."
+    },
+    {
+      "id": "lautech-100-mth101-082",
+      "prompt": "The coefficient of x² in the expansion of (1 + 3x)⁵ is",
+      "answers": [
+        "180",
+        "90",
+        "10",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "5C2 × 9 = 90."
+    },
+    {
+      "id": "lautech-100-mth101-083",
+      "prompt": "How many terms of the sequence 5, 15, 45, 135, … must be taken for the sum to exceed 200?",
+      "answers": [
+        "None",
+        "3",
+        "5",
+        "7"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Sₙ = 5(3ⁿ − 1)/2; S₄ = 200 exactly, so S₅ is the first sum to exceed 200."
+    },
+    {
+      "id": "lautech-100-mth101-084",
+      "prompt": "The sum to infinity of a − a²/(2b) + a³/(4b²) − a⁴/(8b³) + … is",
+      "answers": [
+        "2ab/(a + b)",
+        "2a/(a + 2b)",
+        "2ab/(a + 4b)",
+        "2ab/(a + 2b)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "First term a, ratio −a/(2b): S = a/(1 + a/(2b)) = 2ab/(2b + a)."
+    },
+    {
+      "id": "lautech-100-mth101-085",
+      "prompt": "If x = α or x = β are the roots of an equation, then",
+      "answers": [
+        "x² − (α + β)x + αβ = 0",
+        "x² − (α − β)x + αβ = 0",
+        "x² − (α + β)x − αβ = 0",
+        "x² − (α − β)x − αβ = 0"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "The quadratic is x² − (sum)x + (product) = 0."
+    },
+    {
+      "id": "lautech-100-mth101-086",
+      "prompt": "The nature of the roots of the equation 3x² + 4x + 2 = 0 is",
+      "answers": [
+        "Real",
+        "No real roots/complex roots",
+        "Equal roots",
+        "Unequal roots"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Discriminant = 16 − 24 < 0."
+    },
+    {
+      "id": "lautech-100-mth101-087",
+      "prompt": "A set of all faculties in LAUTECH is an example of ____________",
+      "answers": [
+        "Null set",
+        "Singleton set",
+        "Infinite set",
+        "Finite set"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "There is a countable, limited number of faculties."
+    },
+    {
+      "id": "lautech-100-mth101-088",
+      "prompt": "Simplify ⁿPᵣ/ⁿCᵣ.",
+      "answers": [
+        "n!",
+        "(n − 1)!",
+        "r!",
+        "(r − 1)!"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "ⁿPᵣ = r! × ⁿCᵣ."
+    },
+    {
+      "id": "lautech-100-mth101-089",
+      "prompt": "The term 160x² in the expansion of (1 + 4x)⁵ represents",
+      "answers": [
+        "3rd term",
+        "General term",
+        "1st term",
+        "nth term"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "5C2 × 16 = 160, and the x² term is the 3rd term."
+    },
+    {
+      "id": "lautech-100-mth101-090",
+      "prompt": "Find the coefficient of x² in the expansion of (2x + 3)⁴.",
+      "answers": [
+        "216x²",
+        "16x²",
+        "96x²",
+        "81x²"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "4C2 · 4 · 9 = 216."
+    },
+    {
+      "id": "lautech-100-mth101-091",
+      "prompt": "Given α and β are the roots of an equation such that α + β = −3 and αβ = −2, find the equation.",
+      "answers": [
+        "x² − 3x + 2 = 0",
+        "x² + 4x − 3 = 0",
+        "x² + 3x − 2 = 0",
+        "x² + 2x + 3 = 0"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "x² − (−3)x + (−2) = x² + 3x − 2 = 0."
+    },
+    {
+      "id": "lautech-100-mth101-092",
+      "prompt": "A and B are two given sets in a universal set U. Which of the following is not correct?",
+      "answers": [
+        "(A ∩ B) ⊂ U",
+        "B ∈ U",
+        "(A ∪ B) ⊂ U",
+        "A ⊂ U"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Correction: the source key says C, but (A ∪ B) ⊂ U is true. B is a subset of U, not an element, so 'B ∈ U' is the incorrect statement."
+    },
+    {
+      "id": "lautech-100-mth101-093",
+      "prompt": "If X = {2, 4, 5} and a universal set U = {x: x ∉ N, 0 < x ≤ 10}, find Xᶜ ∩ U.",
+      "answers": [
+        "Xᶜ",
+        "{1, 3, 5, 6, 7, 8, 9, 10}",
+        "{0, 1, 3, 6, 7, 8, 9, 10}",
+        "U"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Source answer: Xᶜ is by definition within U, so Xᶜ ∩ U = Xᶜ."
+    },
+    {
+      "id": "lautech-100-mth101-094",
+      "prompt": "Given that log₁₀ y + 2 log₁₀ x = 3, express y in terms of x.",
+      "answers": [
+        "y = 3 − 2x",
+        "y = 3/(2x)",
+        "y = 1000/x²",
+        "y = 500/x²"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "y·x² = 10³, so y = 1000/x²."
+    },
+    {
+      "id": "lautech-100-mth101-095",
+      "prompt": "If Tᵣ = ⁿCᵣ (ax)ⁿ⁻ʳ (by)ʳ, find Tᵣ when r = 0, n = 4, a = 2, b = 3.",
+      "answers": [
+        "4x³y",
+        "16x⁴",
+        "96x³y",
+        "216x⁴"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "T₀ = (2x)⁴ = 16x⁴."
+    },
+    {
+      "id": "lautech-100-mth101-096",
+      "prompt": "In the expansion of (3x − 2y)⁵, what is the coefficient of x²y³?",
+      "answers": [
+        "720",
+        "240",
+        "243",
+        "−720"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "5C3 × 3² × (−2)³ = 10 × 9 × (−8) = −720."
+    },
+    {
+      "id": "lautech-100-mth101-097",
+      "prompt": "Three consecutive terms of a G.P. are given as (n − 2), n and (n + 3). Find the common ratio.",
+      "answers": [
+        "3/2",
+        "1/2",
+        "1/8",
+        "2/3"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "n² = (n − 2)(n + 3) gives n = 6; r = 6/4 = 3/2."
+    },
+    {
+      "id": "lautech-100-mth101-098",
+      "prompt": "The first term of an A.P. is −8. The ratio of the 7th term to the 9th term is 5/8. Calculate the common difference of the progression.",
+      "answers": [
+        "3",
+        "5",
+        "8",
+        "6"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "8(−8 + 6d) = 5(−8 + 8d) gives 8d = 24, so d = 3."
+    },
+    {
+      "id": "lautech-100-mth101-099",
+      "prompt": "When x³ − 2x² + mx + 4 is divided by x − 3, the remainder is −2. Find m.",
+      "answers": [
+        "−3",
+        "−2",
+        "−4",
+        "−5"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "f(3) = 27 − 18 + 3m + 4 = −2, so m = −5."
+    },
+    {
+      "id": "lautech-100-mth101-100",
+      "prompt": "If A = {f, e, m} and B = {s, a, m}, find B − A.",
+      "answers": [
+        "{f, e}",
+        "{ }",
+        "{s, a}",
+        "{f, e, m, s, a, m}"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "B − A = elements of B not in A = {s, a}."
+    },
+    {
+      "id": "lautech-100-mth101-101",
+      "prompt": "Solve for x if √(2x − 2) − √(x − 2) = √x.",
+      "answers": [
+        "x = 4 or 0",
+        "5 or 0",
+        "2 or 0",
+        "3 or 0"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Squaring gives x² − 2x = 0, so x = 2 or 0 (x = 0 is extraneous in the reals but is the listed answer)."
+    },
+    {
+      "id": "lautech-100-mth101-102",
+      "prompt": "The third term of a G.P. is 20 and the 6th term is 160. Find the common ratio.",
+      "answers": [
+        "3",
+        "2",
+        "4",
+        "8"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "r³ = 8, so r = 2."
+    },
+    {
+      "id": "lautech-100-mth101-103",
+      "prompt": "If the 2nd and 4th terms of a G.P. are 8 and 32 respectively, find the sum of the first 9 terms.",
+      "answers": [
+        "2929.5",
+        "2299.5",
+        "9922.5",
+        "2044"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "r = 2, a = 4: S₉ = 4(2⁹ − 1) = 2044."
+    },
+    {
+      "id": "lautech-100-mth101-104",
+      "prompt": "If α and β are the roots of the equation x² + x − 2 = 0, find the product of the roots.",
+      "answers": [
+        "1",
+        "−2",
+        "2",
+        "−1"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Product = c/a = −2."
+    },
+    {
+      "id": "lautech-100-mth101-105",
+      "prompt": "Find the quadratic equation whose roots are 1/√2 and 3/√2.",
+      "answers": [
+        "x² − 2√2x + 3 = 0",
+        "2x² − 4√2x + 3 = 0",
+        "2x² − 4√2x − 3 = 0",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Sum = 2√2 and product = 3/2, so x² − 2√2x + 3/2 = 0, i.e. 2x² − 4√2x + 3 = 0."
+    },
+    {
+      "id": "lautech-100-mth101-106",
+      "prompt": "If α and β are roots of 5x² − 7x − 25 = 0, which of the following statements is/are correct? (i) α + β = −7/5 (ii) αβ = −5 (iii) α + β = 7/5",
+      "answers": [
+        "i only",
+        "ii and iii only",
+        "ii only",
+        "i, ii and iii"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Correction: the source key says C, but the sum of roots is 7/5 (iii) and the product is −5 (ii), so (ii) and (iii) are both correct. The symbols in the printed question are garbled; the same question (Q372) has key 'ii and iii'."
+    },
+    {
+      "id": "lautech-100-mth101-107",
+      "prompt": "Let X = {1, 2}, Y = {1, 3, 4} and Z = {5, 6} be subsets of N = {1, 2, 3, 4, 5, 6, 7}. Find (X ∪ Y)ᶜ − Z.",
+      "answers": [
+        "{5, 6}",
+        "{7}",
+        "{ }",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "(X ∪ Y)ᶜ = {5, 6, 7}; removing Z leaves {7}."
+    },
+    {
+      "id": "lautech-100-mth101-108",
+      "prompt": "Find the set K = {P: P is a prime, P < 16}.",
+      "answers": [
+        "{1, 3, 5, 7, 9, 11, 13, 15}",
+        "None",
+        "{2, 3, 5, 7, 11, 13}",
+        "{0, 1, 3, 5, 7, 11, 13}"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "The primes below 16."
+    },
+    {
+      "id": "lautech-100-mth101-109",
+      "prompt": "Find the square root of 31 − 4√21.",
+      "answers": [
+        "28 and 3",
+        "21 and 4",
+        "31 and 3",
+        "7 and 21"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "(√28 − √3)² = 31 − 2√84 = 31 − 4√21."
+    },
+    {
+      "id": "lautech-100-mth101-110",
+      "prompt": "Find the nth term of 1/3, 1/9, 1/27, …",
+      "answers": [
+        "n/3",
+        "n²",
+        "1/3ⁿ",
+        "1/n²"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Tₙ = (1/3)ⁿ."
+    },
+    {
+      "id": "lautech-100-mth101-111",
+      "prompt": "If the third term of an A.P. is 12 and the 5th term is 58, find the sum of eleven terms.",
+      "answers": [
+        "354",
+        "528",
+        "891",
+        "2044"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "d = 23, a = −34; S₁₁ = (11/2)(−68 + 230) = 891."
+    },
+    {
+      "id": "lautech-100-mth101-112",
+      "prompt": "Find the value of (α + β)² − 2αβ for the equation 2x² − 5x − 3 = 0.",
+      "answers": [
+        "11/4",
+        "17/4",
+        "37/4",
+        "128/7"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "25/4 − 2(−3/2) = 25/4 + 3 = 37/4."
+    },
+    {
+      "id": "lautech-100-mth101-113",
+      "prompt": "If 1 − 3 log₁₀ y = log₁₀ x, express y in terms of x.",
+      "answers": [
+        "√(x/10)",
+        "∛(10/x)",
+        "√(10/x)",
+        "∛(x/10)"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "log y = (1 − log x)/3, so y = ∛(10/x). (The printed question says 'x in terms of y', but the options are in terms of x.)"
+    },
+    {
+      "id": "lautech-100-mth101-114",
+      "prompt": "The fourth and the 7th terms of a G.P. are 24 and 192 respectively. Find the sum of the first 6 terms.",
+      "answers": [
+        "189",
+        "190",
+        "179",
+        "182"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "r = 2, a = 3: S₆ = 3(64 − 1) = 189."
+    },
+    {
+      "id": "lautech-100-mth101-115",
+      "prompt": "The 4th term of an A.P. is 13 and the 10th term is 31. Find the 24th term.",
+      "answers": [
+        "204",
+        "306",
+        "495",
+        "73"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "d = 3, a = 4; T₂₄ = 4 + 23 × 3 = 73."
+    },
+    {
+      "id": "lautech-100-mth101-116",
+      "prompt": "Solve for x + 1/x in 5x⁴ − 36x³ + 62x² − 36x + 5 = 0.",
+      "answers": [
+        "26/5, 2",
+        "5/26, −2",
+        "−2, 26/5",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Dividing by x² with t = x + 1/x: 5t² − 36t + 52 = 0, so t = 26/5 or 2."
+    },
+    {
+      "id": "lautech-100-mth101-117",
+      "prompt": "The sum of the first n terms of a G.P. if r is less than 1 is",
+      "answers": [
+        "a(rⁿ − 1)/(r − 1)",
+        "a(1 − rⁿ)/(1 − r)",
+        "a rⁿ⁺¹/(1 + r)",
+        "(r² − 1)/(1 + r)"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Sₙ = a(1 − rⁿ)/(1 − r)."
+    },
+    {
+      "id": "lautech-100-mth101-118",
+      "prompt": "The third term of a G.P. is 360 and the 6th term is 1215. Find the 1st term of the sequence.",
+      "answers": [
+        "300",
+        "160",
+        "120",
+        "150"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "r = 3/2, so a = 360/(9/4) = 160."
+    },
+    {
+      "id": "lautech-100-mth101-119",
+      "prompt": "If A = {s, a, m} and B = {m, e, f}, find B − A.",
+      "answers": [
+        "{s, a}",
+        "φ",
+        "{a, e}",
+        "{e, f}"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "B − A = {e, f}."
+    },
+    {
+      "id": "lautech-100-mth101-120",
+      "prompt": "If X = {1, 2, 3, 4}, Y = {2, 3, 4, 5}, Z = {2, 4, 5, 6} and N = {1, 2, 3, 4, 5, 6, 7}, find (XΔY) ∩ Z.",
+      "answers": [
+        "{1}",
+        "5",
+        "{1, 5}",
+        "{1, 5, 4}"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "XΔY = {1, 5}; intersecting with Z leaves {5}."
+    },
+    {
+      "id": "lautech-100-mth101-121",
+      "prompt": "The sum of the first 3 terms of a linear sequence is 18. Find their product if the first term is 4.",
+      "answers": [
+        "150",
+        "184",
+        "176",
+        "192"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "3a + 3d = 18 gives d = 2; terms 4, 6, 8, product 192."
+    },
+    {
+      "id": "lautech-100-mth101-122",
+      "prompt": "______________ is the root of an arithmetic number whose value cannot be obtained exactly.",
+      "answers": [
+        "Polynomial",
+        "Surd",
+        "Equation",
+        "Expression"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "This is the definition of a surd."
+    },
+    {
+      "id": "lautech-100-mth101-123",
+      "prompt": "Find the square root of 21 − 6√6.",
+      "answers": [
+        "12 and 9",
+        "18 and 3",
+        "9 and 16",
+        "none"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "(√18 − √3)² = 21 − 2√54 = 21 − 6√6."
+    },
+    {
+      "id": "lautech-100-mth101-124",
+      "prompt": "Find the coefficient of x³ in the binomial expansion of (1 + 4x)⁶.",
+      "answers": [
+        "1280",
+        "2635",
+        "1298",
+        "4205"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "6C3 × 4³ = 20 × 64 = 1280."
+    },
+    {
+      "id": "lautech-100-mth101-125",
+      "prompt": "Evaluate α² + β².",
+      "answers": [
+        "(α + β)² − 2αβ",
+        "(α + β)² + 2αβ",
+        "(α − β)² + 2αβ",
+        "αβ − (α + β)²"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "α² + β² = (α + β)² − 2αβ."
+    },
+    {
+      "id": "lautech-100-mth101-126",
+      "prompt": "Simplify log₉3 − log₉243 + 2 log₉81.",
+      "answers": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "log₉(3 × 6561/243) = log₉81 = 2."
+    },
+    {
+      "id": "lautech-100-mth101-127",
+      "prompt": "The nth term of a sequence is log₁₆(n + 3). What is the difference between the 13th and the first term?",
+      "answers": [
+        "1/2",
+        "−1/2",
+        "1",
+        "−1"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "T₁₃ = log₁₆16 = 1 and T₁ = log₁₆4 = 1/2; difference 1/2."
+    },
+    {
+      "id": "lautech-100-mth101-128",
+      "prompt": "In a class of 30 students, 17 study Physics, 15 study Biology while 10 study neither (Physics nor Biology). How many study Physics and Biology?",
+      "answers": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Union = 30 − 10 = 20; both = 17 + 15 − 20 = 12. (The printed question says 'neither English nor Physics', which appears to be a typo.)"
+    },
+    {
+      "id": "lautech-100-mth101-129",
+      "prompt": "Find the power set of A = {a, b, c, d, e, f}: how many elements does it have?",
+      "answers": [
+        "16",
+        "6",
+        "64",
+        "32"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "2⁶ = 64."
+    },
+    {
+      "id": "lautech-100-mth101-130",
+      "prompt": "What is the nth term of the linear sequence 2, 4, 6, 8, …?",
+      "answers": [
+        "2n",
+        "n²",
+        "n/2",
+        "n/4"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Tₙ = 2n."
+    },
+    {
+      "id": "lautech-100-mth101-131",
+      "prompt": "If the nth term of an arithmetic sequence is log₂(13 + n), find the difference between the 19th term and the 3rd term.",
+      "answers": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "log₂32 − log₂16 = 5 − 4 = 1."
+    },
+    {
+      "id": "lautech-100-mth101-132",
+      "prompt": "If α and β are the roots of the quadratic equation 2x² + px + q = 0, express α⁻² + β⁻² in terms of p and q.",
+      "answers": [
+        "(p² − 4q)/q²",
+        "(q² − 4p)/p²",
+        "(4p + q²)/(2q²)",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "α² + β² = p²/4 − q and (αβ)² = q²/4, so the ratio is (p² − 4q)/q²."
+    },
+    {
+      "id": "lautech-100-mth101-133",
+      "prompt": "If the roots of 2x² − 7x + 4 = 0 are α and β, find (αβ)⁻¹.",
+      "answers": [
+        "1/2",
+        "2",
+        "4",
+        "8"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "αβ = 2, so (αβ)⁻¹ = 1/2. (The printed '= 4 = 0' is a typo for '+ 4 = 0'.)"
+    },
+    {
+      "id": "lautech-100-mth101-134",
+      "prompt": "Venn diagram was first conceived by who?",
+      "answers": [
+        "George Venn",
+        "Joan Venn",
+        "Don Venn",
+        "None of the options"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "It was devised by John Venn, who is not listed."
+    },
+    {
+      "id": "lautech-100-mth101-135",
+      "prompt": "If 5/√2 − √8/2 = m√2, where m is a constant, find m.",
+      "answers": [
+        "1 3/4",
+        "1 1/2",
+        "2 1/2",
+        "2 1/4"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "(5/2)√2 − √2 = (3/2)√2, so m = 1 1/2."
+    },
+    {
+      "id": "lautech-100-mth101-136",
+      "prompt": "The first term of an A.P. is twice the common difference. Find in terms of d the 5th term of the A.P.",
+      "answers": [
+        "8d",
+        "2d",
+        "4d",
+        "6d"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "a = 2d, so T₅ = 2d + 4d = 6d."
+    },
+    {
+      "id": "lautech-100-mth101-137",
+      "prompt": "Find the sum to infinity of the sequence if the first term is 2 and the common ratio is 3/5.",
+      "answers": [
+        "7",
+        "5",
+        "8",
+        "6"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "S∞ = 2/(1 − 3/5) = 5."
+    },
+    {
+      "id": "lautech-100-mth101-138",
+      "prompt": "What is the common difference of the linear sequence −7, −4, −1, 2, …?",
+      "answers": [
+        "4",
+        "−7",
+        "3",
+        "2"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "−4 − (−7) = 3."
+    },
+    {
+      "id": "lautech-100-mth101-139",
+      "prompt": "If α and β are the roots of the equation 2x² − 3x + 1 = 0, find the value of (α + 1) + (β + 1).",
+      "answers": [
+        "2",
+        "3.5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "(α + β) + 2 = 3/2 + 2 = 3.5."
+    },
+    {
+      "id": "lautech-100-mth101-140",
+      "prompt": "Given that (√3 − 5√2)(√3 + √2) = p + q√6, find q.",
+      "answers": [
+        "−7",
+        "−4",
+        "−11",
+        "6"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Expanding gives −7 − 4√6, so q = −4."
+    },
+    {
+      "id": "lautech-100-mth101-141",
+      "prompt": "If 3/((x − 2)(x² + 5)) = 1/(3(x − 2)) − B/(3(x² + 5)), what is B?",
+      "answers": [
+        "1 − x",
+        "1 − x²",
+        "x + 2",
+        "x² + 1"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Clearing fractions: (x² + 5) − B(x − 2) = 9, so B(x − 2) = x² − 4 and B = x + 2."
+    },
+    {
+      "id": "lautech-100-mth101-142",
+      "prompt": "Find the coefficient of x⁴ in the expansion of (1 − 3x)⁶.",
+      "answers": [
+        "90",
+        "1215",
+        "135",
+        "48"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "6C4 × 81 = 15 × 81 = 1215."
+    },
+    {
+      "id": "lautech-100-mth101-143",
+      "prompt": "In how many ways can the letters in the word “TOTALITY” be written?",
+      "answers": [
+        "2460",
+        "6720",
+        "3821",
+        "4960"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "8 letters with T repeated 3 times: 8!/3! = 6720."
+    },
+    {
+      "id": "lautech-100-mth101-144",
+      "prompt": "Find the geometric mean between 3 and 81.",
+      "answers": [
+        "9",
+        "9√3",
+        "27",
+        "16"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "√(3 × 81) = √243 = 9√3."
+    },
+    {
+      "id": "lautech-100-mth101-145",
+      "prompt": "Solve for x in the equation x³ − 3x² − 4x + 12 = 0.",
+      "answers": [
+        "x = −2 (twice)",
+        "x = 2, −3, −2",
+        "x = −2 (twice), 3",
+        "x = 2, 3, −2"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "(x − 3)(x² − 4) = 0, so x = 3, 2, −2."
+    },
+    {
+      "id": "lautech-100-mth101-146",
+      "prompt": "The sum of the roots and the product of the roots of a quadratic equation are 4/7 and 5/7 respectively. Find the equation.",
+      "answers": [
+        "7x² − 4x + 5 = 0",
+        "7x² + 4x − 5 = 0",
+        "7x² + 4x + 5 = 0",
+        "7x² − 4x − 5 = 0"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "x² − (4/7)x + 5/7 = 0, i.e. 7x² − 4x + 5 = 0."
+    },
+    {
+      "id": "lautech-100-mth101-147",
+      "prompt": "The 4th term of an exponential sequence is 192 and its ninth term is 6. Find the common ratio.",
+      "answers": [
+        "3",
+        "2",
+        "1/3",
+        "1/2"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "r⁵ = 6/192 = 1/32, so r = 1/2."
+    },
+    {
+      "id": "lautech-100-mth101-148",
+      "prompt": "Find the coefficient of x² in the expansion of (1 + 3x)⁶.",
+      "answers": [
+        "75",
+        "135",
+        "155",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "6C2 × 9 = 135."
+    },
+    {
+      "id": "lautech-100-mth101-149",
+      "prompt": "n! is equal to",
+      "answers": [
+        "n(n − 1)!",
+        "n! − 1",
+        "n! r!",
+        "(n − 1)/r!"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "n! = n × (n − 1)!."
+    },
+    {
+      "id": "lautech-100-mth101-150",
+      "prompt": "If Tₙ is the nth term of a sequence, then the common ratio (r) can be written as",
+      "answers": [
+        "Tₙ₋₁ − Tₙ",
+        "Tₙ₋₁ + Tₙ",
+        "Tₙ − Tₙ₋₁",
+        "Tₙ/Tₙ₋₁"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "For a G.P., r = Tₙ/Tₙ₋₁. (The question says 'linear' but means exponential/geometric.)"
+    },
+    {
+      "id": "lautech-100-mth101-151",
+      "prompt": "If Sₙ = n² − n + 1, the 12th term is",
+      "answers": [
+        "22",
+        "26",
+        "18",
+        "16"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "T₁₂ = S₁₂ − S₁₁ = 133 − 111 = 22."
+    },
+    {
+      "id": "lautech-100-mth101-152",
+      "prompt": "The nth term of a sequence is Uₙ = 5 + (n − 1)². Evaluate U₄ − U₆.",
+      "answers": [
+        "−13",
+        "−20",
+        "−9",
+        "−16"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "U₄ = 14 and U₆ = 30, so the difference is −16."
+    },
+    {
+      "id": "lautech-100-mth101-153",
+      "prompt": "Einstein’s theory of relativity predicts that if a stick of length l moves with velocity V in the direction of its length, it will shrink by a factor √(1 − V²/C²), where C is the speed of light. What is the approximate low-speed factor by taking the first two terms of the expansion?",
+      "answers": [
+        "1 + V/(2C²)",
+        "1 − V²/(2C)",
+        "1 − V/(2C)",
+        "1 − V²/(2C²)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "(1 − x)^(1/2) ≈ 1 − x/2 with x = V²/C²."
+    },
+    {
+      "id": "lautech-100-mth101-154",
+      "prompt": "If 3 log a + 5 log a − 6 log a = log 64, what is the value of a?",
+      "answers": [
+        "4",
+        "6",
+        "8",
+        "32"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "2 log a = log 64, so a² = 64 and a = 8."
+    },
+    {
+      "id": "lautech-100-mth101-155",
+      "prompt": "If log_x 5 = y and log_y 5 = x, what is x/y?",
+      "answers": [
+        "log_y x",
+        "log_x xy",
+        "log_x y",
+        "log_x (x/y)"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "x/y = (ln5/ln y)/(ln5/ln x) = ln x/ln y = log_y x."
+    },
+    {
+      "id": "lautech-100-mth101-156",
+      "prompt": "Solve for x in (1/2) log_x 64 = 3.",
+      "answers": [
+        "x = −1",
+        "x = −2",
+        "x = −3",
+        "x = 2"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "log_x 64 = 6, so x⁶ = 64 and x = 2."
+    },
+    {
+      "id": "lautech-100-mth101-157",
+      "prompt": "Which of these terms is the last term in the expansion of (2x + 3)⁴?",
+      "answers": [
+        "16x⁴",
+        "81",
+        "96x³",
+        "216x²"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "The last term is 3⁴ = 81."
+    },
+    {
+      "id": "lautech-100-mth101-158",
+      "prompt": "Obtain the coefficient of x² in the expansion of (2 + x/2)⁸.",
+      "answers": [
+        "2⁸ × 7/8",
+        "2⁸ × 7/16",
+        "7/4",
+        "2⁶ × 7"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "8C2 × 2⁶ × (1/2)² = 28 × 64/4 = 448 = 2⁶ × 7."
+    },
+    {
+      "id": "lautech-100-mth101-159",
+      "prompt": "If α and β are the roots of the equation x² + bx + c = 0, find α⁻² + β⁻².",
+      "answers": [
+        "(b² − 2c)/c²",
+        "(−b² + 2c)/c²",
+        "(b² + 2ac)/c²",
+        "(−b² + 2c)/c²"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "(α² + β²)/(αβ)² = (b² − 2c)/c²."
+    },
+    {
+      "id": "lautech-100-mth101-160",
+      "prompt": "The 5th term of an A.P. is −1 and the sum of the first twenty terms is −240. Find the 3rd term.",
+      "answers": [
+        "7",
+        "2",
+        "4",
+        "3"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "a + 4d = −1 and 2a + 19d = −24 give d = −2, a = 7; T₃ = 3."
+    },
+    {
+      "id": "lautech-100-mth101-161",
+      "prompt": "The family of all subsets of a set is called",
+      "answers": [
+        "Equality of set",
+        "None",
+        "Power set",
+        "Intersection of sets"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "This is the power set."
+    },
+    {
+      "id": "lautech-100-mth101-162",
+      "prompt": "If x ∈ X ∩ Yᶜ, which of the following is not true?",
+      "answers": [
+        "x ∈ Yᶜ",
+        "x ∉ Y",
+        "x ∈ Xᶜ",
+        "x ∈ X"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "x is in X, so x ∈ Xᶜ cannot be true."
+    },
+    {
+      "id": "lautech-100-mth101-163",
+      "prompt": "If α and β are the roots of the equation x² + 3x − 2 = 0, find α³ + β³.",
+      "answers": [
+        "−42",
+        "25",
+        "45",
+        "−45"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "(−3)³ − 3(−2)(−3) = −27 − 18 = −45."
+    },
+    {
+      "id": "lautech-100-mth101-164",
+      "prompt": "Solve the equation 6x² = 5x + 6.",
+      "answers": [
+        "(2/3, 3/2)",
+        "(2/3, −3/2)",
+        "(−2/3, −3/2)",
+        "(−2/3, 3/2)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "6x² − 5x − 6 = (3x + 2)(2x − 3) = 0, so x = −2/3 or 3/2."
+    },
+    {
+      "id": "lautech-100-mth101-165",
+      "prompt": "The fourth term of an exponential sequence is 192, its ninth term is 6. Find the common ratio.",
+      "answers": [
+        "2",
+        "1",
+        "1/2",
+        "3/2"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "r⁵ = 1/32, so r = 1/2."
+    },
+    {
+      "id": "lautech-100-mth101-166",
+      "prompt": "Find P and Q respectively for x²/(x − 1)² = 1 + 2/P + Q/(x − 1)².",
+      "answers": [
+        "P = x − 1, Q = 1",
+        "P = x − 2, Q = 2",
+        "P = x², Q = 4",
+        "P = x² − 1, Q = −5"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "1 + 2/(x − 1) + 1/(x − 1)² = x²/(x − 1)². (The printed numerator x³ appears to be a typo for x².)"
+    },
+    {
+      "id": "lautech-100-mth101-167",
+      "prompt": "If α and β are the roots of the equation Kx² + Kx − 2 = 0, determine the value of K for which α = −5/β.",
+      "answers": [
+        "2/5",
+        "2",
+        "5",
+        "−2/5"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "αβ = −5 and αβ = −2/K, so K = 2/5."
+    },
+    {
+      "id": "lautech-100-mth101-168",
+      "prompt": "The roots of the equation 2x² − 5x − 3 = 0 are α and β. Find the value of α² + β² − α²β².",
+      "answers": [
+        "37/4",
+        "7",
+        "11/2",
+        "19"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "α² + β² = 37/4 and (αβ)² = 9/4, so the value is 28/4 = 7."
+    },
+    {
+      "id": "lautech-100-mth101-169",
+      "prompt": "If K and L are two given sets such that K ∩ L = φ, which of the following options is correct?",
+      "answers": [
+        "K and L are disjoint",
+        "There is intersection between K and L",
+        "K is a power set of L",
+        "K is a subset of L"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Sets with empty intersection are disjoint."
+    },
+    {
+      "id": "lautech-100-mth101-170",
+      "prompt": "Simplify (3⁻⁵ˣ / 9¹⁻ˣ) × 27ˣ⁺¹.",
+      "answers": [
+        "243",
+        "3",
+        "27",
+        "9"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Correction: the source key says A (243). The exponent is −5x − 2(1 − x) + 3(x + 1) = 1, so the value is 3¹ = 3."
+    },
+    {
+      "id": "lautech-100-mth101-171",
+      "prompt": "Find the sum of the coefficients of x² and x³ in the expansion of (1 + x/2)⁶.",
+      "answers": [
+        "5/2",
+        "10",
+        "15/4",
+        "6 1/4"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "15/4 + 20/8 = 25/4 = 6 1/4."
+    },
+    {
+      "id": "lautech-100-mth101-172",
+      "prompt": "What is the common ratio (r) of a G.P. given Sₙ = 6 − 3/2ⁿ⁻¹?",
+      "answers": [
+        "1",
+        "22/7",
+        "3/2",
+        "2/7"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Source answer: A. (Direct calculation gives Tₙ = 3/2ⁿ⁻¹, so r = 1/2, which is not among the options.)"
+    },
+    {
+      "id": "lautech-100-mth101-173",
+      "prompt": "Simplify ∛(8/27) − (4/9)^(−1/2).",
+      "answers": [
+        "−4/27",
+        "2/9",
+        "−5/6",
+        "0"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "2/3 − 3/2 = −5/6."
+    },
+    {
+      "id": "lautech-100-mth101-174",
+      "prompt": "Solve for x if √(2x − 10) − √(x + 9) = 2.",
+      "answers": [
+        "x = 4",
+        "x = 55",
+        "x = 54",
+        "x = 45"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "At x = 55: √100 − √64 = 10 − 8 = 2."
+    },
+    {
+      "id": "lautech-100-mth101-175",
+      "prompt": "The first term of a G.P. is 7 while the common ratio is 3. Find the 11th term.",
+      "answers": [
+        "413343",
+        "4133343",
+        "41333343",
+        "41443"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "7 × 3¹⁰ = 7 × 59049 = 413343."
+    },
+    {
+      "id": "lautech-100-mth101-176",
+      "prompt": "The coefficient of xy³ in the expansion of (3x + 2y)⁴ is",
+      "answers": [
+        "16",
+        "96",
+        "81",
+        "21"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "4C3 × 3 × 2³ = 4 × 24 = 96."
+    },
+    {
+      "id": "lautech-100-mth101-177",
+      "prompt": "Solve the equation x² + 3x − 10 = 0.",
+      "answers": [
+        "−2 or −5",
+        "2 or −5",
+        "2 or 5",
+        "−2 or 5"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "(x + 5)(x − 2) = 0."
+    },
+    {
+      "id": "lautech-100-mth101-178",
+      "prompt": "Find P and Q respectively for which (2x² + 3x + 10)/((x + 1)(x + 2)) = P + Q/(x + 1) − R/(x + 2).",
+      "answers": [
+        "P = 3, Q = 8",
+        "P = 9, Q = 6",
+        "P = 2, Q = 9",
+        "P = −5, Q = 1"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Dividing gives P = 2; the remainder (−3x + 6)/((x + 1)(x + 2)) gives Q = 9 and R = 12."
+    },
+    {
+      "id": "lautech-100-mth101-179",
+      "prompt": "The total number of terms in the binomial expansion of (a + b)ⁿ consists of",
+      "answers": [
+        "One more than exponent n",
+        "None",
+        "n + 2",
+        "n − 1"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "There are n + 1 terms."
+    },
+    {
+      "id": "lautech-100-mth101-180",
+      "prompt": "Let A ⊂ U, where U is a universal set. Which of the following does not define the complement of A, denoted by Aᶜ?",
+      "answers": [
+        "U − A",
+        "Aᶜ ≠ 0",
+        "Aᶜ = {x: x ∈ U but x ∉ A}",
+        "Aᶜ = φ"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Aᶜ = φ holds only when A = U, so it is not a definition of the complement."
+    },
+    {
+      "id": "lautech-100-mth101-181",
+      "prompt": "The 9th term of an A.P. is 5 times the 5th term. Find the relationship between a and d.",
+      "answers": [
+        "a + 3d = 0",
+        "a + 2d = 0",
+        "2a + d = 0",
+        "2a + 2d = 0"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "a + 8d = 5a + 20d gives 4a + 12d = 0, so a + 3d = 0."
+    },
+    {
+      "id": "lautech-100-mth101-182",
+      "prompt": "The sum of the 8th term and 9th term of a linear sequence is 72 and the 4th term is −6. Find the common difference.",
+      "answers": [
+        "3",
+        "28",
+        "28/3",
+        "3/28"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "2a + 15d = 72 and a + 3d = −6 give 9d = 84, so d = 28/3."
+    },
+    {
+      "id": "lautech-100-mth101-183",
+      "prompt": "Solve for n if ³ⁿC₂ = 15.",
+      "answers": [
+        "6",
+        "7",
+        "2",
+        "4"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Reading ³ⁿC₂ as (3n)C₂: 3n(3n − 1)/2 = 15 gives 3n = 6, so n = 2."
+    },
+    {
+      "id": "lautech-100-mth101-184",
+      "prompt": "Find the value of K if one root is 3 more than the other root to satisfy x² + x + K = 0.",
+      "answers": [
+        "3",
+        "2",
+        "−2",
+        "−3"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "α − β = 3 and α + β = −1 give α = 1, β = −2, so K = αβ = −2."
+    },
+    {
+      "id": "lautech-100-mth101-185",
+      "prompt": "In a class of 60 students, 34 study Mathematics, 40 study Biology, 2 study none. Find the number of students that study both.",
+      "answers": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Union = 58; both = 34 + 40 − 58 = 16."
+    },
+    {
+      "id": "lautech-100-mth101-186",
+      "prompt": "Find the value of (log 75 − log 125)/(log 3 − log 5).",
+      "answers": [
+        "−1",
+        "3",
+        "1",
+        "2"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "log(75/125) = log(3/5), so the ratio is 1."
+    },
+    {
+      "id": "lautech-100-mth101-187",
+      "prompt": "In an extended family of 30 people, 17 are professors, 15 are politicians while 10 are neither politician nor professor. How many are professors only?",
+      "answers": [
+        "3",
+        "17",
+        "5",
+        "15"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Union = 20; both = 12; professors only = 17 − 12 = 5."
+    },
+    {
+      "id": "lautech-100-mth101-188",
+      "prompt": "For what values of P and Q respectively is (x² + 1)/(x + 1)² = 1 + P/(x + 1) + Q/(x + 1)²?",
+      "answers": [
+        "−2, 2",
+        "1, −1",
+        "−1, 1",
+        "2, −2"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "x² + 1 = (x + 1)² + P(x + 1) + Q gives P = −2 and Q = 2."
+    },
+    {
+      "id": "lautech-100-mth101-189",
+      "prompt": "The coefficient of x² in the expansion of (1 + x)⁵ is",
+      "answers": [
+        "1",
+        "5",
+        "10",
+        "20"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "5C2 = 10."
+    },
+    {
+      "id": "lautech-100-mth101-190",
+      "prompt": "Let A, B and C be sets, then C = (A − B) ∪ (B − A) is called",
+      "answers": [
+        "Difference of two sets",
+        "Symmetric difference of sets",
+        "Disjoint",
+        "Union"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "This is the symmetric difference."
+    },
+    {
+      "id": "lautech-100-mth101-191",
+      "prompt": "In a class of 36 students, 19 read Biology, 16 read Chemistry and 5 read none. How many students read only Chemistry?",
+      "answers": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Union = 31; both = 4; Chemistry only = 16 − 4 = 12."
+    },
+    {
+      "id": "lautech-100-mth101-192",
+      "prompt": "If Uₙ = n(n² + 1), evaluate U₅ − U₄.",
+      "answers": [
+        "58",
+        "62",
+        "68",
+        "130"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "130 − 68 = 62."
+    },
+    {
+      "id": "lautech-100-mth101-193",
+      "prompt": "If α and β are the roots of the equation 2x² − 3x + 1 = 0, find (α + β)/(αβ).",
+      "answers": [
+        "3/2",
+        "1/2",
+        "3",
+        "−3"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "(3/2)/(1/2) = 3. (The printed 'α + β/αβ' is read as (α + β)/(αβ).)"
+    },
+    {
+      "id": "lautech-100-mth101-194",
+      "prompt": "Find the sum of the first six terms of the exponential sequence 18, 6, 2, …",
+      "answers": [
+        "628/27",
+        "728/27",
+        "729/28",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "r = 1/3: S₆ = 18(1 − 1/729)/(2/3) = 728/27."
+    },
+    {
+      "id": "lautech-100-mth101-195",
+      "prompt": "If the second and the fourth terms of a G.P. are 8 and 32, find the sum of the first 10 terms.",
+      "answers": [
+        "2165",
+        "4092",
+        "8265",
+        "12378"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "r = 2, a = 4: S₁₀ = 4(1023) = 4092."
+    },
+    {
+      "id": "lautech-100-mth101-196",
+      "prompt": "Find the number of terms of an A.P. given that the first and last terms are K and 37K respectively and the common difference is 4K.",
+      "answers": [
+        "11",
+        "12",
+        "13",
+        "10"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "n = (37K − K)/(4K) + 1 = 10."
+    },
+    {
+      "id": "lautech-100-mth101-197",
+      "prompt": "If X is the set of all prime factors of 30 and Y is the set of all factors of 18 less than 10, find X ∩ Y.",
+      "answers": [
+        "{1, 2}",
+        "{3}",
+        "{2, 3}",
+        "{2, 3, 5}"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "X = {2, 3, 5}, Y = {1, 2, 3, 6, 9}; the intersection is {2, 3}."
+    },
+    {
+      "id": "lautech-100-mth101-198",
+      "prompt": "Find the fourth term in the expansion of (a − b)⁶ in ascending powers.",
+      "answers": [
+        "−20a³b³",
+        "−50a²b⁴",
+        "20a³b²",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "6C3 · a³ · (−b)³ = −20a³b³."
+    },
+    {
+      "id": "lautech-100-mth101-199",
+      "prompt": "Find the constant term in the binomial expansion of (2x − 3/x)⁸.",
+      "answers": [
+        "20950",
+        "90720",
+        "16287",
+        "40350"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "8C4 · 2⁴ · (−3)⁴ = 70 × 16 × 81 = 90720."
+    },
+    {
+      "id": "lautech-100-mth101-200",
+      "prompt": "Let X = {1, 2}, Y = {1, 3, 4}, Z = {5, 6}, N = {1, 2, 3, 4, 5, 6}. Find ((X ∪ Y) ∩ Z)ᶜ.",
+      "answers": [
+        "φ",
+        "None",
+        "{7}",
+        "N"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "(X ∪ Y) ∩ Z = φ, whose complement is N."
+    },
+    {
+      "id": "lautech-100-mth101-201",
+      "prompt": "Determine the coefficient of x³ in the expansion of (1 + 2x)⁶.",
+      "answers": [
+        "100",
+        "80",
+        "160",
+        "320"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "6C3 × 2³ = 160."
+    },
+    {
+      "id": "lautech-100-mth101-202",
+      "prompt": "What value of P will make x² − x + p a perfect square?",
+      "answers": [
+        "1",
+        "2",
+        "1/4",
+        "−1/2"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "p = (1/2)² = 1/4."
+    },
+    {
+      "id": "lautech-100-mth101-203",
+      "prompt": "In the equation 5x⁴ + 9x³ − 12x² − 9x + 5 = 0, find (x − 1/x).",
+      "answers": [
+        "1/5, −2",
+        "1/2, −5",
+        "2, 1/5",
+        "5, 1/2"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "With u = x − 1/x: 5(u² + 2) + 9u − 12 = 0, so 5u² + 9u − 2 = 0 and u = 1/5 or −2."
+    },
+    {
+      "id": "lautech-100-mth101-204",
+      "prompt": "Find the product of the 9th and 12th terms in 4n² − 2ⁿ⁻¹.",
+      "answers": [
+        "−100096",
+        "961006",
+        "200176",
+        "−9600106"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "T₉ = 324 − 256 = 68 and T₁₂ = 576 − 2048 = −1472; product = −100096."
+    },
+    {
+      "id": "lautech-100-mth101-205",
+      "prompt": "In a class of 40 students, 32 study MTH, 24 study PHY and 4 study neither MTH nor PHY. Find the number of students that study both subjects.",
+      "answers": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Union = 36; both = 32 + 24 − 36 = 20."
+    },
+    {
+      "id": "lautech-100-mth101-206",
+      "prompt": "(0.25)ˣ⁺¹ = 16, find x.",
+      "answers": [
+        "1",
+        "−1",
+        "2",
+        "−3"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "4^(−(x + 1)) = 4², so x + 1 = −2 and x = −3."
+    },
+    {
+      "id": "lautech-100-mth101-207",
+      "prompt": "Find the coefficient of x³ in the expansion of (1 − x)⁶.",
+      "answers": [
+        "−10",
+        "−20",
+        "−30",
+        "−40"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "6C3 × (−1)³ = −20."
+    },
+    {
+      "id": "lautech-100-mth101-208",
+      "prompt": "The 2nd and 5th terms of a linear sequence are 8 and 23 respectively. Find the common difference.",
+      "answers": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "3d = 15, so d = 5."
+    },
+    {
+      "id": "lautech-100-mth101-209",
+      "prompt": "If F is the set of mathematics students in LAUTECH and L is the set of all students in LAUTECH, which of the following is not correct?",
+      "answers": [
+        "F ∪ L = L",
+        "None of the options",
+        "F ∩ L ≠ φ",
+        "F ⊂ L"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "All three statements are correct, so the answer is 'None of the options'."
+    },
+    {
+      "id": "lautech-100-mth101-210",
+      "prompt": "Using ⁿCᵣ = ⁿCₙ₋ᵣ, solve ¹⁶C₄₊₃ₓ = ¹⁶Cₓ.",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "4 + 3x + x = 16 gives x = 3."
+    },
+    {
+      "id": "lautech-100-mth101-211",
+      "prompt": "Find log_a b × log_b a.",
+      "answers": [
+        "1",
+        "ab",
+        "0",
+        "−1"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "The two logarithms are reciprocals, so the product is 1."
+    },
+    {
+      "id": "lautech-100-mth101-212",
+      "prompt": "Find X = {x: x is even, x ≤ 12}.",
+      "answers": [
+        "{0, 2, 6, 10, 12}",
+        "{1, 2, 4, 6, 8, 10, 12}",
+        "{2, 4, 6, 8, 10}",
+        "{2, 4, 6, 8, 10, 12}"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "The positive even numbers up to 12."
+    },
+    {
+      "id": "lautech-100-mth101-213",
+      "prompt": "If α and β are the roots of the equation x² − 10x + 25 = 0, find αβ.",
+      "answers": [
+        "10",
+        "−25",
+        "25",
+        "−10"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "αβ = c/a = 25."
+    },
+    {
+      "id": "lautech-100-mth101-214",
+      "prompt": "Find the coefficient of x² in the expansion of (1 − x/2)¹².",
+      "answers": [
+        "33/2",
+        "43/2",
+        "57/2",
+        "53/2"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "12C2 × (1/4) = 66/4 = 33/2."
+    },
+    {
+      "id": "lautech-100-mth101-215",
+      "prompt": "If ⁿP₃/ⁿC₄ = 6, what is the value of n?",
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "The ratio equals 24/(n − 3) = 6, so n = 7."
+    },
+    {
+      "id": "lautech-100-mth101-216",
+      "prompt": "Find the greatest coefficient in the binomial expansion of (3x + 1)⁸.",
+      "answers": [
+        "20412",
+        "41220",
+        "20481",
+        "48625"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "The coefficients 8Ck · 3ᵏ peak at k = 6: 28 × 729 = 20412."
+    },
+    {
+      "id": "lautech-100-mth101-217",
+      "prompt": "Find the value of X in the exponential sequence (√2 − 1), (3 − 2√2), X, …",
+      "answers": [
+        "√2 − 7",
+        "5√2 + 7",
+        "5√2 − 7",
+        "√2 + 7"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "r = √2 − 1; X = (3 − 2√2)(√2 − 1) = 5√2 − 7."
+    },
+    {
+      "id": "lautech-100-mth101-218",
+      "prompt": "Find the number of elements in the power set of {1, 2, x, y, z}.",
+      "answers": [
+        "8",
+        "5",
+        "32",
+        "64"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "2⁵ = 32."
+    },
+    {
+      "id": "lautech-100-mth101-219",
+      "prompt": "The roots of the quadratic equation 3x² − 5x − m = 0 are α and β. Find the value of α² + β² in terms of m.",
+      "answers": [
+        "(25 + 2m)/9",
+        "(25 − 2m)/6",
+        "(25 − 6m)/9",
+        "(25 + 6m)/9"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "(5/3)² + 2m/3 = (25 + 6m)/9."
+    },
+    {
+      "id": "lautech-100-mth101-220",
+      "prompt": "A finite set is one of the following:",
+      "answers": [
+        "Set of integers",
+        "Set of English vowels",
+        "Set of natural numbers",
+        "Set of prime numbers"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Only the set of English vowels has a limited number of elements."
+    },
+    {
+      "id": "lautech-100-mth101-221",
+      "prompt": "Solve the inequality 3x − 2 < x + 1 ≤ 2x + 3.",
+      "answers": [
+        "−2 ≤ x < 3/2",
+        "−3/2 < x ≤ 2",
+        "x ≥ −2 < 3/2",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "2x < 3 gives x < 3/2; x ≥ −2 from the second part."
+    },
+    {
+      "id": "lautech-100-mth101-222",
+      "prompt": "Find the square root of 14 − 4√6.",
+      "answers": [
+        "12 and 2",
+        "4 and 3",
+        "8 and 6",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "(√12 − √2)² = 14 − 2√24 = 14 − 4√6."
+    },
+    {
+      "id": "lautech-100-mth101-223",
+      "prompt": "If one of the roots of the equation 27x² + Kx + 8 = 0 is known to be the square of the other, find K.",
+      "answers": [
+        "−270",
+        "30",
+        "−30",
+        "270"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Roots α, α²: α³ = 8/27, α = 2/3; sum = 10/9 = −K/27, so K = −30."
+    },
+    {
+      "id": "lautech-100-mth101-224",
+      "prompt": "If α and β are the roots of the equation x² − 16x + 63 = 0, find the sum and the product of the roots.",
+      "answers": [
+        "−16 and 16",
+        "16 and 63",
+        "16 and −63",
+        "16 and 22"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Sum = 16 and product = 63."
+    },
+    {
+      "id": "lautech-100-mth101-225",
+      "prompt": "If (3 + 4√3)(2 − a√3) = −18 + 2√3, find the value of a.",
+      "answers": [
+        "−4",
+        "2",
+        "3",
+        "−2"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Expanding: (6 − 12a) + (8 − 3a)√3, so a = 2."
+    },
+    {
+      "id": "lautech-100-mth101-226",
+      "prompt": "If log₁₀ 100x + log₁₀ (1/10)ˣ⁺¹ = 0, x > 0, solve for x.",
+      "answers": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "2 + log x − (x + 1) = 0 gives log x = x − 1, which holds at x = 1."
+    },
+    {
+      "id": "lautech-100-mth101-227",
+      "prompt": "The nature of the roots of the quadratic equation 3x² + 4x + 2 = 0 is",
+      "answers": [
+        "Two equal roots",
+        "No real root",
+        "Real and equal roots",
+        "Real and different roots"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Discriminant = 16 − 24 < 0."
+    },
+    {
+      "id": "lautech-100-mth101-228",
+      "prompt": "Solve for x in 3²ˣ − 30(3ˣ) + 81 = 0.",
+      "answers": [
+        "x = 1, −3",
+        "x = −1, 3",
+        "x = 1, 3",
+        "x = −1, −3"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "y² − 30y + 81 = 0 gives y = 3 or 27, so x = 1 or 3."
+    },
+    {
+      "id": "lautech-100-mth101-229",
+      "prompt": "The third term of a G.P. is 20 and the 6th term is 160. Find the common ratio.",
+      "answers": [
+        "3",
+        "4",
+        "2",
+        "8"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "r³ = 8, so r = 2."
+    },
+    {
+      "id": "lautech-100-mth101-230",
+      "prompt": "If α and β are the roots of the equation 2x² + 3x + 7 = 0, find the value of α³ + β³.",
+      "answers": [
+        "10",
+        "22/4",
+        "99/8",
+        "5/2"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "(−3/2)³ − 3(7/2)(−3/2) = 99/8."
+    },
+    {
+      "id": "lautech-100-mth101-231",
+      "prompt": "If the quadratic equation x² + 5x + K = 0 has roots α and α − 1, find the value of K.",
+      "answers": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "2α − 1 = −5 gives α = −2; roots −2 and −3, so K = 6."
+    },
+    {
+      "id": "lautech-100-mth101-232",
+      "prompt": "What is log₇(49ᵃ) − log₁₀(0.01)?",
+      "answers": [
+        "49a/100",
+        "7²ᵃ + 2",
+        "a/2",
+        "2a + 2"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "2a − (−2) = 2a + 2."
+    },
+    {
+      "id": "lautech-100-mth101-233",
+      "prompt": "The 14th term of an A.P. is 96 while the 25th term is 173. Find the 19th term.",
+      "answers": [
+        "131",
+        "121",
+        "133",
+        "144"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "d = 7, a = 5; T₁₉ = 5 + 18 × 7 = 131."
+    },
+    {
+      "id": "lautech-100-mth101-234",
+      "prompt": "If f(x − 1) = 3x³ − 2x − 1, find f(3).",
+      "answers": [
+        "189",
+        "74",
+        "183",
+        "19"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Put x = 4: 192 − 8 − 1 = 183."
+    },
+    {
+      "id": "lautech-100-mth101-235",
+      "prompt": "Solve for x in the equation log_x 2.25 = 2.",
+      "answers": [
+        "3/2",
+        "−2/3",
+        "2/3",
+        "−3/2"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "x² = 2.25, so x = 3/2 (positive base)."
+    },
+    {
+      "id": "lautech-100-mth101-236",
+      "prompt": "Find the sum of the first 9 terms of the sequence 4, 20, 100, 500, …",
+      "answers": [
+        "17542",
+        "1953124",
+        "195421",
+        "195"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "4(5⁹ − 1)/4 = 5⁹ − 1 = 1953124."
+    },
+    {
+      "id": "lautech-100-mth101-237",
+      "prompt": "If the roots of the equation 3x² − 5x + 1 = 0 are α and β, find α² − αβ + β².",
+      "answers": [
+        "16/9",
+        "16",
+        "13/7",
+        "7"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "(α + β)² − 3αβ = 25/9 − 1 = 16/9."
+    },
+    {
+      "id": "lautech-100-mth101-238",
+      "prompt": "If log_a 1000 = 3, evaluate (a/2) log₅ 125.",
+      "answers": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "a = 10 and log₅125 = 3, so (10/2) × 3 = 15."
+    },
+    {
+      "id": "lautech-100-mth101-239",
+      "prompt": "Find the square root of 30 + 12√6.",
+      "answers": [
+        "12 and 18",
+        "9 and 18",
+        "13 and 4",
+        "8 and 17"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "(√18 + √12)² = 30 + 2√216 = 30 + 12√6."
+    },
+    {
+      "id": "lautech-100-mth101-240",
+      "prompt": "Given the sequence 4, 20, 100, 500, …, find the common ratio.",
+      "answers": [
+        "2",
+        "4",
+        "5",
+        "20"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "20 ÷ 4 = 5."
+    },
+    {
+      "id": "lautech-100-mth101-241",
+      "prompt": "Given the sequence 5, −1, −7, …, which of the terms is −49?",
+      "answers": [
+        "21st",
+        "22nd",
+        "10th",
+        "16th"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Tₙ = 11 − 6n = −49 gives n = 10."
+    },
+    {
+      "id": "lautech-100-mth101-242",
+      "prompt": "Find the power set of A = {a, b, c, d, e, f}: how many elements does it have?",
+      "answers": [
+        "32",
+        "64",
+        "16",
+        "120"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "2⁶ = 64."
+    },
+    {
+      "id": "lautech-100-mth101-243",
+      "prompt": "A sequence is given as −5, −2, 1, 4, …. Find the 23rd term.",
+      "answers": [
+        "61",
+        "64",
+        "58",
+        "71"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "−5 + 22 × 3 = 61."
+    },
+    {
+      "id": "lautech-100-mth101-244",
+      "prompt": "Solve 5ˣ + 5²⁻ˣ = 26.",
+      "answers": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "y + 25/y = 26 gives y = 1 or 25, so x = 0 or 2 (2 is the listed answer; x = 0 also satisfies the equation)."
+    },
+    {
+      "id": "lautech-100-mth101-245",
+      "prompt": "If α and β are the roots of the equation 2x² − 3x + 1 = 0, find (α + 1) + (β + 1) + 2αβ.",
+      "answers": [
+        "7/2",
+        "9/2",
+        "11/2",
+        "13/2"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "3/2 + 2 + 1 = 9/2."
+    },
+    {
+      "id": "lautech-100-mth101-246",
+      "prompt": "Find the sum of the first n terms of the sequence 2, 4, 6, 8, …",
+      "answers": [
+        "n(n + 1)",
+        "n²",
+        "n − 1",
+        "n(n − 1)"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Sₙ = n(2 + 2n)/2 = n(n + 1)."
+    },
+    {
+      "id": "lautech-100-mth101-247",
+      "prompt": "Find A + B in A/(2(x² + 1)) + B/(2(x² + 3x − 2)) = (1 − 2x²)/((x² + 1)(x² + 3x − 2)).",
+      "answers": [
+        "0",
+        "−1",
+        "−2",
+        "1"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Source answer: −1. (As printed, the numerators A and B must be linear, (Ax + B)/(x² + 1), for the identity to have a solution; that form gives A + B = −1.)"
+    },
+    {
+      "id": "lautech-100-mth101-248",
+      "prompt": "If P = {x: 1 < x ≤ 6} and Q = {x: x < 9} where x ∈ R, find P ∩ Q.",
+      "answers": [
+        "{2, 3, 4, 5, 6}",
+        "{1, 2, 4}",
+        "{1, 2, 3, 4, 5, 6}",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "P ∩ Q = P; the listed integer elements are 2, 3, 4, 5, 6."
+    },
+    {
+      "id": "lautech-100-mth101-249",
+      "prompt": "The common ratio of a G.P. is 3. If the 5th term is greater than the first term by 240, find the 5th term.",
+      "answers": [
+        "6",
+        "243",
+        "3",
+        "240"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "81a − a = 240 gives a = 3; T₅ = 3 × 81 = 243."
+    },
+    {
+      "id": "lautech-100-mth101-250",
+      "prompt": "Let U = {1, 2, 3, …, 20} be the universal set, P = {factors of 18}, Q = {factors of 12}, R = {factors of 6}. Find the symmetric difference of (P ∩ Q)ᶜ with R.",
+      "answers": [
+        "P ∩ A",
+        "U",
+        "{1, 2, 3, 6}",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "P ∩ Q = {1, 2, 3, 6} = R, so (P ∩ Q)ᶜ Δ R = Rᶜ Δ R = U."
+    },
+    {
+      "id": "lautech-100-mth101-251",
+      "prompt": "If √(3x) + √18 − √98 = √50, find the value of x.",
+      "answers": [
+        "28",
+        "54",
+        "78",
+        "108"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "√(3x) = 5√2 + 7√2 − 3√2 = 9√2, so 3x = 162 and x = 54."
+    },
+    {
+      "id": "lautech-100-mth101-252",
+      "prompt": "Find the coefficient of the third term in the expansion of (3x + 2y)⁴.",
+      "answers": [
+        "198",
+        "96",
+        "216",
+        "428"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "4C2 × 9 × 4 = 216."
+    },
+    {
+      "id": "lautech-100-mth101-253",
+      "prompt": "What are the three arithmetic means between 17 and 29?",
+      "answers": [
+        "20, 23, 26",
+        "11, 21, 24",
+        "18, 21, 30",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "d = (29 − 17)/4 = 3: 20, 23, 26."
+    },
+    {
+      "id": "lautech-100-mth101-254",
+      "prompt": "The common ratio in a, ar, ar², ar³ is",
+      "answers": [
+        "r",
+        "ar",
+        "r²",
+        "r⁴"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Each term is r times the previous one."
+    },
+    {
+      "id": "lautech-100-mth101-255",
+      "prompt": "Evaluate the inequality x/2 + 3/4 ≤ 5x/6 − 7/12.",
+      "answers": [
+        "x ≤ 3",
+        "x ≤ 4",
+        "x ≥ 4",
+        "x ≥ −3"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Correction: the source key says B. Multiplying by 12: 6x + 9 ≤ 10x − 7, so 16 ≤ 4x and x ≥ 4."
+    },
+    {
+      "id": "lautech-100-mth101-256",
+      "prompt": "Find the quadratic equation whose roots are (5 − 3√2) and (5 + 3√2).",
+      "answers": [
+        "x² − 10x + 7 = 0",
+        "x² + 7x + 7 = 0",
+        "x² − 10x − 7 = 0",
+        "x² + 10x − 7 = 0"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Sum = 10, product = 25 − 18 = 7."
+    },
+    {
+      "id": "lautech-100-mth101-257",
+      "prompt": "If α and β are the roots of the equation 2x² + 3x + 7 = 0, find the value of α/β + β/α.",
+      "answers": [
+        "−19/14",
+        "11/14",
+        "13/29",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "(α² + β²)/(αβ) = (9/4 − 7)/(7/2) = −19/14."
+    },
+    {
+      "id": "lautech-100-mth101-258",
+      "prompt": "Find the formula for the nth term in A.P. a, a + d, a + 2d, a + 3d, …",
+      "answers": [
+        "Uₙ = a + (n − 1)d",
+        "Uₙ = arⁿ⁻¹",
+        "Uₙ = ar + n²",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "The nth term of an A.P. is a + (n − 1)d."
+    },
+    {
+      "id": "lautech-100-mth101-259",
+      "prompt": "If X and Y are two given sets, the difference X − Y is defined as",
+      "answers": [
+        "{a: a ∈ X but a ∉ Y}",
+        "{a: a ∈ X ∩ Y}",
+        "{a: a ∈ X and a ∈ Y}",
+        "{a: a ⊂ X but a ∉ Y}"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "X − Y contains the elements of X that are not in Y."
+    },
+    {
+      "id": "lautech-100-mth101-260",
+      "prompt": "For what value of P is (x − 1) a factor of the polynomial 2x⁴ − 3x³ − Px² + 33x − 18?",
+      "answers": [
+        "15",
+        "16",
+        "14",
+        "−14"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "f(1) = 2 − 3 − P + 33 − 18 = 14 − P = 0."
+    },
+    {
+      "id": "lautech-100-mth101-261",
+      "prompt": "Solve the exponential equation 5²ˣ⁺¹ − 26(5ˣ) + 5 = 0.",
+      "answers": [
+        "x = 0, x = −2",
+        "x = 0, x = 1",
+        "x = −1, x = 1",
+        "x = 0, x = 1"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "5y² − 26y + 5 = 0 gives y = 5 or 1/5, so x = 1 or −1."
+    },
+    {
+      "id": "lautech-100-mth101-262",
+      "prompt": "Find the coefficient of x³ in the expansion of (1 + 2x)⁶.",
+      "answers": [
+        "1",
+        "160",
+        "15",
+        "12"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "6C3 × 8 = 160."
+    },
+    {
+      "id": "lautech-100-mth101-263",
+      "prompt": "If x ∈ Aᶜ ∪ Bᶜ, which of the following is true?",
+      "answers": [
+        "x ∈ A ∩ Bᶜ",
+        "none",
+        "x ∈ (A ∩ B)",
+        "x ∈ (A ∩ B)ᶜ"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "By De Morgan, Aᶜ ∪ Bᶜ = (A ∩ B)ᶜ."
+    },
+    {
+      "id": "lautech-100-mth101-264",
+      "prompt": "If p and q are the roots of the equation 3x² + 9x − 6 = 0, find p³ + q³.",
+      "answers": [
+        "−45",
+        "9",
+        "45",
+        "−9"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Sum = −3, product = −2: −27 − 3(−2)(−3) = −45."
+    },
+    {
+      "id": "lautech-100-mth101-265",
+      "prompt": "If ¹⁶C₄₊₃ᵧ = ¹⁶Cᵧ, what is the value of y?",
+      "answers": [
+        "2",
+        "4",
+        "1",
+        "3"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "4 + 3y + y = 16, so y = 3."
+    },
+    {
+      "id": "lautech-100-mth101-266",
+      "prompt": "If A = {3 ≤ x ≤ 6}, B = {1, 3, 5, 7}, Z = {1, 2, 3, …, 10}, find Aᶜ ∩ B.",
+      "answers": [
+        "Disjoint",
+        "Empty set",
+        "{1, 7}",
+        "None"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "A = {3, 4, 5, 6}; Aᶜ ∩ B = {1, 7}."
+    },
+    {
+      "id": "lautech-100-mth101-267",
+      "prompt": "Find the coefficient of x² in (2 + 3x)⁶.",
+      "answers": [
+        "3810",
+        "2160",
+        "6218",
+        "1150"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "6C2 × 2⁴ × 3² = 15 × 16 × 9 = 2160."
+    },
+    {
+      "id": "lautech-100-mth101-268",
+      "prompt": "The nth term of a sequence is given by (−1)ⁿ⁻² × 2ⁿ⁻¹. Find the sum of the 6th and 9th terms.",
+      "answers": [
+        "−224",
+        "32",
+        "224",
+        "−32"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "T₆ = 32 and T₉ = −256; sum = −224."
+    },
+    {
+      "id": "lautech-100-mth101-269",
+      "prompt": "What is the coefficient of x in the binomial expansion of (x + 3)⁴?",
+      "answers": [
+        "−1",
+        "4",
+        "12",
+        "3"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Source answer: 12 (this is the coefficient of x³ in (x + 3)⁴ and of x in (1 + 3x)⁴; the x term of (x + 3)⁴ is 108x)."
+    },
+    {
+      "id": "lautech-100-mth101-270",
+      "prompt": "f(x) = x³ + 2x² − 13x − 15. If it is divided by x + 1, find the remainder.",
+      "answers": [
+        "10",
+        "−1",
+        "−24",
+        "25"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "f(−1) = −1 + 2 + 13 − 15 = −1. (The printed question is garbled.)"
+    },
+    {
+      "id": "lautech-100-mth101-271",
+      "prompt": "What is the coefficient of x²y³ in the expansion of (x − 3y)⁵?",
+      "answers": [
+        "−15",
+        "90",
+        "−270",
+        "405"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "5C3 × (−3)³ = −270."
+    },
+    {
+      "id": "lautech-100-mth101-272",
+      "prompt": "Express √15(3√3 + 2/√3) in the form p√q, find p.",
+      "answers": [
+        "10",
+        "11",
+        "5",
+        "12"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "√15 × (3√3 + 2/√3) = 3√45 + 2√5 = 11√5."
+    },
+    {
+      "id": "lautech-100-mth101-273",
+      "prompt": "Find the first four terms of Tₙ = (n + 1)/(3n + 2).",
+      "answers": [
+        "2/5, 3/8, 4/11, 5/14",
+        "1/5, 3/8, 2/11, 4/19",
+        "1/5, 2/7, 4/9, 11/10",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Substituting n = 1, 2, 3, 4."
+    },
+    {
+      "id": "lautech-100-mth101-274",
+      "prompt": "The roots of the equation 2x² + Kx + 5 = 0 are α and β. If α² + β² = −1, find the values of K.",
+      "answers": [
+        "±4",
+        "±7",
+        "±3",
+        "4"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "K²/4 − 5 = −1, so K² = 16."
+    },
+    {
+      "id": "lautech-100-mth101-275",
+      "prompt": "Find the quadratic equation whose roots are 1/2 and 3.",
+      "answers": [
+        "2x² − 7x + 3 = 0",
+        "4x² + 7x − 3 = 0",
+        "3x² − 5x + 4 = 0",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Sum = 7/2, product = 3/2."
+    },
+    {
+      "id": "lautech-100-mth101-276",
+      "prompt": "Find the coefficient of x²y⁴ in the expansion of (x + 2y)⁶.",
+      "answers": [
+        "240",
+        "360",
+        "180",
+        "420"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "6C4 × 2⁴ = 15 × 16 = 240."
+    },
+    {
+      "id": "lautech-100-mth101-277",
+      "prompt": "Find the sum of the coefficients of x³ and x⁴ in the expansion of (1 − x/2)⁶.",
+      "answers": [
+        "−11/16",
+        "−25/16",
+        "31/41",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "−20/8 + 15/16 = −25/16."
+    },
+    {
+      "id": "lautech-100-mth101-278",
+      "prompt": "Simplify √(18x² + √(48x⁴ + √(x⁸))).",
+      "answers": [
+        "2x",
+        "3x",
+        "4x",
+        "5x"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "√(x⁸) = x⁴; 48x⁴ + x⁴ = 49x⁴, root 7x²; 18x² + 7x² = 25x², root 5x."
+    },
+    {
+      "id": "lautech-100-mth101-279",
+      "prompt": "Find the truth set of (1/4)^(3x²+1) = 128ˣ.",
+      "answers": [
+        "{x: x = 1/2, 2/3}",
+        "{x: x = −1/2, −2/3}",
+        "{x: x = 1/2, −2/3}",
+        "{x: x = −1/2, 2/3}"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Correction: the source key says A. Writing both sides as powers of 2: −6x² − 2 = 7x, so 6x² + 7x + 2 = 0 and x = −1/2 or −2/3."
+    },
+    {
+      "id": "lautech-100-mth101-280",
+      "prompt": "Find the common ratio of log a³, log a⁹.",
+      "answers": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "log a⁹ ÷ log a³ = 9/3 = 3."
+    },
+    {
+      "id": "lautech-100-mth101-281",
+      "prompt": "What is ⁿCᵣ + ⁿCᵣ₋₁?",
+      "answers": [
+        "ⁿ⁺¹Cᵣ₊₁",
+        "ⁿ⁻¹Cᵣ₋₁",
+        "ⁿ⁻¹Cᵣ",
+        "ⁿ⁺¹Cᵣ"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Pascal’s rule: ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ."
+    },
+    {
+      "id": "lautech-100-mth101-282",
+      "prompt": "If √32 + √128 − √18 + √50 = K√2, find K.",
+      "answers": [
+        "8",
+        "12",
+        "14",
+        "16"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "4 + 8 − 3 + 5 = 14."
+    },
+    {
+      "id": "lautech-100-mth101-283",
+      "prompt": "What is ⁿCᵣ + ⁿCᵣ₋₁?",
+      "answers": [
+        "(n + 1)!/((r − 1)!(n − r + 1)!)",
+        "(n + 1)/((r − 1)(n − r + 1)!)",
+        "n!/(r!(n − r − 1)!)",
+        "(n + 1)!/(r!(n − r + 1)!)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "ⁿ⁺¹Cᵣ = (n + 1)!/(r!(n + 1 − r)!)."
+    },
+    {
+      "id": "lautech-100-mth101-284",
+      "prompt": "If x = 2 − √2, evaluate x² + 4/x².",
+      "answers": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "x² = 6 − 4√2 and 4/x² = 6 + 4√2, so the sum is 12."
+    },
+    {
+      "id": "lautech-100-mth101-285",
+      "prompt": "A set which contains only one element is called",
+      "answers": [
+        "Universal set",
+        "Super set",
+        "Singleton set",
+        "Disjoint"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "A singleton set has exactly one element."
+    },
+    {
+      "id": "lautech-100-mth101-286",
+      "prompt": "If x² − 12x + K = 0 has equal roots, find K.",
+      "answers": [
+        "18",
+        "49",
+        "36",
+        "72"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "K = (12/2)² = 36."
+    },
+    {
+      "id": "lautech-100-mth101-287",
+      "prompt": "Find the arithmetic mean of 38 and 64.",
+      "answers": [
+        "15",
+        "51",
+        "31",
+        "13"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "(38 + 64)/2 = 51."
+    },
+    {
+      "id": "lautech-100-mth101-288",
+      "prompt": "Find the common ratio of the consecutive terms sin x, cos x, …",
+      "answers": [
+        "sin x",
+        "cos x",
+        "tan x",
+        "cot x"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "r = cos x / sin x = cot x."
+    },
+    {
+      "id": "lautech-100-mth101-289",
+      "prompt": "If √(x² + 9) = x + 1, solve for x.",
+      "answers": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "x² + 9 = x² + 2x + 1, so x = 4."
+    },
+    {
+      "id": "lautech-100-mth101-290",
+      "prompt": "Rationalize (√(1 + x) + √x)/(√(1 + x) − √x).",
+      "answers": [
+        "√(x(1 + x))",
+        "2x + 1",
+        "1 + 2x + 2√(x(1 + x))",
+        "None"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Multiplying by the conjugate gives (√(1 + x) + √x)² = 1 + 2x + 2√(x(1 + x)). (The printed denominator '√(1 − x)' appears to be a typo.)"
+    },
+    {
+      "id": "lautech-100-mth101-291",
+      "prompt": "Let A = [2 −1; 1 3]. Find f(A) if f(x) = x² − 2x + 3.",
+      "answers": [
+        "[2 −3; 3 2]",
+        "[2 −3; 3 5]",
+        "[0 −1; 4 3]",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "A² = [3 −5; 5 8]; f(A) = A² − 2A + 3I = [2 −3; 3 5]."
+    },
+    {
+      "id": "lautech-100-mth101-292",
+      "prompt": "If y = 2 − 4x − x² is transformed into y = a(x − h)² + K, find 2a − h − K.",
+      "answers": [
+        "2",
+        "−6",
+        "6",
+        "10"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "y = −(x + 2)² + 6, so a = −1, h = −2, K = 6 and 2a − h − K = −2 + 2 − 6 = −6."
+    },
+    {
+      "id": "lautech-100-mth101-293",
+      "prompt": "Find the coefficient of the x⁴y² term in the expansion of (2x − y)⁶.",
+      "answers": [
+        "120",
+        "180",
+        "240",
+        "360"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "6C2 × 2⁴ = 240."
+    },
+    {
+      "id": "lautech-100-mth101-294",
+      "prompt": "Solve for x if (1/2) log_x 64 = 16.",
+      "answers": [
+        "2.14",
+        "1.14",
+        "1.17",
+        "1.38"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "log_x 64 = 32, so x³² = 64 and x = 2^(6/32) ≈ 1.14."
+    },
+    {
+      "id": "lautech-100-mth101-295",
+      "prompt": "Find the value of n if ⁿP₃ − 6(ⁿC₄) = 0.",
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "9"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "n(n − 1)(n − 2) = n(n − 1)(n − 2)(n − 3)/4 gives n − 3 = 4, so n = 7."
+    },
+    {
+      "id": "lautech-100-mth101-296",
+      "prompt": "What is the coefficient of x in (1 + x)ⁿ⁻¹?",
+      "answers": [
+        "1",
+        "n − 1",
+        "n",
+        "n + 2"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "The coefficient of x is n − 1."
+    },
+    {
+      "id": "lautech-100-mth101-297",
+      "prompt": "What is (1.2006)⁶ written as?",
+      "answers": [
+        "1 + 1/200",
+        "1 + 1/2006",
+        "1 + 1/211",
+        "(1 + 1003/5000)⁶"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "0.2006 = 1003/5000, so 1.2006 = 1 + 1003/5000."
+    },
+    {
+      "id": "lautech-100-mth101-298",
+      "prompt": "The sum of the first n terms of a G.P. whose ratio is greater than one is",
+      "answers": [
+        "arⁿ⁻¹/(1 − r)",
+        "a(1 − rⁿ)/(r − 1)",
+        "a(rⁿ − 1)/(r − 1)",
+        "a(1 − rⁿ)/(1 − r)"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "For r > 1, Sₙ = a(rⁿ − 1)/(r − 1)."
+    },
+    {
+      "id": "lautech-100-mth101-299",
+      "prompt": "What value of P will make (x² − x + p) a perfect square?",
+      "answers": [
+        "1",
+        "1/2",
+        "−1/2",
+        "1/4"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "p = (1/2)² = 1/4."
+    },
+    {
+      "id": "lautech-100-mth101-300",
+      "prompt": "A polynomial is defined by f(x + 1) = x³ + 3x² − 4x + 2. Find f(2).",
+      "answers": [
+        "2",
+        "−2",
+        "44",
+        "−44"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Put x = 1: 1 + 3 − 4 + 2 = 2."
+    },
+    {
+      "id": "lautech-100-mth101-301",
+      "prompt": "Given 5ⁿ⁺³/25²ⁿ⁻³ = 1, find n.",
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "5^(n + 3 − 4n + 6) = 5^(9 − 3n) = 1, so n = 3."
+    },
+    {
+      "id": "lautech-100-mth101-302",
+      "prompt": "Find the square root of 14 − 4√6.",
+      "answers": [
+        "11 and 2",
+        "12 and 2",
+        "13 and 3",
+        "15 and 7"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "(√12 − √2)² = 14 − 4√6."
+    },
+    {
+      "id": "lautech-100-mth101-303",
+      "prompt": "Find the square root of 31 − 4√21.",
+      "answers": [
+        "28 and 3",
+        "−28 and 3",
+        "14 and 7",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "(√28 − √3)² = 31 − 4√21."
+    },
+    {
+      "id": "lautech-100-mth101-304",
+      "prompt": "Find the sum of the arithmetic progression 1, 3, 5, …, 101.",
+      "answers": [
+        "510",
+        "2601",
+        "260",
+        "57"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "There are 51 terms, and the sum is 51² = 2601."
+    },
+    {
+      "id": "lautech-100-mth101-305",
+      "prompt": "If the roots of the equation 2x² − x + 2 = 0 are α and β, what is α³ + β³?",
+      "answers": [
+        "5/8",
+        "−11/8",
+        "13/8",
+        "−15/8"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "(1/2)³ − 3(1)(1/2) = 1/8 − 3/2 = −11/8."
+    },
+    {
+      "id": "lautech-100-mth101-306",
+      "prompt": "Find the value of K for which Kx² − 12x + 9 = 0 has equal roots.",
+      "answers": [
+        "2",
+        "3",
+        "5",
+        "4"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "144 = 36K, so K = 4."
+    },
+    {
+      "id": "lautech-100-mth101-307",
+      "prompt": "Find the 4th term in the expansion of (a − b)⁶ in ascending powers.",
+      "answers": [
+        "−20a³b³",
+        "20a⁴b⁵",
+        "20a³b²",
+        "−20a⁵b³"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "6C3 · a³ · (−b)³ = −20a³b³."
+    },
+    {
+      "id": "lautech-100-mth101-308",
+      "prompt": "What value of K makes the expression m² − 8m + K a perfect square?",
+      "answers": [
+        "4",
+        "64",
+        "8",
+        "16"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "K = (8/2)² = 16."
+    },
+    {
+      "id": "lautech-100-mth101-309",
+      "prompt": "Solve the exponential equation 5²ˣ − 26(5ˣ) + 25 = 0.",
+      "answers": [
+        "x = 0, 2",
+        "x = 1, 5",
+        "x = −1, 2",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "y² − 26y + 25 = 0 gives y = 1 or 25, so x = 0 or 2."
+    },
+    {
+      "id": "lautech-100-mth101-310",
+      "prompt": "Find the square root of 7 + 2√10.",
+      "answers": [
+        "±(√5 + √2)",
+        "±(√3 − √2)",
+        "±(√7 − √3)",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "(√5 + √2)² = 7 + 2√10."
+    },
+    {
+      "id": "lautech-100-mth101-311",
+      "prompt": "Let K ⊂ U, where U is the universal set. Which of the following does not define the complement of K?",
+      "answers": [
+        "U − K",
+        "Kᶜ",
+        "Kᶜ − U",
+        "Kᶜ = {x: x ⊂ U, x ∉ K}"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Kᶜ − U would be empty, so it does not define the complement."
+    },
+    {
+      "id": "lautech-100-mth101-312",
+      "prompt": "Find the arithmetic mean between −3 and 21.",
+      "answers": [
+        "6",
+        "9",
+        "12",
+        "18"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "(−3 + 21)/2 = 9."
+    },
+    {
+      "id": "lautech-100-mth101-313",
+      "prompt": "Simplify ᴷP₇/ᴷC₇.",
+      "answers": [
+        "5040",
+        "5050",
+        "4050",
+        "4040"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "ᴷP₇/ᴷC₇ = 7! = 5040."
+    },
+    {
+      "id": "lautech-100-mth101-314",
+      "prompt": "Given that the nth term of a sequence is 5³ˣ⁻¹, what value of x will make the term 5¹⁴?",
+      "answers": [
+        "4",
+        "5",
+        "15",
+        "16"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "3x − 1 = 14, so x = 5."
+    },
+    {
+      "id": "lautech-100-mth101-315",
+      "prompt": "Simplify log(2/4) + log(8/10) + log(8/32).",
+      "answers": [
+        "0",
+        "1",
+        "−1",
+        "2"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "log(1/2 × 4/5 × 1/4) = log(1/10) = −1."
+    },
+    {
+      "id": "lautech-100-mth101-316",
+      "prompt": "Find the sum of integers between 1 and 1000.",
+      "answers": [
+        "505020",
+        "500501",
+        "500500",
+        "500050"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Source answer: 1000 × 1001/2 = 500500 (this counts 1 to 1000 inclusive)."
+    },
+    {
+      "id": "lautech-100-mth101-317",
+      "prompt": "Which of the following defines a set?",
+      "answers": [
+        "A disjoint set of all identical numbers",
+        "A collection of identical objects",
+        "None of the above",
+        "Difference of all identical objects"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "A set is a collection of well-defined, distinct objects, so none of the listed definitions is right."
+    },
+    {
+      "id": "lautech-100-mth101-318",
+      "prompt": "Evaluate log₁₀(1/3 + 1/4) + 2 log₁₀ 2 + log₁₀(3/7).",
+      "answers": [
+        "3",
+        "0",
+        "2",
+        "1"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Correction: the source key says D (1). The product inside the log is (7/12) × 4 × (3/7) = 1, so the value is log 1 = 0."
+    },
+    {
+      "id": "lautech-100-mth101-319",
+      "prompt": "The total number of terms in the binomial expansion of (a + b)ⁿ consists of",
+      "answers": [
+        "n + 2",
+        "n + 1",
+        "None",
+        "n + n²"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "There are n + 1 terms."
+    },
+    {
+      "id": "lautech-100-mth101-320",
+      "prompt": "If α and β are the roots of 2x² − 3x + 10 = 0, find (α + 1) + (β + 1).",
+      "answers": [
+        "3.5",
+        "9/12",
+        "11/2",
+        "15/2"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "3/2 + 2 = 3.5."
+    },
+    {
+      "id": "lautech-100-mth101-321",
+      "prompt": "Express 3 log₁₀ x − (1/2) log₁₀ y + 1 as a single logarithm.",
+      "answers": [
+        "log₁₀(10x³/√y)",
+        "log₁₀(x³√y)",
+        "log₁₀(x³/√y)",
+        "log₁₀(10x³√y)"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "log(x³) − log(√y) + log 10 = log(10x³/√y)."
+    },
+    {
+      "id": "lautech-100-mth101-322",
+      "prompt": "What is the power set of X = {0, 5}?",
+      "answers": [
+        "{0, 5}",
+        "{0}",
+        "U",
+        "None of the above"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "The power set is {φ, {0}, {5}, {0, 5}}, which is not listed."
+    },
+    {
+      "id": "lautech-100-mth101-323",
+      "prompt": "Solve the inequality (15 − 3x)/3 < 10.",
+      "answers": [
+        "x > −5",
+        "x < −5",
+        "x > 5",
+        "x < 5"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "15 − 3x < 30 gives x > −5."
+    },
+    {
+      "id": "lautech-100-mth101-324",
+      "prompt": "Given that A ⊂ U, U being the universal set, A complement can be written as _________",
+      "answers": [
+        "U + A",
+        "U − A",
+        "Uᶜ",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Aᶜ = U − A."
+    },
+    {
+      "id": "lautech-100-mth101-325",
+      "prompt": "Given two sets A and B, then A = B if and only if",
+      "answers": [
+        "A ∪ B = B ∪ A",
+        "A ⊆ B and B ⊆ A",
+        "A ⊂ B and B ⊆ A",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "Set equality means mutual inclusion."
+    },
+    {
+      "id": "lautech-100-mth101-326",
+      "prompt": "Find the element in (B − A), if A = {1, 2, 3, 4} and B = {1, 2, 3, 7}.",
+      "answers": [
+        "7 only",
+        "7 and 3",
+        "None",
+        "3 only"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "B − A = {7}."
+    },
+    {
+      "id": "lautech-100-mth101-327",
+      "prompt": "Find the sum of binomial coefficients in the expansion of (2x + 3y)³.",
+      "answers": [
+        "125",
+        "128",
+        "625",
+        "1430"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Source answer: the sum of coefficients is (2 + 3)³ = 125."
+    },
+    {
+      "id": "lautech-100-mth101-328",
+      "prompt": "In a class of 45 students, 32 offer Physics, 28 offer Biology and 12 offer neither Physics nor Biology. Find the number that offers Physics only.",
+      "answers": [
+        "3",
+        "5",
+        "9",
+        "10"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Union = 33; both = 27; Physics only = 32 − 27 = 5."
+    },
+    {
+      "id": "lautech-100-mth101-329",
+      "prompt": "Find the common ratio if the sum to infinity is −1/10 and the first term is −1/8.",
+      "answers": [
+        "−1/2",
+        "−1/4",
+        "−1/8",
+        "−1/16"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "1 − r = (−1/8)/(−1/10) = 5/4, so r = −1/4."
+    },
+    {
+      "id": "lautech-100-mth101-330",
+      "prompt": "If X and Y are two subsets of the natural numbers N = {n: 3 < n ≤ 10} such that X = {1, 2, 3, 4} and Y = {1, 3, 7, 10}, find Xᶜ ∩ Y.",
+      "answers": [
+        "Y",
+        "N",
+        "Singleton",
+        "Disjoint"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Source answer: C. (Direct calculation gives {7, 10}, which has two elements, so no option matches exactly.)"
+    },
+    {
+      "id": "lautech-100-mth101-331",
+      "prompt": "Given the nth term as 3ⁿ − 2ⁿ⁺¹, find the sum of the 7th and 9th terms.",
+      "answers": [
+        "20590",
+        "16281",
+        "40739",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "T₇ = 2187 − 256 = 1931 and T₉ = 19683 − 1024 = 18659; sum = 20590."
+    },
+    {
+      "id": "lautech-100-mth101-332",
+      "prompt": "If (15 − 3x)/3 < 10, find x.",
+      "answers": [
+        "x > 5",
+        "x < 5",
+        "x = 5",
+        "x < 3"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Source answer: A. (Solving correctly gives x > −5; option a appears to be missing its minus sign.)"
+    },
+    {
+      "id": "lautech-100-mth101-333",
+      "prompt": "If the first 3 terms of the expansion (1 + px)⁵ in ascending powers of x are 1 + 20x + 160x², find the value of p − 4.",
+      "answers": [
+        "1",
+        "0",
+        "−1",
+        "4"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "5p = 20 gives p = 4 (and 10p² = 160), so p − 4 = 0."
+    },
+    {
+      "id": "lautech-100-mth101-334",
+      "prompt": "If y = x² − 6x + 11 is written in the form y = a(x − h)² + K, find a + h + K.",
+      "answers": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "y = (x − 3)² + 2, so 1 + 3 + 2 = 6."
+    },
+    {
+      "id": "lautech-100-mth101-335",
+      "prompt": "Find the remainder when f(x) = x³ + 2x² − 13x − 15 is divided by x + 1.",
+      "answers": [
+        "−24",
+        "0",
+        "−1",
+        "25"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "f(−1) = −1 + 2 + 13 − 15 = −1."
+    },
+    {
+      "id": "lautech-100-mth101-336",
+      "prompt": "Given Tₙ = 2n² − 1, find T₂.",
+      "answers": [
+        "8",
+        "7",
+        "−7",
+        "9"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "2(4) − 1 = 7."
+    },
+    {
+      "id": "lautech-100-mth101-337",
+      "prompt": "Find the value of K if one root is 3 more than the other root and both roots satisfy x² + x + K = 0.",
+      "answers": [
+        "−3",
+        "2",
+        "4",
+        "−2"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "α = 1 and β = −2, so K = αβ = −2."
+    },
+    {
+      "id": "lautech-100-mth101-338",
+      "prompt": "In an exponential sequence, the third term minus the first term is 48 while the difference between the fourth and the second term is 144. Find the 6th term.",
+      "answers": [
+        "729",
+        "1458",
+        "6",
+        "243"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "a(r² − 1) = 48 and ar(r² − 1) = 144 give r = 3, a = 6; T₆ = 6 × 243 = 1458."
+    },
+    {
+      "id": "lautech-100-mth101-339",
+      "prompt": "A G.P. has its 3rd and 4th terms as 45 and 3645 respectively. What is the product of its 2nd and 4th terms?",
+      "answers": [
+        "2520",
+        "2750",
+        "2225",
+        "2025"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "r = 81, T₂ = 45/81 = 5/9; T₂ × T₄ = (5/9)(3645) = 2025."
+    },
+    {
+      "id": "lautech-100-mth101-340",
+      "prompt": "Find the square root of 30 + 12√6.",
+      "answers": [
+        "−18 and 12",
+        "18 and 12",
+        "18 and −12",
+        "−18 and −12"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "(√18 + √12)² = 30 + 12√6."
+    },
+    {
+      "id": "lautech-100-mth101-341",
+      "prompt": "Find the 15th term of the A.P. −3, 2, 7, …",
+      "answers": [
+        "67",
+        "150",
+        "62",
+        "−62"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "−3 + 14 × 5 = 67."
+    },
+    {
+      "id": "lautech-100-mth101-342",
+      "prompt": "Find the number of elements in {1, 2, x, y, z}.",
+      "answers": [
+        "5",
+        "16",
+        "11",
+        "32"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "The set has 5 elements."
+    },
+    {
+      "id": "lautech-100-mth101-343",
+      "prompt": "Solve the equation 3²ˣ − 30(3ˣ) + 81 = 0.",
+      "answers": [
+        "x = 1, 3",
+        "x = 2, 3",
+        "x = 4, 9",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "y² − 30y + 81 = 0 gives y = 3 or 27, so x = 1 or 3."
+    },
+    {
+      "id": "lautech-100-mth101-344",
+      "prompt": "For what value of K will the equation x² − 14x + K = 0 have equal roots?",
+      "answers": [
+        "None",
+        "−49",
+        "44",
+        "148"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "K = 49, which is not listed, so the source answer is 'None'."
+    },
+    {
+      "id": "lautech-100-mth101-345",
+      "prompt": "Express y in terms of x if (1/2) log₂(y + 3) = 2x.",
+      "answers": [
+        "16ˣ − 3",
+        "2³ˣ − 16",
+        "3ˣ − 16",
+        "x³ − 16"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "log₂(y + 3) = 4x, so y + 3 = 16ˣ. (The printed '16x − 3' is 16ˣ − 3.)"
+    },
+    {
+      "id": "lautech-100-mth101-346",
+      "prompt": "If log_a x = p and log_a y = q, find x/y.",
+      "answers": [
+        "aᵖᵠ",
+        "aᵖ⁻ᵠ",
+        "qᵖ/q",
+        "aᵖ⁺ᵠ"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "x/y = aᵖ/aᵠ = aᵖ⁻ᵠ."
+    },
+    {
+      "id": "lautech-100-mth101-347",
+      "prompt": "What is (A − C)ᶜ ∩ B if A = {−1, 0, 1}, B = {0, 5, 6, 8}, C = {−1, 9, 10} are subsets of Z = {z: −2 < z ≤ 10}?",
+      "answers": [
+        "{2, 3, 4}",
+        "{5, 6, 8}",
+        "{0, 1, 10}",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "A − C = {0, 1}; the complement excludes 0 and 1, so the intersection with B is {5, 6, 8}."
+    },
+    {
+      "id": "lautech-100-mth101-348",
+      "prompt": "If Tₙ = (n − 2)(2n + 1), which of the terms of the sequence is 33?",
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "T₅ = 3 × 11 = 33."
+    },
+    {
+      "id": "lautech-100-mth101-349",
+      "prompt": "If (1/2) log₅(x − 2) = log₅ 7, find the value of x.",
+      "answers": [
+        "50",
+        "51",
+        "52",
+        "53"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "x − 2 = 49, so x = 51."
+    },
+    {
+      "id": "lautech-100-mth101-350",
+      "prompt": "Solve for x if √(2x − 10) − √(x + 9) = 2.",
+      "answers": [
+        "23",
+        "55",
+        "48",
+        "50"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "At x = 55: 10 − 8 = 2."
+    },
+    {
+      "id": "lautech-100-mth101-351",
+      "prompt": "What is the product of the 9th and 12th terms of a sequence with nth term 4n² − 2(n − 1)?",
+      "answers": [
+        "134208",
+        "−100096",
+        "436758",
+        "200564"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Source answer: −100096 (treating the term as 4n² − 2ⁿ⁻¹: 68 × (−1472))."
+    },
+    {
+      "id": "lautech-100-mth101-352",
+      "prompt": "If α and β are the roots of the equation x² + 3x − 2 = 0, find the value of α³β³.",
+      "answers": [
+        "−12",
+        "4",
+        "8",
+        "−8"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "(αβ)³ = (−2)³ = −8."
+    },
+    {
+      "id": "lautech-100-mth101-353",
+      "prompt": "What is ⁸Cᵣ × (2)⁸⁻ʳ × (−3)ʳ where r = 4?",
+      "answers": [
+        "90270",
+        "90720",
+        "700220",
+        "90123"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "70 × 16 × 81 = 90720."
+    },
+    {
+      "id": "lautech-100-mth101-354",
+      "prompt": "If α and β are the roots of the equation ax² + bx + c = 0, then the product of the roots is",
+      "answers": [
+        "−c/a",
+        "−b/a",
+        "c/a",
+        "bc/a"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "Product = c/a."
+    },
+    {
+      "id": "lautech-100-mth101-355",
+      "prompt": "Given that α and β are the roots of an equation such that α + β = −3 and αβ = −2, find the sum of the roots.",
+      "answers": [
+        "−3",
+        "−2",
+        "−1",
+        "5"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "The sum is given as −3."
+    },
+    {
+      "id": "lautech-100-mth101-356",
+      "prompt": "Solve for x if √(2x + 7) = √(x + 2).",
+      "answers": [
+        "3",
+        "−4",
+        "5",
+        "−5"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "2x + 7 = x + 2 gives x = −5 (the source answer; in the reals both sides are not defined, so it holds only formally)."
+    },
+    {
+      "id": "lautech-100-mth101-357",
+      "prompt": "The expansion of (a + b)⁸ contains one of the following:",
+      "answers": [
+        "56a²b²",
+        "56a³b⁵",
+        "a⁷b",
+        "8b⁶"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "8C3 = 56, so 56a⁵b³ and 56a³b⁵ are terms; the listed one is 56a³b⁵."
+    },
+    {
+      "id": "lautech-100-mth101-358",
+      "prompt": "Find the value of α³ + β³.",
+      "answers": [
+        "(α + β)³ − 3αβ(α + β)",
+        "(α + β)³ = 3αβ",
+        "(α + β)³ − (α + β)² + 3αβ",
+        "(α + β)³ − 3αβ"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "α³ + β³ = (α + β)³ − 3αβ(α + β)."
+    },
+    {
+      "id": "lautech-100-mth101-359",
+      "prompt": "Find the value equivalent to (1.0025)⁶.",
+      "answers": [
+        "(1 + 1/400)⁶",
+        "(1 + 25/10000)⁶",
+        "(1 + 4/100)⁶",
+        "(1 + 5/100)⁶"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "0.0025 = 25/10000."
+    },
+    {
+      "id": "lautech-100-mth101-360",
+      "prompt": "In terms of (a + b)ⁿ, the sum of the indices of a and b in each term is equal to",
+      "answers": [
+        "n",
+        "n²",
+        "n + 1",
+        "All"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "The indices in each term add up to n."
+    },
+    {
+      "id": "lautech-100-mth101-361",
+      "prompt": "In the equation x² − 10x + 25 = 0, find α + β and αβ.",
+      "answers": [
+        "10, 25",
+        "−25, 10",
+        "10, 40",
+        "−40, 15"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Sum = 10 and product = 25."
+    },
+    {
+      "id": "lautech-100-mth101-362",
+      "prompt": "The number of elements in the power set of A = {a, b, c, d} is",
+      "answers": [
+        "8",
+        "4",
+        "16",
+        "32"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "2⁴ = 16."
+    },
+    {
+      "id": "lautech-100-mth101-363",
+      "prompt": "If 6x² + (t + 1)x + t = 0 has equal roots, find the value of t.",
+      "answers": [
+        "11 ± 2√30",
+        "15 ± √30",
+        "28 ± 4√30",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "(t + 1)² = 24t gives t² − 22t + 1 = 0, so t = 11 ± 2√30."
+    },
+    {
+      "id": "lautech-100-mth101-364",
+      "prompt": "Given X and Y, Z is a positive integer set Z = {z: 2 < z < 11}, X = {4, 3, 2, 1}, Y = {10, 7, 3, 1}. Find Y ∩ Xᶜ.",
+      "answers": [
+        "{5, 6}",
+        "φ",
+        "{7}",
+        "None"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "Correction: the source key says C ({7}). Y ∩ Xᶜ = {7, 10}, which is not listed, so the answer is 'None'. (Q1 asks the same question and lists {7, 10}.)"
+    },
+    {
+      "id": "lautech-100-mth101-365",
+      "prompt": "The coefficient of x⁴ in the expansion of (1 − 3x)⁶ is",
+      "answers": [
+        "81",
+        "15",
+        "−18",
+        "1215"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "6C4 × 81 = 1215."
+    },
+    {
+      "id": "lautech-100-mth101-366",
+      "prompt": "Solve log₂(x² − 2x + 5) = 2.",
+      "answers": [
+        "2 twice",
+        "1 twice",
+        "−1 twice",
+        "−2 twice"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "x² − 2x + 5 = 4 gives (x − 1)² = 0."
+    },
+    {
+      "id": "lautech-100-mth101-367",
+      "prompt": "What is the 12th term of the G.P. 2, 14, 98, …?",
+      "answers": [
+        "2(7¹¹)",
+        "7¹¹",
+        "8¹²",
+        "2(8¹²)"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "a = 2, r = 7: T₁₂ = 2 × 7¹¹."
+    },
+    {
+      "id": "lautech-100-mth101-368",
+      "prompt": "If the quadratic equation x² + 5x + k = 0 has roots α and α − 1, find the value of k.",
+      "answers": [
+        "8",
+        "6",
+        "2",
+        "4"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "2α − 1 = −5 gives α = −2; k = (−2)(−3) = 6."
+    },
+    {
+      "id": "lautech-100-mth101-369",
+      "prompt": "X = {1, 3, 4}, Y = {5, 6}, Z = {1, 2} are subsets of N = {1, 2, 3, 4, 5, 6, 7}. Find (X ∪ Z) ∩ Yᶜ.",
+      "answers": [
+        "φ",
+        "{1, 2, 3, 4}",
+        "{1, 4}",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "X ∪ Z = {1, 2, 3, 4}, and none of its elements are in Y."
+    },
+    {
+      "id": "lautech-100-mth101-370",
+      "prompt": "What is the remainder when x³ − 3x² − 13x − 10 is divided by x − 3?",
+      "answers": [
+        "10",
+        "27",
+        "None",
+        "49"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "f(3) = 27 − 27 − 39 − 10 = −49, which is not listed."
+    },
+    {
+      "id": "lautech-100-mth101-371",
+      "prompt": "Let X = {1, 2}, Y = {1, 3, 4}, Z = {5, 6}, U = {1, 2, 3, 4, 5, 6, 7}. Find (X ∪ Y)ᶜ − Z.",
+      "answers": [
+        "{5, 6}",
+        "{7}",
+        "φ",
+        "{1, 2, 7}"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "(X ∪ Y)ᶜ = {5, 6, 7}; minus Z leaves {7}."
+    },
+    {
+      "id": "lautech-100-mth101-372",
+      "prompt": "If α and β are the roots of 5x² − 7x − 25 = 0, which of the following is/are correct? (i) α + β = −7/5 (ii) αβ = −5 (iii) α + β = 7/5",
+      "answers": [
+        "ii and iii",
+        "i only",
+        "i, ii and iii",
+        "none"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Sum = 7/5 and product = −5, so (ii) and (iii) are correct."
+    },
+    {
+      "id": "lautech-100-mth101-373",
+      "prompt": "A polynomial is defined by f(x + 1) = x³ + 3x² − 4x + 2. Find f(2).",
+      "answers": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Source answer: 14. (Direct substitution x = 1 gives 2, which is not an option; 14 equals f(3).)"
+    },
+    {
+      "id": "lautech-100-mth101-374",
+      "prompt": "Which of the following sets is equivalent to (K ∪ M) ∩ (K ∪ Mᶜ)?",
+      "answers": [
+        "K ∪ M",
+        "K",
+        "M",
+        "K ∩ M"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "K ∪ (M ∩ Mᶜ) = K ∪ φ = K."
+    },
+    {
+      "id": "lautech-100-mth101-375",
+      "prompt": "If (3 + 4√3)(2 − a√3) = −18 + 2√3, find the value of a.",
+      "answers": [
+        "−2",
+        "3",
+        "2",
+        "−4"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "(6 − 12a) + (8 − 3a)√3 matches for a = 2."
+    },
+    {
+      "id": "lautech-100-mth101-376",
+      "prompt": "Find the roots of the equation 2x² + 2/x² + x + 1/x = −3.",
+      "answers": [
+        "x = 1/2 ± i√3/2 or −1/4 ± i√5/4",
+        "x = −1/2 ± i√3/2 or −1/4 ± i√5/4",
+        "x = −1/2 ± i√3/2 or 1/4 ± i√15/4",
+        "None"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "With t = x + 1/x: 2t² + t − 1 = 0, so t = −1 or 1/2, giving x = −1/2 ± i√3/2 or 1/4 ± i√15/4."
+    },
+    {
+      "id": "lautech-100-mth101-377",
+      "prompt": "The first term of a G.P. is 7 while the common ratio is 3. Find the 11th term.",
+      "answers": [
+        "4133343",
+        "41443",
+        "413343",
+        "41333343"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "7 × 3¹⁰ = 413343."
+    },
+    {
+      "id": "lautech-100-mth101-378",
+      "prompt": "Let X = {1, 3, 4}, Y = {5, 6} and Z = {1, 2} be subsets of N = {1, 2, 3, 4, 5, 6, 7}. Find ((X ∪ Z) ∩ Y)ᶜ.",
+      "answers": [
+        "None",
+        "{7}",
+        "N",
+        "φ"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "(X ∪ Z) ∩ Y = φ, whose complement is N."
+    },
+    {
+      "id": "lautech-100-mth101-379",
+      "prompt": "The third term of an A.P. is 4x − 2y and the ninth term is 10x − 8y. Find the common difference.",
+      "answers": [
+        "15x − y",
+        "12x − y",
+        "x − y",
+        "2x − y"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "6d = 6x − 6y, so d = x − y."
+    },
+    {
+      "id": "lautech-100-mth101-380",
+      "prompt": "If the roots of the equation 2x² − 7x + 4 = 0 are α and β, what is 1/α + 1/β?",
+      "answers": [
+        "3/5",
+        "7/4",
+        "11/4",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "(α + β)/(αβ) = (7/2)/2 = 7/4."
+    },
+    {
+      "id": "lautech-100-mth101-381",
+      "prompt": "If ⁿC₄/ⁿC₂ = 1/2, find n.",
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Source answer: 6, which matches the ⁿP₂ version (Q81). For ⁿC₂ as printed, (n − 2)(n − 3) = 6 gives n = 5, which is not an option."
+    },
+    {
+      "id": "lautech-100-mth101-382",
+      "prompt": "Let X = {1, 3, 4}, Y = {5, 6}, Z = {1, 2} be subsets of N = {1, 2, 3, 4, 5, 6, 7}. Find the symmetric difference of (X ∪ Z) and Y.",
+      "answers": [
+        "{1, 2, 3, 4, 5, 6, 7}",
+        "{1, 3, 4, 5, 6}",
+        "{1, 2, 3, 4, 5, 6}",
+        "φ"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "X ∪ Z = {1, 2, 3, 4} is disjoint from Y, so the symmetric difference is {1, 2, 3, 4, 5, 6}."
+    },
+    {
+      "id": "lautech-100-mth101-383",
+      "prompt": "The partial fraction form of f(x)/((x² + a)(x − b)²) is",
+      "answers": [
+        "(Ax + B)/(x² + a) + C/(x − b) + (Dx + E)/(x − b)²",
+        "(Ax + B)/(x² + a) + (Cx + D)/(x − b)",
+        "(Ax + B)/(x² + a) + (Cx + D)/(x² − b)²",
+        "(Ax + B)/(x² + a) + C/(x − b) + D/(x − b)²"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "An irreducible quadratic gets (Ax + B); a repeated linear factor gets C/(x − b) + D/(x − b)²."
+    },
+    {
+      "id": "lautech-100-mth101-384",
+      "prompt": "If α and β are the roots of x² + 3x − 2 = 0, what is α³ + β³?",
+      "answers": [
+        "4",
+        "−8",
+        "−12",
+        "−45"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "(−3)³ − 3(−2)(−3) = −45."
+    },
+    {
+      "id": "lautech-100-mth101-385",
+      "prompt": "U = {1, 2, 3, 4, 5, 6, 7, 8, 9}, X = {1, 2, 3, 4}, Y = {2, 4, 6, 8}. Compute (X ∪ Y) ∩ Z, where Z = {3, 4, 5, 6}.",
+      "answers": [
+        "{3, 4, 6}",
+        "{5}",
+        "{3, 4, 5, 6}",
+        "{1, 2, 3, 4, 5}"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "X ∪ Y = {1, 2, 3, 4, 6, 8}; intersect with Z gives {3, 4, 6}."
+    },
+    {
+      "id": "lautech-100-mth101-386",
+      "prompt": "In the expansion of (3x + 2y)⁴, find the coefficient of x²y².",
+      "answers": [
+        "150",
+        "90",
+        "216",
+        "720"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "4C2 × 9 × 4 = 216."
+    },
+    {
+      "id": "lautech-100-mth101-387",
+      "prompt": "If p and q are the roots of the equation 3x² + 9x + 6 = 0, find p³ + q³.",
+      "answers": [
+        "3",
+        "−6",
+        "9",
+        "−9"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "Sum = −3, product = 2: −27 − 3(2)(−3) = −9."
+    },
+    {
+      "id": "lautech-100-mth101-388",
+      "prompt": "Simplify √2/(√2 + 1) + 1/(√2 − 1).",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "√2(√2 − 1) + (√2 + 1) = 2 − √2 + √2 + 1 = 3."
+    },
+    {
+      "id": "lautech-100-mth101-389",
+      "prompt": "If a and b are positive numbers such that 2(a + b)(1/a² + 1/b²)(a⁴/b² + b⁴/a²) ≥ K√(ab), find the value of K.",
+      "answers": [
+        "16",
+        "16ab",
+        "8√(ab)",
+        "16√(ab)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Hard",
+      "explanation": "By AM–GM the product (a + b)(1/a² + 1/b²)(a⁴/b² + b⁴/a²) ≥ 8√(ab), so twice it is ≥ 16√(ab)."
+    },
+    {
+      "id": "lautech-100-mth101-390",
+      "prompt": "Simplify 2 log_a x − 3 log_a 2x + log_a 2x + 2 log_a x.",
+      "answers": [
+        "log_a (x²/8)",
+        "log_a (x/8)",
+        "log_a (x²/4)",
+        "None"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "4 log x − 2 log 2x = log(x⁴/(4x²)) = log(x²/4)."
+    },
+    {
+      "id": "lautech-100-mth101-391",
+      "prompt": "Given log_x 64 = 3, evaluate log_x 8.",
+      "answers": [
+        "2/3",
+        "3/2",
+        "1/9",
+        "4/9"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "x = 4, and log₄ 8 = 3/2."
+    },
+    {
+      "id": "lautech-100-mth101-392",
+      "prompt": "Find xy if log_x 27 + log_y 4 = 5 and log_x 27 − log_y 4 = 1.",
+      "answers": [
+        "6",
+        "9",
+        "8",
+        "4"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Source answer: 6. The first equation is printed with log_x 27 twice; reading it as log_x 27 + log_y 4 = 5 gives x = 3 and y = 2, so xy = 6."
+    },
+    {
+      "id": "lautech-100-mth101-393",
+      "prompt": "Simplify (a + b)(1/a² + 1/b²)(a⁴/b² + b⁴/a²).",
+      "answers": [
+        "8",
+        "√(ab)",
+        "8√(ab)",
+        "√(8a)"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "Source answer: 8√(ab) (this is the minimum value, since the expression is ≥ 8√(ab) by AM–GM)."
+    },
+    {
+      "id": "lautech-100-mth101-394",
+      "prompt": "Solve for x² + 1/x² in 5x⁴ − 36x³ + 62x² − 36x + 5 = 0.",
+      "answers": [
+        "2, 626/25",
+        "5, 25/26",
+        "10, 18/19",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "With t = x + 1/x = 26/5 or 2, x² + 1/x² = t² − 2 = 626/25 or 2."
+    },
+    {
+      "id": "lautech-100-mth101-395",
+      "prompt": "Given the first four terms of a series −3/5 − 5/5² + 7/5³ − 7/5⁴ + …, find the sum to infinity.",
+      "answers": [
+        "16/25",
+        "4/9",
+        "16/25",
+        "4/5"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Source answer: 4/9. This matches the series with nth term −(−1)ⁿ(2n + 1)/5ⁿ, i.e. 3/5 − 5/5² + 7/5³ − 9/5⁴ + …; the printed signs and terms appear garbled."
+    },
+    {
+      "id": "lautech-100-mth101-396",
+      "prompt": "The nth term of the series −3/5 − 5/5² + 7/5³ − 7/5⁴ + … is",
+      "answers": [
+        "(2n + 1)/5ⁿ",
+        "−(−1)ⁿ · (2n + 1)/5ⁿ",
+        "1ⁿ · (5n + 1)/2ⁿ",
+        "(−1)ⁿ · (2n + 1)/7ⁿ"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Hard",
+      "explanation": "Source answer: B, with numerators 2n + 1 (3, 5, 7, …) over 5ⁿ and alternating signs."
+    },
+    {
+      "id": "lautech-100-mth101-397",
+      "prompt": "What is the power set of X = {0, 5}?",
+      "answers": [
+        "{φ, {0}, {5}, {0, 5}}",
+        "{φ, 5}",
+        "{0, 1, 2}",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "The power set lists all subsets: φ, {0}, {5} and {0, 5}. (The printed option a lacks the inner braces.)"
+    },
+    {
+      "id": "lautech-100-mth101-398",
+      "prompt": "Let A = [1 0 0; 1 1 1; 4 1 2]. Find A⁻¹.",
+      "answers": [
+        "[0 −1 4; 3 1 0; −2 1 5]",
+        "[1 0 −1; 4 −1 −2; 3 2 −3]",
+        "[1 0 0; 2 2 −1; −3 −1 1]",
+        "[1 0 1; 2 1 −2; 2 −3 1]"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "det A = 1; the adjugate is [1 0 0; 2 2 −1; −3 −1 1]."
+    },
+    {
+      "id": "lautech-100-mth101-399",
+      "prompt": "Let A = [1 0 0; 1 1 1; 4 1 2]. Find f(A) if f(x) = x² + 6/x + 10.",
+      "answers": [
+        "[17 0 0; 18 24 −3; −5 −3 21]",
+        "[2 1 17; 0 −1 14; 2 0 5]",
+        "[2 4 −3; 0 −1 4; 1 0 3]",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "f(A) = A² + 6A⁻¹ + 10I = [17 0 0; 18 24 −3; −5 −3 21]."
+    },
+    {
+      "id": "lautech-100-mth101-400",
+      "prompt": "If f(x) = x² − 2x − 3, find f(A) if A = [2 −1 −1; 1 2 −1; −1 −1 2].",
+      "answers": [
+        "[−3 −1 −1; 3 −3 −3; −3 −1 −1]",
+        "[−3 0 1; 1 3 −2; −1 1 −4]",
+        "[2 1 7; −2 0 1; 3 −2 −5]",
+        "[2 3 4; 1 0 −7; 6 2 −5]"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "A² = [4 −3 −3; 5 4 −5; −5 −3 6]; f(A) = A² − 2A − 3I."
+    },
+    {
+      "id": "lautech-100-mth101-401",
+      "prompt": "A matrix in which all elements are zero except the leading elements is called __________",
+      "answers": [
+        "Diagonal matrix",
+        "Singular matrix",
+        "Null matrix",
+        "Square matrix"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "This is a diagonal matrix."
+    },
+    {
+      "id": "lautech-100-mth101-402",
+      "prompt": "The transpose of the cofactor matrix of a square matrix is",
+      "answers": [
+        "Adjoint",
+        "Minor",
+        "Determinant",
+        "Order"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "This is the adjoint (adjugate)."
+    },
+    {
+      "id": "lautech-100-mth101-403",
+      "prompt": "If K = [1 1; 2 1], find K² + K.",
+      "answers": [
+        "[4 3; 6 4]",
+        "[2 0; 1 6]",
+        "[1 2; 3 2]",
+        "[2 1; 6 8]"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "K² = [3 2; 4 3]; adding K gives [4 3; 6 4]."
+    },
+    {
+      "id": "lautech-100-mth101-404",
+      "prompt": "If |4 t; 5 3| = 32, find t.",
+      "answers": [
+        "−1",
+        "−2",
+        "−3",
+        "−4"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Medium",
+      "explanation": "12 − 5t = 32 gives t = −4."
+    },
+    {
+      "id": "lautech-100-mth101-405",
+      "prompt": "If a√5 + b√2 is a square root of 95 − 30√10, find the values of a and b.",
+      "answers": [
+        "2, 5",
+        "5, −3",
+        "−3, 5",
+        "0, 2"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "5a² + 2b² = 95 and 2ab = −30 give a = −3, b = 5."
+    },
+    {
+      "id": "lautech-100-mth101-406",
+      "prompt": "Find |1 2 3; 4 5 6; 7 8 9|.",
+      "answers": [
+        "0",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "Rows are linearly dependent, so the determinant is 0."
+    },
+    {
+      "id": "lautech-100-mth101-407",
+      "prompt": "If P = [6 4; 5 7], then the value of |Pᵀ| is",
+      "answers": [
+        "15",
+        "18",
+        "20",
+        "22"
+      ],
+      "correctIndex": 3,
+      "difficulty": "Easy",
+      "explanation": "|Pᵀ| = |P| = 42 − 20 = 22."
+    },
+    {
+      "id": "lautech-100-mth101-408",
+      "prompt": "Find the value of |0 3 2; 1 7 8; 0 5 4|.",
+      "answers": [
+        "0",
+        "−2",
+        "−3",
+        "4"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Expanding down the first column: −1 × (12 − 10) = −2."
+    },
+    {
+      "id": "lautech-100-mth101-409",
+      "prompt": "In resolving the partial fraction (2x² + 3x + 10)/((x − 1)(x + 2)) = P + Q/(x + 1) − R/(x + 2), find P and R.",
+      "answers": [
+        "2, −4",
+        "−4, 2",
+        "2, 3",
+        "1, 0"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Source answer: P = 2 and the coefficient of 1/(x + 2) is −4. (The printed denominators and signs are inconsistent.)"
+    },
+    {
+      "id": "lautech-100-mth101-410",
+      "prompt": "If |5 3; K 2| = |3 5; 4 5|, find the value of K.",
+      "answers": [
+        "5",
+        "3",
+        "2",
+        "1"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "10 − 3K = 15 − 20 = −5, so K = 5."
+    },
+    {
+      "id": "lautech-100-mth101-411",
+      "prompt": "The order of a matrix is determined by ____________",
+      "answers": [
+        "Row × column",
+        "Column × row",
+        "Column ÷ row",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Order = number of rows × number of columns."
+    },
+    {
+      "id": "lautech-100-mth101-412",
+      "prompt": "If P = [2 −1; 4 3] and Q = [1 −3; 0 3], find |QP − P|.",
+      "answers": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "QP = [−10 −10; 12 9]; QP − P = [−12 −9; 8 6] with determinant −72 + 72 = 0."
+    },
+    {
+      "id": "lautech-100-mth101-413",
+      "prompt": "Find the determinant of [1 2 3; 2 1 2; 2 3 1].",
+      "answers": [
+        "6",
+        "11",
+        "13",
+        "15"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "1(1 − 6) − 2(2 − 4) + 3(6 − 2) = −5 + 4 + 12 = 11."
+    },
+    {
+      "id": "lautech-100-mth101-414",
+      "prompt": "A matrix in which all the elements are zeroes except the leading elements is called ___________",
+      "answers": [
+        "Singular matrix",
+        "Diagonal matrix",
+        "Unit matrix",
+        "Null matrix"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "This is a diagonal matrix."
+    },
+    {
+      "id": "lautech-100-mth101-415",
+      "prompt": "A matrix whose elements are all zeroes is ___________",
+      "answers": [
+        "Unit matrix",
+        "Null matrix",
+        "Complex matrix",
+        "Singular matrix"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "This is the null (zero) matrix."
+    },
+    {
+      "id": "lautech-100-mth101-416",
+      "prompt": "A matrix whose determinant is equal to zero is called",
+      "answers": [
+        "Singular matrix",
+        "Identity matrix",
+        "Non-singular matrix",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "A matrix with zero determinant is singular."
+    },
+    {
+      "id": "lautech-100-mth101-417",
+      "prompt": "A matrix which is equal to its transpose is",
+      "answers": [
+        "Symmetric matrix",
+        "Non-symmetric matrix",
+        "Diagonal matrix",
+        "Complex matrix"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "A = Aᵀ defines a symmetric matrix."
+    },
+    {
+      "id": "lautech-100-mth101-418",
+      "prompt": "A matrix which is equal to the negative of its transpose is",
+      "answers": [
+        "Symmetric matrix",
+        "Non-symmetric matrix",
+        "Skew-symmetric matrix",
+        "None of the above"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Easy",
+      "explanation": "A = −Aᵀ defines a skew-symmetric matrix."
+    },
+    {
+      "id": "lautech-100-mth101-419",
+      "prompt": "What type of matrix is [1 0 0; 0 1 0; 0 0 1]?",
+      "answers": [
+        "Diagonal matrix",
+        "Unit matrix",
+        "Square matrix",
+        "None"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "It is the identity (unit) matrix."
+    },
+    {
+      "id": "lautech-100-mth101-420",
+      "prompt": "Find x and y if [2x − 5y 6; −4 3x + y] = [10 4; 6 −2].",
+      "answers": [
+        "0, −2",
+        "2, 0",
+        "3, 2",
+        "1, 4"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "Source answer: from the diagonal, 2x − 5y = 10 and 3x + y = −2 give x = 0, y = −2. (The off-diagonal entries as printed do not match.)"
+    },
+    {
+      "id": "lautech-100-mth101-421",
+      "prompt": "Given that A = [a b; c d], what is Aᵀ?",
+      "answers": [
+        "[b a; d c]",
+        "[a c; b d]",
+        "[b d; a c]",
+        "[b a; d c]"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "The transpose swaps rows and columns: [a c; b d]."
+    },
+    {
+      "id": "lautech-100-mth101-422",
+      "prompt": "If [x y; z w] = [1 2; 3 4], find x, y, z, w.",
+      "answers": [
+        "1, 2, 3, 4",
+        "2, 1, 4, 3",
+        "1, 3, 2, 4",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Equal matrices have equal entries: x = 1, y = 2, z = 3, w = 4."
+    },
+    {
+      "id": "lautech-100-mth101-423",
+      "prompt": "If [4x − 3y 5; −3 8x − y] = [10 5; −3 −10], find x and y.",
+      "answers": [
+        "2, 6",
+        "−2, −6",
+        "3, −5",
+        "0, −7"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "4x − 3y = 10 and 8x − y = −10 give x = −2, y = −6."
+    },
+    {
+      "id": "lautech-100-mth101-424",
+      "prompt": "If [2 2x − y; 6x − 5y xy] = [2 8; 32 −8], find x and y.",
+      "answers": [
+        "2, −4",
+        "−4, 2",
+        "2, −2",
+        "0, 2"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "2x − y = 8 and 6x − 5y = 32 give x = 2, y = −4 (xy = −8 ✓)."
+    },
+    {
+      "id": "lautech-100-mth101-425",
+      "prompt": "The matrix [3 2 −1; 1 0 5] is a ___________ matrix.",
+      "answers": [
+        "3 × 2 matrix",
+        "2 × 3 matrix",
+        "3 × 3 matrix",
+        "3 × 4 matrix"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Easy",
+      "explanation": "It has 2 rows and 3 columns."
+    },
+    {
+      "id": "lautech-100-mth101-426",
+      "prompt": "The matrix [2 3; 0 −1; 2 5] is a ___________ matrix.",
+      "answers": [
+        "3 × 2 matrix",
+        "2 × 3 matrix",
+        "3 × 3 matrix",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "It has 3 rows and 2 columns."
+    },
+    {
+      "id": "lautech-100-mth101-427",
+      "prompt": "If A = [4 2 3; 5 −1 2] and B = [1 4 3; 5 8 0], what is A + B?",
+      "answers": [
+        "[5 6 6; 10 7 2]",
+        "[5 6 1; 2 1 7]",
+        "[2 1 8; 4 2 5]",
+        "[4 2 9; 1 2 7]"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Easy",
+      "explanation": "Add corresponding entries."
+    },
+    {
+      "id": "lautech-100-mth101-428",
+      "prompt": "If A = [4 7 6; 2 1 3] and B = [4; 2; 3], find A × B.",
+      "answers": [
+        "[23; 25]",
+        "[48; 19]",
+        "[25; 18]",
+        "[0; 43]"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "Row 1: 16 + 14 + 18 = 48; row 2: 8 + 2 + 9 = 19."
+    },
+    {
+      "id": "lautech-100-mth101-429",
+      "prompt": "If A = [2 5; 7 4] and B = [6 11; 7 −13], find A × B.",
+      "answers": [
+        "[47 −43; 70 25]",
+        "[43 25; 30 18]",
+        "[18 1; 0 35]",
+        "[2 3; 61 4]"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "AB = [12 + 35, 22 − 65; 42 + 28, 77 − 52] = [47 −43; 70 25]."
+    },
+    {
+      "id": "lautech-100-mth101-430",
+      "prompt": "If A = [0 1 4; 2 3 1; 1 4 1], what is the determinant of A?",
+      "answers": [
+        "19",
+        "21",
+        "27",
+        "49"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "0(3 − 4) − 1(2 − 1) + 4(8 − 3) = −1 + 20 = 19."
+    },
+    {
+      "id": "lautech-100-mth101-431",
+      "prompt": "Find the determinant of the matrix G = [−2 0 1; −1 1 2; 0 8 1].",
+      "answers": [
+        "11",
+        "22",
+        "33",
+        "44"
+      ],
+      "correctIndex": 1,
+      "difficulty": "Medium",
+      "explanation": "−2(1 − 16) − 0 + 1(−8 − 0) = 30 − 8 = 22."
+    },
+    {
+      "id": "lautech-100-mth101-432",
+      "prompt": "What is the minor of 8 in the matrix |−2 0 1; −1 1 2; 0 8 −1|?",
+      "answers": [
+        "−1",
+        "−2",
+        "−3",
+        "−4"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Medium",
+      "explanation": "Delete the row and column of 8: |−2 1; −1 2| = −4 + 1 = −3."
+    },
+    {
+      "id": "lautech-100-mth101-433",
+      "prompt": "Find the rank of the matrix [1 2 3; 2 1 3; 1 3 4].",
+      "answers": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 2,
+      "difficulty": "Hard",
+      "explanation": "The determinant is 0, but the matrix has a non-zero 2 × 2 minor, so the rank is 2."
+    },
+    {
+      "id": "lautech-100-mth101-434",
+      "prompt": "Given that A = [2 3; 4 1], find A⁻¹.",
+      "answers": [
+        "(1/−10)[1 −3; −4 2]",
+        "(1/15)[2 1; 4 −3]",
+        "(1/12)[2 −3; 4 1]",
+        "None"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Medium",
+      "explanation": "det A = 2 − 12 = −10; A⁻¹ = (1/−10)[1 −3; −4 2]."
+    },
+    {
+      "id": "lautech-100-mth101-435",
+      "prompt": "Find the non-zero positive value of x which satisfies the equation |x 1 0; 1 x 1; 0 1 x| = 0.",
+      "answers": [
+        "√2",
+        "√3",
+        "2",
+        "√5"
+      ],
+      "correctIndex": 0,
+      "difficulty": "Hard",
+      "explanation": "The determinant is x³ − 2x = 0, so x = √2."
+    }
+  ]
+}
