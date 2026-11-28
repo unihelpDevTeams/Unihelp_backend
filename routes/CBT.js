@@ -2,9 +2,12 @@ import express from "express";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { db } from "../firebase/firebaseAdmin.js";
+import { authenticateFirebaseUser } from "../middleware/auth.js";
 
 const cbtRoutes = express.Router();
 const MAX_QUESTIONS_PER_REQUEST = 100;
+const MAX_OFFLINE_QUESTIONS = 500;
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CBT_DATA_DIRECTORY = path.resolve(__dirname, "../CBT-data");
 
@@ -200,6 +203,48 @@ const loadQuestionBanks = () => {
 };
 
 const cbtQuestions = loadQuestionBanks();
+
+const premiumIsActive = (profile = {}) => {
+  if (!profile?.premium || String(profile.subscriptionStatus || "").toLowerCase() === "expired") return false;
+  const rawExpiry = profile.subscriptionExpiresAt || profile.premiumExpiresAt || profile.expiresAt;
+  const expiry = rawExpiry?.toDate?.() || (rawExpiry ? new Date(rawExpiry) : null);
+  return !expiry || (!Number.isNaN(expiry.getTime()) && expiry.getTime() > Date.now());
+};
+
+// A downloaded paper deliberately contains its marking data: it is stored only on
+// the member's device and lets an already-authorized Premium user complete it offline.
+cbtRoutes.get("/offline/:courseId", authenticateFirebaseUser, async (req, res) => {
+  try {
+    const userSnap = await db.collection("users").doc(req.user.uid).get();
+    if (!premiumIsActive(userSnap.exists ? userSnap.data() : {})) {
+      return res.status(403).json({ success: false, error: "Offline CBT papers require an active UniHelp Premium subscription." });
+    }
+
+    const questions = cbtQuestions.filter((question) => question.courseId === req.params.courseId);
+    if (!questions.length) return res.status(404).json({ success: false, error: "CBT paper not found" });
+    if (questions.length > MAX_OFFLINE_QUESTIONS) {
+      return res.status(400).json({ success: false, error: `This paper has more than ${MAX_OFFLINE_QUESTIONS} questions and cannot be downloaded yet.` });
+    }
+
+    const first = questions[0];
+    return res.json({
+      success: true,
+      paper: {
+        id: first.courseId,
+        title: first.courseTitle,
+        school: first.school,
+        level: first.level,
+        department: first.department,
+        code: first.course,
+        questions,
+        contentVersion: String(questions.length),
+      },
+    });
+  } catch (error) {
+    console.error("[cbt] offline paper download failed", error);
+    return res.status(500).json({ success: false, error: "Could not prepare this CBT paper for offline use" });
+  }
+});
 
 // GET /api/cbt?school=&level=&department=&course=&difficulty=&limit=&shuffle=true
 cbtRoutes.get("/", (req, res) => {
